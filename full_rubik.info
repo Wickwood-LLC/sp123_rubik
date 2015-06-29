@@ -1,0 +1,4 @@
+name = Full Rubik
+description = Rubik subtheme for use in the admin pages.
+base theme = rubik
+core = 7.x

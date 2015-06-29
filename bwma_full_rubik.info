@@ -1,4 +1,0 @@
-name = BWMA Full Rubik
-description = Rubik subtheme for use in the BWMA.info front end.
-base theme = rubik
-core = 7.x
