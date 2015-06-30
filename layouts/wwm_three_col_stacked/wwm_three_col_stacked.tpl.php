@@ -12,25 +12,44 @@
  *   $content['middle']: The only panel in the layout.
  */
 ?>
-<div class="panel-display panel-wwm-3col-stacked clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display panel-wwm-3col-stacked 
+  <?php if ($content['left_sidebar'] && $content['right_sidebar']) { 
+    print "has-two-sidebars";
+  } elseif ($content['left_sidebar']) {
+    print "has-one-sidebar left-sidebar";
+  } elseif ($content['right_sidebar'])) {
+    print "has-one-sidebar right-sidebar";
+  }?> clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <div class="panel-panel panel-col panel-col-mid">
-  	<div class="content-top">
-	  <?php print $content['content_top']; ?>
-	</div>
-  	<div class="help">
-	  <?php print $content['help']; ?>
-	</div>
-  	<div class="content-main">
-  	  <?php print $content['content']; ?>
-  	</div>
-  	<div class="content-bottom">
-  	  <?php print $content['content_bottom']; ?>
-  	</div>
+    <?php if ($content['content_top']) ?>
+    	<div class="content-top">
+        <?php print $content['content_top']; ?>
+      </div>
+    <?php endif; ?>
+    <?php if ($content['help']) ?>
+    	<div class="help">
+    	  <?php print $content['help']; ?>
+    	</div>
+    <?php endif; ?>
+    <?php if ($content['content']) ?>
+    	<div class="content-main">
+    	  <?php print $content['content']; ?>
+    	</div>
+    <?php endif; ?>
+    <?php if ($content['content_bottom']) ?>
+    	<div class="content-bottom">
+    	  <?php print $content['content_bottom']; ?>
+    	</div>
+    <?php endif; ?>
   </div>
-  <div class="panel-panel panel-col panel-col-left">
-    <?php print $content['left_sidebar']; ?>
-  </div>
-  <div class="panel-panel panel-col panel-col-right">
-    <?php print $content['right_sidebar']; ?>
-  </div>
+  <?php if ($content['left_sidebar']) ?>
+    <div class="panel-panel panel-col panel-col-left">
+      <?php print $content['left_sidebar']; ?>
+    </div>
+  <?php endif; ?>
+  <?php if ($content['right_sidebar']) ?>
+    <div class="panel-panel panel-col panel-col-right">
+      <?php print $content['right_sidebar']; ?>
+    </div>
+  <?php endif; ?>
 </div>
