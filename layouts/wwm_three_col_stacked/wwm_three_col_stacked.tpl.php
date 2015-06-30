@@ -26,33 +26,33 @@
     print "has-one-sidebar right-sidebar";
   }?> clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <div class="panel-panel panel-col panel-col-mid">
-    <?php if ($content['content_top']) ?>
+    <?php if ($content['content_top']): ?>
     	<div class="content-top">
         <?php print $content['content_top']; ?>
       </div>
     <?php endif; ?>
-    <?php if ($content['help']) ?>
+    <?php if ($content['help']): ?>
     	<div class="help">
     	  <?php print $content['help']; ?>
     	</div>
     <?php endif; ?>
-    <?php if ($content['content']) ?>
+    <?php if ($content['content']): ?>
     	<div class="content-main">
     	  <?php print $content['content']; ?>
     	</div>
     <?php endif; ?>
-    <?php if ($content['content_bottom']) ?>
+    <?php if ($content['content_bottom']): ?>
     	<div class="content-bottom">
     	  <?php print $content['content_bottom']; ?>
     	</div>
     <?php endif; ?>
   </div>
-  <?php if ($content['left_sidebar']) ?>
+  <?php if ($content['left_sidebar']): ?>
     <div class="panel-panel panel-col panel-col-left">
       <?php print $content['left_sidebar']; ?>
     </div>
   <?php endif; ?>
-  <?php if ($content['right_sidebar']) ?>
+  <?php if ($content['right_sidebar']): ?>
     <div class="panel-panel panel-col panel-col-right">
       <?php print $content['right_sidebar']; ?>
     </div>
