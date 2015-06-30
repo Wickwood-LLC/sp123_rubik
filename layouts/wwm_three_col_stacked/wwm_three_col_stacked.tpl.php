@@ -9,7 +9,12 @@
  * - $id: An optional CSS id to use for the layout.
  * - $content: An array of content, each item in the array is keyed to one
  *   panel of the layout. This layout supports the following sections:
- *   $content['middle']: The only panel in the layout.
+ *   $content['content']
+ *   $content['content_bottom']
+ *   $content['content_top']
+ *   $content['help']
+ *   $content['left_sidebar']
+ *   $content['right_sidebar']
  */
 ?>
 <div class="panel-display panel-wwm-3col-stacked 
