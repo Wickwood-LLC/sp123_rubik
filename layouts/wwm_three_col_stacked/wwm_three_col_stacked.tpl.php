@@ -22,7 +22,7 @@
     print "has-two-sidebars";
   } elseif ($content['left_sidebar']) {
     print "has-one-sidebar left-sidebar";
-  } elseif ($content['right_sidebar'])) {
+  } elseif ($content['right_sidebar']) {
     print "has-one-sidebar right-sidebar";
   }?> clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <div class="panel-panel panel-col panel-col-mid">
