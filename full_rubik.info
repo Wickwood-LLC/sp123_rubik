@@ -3,4 +3,9 @@ description = Rubik subtheme for use in the admin pages.
 base theme = rubik
 core = 7.x
 
+regions[content] = Content
+regions[help] = Help
+regions[header] = Header
+regions[footer] = Footer
+
 plugins[panels][layouts] = layouts
