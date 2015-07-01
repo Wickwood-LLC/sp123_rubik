@@ -17,7 +17,7 @@
  *   $content['right_sidebar']
  */
 ?>
-<?php dpm($renderer); ?>
+<?php dpm($content); ?>
 <div class="panel-display panel-wwm-3col-stacked 
   <?php if ($content['left_sidebar'] && $content['right_sidebar']) { 
     print "has-two-sidebars";
