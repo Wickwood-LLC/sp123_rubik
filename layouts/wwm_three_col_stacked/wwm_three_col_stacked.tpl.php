@@ -49,13 +49,9 @@
     <?php endif; ?>
   </div>
   <div class="panel-panel panel-col panel-col-left">
-    <?php if ($renderer->prepared['regions']['left_sidebar']['pids']) {
-      print $content['left_sidebar'];
-    } ?>
+      <?php print $content['left_sidebar']; ?>
   </div>
-    <div class="panel-panel panel-col panel-col-right">
-      <?php if ($renderer->prepared['regions']['right_sidebar']['pids']) {
-        print $content['right_sidebar'];
-      } ?>
-    </div>
+  <div class="panel-panel panel-col panel-col-right">
+      <?php print $content['right_sidebar']; ?>
+  </div>
 </div>
