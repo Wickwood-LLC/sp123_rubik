@@ -48,14 +48,14 @@
     	</div>
     <?php endif; ?>
   </div>
-  <?php if ($renderer->prepared['regions']['left_sidebar']['pids']): ?>
-    <div class="panel-panel panel-col panel-col-left">
-      <?php print $content['left_sidebar']; ?>
-    </div>
-  <?php endif; ?>
-  <?php if ($renderer->prepared['regions']['right_sidebar']['pids']): ?>
+  <div class="panel-panel panel-col panel-col-left">
+    <?php if ($renderer->prepared['regions']['left_sidebar']['pids']) {
+      print $content['left_sidebar'];
+    } ?>
+  </div>
     <div class="panel-panel panel-col panel-col-right">
-      <?php print $content['right_sidebar']; ?>
+      <?php if ($renderer->prepared['regions']['right_sidebar']['pids']) {
+        print $content['right_sidebar'];
+      } ?>
     </div>
-  <?php endif; ?>
 </div>
