@@ -10,38 +10,77 @@
 }
 
 /* Tablet sizes */
-@media only screen and (min-width : 768px) and (max-width : 1024px) { 
-	.panel-wwm-3col-stacked .panel-col-left,
-	.panel-wwm-3col-stacked .panel-col-right {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	.panel-wwm-3col-stacked.has-one-sidebar .panel-col-sidebar {
+		width: 100%;
+	}
+	.panel-wwm-3col-stacked.has-left-sidebar .panel-col-right {
+		display: none;
+	}
+	.panel-wwm-3col-stacked.has-right-sidebar .panel-col-left {
+		display: none;
+	}
+
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
 		width: 48%;
 		float: left;
 	}
-	.panel-wwm-3col-stacked .panel-col-left {
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
 		margin-right: 2%;
 	}
-	.panel-wwm-3col-stacked .panel-col-right {
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
 		margin-left: 2%;
 	}
 }
 
 /* Desktop sizes */
 @media only screen  and (min-width : 1025px) {
-	.panel-wwm-3col-stacked .panel-col-mid {
+	.panel-wwm-3col-stacked .panel-col-sidebar {
+		display: none;
+	}
+
+	.panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid {
+		width: 74%;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar.left-sidebar .panel-col-mid {
+		margin-left: 26%;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar.right-sidebar .panel-col-mid {
+		margin-right: 1%;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar .panel-col-sidebar {
+		width: 24%;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar.right-sidebar .panel-col-left {
+		display: none;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar.right-sidebar .panel-col-right {
+		margin-left: 1%;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar.left-sidebar .panel-col-left {
+		margin-right: 1%;
+	}
+	.panel-wwm-3col-stacked.has-one-sidebar.left-sidebar .panel-col-right {
+		display: none;
+	}
+
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid {
 		width: 48%;
 		float: left;
 		margin-left: 26%;
 		margin-right: 1%;
 	}
-	.panel-wwm-3col-stacked .panel-col-left,
-	.panel-wwm-3col-stacked .panel-col-right {
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
 		width: 23%;
 		float: left;
 	}
-	.panel-wwm-3col-stacked .panel-col-left {
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
 		margin-left: -74%;
 		margin-right: 1%;
 	}
-	.panel-wwm-3col-stacked .panel-col-right {
+	.panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
 		margin-left: 1%;
 	}
 }

@@ -47,10 +47,10 @@
     	</div>
     <?php endif; ?>
   </div>
-  <div class="panel-panel panel-col panel-col-left">
+  <div class="panel-panel panel-col-sidebar panel-col-left">
       <?php print $content['left_sidebar']; ?>
   </div>
-  <div class="panel-panel panel-col panel-col-right">
+  <div class="panel-panel panel-col-sidebar panel-col-right">
       <?php print $content['right_sidebar']; ?>
   </div>
 </div>
