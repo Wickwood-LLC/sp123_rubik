@@ -17,7 +17,6 @@
  *   $content['right_sidebar']
  */
 ?>
-<?php dpm($renderer); ?>
 <div class="panel-display panel-wwm-3col-stacked 
   <?php if ($renderer->prepared['regions']['left_sidebar']['pids'] && $renderer->prepared['regions']['right_sidebar']['pids']) { 
     print "has-two-sidebars";
