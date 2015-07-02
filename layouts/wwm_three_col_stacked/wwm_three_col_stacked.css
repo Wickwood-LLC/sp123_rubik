@@ -145,7 +145,8 @@
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 25%;
             -ms-flex: 0 0 25%;
-                flex: 0 0 25%; }
+                flex: 0 0 25%;
+        margin: 0; }
       .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
         -webkit-box-ordinal-group: 0;
         -webkit-order: -1;
