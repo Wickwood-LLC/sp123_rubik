@@ -24,6 +24,8 @@
     print "has-one-sidebar left-sidebar";
   } elseif ($renderer->prepared['regions']['right_sidebar']['pids']) {
     print "has-one-sidebar right-sidebar";
+  } else {
+    print "no-sidebar";
   }?> clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <div class="panel-panel panel-col panel-col-mid">
     <?php if ($content['content_top']): ?>
