@@ -1,0 +1,18 @@
+ /* This file is compiled with Codekit */
+ .panels-ipe-editing .panel-wwm-3col-stacked {
+ 	display: flex;
+ 	flex-flow: row nowrap;
+ 	justify-content: space-between;
+
+	.panel-col-mid {
+		flex: 0 1 50%;
+		margin: 0 1%;
+	}
+	.panel-col-left,
+	.panel-col-right {
+		flex: 0 2 25%;
+	}
+	.panel-col-left {
+		order: -1;
+	}
+}
