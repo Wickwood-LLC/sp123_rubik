@@ -1,6 +1,10 @@
- /* This file is compiled with Codekit */
+ /* This SCSS file is managed and compiled with Codekit, 
+ 	so we need to specify where the components are, if there are any. 
+ 	*/
+
  @import "../../bower_components/compass-breakpoint/stylesheets/breakpoint";
 
+ /* These are the rules that maintain the original layout in the customize page */
  .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar,
  .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar,
  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars, {
