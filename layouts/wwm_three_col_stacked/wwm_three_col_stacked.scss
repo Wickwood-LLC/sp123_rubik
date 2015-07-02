@@ -9,7 +9,7 @@
  	justify-content: space-between;
 
 	.panel-col-mid {
-		flex: 0 1 50%;
+		flex: 0 1 48%;
 		margin: 0 1%;
 	}
 	.panel-col-left,
@@ -100,12 +100,12 @@
  	 		flex-flow: row nowrap;
  	 	 	
  	 		.panel-col-mid {
- 	 			flex: 0 1 50%;
+ 	 			flex: 0 0 48%;
  	 			margin: 0 1%;
  	 		}
  	 		.panel-col-left,
  	 		.panel-col-right {
- 	 			flex: 0 2 25%;
+ 	 			flex: 0 0 25%;
  	 		}
  	 		.panel-col-left {
  	 			order: -1;
