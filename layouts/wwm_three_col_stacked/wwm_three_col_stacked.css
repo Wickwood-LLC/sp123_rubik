@@ -1,7 +1,7 @@
 /* This SCSS file is managed and compiled with Codekit, 
 	so we need to specify where the components are, if there are any. 
 	*/
-/* These are the rules that maintain the original layout in the customize page */
+/* These are the rules that maintain the original layout in customize mode */
 .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar,
 .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar,
 .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars {
@@ -47,6 +47,7 @@
   .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-panel {
     display: block; }
 
+/* These are the rules that set the layout in demo mode  */
 .panel-wwm-3col-stacked {
   display: -webkit-box;
   display: -webkit-flex;
