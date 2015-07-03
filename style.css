@@ -334,7 +334,7 @@ div.node {
   border-width:1px;
   border-color:#ddd;
 
-  background:#fff url(images/vrule.png) 65% 0% repeat-y;
+  /*background:#fff url(images/vrule.png) 65% 0% repeat-y;*/
   margin:0px 0px 10px;
   }
 
