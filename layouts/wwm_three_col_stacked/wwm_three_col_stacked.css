@@ -1,10 +1,11 @@
 /* This SCSS file is managed and compiled with Codekit, 
-	so we need to specify where the components are, if there are any. 
-	*/
+ 	so we need to specify where the components are, if there are any. 
+ 	*/
 /* These are the rules that maintain the original layout in customize mode */
 .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar,
 .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar,
-.panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars {
+.panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars,
+.panels-ipe-editing .panel-wwm-3col-stacked.no-mid {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18,7 +19,8 @@
           justify-content: space-between; }
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-mid,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid,
-  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid {
+  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid,
+  .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-mid {
     -webkit-box-flex: 0;
     -webkit-flex: 0 1 48%;
         -ms-flex: 0 1 48%;
@@ -29,7 +31,9 @@
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-right,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
-  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
+  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right,
+  .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-left,
+  .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-right {
     -webkit-box-flex: 0;
     -webkit-flex: 0 2 25%;
         -ms-flex: 0 2 25%;
@@ -37,14 +41,16 @@
     margin: 0; }
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-left,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
-  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
+  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
+  .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-left {
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
         -ms-flex-order: -1;
             order: -1; }
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-panel,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-panel,
-  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-panel {
+  .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-panel,
+  .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-panel {
     display: block; }
 
 /* These are the rules that set the layout in demo mode  */
@@ -136,22 +142,34 @@
           -ms-flex-flow: row nowrap;
               flex-flow: row nowrap; }
       .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid {
-        -webkit-box-flex: 0;
-        -webkit-flex: 0 0 48%;
-            -ms-flex: 0 0 48%;
-                flex: 0 0 48%;
+        -webkit-box-flex: 2;
+        -webkit-flex: 2 1 0;
+            -ms-flex: 2 1 0;
+                flex: 2 1 0;
         margin: 0 1%; }
       .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
       .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
-        -webkit-box-flex: 0;
-        -webkit-flex: 0 0 25%;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 0;
+            -ms-flex: 1 1 0;
+                flex: 1 1 0;
         margin: 0; }
       .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
         -webkit-box-ordinal-group: 0;
         -webkit-order: -1;
             -ms-flex-order: -1;
-                order: -1; } }
+                order: -1; }
+    .panel-wwm-3col-stacked.no-mid .panel-col-mid {
+      display: none; }
+    .panel-wwm-3col-stacked.no-mid.left-sidebar .panel-col-sidebar, .panel-wwm-3col-stacked.no-mid.right-sidebar .panel-col-sidebar {
+      margin: 0;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 0;
+          -ms-flex: 1 1 0;
+              flex: 1 1 0; }
+    .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-left {
+      margin-right: 1%; }
+    .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-right {
+      margin-left: 1%; } }
 
 /*# sourceMappingURL=wwm_three_col_stacked.css.map */
