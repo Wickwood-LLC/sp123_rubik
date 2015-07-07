@@ -3,7 +3,7 @@ description = Rubik subtheme for use in the admin pages.
 base theme = rubik
 core = 7.x
 
-stylesheets[screen][] = style.css
+stylesheets[all][] = full_rubik_style.css
 
 regions[header] = Header
 regions[help] = Help
