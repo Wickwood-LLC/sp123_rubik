@@ -1,0 +1,55 @@
+.help-page, div.comment, div.node {
+  background: none;
+}
+.region-footer #block-block-1 .block-content {
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* Maintenance page styles */
+body.maintenance-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  #page-wrapper {
+    border: 1px solid #ddd;
+  }
+  #page {
+    margin: 20px 40px 40px;
+  }
+  #header,
+  #container,
+  #footer-wrapper {
+    flex: 1 1 100%;
+    justify-content: center;
+    display: inherit;
+  }
+  #name-and-slogan,
+  #main {
+    text-align: center;
+  }
+  #name-and-slogan {
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+  #site-name {
+    font-size: 28px;
+    line-height: 1;
+  }
+  #site-slogan {
+    margin-top: 7px;
+    word-spacing: 0.1em;
+    font-style: italic;
+  }
+  h1#page-title {
+    background: none;
+    font-size: 28px;
+    margin-bottom: 0.5em;
+  }
+}

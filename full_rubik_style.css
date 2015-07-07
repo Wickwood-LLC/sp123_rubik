@@ -1,9 +1,62 @@
 .help-page, div.comment, div.node {
-  background: none;
-}
+  background: none; }
+
 .region-footer #block-block-1 .block-content {
-  text-align: center;
-}
-.region-footer #block-block-1 .block-content p {
-  margin: 0;
-}
+  text-align: center; }
+  .region-footer #block-block-1 .block-content p {
+    margin: 0; }
+
+/* Maintenance page styles */
+body.maintenance-page {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  body.maintenance-page #page-wrapper {
+    border: 1px solid #ddd; }
+  body.maintenance-page #page {
+    margin: 20px 40px 40px; }
+  body.maintenance-page #header,
+  body.maintenance-page #container,
+  body.maintenance-page #footer-wrapper {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: inherit; }
+  body.maintenance-page #name-and-slogan,
+  body.maintenance-page #main {
+    text-align: center; }
+  body.maintenance-page #name-and-slogan {
+    margin-bottom: 50px;
+    padding-top: 20px; }
+  body.maintenance-page #site-name {
+    font-size: 28px;
+    line-height: 1; }
+  body.maintenance-page #site-slogan {
+    margin-top: 7px;
+    word-spacing: 0.1em;
+    font-style: italic; }
+  body.maintenance-page h1#page-title {
+    background: none;
+    font-size: 28px;
+    margin-bottom: 0.5em; }
+
+/*# sourceMappingURL=full_rubik_style.css.map */
