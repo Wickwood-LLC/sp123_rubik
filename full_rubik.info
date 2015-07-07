@@ -5,7 +5,7 @@ core = 7.x
 
 stylesheets[screen][] = style.css
 
-regions[content] = Content
-regions[help] = Help
 regions[header] = Header
+regions[help] = Help
+regions[content] = Content
 regions[footer] = Footer
