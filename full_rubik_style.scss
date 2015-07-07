@@ -53,3 +53,12 @@ body.maintenance-page {
     margin-bottom: 0.5em;
   }
 }
+
+/* Admin page styles */
+ul#views-display-menu-tabs {
+  overflow: visible;
+
+  li.add ul.action-list li {
+    float: none;
+  }
+}

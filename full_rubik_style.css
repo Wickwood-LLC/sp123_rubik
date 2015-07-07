@@ -59,4 +59,10 @@ body.maintenance-page {
     font-size: 28px;
     margin-bottom: 0.5em; }
 
+/* Admin page styles */
+ul#views-display-menu-tabs {
+  overflow: visible; }
+  ul#views-display-menu-tabs li.add ul.action-list li {
+    float: none; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
