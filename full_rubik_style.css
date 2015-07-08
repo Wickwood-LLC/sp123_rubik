@@ -7,6 +7,18 @@
   .region-footer #block-block-1 .block-content p {
     margin: 0; }
 
+#modal-content #views-content-views-content-type-edit-form {
+  float: left;
+  width: 50%; }
+  #modal-content #views-content-views-content-type-edit-form .form-actions {
+    position: absolute;
+    right: 12px;
+    top: 490px;
+    width: 47%;
+    padding: 9px 0; }
+  #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
+    float: none; }
+
 /* Maintenance page styles */
 body.maintenance-page {
   width: 100vw;

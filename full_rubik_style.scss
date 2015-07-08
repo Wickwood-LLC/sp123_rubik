@@ -10,6 +10,22 @@
   }
 }
 
+#modal-content #views-content-views-content-type-edit-form {
+  float: left;
+  width: 50%;
+
+  .form-actions {
+    position: absolute;
+    right: 12px;
+    top: 490px;
+    width: 47%;
+    padding: 9px 0;
+  }
+  .option-text-aligner .form-item {
+    float: none;
+  }
+}
+
 /* Maintenance page styles */
 body.maintenance-page {
   width: 100vw;
