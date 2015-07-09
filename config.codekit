@@ -36,6 +36,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/bleeds.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6180,
+		"inputAbbreviatedPath": "\/images\/bleeds.png",
+		"outputAbbreviatedPath": "\/images\/bleeds.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/maintenance-page.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,

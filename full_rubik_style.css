@@ -21,6 +21,33 @@
     #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
       float: none; }
 
+#block-system-main-menu .menu {
+  border-radius: 5px;
+  display: table;
+  margin: 0 auto; }
+  #block-system-main-menu .menu > li {
+    background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+    float: left;
+    border: 0px;
+    padding: 5px 10px; }
+    #block-system-main-menu .menu > li:hover {
+      background-color: #f8f8f8; }
+    #block-system-main-menu .menu > li.active-trail {
+      background-color: #7bc; }
+    #block-system-main-menu .menu > li:first-child {
+      border-radius: 5px 0px 0px 5px; }
+    #block-system-main-menu .menu > li:last-child {
+      border-radius: 0px 5px 5px 0px; }
+    #block-system-main-menu .menu > li a {
+      color: #333;
+      text-shadow: #fff 0px 1px 0px;
+      min-width: 70px;
+      text-align: center;
+      float: left; }
+      #block-system-main-menu .menu > li a.active {
+        color: #fff;
+        text-shadow: #38a 0px 1px 0px; }
+
 /* Maintenance page styles */
 body.maintenance-page {
   width: 100vw;
