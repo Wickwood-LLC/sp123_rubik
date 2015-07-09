@@ -21,10 +21,26 @@
     #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
       float: none; }
 
+#block-system-main-menu .mobile-menu {
+  background-color: #7bc;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+  display: table;
+  font-size: large;
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-shadow: #38a 0px 1px 0px; }
+  @media (min-width: 1024px) {
+    #block-system-main-menu .mobile-menu {
+      display: none; } }
 #block-system-main-menu .menu {
   border-radius: 5px;
   display: table;
   margin: 0 auto; }
+  @media (min-width: 1024px) {
+    #block-system-main-menu .menu {
+      display: table; } }
   #block-system-main-menu .menu > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     float: left;
