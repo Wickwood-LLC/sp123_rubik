@@ -21,8 +21,12 @@
     width: 47%;
     padding: 9px 0;
   }
-  .option-text-aligner .form-item {
-    float: none;
+  .option-text-aligner {
+    width: 100%;
+
+    .form-item {
+      float: none;
+    }
   }
 }
 

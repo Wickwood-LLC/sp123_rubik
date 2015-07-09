@@ -16,8 +16,10 @@
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-  #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
-    float: none; }
+  #modal-content #views-content-views-content-type-edit-form .option-text-aligner {
+    width: 100%; }
+    #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
+      float: none; }
 
 /* Maintenance page styles */
 body.maintenance-page {
