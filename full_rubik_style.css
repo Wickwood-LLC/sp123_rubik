@@ -73,7 +73,7 @@ body:not(.page-admin) .block {
       #block-superfish-1 #superfish-1 > li a.active {
         color: #fff;
         text-shadow: #38a 0px 1px 0px; }
-#block-superfish-1 .sf-menu.sf-horizontal.sf-shadow ul {
+#block-superfish-1 .sf-menu.sf-horizontal.sf-shadow ul li {
   background: #eee url(images/bleeds.png) 50% 0px no-repeat; }
 #block-superfish-1 .sf-sub-indicator {
   display: none; }
