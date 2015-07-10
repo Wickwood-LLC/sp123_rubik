@@ -32,8 +32,8 @@
   }
 }
 
-#block-system-main-menu {
-  .mobile-menu {
+#block-superfish-1 {
+  #mobile-menu {
     background-color: #7bc;
     border: 0px;
     border-radius: 5px;
@@ -49,9 +49,18 @@
     }
   }
 
-  .menu {
+  .block-content {
+    display: flex;
+    align-items: center;
+  }
+
+  #superfish-1-select {
+    margin: 0 auto;
+  }
+
+  #superfish-1 {
     border-radius: 5px;
-    display: table;
+    display: none;
     margin: 0 auto;
 
     @include breakpoint(1024px) {
@@ -60,9 +69,14 @@
 
     >li {
       background: #eee url(images/bleeds.png) 50% 0px no-repeat;
-      float: left;
+      display: flex;
+      float: none;
       border: 0px;
       padding: 5px 10px;
+
+      @include breakpoint(1024px) {
+        float: left;
+      }
 
       &:hover {
         background-color: #f8f8f8;
@@ -71,10 +85,22 @@
         background-color: #7bc;
       }
       &:first-child {
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 5px 5px 0px 0px;
+        @include breakpoint(1024px) {
+          border-radius: 5px 0px 0px 5px;
+        }
       }
       &:last-child {
-        border-radius: 0px 5px 5px 0px;
+        border-radius: 0px 0px 5px 5px;
+        @include breakpoint(1024px) {
+          border-radius: 0px 5px 5px 0px;
+        }
+      }
+      &.menuparent ul {
+        display: none !important;
+        @include breakpoint(1024px) {
+          display: initial !important;
+        }
       }
 
       a {
@@ -82,7 +108,11 @@
         text-shadow: #fff 0px 1px 0px;
         min-width: 70px;
         text-align: center;
-        float: left;
+        float: none;
+        
+        @include breakpoint(1024px) {
+          float: left;
+        }
 
         &.active {
           color: #fff;

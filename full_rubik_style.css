@@ -21,7 +21,7 @@
     #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
       float: none; }
 
-#block-system-main-menu .mobile-menu {
+#block-superfish-1 #mobile-menu {
   background-color: #7bc;
   border: 0px;
   border-radius: 5px;
@@ -32,35 +32,67 @@
   padding: 5px 10px;
   text-shadow: #38a 0px 1px 0px; }
   @media (min-width: 1024px) {
-    #block-system-main-menu .mobile-menu {
+    #block-superfish-1 #mobile-menu {
       display: none; } }
-#block-system-main-menu .menu {
+#block-superfish-1 .block-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+#block-superfish-1 #superfish-1-select {
+  margin: 0 auto; }
+#block-superfish-1 #superfish-1 {
   border-radius: 5px;
-  display: table;
+  display: none;
   margin: 0 auto; }
   @media (min-width: 1024px) {
-    #block-system-main-menu .menu {
+    #block-superfish-1 #superfish-1 {
       display: table; } }
-  #block-system-main-menu .menu > li {
+  #block-superfish-1 #superfish-1 > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
-    float: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    float: none;
     border: 0px;
     padding: 5px 10px; }
-    #block-system-main-menu .menu > li:hover {
+    @media (min-width: 1024px) {
+      #block-superfish-1 #superfish-1 > li {
+        float: left; } }
+    #block-superfish-1 #superfish-1 > li:hover {
       background-color: #f8f8f8; }
-    #block-system-main-menu .menu > li.active-trail {
+    #block-superfish-1 #superfish-1 > li.active-trail {
       background-color: #7bc; }
-    #block-system-main-menu .menu > li:first-child {
-      border-radius: 5px 0px 0px 5px; }
-    #block-system-main-menu .menu > li:last-child {
-      border-radius: 0px 5px 5px 0px; }
-    #block-system-main-menu .menu > li a {
+    #block-superfish-1 #superfish-1 > li:first-child {
+      border-radius: 5px 5px 0px 0px; }
+      @media (min-width: 1024px) {
+        #block-superfish-1 #superfish-1 > li:first-child {
+          border-radius: 5px 0px 0px 5px; } }
+    #block-superfish-1 #superfish-1 > li:last-child {
+      border-radius: 0px 0px 5px 5px; }
+      @media (min-width: 1024px) {
+        #block-superfish-1 #superfish-1 > li:last-child {
+          border-radius: 0px 5px 5px 0px; } }
+    #block-superfish-1 #superfish-1 > li.menuparent ul {
+      display: none !important; }
+      @media (min-width: 1024px) {
+        #block-superfish-1 #superfish-1 > li.menuparent ul {
+          display: initial !important; } }
+    #block-superfish-1 #superfish-1 > li a {
       color: #333;
       text-shadow: #fff 0px 1px 0px;
       min-width: 70px;
       text-align: center;
-      float: left; }
-      #block-system-main-menu .menu > li a.active {
+      float: none; }
+      @media (min-width: 1024px) {
+        #block-superfish-1 #superfish-1 > li a {
+          float: left; } }
+      #block-superfish-1 #superfish-1 > li a.active {
         color: #fff;
         text-shadow: #38a 0px 1px 0px; }
 
