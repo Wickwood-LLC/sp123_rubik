@@ -1,3 +1,6 @@
+body:not(.page-admin) .block {
+  border: 0px; }
+
 .help-page, div.comment, div.node {
   background: none;
   border: 0px; }
@@ -22,18 +25,7 @@
       float: none; }
 
 #block-superfish-1 #mobile-menu {
-  background-color: #7bc;
-  border: 0px;
-  border-radius: 5px;
-  color: #fff;
-  display: table;
-  font-size: large;
-  margin: 0 auto;
-  padding: 5px 10px;
-  text-shadow: #38a 0px 1px 0px; }
-  @media (min-width: 1024px) {
-    #block-superfish-1 #mobile-menu {
-      display: none; } }
+  display: none; }
 #block-superfish-1 .block-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -58,31 +50,17 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    float: none;
     border: 0px;
-    padding: 5px 10px; }
-    @media (min-width: 1024px) {
-      #block-superfish-1 #superfish-1 > li {
-        float: left; } }
+    padding: 5px 10px;
+    float: left; }
     #block-superfish-1 #superfish-1 > li:hover {
       background-color: #f8f8f8; }
     #block-superfish-1 #superfish-1 > li.active-trail {
       background-color: #7bc; }
     #block-superfish-1 #superfish-1 > li:first-child {
-      border-radius: 5px 5px 0px 0px; }
-      @media (min-width: 1024px) {
-        #block-superfish-1 #superfish-1 > li:first-child {
-          border-radius: 5px 0px 0px 5px; } }
+      border-radius: 5px 0px 0px 5px; }
     #block-superfish-1 #superfish-1 > li:last-child {
-      border-radius: 0px 0px 5px 5px; }
-      @media (min-width: 1024px) {
-        #block-superfish-1 #superfish-1 > li:last-child {
-          border-radius: 0px 5px 5px 0px; } }
-    #block-superfish-1 #superfish-1 > li.menuparent ul {
-      display: none !important; }
-      @media (min-width: 1024px) {
-        #block-superfish-1 #superfish-1 > li.menuparent ul {
-          display: initial !important; } }
+      border-radius: 0px 5px 5px 0px; }
     #block-superfish-1 #superfish-1 > li a {
       color: #333;
       text-shadow: #fff 0px 1px 0px;
@@ -95,6 +73,10 @@
       #block-superfish-1 #superfish-1 > li a.active {
         color: #fff;
         text-shadow: #38a 0px 1px 0px; }
+#block-superfish-1 .sf-menu.sf-horizontal.sf-shadow ul {
+  background: #eee url(images/bleeds.png) 50% 0px no-repeat; }
+#block-superfish-1 .sf-sub-indicator {
+  display: none; }
 
 /* Maintenance page styles */
 body.maintenance-page {

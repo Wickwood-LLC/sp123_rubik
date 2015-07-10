@@ -1,5 +1,8 @@
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
 
+body:not(.page-admin) .block {
+  border: 0px;
+}
 .help-page, div.comment, div.node {
   background: none;
   border: 0px;
@@ -34,19 +37,19 @@
 
 #block-superfish-1 {
   #mobile-menu {
-    background-color: #7bc;
-    border: 0px;
-    border-radius: 5px;
-    color: #fff;
-    display: table;
-    font-size: large;
-    margin: 0 auto;
-    padding: 5px 10px;
-    text-shadow: #38a 0px 1px 0px;
+  //   background-color: #7bc;
+  //   border: 0px;
+  //   border-radius: 5px;
+  //   color: #fff;
+  //   display: table;
+  //   font-size: large;
+  //   margin: 0 auto;
+  //   padding: 5px 10px;
+  //   text-shadow: #38a 0px 1px 0px;
 
-    @include breakpoint(1024px) {
+  //   @include breakpoint(1024px) {
       display: none;
-    }
+  //   }
   }
 
   .block-content {
@@ -70,13 +73,13 @@
     >li {
       background: #eee url(images/bleeds.png) 50% 0px no-repeat;
       display: flex;
-      float: none;
+      // float: none;
       border: 0px;
       padding: 5px 10px;
 
-      @include breakpoint(1024px) {
+      // @include breakpoint(1024px) {
         float: left;
-      }
+      // }
 
       &:hover {
         background-color: #f8f8f8;
@@ -85,23 +88,23 @@
         background-color: #7bc;
       }
       &:first-child {
-        border-radius: 5px 5px 0px 0px;
-        @include breakpoint(1024px) {
+        // border-radius: 5px 5px 0px 0px;
+        // @include breakpoint(1024px) {
           border-radius: 5px 0px 0px 5px;
-        }
+        // }
       }
       &:last-child {
-        border-radius: 0px 0px 5px 5px;
-        @include breakpoint(1024px) {
+        // border-radius: 0px 0px 5px 5px;
+        // @include breakpoint(1024px) {
           border-radius: 0px 5px 5px 0px;
-        }
+        // }
       }
-      &.menuparent ul {
-        display: none !important;
-        @include breakpoint(1024px) {
-          display: initial !important;
-        }
-      }
+      // &.menuparent ul {
+      //   display: none !important;
+      //   @include breakpoint(1024px) {
+      //     display: initial !important;
+      //   }
+      // }
 
       a {
         color: #333;
@@ -120,6 +123,13 @@
         }
       }
     }
+  }
+
+  .sf-menu.sf-horizontal.sf-shadow ul {
+    background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+  }
+  .sf-sub-indicator {
+    display: none;
   }
 }
 
