@@ -4,6 +4,7 @@ base theme = rubik
 core = 7.x
 
 stylesheets[screen][] = full_rubik_style.css
+scripts[] = full_rubik.js
 
 regions[header] = Header
 regions[help] = Help
