@@ -53,6 +53,9 @@ body:not(.page-admin) .block {
 }
 
 #block-tb-megamenu-main-menu {
+  .block-content {
+    padding: 0;
+  }
   .tb-megamenu-nav {
     @include breakpoint(979px) {
       display: table;
