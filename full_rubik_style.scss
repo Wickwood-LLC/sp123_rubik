@@ -46,6 +46,15 @@ body:not(.page-admin) .block {
   }
 }
 
+#block-tb-megamenu-main-menu {
+  .tb-megamenu-nav {
+    @include breakpoint(979px) {
+      display: table;
+      margin: 0 auto;
+    }
+  }
+}
+
 #block-superfish-1 {
   #mobile-menu {
   //   background-color: #7bc;

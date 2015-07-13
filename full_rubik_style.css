@@ -30,6 +30,11 @@ body:not(.page-admin) .block {
     float: left;
     border: 0; }
 
+@media (min-width: 979px) {
+  #block-tb-megamenu-main-menu .tb-megamenu-nav {
+    display: table;
+    margin: 0 auto; } }
+
 #block-superfish-1 #mobile-menu {
   display: none; }
 #block-superfish-1 .block-content {
