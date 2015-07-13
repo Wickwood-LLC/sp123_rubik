@@ -35,6 +35,17 @@ body:not(.page-admin) .block {
   }
 }
 
+#block-system-user-menu {
+  ul.menu {
+    float: right;
+
+    li {
+      float: left;
+      border: 0;
+    }
+  }
+}
+
 #block-superfish-1 {
   #mobile-menu {
   //   background-color: #7bc;

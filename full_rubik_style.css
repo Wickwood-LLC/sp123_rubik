@@ -24,6 +24,12 @@ body:not(.page-admin) .block {
     #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
       float: none; }
 
+#block-system-user-menu ul.menu {
+  float: right; }
+  #block-system-user-menu ul.menu li {
+    float: left;
+    border: 0; }
+
 #block-superfish-1 #mobile-menu {
   display: none; }
 #block-superfish-1 .block-content {
