@@ -7,7 +7,7 @@ body.page-admin .region-footer .block {
   background: none;
   border: 0px; }
 
-#logo {
+#header > #logo {
   /* Logo is hidden because we are using the mini panel to render it. 
   This logo can also be hidden by disablng it in the theme settings, 
   but if we do that, the mini panel won't display it too. However, if 
