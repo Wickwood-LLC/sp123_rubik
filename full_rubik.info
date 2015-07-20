@@ -7,6 +7,7 @@ stylesheets[screen][] = full_rubik_style.css
 scripts[] = full_rubik.js
 
 regions[header] = Header
+regions[navbar] = Navigation
 regions[help] = Help
 regions[content] = Content
 regions[footer] = Footer

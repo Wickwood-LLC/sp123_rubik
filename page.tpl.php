@@ -1,4 +1,5 @@
 <?php print render($page['header']); ?>
+<?php print render($page['navbar']); ?>
 <?php if (theme_get_setting('rubik_show_branding')): ?>
 <div id='branding'><div class='limiter clearfix'>
   <div class='breadcrumb clearfix'><?php print $breadcrumb ?></div>
