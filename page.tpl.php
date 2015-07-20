@@ -1,3 +1,6 @@
+<?php //if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off'): ?>
+    <div class="secure-site">Your connection to this site is encrypted with modern cryptography, so your information stays safe and secure. Check the green bar at the address bar.</div>
+<?php //endif; ?>
 <?php print render($page['header']); ?>
 <?php if (theme_get_setting('rubik_show_branding')): ?>
 <div id='branding'><div class='limiter clearfix'>
