@@ -8,6 +8,14 @@ body:not(.page-admin) .block {
   border: 0px;
 }
 
+#logo {
+  /* Logo is hidden because we are using the mini panel to render it. 
+  This logo can also be hidden by disablng it in the theme settings, 
+  but if we do that, the mini panel won't display it too. However, if 
+  the mini panel is not used, we can comment out this rule. */
+  display: none;
+}
+
 #mini-panel-header {
   display: flex;
 
