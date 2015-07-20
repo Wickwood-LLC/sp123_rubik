@@ -1,9 +1,18 @@
-body:not(.page-admin) .block {
+body:not(.page-admin) .block,
+body.page-admin #header .block,
+body.page-admin .region-footer .block {
   border: 0px; }
 
 .help-page, div.comment, div.node {
   background: none;
   border: 0px; }
+
+#logo {
+  /* Logo is hidden because we are using the mini panel to render it. 
+  This logo can also be hidden by disablng it in the theme settings, 
+  but if we do that, the mini panel won't display it too. However, if 
+  the mini panel is not used, we can comment out this rule. */
+  display: none; }
 
 #mini-panel-header {
   display: -webkit-box;

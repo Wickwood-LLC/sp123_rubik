@@ -1,7 +1,11 @@
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
 
-body:not(.page-admin) .block {
-  border: 0px;
+body:not(.page-admin),
+body.page-admin #header,
+body.page-admin .region-footer {
+  .block {
+    border: 0px;
+  }
 }
 .help-page, div.comment, div.node {
   background: none;
