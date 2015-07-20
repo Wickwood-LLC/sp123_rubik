@@ -30,6 +30,8 @@ body:not(.page-admin) .block {
     float: left;
     border: 0; }
 
+#block-tb-megamenu-main-menu .block-content {
+  padding: 0; }
 @media (min-width: 979px) {
   #block-tb-megamenu-main-menu .tb-megamenu-nav {
     display: table;
