@@ -7,6 +7,38 @@ body:not(.page-admin) .block {
   background: none;
   border: 0px;
 }
+
+#mini-panel-header {
+  display: flex;
+
+  .panel-panel {
+    width: auto;    
+  }
+
+  .panel-col-first,
+  .panel-col-last {
+    flex: 0 auto;
+  }
+  .panel-col {
+    flex: 1 auto;
+    text-align: center;
+
+    .pane-page-site-name {
+      font-size: 2em;
+      line-height: 1.5;
+    }
+    .pane-page-slogan {
+      font-size: 1.5em;
+      line-height: 1.5;
+    }
+  }
+}
+
+.secure-site-notif .block-content {
+  background-color: #2ECC71;
+  text-align: center;
+  padding: 10px;
+}
 .region-footer #block-block-1 .block-content {
   text-align: center;
 
@@ -50,109 +82,89 @@ body:not(.page-admin) .block {
   .block-content {
     padding: 0;
   }
-  .tb-megamenu-nav {
-    @include breakpoint(979px) {
-      display: table;
-      margin: 0 auto;
-    }
-  }
 }
 
-#block-superfish-1 {
-  #mobile-menu {
-  //   background-color: #7bc;
-  //   border: 0px;
-  //   border-radius: 5px;
-  //   color: #fff;
-  //   display: table;
-  //   font-size: large;
-  //   margin: 0 auto;
-  //   padding: 5px 10px;
-  //   text-shadow: #38a 0px 1px 0px;
+#block-tb-megamenu-main-menu {
 
-  //   @include breakpoint(1024px) {
-      display: none;
-  //   }
-  }
-
-  .block-content {
-    display: flex;
-    align-items: center;
-  }
-
-  #superfish-1-select {
+  #tb-megamenu-main-menu {
+    background: transparent;
+    display: table;
     margin: 0 auto;
-  }
-
-  #superfish-1 {
-    border-radius: 5px;
-    display: none;
-    margin: 0 auto;
-
-    @include breakpoint(1024px) {
-      display: table
+    
+    .nav-collapse {
+      position: relative;
+      top: 0;
+      @include breakpoint(980px) {
+        display: block;
+      }
     }
 
-    >li {
+    .btn-navbar {
+      display: table;
+      margin: 0 auto;
+      float: none;
+
+      @include breakpoint(980px) {
+        display: none;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: #f8f8f8;
+    }
+
+    .tb-megamenu-nav>li {
       background: #eee url(images/bleeds.png) 50% 0px no-repeat;
-      display: flex;
-      // float: none;
       border: 0px;
-      padding: 5px 10px;
-
-      // @include breakpoint(1024px) {
+      float: none;
+      
+      @include breakpoint(980px) {
         float: left;
-      // }
+      }
 
-      &:hover {
+      &.active,
+      &.active>a {
+        background-color: #7bc !important;
+        color: #fff;
+        text-shadow: #38a 0px 1px 0px;
+      }
+      &:first-child,
+      &:first-child a {
+          border-radius: 0;
+
+          @include breakpoint(980px) {
+            border-radius: 5px 0px 0px 5px;
+          }
+      }
+      &:last-child,
+      &:last-child a {
+          border-radius: 0;
+          @include breakpoint(980px) {
+            border-radius: 0px 5px 5px 0px;
+          }
+      }
+      &.open a {
         background-color: #f8f8f8;
       }
-      &.active-trail {
-        background-color: #7bc;
-      }
-      &:first-child {
-        // border-radius: 5px 5px 0px 0px;
-        // @include breakpoint(1024px) {
-          border-radius: 5px 0px 0px 5px;
-        // }
-      }
-      &:last-child {
-        // border-radius: 0px 0px 5px 5px;
-        // @include breakpoint(1024px) {
-          border-radius: 0px 5px 5px 0px;
-        // }
-      }
-      // &.menuparent ul {
-      //   display: none !important;
-      //   @include breakpoint(1024px) {
-      //     display: initial !important;
-      //   }
-      // }
 
       a {
+        background-image: none;
         color: #333;
         text-shadow: #fff 0px 1px 0px;
         min-width: 70px;
         text-align: center;
         float: none;
-        
-        @include breakpoint(1024px) {
+        padding: 5px 10px;
+
+        @include breakpoint(980px) {
           float: left;
         }
 
-        &.active {
-          color: #fff;
-          text-shadow: #38a 0px 1px 0px;
+        &:hover {
+          background-color: #f8f8f8;
         }
       }
     }
-  }
-
-  .sf-menu.sf-horizontal.sf-shadow ul li {
-    background: #eee url(images/bleeds.png) 50% 0px no-repeat;
-  }
-  .sf-sub-indicator {
-    display: none;
   }
 }
 
