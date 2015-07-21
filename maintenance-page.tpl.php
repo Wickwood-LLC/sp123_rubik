@@ -34,22 +34,16 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
-      <?php if ($site_name || $site_slogan): ?>
         <div id="name-and-slogan">
-          <?php if ($site_name): ?>
             <div id="site-name">
               <strong>
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </strong>
             </div>
-          <?php endif; ?>
-          <?php if ($site_slogan): ?>
             <div id="site-slogan">
               <?php print $site_slogan; ?>
             </div>
-          <?php endif; ?>
         </div> <!-- /#name-and-slogan -->
-      <?php endif; ?>
     </div></div> <!-- /.section, /#header -->
 
     <div id="main-wrapper"><div id="main" class="clearfix">
