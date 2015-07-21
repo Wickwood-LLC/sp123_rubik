@@ -164,6 +164,8 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
+  body.maintenance-page #header .section {
+    text-align: center; }
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
