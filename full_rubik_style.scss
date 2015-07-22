@@ -12,12 +12,16 @@ body.page-admin .region-footer {
   border: 0px;
 }
 
-body:not(.maintenance-page) #header>#logo {
-  /* Logo is hidden because we are using the mini panel to render it. 
-  This logo can also be hidden by disablng it in the theme settings, 
+body:not(.maintenance-page) #header {
+  /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
+  These can also be hidden by disablng it in the theme settings, 
   but if we do that, the mini panel won't display it too. However, if 
   the mini panel is not used, we can comment out this rule. */
-  display: none;
+  >#logo,
+  >#site-name,
+  >#site-slogan {
+    display: none;
+  }
 }
 
 #mini-panel-header {
