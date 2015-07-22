@@ -48,9 +48,9 @@ body:not(.maintenance-page) #header {
   text-align: center;
   padding: 10px; }
 
-.region-footer #block-block-1 .block-content {
+.region-footer #block-block-2 .block-content {
   text-align: center; }
-  .region-footer #block-block-1 .block-content p {
+  .region-footer #block-block-2 .block-content p {
     margin: 0; }
 
 #modal-content #views-content-views-content-type-edit-form {
