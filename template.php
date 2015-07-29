@@ -19,40 +19,40 @@ function full_rubik_breadcrumb($vars) {
     dpm(panels_get_current_page_display());
     switch ($vars['breadcrumb'][3]) {
       case '01':
-        $month = 'January';
+        $month = "January";
         break;
       case '02':
-        $month = 'February';
+        $month = "February";
         break;
       case '03':
-        $month = 'March';
+        $month = "March";
         break;
       case '04':
-        $month = 'April';
+        $month = "April";
         break;
       case '05':
-        $month = 'May';
+        $month = "May";
         break;
       case '06':
-        $month = 'June';
+        $month = "June";
         break;
       case '07':
-        $month = 'July';
+        $month = "July";
         break;
       case '08':
-        $month = 'August';
+        $month = "August";
         break;
       case '09':
-        $month = 'September';
+        $month = "September";
         break;
       case '10':
-        $month = 'October';
+        $month = "October";
         break;
       case '11':
-        $month = 'November';
+        $month = "November";
         break;
       case '12':
-        $month = 'December';
+        $month = "December";
         break;
     }
     $vars['breadcrumb'][3] = preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);
