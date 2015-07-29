@@ -55,7 +55,7 @@ function full_rubik_breadcrumb($vars) {
         $month = "December";
         break;
 
-      $vars['breadcrumb'][3] = preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);
+      preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);
     }
     dpm($vars);
 
