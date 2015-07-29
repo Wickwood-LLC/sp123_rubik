@@ -14,12 +14,51 @@ function full_rubik_breadcrumb($vars) {
   //   }
   // }
 
-  $dids = array(15,22,23,24);
+  $dids = array(23,24);
   if (in_array(panels_get_current_page_display()->did, $dids)) {
     dpm(panels_get_current_page_display());
-  } else {
-  echo 'This is not a panel';
-}
+    switch ($vars['breadcrumb'][3]) {
+      case '01':
+        $month = 'January';
+        break;
+      case '02':
+        $month = 'February';
+        break;
+      case '03':
+        $month = 'March';
+        break;
+      case '04':
+        $month = 'April';
+        break;
+      case '05':
+        $month = 'May';
+        break;
+      case '06':
+        $month = 'June';
+        break;
+      case '07':
+        $month = 'July';
+        break;
+      case '08':
+        $month = 'August';
+        break;
+      case '09':
+        $month = 'September';
+        break;
+      case '10':
+        $month = 'October';
+        break;
+      case '11':
+        $month = 'November';
+        break;
+      case '12':
+        $month = 'December';
+        break;
+    }
+    $vars['breadcrumb'][1] = preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][1]);
+    dpm($vars);
+
+  }
 
   // Optional: Add the site name to the front of the stack.
   if (!empty($vars['prepend'])) {
