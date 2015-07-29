@@ -14,7 +14,7 @@ function full_rubik_breadcrumb($vars) {
   //   }
   // }
 
-  $dids = array(15,22,23);
+  $dids = array(15,22,23,24);
   if (in_array(panels_get_current_page_display()->did, $dids)) {
     dpm(panels_get_current_page_display());
   } else {
