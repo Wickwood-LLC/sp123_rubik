@@ -14,6 +14,12 @@ function full_rubik_breadcrumb($vars) {
   //   }
   // }
 
+  if (panels_get_current_page_display()) { 
+    dpm(panels_get_current_page_display());
+} else {
+  echo 'This is not a panel';
+}
+
   // Optional: Add the site name to the front of the stack.
   if (!empty($vars['prepend'])) {
     $site_name = empty($vars['breadcrumb']) ? "<strong>". check_plain(variable_get('site_name', '')) ."</strong>" : l(variable_get('site_name', ''), '<front>', array('purl' => array('disabled' => TRUE)));
