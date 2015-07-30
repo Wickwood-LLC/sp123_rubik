@@ -14,51 +14,52 @@ function full_rubik_breadcrumb($vars) {
   //   }
   // }
 
-  $dids = array(23,24);
-  if (in_array(panels_get_current_page_display()->did, $dids)) {
-    dpm(panels_get_current_page_display());
-    switch ($vars['breadcrumb'][3]) {
-      case '01':
-        $month = "January";
-        break;
-      case '02':
-        $month = "February";
-        break;
-      case '03':
-        $month = "March";
-        break;
-      case '04':
-        $month = "April";
-        break;
-      case '05':
-        $month = "May";
-        break;
-      case '06':
-        $month = "June";
-        break;
-      case '07':
-        $month = "July";
-        break;
-      case '08':
-        $month = "August";
-        break;
-      case '09':
-        $month = "September";
-        break;
-      case '10':
-        $month = "October";
-        break;
-      case '11':
-        $month = "November";
-        break;
-      case '12':
-        $month = "December";
-        break;
+  if (isset($vars['breadcrumb'][3])) {  // If we are 4 levels deep in the breadcrumb
+    $pages = array("News", "Articles", "Press Releases");
+    preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $lists);
 
-      preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);
+    if (in_array($lists[0], $pages)) {  // check if we are on the "News", "Articles", or "Press Releases" pages
+      preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][3], $match);
+      switch ($match[0]) {
+        case '01':
+          $month = "January";
+          break;
+        case '02':
+          $month = "February";
+          break;
+        case '03':
+          $month = "March";
+          break;
+        case '04':
+          $month = "April";
+          break;
+        case '05':
+          $month = "May";
+          break;
+        case '06':
+          $month = "June";
+          break;
+        case '07':
+          $month = "July";
+          break;
+        case '08':
+          $month = "August";
+          break;
+        case '09':
+          $month = "September";
+          break;
+        case '10':
+          $month = "October";
+          break;
+        case '11':
+          $month = "November";
+          break;
+        case '12':
+          $month = "December";
+          break;
+      }
+      $vars['breadcrumb'][3] = preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);  // then replace the breadcrumb item for "month" with the month's full name
     }
-    dpm($vars);
-
   }
 
   // Optional: Add the site name to the front of the stack.
