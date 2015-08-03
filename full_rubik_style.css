@@ -24,6 +24,13 @@ body:not(.maintenance-page) #header {
   width: 100%;
   height: auto; }
 
+.views-list-thumbnail {
+  float: left;
+  margin-right: 15px; }
+
+.view-articles-test .view-content .views-row {
+  margin-bottom: 20px; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
