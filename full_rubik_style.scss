@@ -3,7 +3,8 @@
 body:not(.page-admin),
 body.page-admin #header,
 body.page-admin .region-footer {
-  .block {
+  .block,
+  table {
     border: 0px;
   }
 }
@@ -22,6 +23,11 @@ body:not(.maintenance-page) #header {
   >#site-slogan {
     display: none;
   }
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
 }
 
 #mini-panel-header {

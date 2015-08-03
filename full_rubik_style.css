@@ -1,6 +1,9 @@
 body:not(.page-admin) .block,
+body:not(.page-admin) table,
 body.page-admin #header .block,
-body.page-admin .region-footer .block {
+body.page-admin #header table,
+body.page-admin .region-footer .block,
+body.page-admin .region-footer table {
   border: 0px; }
 
 .help-page, div.comment, div.node {
@@ -16,6 +19,10 @@ body:not(.maintenance-page) #header {
   body:not(.maintenance-page) #header > #site-name,
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
+
+.featured-image img {
+  width: 100%;
+  height: auto; }
 
 #mini-panel-header {
   display: -webkit-box;
