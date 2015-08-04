@@ -46,7 +46,7 @@ body:not(.maintenance-page) #header {
 .view-articles-test.main-display .views-row,
 .view-news-test.main-display .views-row {
   display: table;
-  margin-top: 20px; }
+  margin-top: 1em; }
 
 #mini-panel-header {
   display: -webkit-box;
