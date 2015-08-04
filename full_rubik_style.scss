@@ -28,8 +28,13 @@ body:not(.maintenance-page) #header {
 .view-press-releases-test,
 .view-articles-test,
 .view-news-test {
-  .featured-display .views-field-title h2 {
-    font-size: 1.5em;
+  .featured-display {
+    .views-field-title h2 {
+      font-size: 1.5em;
+    }
+    .views-field-body {
+      font-size: 14px;
+    }
   }
   .featured-image img {
     width: 100%;
