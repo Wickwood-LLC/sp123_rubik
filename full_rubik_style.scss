@@ -42,7 +42,7 @@ body:not(.maintenance-page) #header {
     float: left;
     margin-right: 15px;
   }
-  .main-display .views-row {
+  &.main-display .views-row {
     display: table;
     margin-top: 20px;
   }
