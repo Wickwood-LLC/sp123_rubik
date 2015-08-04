@@ -28,7 +28,7 @@ body:not(.maintenance-page) #header {
 .view-press-releases-test,
 .view-articles-test,
 .view-news-test {
-  .featured-display .field-title h2 {
+  .featured-display .views-field-title h2 {
     font-size: 1.5em;
   }
   .featured-image img {
@@ -40,9 +40,6 @@ body:not(.maintenance-page) #header {
     margin-right: 15px;
   }
   .view-content .views-row {
-    margin-bottom: 20px;
-  }
-  .views-row {
     margin-top: 20px;
     clear: both;
   }

@@ -20,9 +20,9 @@ body:not(.maintenance-page) #header {
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
-.view-press-releases-test .featured-display .field-title h2,
-.view-articles-test .featured-display .field-title h2,
-.view-news-test .featured-display .field-title h2 {
+.view-press-releases-test .featured-display .views-field-title h2,
+.view-articles-test .featured-display .views-field-title h2,
+.view-news-test .featured-display .views-field-title h2 {
   font-size: 1.5em; }
 .view-press-releases-test .featured-image img,
 .view-articles-test .featured-image img,
@@ -37,10 +37,6 @@ body:not(.maintenance-page) #header {
 .view-press-releases-test .view-content .views-row,
 .view-articles-test .view-content .views-row,
 .view-news-test .view-content .views-row {
-  margin-bottom: 20px; }
-.view-press-releases-test .views-row,
-.view-articles-test .views-row,
-.view-news-test .views-row {
   margin-top: 20px;
   clear: both; }
 
