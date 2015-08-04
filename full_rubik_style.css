@@ -38,9 +38,9 @@ body:not(.maintenance-page) #header {
 .view-news-test .views-list-thumbnail {
   float: left;
   margin-right: 15px; }
-.view-press-releases-test .view-content .views-row,
-.view-articles-test .view-content .views-row,
-.view-news-test .view-content .views-row {
+.view-press-releases-test .main-display .view-content .views-row,
+.view-articles-test .main-display .view-content .views-row,
+.view-news-test .main-display .view-content .views-row {
   display: table;
   margin-top: 20px; }
 
