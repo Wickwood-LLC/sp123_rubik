@@ -29,6 +29,10 @@ body:not(.maintenance-page) #header {
 .view-news-test .featured-image img {
   width: 100%;
   height: auto; }
+.view-press-releases-test .views-field-title h3,
+.view-articles-test .views-field-title h3,
+.view-news-test .views-field-title h3 {
+  font-size: 1.17em; }
 .view-press-releases-test .views-list-thumbnail,
 .view-articles-test .views-list-thumbnail,
 .view-news-test .views-list-thumbnail {

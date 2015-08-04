@@ -35,6 +35,9 @@ body:not(.maintenance-page) #header {
     width: 100%;
     height: auto;
   }
+  .views-field-title h3 {
+    font-size: 1.17em;
+  }
   .views-list-thumbnail {
     float: left;
     margin-right: 15px;
