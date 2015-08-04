@@ -40,8 +40,8 @@ body:not(.maintenance-page) #header {
     margin-right: 15px;
   }
   .view-content .views-row {
+    display: table;
     margin-top: 20px;
-    clear: both;
   }
 }
 

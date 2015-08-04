@@ -37,8 +37,8 @@ body:not(.maintenance-page) #header {
 .view-press-releases-test .view-content .views-row,
 .view-articles-test .view-content .views-row,
 .view-news-test .view-content .views-row {
-  margin-top: 20px;
-  clear: both; }
+  display: table;
+  margin-top: 20px; }
 
 #mini-panel-header {
   display: -webkit-box;
