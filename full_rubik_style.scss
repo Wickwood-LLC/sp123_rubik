@@ -3,7 +3,8 @@
 body:not(.page-admin),
 body.page-admin #header,
 body.page-admin .region-footer {
-  .block {
+  .block,
+  table {
     border: 0px;
   }
 }
@@ -21,6 +22,34 @@ body:not(.maintenance-page) #header {
   >#site-name,
   >#site-slogan {
     display: none;
+  }
+}
+
+.view-press-releases-test,
+.view-articles-test,
+.view-news-test {
+  .featured-display {
+    .views-field-title h2 {
+      font-size: 1.5em;
+    }
+    .views-field-body {
+      font-size: 14px;
+    }
+  }
+  .featured-image img {
+    width: 100%;
+    height: auto;
+  }
+  .views-field-title h3 {
+    font-size: 1.17em;
+  }
+  .views-list-thumbnail {
+    float: left;
+    margin-right: 15px;
+  }
+  &.main-display .views-row {
+    display: table;
+    margin-top: 1em;
   }
 }
 

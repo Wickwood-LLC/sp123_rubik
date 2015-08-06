@@ -1,6 +1,9 @@
 body:not(.page-admin) .block,
+body:not(.page-admin) table,
 body.page-admin #header .block,
-body.page-admin .region-footer .block {
+body.page-admin #header table,
+body.page-admin .region-footer .block,
+body.page-admin .region-footer table {
   border: 0px; }
 
 .help-page, div.comment, div.node {
@@ -16,6 +19,34 @@ body:not(.maintenance-page) #header {
   body:not(.maintenance-page) #header > #site-name,
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
+
+.view-press-releases-test .featured-display .views-field-title h2,
+.view-articles-test .featured-display .views-field-title h2,
+.view-news-test .featured-display .views-field-title h2 {
+  font-size: 1.5em; }
+.view-press-releases-test .featured-display .views-field-body,
+.view-articles-test .featured-display .views-field-body,
+.view-news-test .featured-display .views-field-body {
+  font-size: 14px; }
+.view-press-releases-test .featured-image img,
+.view-articles-test .featured-image img,
+.view-news-test .featured-image img {
+  width: 100%;
+  height: auto; }
+.view-press-releases-test .views-field-title h3,
+.view-articles-test .views-field-title h3,
+.view-news-test .views-field-title h3 {
+  font-size: 1.17em; }
+.view-press-releases-test .views-list-thumbnail,
+.view-articles-test .views-list-thumbnail,
+.view-news-test .views-list-thumbnail {
+  float: left;
+  margin-right: 15px; }
+.view-press-releases-test.main-display .views-row,
+.view-articles-test.main-display .views-row,
+.view-news-test.main-display .views-row {
+  display: table;
+  margin-top: 1em; }
 
 #mini-panel-header {
   display: -webkit-box;
