@@ -20,6 +20,10 @@ body:not(.maintenance-page) #header {
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
+.panelized-node .field-name-field-featured-image {
+  float: left;
+  margin: 0 1em 1em 0; }
+
 .view-press-releases-test .featured-display .views-field-title h2,
 .view-articles-test .featured-display .views-field-title h2,
 .view-news-test .featured-display .views-field-title h2 {

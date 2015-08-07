@@ -25,6 +25,11 @@ body:not(.maintenance-page) #header {
   }
 }
 
+.panelized-node .field-name-field-featured-image {
+  float: left;
+  margin: 0 1em 1em 0;
+} 
+
 .view-press-releases-test,
 .view-articles-test,
 .view-news-test {
