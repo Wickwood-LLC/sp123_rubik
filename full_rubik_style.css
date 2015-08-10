@@ -243,4 +243,7 @@ ul#views-display-menu-tabs {
   display: -ms-flexbox;
   display: flex; }
 
+select.form-select {
+  height: auto; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
