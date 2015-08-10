@@ -25,6 +25,10 @@ body:not(.maintenance-page) #header {
   }
 }
 
+div#toolbar div.toolbar-shortcuts ul {
+  padding-top: 2px;
+}
+
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0;

@@ -20,6 +20,9 @@ body:not(.maintenance-page) #header {
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
+div#toolbar div.toolbar-shortcuts ul {
+  padding-top: 2px; }
+
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0; }
