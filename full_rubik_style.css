@@ -229,9 +229,11 @@ select.form-select {
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-.form-item.form-type-textarea {
-  padding: 0;
-  border: 0; }
+.form-item {
+  display: table; }
+  .form-item.form-type-textarea {
+    padding: 0;
+    border: 0; }
 
 .description p {
   margin: 1em 0; }
