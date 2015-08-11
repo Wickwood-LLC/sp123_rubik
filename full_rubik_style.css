@@ -98,6 +98,9 @@ div#toolbar div.toolbar-shortcuts ul {
     width: 100%; }
     #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
       float: none; }
+#modal-content .form-actions {
+  width: 46%;
+  padding: 1%; }
 
 #block-system-user-menu ul.menu {
   float: right; }
