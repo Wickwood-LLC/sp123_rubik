@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
 	"\/bower_components\/compass-breakpoint\/bower.json": {
 		"fileType": 524288,
@@ -117,7 +117,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/_breakpoint.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/_breakpoint.css",
+		"outputAbbreviatedPath": "\/css\/_breakpoint.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -133,7 +133,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_context.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_context.css",
+		"outputAbbreviatedPath": "\/css\/_context.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -149,7 +149,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_helpers.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_helpers.css",
+		"outputAbbreviatedPath": "\/css\/_helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -165,7 +165,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_legacy-settings.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_legacy-settings.css",
+		"outputAbbreviatedPath": "\/css\/_legacy-settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -181,7 +181,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_no-query.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_no-query.css",
+		"outputAbbreviatedPath": "\/css\/_no-query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -197,7 +197,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_parsers.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_parsers.css",
+		"outputAbbreviatedPath": "\/css\/_parsers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -213,7 +213,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_respond-to.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_respond-to.css",
+		"outputAbbreviatedPath": "\/css\/_respond-to.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -229,7 +229,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_settings.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_settings.css",
+		"outputAbbreviatedPath": "\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -245,7 +245,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_double.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_double.css",
+		"outputAbbreviatedPath": "\/css\/_double.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -261,7 +261,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_query.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_query.css",
+		"outputAbbreviatedPath": "\/css\/_query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -277,7 +277,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_resolution.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_resolution.css",
+		"outputAbbreviatedPath": "\/css\/_resolution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -293,7 +293,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_single.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_single.css",
+		"outputAbbreviatedPath": "\/css\/_single.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -309,7 +309,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_triple.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_triple.css",
+		"outputAbbreviatedPath": "\/css\/_triple.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -325,7 +325,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default-pair.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default-pair.css",
+		"outputAbbreviatedPath": "\/css\/_default-pair.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -341,7 +341,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default.css",
+		"outputAbbreviatedPath": "\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -357,7 +357,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_double-string.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_double-string.css",
+		"outputAbbreviatedPath": "\/css\/_double-string.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -373,7 +373,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/resolution\/_resolution.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/resolution\/_resolution.css",
+		"outputAbbreviatedPath": "\/css\/_resolution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -389,7 +389,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/single\/_default.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/single\/_default.css",
+		"outputAbbreviatedPath": "\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -405,7 +405,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/triple\/_default.scss",
-		"outputAbbreviatedPath": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/triple\/_default.css",
+		"outputAbbreviatedPath": "\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -453,7 +453,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/sassy-maps\/examples\/example.scss",
-		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/examples\/example.css",
+		"outputAbbreviatedPath": "\/css\/example.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -510,7 +510,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/_memo.scss",
-		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/_memo.css",
+		"outputAbbreviatedPath": "\/css\/_memo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -526,7 +526,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/_sassy-maps.scss",
-		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/_sassy-maps.css",
+		"outputAbbreviatedPath": "\/css\/_sassy-maps.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -542,7 +542,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-get.scss",
-		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-get.css",
+		"outputAbbreviatedPath": "\/css\/_map-get.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -558,7 +558,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-set.scss",
-		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-set.css",
+		"outputAbbreviatedPath": "\/css\/_map-set.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -574,7 +574,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-to-string.scss",
-		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-to-string.css",
+		"outputAbbreviatedPath": "\/css\/_map-to-string.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -612,7 +612,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/full_rubik_style.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -621,9 +621,9 @@
 		"inputAbbreviatedPath": "\/full_rubik_style.scss",
 		"outputAbbreviatedPath": "\/full_rubik_style.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -1168,10 +1168,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -1180,15 +1176,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1196,75 +1184,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

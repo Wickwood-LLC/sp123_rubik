@@ -59,23 +59,14 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 1em; }
 
 #mini-panel-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
   #mini-panel-header .panel-panel {
     width: auto; }
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-        -ms-flex: 0 auto;
-            flex: 0 auto; }
+    flex: 0 auto; }
   #mini-panel-header .panel-col {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 auto;
-        -ms-flex: 1 auto;
-            flex: 1 auto;
+    flex: 1 auto;
     text-align: center; }
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
@@ -177,21 +168,10 @@ div#toolbar div.toolbar-shortcuts ul {
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
   body.maintenance-page #page {
@@ -199,14 +179,8 @@ body.maintenance-page {
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 100%;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex: 1 1 100%;
+    justify-content: center;
     display: inherit; }
   body.maintenance-page #header .section {
     text-align: center; }
@@ -241,9 +215,6 @@ ul#views-display-menu-tabs {
   width: auto !important; }
 
 .pane-node-form-path .pane-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
 
 select.form-select {
@@ -259,4 +230,21 @@ label.panopoly-admin-hide-body-label-processed {
 .description p {
   margin: 1em 0; }
 
-/*# sourceMappingURL=full_rubik_style.css.map */
+.ui-widget-header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
+  background: #7db9e8;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7db9e8), color-stop(100%, #1e5799));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+  /* IE6-9 */ }
