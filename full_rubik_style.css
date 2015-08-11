@@ -252,7 +252,7 @@ select.form-select {
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-#node-edit #edit-body .form-type-textarea {
+.form-type-textarea {
   padding: 0;
   border: 0; }
 
