@@ -153,7 +153,9 @@ div#toolbar div.toolbar-shortcuts ul {
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.open a {
-      background-color: #f8f8f8; }
+      background-color: #f8f8f8;
+      width: 90%;
+      text-align: left; }
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
