@@ -100,7 +100,8 @@ div#toolbar div.toolbar-shortcuts ul {
       float: none; }
 #modal-content .form-actions {
   width: 46%;
-  padding: 1%; }
+  padding: 1%;
+  margin-left: 0; }
 
 #block-system-user-menu ul.menu {
   float: right; }
