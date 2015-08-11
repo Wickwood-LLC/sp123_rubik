@@ -229,14 +229,16 @@ select.form-select {
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-.form-item {
-  display: table; }
-  .form-item.form-type-textarea {
-    padding: 0;
-    border: 0; }
+.form-item.form-type-textarea {
+  padding: 0;
+  border: 0; }
 
 .description p {
   margin: 1em 0; }
+
+form .tabs {
+  position: relative;
+  z-index: 1; }
 
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
