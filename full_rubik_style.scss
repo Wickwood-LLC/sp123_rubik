@@ -322,6 +322,11 @@ label.panopoly-admin-hide-body-label-processed {
   p {
     margin: 1em 0;
   }
+
+  ul, ol {
+    margin: 0 2em;
+    list-style: initial;
+  }
 }
 
 form .tabs {

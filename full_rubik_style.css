@@ -237,6 +237,9 @@ label.panopoly-admin-hide-body-label-processed {
   color: black; }
   .description p {
     margin: 1em 0; }
+  .description ul, .description ol {
+    margin: 0 2em;
+    list-style: initial; }
 
 form .tabs {
   position: relative;
