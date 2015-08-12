@@ -335,6 +335,18 @@ form .tabs {
   background: -ms-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+  .ui-date-picker select {
+    color: white;
+  }
+  .ui-datepicker-current-day .ui-state-active {
+    background: #7DB9E8;
+  }
+
+  .ui-state-default, .ui-widget-content .ui-state-default,
+  .ui-widget-header .ui-state-default {
+    border: 1px solid transparent;
+  }
 }
 
 .ui-dialog-titlebar,

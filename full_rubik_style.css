@@ -258,6 +258,13 @@ form .tabs {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
+  .ui-widget-header .ui-date-picker select {
+    color: white; }
+  .ui-widget-header .ui-datepicker-current-day .ui-state-active {
+    background: #7DB9E8; }
+  .ui-widget-header .ui-state-default, .ui-widget-header .ui-widget-content .ui-state-default,
+  .ui-widget-header .ui-widget-header .ui-state-default {
+    border: 1px solid transparent; }
 
 .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
