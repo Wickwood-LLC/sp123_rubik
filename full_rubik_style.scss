@@ -316,8 +316,12 @@ label.panopoly-admin-hide-body-label-processed {
   border: 0;
 }
 
-.description p {
-  margin: 1em 0;
+.description {
+  color: black;
+
+  p {
+    margin: 1em 0;
+  }
 }
 
 form .tabs {
