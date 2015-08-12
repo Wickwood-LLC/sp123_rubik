@@ -23,6 +23,9 @@ body:not(.maintenance-page) #header {
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
+ol, ul, ul, ul li {
+  list-style: initial; }
+
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 

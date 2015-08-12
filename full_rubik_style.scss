@@ -28,6 +28,10 @@ body:not(.maintenance-page) #header {
   }
 }
 
+ol, ul, ul, ul li {
+  list-style: initial;
+}
+
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px;
 }
