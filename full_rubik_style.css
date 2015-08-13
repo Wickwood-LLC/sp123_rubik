@@ -30,7 +30,7 @@ body:not(.maintenance-page) #header {
 
 /* line 31, full_rubik_style.scss */
 ol, ul, ul, ul li {
-  list-style: initial !important;
+  list-style: initial;
   margin: 0.25em 0; }
 
 /* line 36, full_rubik_style.scss */
