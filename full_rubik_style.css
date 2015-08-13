@@ -62,7 +62,8 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 1em; }
 
 .primary-tabs li,
-.action-links li {
+.action-links li,
+#module-filter-tabs li {
   list-style: none; }
 
 #mini-panel-header {
