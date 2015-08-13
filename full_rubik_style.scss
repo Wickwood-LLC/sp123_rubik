@@ -25,6 +25,8 @@ pre {
 }
 q { 
   display: inline;
+  margin: 0 2em;
+  font-style: italic;
   &:before { 
     content: open-quote;
   }
