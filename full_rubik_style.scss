@@ -3,7 +3,6 @@
 /** Default Styles **/
 ol, ul, ul, ul li {
   list-style: initial;
-  margin: 0.25em 0;
 }
 big {
   font-size: larger;
@@ -48,6 +47,7 @@ sup {
 tt { 
   font-family: monospace;
 }
+/***********************/
 
 body:not(.page-admin),
 body.page-admin #header,
@@ -385,6 +385,10 @@ label.panopoly-admin-hide-body-label-processed {
   ul, ol {
     margin: 0 2em;
     list-style: initial;
+
+    li {
+      margin: 0.25em 0;
+    }
   }
 }
 

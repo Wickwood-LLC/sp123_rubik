@@ -1,62 +1,62 @@
 /** Default Styles **/
 /* line 4, full_rubik_style.scss */
 ol, ul, ul, ul li {
-  list-style: initial;
-  margin: 0.25em 0; }
+  list-style: initial; }
 
-/* line 8, full_rubik_style.scss */
+/* line 7, full_rubik_style.scss */
 big {
   font-size: larger; }
 
-/* line 11, full_rubik_style.scss */
+/* line 10, full_rubik_style.scss */
 code {
   font-family: monospace; }
 
-/* line 14, full_rubik_style.scss */
+/* line 13, full_rubik_style.scss */
 del {
   text-decoration: line-through; }
 
-/* line 17, full_rubik_style.scss */
+/* line 16, full_rubik_style.scss */
 ins {
   text-decoration: underline; }
 
-/* line 20, full_rubik_style.scss */
+/* line 19, full_rubik_style.scss */
 pre {
   display: block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0; }
 
-/* line 26, full_rubik_style.scss */
+/* line 25, full_rubik_style.scss */
 q {
   display: inline;
   margin: 0 2em;
   font-style: italic; }
-  /* line 30, full_rubik_style.scss */
+  /* line 29, full_rubik_style.scss */
   q:before {
     content: open-quote; }
-  /* line 33, full_rubik_style.scss */
+  /* line 32, full_rubik_style.scss */
   q:after {
     content: close-quote; }
 
-/* line 37, full_rubik_style.scss */
+/* line 36, full_rubik_style.scss */
 small {
   font-size: smaller; }
 
-/* line 40, full_rubik_style.scss */
+/* line 39, full_rubik_style.scss */
 sub {
   vertical-align: sub;
   font-size: smaller; }
 
-/* line 44, full_rubik_style.scss */
+/* line 43, full_rubik_style.scss */
 sup {
   vertical-align: super;
   font-size: smaller; }
 
-/* line 48, full_rubik_style.scss */
+/* line 47, full_rubik_style.scss */
 tt {
   font-family: monospace; }
 
+/***********************/
 /* line 55, full_rubik_style.scss */
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
@@ -404,17 +404,20 @@ label.panopoly-admin-hide-body-label-processed {
   .description ul, .description ol {
     margin: 0 2em;
     list-style: initial; }
+    /* line 389, full_rubik_style.scss */
+    .description ul li, .description ol li {
+      margin: 0.25em 0; }
 
-/* line 391, full_rubik_style.scss */
+/* line 395, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 396, full_rubik_style.scss */
+/* line 400, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 400, full_rubik_style.scss */
+/* line 404, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -431,20 +434,20 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 411, full_rubik_style.scss */
+/* line 415, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
 
-/* line 414, full_rubik_style.scss */
+/* line 418, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 418, full_rubik_style.scss */
+/* line 422, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 423, full_rubik_style.scss */
+/* line 427, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -463,11 +466,11 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 437, full_rubik_style.scss */
+/* line 441, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 441, full_rubik_style.scss */
+/* line 445, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0; }
