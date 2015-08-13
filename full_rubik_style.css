@@ -61,6 +61,10 @@ div#toolbar div.toolbar-shortcuts ul {
   display: table;
   margin-top: 1em; }
 
+.primary-tabs li,
+.action-links li {
+  list-style: none; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -146,7 +150,8 @@ div#toolbar div.toolbar-shortcuts ul {
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
-    float: none; }
+    float: none;
+    list-style: none; }
     @media (min-width: 980px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
