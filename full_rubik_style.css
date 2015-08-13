@@ -464,4 +464,8 @@ form .tabs {
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
+/* line 438, full_rubik_style.scss */
+#admin-menu .shortcut-toolbar li {
+  padding: 0; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
