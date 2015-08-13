@@ -28,7 +28,7 @@ body:not(.maintenance-page) #header {
   }
 }
 
-li {
+ol, ul, ul, ul li {
   list-style: initial !important;
   margin: 0.25em 0;
 }
