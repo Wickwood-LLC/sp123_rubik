@@ -1,5 +1,58 @@
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
 
+/** Default Styles **/
+ol, ul, ul, ul li {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  list-style: initial;
+}
+big {
+  font-size: larger;
+}
+code {
+  font-family: monospace;
+}
+del {
+  text-decoration: line-through;
+}
+ins { 
+  text-decoration: underline;
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+q { 
+  display: inline;
+  &:before { 
+    content: open-quote;
+  }
+  &:after { 
+    content: close-quote;
+  }
+}
+small { 
+  font-size: smaller;
+}
+sub { 
+  vertical-align: sub;
+  font-size: smaller;
+}
+sup { 
+  vertical-align: super;
+  font-size: smaller;
+}
+tt { 
+  font-family: monospace;
+}
+/*************************/
+
 body:not(.page-admin),
 body.page-admin #header,
 body.page-admin .region-footer {
@@ -26,11 +79,6 @@ body:not(.maintenance-page) #header {
   >#site-slogan {
     display: none;
   }
-}
-
-ol, ul, ul, ul li {
-  list-style: initial;
-  margin: 0.25em 0;
 }
 
 div#toolbar div.toolbar-shortcuts ul {
