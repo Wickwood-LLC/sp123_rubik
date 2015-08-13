@@ -467,6 +467,7 @@ form .tabs {
 
 /* line 439, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
-  padding: 0; }
+  padding: 0;
+  border: 0; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
