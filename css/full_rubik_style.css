@@ -356,6 +356,10 @@ form .tabs {
   z-index: 1; }
 
 /* line 351, ../full_rubik_style.scss */
+.form-item label {
+  color: black; }
+
+/* line 355, ../full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -372,20 +376,20 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 362, ../full_rubik_style.scss */
+/* line 366, ../full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
 
-/* line 365, ../full_rubik_style.scss */
+/* line 369, ../full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 369, ../full_rubik_style.scss */
+/* line 373, ../full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 374, ../full_rubik_style.scss */
+/* line 378, ../full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -404,7 +408,7 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 388, ../full_rubik_style.scss */
+/* line 392, ../full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
