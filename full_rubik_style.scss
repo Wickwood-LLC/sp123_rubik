@@ -28,8 +28,9 @@ body:not(.maintenance-page) #header {
   }
 }
 
-ol, ul, ul, ul li {
-  list-style: initial;
+li {
+  list-style: initial !important;
+  margin: 0.25em 0;
 }
 
 div#toolbar div.toolbar-shortcuts ul {
