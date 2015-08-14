@@ -415,8 +415,13 @@ form .tabs {
   background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
 }
-.ui-datepicker .ui-datepicker-title select {
-  color: white; 
+.ui-datepicker {
+  .ui-datepicker-title select {
+    color: white; 
+  }
+  .ui-icon {
+    filter: invert(1);
+  }
 }
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8;
@@ -441,6 +446,8 @@ form .tabs {
   padding: 0 14px 0 24px;
 }
 
+
+
 .treeTable tr td .expander {
   margin-left: 0 !important;
 }
@@ -459,10 +466,4 @@ form .tabs {
 }
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em;
-}
-
-.apps-featured-screenshot {
-  @include filter-custom(sepia(100%)); // REQUIRED but doesn't have to have a value
-  @include filter-color(#ffb400, 0.5);// Filter color and opacity
-  @include filter-vignette(white, 70%, 90%, 3rem); // Color, start, stop and inset boxshadow
 }

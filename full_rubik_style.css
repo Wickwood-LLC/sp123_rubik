@@ -480,20 +480,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 418, full_rubik_style.scss */
+/* line 419, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
+/* line 422, full_rubik_style.scss */
+.ui-datepicker .ui-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1); }
 
-/* line 421, full_rubik_style.scss */
+/* line 426, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 425, full_rubik_style.scss */
+/* line 430, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 430, full_rubik_style.scss */
+/* line 435, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -512,45 +516,23 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 444, full_rubik_style.scss */
+/* line 451, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 448, full_rubik_style.scss */
+/* line 455, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 455, full_rubik_style.scss */
+/* line 462, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 460, full_rubik_style.scss */
+/* line 467, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
-
-/* line 464, full_rubik_style.scss */
-.apps-featured-screenshot {
-  -webkit-filter: sepia(100%);
-  position: relative; }
-  /* line 183, bower_components/sassmatic/sass/_sassmatic.scss */
-  .apps-featured-screenshot:after {
-    content: "";
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 4; }
-  /* line 200, bower_components/sassmatic/sass/_sassmatic.scss */
-  .apps-featured-screenshot:after {
-    background-color: rgba(255, 180, 0, 0.5); }
-  /* line 211, bower_components/sassmatic/sass/_sassmatic.scss */
-  .apps-featured-screenshot:after {
-    background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.9) 90%);
-    background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.9) 90%);
-    box-shadow: inset 0 0 3rem white; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
