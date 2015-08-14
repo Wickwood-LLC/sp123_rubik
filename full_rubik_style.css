@@ -477,7 +477,12 @@ form .tabs {
   border: 0;
   margin: 0.25em 0; }
 
-/* line 452, full_rubik_style.scss */
+/* line 453, full_rubik_style.scss */
+#media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
+  padding: 0 0.5em;
+  margin-top: -2px; }
+
+/* line 458, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 

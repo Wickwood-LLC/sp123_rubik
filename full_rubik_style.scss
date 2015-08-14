@@ -449,6 +449,12 @@ form .tabs {
   margin: 0.25em 0;
 }
 
+#media-tabs-wrapper .ui-tabs-nav {
+  li, li.ui-state-active {
+    padding: 0 0.5em;
+    margin-top: -2px;
+  }
+}
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em;
 }
