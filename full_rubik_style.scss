@@ -141,6 +141,11 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+ul.links li, 
+ul.links li a {
+  float: none;
+}
+
 #mini-panel-header {
   display: flex;
 
