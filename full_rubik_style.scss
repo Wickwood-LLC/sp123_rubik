@@ -9,6 +9,19 @@ ol, ul, ul, ul li {
 big {
   font-size: larger;
 }
+blockquote {
+  display: block;
+  font-style: italic;
+  margin: 1em 2em;
+  quotes: '\201c' '\201d';
+
+  &:before {
+    content: open-quote;
+  }
+  &:after { 
+    content: close-quote;
+  }
+}
 code {
   font-family: monospace;
 }
@@ -26,8 +39,9 @@ pre {
 }
 q { 
   display: inline;
-  margin: 0 2em;
   font-style: italic;
+  quotes: '\201c' '\201d';
+
   &:before { 
     content: open-quote;
   }

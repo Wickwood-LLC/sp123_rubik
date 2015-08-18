@@ -53,56 +53,69 @@ big {
   font-size: larger; }
 
 /* line 12, full_rubik_style.scss */
+blockquote {
+  display: block;
+  font-style: italic;
+  margin: 1em 2em;
+  quotes: '\201c' '\201d'; }
+  /* line 18, full_rubik_style.scss */
+  blockquote:before {
+    content: open-quote; }
+  /* line 21, full_rubik_style.scss */
+  blockquote:after {
+    content: close-quote; }
+
+/* line 25, full_rubik_style.scss */
 code {
   font-family: monospace; }
 
-/* line 15, full_rubik_style.scss */
+/* line 28, full_rubik_style.scss */
 del {
   text-decoration: line-through; }
 
-/* line 18, full_rubik_style.scss */
+/* line 31, full_rubik_style.scss */
 ins {
   text-decoration: underline; }
 
-/* line 21, full_rubik_style.scss */
+/* line 34, full_rubik_style.scss */
 pre {
   display: block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0; }
 
-/* line 27, full_rubik_style.scss */
+/* line 40, full_rubik_style.scss */
 q {
   display: inline;
-  margin: 0 2em;
-  font-style: italic; }
-  /* line 31, full_rubik_style.scss */
+  font-style: italic;
+  quotes: '\201c' '\201d'; }
+  /* line 45, full_rubik_style.scss */
   q:before {
     content: open-quote; }
-  /* line 34, full_rubik_style.scss */
+  /* line 48, full_rubik_style.scss */
   q:after {
     content: close-quote; }
 
-/* line 38, full_rubik_style.scss */
+/* line 52, full_rubik_style.scss */
 small {
   font-size: smaller; }
 
-/* line 41, full_rubik_style.scss */
+/* line 55, full_rubik_style.scss */
 sub {
   vertical-align: sub;
   font-size: smaller; }
 
-/* line 45, full_rubik_style.scss */
+/* line 59, full_rubik_style.scss */
 sup {
   vertical-align: super;
   font-size: smaller; }
 
-/* line 49, full_rubik_style.scss */
+/* line 63, full_rubik_style.scss */
 tt {
   font-family: monospace; }
 
 /***********************/
-/* line 57, full_rubik_style.scss */
+/* line 71, full_rubik_style.scss */
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
 body.page-admin #header .block,
@@ -111,71 +124,71 @@ body.page-admin .region-footer .block,
 body.page-admin .region-footer table {
   border: 0px; }
 
-/* line 62, full_rubik_style.scss */
+/* line 76, full_rubik_style.scss */
 .help-page, div.comment, div.node {
   background: none;
   border: 0px; }
 
-/* line 66, full_rubik_style.scss */
+/* line 80, full_rubik_style.scss */
 body.tao {
   color: black; }
 
-/* line 70, full_rubik_style.scss */
+/* line 84, full_rubik_style.scss */
 body:not(.maintenance-page) #header {
   /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
   These can also be hidden by disablng it in the theme settings, 
   but if we do that, the mini panel won't display it too. However, if 
   the mini panel is not used, we can comment out this rule. */ }
-  /* line 75, full_rubik_style.scss */
+  /* line 89, full_rubik_style.scss */
   body:not(.maintenance-page) #header > #logo,
   body:not(.maintenance-page) #header > #site-name,
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
-/* line 82, full_rubik_style.scss */
+/* line 96, full_rubik_style.scss */
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 
-/* line 86, full_rubik_style.scss */
+/* line 100, full_rubik_style.scss */
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0; }
 
-/* line 95, full_rubik_style.scss */
+/* line 109, full_rubik_style.scss */
 .view-press-releases-test .featured-display .views-field-title h2,
 .view-articles-test .featured-display .views-field-title h2,
 .view-news-test .featured-display .views-field-title h2 {
   font-size: 1.5em; }
-/* line 98, full_rubik_style.scss */
+/* line 112, full_rubik_style.scss */
 .view-press-releases-test .featured-display .views-field-body,
 .view-articles-test .featured-display .views-field-body,
 .view-news-test .featured-display .views-field-body {
   font-size: 14px; }
-/* line 102, full_rubik_style.scss */
+/* line 116, full_rubik_style.scss */
 .view-press-releases-test .featured-image img,
 .view-articles-test .featured-image img,
 .view-news-test .featured-image img {
   width: 100%;
   height: auto; }
-/* line 106, full_rubik_style.scss */
+/* line 120, full_rubik_style.scss */
 .view-press-releases-test .views-field-title h3,
 .view-articles-test .views-field-title h3,
 .view-news-test .views-field-title h3 {
   font-size: 1.17em; }
-/* line 109, full_rubik_style.scss */
+/* line 123, full_rubik_style.scss */
 .view-press-releases-test .views-list-thumbnail,
 .view-articles-test .views-list-thumbnail,
 .view-news-test .views-list-thumbnail {
   float: left;
   margin-right: 15px; }
-/* line 113, full_rubik_style.scss */
+/* line 127, full_rubik_style.scss */
 .view-press-releases-test.main-display .views-row,
 .view-articles-test.main-display .views-row,
 .view-news-test.main-display .views-row {
   display: table;
   margin-top: 1em; }
 
-/* line 125, full_rubik_style.scss */
+/* line 139, full_rubik_style.scss */
 .links li,
 .actions li,
 .primary-tabs li,
@@ -184,146 +197,146 @@ div#toolbar div.toolbar-shortcuts ul {
 #module-filter-tabs li {
   list-style: none; }
 
-/* line 130, full_rubik_style.scss */
+/* line 144, full_rubik_style.scss */
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 133, full_rubik_style.scss */
+  /* line 147, full_rubik_style.scss */
   #mini-panel-header .panel-panel {
     width: auto; }
-  /* line 137, full_rubik_style.scss */
+  /* line 151, full_rubik_style.scss */
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
         -ms-flex: 0 auto;
             flex: 0 auto; }
-  /* line 141, full_rubik_style.scss */
+  /* line 155, full_rubik_style.scss */
   #mini-panel-header .panel-col {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto;
     text-align: center; }
-    /* line 145, full_rubik_style.scss */
+    /* line 159, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
       line-height: 1.5; }
-    /* line 149, full_rubik_style.scss */
+    /* line 163, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-slogan {
       font-size: 1.5em;
       line-height: 1.5; }
 
-/* line 156, full_rubik_style.scss */
+/* line 170, full_rubik_style.scss */
 .secure-site-notif .block-content {
   background-color: #2ECC71;
   text-align: center;
   padding: 10px; }
 
-/* line 161, full_rubik_style.scss */
+/* line 175, full_rubik_style.scss */
 .region-footer #block-block-2 .block-content {
   text-align: center; }
-  /* line 164, full_rubik_style.scss */
+  /* line 178, full_rubik_style.scss */
   .region-footer #block-block-2 .block-content p {
     margin: 0; }
 
-/* line 170, full_rubik_style.scss */
+/* line 184, full_rubik_style.scss */
 #modal-content #views-content-views-content-type-edit-form {
   float: left;
   width: 50%; }
-  /* line 174, full_rubik_style.scss */
+  /* line 188, full_rubik_style.scss */
   #modal-content #views-content-views-content-type-edit-form .form-actions {
     position: absolute;
     right: 12px;
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-  /* line 181, full_rubik_style.scss */
+  /* line 195, full_rubik_style.scss */
   #modal-content #views-content-views-content-type-edit-form .option-text-aligner {
     width: 100%; }
-    /* line 184, full_rubik_style.scss */
+    /* line 198, full_rubik_style.scss */
     #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
       float: none; }
-/* line 190, full_rubik_style.scss */
+/* line 204, full_rubik_style.scss */
 #modal-content .form-actions {
   width: 46%;
   padding: 1%;
   margin-left: 0; }
 
-/* line 198, full_rubik_style.scss */
+/* line 212, full_rubik_style.scss */
 #block-system-user-menu ul.menu {
   float: right; }
-  /* line 201, full_rubik_style.scss */
+  /* line 215, full_rubik_style.scss */
   #block-system-user-menu ul.menu li {
     float: left;
     border: 0; }
 
-/* line 209, full_rubik_style.scss */
+/* line 223, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
-/* line 216, full_rubik_style.scss */
+/* line 230, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: table;
   margin: 0 auto; }
-  /* line 221, full_rubik_style.scss */
+  /* line 235, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
     @media (min-width: 980px) {
-      /* line 221, full_rubik_style.scss */
+      /* line 235, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  /* line 229, full_rubik_style.scss */
+  /* line 243, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
     @media (min-width: 980px) {
-      /* line 229, full_rubik_style.scss */
+      /* line 243, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  /* line 239, full_rubik_style.scss */
+  /* line 253, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8; }
-  /* line 243, full_rubik_style.scss */
+  /* line 257, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
     float: none;
     list-style: none; }
     @media (min-width: 980px) {
-      /* line 243, full_rubik_style.scss */
+      /* line 257, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
-    /* line 253, full_rubik_style.scss */
+    /* line 267, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
       background-color: #7bc !important;
       color: #fff;
       text-shadow: #38a 0px 1px 0px; }
-    /* line 259, full_rubik_style.scss */
+    /* line 273, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 259, full_rubik_style.scss */
+        /* line 273, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
-    /* line 267, full_rubik_style.scss */
+    /* line 281, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 267, full_rubik_style.scss */
+        /* line 281, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
-    /* line 274, full_rubik_style.scss */
+    /* line 288, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open a {
       background-color: #f8f8f8;
       width: 90%;
       text-align: left; }
-    /* line 280, full_rubik_style.scss */
+    /* line 294, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
@@ -333,15 +346,15 @@ div#toolbar div.toolbar-shortcuts ul {
       float: none;
       padding: 5px 10px; }
       @media (min-width: 980px) {
-        /* line 280, full_rubik_style.scss */
+        /* line 294, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
           float: left; } }
-      /* line 293, full_rubik_style.scss */
+      /* line 307, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover {
         background-color: #f8f8f8; }
 
 /* Maintenance page styles */
-/* line 302, full_rubik_style.scss */
+/* line 316, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -360,13 +373,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 309, full_rubik_style.scss */
+  /* line 323, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 312, full_rubik_style.scss */
+  /* line 326, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 315, full_rubik_style.scss */
+  /* line 329, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -379,92 +392,92 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 322, full_rubik_style.scss */
+  /* line 336, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 325, full_rubik_style.scss */
+  /* line 339, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 329, full_rubik_style.scss */
+  /* line 343, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 333, full_rubik_style.scss */
+  /* line 347, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 337, full_rubik_style.scss */
+  /* line 351, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 342, full_rubik_style.scss */
+  /* line 356, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em; }
 
 /* Admin page styles */
-/* line 350, full_rubik_style.scss */
+/* line 364, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 353, full_rubik_style.scss */
+  /* line 367, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 357, full_rubik_style.scss */
+/* line 371, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 361, full_rubik_style.scss */
+/* line 375, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 365, full_rubik_style.scss */
+/* line 379, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 369, full_rubik_style.scss */
+/* line 383, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 373, full_rubik_style.scss */
+/* line 387, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 377, full_rubik_style.scss */
+/* line 391, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 382, full_rubik_style.scss */
+/* line 396, full_rubik_style.scss */
 .description {
   color: black; }
-  /* line 385, full_rubik_style.scss */
+  /* line 399, full_rubik_style.scss */
   .description p {
     margin: 1em 0; }
-  /* line 389, full_rubik_style.scss */
+  /* line 403, full_rubik_style.scss */
   .description ul, .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 393, full_rubik_style.scss */
+    /* line 407, full_rubik_style.scss */
     .description ul li, .description ol li {
       margin: 0.25em 0; }
 
-/* line 399, full_rubik_style.scss */
+/* line 413, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 404, full_rubik_style.scss */
+/* line 418, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 408, full_rubik_style.scss */
+/* line 422, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -481,24 +494,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 420, full_rubik_style.scss */
+/* line 434, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 423, full_rubik_style.scss */
+/* line 437, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 427, full_rubik_style.scss */
+/* line 441, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 431, full_rubik_style.scss */
+/* line 445, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 436, full_rubik_style.scss */
+/* line 450, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -517,22 +530,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 452, full_rubik_style.scss */
+/* line 466, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 456, full_rubik_style.scss */
+/* line 470, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 463, full_rubik_style.scss */
+/* line 477, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 468, full_rubik_style.scss */
+/* line 482, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
