@@ -141,8 +141,8 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-ul.links li, 
-ul.links li a {
+.links li, 
+.links li a {
   float: none;
 }
 
@@ -398,6 +398,7 @@ label.panopoly-admin-hide-body-label-processed {
   border: 0;
 }
 
+.inline-field-descriptions .description,
 .description {
   color: #687;
   background-color: #F5FCF9;
