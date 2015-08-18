@@ -460,24 +460,24 @@ label.panopoly-admin-hide-body-label-processed {
   border: 0; }
 
 /* line 401, full_rubik_style.scss */
-.rubik-inline-field-descriptions .description,
+.rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: #687;
   background-color: #F5FCF9;
   border: 1px solid #D8E4E0;
   padding: 9px 10px; }
   /* line 408, full_rubik_style.scss */
-  .rubik-inline-field-descriptions .description p,
+  .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
   /* line 412, full_rubik_style.scss */
-  .rubik-inline-field-descriptions .description ul, .rubik-inline-field-descriptions .description ol,
+  .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
     /* line 416, full_rubik_style.scss */
-    .rubik-inline-field-descriptions .description ul li, .rubik-inline-field-descriptions .description ol li,
+    .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0; }
