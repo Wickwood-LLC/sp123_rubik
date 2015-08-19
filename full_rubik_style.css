@@ -198,8 +198,8 @@ div#toolbar div.toolbar-shortcuts ul {
   list-style: none; }
 
 /* line 144, full_rubik_style.scss */
-.links li,
-.links li a {
+ul.links li,
+ul.links li a {
   float: none; }
 
 /* line 149, full_rubik_style.scss */
