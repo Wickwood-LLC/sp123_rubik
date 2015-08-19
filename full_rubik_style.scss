@@ -143,6 +143,12 @@ ul.links li a {
   float: none;
 }
 
+ul.primary-tabs.links {
+  li, li a {
+    float: left;
+  }
+}
+
 #mini-panel-header {
   display: flex;
 
