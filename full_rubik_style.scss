@@ -189,6 +189,9 @@ ul.primary-tabs.links {
 }
 
 #modal-content {
+  .form-item {
+    position: static;
+  }
   #views-content-views-content-type-edit-form {
     float: left;
     width: 50%;
