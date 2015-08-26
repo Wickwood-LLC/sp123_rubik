@@ -194,8 +194,8 @@ div#toolbar div.toolbar-shortcuts ul {
   list-style: none; }
 
 /* line 142, full_rubik_style.scss */
-.secondary-tabs li,
-.secondary-tabs li a {
+ul.secondary-tabs.links li,
+ul.secondary-tabs.links li a {
   float: none; }
 
 /* line 148, full_rubik_style.scss */
