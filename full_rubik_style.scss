@@ -149,19 +149,12 @@ ul.links li a {
   float: none;
 }
 
-ul.action-links li,
-ul.action-links li a {
-  float: left;
-}
-
+ul.action-links,
+ul.links.pager,
 ul.primary-tabs.links {
   li, li a {
     float: left;
   }
-}
-
-ul.links.pager li {
-  float: left;
 }
 
 #mini-panel-header {
