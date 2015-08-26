@@ -138,9 +138,20 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+.secondary-tabs {
+  li,
+  li a {
+    float: none;
+  }
+}
+
 ul.links li, 
 ul.links li a {
   float: none;
+}
+
+ul.action-links li {
+  float: left;
 }
 
 ul.primary-tabs.links {
