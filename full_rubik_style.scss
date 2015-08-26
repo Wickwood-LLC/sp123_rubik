@@ -138,9 +138,8 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-ul.secondary-tabs.links {
-  li,
-  li a {
+ul.secondary-tabs.links:hover {
+  li, li a {
     float: none;
   }
 }
