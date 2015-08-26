@@ -269,90 +269,102 @@ ul.primary-tabs.links li a {
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-  /* line 214, full_rubik_style.scss */
-  #modal-content #views-content-views-content-type-edit-form .option-text-aligner {
-    width: 100%; }
-    /* line 217, full_rubik_style.scss */
-    #modal-content #views-content-views-content-type-edit-form .option-text-aligner .form-item {
-      float: none; }
-/* line 223, full_rubik_style.scss */
+/* line 215, full_rubik_style.scss */
+#modal-content .option-text-aligner {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 223, full_rubik_style.scss */
+  #modal-content .option-text-aligner .form-item {
+    float: none;
+    border: 0; }
+/* line 229, full_rubik_style.scss */
 #modal-content .form-actions {
   width: 46%;
   padding: 1%;
   margin-left: 0; }
 
-/* line 231, full_rubik_style.scss */
+/* line 237, full_rubik_style.scss */
 #block-system-user-menu ul.menu {
   float: right; }
-  /* line 234, full_rubik_style.scss */
+  /* line 240, full_rubik_style.scss */
   #block-system-user-menu ul.menu li {
     float: left;
     border: 0; }
 
-/* line 242, full_rubik_style.scss */
+/* line 248, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
-/* line 249, full_rubik_style.scss */
+/* line 255, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: table;
   margin: 0 auto; }
-  /* line 254, full_rubik_style.scss */
+  /* line 260, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
     @media (min-width: 980px) {
-      /* line 254, full_rubik_style.scss */
+      /* line 260, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  /* line 262, full_rubik_style.scss */
+  /* line 268, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
     @media (min-width: 980px) {
-      /* line 262, full_rubik_style.scss */
+      /* line 268, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  /* line 272, full_rubik_style.scss */
+  /* line 278, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8; }
-  /* line 276, full_rubik_style.scss */
+  /* line 282, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
     float: none;
     list-style: none; }
     @media (min-width: 980px) {
-      /* line 276, full_rubik_style.scss */
+      /* line 282, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
-    /* line 286, full_rubik_style.scss */
+    /* line 292, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
       background-color: #7bc !important;
       color: #fff;
       text-shadow: #38a 0px 1px 0px; }
-    /* line 292, full_rubik_style.scss */
+    /* line 298, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 292, full_rubik_style.scss */
+        /* line 298, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
-    /* line 300, full_rubik_style.scss */
+    /* line 306, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 300, full_rubik_style.scss */
+        /* line 306, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
-    /* line 307, full_rubik_style.scss */
+    /* line 313, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open a {
       background-color: #f8f8f8;
       width: 90%;
       text-align: left; }
-    /* line 313, full_rubik_style.scss */
+    /* line 319, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
@@ -362,15 +374,15 @@ ul.primary-tabs.links li a {
       float: none;
       padding: 5px 10px; }
       @media (min-width: 980px) {
-        /* line 313, full_rubik_style.scss */
+        /* line 319, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
           float: left; } }
-      /* line 326, full_rubik_style.scss */
+      /* line 332, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover {
         background-color: #f8f8f8; }
 
 /* Maintenance page styles */
-/* line 335, full_rubik_style.scss */
+/* line 341, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -389,13 +401,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 342, full_rubik_style.scss */
+  /* line 348, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 345, full_rubik_style.scss */
+  /* line 351, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 348, full_rubik_style.scss */
+  /* line 354, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -408,69 +420,69 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 355, full_rubik_style.scss */
+  /* line 361, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 358, full_rubik_style.scss */
+  /* line 364, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 362, full_rubik_style.scss */
+  /* line 368, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 366, full_rubik_style.scss */
+  /* line 372, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 370, full_rubik_style.scss */
+  /* line 376, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 375, full_rubik_style.scss */
+  /* line 381, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em; }
 
 /* Admin page styles */
-/* line 383, full_rubik_style.scss */
+/* line 389, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 386, full_rubik_style.scss */
+  /* line 392, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 390, full_rubik_style.scss */
+/* line 396, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 394, full_rubik_style.scss */
+/* line 400, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 398, full_rubik_style.scss */
+/* line 404, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 402, full_rubik_style.scss */
+/* line 408, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 406, full_rubik_style.scss */
+/* line 412, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 410, full_rubik_style.scss */
+/* line 416, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 415, full_rubik_style.scss */
+/* line 421, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: #687;
@@ -479,32 +491,32 @@ label.panopoly-admin-hide-body-label-processed {
   border: 1px solid #D8E4E0;
   padding: 9px 10px;
   clear: both; }
-  /* line 424, full_rubik_style.scss */
+  /* line 430, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-  /* line 428, full_rubik_style.scss */
+  /* line 434, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 432, full_rubik_style.scss */
+    /* line 438, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0; }
 
-/* line 438, full_rubik_style.scss */
+/* line 444, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 443, full_rubik_style.scss */
+/* line 449, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 447, full_rubik_style.scss */
+/* line 453, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -521,24 +533,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 459, full_rubik_style.scss */
+/* line 465, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 462, full_rubik_style.scss */
+/* line 468, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 466, full_rubik_style.scss */
+/* line 472, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 470, full_rubik_style.scss */
+/* line 476, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 475, full_rubik_style.scss */
+/* line 481, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -557,22 +569,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 491, full_rubik_style.scss */
+/* line 497, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 495, full_rubik_style.scss */
+/* line 501, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 502, full_rubik_style.scss */
+/* line 508, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 507, full_rubik_style.scss */
+/* line 513, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 

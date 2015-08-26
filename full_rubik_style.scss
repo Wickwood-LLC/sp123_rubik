@@ -211,12 +211,18 @@ ul.primary-tabs.links {
       width: 47%;
       padding: 9px 0;
     }
-    .option-text-aligner {
-      width: 100%;
+  }
+  .option-text-aligner {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 
-      .form-item {
-        float: none;
-      }
+    .form-item {
+      float: none;
+      border: 0;
     }
   }
 
