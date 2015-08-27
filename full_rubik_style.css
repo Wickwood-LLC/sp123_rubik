@@ -194,7 +194,7 @@ label,
   text-transform: capitalize; }
 
 /* line 139, full_rubik_style.scss */
-.cke_toolbar a.cke_button:hover:before {
+.cke_toolbar a.cke_button:hover:after {
   content: attr(title);
   background-color: grey;
   border: 1px solid black;
