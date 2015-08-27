@@ -127,11 +127,12 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-.form-actions input,
-.pane-title,
 label,
+.pane-title,
 .ckeditor_links,
-.link-edit-summary {
+.link-edit-summary,
+.form-actions input,
+.vertical-tabs-list li a strong {
   text-transform: capitalize;
 }
 
