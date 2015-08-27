@@ -437,8 +437,14 @@ label.panopoly-admin-hide-body-label-processed {
 
     li {
       margin: 0.25em 0;
+      list-style: disc;
     }
   }
+}
+
+.admin-list .description {
+  display: inline-block;
+  margin-left: 15px;
 }
 
 form .tabs {
