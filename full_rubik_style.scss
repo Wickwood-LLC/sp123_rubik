@@ -136,7 +136,7 @@ label,
   text-transform: capitalize;
 }
 
-.cke_top {
+.cke_inner .cke_top {
   overflow: visible;
   display: flex;
 }
@@ -149,7 +149,7 @@ label,
     color: #FFFFFF;
     padding: 4px 8px;
     position: absolute;
-    top: 130%;
+    top: -30%;
     left: 50%;
     background: #000000;
     text-align: center;
