@@ -1,1 +1,1 @@
-!function($){Drupal.behaviors.hideTooltip={attach:function(t,a){$(".cke_toolbar a.cke_button").each(function(){var t=$(this);t.data("title",t.attr("title")),t.removeAttr("title")})}}}(jQuery);
+!function($){Drupal.behaviors.hideTooltip={attach:function(t,e){$(".cke_toolbar a.cke_button").data("title",$this.attr("title")).removeAttr("title")}}}(jQuery);
