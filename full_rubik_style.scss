@@ -158,6 +158,8 @@ label,
   }
 
   &:after {
+    content: '';
+    position: absolute;
     width: 0;
     height: 0;
     border-top: 5px solid #000;
