@@ -1,7 +1,10 @@
 (function ($) {
   Drupal.behaviors.hideTooltip = {
     attach: function (context, settings) {
-    	$('.cke_toolbar a.cke_button').removeAttr('title');
+    	$(document).ready(function(){
+    		$('body').append('<button> Show/Hide help text </button>');
+    		$('a').removeAttr("title");
+    	});
     }
   };
 }(jQuery));
