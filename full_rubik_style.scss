@@ -136,14 +136,23 @@ label,
   text-transform: capitalize;
 }
 
-.cke_toolbar a.cke_button:hover:after {
-  content: attr(title);
-  background-color: grey;
-  border: 1px solid black;
-  font-size: 10px;
-  position: absolute;
-  top: 10px;
-  text-transform: capitalize;
+.cke_toolbar a.cke_button:hover {
+  position: relative;
+
+  &:before {
+    content: attr(title);
+    color: #FFFFFF;
+    padding: 4px 8px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    background: #000000;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+    text-transform: capitalize;
+  }
 }
 
 .links,
