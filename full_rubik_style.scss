@@ -136,6 +136,11 @@ label,
   text-transform: capitalize;
 }
 
+.cke_top {
+  overflow: visible;
+  display: flex;
+}
+
 .cke_toolbar a.cke_button:hover {
   position: relative;
 
@@ -144,9 +149,8 @@ label,
     color: #FFFFFF;
     padding: 4px 8px;
     position: absolute;
-    top: 100%;
+    top: 130%;
     left: 50%;
-    margin-left: -50%;
     background: #000000;
     text-align: center;
     border-radius: 6px;
