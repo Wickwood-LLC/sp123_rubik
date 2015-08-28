@@ -210,14 +210,21 @@ label,
     color: #FFFFFF;
     padding: 4px 8px;
     position: absolute;
-    top: -30%;
+    bottom: 130%;
     left: 50%;
     background: #000000;
     text-align: center;
     border-radius: 6px;
     text-transform: capitalize; }
+  /* line 160, full_rubik_style.scss */
+  .cke_toolbar a.cke_button:hover:after {
+    width: 0;
+    height: 0;
+    border-top: 5px solid #000;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent; }
 
-/* line 167, full_rubik_style.scss */
+/* line 175, full_rubik_style.scss */
 .links li,
 .actions li,
 .primary-tabs li,
@@ -226,16 +233,16 @@ label,
 #module-filter-tabs li {
   list-style: none; }
 
-/* line 173, full_rubik_style.scss */
+/* line 181, full_rubik_style.scss */
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
 
-/* line 178, full_rubik_style.scss */
+/* line 186, full_rubik_style.scss */
 ul.links li,
 ul.links li a {
   float: none; }
 
-/* line 186, full_rubik_style.scss */
+/* line 194, full_rubik_style.scss */
 ul.action-links li, ul.action-links li a,
 ul.links.pager li,
 ul.links.pager li a,
@@ -243,66 +250,66 @@ ul.primary-tabs.links li,
 ul.primary-tabs.links li a {
   float: left; }
 
-/* line 191, full_rubik_style.scss */
+/* line 199, full_rubik_style.scss */
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 194, full_rubik_style.scss */
+  /* line 202, full_rubik_style.scss */
   #mini-panel-header .panel-panel {
     width: auto; }
-  /* line 198, full_rubik_style.scss */
+  /* line 206, full_rubik_style.scss */
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
         -ms-flex: 0 auto;
             flex: 0 auto; }
-  /* line 202, full_rubik_style.scss */
+  /* line 210, full_rubik_style.scss */
   #mini-panel-header .panel-col {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto;
     text-align: center; }
-    /* line 206, full_rubik_style.scss */
+    /* line 214, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
       line-height: 1.5; }
-    /* line 210, full_rubik_style.scss */
+    /* line 218, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-slogan {
       font-size: 1.5em;
       line-height: 1.5; }
 
-/* line 217, full_rubik_style.scss */
+/* line 225, full_rubik_style.scss */
 .secure-site-notif .block-content {
   background-color: #2ECC71;
   text-align: center;
   padding: 10px; }
 
-/* line 222, full_rubik_style.scss */
+/* line 230, full_rubik_style.scss */
 .region-footer #block-block-2 .block-content {
   text-align: center; }
-  /* line 225, full_rubik_style.scss */
+  /* line 233, full_rubik_style.scss */
   .region-footer #block-block-2 .block-content p {
     margin: 0; }
 
-/* line 231, full_rubik_style.scss */
+/* line 239, full_rubik_style.scss */
 #modal-content .form-item {
   position: static; }
-/* line 234, full_rubik_style.scss */
+/* line 242, full_rubik_style.scss */
 #modal-content #views-content-views-content-type-edit-form {
   float: left;
   width: 50%; }
-  /* line 238, full_rubik_style.scss */
+  /* line 246, full_rubik_style.scss */
   #modal-content #views-content-views-content-type-edit-form .form-actions {
     position: absolute;
     right: 12px;
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-/* line 246, full_rubik_style.scss */
+/* line 254, full_rubik_style.scss */
 #modal-content .option-text-aligner {
   width: 100%;
   border: 1px solid #ddd;
@@ -316,88 +323,88 @@ ul.primary-tabs.links li a {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 254, full_rubik_style.scss */
+  /* line 262, full_rubik_style.scss */
   #modal-content .option-text-aligner .form-item {
     float: none;
     border: 0; }
-/* line 260, full_rubik_style.scss */
+/* line 268, full_rubik_style.scss */
 #modal-content .form-actions {
   width: 46%;
   padding: 1%;
   margin-left: 0; }
 
-/* line 268, full_rubik_style.scss */
+/* line 276, full_rubik_style.scss */
 #block-system-user-menu ul.menu {
   float: right; }
-  /* line 271, full_rubik_style.scss */
+  /* line 279, full_rubik_style.scss */
   #block-system-user-menu ul.menu li {
     float: left;
     border: 0; }
 
-/* line 279, full_rubik_style.scss */
+/* line 287, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
-/* line 286, full_rubik_style.scss */
+/* line 294, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: table;
   margin: 0 auto; }
-  /* line 291, full_rubik_style.scss */
+  /* line 299, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
     @media (min-width: 980px) {
-      /* line 291, full_rubik_style.scss */
+      /* line 299, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  /* line 299, full_rubik_style.scss */
+  /* line 307, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
     @media (min-width: 980px) {
-      /* line 299, full_rubik_style.scss */
+      /* line 307, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  /* line 309, full_rubik_style.scss */
+  /* line 317, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8; }
-  /* line 313, full_rubik_style.scss */
+  /* line 321, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
     float: none;
     list-style: none; }
     @media (min-width: 980px) {
-      /* line 313, full_rubik_style.scss */
+      /* line 321, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
-    /* line 323, full_rubik_style.scss */
+    /* line 331, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
       background-color: #7bc !important;
       color: #fff;
       text-shadow: #38a 0px 1px 0px; }
-    /* line 329, full_rubik_style.scss */
+    /* line 337, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 329, full_rubik_style.scss */
+        /* line 337, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
-    /* line 337, full_rubik_style.scss */
+    /* line 345, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 337, full_rubik_style.scss */
+        /* line 345, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
-    /* line 344, full_rubik_style.scss */
+    /* line 352, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open a {
       background-color: #f8f8f8;
       width: 90%;
       text-align: left; }
-    /* line 350, full_rubik_style.scss */
+    /* line 358, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
@@ -407,15 +414,15 @@ ul.primary-tabs.links li a {
       float: none;
       padding: 5px 10px; }
       @media (min-width: 980px) {
-        /* line 350, full_rubik_style.scss */
+        /* line 358, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
           float: left; } }
-      /* line 363, full_rubik_style.scss */
+      /* line 371, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover {
         background-color: #f8f8f8; }
 
 /* Maintenance page styles */
-/* line 372, full_rubik_style.scss */
+/* line 380, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -434,13 +441,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 379, full_rubik_style.scss */
+  /* line 387, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 382, full_rubik_style.scss */
+  /* line 390, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 385, full_rubik_style.scss */
+  /* line 393, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -453,69 +460,69 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 392, full_rubik_style.scss */
+  /* line 400, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 395, full_rubik_style.scss */
+  /* line 403, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 399, full_rubik_style.scss */
+  /* line 407, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 403, full_rubik_style.scss */
+  /* line 411, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 407, full_rubik_style.scss */
+  /* line 415, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 412, full_rubik_style.scss */
+  /* line 420, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em; }
 
 /* Admin page styles */
-/* line 420, full_rubik_style.scss */
+/* line 428, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 423, full_rubik_style.scss */
+  /* line 431, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 427, full_rubik_style.scss */
+/* line 435, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 431, full_rubik_style.scss */
+/* line 439, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 435, full_rubik_style.scss */
+/* line 443, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 439, full_rubik_style.scss */
+/* line 447, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 443, full_rubik_style.scss */
+/* line 451, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 447, full_rubik_style.scss */
+/* line 455, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 452, full_rubik_style.scss */
+/* line 460, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: #687;
@@ -524,38 +531,38 @@ label.panopoly-admin-hide-body-label-processed {
   border: 1px solid #D8E4E0;
   padding: 9px 10px;
   clear: both; }
-  /* line 461, full_rubik_style.scss */
+  /* line 469, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-  /* line 465, full_rubik_style.scss */
+  /* line 473, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 469, full_rubik_style.scss */
+    /* line 477, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 476, full_rubik_style.scss */
+/* line 484, full_rubik_style.scss */
 .admin-list .description {
   display: inline-block;
   margin-left: 15px; }
 
-/* line 481, full_rubik_style.scss */
+/* line 489, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 486, full_rubik_style.scss */
+/* line 494, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 490, full_rubik_style.scss */
+/* line 498, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -572,24 +579,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 502, full_rubik_style.scss */
+/* line 510, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 505, full_rubik_style.scss */
+/* line 513, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 509, full_rubik_style.scss */
+/* line 517, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 513, full_rubik_style.scss */
+/* line 521, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 518, full_rubik_style.scss */
+/* line 526, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -608,22 +615,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 534, full_rubik_style.scss */
+/* line 542, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 538, full_rubik_style.scss */
+/* line 546, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 545, full_rubik_style.scss */
+/* line 553, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 550, full_rubik_style.scss */
+/* line 558, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 

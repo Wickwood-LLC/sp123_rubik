@@ -149,12 +149,20 @@ label,
     color: #FFFFFF;
     padding: 4px 8px;
     position: absolute;
-    top: -30%;
+    bottom: 130%;
     left: 50%;
     background: #000000;
     text-align: center;
     border-radius: 6px;
     text-transform: capitalize;
+  }
+
+  &:after {
+    width: 0;
+    height: 0;
+    border-top: 5px solid #000;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
   }
 }
 
