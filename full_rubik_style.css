@@ -110,8 +110,13 @@ sup {
 tt {
   font-family: monospace; }
 
+/* line 64, full_rubik_style.scss */
+ol li, ul li {
+  list-style: initial;
+  margin-left: 40px; }
+
 /***********************/
-/* line 68, full_rubik_style.scss */
+/* line 74, full_rubik_style.scss */
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
 body.page-admin #header .block,
@@ -120,71 +125,71 @@ body.page-admin .region-footer .block,
 body.page-admin .region-footer table {
   border: 0px; }
 
-/* line 73, full_rubik_style.scss */
+/* line 79, full_rubik_style.scss */
 .help-page, div.comment, div.node {
   background: none;
   border: 0px; }
 
-/* line 77, full_rubik_style.scss */
+/* line 83, full_rubik_style.scss */
 body.tao {
   color: black; }
 
-/* line 81, full_rubik_style.scss */
+/* line 87, full_rubik_style.scss */
 body:not(.maintenance-page) #header {
   /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
   These can also be hidden by disablng it in the theme settings, 
   but if we do that, the mini panel won't display it too. However, if 
   the mini panel is not used, we can comment out this rule. */ }
-  /* line 86, full_rubik_style.scss */
+  /* line 92, full_rubik_style.scss */
   body:not(.maintenance-page) #header > #logo,
   body:not(.maintenance-page) #header > #site-name,
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
-/* line 93, full_rubik_style.scss */
+/* line 99, full_rubik_style.scss */
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 
-/* line 97, full_rubik_style.scss */
+/* line 103, full_rubik_style.scss */
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0; }
 
-/* line 106, full_rubik_style.scss */
+/* line 112, full_rubik_style.scss */
 .view-press-releases-test .featured-display .views-field-title h2,
 .view-articles-test .featured-display .views-field-title h2,
 .view-news-test .featured-display .views-field-title h2 {
   font-size: 1.5em; }
-/* line 109, full_rubik_style.scss */
+/* line 115, full_rubik_style.scss */
 .view-press-releases-test .featured-display .views-field-body,
 .view-articles-test .featured-display .views-field-body,
 .view-news-test .featured-display .views-field-body {
   font-size: 14px; }
-/* line 113, full_rubik_style.scss */
+/* line 119, full_rubik_style.scss */
 .view-press-releases-test .featured-image img,
 .view-articles-test .featured-image img,
 .view-news-test .featured-image img {
   width: 100%;
   height: auto; }
-/* line 117, full_rubik_style.scss */
+/* line 123, full_rubik_style.scss */
 .view-press-releases-test .views-field-title h3,
 .view-articles-test .views-field-title h3,
 .view-news-test .views-field-title h3 {
   font-size: 1.17em; }
-/* line 120, full_rubik_style.scss */
+/* line 126, full_rubik_style.scss */
 .view-press-releases-test .views-list-thumbnail,
 .view-articles-test .views-list-thumbnail,
 .view-news-test .views-list-thumbnail {
   float: left;
   margin-right: 15px; }
-/* line 124, full_rubik_style.scss */
+/* line 130, full_rubik_style.scss */
 .view-press-releases-test.main-display .views-row,
 .view-articles-test.main-display .views-row,
 .view-news-test.main-display .views-row {
   display: table;
   margin-top: 1em; }
 
-/* line 130, full_rubik_style.scss */
+/* line 136, full_rubik_style.scss */
 label,
 .pane-title,
 .ckeditor_links,
@@ -193,7 +198,7 @@ label,
 .vertical-tabs-list li a strong {
   text-transform: capitalize; }
 
-/* line 139, full_rubik_style.scss */
+/* line 145, full_rubik_style.scss */
 .cke_inner .cke_top {
   overflow: visible;
   display: -webkit-box;
@@ -201,10 +206,10 @@ label,
   display: -ms-flexbox;
   display: flex; }
 
-/* line 144, full_rubik_style.scss */
+/* line 150, full_rubik_style.scss */
 .cke_toolbar a.cke_button:hover {
   position: relative; }
-  /* line 147, full_rubik_style.scss */
+  /* line 153, full_rubik_style.scss */
   .cke_toolbar a.cke_button:hover:before {
     content: attr(title);
     color: #FFFFFF;
@@ -215,7 +220,7 @@ label,
     text-align: center;
     border-radius: 6px;
     text-transform: capitalize; }
-  /* line 159, full_rubik_style.scss */
+  /* line 165, full_rubik_style.scss */
   .cke_toolbar a.cke_button:hover:after {
     content: '';
     position: absolute;
@@ -227,25 +232,31 @@ label,
     margin-left: calc(-50% + 1px);
     bottom: 112%; }
 
-/* line 178, full_rubik_style.scss */
+/* line 184, full_rubik_style.scss */
 .links li,
 .actions li,
 .primary-tabs li,
 .action-links li,
 .vertical-tabs-list li,
 #module-filter-tabs li {
-  list-style: none; }
+  list-style: none;
+  margin-left: 0; }
 
-/* line 184, full_rubik_style.scss */
+/* line 191, full_rubik_style.scss */
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
 
-/* line 189, full_rubik_style.scss */
+/* line 196, full_rubik_style.scss */
 ul.links li,
 ul.links li a {
   float: none; }
 
-/* line 197, full_rubik_style.scss */
+/* line 204, full_rubik_style.scss */
+ul.action-links li,
+ul.links.pager li,
+ul.primary-tabs.links li {
+  margin-left: 0; }
+/* line 207, full_rubik_style.scss */
 ul.action-links li, ul.action-links li a,
 ul.links.pager li,
 ul.links.pager li a,
@@ -253,66 +264,70 @@ ul.primary-tabs.links li,
 ul.primary-tabs.links li a {
   float: left; }
 
-/* line 202, full_rubik_style.scss */
+/* line 212, full_rubik_style.scss */
+.ctools-content ul li {
+  margin-left: 0; }
+
+/* line 216, full_rubik_style.scss */
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 205, full_rubik_style.scss */
+  /* line 219, full_rubik_style.scss */
   #mini-panel-header .panel-panel {
     width: auto; }
-  /* line 209, full_rubik_style.scss */
+  /* line 223, full_rubik_style.scss */
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
         -ms-flex: 0 auto;
             flex: 0 auto; }
-  /* line 213, full_rubik_style.scss */
+  /* line 227, full_rubik_style.scss */
   #mini-panel-header .panel-col {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto;
     text-align: center; }
-    /* line 217, full_rubik_style.scss */
+    /* line 231, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
       line-height: 1.5; }
-    /* line 221, full_rubik_style.scss */
+    /* line 235, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-slogan {
       font-size: 1.5em;
       line-height: 1.5; }
 
-/* line 228, full_rubik_style.scss */
+/* line 242, full_rubik_style.scss */
 .secure-site-notif .block-content {
   background-color: #2ECC71;
   text-align: center;
   padding: 10px; }
 
-/* line 233, full_rubik_style.scss */
+/* line 247, full_rubik_style.scss */
 .region-footer #block-block-2 .block-content {
   text-align: center; }
-  /* line 236, full_rubik_style.scss */
+  /* line 250, full_rubik_style.scss */
   .region-footer #block-block-2 .block-content p {
     margin: 0; }
 
-/* line 242, full_rubik_style.scss */
+/* line 256, full_rubik_style.scss */
 #modal-content .form-item {
   position: static; }
-/* line 245, full_rubik_style.scss */
+/* line 259, full_rubik_style.scss */
 #modal-content #views-content-views-content-type-edit-form {
   float: left;
   width: 50%; }
-  /* line 249, full_rubik_style.scss */
+  /* line 263, full_rubik_style.scss */
   #modal-content #views-content-views-content-type-edit-form .form-actions {
     position: absolute;
     right: 12px;
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-/* line 257, full_rubik_style.scss */
+/* line 271, full_rubik_style.scss */
 #modal-content .option-text-aligner {
   width: 100%;
   border: 1px solid #ddd;
@@ -326,88 +341,88 @@ ul.primary-tabs.links li a {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 265, full_rubik_style.scss */
+  /* line 279, full_rubik_style.scss */
   #modal-content .option-text-aligner .form-item {
     float: none;
     border: 0; }
-/* line 271, full_rubik_style.scss */
+/* line 285, full_rubik_style.scss */
 #modal-content .form-actions {
   width: 46%;
   padding: 1%;
   margin-left: 0; }
 
-/* line 279, full_rubik_style.scss */
+/* line 293, full_rubik_style.scss */
 #block-system-user-menu ul.menu {
   float: right; }
-  /* line 282, full_rubik_style.scss */
+  /* line 296, full_rubik_style.scss */
   #block-system-user-menu ul.menu li {
     float: left;
     border: 0; }
 
-/* line 290, full_rubik_style.scss */
+/* line 304, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
-/* line 297, full_rubik_style.scss */
+/* line 311, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: table;
   margin: 0 auto; }
-  /* line 302, full_rubik_style.scss */
+  /* line 316, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
     @media (min-width: 980px) {
-      /* line 302, full_rubik_style.scss */
+      /* line 316, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  /* line 310, full_rubik_style.scss */
+  /* line 324, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
     @media (min-width: 980px) {
-      /* line 310, full_rubik_style.scss */
+      /* line 324, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  /* line 320, full_rubik_style.scss */
+  /* line 334, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8; }
-  /* line 324, full_rubik_style.scss */
+  /* line 338, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
     float: none;
     list-style: none; }
     @media (min-width: 980px) {
-      /* line 324, full_rubik_style.scss */
+      /* line 338, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
-    /* line 334, full_rubik_style.scss */
+    /* line 348, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
       background-color: #7bc !important;
       color: #fff;
       text-shadow: #38a 0px 1px 0px; }
-    /* line 340, full_rubik_style.scss */
+    /* line 354, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 340, full_rubik_style.scss */
+        /* line 354, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
-    /* line 348, full_rubik_style.scss */
+    /* line 362, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 348, full_rubik_style.scss */
+        /* line 362, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
-    /* line 355, full_rubik_style.scss */
+    /* line 369, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open a {
       background-color: #f8f8f8;
       width: 90%;
       text-align: left; }
-    /* line 361, full_rubik_style.scss */
+    /* line 375, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
@@ -417,14 +432,14 @@ ul.primary-tabs.links li a {
       float: none;
       padding: 5px 10px; }
       @media (min-width: 980px) {
-        /* line 361, full_rubik_style.scss */
+        /* line 375, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
           float: left; } }
-      /* line 374, full_rubik_style.scss */
+      /* line 388, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover {
         background-color: #f8f8f8; }
 
-/* line 382, full_rubik_style.scss */
+/* line 396, full_rubik_style.scss */
 .ui-dialog-titlebar-close .ui-button-icon-primary {
   border: 5px solid #fafafa;
   background-color: #fafafa !important;
@@ -434,7 +449,7 @@ ul.primary-tabs.links li a {
   top: 12px; }
 
 /* Maintenance page styles */
-/* line 392, full_rubik_style.scss */
+/* line 406, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -453,13 +468,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 399, full_rubik_style.scss */
+  /* line 413, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 402, full_rubik_style.scss */
+  /* line 416, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 405, full_rubik_style.scss */
+  /* line 419, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -472,107 +487,107 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 412, full_rubik_style.scss */
+  /* line 426, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 415, full_rubik_style.scss */
+  /* line 429, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 419, full_rubik_style.scss */
+  /* line 433, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 423, full_rubik_style.scss */
+  /* line 437, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 427, full_rubik_style.scss */
+  /* line 441, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 432, full_rubik_style.scss */
+  /* line 446, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em; }
 
 /* Admin page styles */
-/* line 440, full_rubik_style.scss */
+/* line 454, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 443, full_rubik_style.scss */
+  /* line 457, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 447, full_rubik_style.scss */
+/* line 461, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 451, full_rubik_style.scss */
+/* line 465, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 455, full_rubik_style.scss */
+/* line 469, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 459, full_rubik_style.scss */
+/* line 473, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 463, full_rubik_style.scss */
+/* line 477, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 467, full_rubik_style.scss */
+/* line 481, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 472, full_rubik_style.scss */
+/* line 486, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 9px 10px;
   clear: both; }
-  /* line 479, full_rubik_style.scss */
+  /* line 493, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-  /* line 483, full_rubik_style.scss */
+  /* line 497, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 487, full_rubik_style.scss */
+    /* line 501, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 494, full_rubik_style.scss */
+/* line 508, full_rubik_style.scss */
 .admin-list .description {
   display: inline-block;
   margin-left: 15px; }
 
-/* line 499, full_rubik_style.scss */
+/* line 513, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 504, full_rubik_style.scss */
+/* line 518, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 508, full_rubik_style.scss */
+/* line 522, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -589,24 +604,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 520, full_rubik_style.scss */
+/* line 534, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 523, full_rubik_style.scss */
+/* line 537, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 527, full_rubik_style.scss */
+/* line 541, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 531, full_rubik_style.scss */
+/* line 545, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 536, full_rubik_style.scss */
+/* line 550, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -625,22 +640,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 552, full_rubik_style.scss */
+/* line 566, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 556, full_rubik_style.scss */
+/* line 570, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 563, full_rubik_style.scss */
+/* line 577, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 568, full_rubik_style.scss */
+/* line 582, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 

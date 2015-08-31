@@ -60,6 +60,12 @@ sup {
 tt { 
   font-family: monospace;
 }
+ol, ul {
+  li {
+    list-style: initial;
+    margin-left: 40px;
+  }
+}
 /***********************/
 
 body:not(.page-admin),
@@ -177,6 +183,7 @@ label,
 #module-filter-tabs {
   li {
     list-style: none;
+    margin-left: 0;
   }
 }
 
@@ -194,9 +201,16 @@ ul.links li a {
 ul.action-links,
 ul.links.pager,
 ul.primary-tabs.links {
+  li {
+    margin-left: 0;
+  }
   li, li a {
     float: left;
   }
+}
+
+.ctools-content ul li {
+  margin-left: 0;
 }
 
 #mini-panel-header {
