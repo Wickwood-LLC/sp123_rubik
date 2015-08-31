@@ -381,7 +381,7 @@ ul.primary-tabs.links {
 
 .ui-dialog-titlebar-close .ui-button-icon-primary {
   border: 5px solid #fafafa;
-  background-color: #fafafa;
+  background-color: #fafafa !important;
   border-radius: 5px;
   box-sizing: content-box;
   position: relative;
@@ -471,10 +471,8 @@ label.panopoly-admin-hide-body-label-processed {
 
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
-  color: #687;
+  color: green;
   box-sizing: border-box;
-  background-color: #F5FCF9;
-  border: 1px solid #D8E4E0;
   padding: 9px 10px;
   clear: both;
 
