@@ -2023,15 +2023,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/config.rb": {
-		"fileType": 131072,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.rb",
-		"outputAbbreviatedPath": "\/config.rb",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/full_rubik.js": {
 		"fileType": 64,
 		"ignore": 0,

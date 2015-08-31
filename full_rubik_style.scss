@@ -379,6 +379,15 @@ ul.primary-tabs.links {
   }
 }
 
+.ui-dialog-titlebar-close .ui-button-icon-primary {
+  border: 5px solid #fafafa;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-sizing: content-box;
+  position: relative;
+  top: 12px;
+}
+
 /* Maintenance page styles */
 body.maintenance-page {
   width: 100vw;
