@@ -96,6 +96,11 @@ body:not(.maintenance-page) #header {
   }
 }
 
+input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px;
 }
