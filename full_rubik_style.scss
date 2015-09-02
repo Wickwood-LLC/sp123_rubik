@@ -403,13 +403,9 @@ ul.primary-tabs.links {
   }
 }
 
-.ui-dialog-titlebar-close .ui-button-icon-primary {
-  border: 5px solid #fafafa;
-  background-color: #fafafa !important;
-  border-radius: 5px;
-  box-sizing: content-box;
-  position: relative;
-  top: 12px;
+.ui-dialog button.ui-dialog-titlebar-close span.ui-icon,
+.ui-dialog button.ui-dialog-titlebar-close:hover span.ui-icon {
+  filter: grayscale(1) invert(1) contrast(100);
 }
 
 /* Maintenance page styles */
