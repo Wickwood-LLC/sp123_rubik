@@ -147,6 +147,12 @@ label,
   text-transform: capitalize;
 }
 
+ul.panels-ipe-linkbar li {
+  float: left;
+  list-style: none;
+  margin-left: 0;
+}
+
 .cke_inner .cke_top {
   overflow: visible;
   display: flex;
@@ -404,7 +410,8 @@ ul.primary-tabs.links {
 }
 
 .ui-dialog button.ui-dialog-titlebar-close span.ui-icon,
-.ui-dialog button.ui-dialog-titlebar-close:hover span.ui-icon {
+.ui-dialog button.ui-dialog-titlebar-close:hover span.ui-icon,
+.modal-header .close {
   filter: grayscale(1) invert(1) contrast(100);
 }
 
@@ -514,6 +521,10 @@ label.panopoly-admin-hide-body-label-processed {
 .admin-list .description {
   display: inline-block;
   margin-left: 15px;
+}
+
+.admin-list li {
+  list-style: none;
 }
 
 form .tabs {
