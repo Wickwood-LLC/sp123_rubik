@@ -161,14 +161,14 @@ div#toolbar div.toolbar-shortcuts ul {
   margin: 0 1em 1em 0; }
 
 /* line 117, full_rubik_style.scss */
-.view-press-releases-test .featured-display .views-field-title h2,
-.view-articles-test .featured-display .views-field-title h2,
-.view-news-test .featured-display .views-field-title h2 {
+.view-press-releases-test.featured-display .views-field-title h2,
+.view-articles-test.featured-display .views-field-title h2,
+.view-news-test.featured-display .views-field-title h2 {
   font-size: 1.5em; }
 /* line 120, full_rubik_style.scss */
-.view-press-releases-test .featured-display .views-field-body,
-.view-articles-test .featured-display .views-field-body,
-.view-news-test .featured-display .views-field-body {
+.view-press-releases-test.featured-display .views-field-body,
+.view-articles-test.featured-display .views-field-body,
+.view-news-test.featured-display .views-field-body {
   font-size: 14px; }
 /* line 124, full_rubik_style.scss */
 .view-press-releases-test .featured-image img,

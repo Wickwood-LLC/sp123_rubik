@@ -113,7 +113,7 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-press-releases-test,
 .view-articles-test,
 .view-news-test {
-  .featured-display {
+  &.featured-display {
     .views-field-title h2 {
       font-size: 1.5em;
     }
