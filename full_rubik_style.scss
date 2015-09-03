@@ -61,6 +61,8 @@ tt {
   font-family: monospace;
 }
 ol, ul {
+  overflow: hidden;
+  
   li {
     list-style: initial;
     margin-left: 40px;
