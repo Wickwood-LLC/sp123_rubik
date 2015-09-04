@@ -579,44 +579,52 @@ label.panopoly-admin-hide-body-label-processed {
 .description {
   color: green;
   box-sizing: border-box;
-  padding: 9px 10px;
+  padding: 5px;
   clear: both; }
   /* line 511, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-  /* line 515, full_rubik_style.scss */
+    /* line 514, full_rubik_style.scss */
+    .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
+    .description p:first-child {
+      margin-top: 0; }
+    /* line 517, full_rubik_style.scss */
+    .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
+    .description p:last-child {
+      margin-bottom: 0; }
+  /* line 522, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 519, full_rubik_style.scss */
+    /* line 526, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 526, full_rubik_style.scss */
+/* line 533, full_rubik_style.scss */
 .admin-list .description {
   display: inline-block;
   margin-left: 15px; }
 
-/* line 531, full_rubik_style.scss */
+/* line 538, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 535, full_rubik_style.scss */
+/* line 542, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 540, full_rubik_style.scss */
+/* line 547, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 544, full_rubik_style.scss */
+/* line 551, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -633,24 +641,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 556, full_rubik_style.scss */
+/* line 563, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 559, full_rubik_style.scss */
+/* line 566, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 563, full_rubik_style.scss */
+/* line 570, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 567, full_rubik_style.scss */
+/* line 574, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 572, full_rubik_style.scss */
+/* line 579, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -669,22 +677,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 588, full_rubik_style.scss */
+/* line 595, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 592, full_rubik_style.scss */
+/* line 599, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 599, full_rubik_style.scss */
+/* line 606, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 604, full_rubik_style.scss */
+/* line 611, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 

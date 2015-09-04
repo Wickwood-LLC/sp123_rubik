@@ -505,11 +505,18 @@ label.panopoly-admin-hide-body-label-processed {
 .description {
   color: green;
   box-sizing: border-box;
-  padding: 9px 10px;
+  padding: 5px;
   clear: both;
 
   p {
     margin: 1em 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   ul, ol {
