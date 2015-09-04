@@ -273,11 +273,17 @@ ul.primary-tabs.links {
   }
 }
 
-.modal-header {
+.modal-header,
+#modalContent div.ctools-modal-content .modal-header {
+  background: url(images/bleeds.png) 0px -30px repeat-x;
+  color: #ccc;
+  font-size: 11px;
   height: 30px;
+  overflow: hidden;
 }
 
-#modal-title {
+#modal-title,
+#modalContent div.ctools-modal-content .modal-title {
   font-size: 11px;
   float: left;
   line-height: 20px;
@@ -427,7 +433,8 @@ ul.primary-tabs.links {
 
 .ui-dialog button.ui-dialog-titlebar-close span.ui-icon,
 .ui-dialog button.ui-dialog-titlebar-close:hover span.ui-icon,
-.modal-header .close {
+.modal-header .close,
+#modalContent div.ctools-modal-content a.close {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   background: #444 url(images/buttons.png) -4000px 50% no-repeat;
@@ -436,6 +443,10 @@ ul.primary-tabs.links {
   width: 20px;
   margin: 5px;
   padding: 0px;
+
+  &:hover {
+    background: #444 url(images/buttons.png) -4000px 50% no-repeat;
+  }
 }
 
 /* Maintenance page styles */
