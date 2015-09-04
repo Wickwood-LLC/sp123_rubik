@@ -60,9 +60,7 @@ sup {
 tt { 
   font-family: monospace;
 }
-ol, ul {
-  overflow: hidden;
-  
+ol, ul {  
   li {
     list-style: initial;
     margin-left: 40px;
@@ -147,6 +145,11 @@ label,
 .form-actions input,
 .vertical-tabs-list li a strong {
   text-transform: capitalize;
+}
+
+.field-items ul,
+.field-items ol {
+  overflow: hidden;
 }
 
 ul.panels-ipe-linkbar li {
