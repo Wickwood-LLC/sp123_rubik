@@ -273,6 +273,7 @@ ul.primary-tabs.links {
   }
 }
 
+.ui-dialog .ui-dialog-titlebar.ui-widget-header,
 .modal-header,
 #modalContent div.ctools-modal-content .modal-header {
   background: url(images/bleeds.png) 0px -30px repeat-x;
@@ -431,8 +432,7 @@ ul.primary-tabs.links {
   }
 }
 
-.ui-dialog button.ui-dialog-titlebar-close span.ui-icon,
-.ui-dialog button.ui-dialog-titlebar-close:hover span.ui-icon,
+.ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
 #modalContent div.ctools-modal-content a.close {
   -webkit-border-radius: 5px;
@@ -444,8 +444,26 @@ ul.primary-tabs.links {
   margin: 5px;
   padding: 0px;
 
-  &:hover {
+  &:hover, &:focus {
     background: #444 url(images/buttons.png) -4000px 50% no-repeat;
+  }
+
+  span.ui-icon {
+    display: none;
+  }
+}
+
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text {
+  display: none;
+}
+
+.mbp-folders {
+  ol, ul {
+    margin-left: 0;
+
+    li {
+      margin-left: 0;
+    }
   }
 }
 
