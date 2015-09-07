@@ -519,8 +519,12 @@ ul.primary-tabs.links li a {
   .mbp-folders ol li, .mbp-folders ul li {
     margin-left: 0; }
 
+/* line 469, full_rubik_style.scss */
+.media-list-thumbnails .media-item.selected {
+  background: green; }
+
 /* Maintenance page styles */
-/* line 471, full_rubik_style.scss */
+/* line 474, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -539,13 +543,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 478, full_rubik_style.scss */
+  /* line 481, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 481, full_rubik_style.scss */
+  /* line 484, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 484, full_rubik_style.scss */
+  /* line 487, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -558,40 +562,40 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 491, full_rubik_style.scss */
+  /* line 494, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 494, full_rubik_style.scss */
+  /* line 497, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 498, full_rubik_style.scss */
+  /* line 501, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 502, full_rubik_style.scss */
+  /* line 505, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 506, full_rubik_style.scss */
+  /* line 509, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 511, full_rubik_style.scss */
+  /* line 514, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em; }
 
-/* line 519, full_rubik_style.scss */
+/* line 522, full_rubik_style.scss */
 .node-type-press-release #main-content {
   width: 70%;
   background: #FFF;
   margin: 40px auto;
   position: relative;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
-  /* line 526, full_rubik_style.scss */
+  /* line 529, full_rubik_style.scss */
   .node-type-press-release #main-content:before, .node-type-press-release #main-content:after {
     content: "";
     position: absolute;
@@ -602,13 +606,13 @@ body.maintenance-page {
     left: 10px;
     right: 10px;
     border-radius: 100px / 10px; }
-/* line 539, full_rubik_style.scss */
+/* line 542, full_rubik_style.scss */
 .node-type-press-release .end-marker {
   margin: 2em 0; }
-/* line 543, full_rubik_style.scss */
+/* line 546, full_rubik_style.scss */
 .node-type-press-release .field-name-field-immediate-release {
   font-weight: bold; }
-/* line 547, full_rubik_style.scss */
+/* line 550, full_rubik_style.scss */
 .node-type-press-release .contact-title,
 .node-type-press-release .pane-node-field-contact-first-name,
 .node-type-press-release .pane-node-field-contact-last-name {
@@ -616,10 +620,10 @@ body.maintenance-page {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex; }
-/* line 553, full_rubik_style.scss */
+/* line 556, full_rubik_style.scss */
 .node-type-press-release .sub-footer-1-mid {
   text-align: center; }
-  /* line 556, full_rubik_style.scss */
+  /* line 559, full_rubik_style.scss */
   .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-last-name,
   .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-phone-number,
   .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-email,
@@ -628,7 +632,7 @@ body.maintenance-page {
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
-    /* line 562, full_rubik_style.scss */
+    /* line 565, full_rubik_style.scss */
     .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-last-name:not(:last-child):after,
     .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-phone-number:not(:last-child):after,
     .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-email:not(:last-child):after,
@@ -636,91 +640,91 @@ body.maintenance-page {
       content: ','; }
 
 /* Admin page styles */
-/* line 571, full_rubik_style.scss */
+/* line 574, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 574, full_rubik_style.scss */
+  /* line 577, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 578, full_rubik_style.scss */
+/* line 581, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 582, full_rubik_style.scss */
+/* line 585, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 586, full_rubik_style.scss */
+/* line 589, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 590, full_rubik_style.scss */
+/* line 593, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 594, full_rubik_style.scss */
+/* line 597, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 598, full_rubik_style.scss */
+/* line 601, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 603, full_rubik_style.scss */
+/* line 606, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
-  /* line 610, full_rubik_style.scss */
+  /* line 613, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-    /* line 613, full_rubik_style.scss */
+    /* line 616, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
     .description p:first-child {
       margin-top: 0; }
-    /* line 616, full_rubik_style.scss */
+    /* line 619, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  /* line 621, full_rubik_style.scss */
+  /* line 624, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 625, full_rubik_style.scss */
+    /* line 628, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 632, full_rubik_style.scss */
+/* line 635, full_rubik_style.scss */
 .admin-list .description {
   padding: 5px 0; }
 
-/* line 636, full_rubik_style.scss */
+/* line 639, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 640, full_rubik_style.scss */
+/* line 643, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 645, full_rubik_style.scss */
+/* line 648, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 649, full_rubik_style.scss */
+/* line 652, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -737,24 +741,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 661, full_rubik_style.scss */
+/* line 664, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 664, full_rubik_style.scss */
+/* line 667, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 668, full_rubik_style.scss */
+/* line 671, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 672, full_rubik_style.scss */
+/* line 675, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 677, full_rubik_style.scss */
+/* line 680, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -773,22 +777,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 693, full_rubik_style.scss */
+/* line 696, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 697, full_rubik_style.scss */
+/* line 700, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 704, full_rubik_style.scss */
+/* line 707, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 709, full_rubik_style.scss */
+/* line 712, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 

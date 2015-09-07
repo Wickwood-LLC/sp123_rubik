@@ -466,6 +466,9 @@ ul.primary-tabs.links {
     }
   }
 }
+.media-list-thumbnails .media-item.selected {
+  background: green;
+}
 
 /* Maintenance page styles */
 body.maintenance-page {
