@@ -160,7 +160,7 @@ div#toolbar div.toolbar-shortcuts ul {
   font-size: 14px; }
 
 /* line 131, full_rubik_style.scss */
-.views-field-field-featured-image img {
+.featured-image img {
   width: 100%;
   height: auto; }
 
@@ -169,7 +169,7 @@ div#toolbar div.toolbar-shortcuts ul {
   margin: 0; }
 
 /* line 138, full_rubik_style.scss */
-.views-list-thumbnail {
+.views-field-field-featured-image img {
   float: left;
   margin-right: 15px; }
 
