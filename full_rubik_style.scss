@@ -1,6 +1,5 @@
 @import "bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
-@import "bower_components/sassmatic/sass/sassmatic";
 
 /** Default Styles **/
 big {
@@ -140,7 +139,7 @@ div#toolbar div.toolbar-shortcuts ul {
   float: left;
   margin-right: 15px;
 }
-&.main-display .views-row {
+.main-display .views-row {
   display: table;
   margin-top: 2em;
 }
