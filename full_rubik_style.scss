@@ -117,34 +117,32 @@ div#toolbar div.toolbar-shortcuts ul {
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0;
-} 
+}
 
-.view-press-releases-test,
-.view-articles-test,
-.view-news-test {
-  &.featured-display {
-    .views-field-title h2 {
-      font-size: 1.5em;
-    }
-    .views-field-body {
-      font-size: 14px;
-    }
+#page-title .page-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.featured-display {
+  .views-field-body {
+    font-size: 14px;
   }
-  .featured-image img {
-    width: 100%;
-    height: auto;
-  }
-  .views-field-title h3 {
-    font-size: 1.17em;
-  }
-  .views-list-thumbnail {
-    float: left;
-    margin-right: 15px;
-  }
-  &.main-display .views-row {
-    display: table;
-    margin-top: 1em;
-  }
+}
+.featured-image img {
+  width: 100%;
+  height: auto;
+}
+.views-field-title h3 {
+  margin: 0;
+}
+.views-list-thumbnail {
+  float: left;
+  margin-right: 15px;
+}
+&.main-display .views-row {
+  display: table;
+  margin-top: 2em;
 }
 
 label,
