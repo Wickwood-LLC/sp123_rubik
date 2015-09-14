@@ -251,10 +251,20 @@ ul.primary-tabs.links {
 
   .panel-col-first,
   .panel-col-last {
-    flex: 0 auto;
+    flex: 1 0;
+  }
+  .panel-col-first {
+    text-align: left;
+  }
+  .panel-col-last {
+    align-self: baseline;
+
+    .menu-name-user-menu ul {
+      float: right;
+    }
   }
   .panel-col {
-    flex: 1 auto;
+    flex: 2 0;
     text-align: center;
 
     .pane-page-site-name {
