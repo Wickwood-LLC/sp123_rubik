@@ -552,8 +552,8 @@ body.maintenance-page {
   .field-name-field-contact-last-name {
     display: inline-flex;
 
-    :after {
-      content: ' ';
+    &:after {
+      content: '\00a0';
     }
   }
 }

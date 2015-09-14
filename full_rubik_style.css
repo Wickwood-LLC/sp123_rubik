@@ -601,9 +601,9 @@ body.maintenance-page {
   display: -ms-inline-flexbox;
   display: inline-flex; }
   /* line 555, full_rubik_style.scss */
-  .node-type-press-release.panelized-node .field-name-field-contact-first-name :after,
-  .node-type-press-release.panelized-node .field-name-field-contact-last-name :after {
-    content: ' '; }
+  .node-type-press-release.panelized-node .field-name-field-contact-first-name:after,
+  .node-type-press-release.panelized-node .field-name-field-contact-last-name:after {
+    content: '\00a0'; }
 
 /* Admin page styles */
 /* line 563, full_rubik_style.scss */
