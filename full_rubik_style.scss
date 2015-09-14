@@ -527,8 +527,8 @@ body.maintenance-page {
   }
 }
 
-.node-type-press-release {
-  #main-content {
+.node-type-press-release.panelized-node {
+  .content-main {
     width: 70%;
     background: #FFF;
     margin: 40px auto;
@@ -548,32 +548,12 @@ body.maintenance-page {
     }
   }
 
-  .end-marker {
-    margin: 2em 0;
-  }
-
-  .field-name-field-immediate-release {
-    font-weight: bold;
-  }
-
-  .contact-title,
-  .pane-node-field-contact-first-name,
-  .pane-node-field-contact-last-name {
+  .field-name-field-contact-first-name,
+  .field-name-field-contact-last-name {
     display: inline-flex;
-  }
 
-  .sub-footer-1-mid {
-    text-align: center;
-
-    .pane-node-field-contact-last-name,
-    .pane-node-field-contact-phone-number,
-    .pane-node-field-contact-email,
-    .pane-node-field-contact-website {
-      display: inline-flex;
-
-      &:not(:last-child):after {
-        content: ',';
-      }
+    :after {
+      content: ' ';
     }
   }
 }

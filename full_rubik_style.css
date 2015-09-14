@@ -576,14 +576,14 @@ body.maintenance-page {
     margin-bottom: 0.5em; }
 
 /* line 531, full_rubik_style.scss */
-.node-type-press-release #main-content {
+.node-type-press-release.panelized-node .content-main {
   width: 70%;
   background: #FFF;
   margin: 40px auto;
   position: relative;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
   /* line 538, full_rubik_style.scss */
-  .node-type-press-release #main-content:before, .node-type-press-release #main-content:after {
+  .node-type-press-release.panelized-node .content-main:before, .node-type-press-release.panelized-node .content-main:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -594,124 +594,103 @@ body.maintenance-page {
     right: 10px;
     border-radius: 100px / 10px; }
 /* line 551, full_rubik_style.scss */
-.node-type-press-release .end-marker {
-  margin: 2em 0; }
-/* line 555, full_rubik_style.scss */
-.node-type-press-release .field-name-field-immediate-release {
-  font-weight: bold; }
-/* line 559, full_rubik_style.scss */
-.node-type-press-release .contact-title,
-.node-type-press-release .pane-node-field-contact-first-name,
-.node-type-press-release .pane-node-field-contact-last-name {
+.node-type-press-release.panelized-node .field-name-field-contact-first-name,
+.node-type-press-release.panelized-node .field-name-field-contact-last-name {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex; }
-/* line 565, full_rubik_style.scss */
-.node-type-press-release .sub-footer-1-mid {
-  text-align: center; }
-  /* line 568, full_rubik_style.scss */
-  .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-last-name,
-  .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-phone-number,
-  .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-email,
-  .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-website {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex; }
-    /* line 574, full_rubik_style.scss */
-    .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-last-name:not(:last-child):after,
-    .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-phone-number:not(:last-child):after,
-    .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-email:not(:last-child):after,
-    .node-type-press-release .sub-footer-1-mid .pane-node-field-contact-website:not(:last-child):after {
-      content: ','; }
+  /* line 555, full_rubik_style.scss */
+  .node-type-press-release.panelized-node .field-name-field-contact-first-name :after,
+  .node-type-press-release.panelized-node .field-name-field-contact-last-name :after {
+    content: ' '; }
 
 /* Admin page styles */
-/* line 583, full_rubik_style.scss */
+/* line 563, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 586, full_rubik_style.scss */
+  /* line 566, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 590, full_rubik_style.scss */
+/* line 570, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 594, full_rubik_style.scss */
+/* line 574, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 598, full_rubik_style.scss */
+/* line 578, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 602, full_rubik_style.scss */
+/* line 582, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 606, full_rubik_style.scss */
+/* line 586, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 610, full_rubik_style.scss */
+/* line 590, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 615, full_rubik_style.scss */
+/* line 595, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
-  /* line 622, full_rubik_style.scss */
+  /* line 602, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-    /* line 625, full_rubik_style.scss */
+    /* line 605, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
     .description p:first-child {
       margin-top: 0; }
-    /* line 628, full_rubik_style.scss */
+    /* line 608, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  /* line 633, full_rubik_style.scss */
+  /* line 613, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 637, full_rubik_style.scss */
+    /* line 617, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 644, full_rubik_style.scss */
+/* line 624, full_rubik_style.scss */
 .admin-list .description {
   padding: 5px 0; }
 
-/* line 648, full_rubik_style.scss */
+/* line 628, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 652, full_rubik_style.scss */
+/* line 632, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 657, full_rubik_style.scss */
+/* line 637, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 661, full_rubik_style.scss */
+/* line 641, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -728,24 +707,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 673, full_rubik_style.scss */
+/* line 653, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 676, full_rubik_style.scss */
+/* line 656, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 680, full_rubik_style.scss */
+/* line 660, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 684, full_rubik_style.scss */
+/* line 664, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 689, full_rubik_style.scss */
+/* line 669, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -764,22 +743,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 705, full_rubik_style.scss */
+/* line 685, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 709, full_rubik_style.scss */
+/* line 689, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 716, full_rubik_style.scss */
+/* line 696, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 721, full_rubik_style.scss */
+/* line 701, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
