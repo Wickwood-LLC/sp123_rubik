@@ -113,6 +113,14 @@ div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px;
 }
 
+.categories-page {
+  @media (min-width: 768px) {
+    .panel-col-sidebar {
+      order: -1;
+    }
+  }
+}
+
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0;
