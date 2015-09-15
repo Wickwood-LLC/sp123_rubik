@@ -114,9 +114,16 @@ div#toolbar div.toolbar-shortcuts ul {
 }
 
 .categories-page {
-  @media (min-width: 768px) {
-    .panel-col-sidebar {
-      order: -1;
+  .panel-col-sidebar {
+    order: -1;
+
+    @media (min-width: 1024) {
+      .panel-col-left {
+        order: -1;
+      }
+      .panel-col-right {
+        order: 1;
+      }
     }
   }
 }
