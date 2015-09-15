@@ -121,10 +121,10 @@ div#toolbar div.toolbar-shortcuts ul {
 
 @media (min-width: 1024) {
   .categories-page .panel-col-sidebar{
-    .panel-col-left {
+    &.panel-col-left {
       order: -1;
     }
-    .panel-col-right {
+    &.panel-col-right {
       order: 1;
     }
   }

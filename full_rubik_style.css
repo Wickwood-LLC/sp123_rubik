@@ -154,13 +154,13 @@ div#toolbar div.toolbar-shortcuts ul {
 
 @media (min-width: 1024) {
   /* line 124, full_rubik_style.scss */
-  .categories-page .panel-col-sidebar .panel-col-left {
+  .categories-page .panel-col-sidebar.panel-col-left {
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
         -ms-flex-order: -1;
             order: -1; }
   /* line 127, full_rubik_style.scss */
-  .categories-page .panel-col-sidebar .panel-col-right {
+  .categories-page .panel-col-sidebar.panel-col-right {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
