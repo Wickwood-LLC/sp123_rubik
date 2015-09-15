@@ -117,15 +117,15 @@ div#toolbar div.toolbar-shortcuts ul {
   .panel-col-sidebar {
     order: -1;
   }
+}
 
-  @media (min-width: 1024) {
-    .panel-col-sidebar{
-      .panel-col-left {
-        order: -1;
-      }
-      .panel-col-right {
-        order: 1;
-      }
+@media (min-width: 1024) {
+  .categories-page .panel-col-sidebar{
+    .panel-col-left {
+      order: -1;
+    }
+    .panel-col-right {
+      order: 1;
     }
   }
 }
