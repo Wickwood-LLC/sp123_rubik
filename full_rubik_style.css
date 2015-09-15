@@ -152,7 +152,7 @@ div#toolbar div.toolbar-shortcuts ul {
       -ms-flex-order: -1;
           order: -1; }
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
   /* line 123, full_rubik_style.scss */
   .categories-page .panel-col-sidebar.panel-col-left {
     -webkit-box-ordinal-group: 0;

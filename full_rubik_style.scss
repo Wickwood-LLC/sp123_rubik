@@ -119,7 +119,7 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-@media (min-width: 1024) {
+@include breakpoint(1024px) {
   .categories-page .panel-col-sidebar.panel-col-left {
     order: -1;
   }
