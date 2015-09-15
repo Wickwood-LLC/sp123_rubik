@@ -120,13 +120,11 @@ div#toolbar div.toolbar-shortcuts ul {
 }
 
 @media (min-width: 1024) {
-  .categories-page .panel-col-sidebar{
-    &.panel-col-left {
-      order: -1;
-    }
-    &.panel-col-right {
-      order: 1;
-    }
+  .categories-page .panel-col-sidebar.panel-col-left {
+    order: -1;
+  }
+  .categories-page .panel-col-sidebar.panel-col-right {
+    order: 1;
   }
 }
 
