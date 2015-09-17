@@ -274,7 +274,7 @@ ul.primary-tabs.links li a {
 
 /* line 242, full_rubik_style.scss */
 .views-content .item-list ul li {
-  margin-bottom: 0px;
+  border-bottom: 0px;
   margin-left: 0px; }
 
 /* line 247, full_rubik_style.scss */
