@@ -113,21 +113,6 @@ div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px;
 }
 
-.categories-page {
-  .panel-col-sidebar {
-    order: -1;
-  }
-}
-
-@include breakpoint(1024px) {
-  .categories-page .panel-col-sidebar.panel-col-left {
-    order: -1;
-  }
-  .categories-page .panel-col-sidebar.panel-col-right {
-    order: 1;
-  }
-}
-
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0;
