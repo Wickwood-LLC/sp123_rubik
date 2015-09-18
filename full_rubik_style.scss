@@ -567,6 +567,25 @@ body.maintenance-page {
     }
   }
 
+  .pane-node-field-immediate-release,
+  .contact-title {
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .content-inner-top-right {
+    .pane-node-field-contact-first-name,
+    .pane-node-field-contact-last-name {
+      
+    }
+  }
+
+  .pane-node-title h1 {
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .field-name-field-contact-first-name,
   .field-name-field-contact-last-name {
     display: inline-flex;
