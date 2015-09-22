@@ -584,9 +584,10 @@ body.maintenance-page {
 
     h4 {
       margin: 0;
+      display: inline-flex;
 
       &:after {
-        content: ' ';
+        content: '\00a0';
       }
     }
   }
