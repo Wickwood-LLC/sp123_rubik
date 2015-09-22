@@ -574,6 +574,23 @@ body.maintenance-page {
     }
   }
 
+  .field-name-field-pr-about {
+    margin: 2em 0;
+  }
+
+  .field-name-field-full-contact-detail {
+    margin: 2em 0;
+    text-align: center;
+
+    h4 {
+      margin: 0;
+
+      &:after {
+        content: ' ';
+      }
+    }
+  }
+
   .pane-node-title h1 {
     line-height: 1.5;
     text-align: center;
