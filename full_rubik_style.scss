@@ -574,25 +574,9 @@ body.maintenance-page {
     }
   }
 
-  .content-inner-top-right {
-    .pane-node-field-contact-first-name,
-    .pane-node-field-contact-last-name {
-      
-    }
-  }
-
   .pane-node-title h1 {
     line-height: 1.5;
     text-align: center;
-  }
-
-  .field-name-field-contact-first-name,
-  .field-name-field-contact-last-name {
-    display: inline-flex;
-
-    &:after {
-      content: '\00a0';
-    }
   }
 }
 
