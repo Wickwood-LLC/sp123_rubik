@@ -589,7 +589,7 @@ body.maintenance-page {
 
 /* line 548, full_rubik_style.scss */
 .node-type-press-release.panelized-node .content-main {
-  width: 70%;
+  max-width: 960px;
   background: #FFF;
   margin: 40px auto;
   position: relative;
