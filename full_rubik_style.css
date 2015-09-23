@@ -635,93 +635,96 @@ body.maintenance-page {
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }
+/* line 604, full_rubik_style.scss */
+.node-type-press-release.panelized-node .pane-node-links {
+  text-align: center; }
 
 /* Admin page styles */
-/* line 607, full_rubik_style.scss */
+/* line 611, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 610, full_rubik_style.scss */
+  /* line 614, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 614, full_rubik_style.scss */
+/* line 618, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 618, full_rubik_style.scss */
+/* line 622, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 622, full_rubik_style.scss */
+/* line 626, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 626, full_rubik_style.scss */
+/* line 630, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 630, full_rubik_style.scss */
+/* line 634, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 634, full_rubik_style.scss */
+/* line 638, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 639, full_rubik_style.scss */
+/* line 643, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
-  /* line 646, full_rubik_style.scss */
+  /* line 650, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-    /* line 649, full_rubik_style.scss */
+    /* line 653, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
     .description p:first-child {
       margin-top: 0; }
-    /* line 652, full_rubik_style.scss */
+    /* line 656, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  /* line 657, full_rubik_style.scss */
+  /* line 661, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 661, full_rubik_style.scss */
+    /* line 665, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 668, full_rubik_style.scss */
+/* line 672, full_rubik_style.scss */
 .admin-list .description {
   padding: 5px 0; }
 
-/* line 672, full_rubik_style.scss */
+/* line 676, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 676, full_rubik_style.scss */
+/* line 680, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 681, full_rubik_style.scss */
+/* line 685, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 685, full_rubik_style.scss */
+/* line 689, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -738,24 +741,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 697, full_rubik_style.scss */
+/* line 701, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 700, full_rubik_style.scss */
+/* line 704, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 704, full_rubik_style.scss */
+/* line 708, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 708, full_rubik_style.scss */
+/* line 712, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 713, full_rubik_style.scss */
+/* line 717, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -774,22 +777,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 729, full_rubik_style.scss */
+/* line 733, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 733, full_rubik_style.scss */
+/* line 737, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 740, full_rubik_style.scss */
+/* line 744, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 745, full_rubik_style.scss */
+/* line 749, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
