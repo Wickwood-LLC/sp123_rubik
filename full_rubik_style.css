@@ -615,18 +615,18 @@ body.maintenance-page {
 .node-type-press-release.panelized-node .field-name-field-pr-about {
   margin: 2em 0; }
 /* line 581, full_rubik_style.scss */
-.node-type-press-release.panelized-node .field-name-field-full-contact-detail {
+.node-type-press-release.panelized-node .field-name-field-full-contact-details {
   margin: 2em 0;
   text-align: center; }
   /* line 585, full_rubik_style.scss */
-  .node-type-press-release.panelized-node .field-name-field-full-contact-detail h4 {
+  .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
     /* line 589, full_rubik_style.scss */
-    .node-type-press-release.panelized-node .field-name-field-full-contact-detail h4:after {
+    .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
 /* line 595, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-featured-image {
