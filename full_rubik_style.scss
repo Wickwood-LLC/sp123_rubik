@@ -545,6 +545,10 @@ body.maintenance-page {
 }
 
 .node-type-press-release.panelized-node {
+  h1.page-title {
+    text-align: center;
+  }
+  
   .content-main {
     max-width: 960px;
     background: #FFF;
@@ -590,6 +594,11 @@ body.maintenance-page {
         content: '\00a0';
       }
     }
+  }
+
+  .field-name-field-upload-document {
+    display: flex;
+    justify-content: center;
   }
 
   .field-name-field-featured-image {
