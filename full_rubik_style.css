@@ -611,7 +611,7 @@ body.maintenance-page {
     right: 10px;
     border-radius: 100px / 10px; }
 /* line 576, full_rubik_style.scss */
-.node-type-press-release.panelized-node .pane-node-field-immediate-release h4,
+.node-type-press-release.panelized-node .field-name-field-immediate-release h4,
 .node-type-press-release.panelized-node .contact-title h4 {
   margin: 0; }
 /* line 581, full_rubik_style.scss */
