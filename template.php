@@ -82,3 +82,10 @@ function full_rubik_breadcrumb($vars) {
   }
   return $output;
 }
+
+/**
+ * Override of date_all_day_label.
+ */
+function full_rubik_date_all_day_label() {
+  return '';
+}
