@@ -14,7 +14,7 @@ function full_rubik_breadcrumb($vars) {
   //   }
   // }
 
-  if (isset($vars['breadcrumb'][3]) && !(isset($vars['breadcrumb'][4]))) {  // If we are 4 levels deep in the breadcrumb
+  if (isset($vars['breadcrumb'][3])) {  // If we are 4 levels deep in the breadcrumb
     $pages = array("News", "Articles", "Press Releases");
     preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $lists);
 
