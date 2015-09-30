@@ -13,13 +13,10 @@ function full_rubik_breadcrumb($vars) {
   //     $vars['breadcrumb'][] = (isset($item['localized_options']['html']) && $item['localized_options']['html']) ? $item['title'] : check_plain($item['title']);
   //   }
   // }
-  dpm($vars);
 
   if (isset($vars['breadcrumb'][3])) {  // If we are 4 levels deep in the breadcrumb
     $pages = array("News", "Articles", "Press Releases");
     preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $lists);
-
-    dpm($lists);
 
     if (in_array($lists[0], $pages)) {  // check if we are on the "News", "Articles", or "Press Releases" pages
       preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][3], $match);
