@@ -13,10 +13,13 @@ function full_rubik_breadcrumb($vars) {
   //     $vars['breadcrumb'][] = (isset($item['localized_options']['html']) && $item['localized_options']['html']) ? $item['title'] : check_plain($item['title']);
   //   }
   // }
+  dpm($vars);
 
   if (isset($vars['breadcrumb'][3])) {  // If we are 4 levels deep in the breadcrumb
     $pages = array("News", "Articles", "Press Releases");
     preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $lists);
+
+    dpm($lists);
 
     if (in_array($lists[0], $pages)) {  // check if we are on the "News", "Articles", or "Press Releases" pages
       preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][3], $match);
@@ -56,6 +59,10 @@ function full_rubik_breadcrumb($vars) {
           break;
         case '12':
           $month = "December";
+          break;
+        
+        default:
+          $month = $match[0];
           break;
       }
       $vars['breadcrumb'][3] = preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);  // then replace the breadcrumb item for "month" with the month's full name
