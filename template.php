@@ -57,6 +57,10 @@ function full_rubik_breadcrumb($vars) {
         case '12':
           $month = "December";
           break;
+        
+        default:
+          $month = $match[0];
+          break;
       }
       $vars['breadcrumb'][3] = preg_replace('/(?<=\>).*?(?=\<)/', $month, $vars['breadcrumb'][3]);  // then replace the breadcrumb item for "month" with the month's full name
     }
