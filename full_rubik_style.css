@@ -523,7 +523,7 @@ ul.primary-tabs.links li a {
   background: green; }
 
 /* line 499, full_rubik_style.scss */
-.media-thumbnail {
+.media-item .media-thumbnail {
   width: 160px;
   height: 160px; }
 
