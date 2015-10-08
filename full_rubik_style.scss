@@ -222,14 +222,26 @@ ul.secondary-tabs {
   height: 20px;
   overflow: hidden;
 
-  &:hover {
-    height: auto;
-    overflow: visible;
-  }
-
   li a {
     display: block;
     float: none;
+    height: 0;
+    position: absolute;
+    top: -20px;
+  }
+
+  li.active a {
+    top: 0;
+  }
+
+  &:hover {
+    height: auto;
+    overflow: visible;
+
+    li a {
+      height: auto;
+      position: relative;
+    }
   }
 }
 
