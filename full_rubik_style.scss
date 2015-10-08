@@ -241,10 +241,10 @@ ul.links li a {
 ul.action-links,
 ul.links.pager,
 ul.primary-tabs.links {
-  li {
+  &>li {
     margin-left: 0;
   }
-  li, li a {
+  &>li, &>li a {
     float: left;
   }
 }
