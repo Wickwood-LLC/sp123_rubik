@@ -225,9 +225,8 @@ ul.secondary-tabs {
   li a {
     display: block;
     float: none;
-    height: 1px;
+    height: 0px;
     position: relative;
-    position: absolute;
     top: -20px;
   }
 
