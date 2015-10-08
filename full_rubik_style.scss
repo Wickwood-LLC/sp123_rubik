@@ -218,6 +218,21 @@ ul.secondary-tabs.links:hover {
   }
 }
 
+ul.secondary-tabs {
+  height: 20px;
+  overflow: hidden;
+
+  &:hover {
+    height: auto;
+    overflow: visible;
+  }
+
+  li a {
+    display: block;
+    float: none;
+  }
+}
+
 ul.links li, 
 ul.links li a {
   float: none;
