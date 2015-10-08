@@ -251,7 +251,7 @@ ul.secondary-tabs {
   ul.secondary-tabs li a {
     display: block;
     float: none;
-    height: 0;
+    height: 1px;
     position: absolute;
     top: -20px; }
   /* line 233, full_rubik_style.scss */
