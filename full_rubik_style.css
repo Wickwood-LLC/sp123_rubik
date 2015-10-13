@@ -142,40 +142,45 @@ input[type="password"] {
   box-sizing: border-box; }
 
 /* line 112, full_rubik_style.scss */
+#autocomplete ul li {
+  margin: 0;
+  padding-left: 5px; }
+
+/* line 117, full_rubik_style.scss */
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 
-/* line 116, full_rubik_style.scss */
+/* line 121, full_rubik_style.scss */
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0; }
 
-/* line 121, full_rubik_style.scss */
+/* line 126, full_rubik_style.scss */
 #page-title .page-title {
   font-size: 2em;
   margin: 0; }
 
-/* line 128, full_rubik_style.scss */
+/* line 133, full_rubik_style.scss */
 .content-main .featured-display .views-field-body {
   font-size: 14px; }
-/* line 132, full_rubik_style.scss */
+/* line 137, full_rubik_style.scss */
 .content-main .featured-image img {
   width: 100%;
   height: auto; }
-/* line 136, full_rubik_style.scss */
+/* line 141, full_rubik_style.scss */
 .content-main .views-field-title h3 {
   margin: 0; }
-/* line 139, full_rubik_style.scss */
+/* line 144, full_rubik_style.scss */
 .content-main .views-field-field-featured-image img {
   float: left;
   margin-right: 15px; }
-/* line 143, full_rubik_style.scss */
+/* line 148, full_rubik_style.scss */
 .content-main .views-row {
   display: table;
   margin-top: 2em;
   width: 100%; }
 
-/* line 150, full_rubik_style.scss */
+/* line 155, full_rubik_style.scss */
 label,
 .pane-title,
 .ckeditor_links,
@@ -184,18 +189,18 @@ label,
 .vertical-tabs-list li a strong {
   text-transform: capitalize; }
 
-/* line 159, full_rubik_style.scss */
+/* line 164, full_rubik_style.scss */
 .field-items ul,
 .field-items ol {
   overflow: hidden; }
 
-/* line 164, full_rubik_style.scss */
+/* line 169, full_rubik_style.scss */
 ul.panels-ipe-linkbar li {
   float: left;
   list-style: none;
   margin-left: 0; }
 
-/* line 170, full_rubik_style.scss */
+/* line 175, full_rubik_style.scss */
 .cke_inner .cke_top {
   overflow: visible;
   display: -webkit-box;
@@ -203,10 +208,10 @@ ul.panels-ipe-linkbar li {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 175, full_rubik_style.scss */
+/* line 180, full_rubik_style.scss */
 .cke_toolbar a.cke_button:hover {
   position: relative; }
-  /* line 178, full_rubik_style.scss */
+  /* line 183, full_rubik_style.scss */
   .cke_toolbar a.cke_button:hover:before {
     content: attr(title);
     color: #FFFFFF;
@@ -217,7 +222,7 @@ ul.panels-ipe-linkbar li {
     text-align: center;
     border-radius: 6px;
     text-transform: capitalize; }
-  /* line 190, full_rubik_style.scss */
+  /* line 195, full_rubik_style.scss */
   .cke_toolbar a.cke_button:hover:after {
     content: '';
     position: absolute;
@@ -229,7 +234,7 @@ ul.panels-ipe-linkbar li {
     margin-left: calc(-50% + 1px);
     bottom: 112%; }
 
-/* line 209, full_rubik_style.scss */
+/* line 214, full_rubik_style.scss */
 .links li,
 .actions li,
 .primary-tabs li,
@@ -239,45 +244,45 @@ ul.panels-ipe-linkbar li {
   list-style: none;
   margin-left: 0; }
 
-/* line 216, full_rubik_style.scss */
+/* line 221, full_rubik_style.scss */
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
 
-/* line 221, full_rubik_style.scss */
+/* line 226, full_rubik_style.scss */
 ul.secondary-tabs {
   height: 20px;
   overflow: hidden; }
-  /* line 225, full_rubik_style.scss */
+  /* line 230, full_rubik_style.scss */
   ul.secondary-tabs li a {
     display: block;
     float: none;
     height: 0px;
     position: relative;
     top: -20px; }
-  /* line 233, full_rubik_style.scss */
+  /* line 238, full_rubik_style.scss */
   ul.secondary-tabs li.active a {
     top: 0; }
-  /* line 237, full_rubik_style.scss */
+  /* line 242, full_rubik_style.scss */
   ul.secondary-tabs:hover {
     height: auto;
     overflow: visible; }
-    /* line 241, full_rubik_style.scss */
+    /* line 246, full_rubik_style.scss */
     ul.secondary-tabs:hover li a {
       height: auto;
       position: relative;
       top: 0px; }
 
-/* line 249, full_rubik_style.scss */
+/* line 254, full_rubik_style.scss */
 ul.links li,
 ul.links li a {
   float: none; }
 
-/* line 257, full_rubik_style.scss */
+/* line 262, full_rubik_style.scss */
 ul.action-links > li,
 ul.links.pager > li,
 ul.primary-tabs.links > li {
   margin-left: 0; }
-/* line 260, full_rubik_style.scss */
+/* line 265, full_rubik_style.scss */
 ul.action-links > li, ul.action-links > li a,
 ul.links.pager > li,
 ul.links.pager > li a,
@@ -285,7 +290,7 @@ ul.primary-tabs.links > li,
 ul.primary-tabs.links > li a {
   float: left; }
 
-/* line 265, full_rubik_style.scss */
+/* line 270, full_rubik_style.scss */
 .views-mini-pager {
   display: -webkit-box;
   display: -webkit-flex;
@@ -296,74 +301,74 @@ ul.primary-tabs.links > li a {
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 270, full_rubik_style.scss */
+/* line 275, full_rubik_style.scss */
 .views-content .item-list ul li {
   border-bottom: 0px;
   margin-left: 0px; }
 
-/* line 275, full_rubik_style.scss */
+/* line 280, full_rubik_style.scss */
 .ctools-content ul li {
   margin-left: 0; }
 
-/* line 279, full_rubik_style.scss */
+/* line 284, full_rubik_style.scss */
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%; }
-  /* line 283, full_rubik_style.scss */
+  /* line 288, full_rubik_style.scss */
   #mini-panel-header .panel-panel {
     width: auto; }
-  /* line 287, full_rubik_style.scss */
+  /* line 292, full_rubik_style.scss */
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0;
         -ms-flex: 1 0;
             flex: 1 0; }
-  /* line 291, full_rubik_style.scss */
+  /* line 296, full_rubik_style.scss */
   #mini-panel-header .panel-col-first {
     text-align: left; }
-  /* line 294, full_rubik_style.scss */
+  /* line 299, full_rubik_style.scss */
   #mini-panel-header .panel-col-last {
     -webkit-align-self: baseline;
         -ms-flex-item-align: baseline;
             align-self: baseline; }
-    /* line 297, full_rubik_style.scss */
+    /* line 302, full_rubik_style.scss */
     #mini-panel-header .panel-col-last .menu-name-user-menu ul {
       float: right; }
-  /* line 301, full_rubik_style.scss */
+  /* line 306, full_rubik_style.scss */
   #mini-panel-header .panel-col {
     -webkit-box-flex: 2;
     -webkit-flex: 2 0;
         -ms-flex: 2 0;
             flex: 2 0;
     text-align: center; }
-    /* line 305, full_rubik_style.scss */
+    /* line 310, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
       line-height: 1.5; }
-    /* line 309, full_rubik_style.scss */
+    /* line 314, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-slogan {
       font-size: 1.5em;
       line-height: 1.5; }
 
-/* line 316, full_rubik_style.scss */
+/* line 321, full_rubik_style.scss */
 .secure-site-notif .block-content {
   background-color: #2ECC71;
   text-align: center;
   padding: 10px; }
 
-/* line 321, full_rubik_style.scss */
+/* line 326, full_rubik_style.scss */
 .region-footer #block-block-2 .block-content {
   text-align: center; }
-  /* line 324, full_rubik_style.scss */
+  /* line 329, full_rubik_style.scss */
   .region-footer #block-block-2 .block-content p {
     margin: 0;
     width: 100%; }
 
-/* line 330, full_rubik_style.scss */
+/* line 335, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar.ui-widget-header,
 .modal-header,
 #modalContent div.ctools-modal-content .modal-header {
@@ -373,7 +378,7 @@ ul.primary-tabs.links > li a {
   height: 30px;
   overflow: hidden; }
 
-/* line 340, full_rubik_style.scss */
+/* line 345, full_rubik_style.scss */
 #modal-title,
 #modalContent div.ctools-modal-content .modal-title {
   font-size: 11px;
@@ -381,21 +386,21 @@ ul.primary-tabs.links > li a {
   line-height: 20px;
   padding: 5px 20px; }
 
-/* line 349, full_rubik_style.scss */
+/* line 354, full_rubik_style.scss */
 #modal-content .form-item {
   position: static; }
-/* line 352, full_rubik_style.scss */
+/* line 357, full_rubik_style.scss */
 #modal-content #views-content-views-content-type-edit-form {
   float: left;
   width: 50%; }
-  /* line 356, full_rubik_style.scss */
+  /* line 361, full_rubik_style.scss */
   #modal-content #views-content-views-content-type-edit-form .form-actions {
     position: absolute;
     right: 12px;
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-/* line 364, full_rubik_style.scss */
+/* line 369, full_rubik_style.scss */
 #modal-content .option-text-aligner {
   width: 100%;
   border: 1px solid #ddd;
@@ -409,88 +414,88 @@ ul.primary-tabs.links > li a {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 372, full_rubik_style.scss */
+  /* line 377, full_rubik_style.scss */
   #modal-content .option-text-aligner .form-item {
     float: none;
     border: 0; }
-/* line 378, full_rubik_style.scss */
+/* line 383, full_rubik_style.scss */
 #modal-content .form-actions {
   width: 46%;
   padding: 1%;
   margin-left: 0; }
 
-/* line 386, full_rubik_style.scss */
+/* line 391, full_rubik_style.scss */
 #block-system-user-menu ul.menu {
   float: right; }
-  /* line 389, full_rubik_style.scss */
+  /* line 394, full_rubik_style.scss */
   #block-system-user-menu ul.menu li {
     float: left;
     border: 0; }
 
-/* line 397, full_rubik_style.scss */
+/* line 402, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
-/* line 404, full_rubik_style.scss */
+/* line 409, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: table;
   margin: 0 auto; }
-  /* line 409, full_rubik_style.scss */
+  /* line 414, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
     @media (min-width: 980px) {
-      /* line 409, full_rubik_style.scss */
+      /* line 414, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  /* line 417, full_rubik_style.scss */
+  /* line 422, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
     @media (min-width: 980px) {
-      /* line 417, full_rubik_style.scss */
+      /* line 422, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  /* line 427, full_rubik_style.scss */
+  /* line 432, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8; }
-  /* line 431, full_rubik_style.scss */
+  /* line 436, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
     float: none;
     list-style: none; }
     @media (min-width: 980px) {
-      /* line 431, full_rubik_style.scss */
+      /* line 436, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
-    /* line 441, full_rubik_style.scss */
+    /* line 446, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
       background-color: #7bc !important;
       color: #fff;
       text-shadow: #38a 0px 1px 0px; }
-    /* line 447, full_rubik_style.scss */
+    /* line 452, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 447, full_rubik_style.scss */
+        /* line 452, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
-    /* line 455, full_rubik_style.scss */
+    /* line 460, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 455, full_rubik_style.scss */
+        /* line 460, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
-    /* line 462, full_rubik_style.scss */
+    /* line 467, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open a {
       background-color: #f8f8f8;
       width: 90%;
       text-align: left; }
-    /* line 468, full_rubik_style.scss */
+    /* line 473, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
@@ -500,14 +505,14 @@ ul.primary-tabs.links > li a {
       float: none;
       padding: 5px 10px; }
       @media (min-width: 980px) {
-        /* line 468, full_rubik_style.scss */
+        /* line 473, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
           float: left; } }
-      /* line 481, full_rubik_style.scss */
+      /* line 486, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover {
         background-color: #f8f8f8; }
 
-/* line 489, full_rubik_style.scss */
+/* line 494, full_rubik_style.scss */
 .ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
 #modalContent div.ctools-modal-content a.close {
@@ -518,41 +523,41 @@ ul.primary-tabs.links > li a {
   width: 20px;
   margin: 5px;
   padding: 0px; }
-  /* line 501, full_rubik_style.scss */
+  /* line 506, full_rubik_style.scss */
   .ui-dialog button.ui-dialog-titlebar-close:hover, .ui-dialog button.ui-dialog-titlebar-close:focus,
   .modal-header .close:hover,
   .modal-header .close:focus,
   #modalContent div.ctools-modal-content a.close:hover,
   #modalContent div.ctools-modal-content a.close:focus {
     background: #444 url(images/buttons.png) -4000px 50% no-repeat; }
-  /* line 505, full_rubik_style.scss */
+  /* line 510, full_rubik_style.scss */
   .ui-dialog button.ui-dialog-titlebar-close span.ui-icon,
   .modal-header .close span.ui-icon,
   #modalContent div.ctools-modal-content a.close span.ui-icon {
     display: none; }
 
-/* line 510, full_rubik_style.scss */
+/* line 515, full_rubik_style.scss */
 .ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text {
   display: none; }
 
-/* line 515, full_rubik_style.scss */
+/* line 520, full_rubik_style.scss */
 .mbp-folders ol, .mbp-folders ul {
   margin-left: 0; }
-  /* line 518, full_rubik_style.scss */
+  /* line 523, full_rubik_style.scss */
   .mbp-folders ol li, .mbp-folders ul li {
     margin-left: 0; }
 
-/* line 523, full_rubik_style.scss */
+/* line 528, full_rubik_style.scss */
 .media-list-thumbnails .media-item.selected {
   background: green; }
 
-/* line 527, full_rubik_style.scss */
+/* line 532, full_rubik_style.scss */
 .media-item .media-thumbnail {
   width: 160px;
   height: 160px; }
 
 /* Maintenance page styles */
-/* line 533, full_rubik_style.scss */
+/* line 538, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -571,13 +576,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 540, full_rubik_style.scss */
+  /* line 545, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 543, full_rubik_style.scss */
+  /* line 548, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 546, full_rubik_style.scss */
+  /* line 551, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -590,36 +595,36 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 553, full_rubik_style.scss */
+  /* line 558, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 556, full_rubik_style.scss */
+  /* line 561, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 560, full_rubik_style.scss */
+  /* line 565, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 564, full_rubik_style.scss */
+  /* line 569, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 568, full_rubik_style.scss */
+  /* line 573, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 573, full_rubik_style.scss */
+  /* line 578, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em; }
 
-/* line 581, full_rubik_style.scss */
+/* line 586, full_rubik_style.scss */
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
-/* line 585, full_rubik_style.scss */
+/* line 590, full_rubik_style.scss */
 .node-type-press-release.panelized-node .content-main {
   max-width: 960px;
   background: #FFF;
@@ -628,7 +633,7 @@ body.maintenance-page {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
   box-sizing: border-box; }
-  /* line 594, full_rubik_style.scss */
+  /* line 599, full_rubik_style.scss */
   .node-type-press-release.panelized-node .content-main:before, .node-type-press-release.panelized-node .content-main:after {
     content: "";
     position: absolute;
@@ -639,28 +644,28 @@ body.maintenance-page {
     left: 10px;
     right: 10px;
     border-radius: 100px / 10px; }
-/* line 609, full_rubik_style.scss */
+/* line 614, full_rubik_style.scss */
 .node-type-press-release.panelized-node .pane-node-field-immediate-release h4,
 .node-type-press-release.panelized-node .contact-title h4 {
   margin: 0; }
-/* line 614, full_rubik_style.scss */
+/* line 619, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-pr-about {
   margin: 2em 0; }
-/* line 618, full_rubik_style.scss */
+/* line 623, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-full-contact-details {
   margin: 2em 0;
   text-align: center; }
-  /* line 622, full_rubik_style.scss */
+  /* line 627, full_rubik_style.scss */
   .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
-    /* line 626, full_rubik_style.scss */
+    /* line 631, full_rubik_style.scss */
     .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
-/* line 632, full_rubik_style.scss */
+/* line 637, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-upload-document {
   display: -webkit-box;
   display: -webkit-flex;
@@ -670,103 +675,103 @@ body.maintenance-page {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-/* line 637, full_rubik_style.scss */
+/* line 642, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-featured-image {
   width: 50%; }
-/* line 641, full_rubik_style.scss */
+/* line 646, full_rubik_style.scss */
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }
-/* line 646, full_rubik_style.scss */
+/* line 651, full_rubik_style.scss */
 .node-type-press-release.panelized-node .pane-node-links {
   text-align: center; }
 
 /* Admin page styles */
-/* line 653, full_rubik_style.scss */
+/* line 658, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 656, full_rubik_style.scss */
+  /* line 661, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 660, full_rubik_style.scss */
+/* line 665, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 664, full_rubik_style.scss */
+/* line 669, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto !important; }
 
-/* line 668, full_rubik_style.scss */
+/* line 673, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 672, full_rubik_style.scss */
+/* line 677, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 676, full_rubik_style.scss */
+/* line 681, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 680, full_rubik_style.scss */
+/* line 685, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 685, full_rubik_style.scss */
+/* line 690, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
-  /* line 692, full_rubik_style.scss */
+  /* line 697, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-    /* line 695, full_rubik_style.scss */
+    /* line 700, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
     .description p:first-child {
       margin-top: 0; }
-    /* line 698, full_rubik_style.scss */
+    /* line 703, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  /* line 703, full_rubik_style.scss */
+  /* line 708, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 707, full_rubik_style.scss */
+    /* line 712, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 714, full_rubik_style.scss */
+/* line 719, full_rubik_style.scss */
 .admin-list .description {
   padding: 5px 0; }
 
-/* line 718, full_rubik_style.scss */
+/* line 723, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 722, full_rubik_style.scss */
+/* line 727, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 727, full_rubik_style.scss */
+/* line 732, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 731, full_rubik_style.scss */
+/* line 736, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -783,24 +788,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 743, full_rubik_style.scss */
+/* line 748, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 746, full_rubik_style.scss */
+/* line 751, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 750, full_rubik_style.scss */
+/* line 755, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 754, full_rubik_style.scss */
+/* line 759, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 759, full_rubik_style.scss */
+/* line 764, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -819,22 +824,22 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 775, full_rubik_style.scss */
+/* line 780, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 779, full_rubik_style.scss */
+/* line 784, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 786, full_rubik_style.scss */
+/* line 791, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 791, full_rubik_style.scss */
+/* line 796, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
