@@ -483,7 +483,8 @@ ul.primary-tabs.links {
           float: left;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
           background-color: #f8f8f8;
         }
       }
