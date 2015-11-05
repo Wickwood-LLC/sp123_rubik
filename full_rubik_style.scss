@@ -484,11 +484,11 @@ ul.primary-tabs.links {
         }
       }
     }
-  }
-
-  .tb-megamenu-submenu {
-    li a {
-      text-align: left;
+  
+  &>.tb-megamenu-submenu {
+      li a {
+        text-align: left;
+      }
     }
   }
 }
