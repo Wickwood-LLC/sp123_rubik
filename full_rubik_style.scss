@@ -431,12 +431,6 @@ ul.primary-tabs.links {
 
     .dropdown-menu {
       background-color: #f8f8f8;
-
-        li a {
-          background-color: #f8f8f8;
-          width: 90%;
-          text-align: left;
-        }
     }
 
     .tb-megamenu-nav>li {
@@ -491,6 +485,16 @@ ul.primary-tabs.links {
       }
     }
   }
+
+  .tb-megamenu-submenu {
+    li a {
+      text-align: left;
+    }
+  }
+}
+
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #f8f8f8;
 }
 
 .ui-dialog button.ui-dialog-titlebar-close,
