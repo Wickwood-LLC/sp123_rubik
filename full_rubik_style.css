@@ -843,4 +843,8 @@ form .tabs {
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
+/* line 800, full_rubik_style.scss */
+#edit-timezone select#edit-timezone--2 {
+  width: 100%; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
