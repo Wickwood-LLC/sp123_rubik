@@ -464,6 +464,11 @@ ul.primary-tabs.links {
             border-radius: 0px 5px 5px 0px;
           }
       }
+      &.dropdown.open a {
+        background-color: #f8f8f8;
+        width: 90%;
+        text-align: left;
+      }
 
       a {
         background-image: none;
