@@ -2044,8 +2044,8 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/full_rubik_style.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 1,
+		"createSourceMap": 0,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
@@ -2053,9 +2053,9 @@
 		"inputAbbreviatedPath": "\/full_rubik_style.scss",
 		"outputAbbreviatedPath": "\/full_rubik_style.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
