@@ -431,6 +431,12 @@ ul.primary-tabs.links {
 
     .dropdown-menu {
       background-color: #f8f8f8;
+
+        li a {
+          background-color: #f8f8f8;
+          width: 90%;
+          text-align: left;
+        }
     }
 
     .tb-megamenu-nav>li {
@@ -463,11 +469,6 @@ ul.primary-tabs.links {
           @include breakpoint(980px) {
             border-radius: 0px 5px 5px 0px;
           }
-      }
-      &.dropdown.open a {
-        background-color: #f8f8f8;
-        width: 90%;
-        text-align: left;
       }
 
       a {
