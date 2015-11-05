@@ -390,7 +390,9 @@ ul.primary-tabs.links > li a {
     width: 90%;
     text-align: left; }
 
-.tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
+.tb-megamenu .dropdown-menu .active > a,
+.tb-megamenu .dropdown-menu .active > a:hover {
   background-color: #f8f8f8; }
 
 .ui-dialog button.ui-dialog-titlebar-close,
