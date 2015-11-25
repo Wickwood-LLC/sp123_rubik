@@ -670,7 +670,8 @@ body.maintenance-page {
 .boxed {
   border: 1px solid black;
   padding: 1em;
-  margin: .5em 0;
+  margin: 2em 0;
+  position: relative;
 
   h2 {
     position: absolute;
@@ -678,6 +679,16 @@ body.maintenance-page {
     top: -3px;
     background: white;
     padding: 0 0.5em;
+
+    &.ctools-collapsible-handle {
+      padding-left: 1em;
+    }
+  }
+
+  .ctools-toggle {
+    position: absolute;
+    top: -10px;
+    z-index: 1;
   }
 }
 
