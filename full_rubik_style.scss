@@ -74,6 +74,7 @@ ol, ul {
     margin-left: 40px;
   }
 }
+
 /***********************/
 
 body:not(.page-admin),
@@ -664,6 +665,12 @@ body.maintenance-page {
   .pane-node-links {
     text-align: center;
   }
+}
+
+.boxed {
+  border: 1px solid black;
+  padding: 1em;
+  margin: .5em 0;
 }
 
 

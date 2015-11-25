@@ -514,6 +514,11 @@ body.maintenance-page {
 .node-type-press-release.panelized-node .pane-node-links {
   text-align: center; }
 
+.boxed {
+  border: 1px solid black;
+  padding: 1em;
+  margin: .5em 0; }
+
 /* Admin page styles */
 ul#views-display-menu-tabs {
   overflow: visible; }
