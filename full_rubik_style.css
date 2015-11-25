@@ -522,7 +522,7 @@ body.maintenance-page {
   .boxed h2 {
     position: absolute;
     margin: 0;
-    top: -3px;
+    top: -10px;
     background: white;
     padding: 0 0.5em; }
     .boxed h2.ctools-collapsible-handle {
