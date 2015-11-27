@@ -667,7 +667,8 @@ body.maintenance-page {
   }
 }
 
-.boxed {
+.boxed,
+div.panel-pane div.node.boxed {
   border: 1px solid black;
   padding: 1em;
   margin: 2em 0;

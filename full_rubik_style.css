@@ -161,6 +161,9 @@ ul.panels-ipe-linkbar li {
 
 .cke_inner .cke_top {
   overflow: visible;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
 .cke_toolbar a.cke_button:hover {
@@ -233,8 +236,14 @@ ul.primary-tabs.links > li a {
   float: left; }
 
 .views-mini-pager {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .views-content .item-list ul li {
   border-bottom: 0px;
@@ -244,21 +253,32 @@ ul.primary-tabs.links > li a {
   margin-left: 0; }
 
 #mini-panel-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 100%; }
   #mini-panel-header .panel-panel {
     width: auto; }
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
-    flex: 1 0; }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+            flex: 1 0; }
   #mini-panel-header .panel-col-first {
     text-align: left; }
   #mini-panel-header .panel-col-last {
-    align-self: baseline; }
+    -webkit-align-self: baseline;
+        -ms-flex-item-align: baseline;
+            align-self: baseline; }
     #mini-panel-header .panel-col-last .menu-name-user-menu ul {
       float: right; }
   #mini-panel-header .panel-col {
-    flex: 2 0;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2 0;
+        -ms-flex: 2 0;
+            flex: 2 0;
     text-align: center; }
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
@@ -310,8 +330,14 @@ ul.primary-tabs.links > li a {
   border: 1px solid #ddd;
   padding: 5px;
   box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center; }
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   #modal-content .option-text-aligner .form-item {
     float: none;
     border: 0; }
@@ -398,7 +424,6 @@ ul.primary-tabs.links > li a {
 .ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
 #modalContent div.ctools-modal-content a.close {
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   background: #444 url(images/buttons.png) -4000px 50% no-repeat;
   display: block;
@@ -436,10 +461,21 @@ ul.primary-tabs.links > li a {
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
   body.maintenance-page #page {
@@ -447,8 +483,14 @@ body.maintenance-page {
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
-    flex: 1 1 100%;
-    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     display: inherit; }
   body.maintenance-page #header .section {
     text-align: center; }
@@ -500,12 +542,21 @@ body.maintenance-page {
   text-align: center; }
   .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex; }
     .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
 .node-type-press-release.panelized-node .field-name-field-upload-document {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 .node-type-press-release.panelized-node .field-name-field-featured-image {
   width: 50%; }
 .node-type-press-release.panelized-node .pane-node-title h1 {
@@ -514,20 +565,24 @@ body.maintenance-page {
 .node-type-press-release.panelized-node .pane-node-links {
   text-align: center; }
 
-.boxed {
+.boxed,
+div.panel-pane div.node.boxed {
   border: 1px solid black;
   padding: 1em;
   margin: 2em 0;
   position: relative; }
-  .boxed h2 {
+  .boxed h2,
+  div.panel-pane div.node.boxed h2 {
     position: absolute;
     margin: 0;
     top: -10px;
     background: white;
     padding: 0 0.5em; }
-    .boxed h2.ctools-collapsible-handle {
+    .boxed h2.ctools-collapsible-handle,
+    div.panel-pane div.node.boxed h2.ctools-collapsible-handle {
       padding-left: 1em; }
-  .boxed .ctools-toggle {
+  .boxed .ctools-toggle,
+  div.panel-pane div.node.boxed .ctools-toggle {
     position: absolute;
     top: -10px;
     z-index: 1; }
@@ -545,6 +600,9 @@ ul#views-display-menu-tabs {
   width: auto !important; }
 
 .pane-node-form-path .pane-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
 select.form-select {
@@ -600,15 +658,12 @@ form .tabs {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7db9e8), color-stop(100%, #1e5799));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* IE10+ */
   background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
   /* W3C */
@@ -618,7 +673,8 @@ form .tabs {
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
 .ui-datepicker .ui-icon {
-  filter: invert(1); }
+  -webkit-filter: invert(1);
+          filter: invert(1); }
 
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
@@ -632,15 +688,12 @@ form .tabs {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
   background: #666666;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #666666 0%, #333333 100%);
   /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #666666), color-stop(100%, #333333));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #666666 0%, #333333 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #666666 0%, #333333 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #666666 0%, #333333 100%);
   /* IE10+ */
   background: linear-gradient(to bottom, #666666 0%, #333333 100%);
   /* W3C */
@@ -665,3 +718,5 @@ form .tabs {
 
 #edit-timezone select#edit-timezone--2 {
   width: 100%; }
+
+/*# sourceMappingURL=full_rubik_style.css.map */
