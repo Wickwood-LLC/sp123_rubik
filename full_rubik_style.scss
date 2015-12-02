@@ -693,6 +693,36 @@ div.panel-pane div.node.boxed {
   }
 }
 
+/***********************/
+/* USER PROFILE STYLES */
+/***********************/
+
+/* Client Edit Styles */
+.page-user-edit-bwma-client {
+  #edit-profile-bwma-client-field-notes{
+    td:not([class]) {
+      position: relative;
+
+      .field-name-field-date {
+        float: left;
+        width: 30%;
+      }
+      .field-name-field-staff {
+        float: left;
+        clear: left;
+      }
+      .field-name-field-note {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .button-remove {
+        float: right;
+      }
+    }
+  }
+}
+
 
 /* Admin page styles */
 ul#views-display-menu-tabs {

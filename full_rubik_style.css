@@ -587,6 +587,25 @@ div.panel-pane div.node.boxed {
     top: -10px;
     z-index: 1; }
 
+/***********************/
+/* USER PROFILE STYLES */
+/***********************/
+/* Client Edit Styles */
+.page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) {
+  position: relative; }
+  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-date {
+    float: left;
+    width: 30%; }
+  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-staff {
+    float: left;
+    clear: left; }
+  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-note {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .button-remove {
+    float: right; }
+
 /* Admin page styles */
 ul#views-display-menu-tabs {
   overflow: visible; }
