@@ -723,6 +723,26 @@ div.panel-pane div.node.boxed {
   }
 }
 
+.pane-additional-identifying-info-edit {
+  .form-item {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+
+    label {
+      width: 40%;
+    }
+  }
+  .pane-user-field-identification {
+    float: left;
+    width: 50%;
+  }
+  .pane-user-field-ss-or-ein {
+    float: left;
+    width: 50%;
+  }
+}
+
 
 /* Admin page styles */
 ul#views-display-menu-tabs {

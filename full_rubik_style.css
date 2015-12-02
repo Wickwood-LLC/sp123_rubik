@@ -606,6 +606,25 @@ div.panel-pane div.node.boxed {
   .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .button-remove {
     float: right; }
 
+.pane-additional-identifying-info-edit .form-item {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .pane-additional-identifying-info-edit .form-item label {
+    width: 40%; }
+.pane-additional-identifying-info-edit .pane-user-field-identification {
+  float: left;
+  width: 50%; }
+.pane-additional-identifying-info-edit .pane-user-field-ss-or-ein {
+  float: left;
+  width: 50%; }
+
 /* Admin page styles */
 ul#views-display-menu-tabs {
   overflow: visible; }
