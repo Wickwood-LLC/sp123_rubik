@@ -612,7 +612,8 @@ div.panel-pane div.node.boxed {
   .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .button-remove {
     float: right; }
 
-.field-type-datetime {
+.field-type-datetime,
+.field-type-datetime * {
   clear: both;
   display: inline-block;
   width: 100%; }

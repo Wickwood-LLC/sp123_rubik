@@ -733,7 +733,8 @@ div.panel-pane div.node.boxed {
   }
 }
 
-.field-type-datetime {
+.field-type-datetime,
+.field-type-datetime * {
   clear: both;
   display: inline-block;
   width: 100%;
