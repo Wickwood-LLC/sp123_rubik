@@ -590,11 +590,13 @@ div.panel-pane div.node.boxed {
 /***********************/
 /* USER PROFILE STYLES */
 /***********************/
-/* Client Edit Styles */
-.page-user-edit-bwma-client .form-item {
+.form-item {
   width: 100%; }
-  .page-user-edit-bwma-client .form-item label {
-    display: inline-block; }
+  .form-item label {
+    display: inline-block;
+    width: 20%; }
+
+/* Client Edit Styles */
 .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) {
   position: relative; }
   .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-date {
@@ -609,6 +611,11 @@ div.panel-pane div.node.boxed {
     right: 0; }
   .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .button-remove {
     float: right; }
+
+.field-type-datetime {
+  clear: both;
+  display: inline-block;
+  width: 100%; }
 
 .pane-additional-identifying-info-edit .form-item {
   display: -webkit-inline-box;
