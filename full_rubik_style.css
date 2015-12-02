@@ -621,6 +621,8 @@ div.panel-pane div.node.boxed {
 .pane-additional-identifying-info-edit .pane-user-field-identification {
   float: left;
   width: 50%; }
+  .pane-additional-identifying-info-edit .pane-user-field-identification .form-item-field-identification-und {
+    display: block; }
   .pane-additional-identifying-info-edit .pane-user-field-identification #edit-field-identification-und {
     display: -webkit-box;
     display: -webkit-flex;
@@ -629,9 +631,16 @@ div.panel-pane div.node.boxed {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around; }
+    .pane-additional-identifying-info-edit .pane-user-field-identification #edit-field-identification-und input {
+      margin-right: 0.5em; }
 .pane-additional-identifying-info-edit .pane-user-field-ss-or-ein {
   float: left;
   width: 50%; }
+  .pane-additional-identifying-info-edit .pane-user-field-ss-or-ein label {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%; }
 
 /* Admin page styles */
 ul#views-display-menu-tabs {

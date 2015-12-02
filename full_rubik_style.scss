@@ -737,14 +737,26 @@ div.panel-pane div.node.boxed {
     float: left;
     width: 50%;
 
+    .form-item-field-identification-und {
+      display: block;
+    }
+
     #edit-field-identification-und {
       display: flex;
       justify-content: space-around;
+
+      input {
+        margin-right: 0.5em;
+      }
     }
   }
   .pane-user-field-ss-or-ein {
     float: left;
     width: 50%;
+
+    label {
+      flex: 100%;
+    }
   }
 }
 
