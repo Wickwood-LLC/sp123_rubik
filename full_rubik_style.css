@@ -591,6 +591,10 @@ div.panel-pane div.node.boxed {
 /* USER PROFILE STYLES */
 /***********************/
 /* Client Edit Styles */
+.page-user-edit-bwma-client .form-item {
+  width: 100%; }
+  .page-user-edit-bwma-client .form-item label {
+    display: inline-block; }
 .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) {
   position: relative; }
   .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-date {
