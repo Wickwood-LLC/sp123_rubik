@@ -736,6 +736,11 @@ div.panel-pane div.node.boxed {
   .pane-user-field-identification {
     float: left;
     width: 50%;
+
+    #edit-field-identification-und {
+      display: flex;
+      justify-content: space-around;
+    }
   }
   .pane-user-field-ss-or-ein {
     float: left;

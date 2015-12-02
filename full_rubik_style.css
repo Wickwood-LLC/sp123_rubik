@@ -621,6 +621,14 @@ div.panel-pane div.node.boxed {
 .pane-additional-identifying-info-edit .pane-user-field-identification {
   float: left;
   width: 50%; }
+  .pane-additional-identifying-info-edit .pane-user-field-identification #edit-field-identification-und {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
 .pane-additional-identifying-info-edit .pane-user-field-ss-or-ein {
   float: left;
   width: 50%; }
