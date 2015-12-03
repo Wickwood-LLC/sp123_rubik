@@ -620,6 +620,9 @@ div.panel-pane div.node.boxed {
   .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .button-remove {
     float: right; }
 
+.field-name-field-direct-mail-lead-tracking- input {
+  width: auto; }
+
 .field-type-datetime,
 .field-type-datetime * {
   clear: both;
