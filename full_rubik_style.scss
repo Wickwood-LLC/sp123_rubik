@@ -709,26 +709,27 @@ div.panel-pane div.node.boxed {
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
 
-  .field-name-field-staff {
-    width: 30%;
-
-    #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper {
-      width: 100%;
-
-      .form-item {
-        width: 100%;
-
-        input {
-          width: auto;
-        }
-      }
-    }
-  }
 }
 
 /* Staff Edit Styles */
 .page-user-edit-bwma-staff {
 
+}
+
+.field-name-field-staff {
+  width: 30%;
+
+  #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper {
+    width: 100%;
+
+    .form-item {
+      width: 100%;
+
+      input {
+        width: auto;
+      }
+    }
+  }
 }
 
 .field-name-field-notes{
