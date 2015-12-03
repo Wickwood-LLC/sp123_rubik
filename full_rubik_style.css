@@ -617,6 +617,12 @@ div.panel-pane div.node.boxed {
   clear: both;
   display: inline-block;
   width: 100%; }
+  .field-type-datetime .form-type-date-popup,
+  .field-type-datetime * .form-type-date-popup {
+    width: 100%; }
+    .field-type-datetime .form-type-date-popup .form-type-textfield,
+    .field-type-datetime * .form-type-date-popup .form-type-textfield {
+      width: 100%; }
 
 .pane-additional-identifying-info-edit .form-item {
   display: -webkit-inline-box;

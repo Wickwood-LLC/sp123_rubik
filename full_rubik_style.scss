@@ -738,6 +738,14 @@ div.panel-pane div.node.boxed {
   clear: both;
   display: inline-block;
   width: 100%;
+
+  .form-type-date-popup {
+    width: 100%;
+
+    .form-type-textfield {
+      width: 100%;
+    }
+  }
 }
 
 .pane-additional-identifying-info-edit {
