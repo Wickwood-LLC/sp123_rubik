@@ -719,7 +719,7 @@ div.panel-pane div.node.boxed {
 .field-name-field-staff {
   width: 30%;
 
-  #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper {
+  &>div {
     width: 100%;
 
     .form-item {

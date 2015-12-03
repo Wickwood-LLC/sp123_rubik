@@ -600,11 +600,11 @@ div.panel-pane div.node.boxed {
 /* Staff Edit Styles */
 .field-name-field-staff {
   width: 30%; }
-  .field-name-field-staff #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper {
+  .field-name-field-staff > div {
     width: 100%; }
-    .field-name-field-staff #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper .form-item {
+    .field-name-field-staff > div .form-item {
       width: 100%; }
-      .field-name-field-staff #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper .form-item input {
+      .field-name-field-staff > div .form-item input {
         width: auto; }
 
 .field-name-field-notes td:not([class]) {
