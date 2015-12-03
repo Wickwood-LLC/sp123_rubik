@@ -605,19 +605,21 @@ div.panel-pane div.node.boxed {
       width: 100%; }
       .page-user-edit-bwma-client .field-name-field-staff #profile-bwma-client-field-notes-und-0-field-staff-add-more-wrapper .form-item input {
         width: auto; }
-.page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) {
+
+/* Staff Edit Styles */
+.field-name-field-notes td:not([class]) {
   position: relative; }
-  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-date {
+  .field-name-field-notes td:not([class]) .field-name-field-date {
     float: left;
     width: 30%; }
-  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-staff {
+  .field-name-field-notes td:not([class]) .field-name-field-staff {
     float: left;
     clear: left; }
-  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .field-name-field-note {
+  .field-name-field-notes td:not([class]) .field-name-field-note {
     position: absolute;
     top: 0;
     right: 0; }
-  .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes td:not([class]) .button-remove {
+  .field-name-field-notes td:not([class]) .button-remove {
     float: right; }
 
 .field-name-field-direct-mail-lead-tracking- input {
