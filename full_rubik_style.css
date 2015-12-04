@@ -598,6 +598,21 @@ div.panel-pane div.node.boxed {
 
 /* Client Edit Styles */
 /* Staff Edit Styles */
+.page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto; }
+    .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane label {
+      width: auto; }
+    .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
+      display: inline; }
+
 .field-name-field-staff {
   width: 30%; }
   .field-name-field-staff > div {

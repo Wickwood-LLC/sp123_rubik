@@ -713,7 +713,21 @@ div.panel-pane div.node.boxed {
 
 /* Staff Edit Styles */
 .page-user-edit-bwma-staff {
+  #mini-panel-staff_information_edit .panel-panel-inner {
+    display: flex;
 
+    .panel-pane {
+      flex: auto;
+
+      label {
+        width: auto;
+      }
+
+      .field-name-field-w-9 .file-widget {
+        display: inline;
+      }
+    }
+  }
 }
 
 .field-name-field-staff {
