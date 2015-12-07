@@ -625,7 +625,8 @@ table[id*='field-notes-values'] > thead {
       .field-name-field-staff > div .form-item input {
         width: auto; }
 
-.field-name-field-notes td:not([class]) {
+.field-name-field-notes td:not([class]),
+.field-name-field-notes td:not([class]) > .ajax-new-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -634,30 +635,35 @@ table[id*='field-notes-values'] > thead {
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
   height: 165px; }
-  .field-name-field-notes td:not([class]) .field-name-field-date {
+  .field-name-field-notes td:not([class]) .field-name-field-date,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
     float: left;
     width: 30%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto; }
-    .field-name-field-notes td:not([class]) .field-name-field-date label {
+    .field-name-field-notes td:not([class]) .field-name-field-date label,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date label {
       display: none; }
-  .field-name-field-notes td:not([class]) .field-name-field-staff {
+  .field-name-field-notes td:not([class]) .field-name-field-staff,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
     float: left;
     clear: left;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto; }
-  .field-name-field-notes td:not([class]) .field-name-field-note {
+  .field-name-field-notes td:not([class]) .field-name-field-note,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     width: 50%;
     max-width: 500px; }
-  .field-name-field-notes td:not([class]) .button-remove {
+  .field-name-field-notes td:not([class]) .button-remove,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
     -webkit-transform: rotate(-90deg) translateX(-50%);
         -ms-transform: rotate(-90deg) translateX(-50%);
             transform: rotate(-90deg) translateX(-50%); }

@@ -751,7 +751,8 @@ table[id*='field-notes-values'] > thead {
 }
 
 .field-name-field-notes{
-  td:not([class]) {
+  td:not([class]),
+  td:not([class]) > .ajax-new-content {
     display: flex;
     flex-flow: column wrap;
     height: 165px;
