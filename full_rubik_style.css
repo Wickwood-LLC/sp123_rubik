@@ -613,6 +613,9 @@ div.panel-pane div.node.boxed {
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
 
+#field-notes-values > thead {
+  display: none; }
+
 .field-name-field-staff {
   width: 30%; }
   .field-name-field-staff > div {
@@ -627,6 +630,8 @@ div.panel-pane div.node.boxed {
   .field-name-field-notes td:not([class]) .field-name-field-date {
     float: left;
     width: 30%; }
+    .field-name-field-notes td:not([class]) .field-name-field-date label {
+      display: none; }
   .field-name-field-notes td:not([class]) .field-name-field-staff {
     float: left;
     clear: left; }

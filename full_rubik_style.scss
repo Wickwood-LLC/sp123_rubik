@@ -730,6 +730,10 @@ div.panel-pane div.node.boxed {
   }
 }
 
+#field-notes-values > thead {
+  display: none;
+}
+
 .field-name-field-staff {
   width: 30%;
 
@@ -753,6 +757,10 @@ div.panel-pane div.node.boxed {
     .field-name-field-date {
       float: left;
       width: 30%;
+
+      label {
+        display: none;
+      }
     }
     .field-name-field-staff {
       float: left;
