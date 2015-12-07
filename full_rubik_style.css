@@ -613,7 +613,7 @@ div.panel-pane div.node.boxed {
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
 
-#field-notes-values > thead {
+table[id*='field-notes-values'] > thead {
   display: none; }
 
 .field-name-field-staff {
@@ -658,9 +658,9 @@ div.panel-pane div.node.boxed {
     width: 50%;
     max-width: 500px; }
   .field-name-field-notes td:not([class]) .button-remove {
-    -webkit-transform: rotate(-90deg) translateX(-100%);
-        -ms-transform: rotate(-90deg) translateX(-100%);
-            transform: rotate(-90deg) translateX(-100%); }
+    -webkit-transform: rotate(-90deg) translateX(-50%);
+        -ms-transform: rotate(-90deg) translateX(-50%);
+            transform: rotate(-90deg) translateX(-50%); }
 
 .field-name-field-direct-mail-lead-tracking- input {
   width: auto; }

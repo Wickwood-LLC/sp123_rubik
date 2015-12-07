@@ -730,7 +730,7 @@ div.panel-pane div.node.boxed {
   }
 }
 
-#field-notes-values > thead {
+table[id*='field-notes-values'] > thead {
   display: none;
 }
 
@@ -776,7 +776,7 @@ div.panel-pane div.node.boxed {
       max-width: 500px;
     }
     .button-remove {
-      transform: rotate(-90deg) translateX(-100%);
+      transform: rotate(-90deg) translateX(-50%);
     }
   }
 }
