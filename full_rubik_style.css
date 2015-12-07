@@ -634,7 +634,7 @@ table[id*='field-notes-values'] > thead {
   -webkit-flex-flow: column wrap;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  height: 165px; }
+  height: 200px; }
   .field-name-field-notes td:not([class]) .field-name-field-date,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
     float: left;
