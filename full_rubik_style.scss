@@ -732,6 +732,11 @@ div.panel-pane div.node.boxed {
 
 table[id*='field-notes-values'] > thead {
   display: none;
+
+    .field-add-more-submit {
+    display: table;
+    margin: 1em auto 0;
+  }
 }
 
 .field-name-field-staff {
@@ -777,10 +782,6 @@ table[id*='field-notes-values'] > thead {
     }
     .button-remove {
       transform: rotate(-90deg) translateX(-50%);
-    }
-    .field-add-more-submit {
-      display: table;
-      margin: 1em auto 0;
     }
   }
 }

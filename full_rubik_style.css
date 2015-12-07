@@ -615,6 +615,9 @@ div.panel-pane div.node.boxed {
 
 table[id*='field-notes-values'] > thead {
   display: none; }
+  table[id*='field-notes-values'] > thead .field-add-more-submit {
+    display: table;
+    margin: 1em auto 0; }
 
 .field-name-field-staff {
   width: 30%; }
@@ -661,9 +664,6 @@ table[id*='field-notes-values'] > thead {
     -webkit-transform: rotate(-90deg) translateX(-50%);
         -ms-transform: rotate(-90deg) translateX(-50%);
             transform: rotate(-90deg) translateX(-50%); }
-  .field-name-field-notes td:not([class]) .field-add-more-submit {
-    display: table;
-    margin: 1em auto 0; }
 
 .field-name-field-direct-mail-lead-tracking- input {
   width: auto; }
