@@ -626,21 +626,41 @@ div.panel-pane div.node.boxed {
         width: auto; }
 
 .field-name-field-notes td:not([class]) {
-  position: relative; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  height: 165px; }
   .field-name-field-notes td:not([class]) .field-name-field-date {
     float: left;
-    width: 30%; }
+    width: 30%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
     .field-name-field-notes td:not([class]) .field-name-field-date label {
       display: none; }
   .field-name-field-notes td:not([class]) .field-name-field-staff {
     float: left;
-    clear: left; }
+    clear: left;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
   .field-name-field-notes td:not([class]) .field-name-field-note {
-    position: absolute;
-    top: 0;
-    right: 0; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 50%;
+    max-width: 500px; }
   .field-name-field-notes td:not([class]) .button-remove {
-    float: right; }
+    -webkit-transform: rotate(-90deg) translateX(-100%);
+        -ms-transform: rotate(-90deg) translateX(-100%);
+            transform: rotate(-90deg) translateX(-100%); }
 
 .field-name-field-direct-mail-lead-tracking- input {
   width: auto; }
