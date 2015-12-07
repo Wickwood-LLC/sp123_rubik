@@ -657,16 +657,20 @@ table[id*='field-notes-values'] > thead {
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
     width: 50%;
     max-width: 500px; }
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
     -webkit-transform: rotate(-90deg) translateX(-50%);
         -ms-transform: rotate(-90deg) translateX(-50%);
-            transform: rotate(-90deg) translateX(-50%); }
+            transform: rotate(-90deg) translateX(-50%);
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+            flex: 0 auto; }
 .field-name-field-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }

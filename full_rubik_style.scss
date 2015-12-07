@@ -772,12 +772,13 @@ table[id*='field-notes-values'] > thead {
       flex: 0 0 auto;
     }
     .field-name-field-note {
-      flex: 0 0 auto;
+      flex: 0 0 100%;
       width: 50%;
       max-width: 500px;
     }
     .button-remove {
       transform: rotate(-90deg) translateX(-50%);
+      flex: 0 auto;
     }
   }
 
