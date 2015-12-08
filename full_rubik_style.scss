@@ -762,7 +762,7 @@ table[id*='field-notes-values'] > thead {
       width: 30%;
       flex: 0 0 auto;
 
-      label {
+      &>label {
         display: none;
       }
     }

@@ -643,8 +643,8 @@ table[id*='field-notes-values'] > thead {
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto; }
-    .field-name-field-notes td:not([class]) .field-name-field-date label,
-    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date label {
+    .field-name-field-notes td:not([class]) .field-name-field-date > label,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date > label {
       display: none; }
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
