@@ -642,50 +642,30 @@ table[id*='field-notes-values'] > thead {
 
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column wrap;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  height: 200px; }
+  position: relative; }
   .field-name-field-notes td:not([class]) .field-name-field-date,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
     float: left;
-    width: 30%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto; }
+    width: auto; }
     .field-name-field-notes td:not([class]) .field-name-field-date .form-type-date-combo > label,
     .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date .form-type-date-combo > label {
       display: none; }
+  .field-name-field-notes td:not([class]) .field-name-field-note,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
+    float: right;
+    margin-right: 4em; }
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
     float: left;
-    clear: left;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto; }
-  .field-name-field-notes td:not([class]) .field-name-field-note,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    width: 50%;
-    max-width: 500px; }
+    clear: left; }
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
-    -webkit-transform: rotate(-90deg) translateX(-50%);
-        -ms-transform: rotate(-90deg) translateX(-50%);
-            transform: rotate(-90deg) translateX(-50%);
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-        -ms-flex: 0 auto;
-            flex: 0 auto; }
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
 .field-name-field-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }

@@ -773,32 +773,29 @@ table[id*='field-notes-values'] > thead {
 .field-name-field-notes{
   td:not([class]),
   td:not([class]) > .ajax-new-content {
-    display: flex;
-    flex-flow: column wrap;
-    height: 200px;
+    position: relative;
 
     .field-name-field-date {
       float: left;
-      width: 30%;
-      flex: 0 0 auto;
+      width: auto;
 
       .form-type-date-combo>label {
         display: none;
       }
     }
+    .field-name-field-note {
+      float: right;
+      margin-right: 4em;
+    }
     .field-name-field-staff {
       float: left;
       clear: left;
-      flex: 0 0 auto;
-    }
-    .field-name-field-note {
-      flex: 0 0 100%;
-      width: 50%;
-      max-width: 500px;
-    }
+    }    
     .button-remove {
-      transform: rotate(-90deg) translateX(-50%);
-      flex: 0 auto;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: rotate(-90deg);
     }
   }
 
