@@ -597,6 +597,20 @@ div.panel-pane div.node.boxed {
     width: 20%; }
 
 /* Client Edit Styles */
+.page-user-edit-bwma-client .field-name-field-loans .ief-form * {
+  display: inline-table;
+  box-sizing: border-box; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-notes {
+  width: 49%;
+  margin-right: 1%; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+  width: 49%;
+  margin-left: 1%; }
+
 /* Staff Edit Styles */
 .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner {
   display: -webkit-box;
