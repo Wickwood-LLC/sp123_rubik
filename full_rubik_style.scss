@@ -712,7 +712,9 @@ div.panel-pane div.node.boxed {
     * {
       box-sizing: border-box;
     }
-
+    .field-name-field-used-diy-form {
+      display: table-cell;
+    }
     .loan-debit-info,
     .bwma-enrolment,
     .loan-notes {
@@ -722,7 +724,6 @@ div.panel-pane div.node.boxed {
       float: left;
       clear: left;
     }
-
     .deferred-enrolment-fees,
     .afts-advance,
     .loan-status-history {

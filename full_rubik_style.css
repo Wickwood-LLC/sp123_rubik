@@ -599,6 +599,8 @@ div.panel-pane div.node.boxed {
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
+  display: table-cell; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-notes {
