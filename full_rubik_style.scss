@@ -702,7 +702,6 @@ div.panel-pane div.node.boxed {
 
   label {
     display: inline-block;
-    width: 20%;
   }
 }
 
@@ -716,7 +715,7 @@ div.panel-pane div.node.boxed {
       display: table-cell;
     }
     .loan-debit-info,
-    .bwma-enrolment,
+    .deferred-enrolment-fees,
     .loan-notes {
       display: block;
       width: 49%;
@@ -724,7 +723,8 @@ div.panel-pane div.node.boxed {
       float: left;
       clear: left;
     }
-    .deferred-enrolment-fees,
+    
+    .bwma-enrolment,
     .afts-advance,
     .loan-status-history {
       display: inline-block;
@@ -791,7 +791,7 @@ table[id*='field-notes-values'] > thead {
   .tabledrag-toggle-weight-wrapper {
     display: none;
   }
-  
+
   td:not([class]),
   td:not([class]) > .ajax-new-content {
     position: relative;
