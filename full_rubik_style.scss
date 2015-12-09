@@ -734,6 +734,17 @@ div.panel-pane div.node.boxed {
     .loan-lenders {
       clear: both;
     }
+
+    .boxed {
+      position: relative;
+
+      h3 {
+        position: absolute;
+        top: -25px;
+        background: white;
+        padding: 0 0.5em;
+      }
+    }
   }
 }
 
