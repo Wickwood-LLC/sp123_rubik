@@ -716,17 +716,22 @@ div.panel-pane div.node.boxed {
     .loan-debit-info,
     .bwma-enrolment,
     .loan-notes {
-      display: inline-table;
+      display: table;
       width: 49%;
       margin-right: 1%;
+      float: left;
+      clear: left;
     }
 
     .deferred-enrolment-fees,
     .afts-advance,
     .loan-status-history {
-      display: inline-table;
+      display: table;
       width: 49%;
       margin-left: 1%;
+    }
+    .loan-lenders {
+      clear: both;
     }
   }
 }
