@@ -788,6 +788,10 @@ table[id*='field-notes-values'] > thead {
 }
 
 .field-name-field-notes{
+  .tabledrag-toggle-weight-wrapper {
+    display: none;
+  }
+  
   td:not([class]),
   td:not([class]) > .ajax-new-content {
     position: relative;
