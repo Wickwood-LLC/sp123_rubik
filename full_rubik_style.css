@@ -664,14 +664,14 @@ table[id*='field-notes-values'] > thead {
     .field-name-field-notes td:not([class]) .field-name-field-date .form-type-date-combo > label,
     .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date .form-type-date-combo > label {
       display: none; }
-  .field-name-field-notes td:not([class]) .field-name-field-note,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
-    float: right;
-    margin-right: 4em; }
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
     float: left;
     clear: left; }
+  .field-name-field-notes td:not([class]) .field-name-field-note,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
+    display: inline-block;
+    margin-right: 4em; }
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
     position: absolute;
@@ -689,8 +689,7 @@ table[id*='field-notes-values'] > thead {
 
 .field-type-datetime,
 .field-type-datetime * {
-  clear: both;
-  display: inline-block;
+  display: block;
   width: 100%; }
   .field-type-datetime .form-type-date-popup,
   .field-type-datetime * .form-type-date-popup {

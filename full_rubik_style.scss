@@ -804,13 +804,13 @@ table[id*='field-notes-values'] > thead {
         display: none;
       }
     }
-    .field-name-field-note {
-      float: right;
-      margin-right: 4em;
-    }
     .field-name-field-staff {
       float: left;
       clear: left;
+    }
+    .field-name-field-note {
+      display: inline-block;
+      margin-right: 4em;
     }    
     .button-remove {
       position: absolute;
@@ -832,8 +832,7 @@ table[id*='field-notes-values'] > thead {
 
 .field-type-datetime,
 .field-type-datetime * {
-  clear: both;
-  display: inline-block;
+  display: block;
   width: 100%;
 
   .form-type-date-popup {
