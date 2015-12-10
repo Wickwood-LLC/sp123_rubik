@@ -18,6 +18,9 @@ code {
 del {
   text-decoration: line-through; }
 
+fieldset {
+  min-width: 0; }
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
