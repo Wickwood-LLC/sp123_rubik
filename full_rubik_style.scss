@@ -745,6 +745,18 @@ div.panel-pane div.node.boxed {
         clear: left;
       }
     }
+
+    .field-name-field-thank-you-card-and-referra {
+      .field-name-field-date-sent {
+        label {
+          width: auto;
+        }
+        input {
+          max-width: 100px;
+          display: inline-block;
+        }
+      }
+    }
     
     .bwma-enrolment,
     .afts-advance,

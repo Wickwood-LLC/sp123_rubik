@@ -635,6 +635,11 @@ div.panel-pane div.node.boxed {
     margin-right: 1%;
     float: left;
     clear: left; } }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-date-sent label {
+  width: auto; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-date-sent input {
+  max-width: 100px;
+  display: inline-block; }
 @media (min-width: 0px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
