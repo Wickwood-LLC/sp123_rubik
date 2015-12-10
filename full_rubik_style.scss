@@ -835,6 +835,12 @@ table[id*='field-notes-values'] > thead {
   width: auto;
 }
 
+.field-name-field-address {
+  .state.form-select {
+    width: 100%;
+  }
+}
+
 .field-type-datetime,
 .field-type-datetime * {
   display: block;
