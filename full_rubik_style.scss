@@ -730,9 +730,17 @@ div.panel-pane div.node.boxed {
     .bwma-enrolment,
     .afts-advance,
     .loan-status-history {
-      display: inline-block;
-      width: 49%;
-      margin-left: 1%;
+
+      @include breakpoint(1024px) {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+      }
+      @include breakpoint(1440px){
+        display: inline-block;
+        width: 49%;
+        margin-left: 1%;
+      }
     }
     .loan-lenders {
       clear: both;
