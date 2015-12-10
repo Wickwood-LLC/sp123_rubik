@@ -610,7 +610,7 @@ div.panel-pane div.node.boxed {
     width: 100%;
     margin-right: 0;
     float: none; } }
-@media (min-width: 1280) {
+@media (min-width: 1280px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-notes {
@@ -626,7 +626,7 @@ div.panel-pane div.node.boxed {
     display: block;
     width: 100%;
     margin-left: 0; } }
-@media (min-width: 1280) {
+@media (min-width: 1280px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
