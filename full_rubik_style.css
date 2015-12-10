@@ -644,13 +644,14 @@ table[id*='field-notes-values'] > thead {
   display: none; }
 
 .field-name-field-staff {
-  width: 30%; }
+  width: 29%;
+  margin-right: 1%; }
   .field-name-field-staff > div {
     width: 100%; }
     .field-name-field-staff > div .form-item {
       width: 100%; }
       .field-name-field-staff > div .form-item input {
-        width: auto; }
+        max-width: 50px; }
 
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
@@ -660,7 +661,8 @@ table[id*='field-notes-values'] > thead {
   .field-name-field-notes td:not([class]) .field-name-field-date,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
     float: left;
-    width: auto; }
+    width: 29%;
+    margin-right: 1%; }
     .field-name-field-notes td:not([class]) .field-name-field-date .form-type-date-combo > label,
     .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date .form-type-date-combo > label {
       display: none; }
