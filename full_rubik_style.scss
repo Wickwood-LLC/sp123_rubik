@@ -754,15 +754,15 @@ div.panel-pane div.node.boxed {
         width: 100%;
         margin-left: 0;
       }
-      @include breakpoint(992px) {
-        display: block;
-        width: 100%;
-        margin-left: 0;
-      }
       @include breakpoint(640px) {
         display: inline-block;
         width: 49%;
         margin-left: 1%;
+      }
+      @include breakpoint(992px) {
+        display: block;
+        width: 100%;
+        margin-left: 0;
       }
       @include breakpoint(1280px) {
         display: inline-block;

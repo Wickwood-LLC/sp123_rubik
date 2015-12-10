@@ -642,13 +642,6 @@ div.panel-pane div.node.boxed {
     display: block;
     width: 100%;
     margin-left: 0; } }
-@media (min-width: 992px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
-    display: block;
-    width: 100%;
-    margin-left: 0; } }
 @media (min-width: 640px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
@@ -656,6 +649,13 @@ div.panel-pane div.node.boxed {
     display: inline-block;
     width: 49%;
     margin-left: 1%; } }
+@media (min-width: 992px) {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+    display: block;
+    width: 100%;
+    margin-left: 0; } }
 @media (min-width: 1280px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
