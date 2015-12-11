@@ -845,6 +845,11 @@ table[id*='field-notes-values'] > thead {
     }
     .field-name-field-staff {
       float: left;
+
+      input {
+        display: inline-block;
+        width: auto;
+      }
     }
     .field-name-field-note {
       display: inline-block;

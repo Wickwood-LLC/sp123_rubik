@@ -716,6 +716,10 @@ table[id*='field-notes-values'] > thead {
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
     float: left; }
+    .field-name-field-notes td:not([class]) .field-name-field-staff input,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff input {
+      display: inline-block;
+      width: auto; }
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     display: inline-block;
