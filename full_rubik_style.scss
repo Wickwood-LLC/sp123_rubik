@@ -844,6 +844,9 @@ table[id*='field-notes-values'] > thead {
   td:not([class]) > .ajax-new-content {
     position: relative;
 
+    .field-name-field-date {
+      width: auto;
+    }
     .field-name-field-staff {
       float: left;
 
