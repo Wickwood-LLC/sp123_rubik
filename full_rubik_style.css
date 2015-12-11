@@ -697,22 +697,20 @@ div.panel-pane div.node.boxed {
 table[id*='field-notes-values'] > thead {
   display: none; }
 
+.field-name-field-date {
+  float: left;
+  width: auto;
+  margin-right: 1%; }
+  .field-name-field-date label {
+    width: auto; }
+  .field-name-field-date input {
+    display: inline-block; }
+
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content {
   position: relative; }
-  .field-name-field-notes td:not([class]) .field-name-field-date,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
-    float: left;
-    width: auto;
-    margin-right: 1%; }
-    .field-name-field-notes td:not([class]) .field-name-field-date label,
-    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date label {
-      width: auto; }
-    .field-name-field-notes td:not([class]) .field-name-field-date input,
-    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date input {
-      display: inline-block; }
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
     float: left; }
