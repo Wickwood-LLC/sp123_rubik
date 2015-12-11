@@ -802,6 +802,21 @@ div.panel-pane div.node.boxed {
       }
     }
   }
+
+  .field-name-field-loans {
+    .node-loan,
+    .boxed {
+      position: relative;
+
+      h3 {
+        position: absolute;
+        margin: 0;
+        padding: 0 1em;
+        background: white;
+        top: -10px;
+      }
+    }
+  }
 }
 
 /* Staff Edit Styles */
