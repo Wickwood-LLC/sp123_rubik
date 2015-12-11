@@ -690,7 +690,8 @@ div.panel-pane div.node.boxed {
     padding: 0 1em;
     background: white;
     top: -10px; }
-.page-user-view-bwma-client .field-label-inline .field-label {
+.page-user-view-bwma-client .field-label-inline .field-label,
+.page-user-view-bwma-client .field-label-inline .field-items {
   width: auto; }
 
 /* Staff Edit Styles */

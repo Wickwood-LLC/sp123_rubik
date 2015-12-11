@@ -820,8 +820,11 @@ div.panel-pane div.node.boxed {
     }
   }
 
-  .field-label-inline .field-label {
-    width: auto;
+  .field-label-inline {
+    .field-label,
+    .field-items {
+      width: auto;
+    }
   }
 }
 
