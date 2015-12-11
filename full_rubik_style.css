@@ -670,6 +670,8 @@ div.panel-pane div.node.boxed {
     margin-left: 1%; } }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders {
   clear: both; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data input {
+  width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed {
   position: relative; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed h3 {
