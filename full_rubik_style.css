@@ -598,10 +598,12 @@ div.panel-pane div.node.boxed {
   .form-item label {
     display: inline-block; }
 
-.field-collection-item-field-phone .field-label,
-.field-collection-item-field-phone .field-items {
-  width: auto;
-  display: inline-block; }
+.field-collection-item-field-phone {
+  margin-bottom: 1em; }
+  .field-collection-item-field-phone .field-label,
+  .field-collection-item-field-phone .field-items {
+    width: auto;
+    display: inline-block; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
