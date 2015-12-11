@@ -708,6 +708,14 @@ div.panel-pane div.node.boxed {
   }
 }
 
+.field-collection-item-field-phone {
+  .field-label,
+  .field-items {
+    width: auto;
+    display: inline-block;
+  }
+}
+
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
   .field-name-field-loans .ief-form {
