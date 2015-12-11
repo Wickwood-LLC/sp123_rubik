@@ -679,11 +679,12 @@ div.panel-pane div.node.boxed {
     top: -25px;
     background: white;
     padding: 0 0.5em; }
-.page-user-edit-bwma-client .field-name-field-loans .node-loan,
-.page-user-edit-bwma-client .field-name-field-loans .boxed {
+
+.page-user-view-bwma-client .field-name-field-loans .node-loan,
+.page-user-view-bwma-client .field-name-field-loans .boxed {
   position: relative; }
-  .page-user-edit-bwma-client .field-name-field-loans .node-loan h3,
-  .page-user-edit-bwma-client .field-name-field-loans .boxed h3 {
+  .page-user-view-bwma-client .field-name-field-loans .node-loan h3,
+  .page-user-view-bwma-client .field-name-field-loans .boxed h3 {
     position: absolute;
     margin: 0;
     padding: 0 1em;
