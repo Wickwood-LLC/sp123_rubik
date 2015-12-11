@@ -697,16 +697,6 @@ div.panel-pane div.node.boxed {
 table[id*='field-notes-values'] > thead {
   display: none; }
 
-.field-name-field-staff {
-  width: 29%;
-  margin-right: 1%; }
-  .field-name-field-staff > div {
-    width: 100%; }
-    .field-name-field-staff > div .form-item {
-      width: 100%; }
-      .field-name-field-staff > div .form-item input {
-        max-width: 50px; }
-
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
 .field-name-field-notes td:not([class]),
@@ -715,15 +705,17 @@ table[id*='field-notes-values'] > thead {
   .field-name-field-notes td:not([class]) .field-name-field-date,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
     float: left;
-    width: 29%;
+    width: auto;
     margin-right: 1%; }
-    .field-name-field-notes td:not([class]) .field-name-field-date .form-type-date-combo > label,
-    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date .form-type-date-combo > label {
-      display: none; }
+    .field-name-field-notes td:not([class]) .field-name-field-date label,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date label {
+      width: auto; }
+    .field-name-field-notes td:not([class]) .field-name-field-date input,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date input {
+      display: inline-block; }
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
-    float: left;
-    clear: left; }
+    float: left; }
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     display: inline-block;
