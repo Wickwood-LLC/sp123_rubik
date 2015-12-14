@@ -1,1 +1,1 @@
-!function($){Drupal.behaviors.collapseBlock={attach:function(e,o){$(".panelizer-view-mode.node-embedded-to-profile h3").click(function(){$(".panelizer-view-mode.node-embedded-to-profile").slideToggle()})}}}(jQuery);
+!function($){Drupal.behaviors.collapseBlock={attach:function(e,o){$(".panelizer-view-mode.node-embedded-to-profile h3").click(function(){$(".panelizer-view-mode.node-embedded-to-profile .panel-display").slideToggle()})}}}(jQuery);
