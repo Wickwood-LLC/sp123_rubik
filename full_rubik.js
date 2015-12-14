@@ -1,10 +1,9 @@
 (function ($) {
-  Drupal.behaviors.hideTooltip = {
+  Drupal.behaviors.collapseBlock = {
     attach: function (context, settings) {
-    	// $(document).ready(function(){
-    	// 	$('body').append('<button> Show/Hide help text </button>');
-    	// 	$('a').removeAttr("title");
-    	// });
+    	$('.panelizer-view-mode.node-embedded-to-profile h3').click(function() {
+    		$('.panelizer-view-mode.node-embedded-to-profile').slideToggle();
+		});
     }
   };
 }(jQuery));
