@@ -601,13 +601,13 @@ div.panel-pane div.node.boxed {
     height: 17px;
     display: inline-block;
     background-image: url(../../../all/modules/ctools/images/collapsible-collapsed.png);
-    background-position: 4px 8px;
+    background-position: 4px 6px;
     background-repeat: no-repeat;
     position: absolute;
     left: 0px; }
 .panelizer-view-mode.node-embedded-to-profile > h3.open:before {
   background-image: url(../../../all/modules/ctools/images/collapsible-expanded.png);
-  background-position: 4px 6px; }
+  background-position: 4px 9px; }
 .panelizer-view-mode.node-embedded-to-profile > .panel-display {
   display: none; }
 
