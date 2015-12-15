@@ -700,6 +700,14 @@ div.panel-pane div.node.boxed {
 /* USER PROFILE STYLES */
 /***********************/
 
+.panelizer-view-mode.node-embedded-to-profile h3:before {
+  content: '';
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  background-image: url(../../modules/ctools/images/collapsible-expanded.png);
+}
+
 .form-item {
   width: 100%;
 
