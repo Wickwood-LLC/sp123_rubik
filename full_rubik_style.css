@@ -603,6 +603,8 @@ div.panel-pane div.node.boxed {
   background-repeat: no-repeat;
   position: absolute;
   left: 0px; }
+.panelizer-view-mode.node-embedded-to-profile > .panel-display {
+  display: none; }
 
 .form-item {
   width: 100%; }

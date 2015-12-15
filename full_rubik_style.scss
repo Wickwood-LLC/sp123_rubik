@@ -714,6 +714,9 @@ div.panel-pane div.node.boxed {
       left: 0px;
     }
   }
+  >.panel-display {
+    display: none;
+  }
 }
 
 .form-item {
