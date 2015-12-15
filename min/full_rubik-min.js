@@ -1,1 +1,1 @@
-!function($){Drupal.behaviors.collapseBlock={attach:function(e,i){$(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=$(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle("fast","easeInOutCubic")})}}}(jQuery);
+!function($){Drupal.behaviors.collapseBlock={attach:function(e,i){$(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=$(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle()})}}}(jQuery);
