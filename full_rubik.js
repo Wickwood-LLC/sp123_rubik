@@ -1,8 +1,9 @@
 (function ($) {
   Drupal.behaviors.collapseBlock = {
     attach: function (context, settings) {
-    	$('.panelizer-view-mode.node-embedded-to-profile').find('h3').click(function() {
-    		$(this).find('.panel-display').slideToggle();
+    	$('.panelizer-view-mode.node-embedded-to-profile>h3').click(function() {
+    		var $this = $(this);
+    		$this.parents('.panelizer-view-mode.node-embedded-to-profile').find('.panel-display').slideToggle();
 		});
     }
   };
