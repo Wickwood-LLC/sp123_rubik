@@ -5,7 +5,7 @@
     	$('.panelizer-view-mode.node-embedded-to-profile>h3').on("click", function() {
     		var $this = $(this);
     		$this.parents('.panelizer-view-mode.node-embedded-to-profile').find('.panel-display').first().slideToggle();
-    		$this.toggleClass('collapsed', addOrRemove);
+    		$this.toggleClass('collapsed');
 		});
     }
   };
