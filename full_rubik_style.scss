@@ -702,6 +702,8 @@ div.panel-pane div.node.boxed {
 
 .panelizer-view-mode.node-embedded-to-profile {
   >h3 {
+    cursor: pointer;
+    
     &:before {
       content: '';
       width: 17px;

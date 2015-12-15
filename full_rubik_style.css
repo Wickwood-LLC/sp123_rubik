@@ -593,16 +593,18 @@ div.panel-pane div.node.boxed {
 /***********************/
 /* USER PROFILE STYLES */
 /***********************/
-.panelizer-view-mode.node-embedded-to-profile > h3:before {
-  content: '';
-  width: 17px;
-  height: 17px;
-  display: inline-block;
-  background-image: url(../../../all/modules/ctools/images/collapsible-expanded.png);
-  background-position: 4px 8px;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0px; }
+.panelizer-view-mode.node-embedded-to-profile > h3 {
+  cursor: pointer; }
+  .panelizer-view-mode.node-embedded-to-profile > h3:before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url(../../../all/modules/ctools/images/collapsible-expanded.png);
+    background-position: 4px 8px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px; }
 .panelizer-view-mode.node-embedded-to-profile > .panel-display {
   display: none; }
 
