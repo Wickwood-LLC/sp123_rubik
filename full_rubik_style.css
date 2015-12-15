@@ -606,7 +606,8 @@ div.panel-pane div.node.boxed {
     position: absolute;
     left: 0px; }
 .panelizer-view-mode.node-embedded-to-profile > h3.open:before {
-  background-image: url(../../../all/modules/ctools/images/collapsible-expanded.png); }
+  background-image: url(../../../all/modules/ctools/images/collapsible-expanded.png);
+  background-position: 4px 6px; }
 .panelizer-view-mode.node-embedded-to-profile > .panel-display {
   display: none; }
 
