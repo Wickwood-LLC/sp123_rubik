@@ -922,7 +922,7 @@ table[id*='field-notes-values'] > thead {
       }
     }
     .field-name-field-note {
-      display: inline-block;
+      clear: left;
       margin-right: 4em;
     }    
     .button-remove {

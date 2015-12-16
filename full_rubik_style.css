@@ -764,7 +764,7 @@ table[id*='field-notes-values'] > thead {
       width: auto; }
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
-    display: inline-block;
+    clear: left;
     margin-right: 4em; }
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
