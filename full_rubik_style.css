@@ -576,11 +576,12 @@ div.panel-pane div.node.boxed {
   position: relative; }
   .boxed h2,
   div.panel-pane div.node.boxed h2 {
-    position: absolute;
+    position: relative;
     margin: 0;
-    top: -10px;
+    top: -24px;
     background: white;
-    padding: 0 0.5em; }
+    padding: 0 0.5em;
+    display: inline-block !important; }
     .boxed h2.ctools-collapsible-handle,
     div.panel-pane div.node.boxed h2.ctools-collapsible-handle {
       padding-left: 1em; }

@@ -678,11 +678,12 @@ div.panel-pane div.node.boxed {
   position: relative;
 
   h2 {
-    position: absolute;
+    position: relative;
     margin: 0;
-    top: -10px;
+    top: -24px;
     background: white;
     padding: 0 0.5em;
+    display: inline-block !important;
 
     &.ctools-collapsible-handle {
       padding-left: 1em;
