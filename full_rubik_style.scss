@@ -738,13 +738,26 @@ div.panel-pane div.node.boxed {
 
 .field-collection-item-field-phone {
   margin-bottom: 1em;
-  
-  .field-label,
+}
+
+.field-name-field-phone-type,
+.field-name-field-deferred-fee-label {
+  display: inline-block;
+  font-weight: bold;
+  min-width: 44%;
+
   .field-items {
-    width: auto;
     display: inline-block;
   }
+  &:after {
+    content: ': ';
+  }
 }
+.field-name-field-phone-number,
+.field-name-field-deferred-fee-amount {
+  display: inline-block;
+}
+
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
@@ -842,7 +855,7 @@ div.panel-pane div.node.boxed {
   }
 }
 
-.page-user-view-bwma-client {
+.page-user-view {
   .field-name-field-loans {
     .node-loan,
     .boxed {
@@ -862,6 +875,7 @@ div.panel-pane div.node.boxed {
     .field-label,
     .field-items {
       width: auto;
+      min-width: 44%;
     }
   }
 }
