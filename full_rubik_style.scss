@@ -763,6 +763,17 @@ div.panel-pane div.node.boxed {
   .pane-content {
     display: inline-block;
   }
+
+  padding-top: 3em;
+  @include breakpoint(458px) {
+    padding-top: 1em;
+  }
+  @include breakpoint(992px) {
+    padding-top: 3em;
+  }
+  @include breakpoint(1276px) {
+    padding-top: 1em;
+  }
 }
 
 .field-collection-view .entity-field-collection-item {

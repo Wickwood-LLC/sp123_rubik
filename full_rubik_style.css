@@ -637,10 +637,21 @@ div.panel-pane div.node.boxed {
 .pane-user-field-ss-or-ein {
   display: inline-block; }
 
-.pane-additional-identifying-informati .panel-separator {
-  display: none; }
-.pane-additional-identifying-informati .pane-content {
-  display: inline-block; }
+.pane-additional-identifying-informati {
+  padding-top: 3em; }
+  .pane-additional-identifying-informati .panel-separator {
+    display: none; }
+  .pane-additional-identifying-informati .pane-content {
+    display: inline-block; }
+  @media (min-width: 458px) {
+    .pane-additional-identifying-informati {
+      padding-top: 1em; } }
+  @media (min-width: 992px) {
+    .pane-additional-identifying-informati {
+      padding-top: 3em; } }
+  @media (min-width: 1276px) {
+    .pane-additional-identifying-informati {
+      padding-top: 1em; } }
 
 .field-collection-view .entity-field-collection-item {
   display: inline-block;
