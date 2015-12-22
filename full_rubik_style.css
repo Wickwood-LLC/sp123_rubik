@@ -618,15 +618,18 @@ div.panel-pane div.node.boxed {
     display: inline-block; }
 
 .field-name-field-phone-type,
-.field-name-field-deferred-fee-label {
+.field-name-field-deferred-fee-label,
+.pane-user-field-identification {
   display: inline-block;
   font-weight: bold;
   min-width: 44%; }
   .field-name-field-phone-type .field-items,
-  .field-name-field-deferred-fee-label .field-items {
+  .field-name-field-deferred-fee-label .field-items,
+  .pane-user-field-identification .field-items {
     display: inline-block; }
   .field-name-field-phone-type:after,
-  .field-name-field-deferred-fee-label:after {
+  .field-name-field-deferred-fee-label:after,
+  .pane-user-field-identification:after {
     content: ': '; }
 
 .field-name-field-phone-number,
@@ -635,6 +638,9 @@ div.panel-pane div.node.boxed {
 
 ul.field-collection-view-links li {
   list-style: none; }
+
+.pane-additional-identifying-informati .panel-separator {
+  display: none; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {

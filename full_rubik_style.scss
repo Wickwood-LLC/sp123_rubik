@@ -737,7 +737,8 @@ div.panel-pane div.node.boxed {
 }
 
 .field-name-field-phone-type,
-.field-name-field-deferred-fee-label {
+.field-name-field-deferred-fee-label,
+.pane-user-field-identification {
   display: inline-block;
   font-weight: bold;
   min-width: 44%;
@@ -756,6 +757,10 @@ div.panel-pane div.node.boxed {
 
 ul.field-collection-view-links li {
   list-style: none;
+}
+
+.pane-additional-identifying-informati .panel-separator {
+  display: none;
 }
 
 
