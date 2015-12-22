@@ -642,7 +642,7 @@ div.panel-pane div.node.boxed {
 .pane-additional-identifying-informati .pane-content {
   display: inline-block; }
 
-.entity-field-collection-item {
+.field-collection-view .entity-field-collection-item {
   display: inline-block;
   width: 70%; }
 
