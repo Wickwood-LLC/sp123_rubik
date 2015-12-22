@@ -653,7 +653,9 @@ ul.field-collection-view-links {
   margin: 0; }
   ul.field-collection-view-links li {
     list-style: none;
-    float: none; }
+    float: none;
+    margin-left: 0;
+    display: inline-block; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
