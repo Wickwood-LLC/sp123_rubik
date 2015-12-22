@@ -653,6 +653,15 @@ div.panel-pane div.node.boxed {
     .pane-additional-identifying-informati {
       padding-top: 1em; } }
 
+.pane-node-field-service-bureaus {
+  padding-top: 1em; }
+  @media (min-width: 992px) {
+    .pane-node-field-service-bureaus {
+      padding-top: 3em; } }
+  @media (min-width: 1065px) {
+    .pane-node-field-service-bureaus {
+      padding-top: 1em; } }
+
 .field-collection-view .entity-field-collection-item {
   display: inline-block;
   width: 70%; }
