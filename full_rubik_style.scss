@@ -736,10 +736,6 @@ div.panel-pane div.node.boxed {
   }
 }
 
-.field-collection-item-field-phone {
-  margin-bottom: 1em;
-}
-
 .field-name-field-phone-type,
 .field-name-field-deferred-fee-label {
   display: inline-block;
@@ -756,6 +752,10 @@ div.panel-pane div.node.boxed {
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount {
   display: inline-block;
+}
+
+ul.field-collection-view-links li {
+  list-style: none;
 }
 
 
