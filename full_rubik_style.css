@@ -643,7 +643,7 @@ ul.field-collection-view-links li {
 .pane-additional-identifying-informati .panel-separator {
   display: none; }
 .pane-additional-identifying-informati .pane-content {
-  display: inline; }
+  display: inline-block; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
