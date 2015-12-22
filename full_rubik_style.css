@@ -665,6 +665,18 @@ ul.field-collection-view-links {
   .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline .field-items .field-items {
     width: auto; }
 
+.field-name-field-total-deferred-enrollment- .field-items {
+  margin-left: 44%; }
+  @media (min-width: 639px) {
+    .field-name-field-total-deferred-enrollment- .field-items {
+      margin-left: 0; } }
+  @media (min-width: 1106px) {
+    .field-name-field-total-deferred-enrollment- .field-items {
+      margin-left: 44%; } }
+  @media (min-width: 1267px) {
+    .field-name-field-total-deferred-enrollment- .field-items {
+      margin-left: 0; } }
+
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }

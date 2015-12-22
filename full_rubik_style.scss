@@ -797,6 +797,20 @@ ul.field-collection-view-links {
   }
 }
 
+.field-name-field-total-deferred-enrollment- .field-items {
+  margin-left: 44%;
+
+  @include breakpoint(639px) {
+    margin-left: 0;
+  }
+  @include breakpoint(1106px) {
+    margin-left: 44%;
+  }
+  @include breakpoint(1267px) {
+    margin-left: 0;
+  }
+}
+
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
