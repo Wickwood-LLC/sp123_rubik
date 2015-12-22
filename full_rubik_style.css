@@ -657,12 +657,12 @@ ul.field-collection-view-links {
     margin-left: 0;
     display: inline-block; }
 
-.field-name-field-thank-you-card-and-referra .field-items {
+.field-name-field-thank-you-card-and-referra .field-label-inline .field-items {
   width: 100%; }
-  .field-name-field-thank-you-card-and-referra .field-items .field-label {
+  .field-name-field-thank-you-card-and-referra .field-label-inline .field-items .field-label {
     width: auto;
     min-width: 44%; }
-  .field-name-field-thank-you-card-and-referra .field-items .field-items {
+  .field-name-field-thank-you-card-and-referra .field-label-inline .field-items .field-items {
     width: auto; }
 
 /* Client Edit Styles */
