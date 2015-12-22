@@ -751,7 +751,8 @@ div.panel-pane div.node.boxed {
   }
 }
 .field-name-field-phone-number,
-.field-name-field-deferred-fee-amount {
+.field-name-field-deferred-fee-amount,
+.pane-user-field-ss-or-ein {
   display: inline-block;
 }
 
@@ -759,8 +760,13 @@ ul.field-collection-view-links li {
   list-style: none;
 }
 
-.pane-additional-identifying-informati .panel-separator {
-  display: none;
+.pane-additional-identifying-informati {
+  .panel-separator {
+    display: none;
+  }
+  .pane-content {
+    display: inline;
+  }
 }
 
 
