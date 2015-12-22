@@ -756,16 +756,28 @@ div.panel-pane div.node.boxed {
   display: inline-block;
 }
 
-ul.field-collection-view-links li {
-  list-style: none;
-}
-
 .pane-additional-identifying-informati {
   .panel-separator {
     display: none;
   }
   .pane-content {
     display: inline-block;
+  }
+}
+
+.entity-field-collection-item {
+  display: inline-block;
+  width: 70%;
+}
+ul.field-collection-view-links {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+  margin: 0;
+
+  li {
+    list-style: none;
+    float: none;
   }
 }
 
