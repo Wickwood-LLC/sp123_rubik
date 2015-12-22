@@ -657,6 +657,14 @@ ul.field-collection-view-links {
     margin-left: 0;
     display: inline-block; }
 
+.field-name-field-thank-you-card-and-referra .field-items {
+  width: 100%; }
+  .field-name-field-thank-you-card-and-referra .field-items .field-label {
+    width: auto;
+    min-width: 44%; }
+  .field-name-field-thank-you-card-and-referra .field-items .field-items {
+    width: auto; }
+
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
