@@ -146,7 +146,7 @@ div#toolbar div.toolbar-shortcuts ul {
   width: 100%; }
 
 table.views-table {
-  border: 1px solid #DDDDDD; }
+  border: 1px solid #DDDDDD !important; }
   table.views-table tr:nth-child(even) {
     background-color: #FAFAFA; }
   table.views-table ul li {
