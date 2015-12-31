@@ -155,6 +155,10 @@ table.views-table .field-collection-view {
   margin: 0; }
 table.views-table .item-list ul li {
   padding: 0; }
+table.views-table .field-name-field-phone-type,
+table.views-table .field-name-field-deferred-fee-label,
+table.views-table .pane-user-field-identification {
+  min-width: 0%; }
 
 .views-exposed-widget .form-item label {
   display: block; }

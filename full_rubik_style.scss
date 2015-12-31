@@ -176,6 +176,12 @@ table.views-table {
   .item-list ul li {
     padding: 0;
   }
+
+  .field-name-field-phone-type,
+  .field-name-field-deferred-fee-label,
+  .pane-user-field-identification {
+    min-width: 0%;
+  }
 }
 
 .views-exposed-widget .form-item label {
