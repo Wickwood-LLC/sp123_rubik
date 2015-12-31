@@ -160,6 +160,10 @@ table.views-table tr:nth-child(even) {
   background-color: #FAFAFA;
 }
 
+.views-exposed-widget .form-item label {
+  display: block;
+}
+
 label,
 .pane-title,
 .ckeditor_links,
