@@ -145,22 +145,24 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 2em;
   width: 100%; }
 
-table.views-table tr:nth-child(even) {
-  background-color: #FAFAFA; }
-table.views-table ul li {
-  margin-left: 0; }
-table.views-table .field-collection-container {
-  border: 0px; }
-table.views-table .field-collection-view {
-  margin: 0; }
-table.views-table .item-list ul li {
-  padding: 0; }
-table.views-table .field-name-field-phone-type,
-table.views-table .field-name-field-deferred-fee-label,
-table.views-table .pane-user-field-identification {
-  min-width: 0%; }
-table.views-table .field-collection-view .entity-field-collection-item {
-  width: auto; }
+table.views-table {
+  border: 1px solid #DDDDDD; }
+  table.views-table tr:nth-child(even) {
+    background-color: #FAFAFA; }
+  table.views-table ul li {
+    margin-left: 0; }
+  table.views-table .field-collection-container {
+    border: 0px; }
+  table.views-table .field-collection-view {
+    margin: 0; }
+  table.views-table .item-list ul li {
+    padding: 0; }
+  table.views-table .field-name-field-phone-type,
+  table.views-table .field-name-field-deferred-fee-label,
+  table.views-table .pane-user-field-identification {
+    min-width: 0%; }
+  table.views-table .field-collection-view .entity-field-collection-item {
+    width: auto; }
 
 .views-exposed-widget .form-item label {
   display: block; }
