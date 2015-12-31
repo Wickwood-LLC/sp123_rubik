@@ -986,6 +986,13 @@ ul.field-collection-view-links {
 .tabledrag-toggle-weight-wrapper {
   display: none;
 }
+tr.draggable {
+  display: flex;
+
+  td.field-multiple-drag {
+    order: 1;
+  }
+}
 
 .page-user-view {
   .field-name-field-loans {
