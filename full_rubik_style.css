@@ -145,6 +145,9 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 2em;
   width: 100%; }
 
+table.views-table tr:nth-child(even) {
+  background-color: #FAFAFA; }
+
 label,
 .pane-title,
 .ckeditor_links,

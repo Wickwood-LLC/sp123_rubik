@@ -156,6 +156,10 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+table.views-table tr:nth-child(even) {
+  background-color: #FAFAFA;
+}
+
 label,
 .pane-title,
 .ckeditor_links,
