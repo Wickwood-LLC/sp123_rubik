@@ -155,6 +155,8 @@ table.views-table {
     border: 0px; }
   table.views-table .field-collection-view {
     margin: 0; }
+    table.views-table .field-collection-view ul.field-collection-view-links {
+      float: right; }
   table.views-table .item-list ul li {
     padding: 0; }
   table.views-table .field-name-field-phone-type,

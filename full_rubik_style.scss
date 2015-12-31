@@ -173,6 +173,10 @@ table.views-table {
 
   .field-collection-view {
     margin: 0;
+
+    ul.field-collection-view-links {
+      float: right;
+    }
   }
 
   .item-list ul li {
