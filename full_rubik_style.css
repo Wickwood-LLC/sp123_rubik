@@ -147,6 +147,8 @@ div#toolbar div.toolbar-shortcuts ul {
 
 table.views-table tr:nth-child(even) {
   background-color: #FAFAFA; }
+table.views-table ul li {
+  margin-left: 0; }
 
 .views-exposed-widget .form-item label {
   display: block; }
