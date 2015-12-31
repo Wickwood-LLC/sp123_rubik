@@ -811,6 +811,9 @@ ul.field-collection-view-links {
     background: white;
     padding: 0 0.5em; }
 
+.tabledrag-toggle-weight-wrapper {
+  display: none; }
+
 .page-user-view .field-name-field-loans .node-loan,
 .page-user-view .field-name-field-loans .boxed {
   position: relative; }
