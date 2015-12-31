@@ -164,7 +164,8 @@ table.views-table {
   table.views-table .pane-user-field-identification {
     min-width: 0%; }
   table.views-table .field-collection-view .entity-field-collection-item {
-    width: auto; }
+    width: auto;
+    float: left; }
 
 .views-exposed-widget .form-item label {
   display: block; }
