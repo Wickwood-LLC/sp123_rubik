@@ -151,6 +151,10 @@ table.views-table ul li {
   margin-left: 0; }
 table.views-table .field-collection-container {
   border: 0px; }
+table.views-table .field-collection-view {
+  margin: 0; }
+table.views-table .item-list ul li {
+  padding: 5px 0px 4px; }
 
 .views-exposed-widget .form-item label {
   display: block; }

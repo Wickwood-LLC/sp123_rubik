@@ -168,6 +168,14 @@ table.views-table {
   .field-collection-container {
     border: 0px;
   }
+
+  .field-collection-view {
+    margin: 0;
+  }
+
+  .item-list ul li {
+    padding: 5px 0px 4px;
+  }
 }
 
 .views-exposed-widget .form-item label {
