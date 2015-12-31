@@ -649,19 +649,19 @@ div.panel-pane div.node.boxed {
   .form-item label {
     display: inline-block; }
 
-.field-name-field-phone-type,
-.field-name-field-deferred-fee-label,
-.pane-user-field-identification {
+.page-user-view .field-name-field-phone-type,
+.page-user-view .field-name-field-deferred-fee-label,
+.page-user-view .pane-user-field-identification {
   display: inline-block;
   font-weight: bold;
   min-width: 44%; }
-  .field-name-field-phone-type .field-items,
-  .field-name-field-deferred-fee-label .field-items,
-  .pane-user-field-identification .field-items {
+  .page-user-view .field-name-field-phone-type .field-items,
+  .page-user-view .field-name-field-deferred-fee-label .field-items,
+  .page-user-view .pane-user-field-identification .field-items {
     display: inline-block; }
-  .field-name-field-phone-type:after,
-  .field-name-field-deferred-fee-label:after,
-  .pane-user-field-identification:after {
+  .page-user-view .field-name-field-phone-type:after,
+  .page-user-view .field-name-field-deferred-fee-label:after,
+  .page-user-view .pane-user-field-identification:after {
     content: ':\00a0'; }
 
 .field-name-field-phone-number,

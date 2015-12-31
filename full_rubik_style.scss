@@ -788,18 +788,20 @@ div.panel-pane div.node.boxed {
   }
 }
 
-.field-name-field-phone-type,
-.field-name-field-deferred-fee-label,
-.pane-user-field-identification {
-  display: inline-block;
-  font-weight: bold;
-  min-width: 44%;
-
-  .field-items {
+.page-user-view {
+  .field-name-field-phone-type,
+  .field-name-field-deferred-fee-label,
+  .pane-user-field-identification {
     display: inline-block;
-  }
-  &:after {
-    content: ':\00a0';
+    font-weight: bold;
+    min-width: 44%;
+
+    .field-items {
+      display: inline-block;
+    }
+    &:after {
+      content: ':\00a0';
+    }
   }
 }
 .field-name-field-phone-number,
