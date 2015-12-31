@@ -655,7 +655,7 @@ div.panel-pane div.node.boxed {
   .field-name-field-phone-type:after,
   .field-name-field-deferred-fee-label:after,
   .pane-user-field-identification:after {
-    content: ': \00a0'; }
+    content: ':\00a0'; }
 
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount,
