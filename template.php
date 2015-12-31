@@ -93,3 +93,10 @@ function full_rubik_breadcrumb($vars) {
 function full_rubik_date_all_day_label() {
   return '';
 }
+
+/**
+ * Implements hook_js_alter().
+ */
+function full_rubik_js_alter(&$javascript) {
+  unset($javascript['misc/tabledrag.js']);
+}
