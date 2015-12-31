@@ -156,7 +156,12 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-.field-multiple-table,
+.field-multiple-table {
+  tr:nth-child(even) {
+    background-color: #FAFAFA;
+  }
+}
+
 table.views-table {
   border: 1px solid #DDDDDD !important;
 
