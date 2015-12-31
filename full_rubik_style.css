@@ -154,7 +154,7 @@ table.views-table .field-collection-container {
 table.views-table .field-collection-view {
   margin: 0; }
 table.views-table .item-list ul li {
-  padding: 5px 0px 4px; }
+  padding: 0; }
 
 .views-exposed-widget .form-item label {
   display: block; }
@@ -647,7 +647,7 @@ div.panel-pane div.node.boxed {
   .field-name-field-phone-type:after,
   .field-name-field-deferred-fee-label:after,
   .pane-user-field-identification:after {
-    content: ': '; }
+    content: ': \00a0'; }
 
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount,
