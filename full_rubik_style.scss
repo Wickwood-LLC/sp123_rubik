@@ -182,6 +182,10 @@ table.views-table {
   .pane-user-field-identification {
     min-width: 0%;
   }
+
+  .field-collection-view .entity-field-collection-item {
+    width: auto;
+  }
 }
 
 .views-exposed-widget .form-item label {
