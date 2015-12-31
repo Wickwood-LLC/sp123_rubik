@@ -145,24 +145,35 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 2em;
   width: 100%; }
 
+.field-multiple-table,
 table.views-table {
   border: 1px solid #DDDDDD !important; }
+  .field-multiple-table tr:nth-child(even),
   table.views-table tr:nth-child(even) {
     background-color: #FAFAFA; }
+  .field-multiple-table ul li,
   table.views-table ul li {
     margin-left: 0; }
+  .field-multiple-table .field-collection-container,
   table.views-table .field-collection-container {
     border: 0px; }
+  .field-multiple-table .field-collection-view,
   table.views-table .field-collection-view {
     margin: 0; }
+    .field-multiple-table .field-collection-view ul.field-collection-view-links,
     table.views-table .field-collection-view ul.field-collection-view-links {
       float: right; }
+  .field-multiple-table .item-list ul li,
   table.views-table .item-list ul li {
     padding: 0; }
+  .field-multiple-table .field-name-field-phone-type,
+  .field-multiple-table .field-name-field-deferred-fee-label,
+  .field-multiple-table .pane-user-field-identification,
   table.views-table .field-name-field-phone-type,
   table.views-table .field-name-field-deferred-fee-label,
   table.views-table .pane-user-field-identification {
     min-width: 0%; }
+  .field-multiple-table .field-collection-view .entity-field-collection-item,
   table.views-table .field-collection-view .entity-field-collection-item {
     width: auto;
     float: left; }
