@@ -153,6 +153,9 @@ table.views-table ul li {
 .views-exposed-widget .form-item label {
   display: block; }
 
+.field-collection-container ul.action-links-field-collection-add {
+  margin: 0; }
+
 label,
 .pane-title,
 .ckeditor_links,
