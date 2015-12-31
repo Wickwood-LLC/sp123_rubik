@@ -814,12 +814,12 @@ ul.field-collection-view-links {
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
-tr.draggable {
+.page-user-edit tr.draggable {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  tr.draggable td.field-multiple-drag {
+  .page-user-edit tr.draggable td.field-multiple-drag {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
