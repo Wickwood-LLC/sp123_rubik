@@ -833,6 +833,17 @@ div.panel-pane div.node.boxed {
   display: inline-block;
 }
 
+.page-user-edit {
+  #field-phone-values,
+  #field-collection-mailing-address-values,
+  #field-additional-email-addresses-values,
+  #field-website-values {
+    .field-label {
+      display: none;
+    }
+  }
+}
+
 .pane-additional-identifying-informati {
   .panel-separator {
     display: none;

@@ -690,6 +690,12 @@ div.panel-pane div.node.boxed {
 .pane-user-field-ss-or-ein {
   display: inline-block; }
 
+.page-user-edit #field-phone-values .field-label,
+.page-user-edit #field-collection-mailing-address-values .field-label,
+.page-user-edit #field-additional-email-addresses-values .field-label,
+.page-user-edit #field-website-values .field-label {
+  display: none; }
+
 .pane-additional-identifying-informati {
   padding-top: 3em; }
   .pane-additional-identifying-informati .panel-separator {
