@@ -167,7 +167,12 @@ table.views-table {
   table.views-table .pane-user-field-identification {
     min-width: 0%; }
   table.views-table .field-name-field-phone-type {
-    display: inline-block; }
+    display: inline-block;
+    font-weight: bold; }
+    table.views-table .field-name-field-phone-type .field-items {
+      display: inline-block; }
+    table.views-table .field-name-field-phone-type:after {
+      content: ':\00a0'; }
   table.views-table .field-collection-view {
     padding-top: 0; }
   table.views-table .field-collection-view .entity-field-collection-item {
