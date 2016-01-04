@@ -845,6 +845,8 @@ ul.field-collection-view-links {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1; }
+.page-user-edit .field-name-field-phone-type:after {
+  content: ''; }
 
 .page-user .field-collection-view {
   padding-top: 0; }
