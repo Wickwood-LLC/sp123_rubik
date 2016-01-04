@@ -168,6 +168,8 @@ table.views-table {
     min-width: 0%; }
   table.views-table .field-name-field-phone-type {
     display: inline-block; }
+  table.views-table .field-collection-view {
+    padding-top: 0; }
   table.views-table .field-collection-view .entity-field-collection-item {
     width: auto;
     float: left; }

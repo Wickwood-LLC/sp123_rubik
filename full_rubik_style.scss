@@ -199,6 +199,10 @@ table.views-table {
     display: inline-block;
   }
 
+  .field-collection-view {
+    padding-top: 0;
+  }
+
   .field-collection-view .entity-field-collection-item {
     width: auto;
     float: left;
