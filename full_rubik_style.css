@@ -846,6 +846,9 @@ ul.field-collection-view-links {
         -ms-flex-order: 1;
             order: 1; }
 
+.page-user .field-collection-view {
+  padding-top: 0; }
+
 .page-user-view .field-name-field-loans .node-loan,
 .page-user-view .field-name-field-loans .boxed {
   position: relative; }
