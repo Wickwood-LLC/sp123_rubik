@@ -145,6 +145,9 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 2em;
   width: 100%; }
 
+.view-filters {
+  float: left; }
+
 .views-exposed-form .actions {
   display: inline-block; }
   .views-exposed-form .actions .views-exposed-widget {
