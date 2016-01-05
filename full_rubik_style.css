@@ -876,6 +876,15 @@ ul.field-collection-view-links {
             order: 1; }
 .page-user-edit .field-name-field-phone-type:after {
   content: ''; }
+.page-user-edit td {
+  position: relative; }
+.page-user-edit input.button-remove {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  right: -50px;
+  top: 50%; }
 
 .page-user .field-collection-view {
   padding-top: 0; }

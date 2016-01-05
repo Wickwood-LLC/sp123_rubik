@@ -1071,6 +1071,17 @@ ul.field-collection-view-links {
   .field-name-field-phone-type:after {
     content: '';
   }
+
+  td {
+    position: relative;
+  }
+
+  input.button-remove {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -50px;
+    top: 50%;
+  }
 }
 
 .page-user {
