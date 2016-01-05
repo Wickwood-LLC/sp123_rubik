@@ -156,6 +156,20 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+.views-exposed-form {
+  .actions {
+    display: inline-block;
+  }
+
+  .views-exposed-widget {
+    float: none;
+
+    input {
+      margin-top: 0;
+    }
+  }
+}
+
 .field-multiple-table {
   tr:nth-child(even) {
     background-color: #FAFAFA;
