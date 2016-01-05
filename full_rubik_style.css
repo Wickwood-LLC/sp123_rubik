@@ -671,6 +671,9 @@ div.panel-pane div.node.boxed {
   .form-item label {
     display: inline-block; }
 
+.page-staff table.views-table .item-list ul li {
+  border: none; }
+
 .page-user-view .field-name-field-phone-type,
 .page-user-view .field-name-field-deferred-fee-label,
 .page-user-view .pane-user-field-identification,
