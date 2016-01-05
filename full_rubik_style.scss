@@ -864,6 +864,13 @@ div.panel-pane div.node.boxed {
       display: none;
     }
   }
+
+  table#field-phone-values,
+  table#field-collection-mailing-address-values,
+  table#field-additional-email-addresses-values,
+  table#field-website-values {
+    border: 1px solid #DDDDDD;
+  }
 }
 
 .pane-additional-identifying-informati {

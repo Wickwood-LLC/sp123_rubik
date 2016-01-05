@@ -708,6 +708,11 @@ div.panel-pane div.node.boxed {
 .page-user-edit #field-additional-email-addresses-values .field-label,
 .page-user-edit #field-website-values .field-label {
   display: none; }
+.page-user-edit table#field-phone-values,
+.page-user-edit table#field-collection-mailing-address-values,
+.page-user-edit table#field-additional-email-addresses-values,
+.page-user-edit table#field-website-values {
+  border: 1px solid #DDDDDD; }
 
 .pane-additional-identifying-informati {
   padding-top: 3em; }
