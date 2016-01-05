@@ -1046,6 +1046,16 @@ ul.field-collection-view-links {
   }
 }
 
+.form-item {
+  .clearfix {
+    text-align: center;
+
+    input.field-add-more-submit {
+      text-transform: capitalize;
+    }
+  }
+}
+
 .tabledrag-toggle-weight-wrapper {
   display: none;
 }
