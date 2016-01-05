@@ -147,10 +147,10 @@ div#toolbar div.toolbar-shortcuts ul {
 
 .views-exposed-form .actions {
   display: inline-block; }
-.views-exposed-form .views-exposed-widget {
-  float: none; }
-  .views-exposed-form .views-exposed-widget input {
-    margin-top: 0; }
+  .views-exposed-form .actions .views-exposed-widget {
+    float: none; }
+    .views-exposed-form .actions .views-exposed-widget input {
+      margin-top: 0; }
 
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
