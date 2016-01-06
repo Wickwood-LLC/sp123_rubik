@@ -161,12 +161,12 @@ div#toolbar div.toolbar-shortcuts ul {
 }
 
 .views-exposed-form {
+  .views-exposed-widgets {
+    padding: 10px;
+  }
+    
   .actions {
     display: inline-block;
-
-    .views-exposed-widgets {
-      padding: 10px;
-    }
 
     .views-exposed-widget {
       float: none;

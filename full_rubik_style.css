@@ -148,10 +148,10 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-filters {
   float: left; }
 
+.views-exposed-form .views-exposed-widgets {
+  padding: 10px; }
 .views-exposed-form .actions {
   display: inline-block; }
-  .views-exposed-form .actions .views-exposed-widgets {
-    padding: 10px; }
   .views-exposed-form .actions .views-exposed-widget {
     float: none;
     padding-right: 0; }
