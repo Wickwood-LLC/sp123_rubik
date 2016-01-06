@@ -888,6 +888,8 @@ ul.field-collection-view-links {
 .page-user-edit .field-name-field-gender .form-item.form-type-radio {
   display: inline-block;
   width: auto; }
+.page-user-edit .group-user label {
+  width: 20%; }
 .page-user-edit td {
   position: relative; }
 .page-user-edit input.button-remove {
