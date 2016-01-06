@@ -680,6 +680,8 @@ div.panel-pane div.node.boxed {
     display: inline-block; }
   .form-item input[type="text"] {
     width: auto; }
+  .form-item select.state {
+    max-width: 88%; }
 
 .page-staff table.views-table .item-list ul li {
   border: none; }
