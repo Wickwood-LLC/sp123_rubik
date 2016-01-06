@@ -712,7 +712,10 @@ div.panel-pane div.node.boxed {
   display: inline-block; }
 
 .page-user-edit table.field-multiple-table {
-  border: 1px solid #DDDDDD; }
+  border: 1px solid #DDDDDD;
+  display: table-cell; }
+  .page-user-edit table.field-multiple-table th {
+    padding: 5px; }
 
 .pane-additional-identifying-informati {
   padding-top: 3em; }

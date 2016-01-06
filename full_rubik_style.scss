@@ -871,6 +871,11 @@ div.panel-pane div.node.boxed {
 .page-user-edit {
   table.field-multiple-table {
     border: 1px solid #DDDDDD;
+    display: table-cell;
+
+    th {
+      padding: 5px;
+    }
   }
 }
 
