@@ -161,10 +161,12 @@ div#toolbar div.toolbar-shortcuts ul {
 }
 
 .views-exposed-form {
+  margin-right: 1em;
+
   .views-exposed-widgets {
     padding: 10px;
   }
-    
+
   .actions {
     display: inline-block;
 
@@ -176,6 +178,12 @@ div#toolbar div.toolbar-shortcuts ul {
         margin-top: 0;
       }
     }
+  }
+}
+
+.view-content {
+  #edit-select {
+    min-width: 250px;
   }
 }
 

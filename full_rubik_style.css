@@ -148,15 +148,20 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-filters {
   float: left; }
 
-.views-exposed-form .views-exposed-widgets {
-  padding: 10px; }
-.views-exposed-form .actions {
-  display: inline-block; }
-  .views-exposed-form .actions .views-exposed-widget {
-    float: none;
-    padding-right: 0; }
-    .views-exposed-form .actions .views-exposed-widget input {
-      margin-top: 0; }
+.views-exposed-form {
+  margin-right: 1em; }
+  .views-exposed-form .views-exposed-widgets {
+    padding: 10px; }
+  .views-exposed-form .actions {
+    display: inline-block; }
+    .views-exposed-form .actions .views-exposed-widget {
+      float: none;
+      padding-right: 0; }
+      .views-exposed-form .actions .views-exposed-widget input {
+        margin-top: 0; }
+
+.view-content #edit-select {
+  min-width: 250px; }
 
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
