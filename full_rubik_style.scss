@@ -839,6 +839,10 @@ div.panel-pane div.node.boxed {
   label {
     display: inline-block;
   }
+
+  input[type="text"] {
+    width: auto;
+  }
 }
 
 .page-staff table.views-table .item-list ul li {
