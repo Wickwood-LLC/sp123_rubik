@@ -1094,6 +1094,15 @@ ul.field-collection-view-links {
       width: auto;
     }
   }
+  .field-name-field-birthday-notes,
+  .field-name-field-related-clients {
+    label {
+      width: auto;
+    }
+  }
+  .field-name-field-birthdate input {
+    display: inline-block;
+  }
 
   .group-user label {
     width: 20%;
