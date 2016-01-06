@@ -97,7 +97,7 @@ function full_rubik_date_all_day_label() {
 /**
  * Override of theme_field_multiple_value_form.
  */
-function theme_field_multiple_value_form($variables) {
+function full_rubik_field_multiple_value_form($variables) {
   $element = $variables['element'];
   $output = '';
 
