@@ -869,15 +869,6 @@ div.panel-pane div.node.boxed {
 }
 
 .page-user-edit {
-  #field-phone-values,
-  #field-collection-mailing-address-values,
-  #field-additional-email-addresses-values,
-  #field-website-values {
-    .field-label {
-      display: none;
-    }
-  }
-
   table#field-phone-values,
   table#field-collection-mailing-address-values,
   table#field-additional-email-addresses-values,
