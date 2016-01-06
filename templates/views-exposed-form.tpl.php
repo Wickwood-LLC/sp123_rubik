@@ -26,7 +26,10 @@
     print $q;
   ?>
 <?php endif; ?>
-<div class="views-exposed-form">
+<fieldset class="views-exposed-form container-inline form-wrapper fieldset titled">
+  <legend>
+    <span class="fieldset-title fieldset-legend">Sorting and Filtering</span>
+  </legend>
   <div class="views-exposed-widgets clearfix">
     <?php foreach ($widgets as $id => $widget): ?>
       <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
@@ -79,4 +82,4 @@
       <?php endif; ?>
     </div>  
   </div>
-</div>
+</fieldset>
