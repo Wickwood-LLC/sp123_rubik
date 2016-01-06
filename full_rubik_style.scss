@@ -1052,13 +1052,11 @@ ul.field-collection-view-links {
   }
 }
 
-.form-item {
-  .clearfix {
-    text-align: center;
+.form-item>.clearfix {
+  text-align: center;
 
-    input.field-add-more-submit {
-      text-transform: capitalize;
-    }
+  input.field-add-more-submit {
+    text-transform: capitalize;
   }
 }
 

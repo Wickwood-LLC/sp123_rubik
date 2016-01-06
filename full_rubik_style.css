@@ -859,9 +859,9 @@ ul.field-collection-view-links {
     background: white;
     padding: 0 0.5em; }
 
-.form-item .clearfix {
+.form-item > .clearfix {
   text-align: center; }
-  .form-item .clearfix input.field-add-more-submit {
+  .form-item > .clearfix input.field-add-more-submit {
     text-transform: capitalize; }
 
 .tabledrag-toggle-weight-wrapper {
