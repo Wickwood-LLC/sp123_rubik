@@ -26,7 +26,7 @@
     print $q;
   ?>
 <?php endif; ?>
-<fieldset class="views-exposed-form container-inline form-wrapper fieldset titled">
+<fieldset class="views-exposed-form form-wrapper fieldset titled">
   <legend>
     <span class="fieldset-title fieldset-legend">Sorting and Filtering</span>
   </legend>

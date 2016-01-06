@@ -164,8 +164,13 @@ div#toolbar div.toolbar-shortcuts ul {
   .actions {
     display: inline-block;
 
+    .views-exposed-widgets {
+      padding: 10px;
+    }
+
     .views-exposed-widget {
       float: none;
+      padding-right: 0;
 
       input {
         margin-top: 0;
