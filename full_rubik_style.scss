@@ -843,10 +843,6 @@ div.panel-pane div.node.boxed {
   input[type="text"] {
     width: auto;
   }
-
-  select.state {
-    max-width: 88%;
-  }
 }
 
 .page-staff table.views-table .item-list ul li {
@@ -883,6 +879,15 @@ div.panel-pane div.node.boxed {
 
     th {
       padding: 5px;
+    }
+  }
+
+  .field-name-field-address {
+    label {
+      min-width: 60px;
+    }
+    select.state {
+      max-width: 76%;
     }
   }
 }
