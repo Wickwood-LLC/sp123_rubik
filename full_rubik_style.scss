@@ -165,6 +165,8 @@ div#toolbar div.toolbar-shortcuts ul {
 
   .views-exposed-widgets {
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .actions {
