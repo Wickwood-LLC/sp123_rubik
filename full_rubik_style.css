@@ -711,10 +711,7 @@ div.panel-pane div.node.boxed {
 .pane-user-field-ss-or-ein {
   display: inline-block; }
 
-.page-user-edit table#field-phone-values,
-.page-user-edit table#field-collection-mailing-address-values,
-.page-user-edit table#field-additional-email-addresses-values,
-.page-user-edit table#field-website-values {
+.page-user-edit table.field-multiple-table {
   border: 1px solid #DDDDDD; }
 
 .pane-additional-identifying-informati {

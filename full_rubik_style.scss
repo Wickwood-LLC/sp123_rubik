@@ -869,10 +869,7 @@ div.panel-pane div.node.boxed {
 }
 
 .page-user-edit {
-  table#field-phone-values,
-  table#field-collection-mailing-address-values,
-  table#field-additional-email-addresses-values,
-  table#field-website-values {
+  table.field-multiple-table {
     border: 1px solid #DDDDDD;
   }
 }
