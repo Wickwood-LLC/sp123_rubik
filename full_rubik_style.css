@@ -708,7 +708,8 @@ div.panel-pane div.node.boxed {
   .form-item label {
     display: inline-block; }
   .form-item input[type="text"] {
-    width: auto; }
+    width: 78%;
+    box-sizing: border-box; }
 
 .page-staff table.views-table .item-list ul li {
   border: none; }
@@ -748,9 +749,10 @@ div.panel-pane div.node.boxed {
   .page-user-edit table.field-multiple-table th {
     padding: 5px; }
 .page-user-edit .field-name-field-address label {
-  min-width: 60px; }
+  width: 20%;
+  box-sizing: border-box; }
 .page-user-edit .field-name-field-address select.state {
-  max-width: 76%; }
+  max-width: 78%; }
 
 .pane-additional-identifying-informati {
   padding-top: 3em; }

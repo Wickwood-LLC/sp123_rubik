@@ -866,7 +866,8 @@ div.panel-pane div.node.boxed {
   }
 
   input[type="text"] {
-    width: auto;
+    width: 78%;
+    box-sizing: border-box;
   }
 }
 
@@ -909,10 +910,11 @@ div.panel-pane div.node.boxed {
 
   .field-name-field-address {
     label {
-      min-width: 60px;
+      width: 20%;
+      box-sizing: border-box;
     }
     select.state {
-      max-width: 76%;
+      max-width: 78%;
     }
   }
 }
