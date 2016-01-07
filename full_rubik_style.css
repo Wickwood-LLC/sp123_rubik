@@ -928,6 +928,10 @@ ul.field-collection-view-links {
 .page-user-edit .field-name-field-birthdate .description {
   display: inline-block !important;
   width: auto !important; }
+.page-user-edit .field-name-field-related-clients .views-exposed-form {
+  margin-bottom: 0; }
+  .page-user-edit .field-name-field-related-clients .views-exposed-form .views-exposed-widgets {
+    padding: 0 10px; }
 .page-user-edit .group-user label {
   width: 20%; }
 .page-user-edit .group-user .field-name-field-birthday-notes label,

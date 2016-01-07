@@ -1135,6 +1135,15 @@ ul.field-collection-view-links {
       width: auto !important;
     }
   }
+  .field-name-field-related-clients {
+    .views-exposed-form {
+      margin-bottom: 0;
+
+      .views-exposed-widgets {
+        padding: 0 10px;
+      }
+    }
+  }
 
   .group-user {
     label {
