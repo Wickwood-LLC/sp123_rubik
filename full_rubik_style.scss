@@ -194,6 +194,25 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+.views-field-edit-node {
+  position: relative;
+
+  a {
+    transform: rotate(-90deg);
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    margin-top: -25%;
+
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 25px;
+    color: #fff;
+    background-color: #7bc;
+    text-shadow: #38a 0 1px 0;
+  }
+}
+
 .field-multiple-table {
   tr:nth-child(even) {
     background-color: #FAFAFA;

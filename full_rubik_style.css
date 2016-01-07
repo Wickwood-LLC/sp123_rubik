@@ -176,6 +176,23 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-content #edit-select {
   min-width: 200px; }
 
+.views-field-edit-node {
+  position: relative; }
+  .views-field-edit-node a {
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    margin-top: -25%;
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 25px;
+    color: #fff;
+    background-color: #7bc;
+    text-shadow: #38a 0 1px 0; }
+
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
 
