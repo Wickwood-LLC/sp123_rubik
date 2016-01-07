@@ -748,6 +748,9 @@ div.panel-pane div.node.boxed {
   display: table-cell; }
   .page-user-edit table.field-multiple-table th {
     padding: 5px; }
+.page-user-edit .field-name-field-address div.addressfield-container-inline > div.form-item {
+  float: none;
+  margin-right: 0; }
 .page-user-edit .field-name-field-address label {
   width: 20%;
   box-sizing: border-box; }

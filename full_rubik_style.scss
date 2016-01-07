@@ -909,6 +909,10 @@ div.panel-pane div.node.boxed {
   }
 
   .field-name-field-address {
+    div.addressfield-container-inline > div.form-item {
+      float: none;
+      margin-right: 0;
+    }
     label {
       width: 20%;
       box-sizing: border-box;
