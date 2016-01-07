@@ -174,7 +174,7 @@ div#toolbar div.toolbar-shortcuts ul {
         margin-top: 0; }
 
 .view-content #edit-select {
-  min-width: 250px; }
+  min-width: 200px; }
 
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
