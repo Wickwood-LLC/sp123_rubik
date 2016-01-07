@@ -926,8 +926,8 @@ ul.field-collection-view-links {
   width: auto; }
 .page-user-edit .field-name-field-birthdate input,
 .page-user-edit .field-name-field-birthdate .description {
-  display: inline-block;
-  width: auto; }
+  display: inline-block !important;
+  width: auto !important; }
 .page-user-edit .group-user label {
   width: 20%; }
 .page-user-edit .group-user .field-name-field-birthday-notes label,

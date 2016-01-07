@@ -1131,8 +1131,8 @@ ul.field-collection-view-links {
   .field-name-field-birthdate {
     input,
     .description {
-      display: inline-block;
-      width: auto;
+      display: inline-block !important;
+      width: auto !important;
     }
   }
 
