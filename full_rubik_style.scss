@@ -1147,6 +1147,16 @@ ul.field-collection-view-links {
   .field-name-field-group .form-radios {
     column-count: 2;
   }
+  .field-name-field-identification {
+    .form-radios {
+      display: inline-block;
+
+      .form-item {
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
 
   .group-user {
     label {

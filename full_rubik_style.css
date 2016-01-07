@@ -936,6 +936,11 @@ ul.field-collection-view-links {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
+.page-user-edit .field-name-field-identification .form-radios {
+  display: inline-block; }
+  .page-user-edit .field-name-field-identification .form-radios .form-item {
+    display: inline-block;
+    width: auto; }
 .page-user-edit .group-user label {
   width: 20%; }
 .page-user-edit .group-user .field-name-field-birthday-notes label,
