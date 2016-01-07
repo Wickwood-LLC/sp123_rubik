@@ -149,9 +149,15 @@ div#toolbar div.toolbar-shortcuts ul {
   float: left; }
 
 .views-exposed-form {
-  margin-right: 1em; }
+  margin-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .views-exposed-form legend {
+    position: absolute; }
   .views-exposed-form .views-exposed-widgets {
-    padding: 10px;
+    padding: 28px 10px 10px 10px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

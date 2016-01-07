@@ -162,9 +162,14 @@ div#toolbar div.toolbar-shortcuts ul {
 
 .views-exposed-form {
   margin-right: 1em;
+  display: flex;
+
+  legend {
+    position: absolute;
+  }
 
   .views-exposed-widgets {
-    padding: 10px;
+    padding: 28px 10px 10px 10px;
     display: flex;
     flex-flow: row wrap;
   }
