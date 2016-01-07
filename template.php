@@ -160,3 +160,7 @@ function full_rubik_field_multiple_value_form($variables) {
   return $output;
 }
 
+//Disable sticky headers
+function full_rubik_js_alter(&$js) {
+  unset($js['misc/tableheader.js']);
+}
