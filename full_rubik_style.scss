@@ -1167,6 +1167,11 @@ ul.field-collection-view-links {
       }
     }
   }
+  .form-item-roles {
+    .form-checkboxes {
+      column-count: 2;
+    }
+  }
 
   .group-user {
     label {
