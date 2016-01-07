@@ -924,8 +924,10 @@ ul.field-collection-view-links {
 .page-user-edit .field-name-field-gender .form-item.form-type-radio {
   display: inline-block;
   width: auto; }
-.page-user-edit .field-name-field-birthdate input {
-  display: inline-block; }
+.page-user-edit .field-name-field-birthdate input,
+.page-user-edit .field-name-field-birthdate .description {
+  display: inline-block;
+  width: auto; }
 .page-user-edit .group-user label {
   width: 20%; }
 .page-user-edit .group-user .field-name-field-birthday-notes label,

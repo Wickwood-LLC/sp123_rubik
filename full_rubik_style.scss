@@ -1128,8 +1128,12 @@ ul.field-collection-view-links {
       width: auto;
     }
   }
-  .field-name-field-birthdate input {
-    display: inline-block;
+  .field-name-field-birthdate {
+    input,
+    .description {
+      display: inline-block;
+      width: auto;
+    }
   }
 
   .group-user {
