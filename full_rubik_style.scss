@@ -1157,6 +1157,16 @@ ul.field-collection-view-links {
       }
     }
   }
+  .form-item-status {
+    .form-radios {
+      display: inline-block;
+
+      .form-item {
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
 
   .group-user {
     label {

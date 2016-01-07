@@ -941,6 +941,11 @@ ul.field-collection-view-links {
   .page-user-edit .field-name-field-identification .form-radios .form-item {
     display: inline-block;
     width: auto; }
+.page-user-edit .form-item-status .form-radios {
+  display: inline-block; }
+  .page-user-edit .form-item-status .form-radios .form-item {
+    display: inline-block;
+    width: auto; }
 .page-user-edit .group-user label {
   width: 20%; }
 .page-user-edit .group-user .field-name-field-birthday-notes label,
