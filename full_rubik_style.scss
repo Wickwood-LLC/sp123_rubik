@@ -1120,6 +1120,9 @@ ul.field-collection-view-links {
     content: '';
   }
   .field-name-field-gender {
+    .form-radios {
+      display: inline-block;
+    }
     .form-item.form-type-radio {
       display: inline-block;
       width: auto;
