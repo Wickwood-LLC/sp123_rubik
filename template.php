@@ -166,6 +166,10 @@ function full_rubik_field_multiple_value_form($variables) {
 function full_rubik_form_alter(&$form, $form_state, $form_id) {
   if($form_id == 'user_profile_form'){
     $form['field_additional_email_addresses']['und']['add_more']['#value'] = 'Add another email address';
+    $form['field_name_notes']['und']['add_more']['#value'] = 'Add another note';
+    $form['field_phone']['und']['add_more']['#value'] = 'Add another phone number';
+    $form['field_website']['und']['add_more']['#value'] = 'Add another website';
+    $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
   }
   dpm($form);
 }
