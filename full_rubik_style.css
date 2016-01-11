@@ -907,6 +907,9 @@ ul.field-collection-view-links {
   .form-item > .clearfix input.field-add-more-submit {
     text-transform: capitalize; }
 
+.progress-disabled {
+  float: none; }
+
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
