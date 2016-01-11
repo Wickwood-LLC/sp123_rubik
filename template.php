@@ -165,7 +165,8 @@ function full_rubik_field_multiple_value_form($variables) {
  */
 function full_rubik_form_alter(&$form, $form_state, $form_id) {
   if($form_id == 'edit-field-additional-email-addresses'){
-    $form['element']['add_more']['#value'] = 'Add another email address';
+    // $form['element']['add_more']['#value'] = 'Add another email address';
+    dpm($form);
   }
 }
 
