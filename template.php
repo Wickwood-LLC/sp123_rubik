@@ -170,6 +170,7 @@ function full_rubik_field_multiple_value_form($variables) {
  */
 function full_rubik_form_alter(&$form, $form_state, $form_id) {
   global $title_description;
+  dpm($title_description);
   if($form_id == 'user_profile_form'){
     $form['field_additional_email_addresses']['und']['add_more']['#value'] = 'Add another email address';
     $form['field_name_notes']['und']['add_more']['#value'] = 'Add another note';
