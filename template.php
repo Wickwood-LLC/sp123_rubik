@@ -96,6 +96,7 @@ function full_rubik_date_all_day_label() {
 
 function full_rubik_link_field($vars) {
   variable_set('title_description', $vars['element']['title']['#description']);
+  $vars['element']['title']['#description'] = '';
 }
 
 /**
