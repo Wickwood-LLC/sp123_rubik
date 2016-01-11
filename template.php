@@ -103,7 +103,6 @@ function full_rubik_link_field($vars) {
  * Override of theme_field_multiple_value_form.
  */
 function full_rubik_field_multiple_value_form($variables) {
-  global $title_description;
   $element = $variables['element'];
   $output = '';
 
@@ -114,7 +113,7 @@ function full_rubik_field_multiple_value_form($variables) {
 
     $header = array(
       array(
-        'data' => '<label>' . t('!title !required', array('!title' => $element['#title'], '!required' => $required)) . "</label>" . '<div class="description">' . $element['#description'] . $title_description . '</div>',
+        'data' => '<label>' . t('!title !required', array('!title' => $element['#title'], '!required' => $required)) . "</label>" . '<div class="description">' . '</div>',
         'colspan' => 2,
         'class' => array('field-label'),
       ),
@@ -170,12 +169,14 @@ function full_rubik_field_multiple_value_form($variables) {
  * Implements hook_form_alter().
  */
 function full_rubik_form_alter(&$form, $form_state, $form_id) {
+  global $title_description;
   if($form_id == 'user_profile_form'){
     $form['field_additional_email_addresses']['und']['add_more']['#value'] = 'Add another email address';
     $form['field_name_notes']['und']['add_more']['#value'] = 'Add another note';
     $form['field_phone']['und']['add_more']['#value'] = 'Add another phone number';
     $form['field_website']['und']['add_more']['#value'] = 'Add another website';
     $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
+    $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . $title_description;
   }
   dpm($form);
 }
