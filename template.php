@@ -94,10 +94,16 @@ function full_rubik_date_all_day_label() {
   return '';
 }
 
+function full_rubik_link_field($vars) {
+  global $title_description;
+  $title_description = $vars['element']['title']['#description'];
+}
+
 /**
  * Override of theme_field_multiple_value_form.
  */
 function full_rubik_field_multiple_value_form($variables) {
+  global $title_description;
   $element = $variables['element'];
   $output = '';
 
@@ -108,7 +114,7 @@ function full_rubik_field_multiple_value_form($variables) {
 
     $header = array(
       array(
-        'data' => '<label>' . t('!title !required', array('!title' => $element['#title'], '!required' => $required)) . "</label>" . '<div class="description">' . $element['#description'] . '</div>',
+        'data' => '<label>' . t('!title !required', array('!title' => $element['#title'], '!required' => $required)) . "</label>" . '<div class="description">' . $element['#description'] . $title_description . '</div>',
         'colspan' => 2,
         'class' => array('field-label'),
       ),
