@@ -160,6 +160,15 @@ function full_rubik_field_multiple_value_form($variables) {
   return $output;
 }
 
+/**
+ * Implements hook_form_alter().
+ */
+function full_rubik_form_alter(&$form, $form_state, $form_id) {
+  if($form_id == 'edit-field-additional-email-addresses'){
+    $form['element']['add_more']['#value'] = 'Add another email address';
+  }
+}
+
 //Disable sticky headers
 function full_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
