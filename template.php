@@ -94,9 +94,9 @@ function full_rubik_date_all_day_label() {
   return '';
 }
 
-function full_rubik_link_field($vars) {
-  variable_set('title_description', $vars['element']['title']['#description']);
-  $vars['element']['title']['#description'] = '';
+function full_rubik_link_field_process($element, $form_state, $complete_form) {
+  variable_set('title_description', $element['title']['#description']);
+  $element['element']['title']['#description'] = '';
 }
 
 /**
