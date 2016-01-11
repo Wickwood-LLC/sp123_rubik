@@ -95,8 +95,7 @@ function full_rubik_date_all_day_label() {
 }
 
 function full_rubik_link_field($vars) {
-  global $title_description;
-  $title_description = $vars['element']['title']['#description'];
+  variable_set('title_description', $vars['element']['title']['#description']);
 }
 
 /**
@@ -177,7 +176,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['field_phone']['und']['add_more']['#value'] = 'Add another phone number';
     $form['field_website']['und']['add_more']['#value'] = 'Add another website';
     $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
-    $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . $title_description;
+    $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . variable_get('title_description');
   }
   dpm($form);
 }
