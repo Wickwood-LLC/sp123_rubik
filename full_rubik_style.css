@@ -895,9 +895,9 @@ ul.field-collection-view-links {
   float: left;
   margin-right: 10px; }
 
-.field-name-field-date .form-type-date-combo {
+.field-type-datetime.field-widget-date-popup {
   float: left; }
-  .field-name-field-date .form-type-date-combo .form-item {
+  .field-type-datetime.field-widget-date-popup .form-item {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -906,7 +906,7 @@ ul.field-collection-view-links {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-  .field-name-field-date .form-type-date-combo label {
+  .field-type-datetime.field-widget-date-popup label {
     margin-right: 5px;
     display: table;
     width: auto; }
