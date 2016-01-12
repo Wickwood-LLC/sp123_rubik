@@ -895,8 +895,10 @@ ul.field-collection-view-links {
   float: left;
   margin-right: 10px; }
 
+#edit-profile-bwma-client-field-notes .field-name-field-date,
 .pane-profile2-field-source-date {
   float: left; }
+  #edit-profile-bwma-client-field-notes .field-name-field-date .form-item,
   .pane-profile2-field-source-date .form-item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -906,6 +908,7 @@ ul.field-collection-view-links {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+  #edit-profile-bwma-client-field-notes .field-name-field-date label,
   .pane-profile2-field-source-date label {
     margin-right: 5px;
     display: table;
