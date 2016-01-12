@@ -1070,17 +1070,6 @@ table[id*='field-notes-values'] > thead {
 .field-name-field-address .state.form-select {
   width: 100%; }
 
-.field-type-datetime,
-.field-type-datetime * {
-  display: block;
-  width: 100%; }
-  .field-type-datetime .form-type-date-popup,
-  .field-type-datetime * .form-type-date-popup {
-    width: 100%; }
-    .field-type-datetime .form-type-date-popup .form-type-textfield,
-    .field-type-datetime * .form-type-date-popup .form-type-textfield {
-      width: 100%; }
-
 .pane-additional-identifying-info-edit .form-item {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;

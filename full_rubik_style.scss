@@ -1331,20 +1331,6 @@ table[id*='field-notes-values'] > thead {
   }
 }
 
-.field-type-datetime,
-.field-type-datetime * {
-  display: block;
-  width: 100%;
-
-  .form-type-date-popup {
-    width: 100%;
-
-    .form-type-textfield {
-      width: 100%;
-    }
-  }
-}
-
 .pane-additional-identifying-info-edit {
   .form-item {
     display: inline-flex;
