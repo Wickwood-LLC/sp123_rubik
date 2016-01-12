@@ -1283,19 +1283,6 @@ table[id*='field-notes-values'] > thead {
   display: none;
 }
 
-.field-name-field-date {
-  float: left;
-  width: auto;
-  margin-right: 1%;
-
-  label {
-    width: auto;
-  }
-  input {
-    display: inline-block;
-  }
-}
-
 .field-name-field-notes{
   .tabledrag-toggle-weight-wrapper {
     display: none;
