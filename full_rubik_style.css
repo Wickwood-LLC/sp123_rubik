@@ -892,12 +892,22 @@ ul.field-collection-view-links {
     padding: 0 0.5em; }
 
 .pane-profile2-field-source {
-  float: left; }
+  float: left;
+  margin-right: 10px; }
 
 .pane-profile2-field-source-date {
   float: left; }
-  .pane-profile2-field-source-date label, .pane-profile2-field-source-date input, .pane-profile2-field-source-date .description {
-    float: left; }
+  .pane-profile2-field-source-date .form-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .pane-profile2-field-source-date label {
+    margin-right: 5px; }
 
 .pane-profile2-field-source-notes {
   clear: left; }
