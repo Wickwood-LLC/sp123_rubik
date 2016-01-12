@@ -895,9 +895,9 @@ ul.field-collection-view-links {
   float: left;
   margin-right: 10px; }
 
-.field-type-datetime {
+.field-name-field-date {
   float: left; }
-  .field-type-datetime .form-item {
+  .field-name-field-date .form-item {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -906,7 +906,7 @@ ul.field-collection-view-links {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-  .field-type-datetime label {
+  .field-name-field-date label {
     margin-right: 5px;
     display: table;
     width: auto; }
