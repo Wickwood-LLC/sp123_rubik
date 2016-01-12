@@ -820,6 +820,9 @@ ul.field-collection-view-links {
     .field-name-field-total-deferred-enrollment- .field-items {
       margin-left: 0; } }
 
+.pane-user-profile .field-label {
+  width: 144px; }
+
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
