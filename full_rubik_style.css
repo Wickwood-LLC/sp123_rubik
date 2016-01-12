@@ -907,7 +907,9 @@ ul.field-collection-view-links {
         -ms-flex-align: center;
             align-items: center; }
   .pane-profile2-field-source-date label {
-    margin-right: 5px; }
+    margin-right: 5px;
+    display: table;
+    width: auto; }
 
 .pane-profile2-field-source-notes {
   clear: left; }
