@@ -1115,7 +1115,7 @@ ul.field-collection-view-links {
 .tabledrag-toggle-weight-wrapper {
   display: none;
 }
-.page-user-edit {
+.page-user-edit:not(.page-user-edit-bwma-client) {
   tr.draggable {
     display: flex;
 
