@@ -891,6 +891,17 @@ ul.field-collection-view-links {
     background: white;
     padding: 0 0.5em; }
 
+.pane-profile2-field-source {
+  float: left; }
+
+.pane-profile2-field-source-date {
+  float: left; }
+  .pane-profile2-field-source-date label, .pane-profile2-field-source-date input, .pane-profile2-field-source-date .description {
+    float: left; }
+
+.pane-profile2-field-source-notes {
+  clear: left; }
+
 .form-item > .clearfix {
   text-align: center; }
   .form-item > .clearfix input.field-add-more-submit {
