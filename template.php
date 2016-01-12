@@ -94,9 +94,82 @@ function full_rubik_date_all_day_label() {
   return '';
 }
 
-function full_rubik_link_field($vars) {
-  variable_set('title_description', $vars['element']['title']['#description']);
-  $vars['element']['title']['#description'] = '';
+function full_rubik_link_field_process($element, $form_state, $complete_form) {
+  variable_set('title_description', $element['title']['#description']);
+  $instance = field_widget_instance($element, $form_state);
+  $settings = $instance['settings'];
+  $element['url'] = array(
+    '#type' => 'textfield',
+    '#maxlength' => LINK_URL_MAX_LENGTH,
+    '#title' => t('URL'),
+    '#required' => ($element['#delta'] == 0 && $settings['url'] !== 'optional') ? $element['#required'] : FALSE,
+    '#default_value' => isset($element['#value']['url']) ? $element['#value']['url'] : NULL,
+  );
+  if ($settings['title'] !== 'none' && $settings['title'] !== 'value') {
+    // Figure out the label of the title field.
+    if (!empty($settings['title_label_use_field_label'])) {
+      // Use the element label as the title field label.
+      $title_label = $element['#title'];
+      // Hide the field label because there is no need for the duplicate labels.
+      $element['#title_display'] = 'invisible';
+    }
+    else {
+      $title_label = t('Title');
+    }
+
+    $element['title'] = array(
+      '#type' => 'textfield',
+      '#maxlength' => $settings['title_maxlength'],
+      '#title' => $title_label,
+      '#description' => t(''])),
+      '#required' => ($settings['title'] == 'required' && (($element['#delta'] == 0 && $element['#required']) || !empty($element['#value']['url']))) ? TRUE : FALSE,
+      '#default_value' => isset($element['#value']['title']) ? $element['#value']['title'] : NULL,
+    );
+  }
+
+  // Initialize field attributes as an array if it is not an array yet.
+  if (!is_array($settings['attributes'])) {
+    $settings['attributes'] = array();
+  }
+  // Add default attributes.
+  $settings['attributes'] += _link_default_attributes();
+  $attributes = isset($element['#value']['attributes']) ? $element['#value']['attributes'] : $settings['attributes'];
+  if (!empty($settings['attributes']['target']) && $settings['attributes']['target'] == LINK_TARGET_USER) {
+    $element['attributes']['target'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('Open URL in a New Window'),
+      '#return_value' => LINK_TARGET_NEW_WINDOW,
+      '#default_value' => isset($attributes['target']) ? $attributes['target'] : FALSE,
+    );
+  }
+  if (!empty($settings['attributes']['configurable_title']) && $settings['attributes']['configurable_title'] == 1) {
+    $element['attributes']['title'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Link "title" attribute'),
+      '#default_value' => isset($attributes['title']) ? $attributes['title'] : '',
+      '#field_prefix' => 'title = "',
+      '#field_suffix' => '"',
+    );
+  }
+  if (!empty($settings['attributes']['configurable_class']) && $settings['attributes']['configurable_class'] == 1) {
+    $element['attributes']['class'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Custom link class'),
+      '#default_value' => isset($attributes['class']) ? $attributes['class'] : '',
+      '#field_prefix' => 'class = "',
+      '#field_suffix' => '"',
+    );
+  }
+
+  // If the title field is avaliable or there are field accepts multiple values
+  // then allow the individual field items display the required asterisk if needed.
+  if (isset($element['title']) || isset($element['_weight'])) {
+    // To prevent an extra required indicator, disable the required flag on the
+    // base element since all the sub-fields are already required if desired.
+    $element['#required'] = FALSE;
+  }
+
+  return $element;
 }
 
 /**
