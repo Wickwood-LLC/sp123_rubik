@@ -746,20 +746,6 @@ div.panel-pane div.node.boxed {
 .pane-chaos-data .field-label-inline .field-label {
   width: 288px; }
 
-.page-user-edit table.field-multiple-table {
-  border: 1px solid #DDDDDD;
-  display: table-cell; }
-  .page-user-edit table.field-multiple-table th {
-    padding: 5px; }
-.page-user-edit .field-name-field-address div.addressfield-container-inline > div.form-item {
-  float: none;
-  margin-right: 0; }
-.page-user-edit .field-name-field-address label {
-  width: 20%;
-  box-sizing: border-box; }
-.page-user-edit .field-name-field-address select.state {
-  max-width: 78%; }
-
 .pane-additional-identifying-informati {
   padding-top: 3em; }
   .pane-additional-identifying-informati .panel-separator {
@@ -973,6 +959,19 @@ ul.field-collection-view-links {
           transform: rotate(-90deg);
   right: -50px;
   top: 50%; }
+.page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table {
+  border: 1px solid #DDDDDD;
+  display: table-cell; }
+  .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th {
+    padding: 5px; }
+.page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-address div.addressfield-container-inline > div.form-item {
+  float: none;
+  margin-right: 0; }
+.page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-address label {
+  width: 20%;
+  box-sizing: border-box; }
+.page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-address select.state {
+  max-width: 78%; }
 
 .page-user .field-collection-view {
   padding-top: 0; }

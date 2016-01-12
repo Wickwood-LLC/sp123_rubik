@@ -902,31 +902,6 @@ div.panel-pane div.node.boxed {
   width: 288px;
 }
 
-.page-user-edit {
-  table.field-multiple-table {
-    border: 1px solid #DDDDDD;
-    display: table-cell;
-
-    th {
-      padding: 5px;
-    }
-  }
-
-  .field-name-field-address {
-    div.addressfield-container-inline > div.form-item {
-      float: none;
-      margin-right: 0;
-    }
-    label {
-      width: 20%;
-      box-sizing: border-box;
-    }
-    select.state {
-      max-width: 78%;
-    }
-  }
-}
-
 .pane-additional-identifying-informati {
   .panel-separator {
     display: none;
@@ -1207,6 +1182,29 @@ ul.field-collection-view-links {
     transform: rotate(-90deg);
     right: -50px;
     top: 50%;
+  }
+
+  table.field-multiple-table {
+    border: 1px solid #DDDDDD;
+    display: table-cell;
+
+    th {
+      padding: 5px;
+    }
+  }
+
+  .field-name-field-address {
+    div.addressfield-container-inline > div.form-item {
+      float: none;
+      margin-right: 0;
+    }
+    label {
+      width: 20%;
+      box-sizing: border-box;
+    }
+    select.state {
+      max-width: 78%;
+    }
   }
 }
 
