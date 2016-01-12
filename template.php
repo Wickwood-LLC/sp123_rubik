@@ -121,7 +121,7 @@ function full_rubik_link_field_process($element, $form_state, $complete_form) {
       '#type' => 'textfield',
       '#maxlength' => $settings['title_maxlength'],
       '#title' => $title_label,
-      '#description' => t(''])),
+      '#description' => t('')),
       '#required' => ($settings['title'] == 'required' && (($element['#delta'] == 0 && $element['#required']) || !empty($element['#value']['url']))) ? TRUE : FALSE,
       '#default_value' => isset($element['#value']['title']) ? $element['#value']['title'] : NULL,
     );
