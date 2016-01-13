@@ -993,8 +993,12 @@ ul.field-collection-view-links {
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;
     }
+    input[value="Add New Loan"] {
+      display: table;
+      margin: 5px auto 0;
+    }
   }
-  
+
   .field-name-field-loans .ief-form {
     * {
       box-sizing: border-box;
