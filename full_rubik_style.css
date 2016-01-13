@@ -914,8 +914,8 @@ ul.field-collection-view-links {
     display: table;
     width: auto; }
   .field-type-datetime.field-widget-date-popup .description {
-    display: table;
-    width: auto; }
+    display: table !important;
+    width: auto !important; }
 
 .pane-profile2-field-source-notes {
   clear: left; }

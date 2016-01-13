@@ -1100,8 +1100,8 @@ ul.field-collection-view-links {
     width: auto;
   }
   .description {
-    display: table;
-    width: auto;
+    display: table !important;
+    width: auto !important;
   }
 }
 .pane-profile2-field-source-notes {
