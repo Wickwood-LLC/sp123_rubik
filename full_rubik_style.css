@@ -936,18 +936,18 @@ ul.field-collection-view-links {
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
-.page-user-edit tr.draggable {
+.page-user-edit .field-name-field-notes tr.draggable {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  .page-user-edit tr.draggable td.field-multiple-drag {
+  .page-user-edit .field-name-field-notes tr.draggable td.field-multiple-drag {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     padding-left: 0; }
-  .page-user-edit tr.draggable td[class=''] {
+  .page-user-edit .field-name-field-notes tr.draggable td:not([class]) {
     -webkit-box-flex: 100%;
     -webkit-flex: 100%;
         -ms-flex: 100%;

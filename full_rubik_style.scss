@@ -1135,14 +1135,14 @@ ul.field-collection-view-links {
 }
 
 .page-user-edit {
-  tr.draggable {
+  .field-name-field-notes tr.draggable {
     display: flex;
 
     td.field-multiple-drag {
       order: 1;
       padding-left: 0;
     }
-    td[class='']{
+    td:not([class]){
       flex: 100%;
     }
   }
