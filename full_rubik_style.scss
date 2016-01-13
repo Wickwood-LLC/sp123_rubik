@@ -1103,12 +1103,17 @@ ul.field-collection-view-links {
   margin-right: 10px;
 }
 .pane-profile2-field-source-date {
+  float: left;
+
   .field-type-datetime.field-widget-date-popup .form-item {
     display: flex;
     align-items: center;
 
     label, input, .description {
       flex: 0 0 auto;
+    }
+    label {
+      margin-right: 5px;
     }
   }
 }
