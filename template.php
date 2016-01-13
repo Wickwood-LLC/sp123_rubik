@@ -212,9 +212,9 @@ function full_rubik_field_multiple_value_form($variables) {
       $item['_weight']['#attributes']['class'] = array($order_class);
       $delta_element = drupal_render($item['_weight']);
       $cells = array(
+        array('data' => '', 'class' => array('field-multiple-drag')),
         drupal_render($item),
         array('data' => $delta_element, 'class' => array('delta-order')),
-        array('data' => '', 'class' => array('field-multiple-drag')),
       );
       $rows[] = array(
         'data' => $cells,
