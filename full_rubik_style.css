@@ -871,6 +871,8 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-date-sent .form-item input {
   max-width: 100px;
   display: inline-block; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-note {
+  clear: left; }
 @media (min-width: 0px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
@@ -914,6 +916,21 @@ ul.field-collection-view-links {
 .pane-profile2-field-source {
   float: left;
   margin-right: 10px; }
+
+.pane-profile2-field-source-date .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .pane-profile2-field-source-date .form-item label, .pane-profile2-field-source-date .form-item input, .pane-profile2-field-source-date .form-item .description {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
 
 .field-type-datetime.field-widget-date-popup .form-item {
   display: block; }

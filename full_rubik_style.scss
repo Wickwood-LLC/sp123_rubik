@@ -1047,6 +1047,9 @@ ul.field-collection-view-links {
           display: inline-block;
         }
       }
+      .field-name-field-note {
+        clear: left;
+      }
     }
     
     .bwma-enrolment,
@@ -1098,6 +1101,16 @@ ul.field-collection-view-links {
 .pane-profile2-field-source {
   float: left;
   margin-right: 10px;
+}
+.pane-profile2-field-source-date {
+  .form-item {
+    display: flex;
+    align-items: center;
+
+    label, input, .description {
+      flex: 0 0 auto;
+    }
+  }
 }
 .field-type-datetime.field-widget-date-popup {
 
