@@ -209,6 +209,7 @@ function full_rubik_field_multiple_value_form($variables) {
 
     // Add the items as table rows.
     foreach ($items as $key => $item) {
+      dpm($item);
       $item['_weight']['#attributes']['class'] = array($order_class);
       $delta_element = drupal_render($item['_weight']);
       $cells = array(
