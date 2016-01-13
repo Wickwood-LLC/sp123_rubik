@@ -905,7 +905,8 @@ div.panel-pane div.node.boxed {
   width: 288px;
 }
 
-.pane-additional-identifying-informati {
+.pane-additional-identifying-informati,
+.pane-additional-identifying-info-edit {
   .panel-separator {
     display: none;
   }
@@ -1364,31 +1365,6 @@ table[id*='field-notes-values'] > thead {
 
     label {
       width: 40%;
-    }
-  }
-  .pane-user-field-identification {
-    float: left;
-    width: 50%;
-
-    .form-item-field-identification-und {
-      display: block;
-    }
-
-    #edit-field-identification-und {
-      display: flex;
-      justify-content: space-around;
-
-      input {
-        margin-right: 0.5em;
-      }
-    }
-  }
-  .pane-user-field-ss-or-ein {
-    float: left;
-    width: 50%;
-
-    label {
-      flex: 100%;
     }
   }
 }
