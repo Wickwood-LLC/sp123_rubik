@@ -942,6 +942,8 @@ ul.field-collection-view-links {
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
+.page-user-edit .field-name-field-notes table {
+  border: 1px solid #cccccc; }
 .page-user-edit .field-name-field-notes tr.draggable {
   display: -webkit-box;
   display: -webkit-flex;

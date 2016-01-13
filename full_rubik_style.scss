@@ -1136,15 +1136,20 @@ ul.field-collection-view-links {
 }
 
 .page-user-edit {
-  .field-name-field-notes tr.draggable {
-    display: flex;
-
-    td.field-multiple-drag {
-      order: 1;
-      padding-left: 0;
+  .field-name-field-notes {
+    table {
+      border: 1px solid #cccccc;
     }
-    td:not([class]){
-      flex: 100%;
+    tr.draggable {
+      display: flex;
+  
+      td.field-multiple-drag {
+        order: 1;
+        padding-left: 0;
+      }
+      td:not([class]){
+        flex: 100%;
+      }
     }
   }
 }
