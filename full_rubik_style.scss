@@ -1124,16 +1124,6 @@ ul.field-collection-view-links {
   display: none;
 }
 
-.page-user-edit {
-  tr.draggable {
-    display: flex;
-
-    td.field-multiple-drag {
-      order: 1;
-    }
-  }
-}
-
 .page-user-edit:not(.page-user-edit-bwma-client) {
 
   .field-name-field-phone-type:after {
