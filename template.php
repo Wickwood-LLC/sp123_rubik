@@ -251,6 +251,10 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
     $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . ' ' . variable_get('title_description');
   }
+  if($form_id == 'profile2_edit_bwma_client_form'){
+    $form['profile_bwma_client']['field_loans']['und']['actions']['ief_add']['#value'] = 'Add New Loan';
+    $form['profile_bwma_client']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
+  }
 }
 
 //Disable sticky headers
