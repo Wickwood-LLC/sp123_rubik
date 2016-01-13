@@ -250,6 +250,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
     $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . ' ' . variable_get('title_description');
   }
+  dpm($form);
 }
 
 //Disable sticky headers
