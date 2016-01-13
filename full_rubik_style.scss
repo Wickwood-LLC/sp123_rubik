@@ -882,6 +882,7 @@ div.panel-pane div.node.boxed {
 .page-user {
   .field-name-field-phone-type,
   .field-name-field-deferred-fee-label,
+  .pane-user-field-identification,
   .field-name-field-identification {
     display: inline-block;
     font-weight: bold;
@@ -1112,7 +1113,6 @@ ul.field-collection-view-links {
   }
   .description {
     display: table !important;
-    width: auto !important;
   }
 }
 .pane-profile2-field-source-notes {

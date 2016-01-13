@@ -719,25 +719,31 @@ div.panel-pane div.node.boxed {
 
 .page-user-view .field-name-field-phone-type,
 .page-user-view .field-name-field-deferred-fee-label,
+.page-user-view .pane-user-field-identification,
 .page-user-view .field-name-field-identification,
 .page-user .field-name-field-phone-type,
 .page-user .field-name-field-deferred-fee-label,
+.page-user .pane-user-field-identification,
 .page-user .field-name-field-identification {
   display: inline-block;
   font-weight: bold;
   min-width: 44%; }
   .page-user-view .field-name-field-phone-type .field-items,
   .page-user-view .field-name-field-deferred-fee-label .field-items,
+  .page-user-view .pane-user-field-identification .field-items,
   .page-user-view .field-name-field-identification .field-items,
   .page-user .field-name-field-phone-type .field-items,
   .page-user .field-name-field-deferred-fee-label .field-items,
+  .page-user .pane-user-field-identification .field-items,
   .page-user .field-name-field-identification .field-items {
     display: inline-block; }
   .page-user-view .field-name-field-phone-type:after,
   .page-user-view .field-name-field-deferred-fee-label:after,
+  .page-user-view .pane-user-field-identification:after,
   .page-user-view .field-name-field-identification:after,
   .page-user .field-name-field-phone-type:after,
   .page-user .field-name-field-deferred-fee-label:after,
+  .page-user .pane-user-field-identification:after,
   .page-user .field-name-field-identification:after {
     content: ':\00a0'; }
 
@@ -925,8 +931,7 @@ ul.field-collection-view-links {
     display: table;
     width: auto; }
   .field-type-datetime.field-widget-date-popup .description {
-    display: table !important;
-    width: auto !important; }
+    display: table !important; }
 
 .pane-profile2-field-source-notes {
   clear: left; }
