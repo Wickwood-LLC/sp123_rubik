@@ -749,20 +749,26 @@ div.panel-pane div.node.boxed {
 .pane-chaos-data .field-label-inline .field-label {
   width: 288px; }
 
-.pane-additional-identifying-informati {
+.pane-additional-identifying-informati,
+.pane-additional-identifying-info-edit {
   padding-top: 3em; }
-  .pane-additional-identifying-informati .panel-separator {
+  .pane-additional-identifying-informati .panel-separator,
+  .pane-additional-identifying-info-edit .panel-separator {
     display: none; }
-  .pane-additional-identifying-informati .pane-content {
+  .pane-additional-identifying-informati .pane-content,
+  .pane-additional-identifying-info-edit .pane-content {
     display: inline-block; }
   @media (min-width: 458px) {
-    .pane-additional-identifying-informati {
+    .pane-additional-identifying-informati,
+    .pane-additional-identifying-info-edit {
       padding-top: 1em; } }
   @media (min-width: 992px) {
-    .pane-additional-identifying-informati {
+    .pane-additional-identifying-informati,
+    .pane-additional-identifying-info-edit {
       padding-top: 3em; } }
   @media (min-width: 1276px) {
-    .pane-additional-identifying-informati {
+    .pane-additional-identifying-informati,
+    .pane-additional-identifying-info-edit {
       padding-top: 1em; } }
 
 .pane-node-field-service-bureaus {
@@ -1100,29 +1106,6 @@ table[id*='field-notes-values'] > thead {
           align-items: center; }
   .pane-additional-identifying-info-edit .form-item label {
     width: 40%; }
-.pane-additional-identifying-info-edit .pane-user-field-identification {
-  float: left;
-  width: 50%; }
-  .pane-additional-identifying-info-edit .pane-user-field-identification .form-item-field-identification-und {
-    display: block; }
-  .pane-additional-identifying-info-edit .pane-user-field-identification #edit-field-identification-und {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
-    .pane-additional-identifying-info-edit .pane-user-field-identification #edit-field-identification-und input {
-      margin-right: 0.5em; }
-.pane-additional-identifying-info-edit .pane-user-field-ss-or-ein {
-  float: left;
-  width: 50%; }
-  .pane-additional-identifying-info-edit .pane-user-field-ss-or-ein label {
-    -webkit-box-flex: 100%;
-    -webkit-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%; }
 
 /* Admin page styles */
 ul#views-display-menu-tabs {
