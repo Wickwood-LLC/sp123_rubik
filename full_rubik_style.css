@@ -915,23 +915,11 @@ ul.field-collection-view-links {
   float: left;
   margin-right: 10px; }
 
-.field-type-datetime.field-widget-date-popup {
-  float: left; }
-  .field-type-datetime.field-widget-date-popup .form-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .field-type-datetime.field-widget-date-popup label {
-    margin-right: 5px;
-    display: table;
+.field-type-datetime.field-widget-date-popup .form-item {
+  display: block; }
+  .field-type-datetime.field-widget-date-popup .form-item > * {
+    display: inline-block;
     width: auto; }
-  .field-type-datetime.field-widget-date-popup .description {
-    display: table !important; }
 
 .pane-profile2-field-source-notes {
   clear: left; }
@@ -1069,9 +1057,6 @@ table[id*='field-notes-values'] > thead {
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content {
   position: relative; }
-  .field-name-field-notes td:not([class]) .field-name-field-date,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-date {
-    width: auto; }
   .field-name-field-notes td:not([class]) .field-name-field-staff,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
     float: left; }

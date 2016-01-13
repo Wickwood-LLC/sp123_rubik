@@ -1100,19 +1100,14 @@ ul.field-collection-view-links {
   margin-right: 10px;
 }
 .field-type-datetime.field-widget-date-popup {
-  float: left;
 
   .form-item {
-    display: flex;
-    align-items: center;
-  }
-  label {
-    margin-right: 5px;
-    display: table;
-    width: auto;
-  }
-  .description {
-    display: table !important;
+    display: block;
+
+    &>* {
+      display: inline-block;
+      width: auto;
+    }
   }
 }
 .pane-profile2-field-source-notes {
@@ -1323,9 +1318,6 @@ table[id*='field-notes-values'] > thead {
   td:not([class]) > .ajax-new-content {
     position: relative;
 
-    .field-name-field-date {
-      width: auto;
-    }
     .field-name-field-staff {
       float: left;
 
