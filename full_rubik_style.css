@@ -813,6 +813,8 @@ ul.field-collection-view-links {
   width: 44%; }
 
 /* Client Edit Styles */
+.page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
+  margin-right: 5px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {

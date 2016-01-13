@@ -989,6 +989,12 @@ ul.field-collection-view-links {
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
+  .pane-profile2-field-loans {
+    .ief-entity-operations input[value='Edit'] {
+      margin-right: 5px;
+    }
+  }
+  
   .field-name-field-loans .ief-form {
     * {
       box-sizing: border-box;
