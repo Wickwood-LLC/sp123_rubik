@@ -1053,13 +1053,6 @@ input.field-add-more-submit {
   width: auto; }
 .page-user-edit:not(.page-user-edit-bwma-client) td {
   position: relative; }
-.page-user-edit:not(.page-user-edit-bwma-client) input.button-remove {
-  position: absolute;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  right: -50px;
-  top: 50%; }
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table {
   border: 1px solid #DDDDDD;
   display: table-cell; }
@@ -1119,17 +1112,17 @@ table[id*='field-notes-values'] > thead {
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     clear: left;
     margin-right: 4em; }
-  .field-name-field-notes td:not([class]) .button-remove,
-  .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
 .field-name-field-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }
+
+.button-remove {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
 
 .field-name-field-direct-mail-lead-tracking- input {
   width: auto; }
