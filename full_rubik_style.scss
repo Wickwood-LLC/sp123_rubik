@@ -1317,6 +1317,13 @@ input.field-add-more-submit {
     position: relative;
   }
 
+  input.button-remove {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -50px;
+    top: 50%;
+  }
+
   table.field-multiple-table {
     border: 1px solid #DDDDDD;
     display: table-cell;
@@ -1402,19 +1409,18 @@ table[id*='field-notes-values'] > thead {
       clear: left;
       margin-right: 4em;
     }    
+    .button-remove {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: rotate(-90deg);
+    }
   }
 
   .field-add-more-submit {
     display: table;
     margin: 1em auto 0;
   }
-}
-
-.button-remove {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: rotate(-90deg);
 }
 
 .field-name-field-direct-mail-lead-tracking- input{
