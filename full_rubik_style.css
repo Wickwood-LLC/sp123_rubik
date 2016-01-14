@@ -756,7 +756,8 @@ div.panel-pane div.node.boxed {
 .field-name-field-ss-or-ein {
   display: inline-block; }
 
-.pane-chaos-data .field-label-inline .field-label {
+.pane-chaos-data .field-label-inline .field-label,
+.loan-chaos-data label {
   width: 288px; }
 
 .pane-additional-identifying-informati,
