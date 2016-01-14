@@ -992,6 +992,12 @@ ul.field-collection-view-links {
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
+  #edit-profile-bwma-client-field-notes {
+    .field-name-field-date {
+      display: inline;
+    }
+  }
+
   .pane-profile2-field-loans {
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;

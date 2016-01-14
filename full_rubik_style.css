@@ -826,6 +826,8 @@ ul.field-collection-view-links {
   width: 44%; }
 
 /* Client Edit Styles */
+.page-user-edit-bwma-client #edit-profile-bwma-client-field-notes .field-name-field-date {
+  display: inline; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
