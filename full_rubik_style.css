@@ -703,7 +703,7 @@ div.panel-pane div.node.boxed {
 .panelizer-view-mode.node-embedded-to-profile > .panel-display {
   display: none; }
 
-.form-wrapper {
+.pane-additional-identifying-info-edit .form-wrapper {
   margin-bottom: 0; }
 
 .form-item {
