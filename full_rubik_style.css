@@ -970,8 +970,7 @@ ul.field-collection-view-links {
       -webkit-box-ordinal-group: 2;
       -webkit-order: 1;
           -ms-flex-order: 1;
-              order: 1;
-      padding-left: 0; }
+              order: 1; }
     .page-user-edit table.field-multiple-table tr.draggable td:not([class]) {
       -webkit-box-flex: 100%;
       -webkit-flex: 100%;
