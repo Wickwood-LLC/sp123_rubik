@@ -990,11 +990,24 @@ ul.field-collection-view-links {
   }
 }
 
+.container-inline-date .date-padding {
+  float: none;
+}
+
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
   #edit-profile-bwma-client-field-notes {
     .field-name-field-date {
       display: inline;
+    }
+  }
+
+  .field-name-field-welcome-package-note {
+    clear: left;
+  }
+  .field-name-field-debit-fee-notes {
+    .field-name-field-note {
+      clear: left;
     }
   }
 

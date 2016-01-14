@@ -825,9 +825,16 @@ ul.field-collection-view-links {
 .pane-user-profile .field-label {
   width: 44%; }
 
+.container-inline-date .date-padding {
+  float: none; }
+
 /* Client Edit Styles */
 .page-user-edit-bwma-client #edit-profile-bwma-client-field-notes .field-name-field-date {
   display: inline; }
+.page-user-edit-bwma-client .field-name-field-welcome-package-note {
+  clear: left; }
+.page-user-edit-bwma-client .field-name-field-debit-fee-notes .field-name-field-note {
+  clear: left; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
