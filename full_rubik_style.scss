@@ -1423,6 +1423,17 @@ table[id*='field-notes-values'] > thead {
   }
 }
 
+td:not([class]) {
+  position: relative;
+
+  .button-remove {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: rotate(-90deg);
+  }
+}
+
 .field-name-field-direct-mail-lead-tracking- input{
   width: auto;
 }

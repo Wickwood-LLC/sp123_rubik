@@ -1131,6 +1131,16 @@ table[id*='field-notes-values'] > thead {
   display: table;
   margin: 1em auto 0; }
 
+td:not([class]) {
+  position: relative; }
+  td:not([class]) .button-remove {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
+
 .field-name-field-direct-mail-lead-tracking- input {
   width: auto; }
 
