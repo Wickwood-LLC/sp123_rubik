@@ -717,6 +717,15 @@ div.panel-pane div.node.boxed {
 .page-staff table.views-table .item-list ul li {
   border: none; }
 
+.page-user-view .field-name-field-deferred-fee-label {
+  display: inline-block;
+  font-weight: bold;
+  min-width: 44%; }
+  .page-user-view .field-name-field-deferred-fee-label .field-items {
+    display: inline-block; }
+  .page-user-view .field-name-field-deferred-fee-label:after {
+    content: ':\00a0'; }
+
 .page-user-view .field-name-field-phone-type,
 .page-user-view .field-name-field-deferred-fee-label,
 .page-user-view .pane-user-field-identification,

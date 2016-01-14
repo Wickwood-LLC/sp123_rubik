@@ -878,6 +878,21 @@ div.panel-pane div.node.boxed {
   border: none;
 }
 
+.page-user-view {
+  .field-name-field-deferred-fee-label {
+    display: inline-block;
+    font-weight: bold;
+    min-width: 44%;
+
+    .field-items {
+      display: inline-block;
+    }
+    &:after {
+      content: ':\00a0';
+    }
+  }
+}
+
 .page-user-view,
 .page-user {
   .field-name-field-phone-type,
