@@ -977,7 +977,7 @@ ul.field-collection-view-links {
           -ms-flex: 100%;
               flex: 100%; }
 .page-user-edit .field-name-field-bwma-programs-enrolled label {
-  width: 100%; }
+  width: 100% !important; }
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-radios {
   -webkit-column-count: 2;
      -moz-column-count: 2;
