@@ -764,7 +764,8 @@ div.panel-pane div.node.boxed {
     display: none; }
   .pane-additional-identifying-informati .pane-content,
   .pane-additional-identifying-info-edit .pane-content {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
   @media (min-width: 458px) {
     .pane-additional-identifying-informati,
     .pane-additional-identifying-info-edit {
