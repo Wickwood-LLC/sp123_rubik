@@ -1171,6 +1171,15 @@ ul.field-collection-view-links {
     }
   }
 
+  .field-name-field-bwma-programs-enrolled {
+    label {
+      width: 100%;
+    }
+    .form-radios {
+      column-count: 2;
+    }
+  }
+
   .field-name-field-website {
     .link-field-title .description {
       display: none;

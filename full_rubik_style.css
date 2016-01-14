@@ -976,6 +976,12 @@ ul.field-collection-view-links {
       -webkit-flex: 100%;
           -ms-flex: 100%;
               flex: 100%; }
+.page-user-edit .field-name-field-bwma-programs-enrolled label {
+  width: 100%; }
+.page-user-edit .field-name-field-bwma-programs-enrolled .form-radios {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2; }
 .page-user-edit .field-name-field-website .link-field-title .description {
   display: none; }
 .page-user-edit .field-name-field-website .link-field-column {
