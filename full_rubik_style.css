@@ -958,10 +958,9 @@ ul.field-collection-view-links {
 .pane-profile2-field-source-notes {
   clear: left; }
 
-.form-item > .clearfix {
-  text-align: center; }
-  .form-item > .clearfix input.field-add-more-submit {
-    text-transform: capitalize; }
+input.field-add-more-submit {
+  text-transform: capitalize;
+  margin: .5em auto 0; }
 
 .progress-disabled {
   float: none; }

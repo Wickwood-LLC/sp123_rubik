@@ -1158,12 +1158,9 @@ ul.field-collection-view-links {
   clear: left;
 }
 
-.form-item>.clearfix {
-  text-align: center;
-
-  input.field-add-more-submit {
-    text-transform: capitalize;
-  }
+input.field-add-more-submit {
+  text-transform: capitalize;
+  margin: .5em auto 0;
 }
 
 .progress-disabled {
