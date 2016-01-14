@@ -1428,7 +1428,7 @@ td:not([class]) {
 
   .button-remove {
     position: absolute;
-    right: 0;
+    right: -50px;
     top: 50%;
     transform: rotate(-90deg);
   }
