@@ -990,8 +990,11 @@ ul.field-collection-view-links {
   }
 }
 
-.container-inline-date .date-padding {
-  float: none;
+.container-inline-date {
+  .form-item .form-item,
+  .date-padding {
+    float: none;
+  }
 }
 
 /* Client Edit Styles */

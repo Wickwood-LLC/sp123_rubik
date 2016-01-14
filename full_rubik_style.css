@@ -825,6 +825,7 @@ ul.field-collection-view-links {
 .pane-user-profile .field-label {
   width: 44%; }
 
+.container-inline-date .form-item .form-item,
 .container-inline-date .date-padding {
   float: none; }
 
