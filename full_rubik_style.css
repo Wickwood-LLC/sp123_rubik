@@ -835,7 +835,7 @@ ul.field-collection-view-links {
   margin: 5px auto 0; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class~="form-title"],
+.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"],
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
   display: inline; }
 @media (min-width: 0px) {

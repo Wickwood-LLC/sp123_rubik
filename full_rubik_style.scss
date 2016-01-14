@@ -1012,7 +1012,7 @@ ul.field-collection-view-links {
     * {
       box-sizing: border-box;
     }
-    div[class~="form-title"],
+    div[class*="form-title"],
     .field-name-field-used-diy-form {
       display: inline;
     }
