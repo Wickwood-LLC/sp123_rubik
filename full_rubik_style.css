@@ -975,6 +975,13 @@ ul.field-collection-view-links {
     -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%; }
+.page-user-edit .field-name-field-website .link-field-title .description {
+  display: none; }
+.page-user-edit .field-name-field-website .link-field-column {
+  float: none;
+  width: 100%; }
+  .page-user-edit .field-name-field-website .link-field-column label {
+    width: 10%; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-phone-type:after {
   content: ''; }
