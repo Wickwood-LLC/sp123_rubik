@@ -1156,13 +1156,12 @@ ul.field-collection-view-links {
 }
 
 .page-user-edit {
-  .field-name-field-notes {
-    table {
-      border: 1px solid #cccccc;
-    }
+  table.field-multiple-table {
+    border: 1px solid #cccccc;
+
     tr.draggable {
       display: flex;
-  
+
       td.field-multiple-drag {
         order: 1;
         padding-left: 0;
@@ -1172,6 +1171,7 @@ ul.field-collection-view-links {
       }
     }
   }
+
   .field-name-field-website {
     .link-field-title .description {
       display: none;
