@@ -256,6 +256,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
   }
   if($form_id == 'loan_node_form'){
     $form['field_deferred_enrollment_fees']['und'][0]['field_deferred_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee Date';
+    $form['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee';
   }
   dpm($form);
 }
