@@ -256,8 +256,8 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
   }
   if($form_id == 'loan_node_form'){
     $form['element']['group_deferred_enrolment_fees']['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Note';
-#a
   }
+  dpm($form);
 }
 
 //Disable sticky headers
