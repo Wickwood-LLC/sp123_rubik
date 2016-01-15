@@ -253,10 +253,17 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
   if($form_id == 'profile2_edit_bwma_client_form'){
     $form['profile_bwma_client']['field_loans']['und']['actions']['ief_add']['#value'] = 'Add New Loan';
     $form['profile_bwma_client']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
-    // $form['profile_bwma_client']['field_loans']['und']['entities']
-    $form['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee';
-    if (is_int($form['profile_bwma_client']['field_loans']['und']['entities'])){
-      dpm($form['profile_bwma_client']['field_loans']['und']['entities']);
+
+    $entities = $form['profile_bwma_client']['field_loans']['und']['entities'];
+    foreach ($entities as $loan) {
+      if(is_int($item)) {
+        $loan['form']['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee';  // Override 'Enrolment Fees' add buttton text
+        foreach ($loan['form']['field_deferred_enrollment_fees']['und'] as $deferred_fee) {
+          if(is_int($deferred_fee)) {
+            $deferred_fee['field_deferred_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee Date';  // Override 'Deferred Fees' add buttton text
+          }
+        }
+      }
     }
   }
   dpm($form);
