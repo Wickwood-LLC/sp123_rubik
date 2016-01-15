@@ -1334,6 +1334,15 @@ input.field-add-more-submit {
   }
 }
 
+.ief-entity-operations {
+  input.button-remove {
+    position: relative;
+    transform: none;
+    right: 0;
+    top: 50%;
+  }
+}
+
 .page-user {
   .field-collection-view {
     padding-top: 0;
