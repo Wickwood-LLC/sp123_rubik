@@ -255,7 +255,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['profile_bwma_client']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
     // $form['profile_bwma_client']['field_loans']['und']['entities']
     $form['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee';
-    dpm($form['profile_bwma_client']['field_loans']['und']['entities'][is_int()]);
+    dpm($form['profile_bwma_client']['field_loans']['und']['entities'][int]);
   }
   dpm($form);
 }
