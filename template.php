@@ -255,7 +255,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['profile_bwma_client']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
   }
   if($form_id == 'loan_node_form'){
-    $form['element']['group_deferred_enrolment_fees']['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Note';
+    $form['field_deferred_enrollment_fees']['und'][0]['field_deferred_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee Date';
   }
   dpm($form);
 }
