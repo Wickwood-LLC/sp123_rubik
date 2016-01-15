@@ -256,7 +256,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
 
     $entities = $form['profile_bwma_client']['field_loans']['und']['entities'];
     foreach ($entities as $loan) {
-      if(is_int($item)) {
+      if(is_int($loan)) {
         $loan['form']['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee';  // Override 'Enrolment Fees' add buttton text
         foreach ($loan['form']['field_deferred_enrollment_fees']['und'] as $deferred_fee) {
           if(is_int($deferred_fee)) {
