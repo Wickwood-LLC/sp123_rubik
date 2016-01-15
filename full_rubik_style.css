@@ -1066,7 +1066,7 @@ input.field-add-more-submit {
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th {
     padding: 5px; }
 
-.ief-entity-operations input.button-remove {
+tr.ief-row-entity .ief-entity-operations input.button-remove {
   position: relative;
   -webkit-transform: none;
       -ms-transform: none;
