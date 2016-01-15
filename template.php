@@ -254,6 +254,10 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['profile_bwma_client']['field_loans']['und']['actions']['ief_add']['#value'] = 'Add New Loan';
     $form['profile_bwma_client']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
   }
+  if($form_id == 'loan_node_form'){
+    $form['group_loan_debit_info']['field_debit_fee_notes']['und']['add_more']['#value'] = 'Add Another Note';
+#a
+  }
 }
 
 //Disable sticky headers
