@@ -256,7 +256,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
 
     // dpm($form);
     $entities = $form['profile_bwma_client']['field_loans']['und']['entities'];
-    // dpm($entities);
+    dpm($entities);
     foreach ($entities as $loan_key => $loan) {
       if (is_int($loan_key)) {
         dpm($loan);
