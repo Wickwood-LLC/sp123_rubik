@@ -1153,7 +1153,9 @@ ul.field-collection-view-links {
     display: flex;
     align-items: center;
 
-    label, input, .description {
+    label, input, 
+    // .description 
+    {
       flex: 0 0 auto;
     }
     label {
@@ -1166,7 +1168,9 @@ ul.field-collection-view-links {
   .form-item {
     display: block;
 
-    label, input, .description {
+    label, input, 
+    // .description 
+    {
       display: inline-block;
       width: auto;
     }
