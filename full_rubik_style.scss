@@ -1319,7 +1319,7 @@ input.field-add-more-submit {
     position: relative;
   }
 
-  input.button-remove {
+  input.button-remove:not(#edit-delete) {
     position: absolute;
     transform: rotate(-90deg);
     right: -50px;

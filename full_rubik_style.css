@@ -1055,7 +1055,7 @@ input.field-add-more-submit {
   width: auto; }
 .page-user-edit:not(.page-user-edit-bwma-client) td {
   position: relative; }
-.page-user-edit:not(.page-user-edit-bwma-client) input.button-remove {
+.page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete) {
   position: absolute;
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
