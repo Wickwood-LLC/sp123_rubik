@@ -1100,8 +1100,12 @@ ul.field-collection-view-links {
     .field-name-field-deferred-fee-amount {
       width: 100%;
     }
-    .field-name-field-additional-extra-principal input {
-      width: auto;
+    .field-name-field-additional-extra-principal,
+    .field-name-field-debit-amount-advanced-by-s,
+    .field-name-field-debit-advanced-by-afts-amo {
+      input {
+        width: auto;
+      }
     }
 
     .field-name-field-thank-you-card-and-referra {
