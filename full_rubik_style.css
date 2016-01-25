@@ -978,7 +978,8 @@ input.field-add-more-submit {
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
-table#field-family-member-contacts-values {
+table#field-family-member-contacts-values,
+table#field-notes-values {
   display: table;
   width: 100%; }
 
