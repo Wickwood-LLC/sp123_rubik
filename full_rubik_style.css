@@ -836,9 +836,11 @@ ul.field-collection-view-links {
 .container-inline-date .date-padding {
   float: none; }
 
+.field-name-field-notes .field-name-field-date {
+  float: left;
+  width: 50%; }
+
 /* Client Edit Styles */
-.page-user-edit-bwma-client #edit-profile-bwma-client-field-notes .field-name-field-date {
-  display: inline; }
 .page-user-edit-bwma-client .field-name-field-welcome-package-note {
   clear: left; }
 .page-user-edit-bwma-client .field-name-field-debit-fee-notes .field-name-field-note {
