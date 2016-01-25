@@ -978,6 +978,10 @@ input.field-add-more-submit {
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
+table#field-family-member-contacts-values {
+  display: table;
+  width: 100%; }
+
 .page-user-edit table.field-multiple-table {
   border: 1px solid #cccccc; }
   .page-user-edit table.field-multiple-table tr.draggable {
