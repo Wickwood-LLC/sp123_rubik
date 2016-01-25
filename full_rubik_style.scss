@@ -1147,7 +1147,7 @@ ul.field-collection-view-links {
   margin-right: 10px;
 }
 .pane-profile2-field-source-date {
-  float: left;
+  display: inline-block;
 
   .field-type-datetime.field-widget-date-popup .form-item {
     display: flex;
