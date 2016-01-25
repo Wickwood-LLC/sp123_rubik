@@ -836,9 +836,16 @@ ul.field-collection-view-links {
 .container-inline-date .date-padding {
   float: none; }
 
-.field-name-field-notes .field-name-field-date {
+.field-name-field-notes .field-name-field-date,
+.field-name-field-debit-fee-notes .field-name-field-date {
   float: left;
   width: 50%; }
+.field-name-field-notes .field-name-field-staff,
+.field-name-field-debit-fee-notes .field-name-field-staff {
+  float: left; }
+  .field-name-field-notes .field-name-field-staff input,
+  .field-name-field-debit-fee-notes .field-name-field-staff input {
+    width: auto; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .field-name-field-welcome-package-note {
