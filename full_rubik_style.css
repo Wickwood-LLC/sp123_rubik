@@ -932,6 +932,16 @@ ul.field-collection-view-links {
     top: -25px;
     background: white;
     padding: 0 0.5em; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders {
+  float: left;
+  width: 49%;
+  margin-right: 1%; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb {
+  float: left;
+  width: 49%;
+  margin-left: 1%; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data {
+  clear: both; }
 
 .pane-profile2-field-source {
   float: left;
