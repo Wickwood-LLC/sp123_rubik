@@ -909,7 +909,8 @@ ul.field-collection-view-links {
   float: left;
   width: 50%; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status .description {
-  display: inline-block; }
+  display: inline-block;
+  width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-note {
   clear: left; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-date-sent .form-item label {
