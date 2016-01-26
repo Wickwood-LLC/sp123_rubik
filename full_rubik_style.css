@@ -968,6 +968,10 @@ ul.field-collection-view-links {
   width: 206px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance input {
   width: auto; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees label {
+  width: 111px; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees input {
+  width: auto; }
 @media (min-width: 0px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
