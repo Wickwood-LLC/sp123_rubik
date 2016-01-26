@@ -1033,56 +1033,6 @@ ul.field-collection-view-links {
 /* Client Edit Styles */
 .page-user-edit-bwma-client {
 
-  .field-name-field-welcome-package-note {
-    clear: left;
-  }
-  .field-name-field-debit-fee-notes {
-    .field-name-field-note {
-      clear: left;
-    }
-  }
-  .field-name-field-amount input {
-    width: auto;
-  }
-
-  .field-name-field-address {
-    .form-item {
-      display: flex;
-      align-items: center;
-
-      label {
-        flex: 0 0 60px;
-      }
-      input {
-        flex: auto;
-      }
-      select {
-        width: auto;
-      }
-    }
-  }
-  .field-name-field-loan-type .form-item {
-    display: flex;
-    align-items: center;
-
-    label {
-      flex: 0 0 70px;
-    }
-  }
-
-  .field-name-field-monthly-payment,
-  .field-name-field-additional-extra-principal,
-  .field-name-field-debit-fee {
-    input {
-      width: auto;
-    }
-  }
-
-  .field-name-field-debiting-schedule .form-radios .form-item {
-    float: left;
-    width: 100px;
-  }
-
   .pane-profile2-field-loans {
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;
@@ -1166,6 +1116,56 @@ ul.field-collection-view-links {
       }
     }
 
+    .field-name-field-welcome-package-note {
+      clear: left;
+    }
+    .field-name-field-debit-fee-notes {
+      .field-name-field-note {
+        clear: left;
+      }
+    }
+    .field-name-field-amount input {
+      width: auto;
+    }
+
+    .field-name-field-address {
+      .form-item {
+        display: flex;
+        align-items: center;
+
+        label {
+          flex: 0 0 60px;
+        }
+        input {
+          flex: auto;
+        }
+        select {
+          width: auto;
+        }
+      }
+    }
+    .field-name-field-loan-type .form-item {
+      display: flex;
+      align-items: center;
+
+      label {
+        flex: 0 0 70px;
+      }
+    }
+
+    .field-name-field-monthly-payment,
+    .field-name-field-additional-extra-principal,
+    .field-name-field-debit-fee {
+      input {
+        width: auto;
+      }
+    }
+
+    .field-name-field-debiting-schedule .form-radios .form-item {
+      float: left;
+      width: 100px;
+    }
+
     .field-name-field-thank-you-card-and-referra {
       .field-name-field-date-sent .form-item {
         label {
@@ -1178,6 +1178,15 @@ ul.field-collection-view-links {
       }
       .field-name-field-note {
         clear: left;
+      }
+    }
+
+    .afts-advance {
+      label {
+        width: 206px;
+      }
+      input {
+        width: auto;
       }
     }
     
