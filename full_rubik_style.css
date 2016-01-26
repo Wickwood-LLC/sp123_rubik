@@ -902,10 +902,10 @@ ul.field-collection-view-links {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
   .page-user-edit-bwma-client .field-name-field-debiting-schedule .form-radios .form-item {
-    -webkit-box-flex: 1;
-    -webkit-flex: auto;
-        -ms-flex: auto;
-            flex: auto; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100px;
+        -ms-flex: 0 0 100px;
+            flex: 0 0 100px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
