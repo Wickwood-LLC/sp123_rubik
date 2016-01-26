@@ -1117,7 +1117,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   -webkit-transform: none;
       -ms-transform: none;
           transform: none;
-  right: -50px;
+  right: 0;
   top: 50%; }
 
 .page-user .field-collection-view {
