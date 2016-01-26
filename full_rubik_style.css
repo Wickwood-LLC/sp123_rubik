@@ -1023,7 +1023,10 @@ ul.field-collection-view-links {
         -ms-flex: auto;
             flex: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
-  width: 90px; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 90px;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders input {
   width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
@@ -1037,7 +1040,10 @@ ul.field-collection-view-links {
         -ms-flex: auto;
             flex: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb label {
-  width: 140px; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 140px;
+      -ms-flex: 0 0 140px;
+          flex: 0 0 140px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb input {
   width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed {
