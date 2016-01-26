@@ -1408,7 +1408,7 @@ tr.ief-row-entity .ief-entity-operations {
   input.button-remove {
     position: relative;
     transform: none;
-    right: 0;
+    right: -50px;
     top: 50%;
   }
 }
@@ -1486,7 +1486,6 @@ table[id*='field-notes-values'] > thead {
     }
     .field-name-field-note {
       clear: left;
-      margin-right: 4em;
     }    
     .button-remove {
       position: absolute;
