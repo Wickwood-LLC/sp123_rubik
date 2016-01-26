@@ -875,7 +875,7 @@ ul.field-collection-view-links {
             flex: auto; }
   .page-user-edit-bwma-client .field-name-field-address .form-item select {
     width: auto; }
-.page-user-edit-bwma-client .field-name-field-loan-type {
+.page-user-edit-bwma-client .field-name-field-loan-type .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -884,7 +884,7 @@ ul.field-collection-view-links {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  .page-user-edit-bwma-client .field-name-field-loan-type label {
+  .page-user-edit-bwma-client .field-name-field-loan-type .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 70px;
         -ms-flex: 0 0 70px;
