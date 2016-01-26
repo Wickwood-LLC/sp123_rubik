@@ -1072,23 +1072,25 @@ table#field-notes-values {
   display: table;
   width: 100%; }
 
-.page-user-edit table.field-multiple-table {
-  border: 1px solid #cccccc; }
-  .page-user-edit table.field-multiple-table tr.draggable {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-    .page-user-edit table.field-multiple-table tr.draggable td.field-multiple-drag {
-      -webkit-box-ordinal-group: 2;
-      -webkit-order: 1;
-          -ms-flex-order: 1;
-              order: 1; }
-    .page-user-edit table.field-multiple-table tr.draggable td:not([class]) {
-      -webkit-box-flex: 100%;
-      -webkit-flex: 100%;
-          -ms-flex: 100%;
-              flex: 100%; }
+.page-user-edit table.field-multiple-table thead, .page-user-edit table.field-multiple-table tr {
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: #cccccc; }
+.page-user-edit table.field-multiple-table tr.draggable {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-user-edit table.field-multiple-table tr.draggable td.field-multiple-drag {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; }
+  .page-user-edit table.field-multiple-table tr.draggable td:not([class]) {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%; }
 .page-user-edit .field-name-field-bwma-programs-enrolled label {
   width: 100% !important; }
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-radios {

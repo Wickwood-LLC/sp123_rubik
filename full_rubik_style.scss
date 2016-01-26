@@ -1315,7 +1315,11 @@ table#field-notes-values {
 
 .page-user-edit {
   table.field-multiple-table {
-    border: 1px solid #cccccc;
+    thead, tr {
+      border-width: 0 1px 0 1px;
+      border-style: solid;
+      border-color: #cccccc;
+    }
 
     tr.draggable {
       display: flex;
