@@ -1072,7 +1072,7 @@ table#field-notes-values {
   display: table;
   width: 100%; }
 
-.page-user-edit table.field-multiple-table thead, .page-user-edit table.field-multiple-table tbody tr {
+.page-user-edit table.field-multiple-table tr {
   border-width: 0 1px 0 1px;
   border-style: solid;
   border-color: #cccccc; }
