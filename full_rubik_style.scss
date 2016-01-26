@@ -1196,6 +1196,8 @@ ul.field-collection-view-links {
     }
     
     .bwma-enrolment,
+    .loan-lenders,
+    .loan-sb,
     .afts-advance,
     .loan-status-history {
       @include breakpoint(0px) {
@@ -1219,10 +1221,9 @@ ul.field-collection-view-links {
         margin-left: 1%;
       }
     }
-    .loan-lenders {
-      clear: both;
-    }
     .loan-chaos-data {
+      clear: both;
+
       .form-item input {
         width: auto;
       }
@@ -1237,20 +1238,6 @@ ul.field-collection-view-links {
         background: white;
         padding: 0 0.5em;
       }
-    }
-
-    .loan-lenders {
-      float: left;
-      width: 49%;
-      margin-right: 1%;
-    }
-    .loan-sb {
-      float: left;
-      width: 49%;
-      margin-left: 1%;
-    }
-    .loan-chaos-data {
-      clear: both;
     }
   }
 }
