@@ -1012,10 +1012,30 @@ ul.field-collection-view-links {
   clear: both; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data .form-item input {
     width: auto; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
   width: 90px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders input {
   width: auto; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb label {
   width: 140px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb input {

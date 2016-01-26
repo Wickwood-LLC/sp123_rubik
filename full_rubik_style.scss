@@ -1229,10 +1229,20 @@ ul.field-collection-view-links {
       }
     }
     .loan-lenders {
+      .field-name-field-lender .form-item {
+        display: flex;
+
+        input { flex: auto; }
+      }
       label { width: 90px;  }
       input { width: auto;  }
     }
     .loan-sb {
+      .field-name-field-service-bureau .form-item {
+        display: flex;
+
+        input { flex: auto; }
+      }
       label { width: 140px;  }
       input { width: auto;  }
     }
