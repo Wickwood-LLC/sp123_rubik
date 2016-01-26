@@ -854,6 +854,25 @@ ul.field-collection-view-links {
   clear: left; }
 .page-user-edit-bwma-client .field-name-field-amount input {
   width: auto; }
+.page-user-edit-bwma-client .field-name-field-address .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-user-edit-bwma-client .field-name-field-address .form-item label {
+    -webkit-box-flex: 60px;
+    -webkit-flex: 60px;
+        -ms-flex: 60px;
+            flex: 60px; }
+  .page-user-edit-bwma-client .field-name-field-address .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
