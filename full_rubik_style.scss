@@ -1051,11 +1051,22 @@ ul.field-collection-view-links {
       align-items: center;
 
       label {
-        flex: 60px;
+        flex: 0 0 60px;
       }
       input {
         flex: auto;
       }
+      select {
+        width: auto;
+      }
+    }
+  }
+  .field-name-field-loan-type {
+    display: flex;
+    align-items: center;
+
+    label {
+      flex: 0 0 70px;
     }
   }
 
