@@ -1175,7 +1175,7 @@ table[id*='field-notes-values'] > thead {
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
     position: absolute;
-    right: 0;
+    right: -50px;
     top: 50%;
     -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
