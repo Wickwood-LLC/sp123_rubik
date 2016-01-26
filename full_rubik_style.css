@@ -889,6 +889,10 @@ ul.field-collection-view-links {
     -webkit-flex: 0 0 70px;
         -ms-flex: 0 0 70px;
             flex: 0 0 70px; }
+.page-user-edit-bwma-client .field-name-field-monthly-payment input,
+.page-user-edit-bwma-client .field-name-field-additional-extra-principal input,
+.page-user-edit-bwma-client .field-name-field-debit-fee input {
+  width: auto; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {

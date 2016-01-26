@@ -1070,6 +1070,14 @@ ul.field-collection-view-links {
     }
   }
 
+  .field-name-field-monthly-payment,
+  .field-name-field-additional-extra-principal,
+  .field-name-field-debit-fee {
+    input {
+      width: auto;
+    }
+  }
+
   .pane-profile2-field-loans {
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;
