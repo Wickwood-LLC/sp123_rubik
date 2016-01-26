@@ -1228,6 +1228,14 @@ ul.field-collection-view-links {
         width: auto;
       }
     }
+    .loan-lenders {
+      label { width: 90px;  }
+      input { width: auto;  }
+    }
+    .loan-sb {
+      label { width: 140px;  }
+      input { width: auto;  }
+    }
 
     .boxed {
       position: relative;
