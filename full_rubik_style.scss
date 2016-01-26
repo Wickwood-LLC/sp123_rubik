@@ -1078,6 +1078,15 @@ ul.field-collection-view-links {
     }
   }
 
+  .field-name-field-debiting-schedule .form-radios {
+    display: flex;
+    flex-flow: row wrap;
+
+    .form-item {
+      flex: auto;
+    }
+  }
+
   .pane-profile2-field-loans {
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;
