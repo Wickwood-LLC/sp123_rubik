@@ -12,7 +12,7 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      var stickyTop = $('.pane-profile2-form-buttons').offset.top;
+      var stickyTop = $('.pane-profile2-form-buttons').offset().top;
       var windowHeight = $(window).height();
       console.log('stickyTop is ' + stickyTop);
       console.log('windowHeight is ' + windowHeight);
