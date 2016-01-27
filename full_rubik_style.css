@@ -1263,7 +1263,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
 
-table[id*='field-notes-values'] > thead {
+table[id*='field-notes-values'] > thead label {
   display: none; }
 
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
