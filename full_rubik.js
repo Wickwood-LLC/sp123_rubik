@@ -9,4 +9,17 @@
 		});
     }
   };
+
+  Drupal.behaviors.stickyButtons = {
+    attach: function (context, settings) {
+      var stickyTop = $('.pane-profile2-form-buttons').offset().top;
+      console.log('stickyTop is' . stickyTop);
+
+      $(window).scroll(function(){ // scroll event 
+        var windowTop = $(window).scrollTop(); // returns number     
+      });
+      console.log('windowTop is' . windowTop);
+
+    }
+  };
 }(jQuery));
