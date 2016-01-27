@@ -829,6 +829,10 @@ div.panel-pane div.node.boxed {
   }
 }
 
+#edit-actions {
+  text-align: center;
+}
+
 /***********************/
 /* USER PROFILE STYLES */
 /***********************/
@@ -1280,9 +1284,7 @@ ul.field-collection-view-links {
     display: flex;
     align-items: center;
 
-    label, input, 
-    .description 
-    {
+    label, input, .description {
       flex: 0 0 auto;
     }
     label {
@@ -1300,10 +1302,8 @@ ul.field-collection-view-links {
     display: flex;
     align-items: center;
 
-    label, input, 
-    .description 
-    {
-      flex: 1 0 auto;
+    label, input, .description {
+      flex: 0 0 auto;
     }
     label {
       margin-right: 5px;

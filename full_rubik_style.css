@@ -684,6 +684,9 @@ div.panel-pane div.node.boxed {
     top: -10px;
     z-index: 1; }
 
+#edit-actions {
+  text-align: center; }
+
 /***********************/
 /* USER PROFILE STYLES */
 /***********************/
@@ -1075,8 +1078,7 @@ ul.field-collection-view-links {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input,
-    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item .description {
+    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item .description {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 auto;
           -ms-flex: 0 0 auto;
@@ -1096,12 +1098,11 @@ ul.field-collection-view-links {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input,
-  .field-type-datetime.field-widget-date-popup .form-item .description {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto; }
+  .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input, .field-type-datetime.field-widget-date-popup .form-item .description {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
   .field-type-datetime.field-widget-date-popup .form-item label {
     margin-right: 5px; }
   .field-type-datetime.field-widget-date-popup .form-item input {
