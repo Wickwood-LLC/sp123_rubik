@@ -1090,6 +1090,9 @@ ul.field-collection-view-links {
   .field-type-datetime.field-widget-date-popup .form-item .description {
     display: inline-block;
     width: auto; }
+  .field-type-datetime.field-widget-date-popup .form-item input {
+    width: 8em;
+    text-align: center; }
 
 .pane-profile2-field-source-notes {
   clear: left; }
