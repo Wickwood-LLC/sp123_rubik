@@ -1293,13 +1293,13 @@ ul.field-collection-view-links {
 .field-type-datetime.field-widget-date-popup {
 
   .form-item {
-    display: block;
+    display: flex;
+    align-items: center;
 
     label, input, 
     .description 
     {
-      display: inline-block;
-      width: auto;
+      flex: 1 0 auto;
     }
     input {
       width: 8em;
