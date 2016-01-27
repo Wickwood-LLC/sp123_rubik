@@ -1201,7 +1201,8 @@ ul.field-collection-view-links {
     .bwma-enrolment,
     .loan-lenders,
     .loan-sb,
-    .afts-advance {
+    .afts-advance,
+    .loan-status-history {
       @include breakpoint(0px) {
         display: block;
         width: 100%;
