@@ -18,10 +18,11 @@
       console.log('windowHeight is ' + windowHeight);
 
       $(window).scroll(function(){ // scroll event 
-        var currentPosition = $('.pane-profile2-form-buttons').scrollTop(); // returns number     
+        var windowTop = $(window).scrollTop(); // returns number  
+        var currentPosition = windowTop + windowHeight;
         console.log('Current position is ' + currentPosition);
 
-        if (stickyTop > currentPosition) {
+        if (stickyTop > windowTop + windowHeight) {
           $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
         }
         else {
