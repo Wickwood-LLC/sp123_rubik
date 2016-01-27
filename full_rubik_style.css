@@ -711,7 +711,8 @@ div.panel-pane div.node.boxed {
 .form-item {
   width: 100%; }
   .form-item label {
-    display: inline-block; }
+    display: inline-block;
+    font-size: 13px; }
   .form-item input[type="text"] {
     width: 78%;
     box-sizing: border-box; }
