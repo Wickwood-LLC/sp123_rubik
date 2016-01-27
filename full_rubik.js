@@ -17,8 +17,8 @@
 
       $(window).scroll(function(){ // scroll event 
         var windowTop = $(window).scrollTop(); // returns number     
+        console.log('windowTop is ' + windowTop);
       });
-      console.log('windowTop is ' + windowTop);
 
     }
   };
