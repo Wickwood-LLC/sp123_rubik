@@ -19,7 +19,7 @@
 
       $(window).scroll(function(){ // scroll event 
         var windowTop = $(window).scrollTop(); // returns number     
-        console.log('windowTop is ' + windowTop);
+        console.log('Bottom is ' + windowTop + windowHeight);
 
         if (stickyTop > windowTop + windowHeight) {
           $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
