@@ -1054,8 +1054,7 @@ ul.field-collection-view-links {
       display: inline-block;
     }
     .loan-debit-info,
-    .deferred-enrolment-fees,
-    .loan-notes {
+    .deferred-enrolment-fees {
       @include breakpoint(0px) {
         width: 100%;
         margin-right: 0;
@@ -1080,6 +1079,10 @@ ul.field-collection-view-links {
         float: left;
         clear: left;
       }
+    }
+    .loan-notes {
+      clear: both;
+      width: 100%;
     }
 
     .field-name-field-total-deferred-enrollment- {
@@ -1198,8 +1201,7 @@ ul.field-collection-view-links {
     .bwma-enrolment,
     .loan-lenders,
     .loan-sb,
-    .afts-advance,
-    .loan-status-history {
+    .afts-advance {
       @include breakpoint(0px) {
         display: block;
         width: 100%;
@@ -1220,6 +1222,9 @@ ul.field-collection-view-links {
         width: 49%;
         margin-left: 1%;
       }
+    }
+    .loan-status-history {
+      float: right;
     }
     .loan-chaos-data {
       clear: both;
