@@ -13,7 +13,9 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
       var stickyTop = $('.pane-profile2-form-buttons').offset().top;
+      var windowHeight = $(window).offset().bottom;
       console.log('stickyTop is ' + stickyTop);
+      console.log('windowHeight is ' + windowHeight);
 
       $(window).scroll(function(){ // scroll event 
         var windowTop = $(window).scrollTop(); // returns number     
