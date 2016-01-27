@@ -1083,6 +1083,9 @@ ul.field-collection-view-links {
               flex: 0 0 auto; }
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label {
       margin-right: 5px; }
+    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
+      width: 8em;
+      text-align: center; }
 
 .field-type-datetime.field-widget-date-popup .form-item {
   display: -webkit-box;
@@ -1099,10 +1102,11 @@ ul.field-collection-view-links {
     -webkit-flex: 1 0 auto;
         -ms-flex: 1 0 auto;
             flex: 1 0 auto; }
+  .field-type-datetime.field-widget-date-popup .form-item label {
+    margin-right: 5px; }
   .field-type-datetime.field-widget-date-popup .form-item input {
     width: 8em;
-    text-align: center;
-    margin-right: 5px; }
+    text-align: center; }
 
 .pane-profile2-field-source-notes {
   clear: left; }

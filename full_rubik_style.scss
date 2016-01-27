@@ -1288,6 +1288,10 @@ ul.field-collection-view-links {
     label {
       margin-right: 5px;
     }
+    input {
+      width: 8em;
+      text-align: center;
+    }
   }
 }
 .field-type-datetime.field-widget-date-popup {
@@ -1301,10 +1305,12 @@ ul.field-collection-view-links {
     {
       flex: 1 0 auto;
     }
+    label {
+      margin-right: 5px;
+    }
     input {
       width: 8em;
       text-align: center;
-      margin-right: 5px;
     }
   }
 }
