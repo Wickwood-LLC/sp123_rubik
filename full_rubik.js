@@ -20,6 +20,13 @@
       $(window).scroll(function(){ // scroll event 
         var windowTop = $(window).scrollTop(); // returns number     
         console.log('windowTop is ' + windowTop);
+
+        if (stickyTop > windowTop + windowHeight) {
+          $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
+        }
+        else {
+          $('.pane-profile2-form-buttons').css('position','static');
+        }
       });
 
     }
