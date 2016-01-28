@@ -12,21 +12,22 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      var stickyTop = $('.pane-profile2-form-buttons').offset().top;
-      var windowHeight = $(window).height();
-
-      $(window).scroll(function(){ // scroll event 
-        var windowTop = $(window).scrollTop(); // returns number  
-        var currentPosition = windowTop + windowHeight - 144;   // 144 is a discrepancy and I don't know where that comes from
-
-        if (stickyTop > currentPosition) {
-          $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
-        }
-        else {
-          $('.pane-profile2-form-buttons').css('position','static');
-        }
-      });
-
+      if (!!$('.pane-profile2-form-buttons').offset()) {  // make sure ".pane-profile2-form-buttons" element exists
+        var stickyTop = $('.pane-profile2-form-buttons').offset().top;
+        var windowHeight = $(window).height();
+  
+        $(window).scroll(function(){ // scroll event 
+          var windowTop = $(window).scrollTop(); // returns number  
+          var currentPosition = windowTop + windowHeight - 144;   // 144 is a discrepancy and I don't know where that comes from
+  
+          if (stickyTop > currentPosition) {
+            $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
+          }
+          else {
+            $('.pane-profile2-form-buttons').css('position','static');
+          }
+        });
+      }
     }
   };
 }(jQuery));
