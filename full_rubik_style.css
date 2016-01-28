@@ -1271,17 +1271,18 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 table[id*='field-notes-values'] > thead label {
   display: none; }
 
-.field-name-field-staff {
-  float: left; }
-  .field-name-field-staff input {
-    display: inline-block;
-    width: 24em; }
-
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content {
   position: relative; }
+  .field-name-field-notes td:not([class]) .field-name-field-staff,
+  .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff {
+    float: left; }
+    .field-name-field-notes td:not([class]) .field-name-field-staff input,
+    .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff input {
+      display: inline-block;
+      width: 24em; }
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     clear: left; }
