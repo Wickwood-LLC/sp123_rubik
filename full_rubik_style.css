@@ -1268,7 +1268,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
 
-thead label {
+thead th.field-label label {
   padding-left: 1em; }
 
 table[id*='field-notes-values'] > thead label {
