@@ -1294,6 +1294,9 @@ ul.field-collection-view-links {
       width: 8em;
       text-align: center;
     }
+    .description {
+      width: auto;
+    }
   }
 }
 .field-type-datetime.field-widget-date-popup {
@@ -1311,6 +1314,9 @@ ul.field-collection-view-links {
     input {
       width: 8em;
       text-align: center;
+    }
+    .description {
+      width: auto;
     }
   }
 }

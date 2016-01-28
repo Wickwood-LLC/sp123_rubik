@@ -1088,6 +1088,8 @@ ul.field-collection-view-links {
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
       width: 8em;
       text-align: center; }
+    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item .description {
+      width: auto; }
 
 .field-type-datetime.field-widget-date-popup .form-item {
   display: -webkit-box;
@@ -1108,6 +1110,8 @@ ul.field-collection-view-links {
   .field-type-datetime.field-widget-date-popup .form-item input {
     width: 8em;
     text-align: center; }
+  .field-type-datetime.field-widget-date-popup .form-item .description {
+    width: auto; }
 
 .pane-profile2-field-source-notes {
   clear: left; }
