@@ -1281,6 +1281,13 @@ ul.field-collection-view-links {
         padding: 0 0.5em;
       }
     }
+
+    div[class*="form-status"] .form-type-radio {
+      display: inline-block;
+      padding: 5px;
+
+      label { font-weight: bold; }
+    }
   }
 }
 

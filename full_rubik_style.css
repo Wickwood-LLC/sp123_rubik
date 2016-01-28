@@ -1067,6 +1067,11 @@ ul.field-collection-view-links {
     top: -25px;
     background: white;
     padding: 0 0.5em; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio {
+  display: inline-block;
+  padding: 5px; }
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
+    font-weight: bold; }
 
 .pane-profile2-field-source {
   float: left;
