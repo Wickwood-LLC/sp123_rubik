@@ -968,11 +968,21 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-note {
   clear: left; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance label {
-  width: 275px; }
+  width: 287px; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-prefix {
+  display: inline-block;
+  -webkit-transform: translateX(-12px);
+      -ms-transform: translateX(-12px);
+          transform: translateX(-12px); }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance input {
   width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees label {
   width: 150px; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees .field-prefix {
+  display: inline-block;
+  -webkit-transform: translateX(-12px);
+      -ms-transform: translateX(-12px);
+          transform: translateX(-12px); }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees input {
   width: auto; }
 @media (min-width: 0px) {

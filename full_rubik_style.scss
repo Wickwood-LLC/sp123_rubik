@@ -1193,7 +1193,11 @@ ul.field-collection-view-links {
 
     .afts-advance {
       label {
-        width: 275px;
+        width: 287px;
+      }
+      .field-prefix {
+        display: inline-block;
+        transform: translateX(-12px);
       }
       input {
         width: auto;
@@ -1202,6 +1206,10 @@ ul.field-collection-view-links {
 
     .field-name-field-deferred-fees {
       label { width: 150px; }
+      .field-prefix {
+        display: inline-block;
+        transform: translateX(-12px);
+      }
       input { width: auto;  }
     }
     
