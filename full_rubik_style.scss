@@ -1671,6 +1671,10 @@ label.panopoly-admin-hide-body-label-processed {
   padding: 5px;
   clear: both;
 
+  &:empty {
+    padding: 0;
+  }
+
   p {
     margin: 1em 0;
 

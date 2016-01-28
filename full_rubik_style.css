@@ -1364,6 +1364,9 @@ label.panopoly-admin-hide-body-label-processed {
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
+  .rubik-inline-field-descriptions .page-content .form-item .description:empty,
+  .description:empty {
+    padding: 0; }
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
