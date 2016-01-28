@@ -291,6 +291,8 @@ function full_rubik_table($variables) {
 
     unset($variables['header'][3]);
 
+    dpm($variables);
+
     // // Add sticky headers, if applicable.
     // if (count($header) && $sticky) {
     //   drupal_add_js('misc/tableheader.js');
