@@ -849,7 +849,7 @@ ul.field-collection-view-links {
   float: left; }
   .field-name-field-notes .field-name-field-staff input,
   .field-name-field-debit-fee-notes .field-name-field-staff input {
-    width: auto; }
+    width: 24em; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
