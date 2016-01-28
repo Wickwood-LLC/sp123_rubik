@@ -1557,6 +1557,15 @@ table[id*='field-notes-values'] > thead label {
   display: none;
 }
 
+.field-name-field-staff {
+  float: left;
+
+  input {
+    display: inline-block;
+    width: 24em;
+  }
+}
+
 .field-name-field-notes{
   .tabledrag-toggle-weight-wrapper {
     display: none;
@@ -1566,14 +1575,6 @@ table[id*='field-notes-values'] > thead label {
   td:not([class]) > .ajax-new-content {
     position: relative;
 
-    .field-name-field-staff {
-      float: left;
-
-      input {
-        display: inline-block;
-        width: auto;
-      }
-    }
     .field-name-field-note {
       clear: left;
     }    
