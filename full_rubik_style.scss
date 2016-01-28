@@ -1192,25 +1192,26 @@ ul.field-collection-view-links {
     }
 
     .afts-advance {
-      label {
-        width: 287px;
-      }
-      .field-prefix {
-        display: inline-block;
-        transform: translateX(-12px);
-      }
-      input {
-        width: auto;
+      label { width: 287px; }
+      input { width: auto;  }
+
+      .field-name-field-debit-advanced-by-afts-amo,
+      .field-name-field-chargeback-fee-amount {
+        label {
+          margin-right: -12px;
+        }
       }
     }
 
     .field-name-field-deferred-fees {
-      label { width: 150px; }
-      .field-prefix {
-        display: inline-block;
-        transform: translateX(-12px);
-      }
+      label { width: 162px; }
       input { width: auto;  }
+
+      .field-name-field-deferred-fee-amount {
+        label {
+          margin-right: -12px;
+        }
+      }
     }
     
     .bwma-enrolment,

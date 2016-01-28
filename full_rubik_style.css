@@ -969,22 +969,17 @@ ul.field-collection-view-links {
   clear: left; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance label {
   width: 287px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-prefix {
-  display: inline-block;
-  -webkit-transform: translateX(-12px);
-      -ms-transform: translateX(-12px);
-          transform: translateX(-12px); }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance input {
   width: auto; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-chargeback-fee-amount label {
+  margin-right: -12px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees label {
-  width: 150px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees .field-prefix {
-  display: inline-block;
-  -webkit-transform: translateX(-12px);
-      -ms-transform: translateX(-12px);
-          transform: translateX(-12px); }
+  width: 162px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees input {
   width: auto; }
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees .field-name-field-deferred-fee-amount label {
+  margin-right: -12px; }
 @media (min-width: 0px) {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders,
