@@ -28,7 +28,7 @@
           console.log('Current position is ' + currentPosition);
   
           if (stickyTop > currentPosition) {
-            $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
+            $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, left: 0, right: 0 });
             console.log("$('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, left: 0, right: 0 });");
           }
           else {
