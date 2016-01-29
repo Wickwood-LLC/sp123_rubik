@@ -852,8 +852,8 @@ ul.field-collection-view-links {
     width: 24em; }
 
 /* Client Edit Styles */
-.page-user-edit-bwma-client .pane-profile2-field-loans .inline-entity-form-node-status {
-  color: #FFFFFF; }
+.page-user-edit-bwma-client .pane-profile2-field-loans thead tr:nth-child(1), .page-user-edit-bwma-client .pane-profile2-field-loans .inline-entity-form-node-status {
+  display: none; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
