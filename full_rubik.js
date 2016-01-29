@@ -29,9 +29,11 @@
   
           if (stickyTop > currentPosition) {
             $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
+            console.log("$('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });");
           }
           else {
             $('.pane-profile2-form-buttons').css('position','static');
+            console.log("$('.pane-profile2-form-buttons').css('position','static');");
           }
         });
       }
