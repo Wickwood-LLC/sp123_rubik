@@ -12,7 +12,7 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      if (!!$('.pane-profile2-form-buttons').offset()) {  // make sure ".pane-profile2-form-buttons" element exists
+      // if (!!$('.pane-profile2-form-buttons').offset()) {  // make sure ".pane-profile2-form-buttons" element exists
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
         var windowHeight = $(window).height();
 
@@ -31,7 +31,7 @@
             $('.pane-profile2-form-buttons').css('position','static');
           }
         });
-      }
+      // }
     }
   };
 }(jQuery));
