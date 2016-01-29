@@ -22,8 +22,6 @@
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
           var currentPosition = windowTop + windowHeight;
-
-          console.log('Current position is ' + currentPosition);
   
           if (stickyTop > currentPosition) {
             $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, left: 0, right: 0 });
