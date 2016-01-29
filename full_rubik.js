@@ -15,12 +15,14 @@
       if (!!$('.pane-profile2-form-buttons').offset()) {  // make sure ".pane-profile2-form-buttons" element exists
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
         var windowHeight = $(window).height();
+
+        console.log(stickyTop);
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
           var currentPosition = windowTop + windowHeight - 144;   // 144 is a discrepancy and I don't know where that comes from
 
-          console.log('Current position is' + currentPosition);
+          console.log('Current position is ' + currentPosition);
   
           if (stickyTop > currentPosition) {
             $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0 });
