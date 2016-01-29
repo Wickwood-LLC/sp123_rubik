@@ -12,7 +12,10 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      // if (!!$('.pane-profile2-form-buttons').offset()) {  // make sure ".pane-profile2-form-buttons" element exists
+      if (!!$('.pane-profile2-form-buttons').offset()) {  // make sure ".pane-profile2-form-buttons" element exists
+
+        $('.pane-profile2-form-buttons').css('position','static');  // this is to reset the position of the element whenever the page is update with AJAX.
+
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
         var windowHeight = $(window).height();
 
@@ -20,7 +23,7 @@
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
-          var currentPosition = windowTop + windowHeight - 144;   // 144 is a discrepancy and I don't know where that comes from
+          var currentPosition = windowTop + windowHeight;
 
           console.log('Current position is ' + currentPosition);
   
@@ -31,7 +34,7 @@
             $('.pane-profile2-form-buttons').css('position','static');
           }
         });
-      // }
+      }
     }
   };
 }(jQuery));
