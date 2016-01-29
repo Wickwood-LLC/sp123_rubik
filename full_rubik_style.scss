@@ -1041,7 +1041,7 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client {
 
   .pane-profile2-field-loans {
-    thead tr:nth-child(1), .inline-entity-form-node-status { display: none; }
+    thead tr th:nth-child(1), .inline-entity-form-node-status { display: none; }
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;
     }
