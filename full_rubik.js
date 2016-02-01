@@ -19,6 +19,13 @@
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
         var windowHeight = $(window).height();
         var buttonWidth = $('.pane-profile2-form-buttons').width();
+
+        if (stickyTop > currentPosition) {
+          $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+        }
+        else {
+          $('.pane-profile2-form-buttons').css('position','static');
+        }
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
