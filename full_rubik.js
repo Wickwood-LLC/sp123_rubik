@@ -19,6 +19,8 @@
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
         var windowHeight = $(window).height();
         var buttonWidth = $('.pane-profile2-form-buttons').width();
+        var windowTop = $(window).scrollTop(); // returns number  
+        var currentPosition = windowTop + windowHeight;
 
         if (stickyTop > currentPosition) {
           $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, width: buttonWidth });
