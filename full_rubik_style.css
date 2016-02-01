@@ -854,6 +854,8 @@ ul.field-collection-view-links {
 /* Client Edit Styles */
 .page-user-edit-bwma-client .pane-profile2-field-loans #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(4), .page-user-edit-bwma-client .pane-profile2-field-loans .inline-entity-form-node-status {
   display: none; }
+.page-user-edit-bwma-client .pane-profile2-field-loans #edit-profile-bwma-client-field-loans #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(2) {
+  display: none; }
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
