@@ -280,23 +280,23 @@ function full_rubik_addressfield_container($variables) {
   dpm($variables);
 
   if ($variables['element']['#id'] == 'edit-profile-bwma-client-field-driver-s-license-und-0-field-driver-s-license-state-und-0-locality-block') {
+
+    $element = $variables['element'];
+    $element['#children'] = trim($element['#children']);
+    // Remove the autocomplete attribute because the W3C validator complains.
+    // It's only used on forms anyway.
+    unset($element['#attributes']['autocomplete']);
     unset($variables['element']['locality']);
-  }
 
-  $element = $variables['element'];
-  $element['#children'] = trim($element['#children']);
-  // Remove the autocomplete attribute because the W3C validator complains.
-  // It's only used on forms anyway.
-  unset($element['#attributes']['autocomplete']);
-
-  if (strlen($element['#children']) > 0) {
-    $output = '<' . $element['#tag'] . drupal_attributes($element['#attributes']) . '>';
-    $output .= $element['#children'];
-    $output .= '</' . $element['#tag'] . ">";
-    return $output;
-  }
-  else {
-    return '';
+    if (strlen($element['#children']) > 0) {
+      $output = '<' . $element['#tag'] . drupal_attributes($element['#attributes']) . '>';
+      $output .= $element['#children'];
+      $output .= '</' . $element['#tag'] . ">";
+      return $output;
+    }
+    else {
+      return '';
+    }
   }
 }
 
