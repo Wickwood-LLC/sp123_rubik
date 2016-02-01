@@ -18,12 +18,12 @@
 
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
         if ('body#overlay') {
-          var windowHeight = $('div.overlay').height();
+          var windowHeight = $('.overlay').height();
         }
         else {
           var windowHeight = $(window).height();
         }
-        console.log('Window height is' + windowHeight);
+        console.log('Window height is ' + windowHeight);
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
