@@ -24,6 +24,18 @@
           var windowHeight = $(window).height();
         }
         console.log('Window height is ' + windowHeight);
+
+        $('.overlay').scroll(function(){ // scroll event 
+          var windowTop = $(window).scrollTop(); // returns number  
+          var currentPosition = windowTop + windowHeight;
+  
+          if (stickyTop > currentPosition) {
+            $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, left: 0, right: 0 });
+          }
+          else {
+            $('.pane-profile2-form-buttons').css('position','static');
+          }
+        });
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
