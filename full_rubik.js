@@ -17,7 +17,13 @@
         $('.pane-profile2-form-buttons').css('position','static');  // this is to reset the position of the element whenever the page is update with AJAX.
 
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
-        var windowHeight = $(window).height();
+        if ('body#overlay') {
+          var windowHeight = $('div.overlay').height();
+        }
+        else {
+          var windowHeight = $(window).height();
+        }
+        console.log('Window height is' + windowHeight);
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
