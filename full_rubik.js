@@ -17,25 +17,7 @@
         $('.pane-profile2-form-buttons').css('position','static');  // this is to reset the position of the element whenever the page is update with AJAX.
 
         var stickyTop = $('.pane-profile2-form-buttons').offset().top;
-        if ('body.overlay') {
-          var windowHeight = $('body.overlay').height();
-        }
-        else {
-          var windowHeight = $(window).height();
-        }
-        console.log('Window height is ' + windowHeight);
-
-        $('body.overlay').scroll(function(){ // scroll event 
-          var windowTop = $('body.overlay').scrollTop(); // returns number  
-          var currentPosition = windowTop + windowHeight;
-  
-          if (stickyTop > currentPosition) {
-            $('.pane-profile2-form-buttons').css({ position: 'fixed', bottom: 0, left: 0, right: 0 });
-          }
-          else {
-            $('.pane-profile2-form-buttons').css('position','static');
-          }
-        });
+        var windowHeight = $(window).height();
   
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
