@@ -273,3 +273,25 @@ function full_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
 }
 
+/**
+ * Override the addressfield container for the Driver's License State.
+ */
+function full_rubik_addressfield_container($variables) {
+  dpm($variables);
+  $element = $variables['element'];
+  $element['#children'] = trim($element['#children']);
+  // Remove the autocomplete attribute because the W3C validator complains.
+  // It's only used on forms anyway.
+  unset($element['#attributes']['autocomplete']);
+
+  if (strlen($element['#children']) > 0) {
+    $output = '<' . $element['#tag'] . drupal_attributes($element['#attributes']) . '>';
+    $output .= $element['#children'];
+    $output .= '</' . $element['#tag'] . ">";
+    return $output;
+  }
+  else {
+    return '';
+  }
+}
+
