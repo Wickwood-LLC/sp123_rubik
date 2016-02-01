@@ -280,9 +280,9 @@ function full_rubik_addressfield_container($variables) {
   dpm($variables);
 
   if ($variables['element']['#id'] == 'edit-profile-bwma-client-field-driver-s-license-und-0-field-driver-s-license-state-und-0-locality-block') {
-    $variables['element']['locality']['#access'] = FALSE;
+    unset($variables['element']['locality']);
   }
-  
+
   $element = $variables['element'];
   $element['#children'] = trim($element['#children']);
   // Remove the autocomplete attribute because the W3C validator complains.
