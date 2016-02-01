@@ -25,7 +25,7 @@
         }
         console.log('Window height is ' + windowHeight);
 
-        $('.overlay').scroll(function(){ // scroll event 
+        $('body.overlay').scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
           var currentPosition = windowTop + windowHeight;
   
