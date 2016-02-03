@@ -1261,11 +1261,9 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user .field-collection-view {
   padding-top: 0; }
 
-.page-user-view .pane-profile2-field-source {
-  min-width: 250px; }
-  .page-user-view .pane-profile2-field-source .field-label {
-    min-width: 0; }
-.page-user-view .pane-profile2-field-source-date {
+.page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source {
+  float: none; }
+.page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source-date {
   display: block; }
 .page-user-view .field-name-field-loans .node-loan,
 .page-user-view .field-name-field-loans .boxed {

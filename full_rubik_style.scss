@@ -1551,12 +1551,12 @@ tr.ief-row-entity .ief-entity-operations {
 }
 
 .page-user-view {
-  .pane-profile2-field-source {
-    min-width: 250px;
-
-    .field-label { min-width: 0; }
+  .client-acquisition {
+    .col-md-8 {
+      .pane-profile2-field-source { float: none; }
+      .pane-profile2-field-source-date { display: block; }
+    }
   }
-  .pane-profile2-field-source-date { display: block; }
 
   .field-name-field-loans {
     .node-loan,
