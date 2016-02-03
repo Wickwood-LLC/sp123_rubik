@@ -1553,8 +1553,15 @@ tr.ief-row-entity .ief-entity-operations {
 .page-user-view {
   .client-acquisition {
     .col-md-8 {
-      .pane-profile2-field-source { float: none; }
+      .pane-profile2-field-source { 
+        float: none; 
+        margin-right: 0;
+      }
       .pane-profile2-field-source-date { display: block; }
+      .field-label {
+        width: 20%;
+        min-width: 0;
+      }
     }
   }
 
