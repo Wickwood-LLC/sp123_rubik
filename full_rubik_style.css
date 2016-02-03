@@ -1261,6 +1261,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user .field-collection-view {
   padding-top: 0; }
 
+.page-user-view .pane-additional-identifying-informati .clearfix::after {
+  content: ''; }
 .page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source {
   float: none;
   margin-right: 0; }

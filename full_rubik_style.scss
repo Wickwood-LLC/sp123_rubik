@@ -1551,6 +1551,11 @@ tr.ief-row-entity .ief-entity-operations {
 }
 
 .page-user-view {
+  .pane-additional-identifying-informati {
+    .clearfix::after {
+      content: '';
+    }
+  }
   .client-acquisition {
     .col-md-8 {
       .pane-profile2-field-source { 
