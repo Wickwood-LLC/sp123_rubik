@@ -1053,6 +1053,11 @@ ul.field-collection-view-links {
     }
   }
 
+  .field-name-field-driver-s-license {
+    label { width: 175px; }
+    input { width: auto;  }
+  }
+
   .field-name-field-loans .ief-form {
     * {
       box-sizing: border-box;
