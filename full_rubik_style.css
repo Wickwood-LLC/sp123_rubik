@@ -1479,4 +1479,35 @@ form .tabs {
 #edit-timezone select#edit-timezone--2 {
   width: 100%; }
 
+#user-login .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #user-login .form-item label {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 40px;
+        -ms-flex: 1 40px;
+            flex: 1 40px; }
+  #user-login .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
+        -ms-flex: 1 auto;
+            flex: 1 auto; }
+  #user-login .form-item .description {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+            flex: 0 auto; }
+  #user-login .form-item .g-recaptcha {
+    display: table;
+    margin: 0 auto; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */

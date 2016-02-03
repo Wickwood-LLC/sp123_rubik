@@ -1800,3 +1800,19 @@ form .tabs {
 #edit-timezone select#edit-timezone--2 {
   width: 100%;
 }
+
+#user-login {
+  .form-item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    label { flex: 1 40px; }
+    input { flex: 1 auto; }
+    .description { flex: 0 auto; }
+    .g-recaptcha {
+      display: table;
+      margin: 0 auto;
+    }
+  }
+}
