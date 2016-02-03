@@ -1569,6 +1569,10 @@ tr.ief-row-entity .ief-entity-operations {
     .field { 
       float: none;
       margin-right: 0;
+
+      .field-label {
+        min-width: 10%;
+      }
     }
     .profile2-bwma-staff h2 a { display: none; }
   }
