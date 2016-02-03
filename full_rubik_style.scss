@@ -1565,6 +1565,13 @@ tr.ief-row-entity .ief-entity-operations {
     }
   }
 
+  .client-notes {
+    .field { 
+      float: none;
+      margin-right: 0;
+    }
+  }
+
   .field-name-field-loans {
     .node-loan,
     .boxed {

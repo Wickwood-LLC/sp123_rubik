@@ -1269,6 +1269,9 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .client-acquisition .col-md-8 .field-label {
   width: 20%;
   min-width: 0; }
+.page-user-view .client-notes .field {
+  float: none;
+  margin-right: 0; }
 .page-user-view .field-name-field-loans .node-loan,
 .page-user-view .field-name-field-loans .boxed {
   position: relative; }
