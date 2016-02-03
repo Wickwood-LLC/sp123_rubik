@@ -733,26 +733,20 @@ div.panel-pane div.node.boxed {
     content: ':\00a0'; }
 
 .page-user-view .field-name-field-phone-type,
-.page-user-view .pane-user-field-identification,
 .page-user-view .field-name-field-identification,
 .page-user .field-name-field-phone-type,
-.page-user .pane-user-field-identification,
 .page-user .field-name-field-identification {
   display: inline-block;
   font-weight: bold;
   min-width: 44%; }
   .page-user-view .field-name-field-phone-type .field-items,
-  .page-user-view .pane-user-field-identification .field-items,
   .page-user-view .field-name-field-identification .field-items,
   .page-user .field-name-field-phone-type .field-items,
-  .page-user .pane-user-field-identification .field-items,
   .page-user .field-name-field-identification .field-items {
     display: inline-block; }
   .page-user-view .field-name-field-phone-type:after,
-  .page-user-view .pane-user-field-identification:after,
   .page-user-view .field-name-field-identification:after,
   .page-user .field-name-field-phone-type:after,
-  .page-user .pane-user-field-identification:after,
   .page-user .field-name-field-identification:after {
     content: ':\00a0'; }
 
@@ -865,7 +859,7 @@ ul.field-collection-view-links {
   width: 140px; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit input {
   width: calc(100% - 150px);
-  min-width: 300px; }
+  min-width: 200px; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license label {
   width: 175px; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license input {
