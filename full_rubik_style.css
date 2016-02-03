@@ -201,7 +201,8 @@ div#toolbar div.toolbar-shortcuts ul {
   width: 44%; }
 
 .pane-user-field-identification {
-  width: 44%; }
+  width: 44%;
+  float: left; }
 
 table.views-table {
   border: 1px solid #DDDDDD !important; }
