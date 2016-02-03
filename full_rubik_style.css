@@ -1506,8 +1506,8 @@ form .tabs {
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
-  #user-login .form-item .g-recaptcha > div > div {
-    display: table;
-    margin: 0 auto; }
+#user-login .g-recaptcha > div > div {
+  display: table;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
