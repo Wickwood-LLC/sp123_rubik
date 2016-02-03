@@ -1492,21 +1492,21 @@ form .tabs {
       -ms-flex-align: center;
           align-items: center; }
   #user-login .form-item label {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 40px;
-        -ms-flex: 1 40px;
-            flex: 1 40px; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 100px;
+        -ms-flex: 0 100px;
+            flex: 0 100px; }
   #user-login .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+            flex: 1 0; }
+  #user-login .form-item .description {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
-  #user-login .form-item .description {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-        -ms-flex: 0 auto;
-            flex: 0 auto; }
-  #user-login .form-item .g-recaptcha {
+  #user-login .form-item .g-recaptcha > div > div {
     display: table;
     margin: 0 auto; }
 
