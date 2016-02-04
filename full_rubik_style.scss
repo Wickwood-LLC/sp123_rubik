@@ -1510,7 +1510,10 @@ table#field-notes-values {
 
   .group-user {
     label {
-      width: 20%;
+      width: 100px;
+    }
+    input {
+      width: calc(100% - 100px);
     }
     .field-name-field-birthday-notes,
     .field-name-field-related-clients {

@@ -1238,7 +1238,9 @@ table#field-notes-values {
      -moz-column-count: 2;
           column-count: 2; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label {
-  width: 20%; }
+  width: 100px; }
+.page-user-edit:not(.page-user-edit-bwma-client) .group-user input {
+  width: calc(100% - 100px); }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-birthday-notes label,
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients label {
   width: auto; }
