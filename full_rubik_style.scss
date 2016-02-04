@@ -1583,10 +1583,21 @@ tr.ief-row-entity .ief-entity-operations {
       margin-right: 0;
 
       .field-label {
-        min-width: 10%;
+        min-width: 75px;
       }
     }
+    .field-name-field-date {
+      width: 50%;
+      min-width: 165px;
+      float: left;
+    }
+    .field-name-field-staff {
+      width: 50%;
+      min-width: 135px;
+      float: left;
+    }
     .profile2-bwma-staff h2 a { display: none; }
+    .field-name-field-note { clear: both; }
   }
 
   .field-name-field-loans {
