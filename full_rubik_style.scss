@@ -1512,8 +1512,8 @@ table#field-notes-values {
     label {
       width: 100px;
     }
-    input {
-      width: calc(100% - 100px);
+    input[type="text"] {
+      width: calc(100% - 110px);
     }
     .field-name-field-birthday-notes,
     .field-name-field-related-clients {
