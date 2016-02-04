@@ -1550,25 +1550,25 @@ tr.ief-row-entity .ief-entity-operations {
   }
 }
 
-.client-acquisition,
-.consultant-acquisition {
-  .col-md-8 {
-    .pane-profile2-field-source { 
-      float: none; 
-      margin-right: 0;
-    }
-    .pane-profile2-field-source-date { display: block; }
-    .field-label {
-      width: 20%;
-      min-width: 0;
-    }
-  }
-}
-
 .page-user-view {
   .pane-additional-identifying-informati {
     .clearfix::after {
       content: '';
+    }
+  }
+
+  .client-acquisition,
+  .consultant-acquisition {
+    .col-md-8 {
+      .pane-profile2-field-source { 
+        float: none; 
+        margin-right: 0;
+      }
+      .pane-profile2-field-source-date { display: block; }
+      .field-label {
+        width: 100px;
+        min-width: 0;
+      }
     }
   }
 
