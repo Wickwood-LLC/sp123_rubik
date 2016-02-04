@@ -998,8 +998,8 @@ ul.field-collection-view-links {
         min-width: 75px;
       }
       .field {
-        width: auto;
-        display: inline-block;
+        width: 100%;
+        display: inline-flex;
       }
     }
   }
