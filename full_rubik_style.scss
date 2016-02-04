@@ -1392,12 +1392,6 @@ table#field-notes-values {
 
 .page-user-edit {
   table.field-multiple-table {
-    tr {
-      border-width: 0 1px 0 1px;
-      border-style: solid;
-      border-color: #cccccc;
-    }
-
     tr.draggable {
       display: flex;
 
@@ -1416,6 +1410,12 @@ table#field-notes-values {
     }
     .form-radios {
       column-count: 2;
+    }
+  }
+
+  .field-name-field-name-notes {
+    .text-format-wrapper .filter-wrapper {
+      border: 0;
     }
   }
 

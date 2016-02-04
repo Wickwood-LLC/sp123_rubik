@@ -1163,10 +1163,6 @@ table#field-notes-values {
   display: table;
   width: 100%; }
 
-.page-user-edit table.field-multiple-table tr {
-  border-width: 0 1px 0 1px;
-  border-style: solid;
-  border-color: #cccccc; }
 .page-user-edit table.field-multiple-table tr.draggable {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1188,6 +1184,8 @@ table#field-notes-values {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
+.page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
+  border: 0; }
 .page-user-edit .field-name-field-website .link-field-title .description {
   display: none; }
 .page-user-edit .field-name-field-website .link-field-column {
