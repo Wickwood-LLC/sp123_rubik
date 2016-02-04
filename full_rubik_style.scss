@@ -1420,7 +1420,8 @@ table#field-notes-values {
   }
 
   .field-name-field-website {
-    table, thead, tbody, tr, th { display: block; }
+    table { display: block !important; }
+    thead, tbody, tr, th { display: block; }
     .link-field-title .description {
       display: none;
     }
