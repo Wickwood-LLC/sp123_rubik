@@ -1180,12 +1180,14 @@ table#field-notes-values {
             flex: 100%; }
 .page-user-edit .field-name-field-bwma-programs-enrolled label {
   width: 100% !important; }
-.page-user-edit .field-name-field-bwma-programs-enrolled .form-radios {
+.page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
   border: 0; }
+.page-user-edit .field-name-field-website table, .page-user-edit .field-name-field-website thead, .page-user-edit .field-name-field-website tbody, .page-user-edit .field-name-field-website tr, .page-user-edit .field-name-field-website th {
+  display: block; }
 .page-user-edit .field-name-field-website .link-field-title .description {
   display: none; }
 .page-user-edit .field-name-field-website .link-field-column {

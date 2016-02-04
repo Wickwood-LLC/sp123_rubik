@@ -1408,7 +1408,7 @@ table#field-notes-values {
     label {
       width: 100% !important;
     }
-    .form-radios {
+    .form-checkboxes {
       column-count: 2;
     }
   }
@@ -1420,6 +1420,7 @@ table#field-notes-values {
   }
 
   .field-name-field-website {
+    table, thead, tbody, tr, th { display: block; }
     .link-field-title .description {
       display: none;
     }
