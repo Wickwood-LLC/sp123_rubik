@@ -987,15 +987,16 @@ ul.field-collection-view-links {
 }
 
 .page-user-view .field-name-field-thank-you-card-and-referra {
-  &.field-label-inline .field-items {
-    width: 100%;
-
-    .field-label {
-      width: auto;
-      min-width: 75px;
-    }
-    .field-items {
-      width: auto;
+  &.field-label-inline {
+    &>.field-label { float: none; }
+    &>.field-items {
+      width: 100%;
+      float: none;
+  
+      .field-label {
+        width: auto;
+        min-width: 75px;
+      }
     }
   }
 }
@@ -1602,8 +1603,8 @@ tr.ief-row-entity .ief-entity-operations {
   .field-label-inline {
     .field-label,
     .field-items {
-      // width: auto;
-      // min-width: 44%;
+      width: auto;
+      min-width: 44%;
     }
   }
 

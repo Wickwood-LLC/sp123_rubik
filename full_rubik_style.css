@@ -814,13 +814,14 @@ ul.field-collection-view-links {
     margin-left: 0;
     display: inline-block; }
 
-.page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline .field-items {
-  width: 100%; }
-  .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline .field-items .field-label {
+.page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-label {
+  float: none; }
+.page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items {
+  width: 100%;
+  float: none; }
+  .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items .field-label {
     width: auto;
     min-width: 75px; }
-  .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline .field-items .field-items {
-    width: auto; }
 
 .field-name-field-total-deferred-enrollment- .field-items {
   margin-left: 44%; }
@@ -1291,6 +1292,10 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     padding: 0 1em;
     background: white;
     top: -10px; }
+.page-user-view .field-label-inline .field-label,
+.page-user-view .field-label-inline .field-items {
+  width: auto;
+  min-width: 44%; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
   min-width: 200px; }
 
