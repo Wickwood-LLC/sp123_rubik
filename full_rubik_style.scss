@@ -1550,10 +1550,6 @@ tr.ief-row-entity .ief-entity-operations {
   }
 }
 
-.pane-bwma-consultant-data {
-  .field-label { min-width: 200px; }
-}
-
 .client-acquisition,
 .consultant-acquisition {
   .col-md-8 {
@@ -1609,6 +1605,10 @@ tr.ief-row-entity .ief-entity-operations {
       width: auto;
       min-width: 44%;
     }
+  }
+
+  .pane-bwma-consultant-data {
+    .field .field-label { min-width: 200px; }
   }
 }
 
