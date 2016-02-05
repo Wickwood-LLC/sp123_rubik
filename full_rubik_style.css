@@ -1251,7 +1251,8 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients input {
   width: 100%; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein legend {
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  padding: 5px 5px 5px 10px; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein .field-name-field-identification:after {
   content: ''; }
 .page-user-edit:not(.page-user-edit-bwma-client) td {
