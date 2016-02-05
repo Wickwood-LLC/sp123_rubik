@@ -248,6 +248,7 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
     $form['field_phone']['und']['add_more']['#value'] = 'Add another phone number';
     $form['field_website']['und']['add_more']['#value'] = 'Add another website';
     $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
+    $form['field_related_clients']['und']['add_more']['#value'] = 'Add another Related Client';
     $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . ' ' . variable_get('title_description');
   }
   if($form_id == 'profile2_edit_bwma_client_form'){
