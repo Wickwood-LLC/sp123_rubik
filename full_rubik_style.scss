@@ -1533,6 +1533,15 @@ table#field-notes-values {
     }
   }
 
+  .group-ssn-ein {
+    legend {
+      background-color: #F6F6F6;
+    }
+    .field-name-field-identification:after {
+      content: '';
+    }
+  }
+
   td {
     position: relative;
   }

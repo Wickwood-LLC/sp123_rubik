@@ -1250,6 +1250,10 @@ table#field-notes-values {
   width: auto; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients input {
   width: 100%; }
+.page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein legend {
+  background-color: #F6F6F6; }
+.page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein .field-name-field-identification:after {
+  content: ''; }
 .page-user-edit:not(.page-user-edit-bwma-client) td {
   position: relative; }
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete) {
