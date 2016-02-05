@@ -1419,6 +1419,10 @@ table#field-notes-values {
     }
   }
 
+  .field-name-field-user-about {
+    label { display: none; }
+  }
+
   .field-name-field-website {
     table { display: block !important; }
     thead, tbody, tr, th { display: block; }

@@ -1186,6 +1186,8 @@ table#field-notes-values {
           column-count: 2; }
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
   border: 0; }
+.page-user-edit .field-name-field-user-about label {
+  display: none; }
 .page-user-edit .field-name-field-website table {
   display: block !important; }
 .page-user-edit .field-name-field-website thead, .page-user-edit .field-name-field-website tbody, .page-user-edit .field-name-field-website tr, .page-user-edit .field-name-field-website th {
