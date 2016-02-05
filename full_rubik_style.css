@@ -1246,6 +1246,8 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-birthday-notes label,
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients label {
   width: auto; }
+.page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients input {
+  width: 100%; }
 .page-user-edit:not(.page-user-edit-bwma-client) td {
   position: relative; }
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete) {
