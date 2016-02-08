@@ -1381,8 +1381,10 @@ table#field-notes-values {
 
 .page-user-edit {
   table.field-multiple-table {
-    tr.draggable {
+    tr {
       display: flex;
+      border: 1px solid #CCCCCC;
+      border-width: 0 1px 0 1px;
 
       td.field-multiple-drag {
         order: 1;
