@@ -1210,9 +1210,9 @@ ul.field-collection-view-links {
     }
 
     .field-name-field-thank-you-card-and-referra {
-      .field-name-field-date-sent .form-item {
+      .field-name-field-date-sent .field-type-datetime.field-widget-date-popup .form-item .form-item {
         display: block; 
-        
+
         label {
           width: auto;
         }
