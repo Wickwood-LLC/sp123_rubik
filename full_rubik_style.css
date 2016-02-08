@@ -1175,6 +1175,15 @@ table#field-notes-values {
     -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%; }
+.page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
+  display: block; }
+  .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
+    width: auto; }
+  .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input {
+    max-width: 100px;
+    display: inline-block; }
+.page-user-edit .field-name-field-thank-you-card-and-referra .field-name-field-note {
+  clear: left; }
 .page-user-edit .field-name-field-bwma-programs-enrolled label {
   width: 100% !important; }
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes {
@@ -1291,19 +1300,6 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .consultant-acquisition .col-md-8 .field-label {
   width: 200px;
   min-width: 0; }
-.page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item,
-.page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
-  display: block; }
-  .page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label,
-  .page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
-    width: auto; }
-  .page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input,
-  .page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input {
-    max-width: 100px;
-    display: inline-block; }
-.page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-name-field-note,
-.page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-name-field-note {
-  clear: left; }
 .page-user-view .client-notes .field {
   float: none;
   margin-right: 0; }

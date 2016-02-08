@@ -1393,6 +1393,23 @@ table#field-notes-values {
     }
   }
 
+  .field-name-field-thank-you-card-and-referra {
+    .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
+      display: block; 
+
+      label {
+        width: auto;
+      }
+      input {
+        max-width: 100px;
+        display: inline-block;
+      }
+    }
+    .field-name-field-note {
+      clear: left;
+    }
+  }
+
   .field-name-field-bwma-programs-enrolled {
     label {
       width: 100% !important;
@@ -1586,22 +1603,6 @@ tr.ief-row-entity .ief-entity-operations {
       .field-label {
         width: 200px;
         min-width: 0;
-      }
-        .field-name-field-thank-you-card-and-referra {
-        .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
-          display: block; 
-
-          label {
-            width: auto;
-          }
-          input {
-            max-width: 100px;
-            display: inline-block;
-          }
-        }
-        .field-name-field-note {
-          clear: left;
-        }
       }
     }
   }
