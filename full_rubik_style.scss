@@ -1325,31 +1325,12 @@ ul.field-collection-view-links {
 }
 .pane-profile2-field-source-date {
   display: inline-block;
-
-  .field-type-datetime.field-widget-date-popup .form-item {
-    display: flex;
-    align-items: center;
-
-    label, input, .description {
-      flex: 0 0 auto;
-    }
-    label {
-      margin-right: 5px;
-    }
-    input {
-      width: 8em;
-      text-align: center;
-    }
-  }
 }
 .field-type-datetime.field-widget-date-popup {
 
   .form-item {
-    display: flex;
-    align-items: center;
-
-    label, input, .description {
-      flex: 0 0 auto;
+    label, input {
+      display: inline-block;
     }
     label {
       margin-right: 5px;
