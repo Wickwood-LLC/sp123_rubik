@@ -985,15 +985,6 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
-  display: block; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
-    width: auto; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input {
-    max-width: 100px;
-    display: inline-block; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-thank-you-card-and-referra .field-name-field-note {
-  clear: left; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance label {
   width: 287px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance input {
@@ -1300,6 +1291,19 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .consultant-acquisition .col-md-8 .field-label {
   width: 200px;
   min-width: 0; }
+.page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item,
+.page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
+  display: block; }
+  .page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label,
+  .page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
+    width: auto; }
+  .page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input,
+  .page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input {
+    max-width: 100px;
+    display: inline-block; }
+.page-user-view .client-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-name-field-note,
+.page-user-view .consultant-acquisition .col-md-8 .field-name-field-thank-you-card-and-referra .field-name-field-note {
+  clear: left; }
 .page-user-view .client-notes .field {
   float: none;
   margin-right: 0; }
