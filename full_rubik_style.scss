@@ -1618,7 +1618,6 @@ tr.ief-row-entity .ief-entity-operations {
 
   .client-notes {
     .field { 
-      float: none;
       margin-right: 0;
 
       .field-label {
@@ -1630,7 +1629,7 @@ tr.ief-row-entity .ief-entity-operations {
       min-width: 165px;
       float: left;
     }
-    .field-name-field-staff {
+    .field-name-field-staff-user {
       width: 50%;
       min-width: 135px;
       float: left;

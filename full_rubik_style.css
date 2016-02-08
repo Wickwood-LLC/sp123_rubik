@@ -1307,7 +1307,6 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   width: 200px;
   min-width: 0; }
 .page-user-view .client-notes .field {
-  float: none;
   margin-right: 0; }
   .page-user-view .client-notes .field .field-label {
     min-width: 75px; }
@@ -1315,7 +1314,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   width: 50%;
   min-width: 165px;
   float: left; }
-.page-user-view .client-notes .field-name-field-staff {
+.page-user-view .client-notes .field-name-field-staff-user {
   width: 50%;
   min-width: 135px;
   float: left; }
