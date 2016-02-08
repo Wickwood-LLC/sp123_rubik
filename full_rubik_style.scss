@@ -1723,13 +1723,26 @@ td:not([class]) {
   }
 }
 
-.field-name-field-direct-mail-lead-tracking- input{
-  width: auto;
-}
+.field-name-field-referral-client,
+.field-name-field-referral-consultant,
+.field-name-field-referral-partner,
+.field-name-field-direct-mail-lead-tracking- {
+  .form-item {
+    display: flex;
+    align-items: center;
 
-.field-name-field-address {
-  .state.form-select {
-    width: 100%;
+    label, input {
+      flex: 0 0 auto;
+    }
+    label {
+      margin-right: 5px;
+    }
+  }
+
+  .field-name-field-address {
+    .state.form-select {
+      width: 100%;
+    }
   }
 }
 
