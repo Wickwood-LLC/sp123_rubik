@@ -814,6 +814,10 @@ ul.field-collection-view-links {
   width: 175px; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license input {
   width: auto; }
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-expiration-date .form-item {
+  display: block; }
+  .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-expiration-date .form-item label {
+    margin-right: 0; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
