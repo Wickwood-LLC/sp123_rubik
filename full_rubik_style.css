@@ -150,21 +150,13 @@ div#toolbar div.toolbar-shortcuts ul {
 
 .views-exposed-form {
   margin-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
   .views-exposed-form legend {
     position: absolute; }
   .views-exposed-form .views-exposed-widgets {
     padding: 28px 10px 10px 10px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
+    flex-flow: row wrap; }
   .views-exposed-form .actions {
     display: inline-block; }
     .views-exposed-form .actions .views-exposed-widget {
@@ -181,9 +173,7 @@ div#toolbar div.toolbar-shortcuts ul {
   position: relative; }
   .view-clients .views-field-edit-node a,
   .view-consultants .views-field-edit-node a {
-    -webkit-transform: rotate(-90deg) translateY(-10px);
-        -ms-transform: rotate(-90deg) translateY(-10px);
-            transform: rotate(-90deg) translateY(-10px);
+    transform: rotate(-90deg) translateY(-10px);
     text-transform: capitalize;
     position: absolute;
     top: 50%;
@@ -264,9 +254,6 @@ ul.panels-ipe-linkbar li {
 
 .cke_inner .cke_top {
   overflow: visible;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
 
 .cke_toolbar a.cke_button:hover {
@@ -339,14 +326,8 @@ ul.primary-tabs.links > li a {
   float: left; }
 
 .views-mini-pager {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 .views-content .item-list ul li {
   border-bottom: 0px;
@@ -356,32 +337,21 @@ ul.primary-tabs.links > li a {
   margin-left: 0; }
 
 #mini-panel-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%; }
   #mini-panel-header .panel-panel {
     width: auto; }
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0;
-        -ms-flex: 1 0;
-            flex: 1 0; }
+    flex: 1 0; }
   #mini-panel-header .panel-col-first {
     text-align: left; }
   #mini-panel-header .panel-col-last {
-    -webkit-align-self: baseline;
-        -ms-flex-item-align: baseline;
-            align-self: baseline; }
+    align-self: baseline; }
     #mini-panel-header .panel-col-last .menu-name-user-menu ul {
       float: right; }
   #mini-panel-header .panel-col {
-    -webkit-box-flex: 2;
-    -webkit-flex: 2 0;
-        -ms-flex: 2 0;
-            flex: 2 0;
+    flex: 2 0;
     text-align: center; }
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
@@ -433,14 +403,8 @@ ul.primary-tabs.links > li a {
   border: 1px solid #ddd;
   padding: 5px;
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   #modal-content .option-text-aligner .form-item {
     float: none;
     border: 0; }
@@ -527,6 +491,7 @@ ul.primary-tabs.links > li a {
 .ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
 #modalContent div.ctools-modal-content a.close {
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   background: #444 url(images/buttons.png) -4000px 50% no-repeat;
   display: block;
@@ -564,21 +529,10 @@ ul.primary-tabs.links > li a {
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
   body.maintenance-page #page {
@@ -586,14 +540,8 @@ body.maintenance-page {
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 100%;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex: 1 1 100%;
+    justify-content: center;
     display: inherit; }
   body.maintenance-page #header .section {
     text-align: center; }
@@ -645,21 +593,12 @@ body.maintenance-page {
   text-align: center; }
   .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex; }
     .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
 .node-type-press-release.panelized-node .field-name-field-upload-document {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 .node-type-press-release.panelized-node .field-name-field-featured-image {
   width: 50%; }
 .node-type-press-release.panelized-node .pane-node-title h1 {
@@ -824,9 +763,6 @@ ul.field-collection-view-links {
     min-width: 75px; }
   .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items .field {
     width: 100%;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex; }
 
 .field-name-field-total-deferred-enrollment- .field-items {
@@ -940,40 +876,19 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-amount input {
   width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item label {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 60px;
-        -ms-flex: 0 0 60px;
-            flex: 0 0 60px; }
+    flex: 0 0 60px; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item input {
-    -webkit-box-flex: 1;
-    -webkit-flex: auto;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item select {
     width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item label {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 70px;
-        -ms-flex: 0 0 70px;
-            flex: 0 0 70px; }
+    flex: 0 0 70px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-monthly-payment input,
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee input {
@@ -1044,39 +959,21 @@ ul.field-collection-view-links {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data .form-item input {
     width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 114px;
-        -ms-flex: 0 0 114px;
-            flex: 0 0 114px; }
+    flex: 0 0 114px; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
-    -webkit-box-flex: 1;
-    -webkit-flex: auto;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
   width: 110px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders input {
   width: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 184px;
-        -ms-flex: 0 0 184px;
-            flex: 0 0 184px; }
+    flex: 0 0 184px; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
-    -webkit-box-flex: 1;
-    -webkit-flex: auto;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb label {
   width: 180px; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb input {
@@ -1101,19 +998,11 @@ ul.field-collection-view-links {
 .pane-profile2-field-source-date {
   display: inline-block; }
   .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item .description {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 auto;
-          -ms-flex: 0 0 auto;
-              flex: 0 0 auto; }
+    align-items: center; }
+    .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
+      flex: 0 0 auto;
+      display: inline-block; }
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label {
       margin-right: 5px; }
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
@@ -1121,19 +1010,11 @@ ul.field-collection-view-links {
       text-align: center; }
 
 .field-type-datetime.field-widget-date-popup .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input, .field-type-datetime.field-widget-date-popup .form-item .description {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto; }
+  align-items: center; }
+  .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input {
+    flex: 0 0 auto;
+    display: inline-block; }
   .field-type-datetime.field-widget-date-popup .form-item label {
     margin-right: 5px; }
   .field-type-datetime.field-widget-date-popup .form-item input {
@@ -1162,26 +1043,15 @@ table#field-notes-values {
   width: 100%; }
 
 .page-user-edit table.field-multiple-table tr.draggable {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit table.field-multiple-table tr.draggable td.field-multiple-drag {
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1; }
+    order: 1; }
   .page-user-edit table.field-multiple-table tr.draggable td:not([class]) {
-    -webkit-box-flex: 100%;
-    -webkit-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%; }
+    flex: 100%; }
 .page-user-edit .field-name-field-bwma-programs-enrolled label {
   width: 100% !important; }
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  column-count: 2; }
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
   border: 0; }
 .page-user-edit .field-name-field-user-about label {
@@ -1222,9 +1092,7 @@ table#field-notes-values {
   .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-related-clients .views-exposed-form .views-exposed-widgets {
     padding: 0 10px; }
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  column-count: 2; }
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios {
   display: inline-block; }
   .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios .form-item {
@@ -1236,9 +1104,7 @@ table#field-notes-values {
     display: inline-block;
     width: auto; }
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-roles .form-checkboxes {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  column-count: 2; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label {
   width: 100px; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user input[type="text"] {
@@ -1257,9 +1123,7 @@ table#field-notes-values {
   position: relative; }
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete) {
   position: absolute;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   right: -50px;
   top: 50%; }
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table {
@@ -1270,9 +1134,7 @@ table#field-notes-values {
 
 tr.ief-row-entity .ief-entity-operations input.button-remove {
   position: relative;
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
+  transform: none;
   right: 0;
   top: 50%; }
 
@@ -1328,15 +1190,9 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 
 /* Staff Edit Styles */
 .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane {
-    -webkit-box-flex: 1;
-    -webkit-flex: auto;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane label {
       width: auto; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
@@ -1368,9 +1224,7 @@ table[id*='field-notes-values'] > thead label {
     position: absolute;
     right: -50px;
     top: 50%;
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
+    transform: rotate(-90deg); }
 .field-name-field-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }
@@ -1381,9 +1235,7 @@ td:not([class]) {
     position: absolute;
     right: -50px;
     top: 50%;
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
+    transform: rotate(-90deg); }
 
 .field-name-field-direct-mail-lead-tracking- input {
   width: auto; }
@@ -1392,15 +1244,9 @@ td:not([class]) {
   width: 100%; }
 
 .pane-additional-identifying-info-edit .form-item {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   width: 100%;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .pane-additional-identifying-info-edit .form-item label {
     width: 40%; }
 
@@ -1417,9 +1263,6 @@ ul#views-display-menu-tabs {
   width: auto !important; }
 
 .pane-node-form-path .pane-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
 
 select.form-select {
@@ -1478,12 +1321,15 @@ form .tabs {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
   /* Old browsers */
+  background: -moz-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7db9e8), color-stop(100%, #1e5799));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
   /* IE10+ */
   background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
   /* W3C */
@@ -1493,8 +1339,7 @@ form .tabs {
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
 .ui-datepicker .ui-icon {
-  -webkit-filter: invert(1);
-          filter: invert(1); }
+  filter: invert(1); }
 
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
@@ -1508,12 +1353,15 @@ form .tabs {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
   background: #666666;
   /* Old browsers */
+  background: -moz-linear-gradient(top, #666666 0%, #333333 100%);
   /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #666666), color-stop(100%, #333333));
   /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #666666 0%, #333333 100%);
   /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #666666 0%, #333333 100%);
   /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #666666 0%, #333333 100%);
   /* IE10+ */
   background: linear-gradient(to bottom, #666666 0%, #333333 100%);
   /* W3C */
@@ -1540,34 +1388,15 @@ form .tabs {
   width: 100%; }
 
 #user-login .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  flex-flow: row wrap;
+  align-items: center; }
   #user-login .form-item label {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 100px;
-        -ms-flex: 0 100px;
-            flex: 0 100px; }
+    flex: 0 100px; }
   #user-login .form-item input {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0;
-        -ms-flex: 1 0;
-            flex: 1 0; }
+    flex: 1 0; }
   #user-login .form-item .description {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 auto;
-        -ms-flex: 1 auto;
-            flex: 1 auto; }
+    flex: 1 auto; }
 #user-login .g-recaptcha > div > div {
   display: table;
   margin: 0 auto; }
-
-/*# sourceMappingURL=full_rubik_style.css.map */
