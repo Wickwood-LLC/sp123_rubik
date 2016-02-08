@@ -1731,11 +1731,12 @@ td:not([class]) {
     display: flex;
     align-items: center;
 
-    label, input {
-      flex: 0 0 auto;
-    }
     label {
+      flex: 0 0 auto;
       margin-right: 5px;
+    }
+    input {
+      flex: 0 auto;
     }
   }
 

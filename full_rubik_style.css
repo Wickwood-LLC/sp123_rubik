@@ -1243,19 +1243,17 @@ td:not([class]) {
 .field-name-field-direct-mail-lead-tracking- .form-item {
   display: flex;
   align-items: center; }
-  .field-name-field-referral-client .form-item label, .field-name-field-referral-client .form-item input,
-  .field-name-field-referral-consultant .form-item label,
-  .field-name-field-referral-consultant .form-item input,
-  .field-name-field-referral-partner .form-item label,
-  .field-name-field-referral-partner .form-item input,
-  .field-name-field-direct-mail-lead-tracking- .form-item label,
-  .field-name-field-direct-mail-lead-tracking- .form-item input {
-    flex: 0 0 auto; }
   .field-name-field-referral-client .form-item label,
   .field-name-field-referral-consultant .form-item label,
   .field-name-field-referral-partner .form-item label,
   .field-name-field-direct-mail-lead-tracking- .form-item label {
+    flex: 0 0 auto;
     margin-right: 5px; }
+  .field-name-field-referral-client .form-item input,
+  .field-name-field-referral-consultant .form-item input,
+  .field-name-field-referral-partner .form-item input,
+  .field-name-field-direct-mail-lead-tracking- .form-item input {
+    flex: 0 auto; }
 .field-name-field-referral-client .field-name-field-address .state.form-select,
 .field-name-field-referral-consultant .field-name-field-address .state.form-select,
 .field-name-field-referral-partner .field-name-field-address .state.form-select,
