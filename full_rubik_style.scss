@@ -1730,13 +1730,15 @@ td:not([class]) {
   .form-item {
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
 
     label {
       flex: 0 0 auto;
       margin-right: 5px;
     }
     input {
-      flex: 0 auto;
+      flex: 1 0 200px;
     }
   }
 

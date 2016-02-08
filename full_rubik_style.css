@@ -1242,7 +1242,9 @@ td:not([class]) {
 .field-name-field-referral-partner .form-item,
 .field-name-field-direct-mail-lead-tracking- .form-item {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%; }
   .field-name-field-referral-client .form-item label,
   .field-name-field-referral-consultant .form-item label,
   .field-name-field-referral-partner .form-item label,
@@ -1253,7 +1255,7 @@ td:not([class]) {
   .field-name-field-referral-consultant .form-item input,
   .field-name-field-referral-partner .form-item input,
   .field-name-field-direct-mail-lead-tracking- .form-item input {
-    flex: 0 auto; }
+    flex: 1 0 200px; }
 .field-name-field-referral-client .field-name-field-address .state.form-select,
 .field-name-field-referral-consultant .field-name-field-address .state.form-select,
 .field-name-field-referral-partner .field-name-field-address .state.form-select,
