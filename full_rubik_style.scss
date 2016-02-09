@@ -1630,11 +1630,11 @@ tr.ief-row-entity .ief-entity-operations {
       margin-right: 0;
 
       .field-label {
-        min-width: 75px;
+        min-width: 0;
       }
     }
     .field-name-field-date {
-      width: 50%;
+      width: 250px;
       min-width: 165px;
       float: left;
     }

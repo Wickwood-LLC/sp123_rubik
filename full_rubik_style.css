@@ -1318,9 +1318,9 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .client-notes .field {
   margin-right: 0; }
   .page-user-view .client-notes .field .field-label {
-    min-width: 75px; }
+    min-width: 0; }
 .page-user-view .client-notes .field-name-field-date {
-  width: 50%;
+  width: 250px;
   min-width: 165px;
   float: left; }
 .page-user-view .client-notes .field-name-field-staff-user {
