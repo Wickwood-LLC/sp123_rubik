@@ -195,26 +195,24 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-.view-clients,
-.view-consultants {
-  .views-field-edit-node {
-    position: relative;
+.views-field-edit-node {
+  position: relative;
 
-    a {
-      transform: rotate(-90deg) translateY(-10px);
-      text-transform: capitalize;
-      position: absolute;
-      top: 50%;
-      margin-top: -25%;
+  a {
+    transform: rotate(-90deg) translateY(-10px);
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    margin-top: -25%;
 
-      border-radius: 5px;
-      padding: 0 5px 0 5px;
-      color: #fff;
-      background-color: #7bc;
-      text-shadow: #38a 0 1px 0;
-    }
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    color: #fff;
+    background-color: #7bc;
+    text-shadow: #38a 0 1px 0;
   }
 }
+
 .field-multiple-table {
   tr:nth-child(even) {
     background-color: #FAFAFA;
