@@ -196,7 +196,9 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-lenders .views-field-edit-node a {
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
-          transform: rotate(0deg); }
+          transform: rotate(0deg);
+  top: initial;
+  margin-top: initial; }
 
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
