@@ -16,6 +16,7 @@
 
         $(window).on("load resize",function() {           // fire the script on load and resize
           $('.pane-profile2-form-buttons').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
+          $('.pane-profile2-form-buttons').css('width', '100%');      // reset button width
 
           var stickyTop = $('.pane-profile2-form-buttons').offset().top;
           var windowHeight = $(window).height();
