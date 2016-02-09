@@ -193,6 +193,11 @@ div#toolbar div.toolbar-shortcuts ul {
     background-color: #7bc;
     text-shadow: #38a 0 1px 0; }
 
+.view-lenders .views-field-edit-node a {
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg); }
+
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
 

@@ -213,6 +213,10 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+.view-lenders .views-field-edit-node a {
+  transform: rotate(0deg);
+}
+
 .field-multiple-table {
   tr:nth-child(even) {
     background-color: #FAFAFA;
