@@ -747,6 +747,9 @@ div.panel-pane div.node.boxed {
     display: inline-block; }
   .page-user-view .field-name-field-deferred-fee-label:after {
     content: ':\00a0'; }
+.page-user-view .field-name-field-current-lender,
+.page-user-view .field-name-field-current-service-bureau {
+  font-weight: bold; }
 
 .page-user-view .field-name-field-phone-type,
 .page-user-view .field-name-field-identification,
