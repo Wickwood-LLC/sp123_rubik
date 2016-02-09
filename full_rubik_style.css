@@ -174,7 +174,8 @@ div#toolbar div.toolbar-shortcuts ul {
         margin-top: 0; }
 
 .view-content #edit-select {
-  min-width: 200px; }
+  min-width: 200px;
+  float: left; }
 
 .view-clients .views-field-edit-node,
 .view-consultants .views-field-edit-node {
