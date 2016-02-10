@@ -216,7 +216,9 @@ div#toolbar div.toolbar-shortcuts ul {
 
 
 .views-field-edit-node  a,
-a[id*="edit-fields"] {
+a#edit-fields-field-date-widget-type,
+a#edit-fields-field-date-edit,
+a[title="Export instance"] {
   text-transform: capitalize;
   display: inline-block;
   border-radius: 5px;
