@@ -1429,7 +1429,10 @@ table#field-notes-values {
     }
   }
 
-  .field-name-field-bwma-member-id input { width: 8em; }
+  .pane-consultant-enrollment-edit {
+    label { width: 186px; }
+    .field-name-field-bwma-member-id input { width: 8em; }
+  }
 
   .field-name-field-thank-you-card-and-referra {
     .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {

@@ -1209,7 +1209,9 @@ table#field-notes-values {
     -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%; }
-.page-user-edit .field-name-field-bwma-member-id input {
+.page-user-edit .pane-consultant-enrollment-edit label {
+  width: 186px; }
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-bwma-member-id input {
   width: 8em; }
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
   display: block; }
