@@ -200,7 +200,7 @@ div#toolbar div.toolbar-shortcuts ul {
     margin-top: -25%; }
 
 .views-field-edit-node a,
-a[id*="edit-fields"]:not([class*="widget"]),
+a[id*="edit-fields"]:not([title="Change widget type."]),
 a[title="Export instance"] {
   text-transform: capitalize;
   display: inline-block;
