@@ -216,7 +216,7 @@ div#toolbar div.toolbar-shortcuts ul {
 
 
 .views-field-edit-node  a,
-a[class*="edit-fields"] {
+a[id*="edit-fields"] {
   text-transform: capitalize;
   display: inline-block;
   border-radius: 5px;
