@@ -195,15 +195,18 @@ div#toolbar div.toolbar-shortcuts ul {
     -webkit-transform: rotate(-90deg) translateY(-10px);
         -ms-transform: rotate(-90deg) translateY(-10px);
             transform: rotate(-90deg) translateY(-10px);
-    text-transform: capitalize;
     position: absolute;
     top: 50%;
-    margin-top: -25%;
-    border-radius: 5px;
-    padding: 0 5px 0 5px;
-    color: #fff;
-    background-color: #7bc;
-    text-shadow: #38a 0 1px 0; }
+    margin-top: -25%; }
+
+.views-field-edit-node a,
+a[class*="edit-fields"] {
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  color: #fff;
+  background-color: #7bc;
+  text-shadow: #38a 0 1px 0; }
 
 .view-lenders .views-field-edit-node a {
   -webkit-transform: rotate(0deg);
