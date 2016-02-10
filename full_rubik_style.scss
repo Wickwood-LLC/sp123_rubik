@@ -195,7 +195,14 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-.views-field-edit-node {
+.view-clients,
+.view-consultants,
+.view-referral-partners,
+.view-staff-users,
+.view-lenders,
+.view-vendors,
+.view-service-bureaus {
+  .views-field-edit-node {
   position: relative;
 
   a {
@@ -210,6 +217,7 @@ div#toolbar div.toolbar-shortcuts ul {
     color: #fff;
     background-color: #7bc;
     text-shadow: #38a 0 1px 0;
+    }
   }
 }
 

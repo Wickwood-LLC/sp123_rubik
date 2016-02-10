@@ -177,9 +177,21 @@ div#toolbar div.toolbar-shortcuts ul {
   min-width: 200px;
   float: left; }
 
-.views-field-edit-node {
+.view-clients .views-field-edit-node,
+.view-consultants .views-field-edit-node,
+.view-referral-partners .views-field-edit-node,
+.view-staff-users .views-field-edit-node,
+.view-lenders .views-field-edit-node,
+.view-vendors .views-field-edit-node,
+.view-service-bureaus .views-field-edit-node {
   position: relative; }
-  .views-field-edit-node a {
+  .view-clients .views-field-edit-node a,
+  .view-consultants .views-field-edit-node a,
+  .view-referral-partners .views-field-edit-node a,
+  .view-staff-users .views-field-edit-node a,
+  .view-lenders .views-field-edit-node a,
+  .view-vendors .views-field-edit-node a,
+  .view-service-bureaus .views-field-edit-node a {
     -webkit-transform: rotate(-90deg) translateY(-10px);
         -ms-transform: rotate(-90deg) translateY(-10px);
             transform: rotate(-90deg) translateY(-10px);
