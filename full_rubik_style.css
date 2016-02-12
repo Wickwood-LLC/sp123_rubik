@@ -193,7 +193,6 @@ div#toolbar div.toolbar-shortcuts ul {
   .view-vendors .views-field-edit-node a,
   .view-service-bureaus .views-field-edit-node a {
     -webkit-transform: rotate(-90deg) translateY(-10px);
-        -ms-transform: rotate(-90deg) translateY(-10px);
             transform: rotate(-90deg) translateY(-10px);
     position: absolute;
     top: 50%;
@@ -212,7 +211,6 @@ a[title="Export instance"] {
 
 .view-lenders .views-field-edit-node a {
   -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
           transform: rotate(0deg);
   top: initial;
   margin-top: initial; }
@@ -227,8 +225,7 @@ a[title="Export instance"] {
   width: 44%; }
 
 .pane-user-field-identification {
-  width: 44%;
-  float: left; }
+  width: 44%; }
 
 table.views-table {
   border: 1px solid #DDDDDD !important; }
@@ -1305,7 +1302,6 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete) {
   position: absolute;
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
   right: -50px;
   top: 50%; }
@@ -1318,7 +1314,6 @@ table#field-notes-values {
 tr.ief-row-entity .ief-entity-operations input.button-remove {
   position: relative;
   -webkit-transform: none;
-      -ms-transform: none;
           transform: none;
   right: 0;
   top: 50%; }
@@ -1415,7 +1410,6 @@ table[id*='field-notes-values'] > thead label {
     right: -50px;
     top: 50%;
     -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
             transform: rotate(-90deg); }
 .field-name-field-notes .field-add-more-submit {
   display: table;
@@ -1428,7 +1422,6 @@ td:not([class]) {
     right: -50px;
     top: 50%;
     -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
             transform: rotate(-90deg); }
 
 .field-name-field-referral-client .form-item,
