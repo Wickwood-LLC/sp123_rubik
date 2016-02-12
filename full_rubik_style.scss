@@ -1434,6 +1434,11 @@ table#field-notes-values {
     .field-name-field-bwma-member-id input { width: 8em; }
   }
 
+  .pane-referral-partner-enrollment-edit {
+    label { width: 220px; }
+    .field-name-field-referral-partner-id input { width: 8em; }
+  }
+
   .field-name-field-thank-you-card-and-referra {
     .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
       display: block; 
