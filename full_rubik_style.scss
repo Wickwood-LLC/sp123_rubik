@@ -975,6 +975,9 @@ div.panel-pane div.node.boxed {
   .field-name-field-phone-type {
     width: 50px;
   }
+  .field-name-field-accept-text-messages {
+    .field-label {  width: 160px; }
+  }
 }
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount,
@@ -1712,6 +1715,12 @@ tr.ief-row-entity .ief-entity-operations {
         background: white;
         top: -10px;
       }
+    }
+  }
+
+  .field-collection-item-field-phone {
+    .field-name-field-note .field-label {
+      width: auto;
     }
   }
 

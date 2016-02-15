@@ -798,6 +798,9 @@ div.panel-pane div.node.boxed {
 .page-user-view .field-name-field-phone-type,
 .page-user .field-name-field-phone-type {
   width: 50px; }
+.page-user-view .field-name-field-accept-text-messages .field-label,
+.page-user .field-name-field-accept-text-messages .field-label {
+  width: 160px; }
 
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount,
@@ -1380,6 +1383,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     padding: 0 1em;
     background: white;
     top: -10px; }
+.page-user-view .field-collection-item-field-phone .field-name-field-note .field-label {
+  width: auto; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
   min-width: 200px; }
 
