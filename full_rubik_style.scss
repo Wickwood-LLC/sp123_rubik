@@ -251,6 +251,10 @@ a[title="Export instance"] {
   float: left;
 }
 
+.field-collection-container {
+  border: 0px;
+}
+
 table.views-table {
   border: 1px solid #DDDDDD !important;
 
@@ -260,10 +264,6 @@ table.views-table {
 
   ul li {
     margin-left: 0;
-  }
-
-  .field-collection-container {
-    border: 0px;
   }
 
   .field-collection-view {

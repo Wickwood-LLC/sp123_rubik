@@ -228,14 +228,15 @@ a[title="Export instance"] {
   width: 44%;
   float: left; }
 
+.field-collection-container {
+  border: 0px; }
+
 table.views-table {
   border: 1px solid #DDDDDD !important; }
   table.views-table tr:nth-child(even) {
     background-color: #FAFAFA; }
   table.views-table ul li {
     margin-left: 0; }
-  table.views-table .field-collection-container {
-    border: 0px; }
   table.views-table .field-collection-view {
     margin: 0; }
     table.views-table .field-collection-view ul.field-collection-view-links {
