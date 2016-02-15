@@ -715,6 +715,9 @@ ul.primary-tabs.links {
 }
 
 .field-type-field-collection {
+  .field-items .field-item {
+    margin: 0;
+  }
   .field-item.even {
     background-color: #FAFAFA;
   }
@@ -1649,7 +1652,7 @@ tr.ief-row-entity .ief-entity-operations {
 
 .page-user {
   .field-collection-view {
-    padding-top: 0;
+    padding: 0.5em 0 0.5em 0;
   }
 }
 

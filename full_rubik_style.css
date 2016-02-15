@@ -585,6 +585,8 @@ ul.primary-tabs.links > li a {
   width: 160px;
   height: 160px; }
 
+.field-type-field-collection .field-items .field-item {
+  margin: 0; }
 .field-type-field-collection .field-item.even {
   background-color: #FAFAFA; }
 
@@ -1337,7 +1339,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   top: 50%; }
 
 .page-user .field-collection-view {
-  padding-top: 0; }
+  padding: 0.5em 0 0.5em 0; }
 
 .page-user-view .pane-additional-identifying-informati .clearfix::after {
   content: ''; }
