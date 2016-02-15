@@ -933,6 +933,12 @@ div.panel-pane div.node.boxed {
   .field-name-field-current-service-bureau {
     font-weight: bold;
   }
+
+  .pane-staff-information-profile {
+    .field-label {
+      width: 105px;
+    }
+  }
 }
 
 .page-user-view,
@@ -941,7 +947,7 @@ div.panel-pane div.node.boxed {
   .field-name-field-identification {
     display: inline-block;
     font-weight: bold;
-    min-width: 44%;
+    width: 44%;
 
     .field-items {
       display: inline-block;
@@ -949,6 +955,9 @@ div.panel-pane div.node.boxed {
     &:after {
       content: ':\00a0';
     }
+  }
+  .field-name-field-phone-type {
+    width: 50px;
   }
 }
 .field-name-field-phone-number,
