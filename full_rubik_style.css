@@ -697,7 +697,7 @@ body.maintenance-page {
 div.panel-pane div.node.boxed {
   border: 1px solid #ccc;
   padding: 1em;
-  margin: 2em 0;
+  margin: 1em 0;
   position: relative; }
   .boxed h2,
   div.panel-pane div.node.boxed h2 {
