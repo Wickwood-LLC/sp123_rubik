@@ -838,7 +838,7 @@ div.panel-pane div.node.boxed {
 
 .field-collection-view .entity-field-collection-item {
   display: inline-block;
-  width: 70%; }
+  width: auto; }
 
 ul.field-collection-view-links {
   width: 30%;
