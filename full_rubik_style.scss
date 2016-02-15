@@ -1724,6 +1724,13 @@ tr.ief-row-entity .ief-entity-operations {
     }
   }
 
+  .field-name-field-address-type {
+    font-weight: bold;
+    
+    .field-items {  display: inline-block;  }
+    &:after { content: ':'; }
+  }
+
   .pane-bwma-consultant-data {
     .field .field-label { min-width: 200px; }
   }
