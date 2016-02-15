@@ -764,6 +764,8 @@ div.panel-pane div.node.boxed {
 .page-user-view .field-name-field-current-lender,
 .page-user-view .field-name-field-current-service-bureau {
   font-weight: bold; }
+.page-user-view .field-name-field-user-about p {
+  margin: 0; }
 .page-user-view .pane-staff-information-profile .field-label-inline .field-label {
   width: 105px; }
 
