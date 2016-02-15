@@ -935,7 +935,7 @@ div.panel-pane div.node.boxed {
   }
 
   .pane-staff-information-profile {
-    .field-label {
+    .field-label-inline .field-label {
       width: 105px;
     }
   }
@@ -1703,7 +1703,7 @@ tr.ief-row-entity .ief-entity-operations {
     .field-label,
     .field-items {
       width: auto;
-      min-width: 44%;
+      width: 44%;
     }
   }
 

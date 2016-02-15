@@ -764,7 +764,7 @@ div.panel-pane div.node.boxed {
 .page-user-view .field-name-field-current-lender,
 .page-user-view .field-name-field-current-service-bureau {
   font-weight: bold; }
-.page-user-view .pane-staff-information-profile .field-label {
+.page-user-view .pane-staff-information-profile .field-label-inline .field-label {
   width: 105px; }
 
 .page-user-view .field-name-field-phone-type,
@@ -1372,7 +1372,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .field-label-inline .field-label,
 .page-user-view .field-label-inline .field-items {
   width: auto;
-  min-width: 44%; }
+  width: 44%; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
   min-width: 200px; }
 
