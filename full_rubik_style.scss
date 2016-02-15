@@ -714,6 +714,12 @@ ul.primary-tabs.links {
   height: 160px;
 }
 
+.field-type-field-collection {
+  .field-item.even {
+    background-color: #FAFAFA;
+  }
+}
+
 /* Maintenance page styles */
 body.maintenance-page {
   width: 100vw;
