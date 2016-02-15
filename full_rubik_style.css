@@ -766,7 +766,7 @@ div.panel-pane div.node.boxed {
   font-weight: bold; }
 .page-user-view .field-name-field-user-about p {
   margin: 0; }
-.page-user-view .field-name-field-staff-user {
+.page-user-view .field-name-field-staff-user .field-label {
   width: 50px; }
 .page-user-view .pane-staff-information-profile .field-label-inline .field-label {
   width: 105px; }
