@@ -273,8 +273,8 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
   // }
 }
 
-function full_rubik_field_info_alter(&$info) {
-  dpm($info);
+function full_rubik_field_widget_form_alter(&$element, &$form_state, $context) {
+  dpm($element);
 }
 
 //Disable sticky headers
