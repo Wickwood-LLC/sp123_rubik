@@ -1415,6 +1415,12 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
       width: auto; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
+    .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .button-remove {
+      position: relative;
+      -webkit-transform: none;
+              transform: none;
+      right: 0;
+      top: 0; }
 
 thead th.field-label label {
   padding-left: 1em; }
