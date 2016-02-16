@@ -1661,6 +1661,20 @@ tr.ief-row-entity .ief-entity-operations {
   .field-collection-view {
     border: 1px dotted #D3D7D9;
     padding: 0.5em 1em;
+    margin: 0;
+  }
+
+  .field-collection-item-field-phone {
+    .field-name-field-note .field-label {
+      width: auto;
+    }
+  }
+
+  .field-name-field-address-type {
+    font-weight: bold;
+    
+    .field-items {  display: inline-block;  }
+    &:after { content: ':'; }
   }
 }
 
@@ -1721,19 +1735,6 @@ tr.ief-row-entity .ief-entity-operations {
         top: -10px;
       }
     }
-  }
-
-  .field-collection-item-field-phone {
-    .field-name-field-note .field-label {
-      width: auto;
-    }
-  }
-
-  .field-name-field-address-type {
-    font-weight: bold;
-    
-    .field-items {  display: inline-block;  }
-    &:after { content: ':'; }
   }
 
   .pane-bwma-consultant-data {

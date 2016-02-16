@@ -1346,7 +1346,16 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 
 .page-user .field-collection-view {
   border: 1px dotted #D3D7D9;
-  padding: 0.5em 1em; }
+  padding: 0.5em 1em;
+  margin: 0; }
+.page-user .field-collection-item-field-phone .field-name-field-note .field-label {
+  width: auto; }
+.page-user .field-name-field-address-type {
+  font-weight: bold; }
+  .page-user .field-name-field-address-type .field-items {
+    display: inline-block; }
+  .page-user .field-name-field-address-type:after {
+    content: ':'; }
 
 .page-user-view .pane-additional-identifying-informati .clearfix::after {
   content: ''; }
@@ -1387,14 +1396,6 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     padding: 0 1em;
     background: white;
     top: -10px; }
-.page-user-view .field-collection-item-field-phone .field-name-field-note .field-label {
-  width: auto; }
-.page-user-view .field-name-field-address-type {
-  font-weight: bold; }
-  .page-user-view .field-name-field-address-type .field-items {
-    display: inline-block; }
-  .page-user-view .field-name-field-address-type:after {
-    content: ':'; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
   min-width: 200px; }
 
