@@ -1276,8 +1276,6 @@ table#field-notes-values {
 .page-user-edit .field-name-field-address select.state {
   max-width: 78%; }
 
-.page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-phone-type:after {
-  content: ''; }
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-gender .form-radios {
   display: inline-block; }
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-gender .form-item.form-type-radio {
