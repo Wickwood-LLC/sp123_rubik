@@ -1342,7 +1342,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   top: 50%; }
 
 .page-user .field-collection-view {
-  padding: 0.5em 0 0.5em 0; }
+  border: 1px dotted #D3D7D9;
+  padding: 0.5em 1em; }
 
 .page-user-view .pane-additional-identifying-informati .clearfix::after {
   content: ''; }
