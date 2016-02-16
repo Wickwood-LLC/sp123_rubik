@@ -267,14 +267,10 @@ function full_rubik_form_alter(&$form, $form_state, $form_id) {
       }
     }
   }
-  // if($form_id == 'profile2_edit_bwma_staff_form'){
-  //   $form['profile_bwma_staff']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
-  //   $form['profile_bwma_staff']['field_family_member_contacts']['und']['add_more']['#value'] = 'Add Another Contact';
-  // }
-}
-
-function full_rubik_field_widget_form_alter(&$element, &$form_state, $context) {
-  dpm($element);
+  if($form_id == 'profile2_edit_bwma_staff_form'){
+    $form['profile_bwma_staff']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
+    $form['profile_bwma_staff']['field_family_member_contacts']['und']['add_more']['#value'] = 'Add Another Contact';
+  }
 }
 
 //Disable sticky headers
