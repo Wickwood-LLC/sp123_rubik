@@ -1421,7 +1421,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
               transform: none;
       right: 0;
       top: 0; }
-.page-user-edit-bwma-staff .field-name-field-family-member-contacts table {
+.page-user-edit-bwma-staff .field-name-field-family-member-contacts table.field-multiple-table {
   border: 0; }
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts thead {
   display: none; }
