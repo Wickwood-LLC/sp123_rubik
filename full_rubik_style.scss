@@ -1905,6 +1905,10 @@ label.panopoly-admin-hide-body-label-processed {
   padding: 5px;
   clear: both;
 
+  em {
+    display: initial;
+  }
+
   &:empty {
     padding: 0;
   }
