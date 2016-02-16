@@ -724,6 +724,9 @@ div.panel-pane div.node.boxed {
 #edit-actions {
   text-align: center; }
 
+.pane-profile2-form-buttons {
+  width: 100%; }
+
 /***********************/
 /* USER PROFILE STYLES */
 /***********************/
