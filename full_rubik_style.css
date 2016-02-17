@@ -590,6 +590,9 @@ ul.primary-tabs.links > li a {
 .field-type-field-collection .field-item.even {
   background-color: #FAFAFA; }
 
+.field-collection-view .field-label {
+  width: auto; }
+
 /* Maintenance page styles */
 body.maintenance-page {
   width: 100vw;
