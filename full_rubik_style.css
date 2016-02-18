@@ -854,6 +854,9 @@ div.panel-pane div.node.boxed {
   display: inline-block;
   width: auto; }
 
+.field-collection-view ul.field-collection-view-links {
+  margin: 0; }
+
 ul.field-collection-view-links {
   width: 30%;
   display: inline-block;
