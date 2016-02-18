@@ -1037,6 +1037,9 @@ div.panel-pane div.node.boxed {
 .field-collection-view ul.field-collection-view-links {
   margin: 0;
 }
+ul.field-collection-view-links li:last-child a {
+  margin: 0;
+}
 ul.field-collection-view-links {
   width: 30%;
   display: inline-block;
