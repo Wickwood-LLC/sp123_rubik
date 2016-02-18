@@ -1695,6 +1695,13 @@ tr.ief-row-entity .ief-entity-operations {
     }
   }
 
+  .field-name-field-family-member-contacts {
+  .field-label,
+  .field-name-field-phone-type { 
+      width: 95px;
+    }
+  }
+
   .client-acquisition,
   .consultant-acquisition {
     .col-md-8 {
@@ -1775,13 +1782,6 @@ tr.ief-row-entity .ief-entity-operations {
           top: 0;
         }
       }
-    }
-  }
-
-  .field-name-field-family-member-contacts {
-    .field-label,
-    .field-name-field-phone-type { 
-      width: 95px;
     }
   }
 
