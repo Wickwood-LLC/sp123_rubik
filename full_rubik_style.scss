@@ -1795,13 +1795,13 @@ tr.ief-row-entity .ief-entity-operations {
 
     .field-name-field-phone-type {
       width: auto;
+      margin-right: 5px;
       &:after{
         content: '';
         display: none;
       }
     }
     .field-name-field-phone-number {
-      display: block;
       input {
         width: auto;
       }
