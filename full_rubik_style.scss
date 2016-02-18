@@ -1450,23 +1450,24 @@ table#field-notes-values {
   width: 100%;
 }
 
-.page-user-edit {
-  table.field-multiple-table {
-    tr {
-      border: 1px solid #CCCCCC;
-      border-width: 0 1px 0 1px;
-    }
-    tr.draggable {
-      display: flex;
+table.field-multiple-table {
+  tr {
+    border: 1px solid #CCCCCC;
+    border-width: 0 1px 0 1px;
+  }
+  tr.draggable {
+    display: flex;
 
-      td.field-multiple-drag {
-        order: 1;
-      }
-      td:not([class]){
-        flex: 100%;
-      }
+    td.field-multiple-drag {
+      order: 1;
+    }
+    td:not([class]){
+      flex: 100%;
     }
   }
+}
+
+.page-user-edit {
 
   .pane-consultant-enrollment-edit {
     label { width: 186px; }
