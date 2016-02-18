@@ -1438,6 +1438,11 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   border: 0; }
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts thead {
   display: none; }
+.page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type {
+  width: auto; }
+  .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type:after {
+    content: '';
+    display: none; }
 
 thead th.field-label label {
   padding-left: 1em; }

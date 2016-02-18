@@ -1788,6 +1788,14 @@ tr.ief-row-entity .ief-entity-operations {
   .field-name-field-family-member-contacts {
     table.field-multiple-table { border: 0; }
     thead { display: none; }
+
+    .field-name-field-phone-type {
+      width: auto;
+      &:after{
+        content: '';
+        display: none;
+      }
+    }
   }
 }
 
