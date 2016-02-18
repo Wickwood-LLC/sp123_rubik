@@ -238,41 +238,6 @@ function full_rubik_field_multiple_value_form($variables) {
   return $output;
 }
 
-/**
- * Implements hook_form_alter().
- */
-function full_rubik_form_alter(&$form, $form_state, $form_id) {
-  if($form_id == 'user_profile_form'){
-    $form['field_additional_email_addresses']['und']['add_more']['#value'] = 'Add another email address';
-    $form['field_name_notes']['und']['add_more']['#value'] = 'Add another note';
-    $form['field_phone']['und']['add_more']['#value'] = 'Add another phone number';
-    $form['field_website']['und']['add_more']['#value'] = 'Add another website';
-    $form['field_collection_mailing_address']['und']['add_more']['#value'] = 'Add another address';
-    $form['field_related_clients']['und']['add_more']['#value'] = 'Add another Related Client';
-    $form['field_website']['und']['#description'] = $form['field_website']['und']['#description'] . ' ' . variable_get('title_description');
-  }
-  if($form_id == 'profile2_edit_bwma_client_form'){
-    $form['profile_bwma_client']['field_loans']['und']['actions']['ief_add']['#value'] = 'Add New Loan';
-    $form['profile_bwma_client']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
-
-    $entities = $form['profile_bwma_client']['field_loans']['und']['entities'];
-    foreach ($entities as $loan_key => $loan) {
-      if (is_int($loan_key)) {
-        $loan['form']['field_deferred_enrollment_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee';  // Override 'Enrolment Fees' add buttton text  
-        foreach ($loan['form']['field_deferred_enrollment_fees']['und'] as $df_key => $deferred_fee) {
-          if (is_int($df_key)) {
-            $deferred_fee['field_deferred_fees']['und']['add_more']['#value'] = 'Add Another Deferred Fee Date';  // Override 'Deferred Fees' add buttton text
-          }
-        }
-      }
-    }
-  }
-  if($form_id == 'profile2_edit_bwma_staff_form'){
-    $form['profile_bwma_staff']['field_notes']['und']['add_more']['#value'] = 'Add Another Note';
-    $form['profile_bwma_staff']['field_family_member_contacts']['und']['add_more']['#value'] = 'Add Another Contact';
-  }
-}
-
 //Disable sticky headers
 function full_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
