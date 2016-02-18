@@ -1790,7 +1790,7 @@ tr.ief-row-entity .ief-entity-operations {
     thead { display: none; }
 
     .form-item label {
-      width: 90px;
+      min-width: 90px;
     }
 
     .field-name-field-phone-type {
