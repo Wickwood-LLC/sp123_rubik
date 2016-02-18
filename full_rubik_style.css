@@ -1443,6 +1443,10 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type:after {
     content: '';
     display: none; }
+.page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-number {
+  display: block; }
+  .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-number input {
+    width: auto; }
 
 thead th.field-label label {
   padding-left: 1em; }

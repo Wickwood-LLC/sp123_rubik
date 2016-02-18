@@ -1796,6 +1796,12 @@ tr.ief-row-entity .ief-entity-operations {
         display: none;
       }
     }
+    .field-name-field-phone-number {
+      display: block;
+      input {
+        width: auto;
+      }
+    }
   }
 }
 
