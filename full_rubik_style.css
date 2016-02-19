@@ -1249,6 +1249,8 @@ table.field-multiple-table tr.draggable {
   width: 8em; }
 .page-user-edit .pane-referral-partner-enrollment-edit label {
   width: 220px; }
+.page-user-edit .pane-referral-partner-enrollment-edit input {
+  width: auto; }
 .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-id input {
   width: 8em; }
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
