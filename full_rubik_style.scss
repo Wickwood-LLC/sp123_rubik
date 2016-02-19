@@ -1467,6 +1467,7 @@ table.field-multiple-table {
 
     td.field-multiple-drag {
       order: 1;
+      box-sizing: border-box;
     }
     td:not([class]){
       flex: 100%;
@@ -1696,7 +1697,7 @@ table.field-multiple-table {
   table.field-multiple-table {
     border: 1px solid #DDDDDD;
     display: table-cell;
-
+    border-collapse: initial;
     th {
       padding: 5px;
     }

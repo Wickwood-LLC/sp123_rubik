@@ -1236,7 +1236,8 @@ table.field-multiple-table tr.draggable {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
-            order: 1; }
+            order: 1;
+    box-sizing: border-box; }
   table.field-multiple-table tr.draggable td:not([class]) {
     -webkit-box-flex: 100%;
     -webkit-flex: 100%;
@@ -1377,7 +1378,8 @@ table.field-multiple-table tr.draggable {
   top: 50%; }
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table {
   border: 1px solid #DDDDDD;
-  display: table-cell; }
+  display: table-cell;
+  border-collapse: initial; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th {
     padding: 5px; }
 
