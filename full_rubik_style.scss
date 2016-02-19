@@ -1488,7 +1488,7 @@ table.field-multiple-table {
 
     .pane-user-field-identification {
       width: auto;
-      &:after {
+      .field-name-field-identification:after {
         content: '';
         display: none;
       }
@@ -1504,6 +1504,10 @@ table.field-multiple-table {
     }
     .field-name-field-phone-type {
       width: auto;
+      &:after {
+        content: '';
+        display: none;
+      }
     }
     .field-name-field-phone-number {
       display: block;
