@@ -1243,6 +1243,31 @@ table.field-multiple-table tr.draggable {
         -ms-flex: 100%;
             flex: 100%; }
 
+.page-user-edit #user-profile-form .field-name-field-name-prefix,
+.page-user-edit #user-profile-form .field-name-field-first-name,
+.page-user-edit #user-profile-form .field-name-field-middle-name,
+.page-user-edit #user-profile-form .field-name-field-last-name,
+.page-user-edit #user-profile-form .field-name-field-name-suffix,
+.page-user-edit #user-profile-form .field-name-field-nickname {
+  min-width: 100px; }
+.page-user-edit #user-profile-form .pane-user-field-identification {
+  width: auto; }
+  .page-user-edit #user-profile-form .pane-user-field-identification:after {
+    content: '';
+    display: none; }
+.page-user-edit #user-profile-form .pane-user-field-ss-or-ein {
+  white-space: nowrap; }
+.page-user-edit #user-profile-form .field-type-datetime .description {
+  display: none; }
+.page-user-edit #user-profile-form .pane-user-form-buttons .form-actions {
+  text-align: center; }
+.page-user-edit #user-profile-form .field-name-field-phone-type {
+  width: auto; }
+.page-user-edit #user-profile-form .field-name-field-phone-number {
+  display: block; }
+.page-user-edit #user-profile-form .field-name-field-address-type:after {
+  content: '';
+  display: none; }
 .page-user-edit .pane-consultant-enrollment-edit label {
   width: 186px; }
 .page-user-edit .pane-consultant-enrollment-edit input {

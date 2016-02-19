@@ -1476,6 +1476,44 @@ table.field-multiple-table {
 
 .page-user-edit {
 
+  #user-profile-form {
+    .field-name-field-name-prefix,
+    .field-name-field-first-name,
+    .field-name-field-middle-name,
+    .field-name-field-last-name,
+    .field-name-field-name-suffix,
+    .field-name-field-nickname {
+      min-width: 100px;
+    }
+
+    .pane-user-field-identification {
+      width: auto;
+      &:after {
+        content: '';
+        display: none;
+      }
+    }
+    .pane-user-field-ss-or-ein {
+      white-space: nowrap;
+    }
+    .field-type-datetime .description {
+      display: none;
+    }
+    .pane-user-form-buttons .form-actions {
+      text-align: center;
+    }
+    .field-name-field-phone-type {
+      width: auto;
+    }
+    .field-name-field-phone-number {
+      display: block;
+    }
+    .field-name-field-address-type:after {
+      content: '';
+      display: none;
+    }
+  }
+
   .pane-consultant-enrollment-edit {
     label { width: 186px; }
     input { width: auto;  }
