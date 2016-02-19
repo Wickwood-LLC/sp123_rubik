@@ -1244,6 +1244,19 @@ table.field-multiple-table tr.draggable {
         -ms-flex: 100%;
             flex: 100%; }
 
+#user-account-main-page .pane-basic-user-info-for-user-account label {
+  width: 100px; }
+#user-account-main-page .pane-basic-user-info-for-user-account .pane-user-field-identification {
+  width: 100px; }
+#user-account-main-page .pane-user-mail {
+  margin-left: 1em; }
+
+.page-user-edit #user-profile-form .form-item-name label,
+.page-user-edit #user-profile-form .form-item-mail label {
+  display: block; }
+.page-user-edit #user-profile-form .form-item-name input,
+.page-user-edit #user-profile-form .form-item-mail input {
+  width: 100%; }
 .page-user-edit #user-profile-form .field-name-field-name-prefix,
 .page-user-edit #user-profile-form .field-name-field-first-name,
 .page-user-edit #user-profile-form .field-name-field-middle-name,

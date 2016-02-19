@@ -1475,9 +1475,27 @@ table.field-multiple-table {
   }
 }
 
+#user-account-main-page {
+  .pane-basic-user-info-for-user-account {
+    label { width: 100px; }
+    .pane-user-field-identification {
+      width: 100px;
+    }
+  }
+  .pane-user-mail {
+    margin-left: 1em;
+  }
+}
+
 .page-user-edit {
 
   #user-profile-form {
+    .form-item-name,
+    .form-item-mail {
+      label { display: block; }
+      input { width: 100%;  }
+    }
+
     .field-name-field-name-prefix,
     .field-name-field-first-name,
     .field-name-field-middle-name,
