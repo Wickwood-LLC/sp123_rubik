@@ -1712,4 +1712,10 @@ form .tabs {
   display: table;
   margin: 0 auto; }
 
+.page-admin-field-edit .field-name-field-phone-type {
+  display: inline-block;
+  margin-right: 5px; }
+.page-admin-field-edit .field-name-field-phone-number input {
+  width: auto; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */

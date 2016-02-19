@@ -2072,3 +2072,13 @@ form .tabs {
     margin: 0 auto;
   }
 }
+
+.page-admin-field-edit {
+  .field-name-field-phone-type {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .field-name-field-phone-number {
+    input { width: auto; }
+  }
+}
