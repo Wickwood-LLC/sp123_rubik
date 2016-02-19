@@ -1716,5 +1716,7 @@ form .tabs {
   min-width: 100px; }
 .page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
+.page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
+  width: auto; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
