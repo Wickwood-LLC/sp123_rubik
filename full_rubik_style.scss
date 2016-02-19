@@ -2074,8 +2074,17 @@ form .tabs {
 }
 
 .page-admin-field-edit {
-  label { min-width: 100px; }
-  .field-name-field-phone-number {
-    input { width: auto; }
+  .field-name-field-phone {
+    label { min-width: 100px; }
+    
+    .field-name-field-phone-number {
+      input { width: auto; }
+    }
+  }
+  .field-name-field-collection-mailing-address {
+    .form-item[class*="locality"],
+    .form-item[class*="postal-code"] {
+      display: flex;
+    }
   }
 }

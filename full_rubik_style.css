@@ -1712,9 +1712,15 @@ form .tabs {
   display: table;
   margin: 0 auto; }
 
-.page-admin-field-edit label {
+.page-admin-field-edit .field-name-field-phone label {
   min-width: 100px; }
-.page-admin-field-edit .field-name-field-phone-number input {
+.page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
+.page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="locality"],
+.page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
