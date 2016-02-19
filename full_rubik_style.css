@@ -725,7 +725,8 @@ div.panel-pane div.node.boxed {
     z-index: 1; }
 
 #edit-actions {
-  text-align: center; }
+  text-align: center;
+  box-sizing: border-box; }
 
 .pane-profile2-form-buttons {
   width: 100%; }
