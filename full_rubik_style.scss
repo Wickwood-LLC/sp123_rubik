@@ -2074,10 +2074,7 @@ form .tabs {
 }
 
 .page-admin-field-edit {
-  .field-name-field-phone-type {
-    display: inline-block;
-    margin-right: 2em;
-  }
+  label { min-width: 100px; }
   .field-name-field-phone-number {
     input { width: auto; }
   }
