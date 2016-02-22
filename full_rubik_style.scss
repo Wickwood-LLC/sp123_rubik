@@ -1544,6 +1544,13 @@ table.field-multiple-table {
       display: block;
       label { margin-right: 0; }
     }
+
+    .field-name-field-company-name,
+    .field-name-field-ocuupation-or-title {
+      @include breakpoint(992px 1413px) {
+        input { width: 100%; }
+      }
+    }
   }
 
   .pane-referral-partner-enrollment-edit {
