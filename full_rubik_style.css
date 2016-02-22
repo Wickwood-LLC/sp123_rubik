@@ -1332,6 +1332,8 @@ table.field-multiple-table tr.draggable {
   .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-company-name input,
   .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-ocuupation-or-title input {
     width: 100%; } }
+.page-user-edit .field-name-field-address .form-item {
+  margin-bottom: 2px; }
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
   display: block; }
   .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
