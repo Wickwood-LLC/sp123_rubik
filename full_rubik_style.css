@@ -1253,6 +1253,9 @@ table.field-multiple-table tr.draggable {
 #user-account-main-page .pane-user-mail {
   margin-left: 1em; }
 
+.pane-referral-partner-enrollment .field-label {
+  min-width: 230px; }
+
 .page-user-edit #user-profile-form .form-item-name label,
 .page-user-edit #user-profile-form .form-item-mail label {
   display: block; }
