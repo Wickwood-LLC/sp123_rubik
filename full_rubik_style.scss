@@ -1498,6 +1498,12 @@ table.field-multiple-table {
   .field-label {
     min-width: 140px;
   }
+
+  .field-collection-item-field-driver-s-license {
+    .field-label {
+      min-width: 0;
+    }    
+  }
 }
 
 .page-user-edit {
