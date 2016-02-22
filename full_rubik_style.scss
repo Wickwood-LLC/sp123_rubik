@@ -1609,9 +1609,16 @@ table.field-multiple-table {
     thead,
     tbody,
     tr,
+    th,
     td {
       display: block;
       box-sizing: border-box;
+    }
+
+    table#field-collection-mailing-address-values {
+      td:not([class]) {
+        width: calc(100% - 30px);
+      }
     }
   }
 

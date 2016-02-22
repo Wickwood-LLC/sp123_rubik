@@ -1339,9 +1339,12 @@ table.field-multiple-table tr.draggable {
 .page-user-edit .field-name-field-collection-mailing-address thead,
 .page-user-edit .field-name-field-collection-mailing-address tbody,
 .page-user-edit .field-name-field-collection-mailing-address tr,
+.page-user-edit .field-name-field-collection-mailing-address th,
 .page-user-edit .field-name-field-collection-mailing-address td {
   display: block;
   box-sizing: border-box; }
+.page-user-edit .field-name-field-collection-mailing-address table#field-collection-mailing-address-values td:not([class]) {
+  width: calc(100% - 30px); }
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
   display: block; }
   .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
