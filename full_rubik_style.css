@@ -1334,6 +1334,7 @@ table.field-multiple-table tr.draggable {
     width: 100%; } }
 .page-user-edit .field-name-field-address .form-item {
   margin-bottom: 5px; }
+.page-user-edit .field-name-field-collection-mailing-address table#field-collection-mailing-address-values,
 .page-user-edit .field-name-field-collection-mailing-address table,
 .page-user-edit .field-name-field-collection-mailing-address thead,
 .page-user-edit .field-name-field-collection-mailing-address tbody,
