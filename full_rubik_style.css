@@ -278,6 +278,9 @@ label,
 .vertical-tabs-list li a strong {
   text-transform: capitalize; }
 
+.date-no-float {
+  width: 100%; }
+
 .field-items ul,
 .field-items ol {
   overflow: hidden; }
