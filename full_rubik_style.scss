@@ -1540,6 +1540,10 @@ table.field-multiple-table {
     label { width: 186px; }
     input { width: auto;  }
     .field-name-field-bwma-member-id input { width: 8em; }
+    .field-name-field-consultant-enrollment-date .form-item {
+      display: block;
+      label { margin-right: 0; }
+    }
   }
 
   .pane-referral-partner-enrollment-edit {
