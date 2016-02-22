@@ -1601,6 +1601,15 @@ table.field-multiple-table {
     .form-item {
       margin-bottom: 5px;
     }
+
+    table,
+    thead,
+    tbody,
+    tr,
+    td {
+      display: block;
+      box-sizing: border-box;
+    }
   }
 
   .field-name-field-thank-you-card-and-referra {
