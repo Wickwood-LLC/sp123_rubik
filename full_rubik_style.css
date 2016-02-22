@@ -1297,6 +1297,8 @@ table.field-multiple-table tr.draggable {
   display: block; }
   .page-user-edit .pane-consultant-enrollment-edit .field-name-field-consultant-enrollment-date .form-item label {
     margin-right: 0; }
+  .page-user-edit .pane-consultant-enrollment-edit .field-name-field-consultant-enrollment-date .form-item input {
+    margin-right: 0; }
 @media (min-width: 992px) and (max-width: 1413px) {
   .page-user-edit .pane-consultant-enrollment-edit .field-name-field-company-name input,
   .page-user-edit .pane-consultant-enrollment-edit .field-name-field-ocuupation-or-title input {
@@ -1310,6 +1312,8 @@ table.field-multiple-table tr.draggable {
 .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-enrollmen .form-item {
   display: block; }
   .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-enrollmen .form-item label {
+    margin-right: 0; }
+  .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-enrollmen .form-item input {
     margin-right: 0; }
 @media (min-width: 992px) and (max-width: 1413px) {
   .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-company-name input,

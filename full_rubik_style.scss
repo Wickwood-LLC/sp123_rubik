@@ -1545,6 +1545,7 @@ table.field-multiple-table {
     .field-name-field-consultant-enrollment-date .form-item {
       display: block;
       label { margin-right: 0; }
+      input { margin-right: 0; }
     }
 
     .field-name-field-company-name,
@@ -1561,10 +1562,8 @@ table.field-multiple-table {
     .field-name-field-referral-partner-id input { width: 8em; }
     .field-name-field-referral-partner-enrollmen .form-item { 
       display: block; 
-
-      label {
-        margin-right: 0;
-      }
+      label { margin-right: 0; }
+      input { margin-right: 0; }
     }
 
     .field-name-field-company-name,
