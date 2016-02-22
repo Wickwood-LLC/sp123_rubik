@@ -1547,6 +1547,13 @@ table.field-multiple-table {
     label { width: 220px; }
     input { width: auto;  }
     .field-name-field-referral-partner-id input { width: 8em; }
+    .field-name-field-referral-partner-enrollmen .form-item { 
+      display: block; 
+
+      label {
+        margin-right: 0;
+      }
+    }
   }
 
   .field-name-field-thank-you-card-and-referra {

@@ -1297,6 +1297,10 @@ table.field-multiple-table tr.draggable {
   width: auto; }
 .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-id input {
   width: 8em; }
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-enrollmen .form-item {
+  display: block; }
+  .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-enrollmen .form-item label {
+    margin-right: 0; }
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
   display: block; }
   .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
