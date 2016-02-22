@@ -1808,7 +1808,8 @@ form .tabs {
   width: 100px; }
 
 .pane-user-roles ul li {
-  margin-left: 0; }
+  margin-left: 0;
+  padding: 0; }
 .pane-user-roles li.first {
   text-transform: capitalize; }
 

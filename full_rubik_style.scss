@@ -2208,7 +2208,8 @@ form .tabs {
 
 .pane-user-roles {
   ul li {
-    margin-left: 0;  
+    margin-left: 0;
+    padding: 0; 
   }
   li.first {
     text-transform: capitalize;
