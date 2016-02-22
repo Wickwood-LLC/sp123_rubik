@@ -1765,5 +1765,7 @@ form .tabs {
   width: auto; }
 .page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
   width: auto; }
+.page-admin-field-edit .field-name-field-family-member-contacts label {
+  width: 100px; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
