@@ -2143,6 +2143,9 @@ form .tabs {
     .field-name-field-phone-number {
       input { width: auto; }
     }
+    .field-name-field-note {
+      label { width: auto;  }
+    }
   }
   .field-name-field-collection-mailing-address {
     .form-item[class*="postal-code"] {
