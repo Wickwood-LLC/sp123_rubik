@@ -1804,4 +1804,9 @@ form .tabs {
 .page-admin-field-edit .field-name-field-family-member-contacts label {
   width: 100px; }
 
+.pane-user-roles ul li {
+  margin-left: 0; }
+.pane-user-roles li.first {
+  text-transform: capitalize; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */

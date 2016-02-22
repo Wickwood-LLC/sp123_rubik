@@ -2202,3 +2202,12 @@ form .tabs {
     label { width: 100px; }
   }
 }
+
+.pane-user-roles {
+  ul li {
+    margin-left: 0;  
+  }
+  li.first {
+    text-transform: capitalize;
+  }
+}
