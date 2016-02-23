@@ -1915,7 +1915,7 @@ form .tabs {
 .node-appointment-form .field-name-field-date-and-time input[type="checkbox"] {
   width: auto;
   margin-right: 5px; }
-.node-appointment-form .field-name-field-date-and-time .form-item label {
+.node-appointment-form .field-name-field-date-and-time .date-no-float .form-item label {
   width: 50px; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
