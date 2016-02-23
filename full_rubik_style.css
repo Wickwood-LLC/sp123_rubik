@@ -1928,10 +1928,12 @@ form .tabs {
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item label {
     width: 40px; }
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item input {
-    width: auto;
+    width: 10em;
     display: inline-block; }
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item .description {
     width: auto;
     display: inline-block; }
+.node-appointment-form .pane-node-form-author .form-item-date {
+  width: 100%; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */

@@ -2318,7 +2318,7 @@ form .tabs {
     .form-item {
       label { width: 40px; }
       input { 
-        width: auto;
+        width: 10em;
         display: inline-block;
       }
       .description {
@@ -2326,5 +2326,9 @@ form .tabs {
         display: inline-block;
       }
     }
+  }
+
+  .pane-node-form-author {
+    .form-item-date { width: 100%; }
   }
 }
