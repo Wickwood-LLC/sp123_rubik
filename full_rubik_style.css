@@ -950,6 +950,33 @@ ul.field-collection-view-links {
   display: block; }
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-expiration-date .form-item label {
     margin-right: 0; }
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name .form-item,
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-ocuupation-or-title .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name label,
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-ocuupation-or-title label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 140px;
+      -ms-flex: 0 0 140px;
+          flex: 0 0 140px; }
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name input,
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-ocuupation-or-title input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 calc(100% - 140px);
+      -ms-flex: 1 1 calc(100% - 140px);
+          flex: 1 1 calc(100% - 140px);
+  min-width: 100px; }
 .page-user-edit-bwma-client .field-name-field-loans tr {
   border: 1px solid #CCCCCC;
   border-width: 0 1px 0 1px; }
@@ -1313,10 +1340,33 @@ table.field-multiple-table tr.draggable {
     margin-right: 0; }
   .page-user-edit .pane-consultant-enrollment-edit .field-name-field-consultant-enrollment-date .form-item input {
     margin-right: 0; }
-@media (min-width: 992px) and (max-width: 1413px) {
-  .page-user-edit .pane-consultant-enrollment-edit .field-name-field-company-name input,
-  .page-user-edit .pane-consultant-enrollment-edit .field-name-field-ocuupation-or-title input {
-    width: 100%; } }
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-company-name .form-item,
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-ocuupation-or-title .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-company-name label,
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-ocuupation-or-title label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 186px;
+      -ms-flex: 0 0 186px;
+          flex: 0 0 186px; }
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-company-name input,
+.page-user-edit .pane-consultant-enrollment-edit .field-name-field-ocuupation-or-title input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 calc(100% - 186px);
+      -ms-flex: 1 1 calc(100% - 186px);
+          flex: 1 1 calc(100% - 186px);
+  min-width: 100px; }
 .page-user-edit .pane-referral-partner-enrollment-edit label {
   width: 220px; }
 .page-user-edit .pane-referral-partner-enrollment-edit input {

@@ -1158,6 +1158,23 @@ ul.field-collection-view-links {
         label { margin-right: 0; }
       }
     }
+
+    .field-name-field-company-name,
+    .field-name-field-ocuupation-or-title {
+      .form-item {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+      label {
+        flex: 0 0 140px;
+      }
+      input {
+        flex: 1 1 calc(100% - 140px);
+        min-width: 100px;
+      }
+    }
   }
 
   .field-name-field-loans tr {
@@ -1572,8 +1589,18 @@ table.field-multiple-table {
 
     .field-name-field-company-name,
     .field-name-field-ocuupation-or-title {
-      @include breakpoint(992px 1413px) {
-        input { width: 100%; }
+      .form-item {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+      label {
+        flex: 0 0 186px;
+      }
+      input {
+        flex: 1 1 calc(100% - 186px);
+        min-width: 100px;
       }
     }
   }
