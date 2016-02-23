@@ -2312,18 +2312,21 @@ form .tabs {
     input { width: calc(100% - 140px); }
   }
 
-  .pane-node-form-publishing .form-item-pubdate {
-    width: 100%;
-
-    .form-item {
-      label { width: 40px; }
-      input { 
-        width: 10em;
-        display: inline-block;
-      }
-      .description {
-        width: auto;
-        display: inline-block;
+  .pane-node-form-publishing {
+    .pane-title { margin-bottom: 0; }
+    .form-item-pubdate {
+      width: 100%;
+  
+      .form-item {
+        label { width: 40px; }
+        input { 
+          width: 10em;
+          display: inline-block;
+        }
+        .description {
+          width: auto;
+          display: inline-block;
+        }
       }
     }
   }

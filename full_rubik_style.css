@@ -1923,6 +1923,8 @@ form .tabs {
 .node-appointment-form .field-name-field-appointment-with input,
 .node-appointment-form .field-name-field-appointment-for input {
   width: calc(100% - 140px); }
+.node-appointment-form .pane-node-form-publishing .pane-title {
+  margin-bottom: 0; }
 .node-appointment-form .pane-node-form-publishing .form-item-pubdate {
   width: 100%; }
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item label {
