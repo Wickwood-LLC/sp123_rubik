@@ -1901,4 +1901,13 @@ form .tabs {
 .pane-user-roles li.first {
   text-transform: capitalize; }
 
+.node-appointment .column-main .column-wrapper .node-content {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  font-size: 1.2em; }
+  .node-appointment .column-main .column-wrapper .node-content .field {
+    margin-bottom: 3px; }
+  .node-appointment .column-main .column-wrapper .node-content .field-label-inline .field-label {
+    width: 160px; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */

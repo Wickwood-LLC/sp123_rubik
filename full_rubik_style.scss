@@ -2277,3 +2277,19 @@ form .tabs {
     text-transform: capitalize;
   }
 }
+
+.node-appointment {
+  .column-main .column-wrapper .node-content {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    font-size: 1.2em;
+
+    .field {
+      margin-bottom: 3px;
+    }
+
+    .field-label-inline .field-label {
+      width: 160px;
+    }
+  }
+}
