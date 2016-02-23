@@ -976,7 +976,7 @@ ul.field-collection-view-links {
   -webkit-flex: 1 1 calc(100% - 140px);
       -ms-flex: 1 1 calc(100% - 140px);
           flex: 1 1 calc(100% - 140px);
-  min-width: 100px; }
+  min-width: 200px; }
 .page-user-edit-bwma-client .field-name-field-loans tr {
   border: 1px solid #CCCCCC;
   border-width: 0 1px 0 1px; }
