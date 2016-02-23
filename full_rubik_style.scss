@@ -863,7 +863,7 @@ div.panel-pane div.node.boxed {
     margin: 0;
     top: -11px;
     background: white;
-    padding: 0 0.5em;
+    padding: 0 1em;
     display: inline-block !important;
 
     &.ctools-collapsible-handle {
@@ -1393,7 +1393,7 @@ ul.field-collection-view-links {
 
       h3 {
         position: absolute;
-        top: -25px;
+        top: -11px;
         background: white;
         padding: 0 0.5em;
       }
@@ -1920,7 +1920,7 @@ tr.ief-row-entity .ief-entity-operations {
 
       h3 {
         position: absolute;
-        margin: 0;
+        margin-left: 0;
         padding: 0 1em;
         background: white;
         top: -10px;

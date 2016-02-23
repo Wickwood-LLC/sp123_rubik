@@ -720,7 +720,7 @@ div.panel-pane div.node.boxed {
     margin: 0;
     top: -11px;
     background: white;
-    padding: 0 0.5em;
+    padding: 0 1em;
     display: inline-block !important; }
     .boxed h2.ctools-collapsible-handle, .boxed h3.ctools-collapsible-handle,
     div.panel-pane div.node.boxed h2.ctools-collapsible-handle,
@@ -1180,7 +1180,7 @@ ul.field-collection-view-links {
   position: relative; }
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed h3 {
     position: absolute;
-    top: -25px;
+    top: -11px;
     background: white;
     padding: 0 0.5em; }
 .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio {
@@ -1577,7 +1577,7 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   .page-user-view .field-name-field-loans .node-loan h3,
   .page-user-view .field-name-field-loans .boxed h3 {
     position: absolute;
-    margin: 0;
+    margin-left: 0;
     padding: 0 1em;
     background: white;
     top: -10px; }
