@@ -1330,10 +1330,33 @@ table.field-multiple-table tr.draggable {
     margin-right: 0; }
   .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-referral-partner-enrollmen .form-item input {
     margin-right: 0; }
-@media (min-width: 992px) and (max-width: 1413px) {
-  .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-company-name input,
-  .page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-ocuupation-or-title input {
-    width: 100%; } }
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-company-name .form-item,
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-ocuupation-or-title .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-company-name label,
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-ocuupation-or-title label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 220px;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px; }
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-company-name input,
+.page-user-edit .pane-referral-partner-enrollment-edit .field-name-field-ocuupation-or-title input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 calc(100% - 220px);
+      -ms-flex: 1 1 calc(100% - 220px);
+          flex: 1 1 calc(100% - 220px);
+  min-width: 100px; }
 .page-user-edit .field-name-field-address .form-item {
   margin-bottom: 5px; }
 .page-user-edit .field-name-field-collection-mailing-address table#field-collection-mailing-address-values,

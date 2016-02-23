@@ -1591,8 +1591,18 @@ table.field-multiple-table {
 
     .field-name-field-company-name,
     .field-name-field-ocuupation-or-title {
-      @include breakpoint(992px 1413px) {
-        input { width: 100%; }
+      .form-item {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+      label {
+        flex: 0 0 220px;
+      }
+      input {
+        flex: 1 1 calc(100% - 220px);
+        min-width: 100px;
       }
     }
   }
