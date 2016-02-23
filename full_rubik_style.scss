@@ -2293,3 +2293,16 @@ form .tabs {
     }
   }
 }
+
+.node-appointment-form {
+  .field-name-field-date-and-time {
+    .description {  display: none;  }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
+    }
+    .form-item {
+      label { width: 50px; }
+    }
+  }
+}

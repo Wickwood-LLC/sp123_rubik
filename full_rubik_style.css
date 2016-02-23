@@ -1910,4 +1910,12 @@ form .tabs {
   .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
 
+.node-appointment-form .field-name-field-date-and-time .description {
+  display: none; }
+.node-appointment-form .field-name-field-date-and-time input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px; }
+.node-appointment-form .field-name-field-date-and-time .form-item label {
+  width: 50px; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
