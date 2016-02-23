@@ -2305,4 +2305,10 @@ form .tabs {
       label { width: 50px; }
     }
   }
+
+  .field-name-field-appointment-with,
+  .field-name-field-appointment-for {
+    label { width: 135px; }
+    input { width: calc(100% - 135px); }
+  }
 }

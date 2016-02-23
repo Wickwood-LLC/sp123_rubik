@@ -1917,5 +1917,11 @@ form .tabs {
   margin-right: 5px; }
 .node-appointment-form .field-name-field-date-and-time .date-no-float .form-item label {
   width: 50px; }
+.node-appointment-form .field-name-field-appointment-with label,
+.node-appointment-form .field-name-field-appointment-for label {
+  width: 135px; }
+.node-appointment-form .field-name-field-appointment-with input,
+.node-appointment-form .field-name-field-appointment-for input {
+  width: calc(100% - 135px); }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
