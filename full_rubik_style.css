@@ -1723,7 +1723,7 @@ ul#views-display-menu-tabs {
   float: left; }
 
 #node-edit .form-item-path-alias input {
-  width: auto !important; }
+  width: auto; }
 
 .pane-node-form-path .pane-content {
   display: -webkit-box;
@@ -1922,6 +1922,16 @@ form .tabs {
   width: 135px; }
 .node-appointment-form .field-name-field-appointment-with input,
 .node-appointment-form .field-name-field-appointment-for input {
-  width: calc(100% - 135px); }
+  width: calc(100% - 140px); }
+.node-appointment-form .pane-node-form-publishing .form-item-pubdate {
+  width: 100%; }
+  .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item label {
+    width: 40px; }
+  .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item input {
+    width: auto;
+    display: inline-block; }
+  .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item .description {
+    width: auto;
+    display: inline-block; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
