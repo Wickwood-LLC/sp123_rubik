@@ -1144,10 +1144,13 @@ ul.field-collection-view-links {
   }
 
   .pane-client-additional-id-info-edit {
-    label { width: 140px; }
-    input { 
-      width: calc(100% - 150px);
-      min-width: 200px;
+    .field-name-field-enrolled-client-programs {
+      label { width: auto; }
+      input { width: auto; }
+      .form-item {
+        width: calc(100% / 3);
+        float: left;
+      }
     }
 
     .field-name-field-driver-s-license {
