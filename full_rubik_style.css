@@ -1906,6 +1906,16 @@ form .tabs {
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
   width: auto; }
 
+.page-field-collection-field-collection-mailing-address .form-item[class*="postal-code"] input {
+  width: auto; }
+
+.page-field-collection-field-phone label {
+  min-width: 100px; }
+.page-field-collection-field-phone .field-name-field-phone-number input {
+  width: auto; }
+.page-field-collection-field-phone .field-name-field-note label {
+  width: auto; }
+
 .pane-user-roles ul li {
   margin-left: 0;
   padding: 0; }
