@@ -183,7 +183,8 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-staff-users .views-field-edit-node,
 .view-lenders .views-field-edit-node,
 .view-vendors .views-field-edit-node,
-.view-service-bureaus .views-field-edit-node {
+.view-service-bureaus .views-field-edit-node,
+.view-non-staff-users .views-field-edit-node {
   position: relative; }
   .view-clients .views-field-edit-node a,
   .view-consultants .views-field-edit-node a,
@@ -191,7 +192,8 @@ div#toolbar div.toolbar-shortcuts ul {
   .view-staff-users .views-field-edit-node a,
   .view-lenders .views-field-edit-node a,
   .view-vendors .views-field-edit-node a,
-  .view-service-bureaus .views-field-edit-node a {
+  .view-service-bureaus .views-field-edit-node a,
+  .view-non-staff-users .views-field-edit-node a {
     -webkit-transform: rotate(-90deg) translateY(-10px);
             transform: rotate(-90deg) translateY(-10px);
     position: absolute;
