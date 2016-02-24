@@ -780,7 +780,7 @@ div.panel-pane div.node.boxed {
 .page-user-view .field-name-field-deferred-fee-label {
   display: inline-block;
   font-weight: bold;
-  min-width: 44%; }
+  width: 270px; }
   .page-user-view .field-name-field-deferred-fee-label .field-items {
     display: inline-block; }
   .page-user-view .field-name-field-deferred-fee-label:after {
