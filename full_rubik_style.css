@@ -1642,7 +1642,9 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
   width: 225px; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
-  min-width: 200px; }
+  min-width: 210px; }
+.page-user-view .pane-bwma-consultant-data .field .field-items {
+  margin-left: 5px; }
 
 /* Staff Edit Styles */
 .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner {
