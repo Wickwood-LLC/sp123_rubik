@@ -1160,6 +1160,12 @@ ul.field-collection-view-links {
       input { width: auto;  }
 
       .field-name-field-drivers-license-number {
+        .form-item {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          flex-flow: row wrap;
+        }
         input {
           flex: 1 1 calc(100% - 220px);
           min-width: 200px;
