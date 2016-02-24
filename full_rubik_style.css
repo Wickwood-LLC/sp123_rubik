@@ -939,13 +939,15 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
   display: table;
   margin: 5px auto 0; }
-.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs label {
-  width: auto; }
-.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs input {
-  width: auto; }
-.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs .form-checkboxes .form-item {
-  width: 180px;
-  float: left; }
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs {
+  display: inline-block; }
+  .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs label {
+    width: auto; }
+  .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs input {
+    width: auto; }
+  .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs .form-checkboxes .form-item {
+    width: 180px;
+    float: left; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license {
   clear: both; }
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license label {

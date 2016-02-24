@@ -1145,6 +1145,7 @@ ul.field-collection-view-links {
 
   .pane-client-additional-id-info-edit {
     .field-name-field-enrolled-client-programs {
+      display: inline-block;
       label { width: auto; }
       input { width: auto; }
       .form-checkboxes .form-item {
