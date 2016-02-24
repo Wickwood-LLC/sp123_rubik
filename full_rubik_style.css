@@ -1906,7 +1906,9 @@ form .tabs {
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
   width: auto; }
 
-.page-field-collection-field-collection-mailing-address .form-item[class*="postal-code"] input {
+.page-field-collection-field-collection-mailing-address .form-item {
+  margin-bottom: 0; }
+.page-field-collection-field-collection-mailing-address .locality-block .form-item {
   width: auto; }
 
 .page-field-collection-field-phone label {

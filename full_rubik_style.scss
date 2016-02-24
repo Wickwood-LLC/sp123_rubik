@@ -2285,8 +2285,9 @@ form .tabs {
 }
 
 .page-field-collection-field-collection-mailing-address {
-  .form-item[class*="postal-code"] {
-    input { width: auto; }
+  .form-item { margin-bottom: 0; }
+  .locality-block {
+    .form-item { width: auto; }
   }
 }
 
