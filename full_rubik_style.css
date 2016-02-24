@@ -1195,7 +1195,7 @@ ul.field-collection-view-links {
   width: 230px; }
 .page-user-view-bwma-client .pane-additional-identifying-informati .field .field-item {
   margin-left: 5px; }
-.page-user-view-bwma-client .pane-additional-identifying-informati .field .field-name-field-driver-s-license .field-item {
+.page-user-view-bwma-client .pane-additional-identifying-informati .field.field-name-field-driver-s-license .field-item {
   margin-left: 0; }
 
 .pane-profile2-field-source {
