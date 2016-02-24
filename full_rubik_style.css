@@ -1590,6 +1590,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     padding: 0 1em;
     background: white;
     top: -10px; }
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-label {
+  width: 250px; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
   min-width: 200px; }
 
