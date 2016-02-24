@@ -967,6 +967,11 @@ ul.field-collection-view-links {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
+  .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number label {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 220px;
+        -ms-flex: 0 0 220px;
+            flex: 0 0 220px; }
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number input {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 calc(100% - 220px);

@@ -1166,6 +1166,9 @@ ul.field-collection-view-links {
           align-items: center;
           flex-flow: row wrap;
         }
+        label {
+          flex: 0 0 220px;
+        }
         input {
           flex: 1 1 calc(100% - 220px);
           min-width: 200px;
