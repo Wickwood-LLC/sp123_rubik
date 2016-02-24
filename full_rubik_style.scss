@@ -2456,3 +2456,7 @@ form .tabs {
     .form-item-date { width: 100%; }
   }
 }
+
+.page-admin-field-edit-profile2-field-loans .ief-form {
+  @include loans-ief;
+}
