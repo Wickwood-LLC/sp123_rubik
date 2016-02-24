@@ -1156,8 +1156,15 @@ ul.field-collection-view-links {
 
     .field-name-field-driver-s-license {
       clear: both;
-      label { width: 175px; }
+      label { width: 220px; }
       input { width: auto;  }
+
+      .field-name-field-drivers-license-number {
+        input {
+          flex: 1 1 calc(100% - 220px);
+          min-width: 200px;
+        }
+      }
 
       .field-name-field-expiration-date .form-item {
         display: block;
