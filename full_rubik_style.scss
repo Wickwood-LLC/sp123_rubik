@@ -2246,8 +2246,7 @@ form .tabs {
   }
 }
 
-.page-admin-field-edit,
-.page-field-collection {
+.page-admin-field-edit {
   .field-name-field-phone {
     label { min-width: 100px; }
     
@@ -2266,6 +2265,22 @@ form .tabs {
   .field-name-field-family-member-contacts {
     .field-label label {  width: auto;  }
     label { width: 100px; }
+  }
+}
+
+.page-field-collection-field-family-member-contacts {
+  .field-label label {  width: auto;  }
+  label { width: 100px; }
+
+  .field-name-field-phone {
+    label { min-width: 100px; }
+    
+    .field-name-field-phone-number {
+      input { width: auto; }
+    }
+    .field-name-field-note {
+      label { width: auto;  }
+    }
   }
 }
 

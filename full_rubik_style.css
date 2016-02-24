@@ -1882,24 +1882,29 @@ form .tabs {
   display: table;
   margin: 0 auto; }
 
-.page-admin-field-edit .field-name-field-phone label,
-.page-field-collection .field-name-field-phone label {
+.page-admin-field-edit .field-name-field-phone label {
   min-width: 100px; }
-.page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input,
-.page-field-collection .field-name-field-phone .field-name-field-phone-number input {
+.page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-.page-admin-field-edit .field-name-field-phone .field-name-field-note label,
-.page-field-collection .field-name-field-phone .field-name-field-note label {
+.page-admin-field-edit .field-name-field-phone .field-name-field-note label {
   width: auto; }
-.page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input,
-.page-field-collection .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
+.page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
   width: auto; }
-.page-admin-field-edit .field-name-field-family-member-contacts .field-label label,
-.page-field-collection .field-name-field-family-member-contacts .field-label label {
+.page-admin-field-edit .field-name-field-family-member-contacts .field-label label {
   width: auto; }
-.page-admin-field-edit .field-name-field-family-member-contacts label,
-.page-field-collection .field-name-field-family-member-contacts label {
+.page-admin-field-edit .field-name-field-family-member-contacts label {
   width: 100px; }
+
+.page-field-collection-field-family-member-contacts .field-label label {
+  width: auto; }
+.page-field-collection-field-family-member-contacts label {
+  width: 100px; }
+.page-field-collection-field-family-member-contacts .field-name-field-phone label {
+  min-width: 100px; }
+.page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-phone-number input {
+  width: auto; }
+.page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
+  width: auto; }
 
 .pane-user-roles ul li {
   margin-left: 0;
