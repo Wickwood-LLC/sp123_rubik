@@ -944,7 +944,7 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs input {
   width: auto; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs .form-checkboxes .form-item {
-  width: calc(100% / 3);
+  width: 180px;
   float: left; }
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license label {
   width: 175px; }
