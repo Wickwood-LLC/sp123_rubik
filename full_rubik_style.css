@@ -1191,6 +1191,11 @@ ul.field-collection-view-links {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
+.page-user-view-bwma-client .pane-additional-identifying-informati .field .field-label {
+  width: 230px; }
+.page-user-view-bwma-client .pane-additional-identifying-informati .field .field-item {
+  margin-left: 5px; }
+
 .pane-profile2-field-source {
   float: left;
   margin-right: 10px; }
