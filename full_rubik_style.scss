@@ -1620,6 +1620,17 @@ table.field-multiple-table {
   .pane-consultant-enrollment-edit {
     label { width: 186px; }
     input { width: auto;  }
+
+    .field-name-field-enrolled-consultant-prm {
+      display: inline-block;
+      label { width: auto; }
+      input { width: auto; }
+      .form-checkboxes .form-item {
+        width: 180px;
+        float: left;
+      }
+    }
+    
     .field-name-field-bwma-member-id input { width: 8em; }
     .field-name-field-consultant-enrollment-date .form-item {
       margin-right: 0;
