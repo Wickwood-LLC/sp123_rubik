@@ -1147,7 +1147,7 @@ ul.field-collection-view-links {
     .field-name-field-enrolled-client-programs {
       label { width: auto; }
       input { width: auto; }
-      .form-item {
+      .form-checkboxes .form-item {
         width: calc(100% / 3);
         float: left;
       }
