@@ -1247,6 +1247,9 @@ ul.field-collection-view-links {
     }
 
     .field-name-field-bwma-loan-program {
+      clear: both;
+      display: inline-block;
+      width: 100%;
       .form-radios .form-item {
         float: left;
         width: 150px;
