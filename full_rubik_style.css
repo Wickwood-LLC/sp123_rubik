@@ -1592,6 +1592,18 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     top: -10px; }
 .page-user-view .field-name-field-loans .pane-loan-debit-information .field-label {
   width: 250px; }
+.page-user-view .field-name-field-loans .pane-node-field-deferred-enrollment-fees .field-label {
+  width: 270px; }
+.page-user-view .field-name-field-loans .pane-node-field-lenders .field-label {
+  width: 120px; }
+.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-label {
+  width: 165px; }
+.page-user-view .field-name-field-loans .pane-afts-advance .field-label {
+  width: 280px; }
+.page-user-view .field-name-field-loans .pane-node-field-service-bureaus .field-label {
+  width: 190px; }
+.page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
+  width: 225px; }
 .page-user-view .pane-bwma-consultant-data .field .field-label {
   min-width: 200px; }
 
