@@ -2316,6 +2316,15 @@ form .tabs {
 .node-loan-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
 .node-loan-form .afts-advance .field-name-field-chargeback-fee-amount label {
   margin-right: -12px; }
+.node-loan-form .field-name-field-collection-status .field-name-field-status,
+.node-loan-form .field-name-field-collection-status .field-name-field-date {
+  float: left;
+  width: 50%; }
+.node-loan-form .field-name-field-collection-status .field-name-field-status .description {
+  display: inline-block;
+  width: auto; }
+.node-loan-form .field-name-field-collection-status .field-name-field-note {
+  clear: left; }
 .node-loan-form .loan-chaos-data {
   clear: both; }
   .node-loan-form .loan-chaos-data .form-item input {

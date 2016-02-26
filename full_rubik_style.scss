@@ -2527,6 +2527,23 @@ form .tabs {
     }
   }
 
+    .field-name-field-collection-status {
+    .field-name-field-status,
+    .field-name-field-date {
+      float: left;
+      width: 50%;
+    }
+
+    .field-name-field-status .description {
+      display: inline-block;
+      width: auto;
+    }
+
+    .field-name-field-note {
+      clear: left;
+    }
+  }
+
   .loan-chaos-data {
     clear: both;
 
