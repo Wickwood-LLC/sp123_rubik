@@ -1827,15 +1827,23 @@ table.field-multiple-table {
     }
   }
 
+  .pane-user-field-related-clients {
+    .pane-content {
+      border: 1px solid #CCCCCC;
+    }
+  }
+
   .field-name-field-related-clients {
     .views-exposed-form {
       margin: 0;
 
       .views-exposed-widgets {
+        display: block;
         padding: 0;
       }
     }
     .views-submit-button {
+      float: right;
       input { margin-top: 0; }
     }
   }
