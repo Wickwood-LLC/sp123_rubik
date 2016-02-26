@@ -1830,6 +1830,8 @@ table.field-multiple-table {
   .pane-user-field-related-clients {
     .pane-content {
       border: 1px solid #CCCCCC;
+      padding: 10px;
+      box-sizing: border-box;
     }
   }
 
@@ -1844,7 +1846,7 @@ table.field-multiple-table {
     }
     .views-submit-button {
       float: right;
-      input { margin-top: 0; }
+      input { margin: 0; }
     }
   }
 }

@@ -1566,7 +1566,9 @@ table.field-multiple-table tr.draggable {
 .page-user-edit .field-name-field-address select.state {
   max-width: 78%; }
 .page-user-edit .pane-user-field-related-clients .pane-content {
-  border: 1px solid #CCCCCC; }
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  box-sizing: border-box; }
 .page-user-edit .field-name-field-related-clients .views-exposed-form {
   margin: 0; }
   .page-user-edit .field-name-field-related-clients .views-exposed-form .views-exposed-widgets {
@@ -1575,7 +1577,7 @@ table.field-multiple-table tr.draggable {
 .page-user-edit .field-name-field-related-clients .views-submit-button {
   float: right; }
   .page-user-edit .field-name-field-related-clients .views-submit-button input {
-    margin-top: 0; }
+    margin: 0; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate input,
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate .description {
