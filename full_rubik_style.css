@@ -1576,7 +1576,8 @@ table.field-multiple-table tr.draggable {
     padding: 0; }
 .page-user-edit .field-name-field-related-clients .views-submit-button {
   float: right;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
   .page-user-edit .field-name-field-related-clients .views-submit-button input {
     margin: 0; }
 
