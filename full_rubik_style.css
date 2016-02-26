@@ -926,11 +926,11 @@ ul.field-collection-view-links {
   .field-name-field-notes .field-name-field-date .field-label,
   .field-name-field-debit-fee-notes .field-name-field-date .field-label {
     width: auto; }
-.field-name-field-notes .field-name-field-staff,
-.field-name-field-debit-fee-notes .field-name-field-staff {
+.field-name-field-notes .field-name-field-staff-user,
+.field-name-field-debit-fee-notes .field-name-field-staff-user {
   float: left; }
-  .field-name-field-notes .field-name-field-staff input,
-  .field-name-field-debit-fee-notes .field-name-field-staff input {
+  .field-name-field-notes .field-name-field-staff-user input,
+  .field-name-field-debit-fee-notes .field-name-field-staff-user input {
     width: 24em; }
 
 /* Client Edit Styles */

@@ -1357,7 +1357,7 @@ ul.field-collection-view-links {
       width: auto;
     }
   }
-  .field-name-field-staff {
+  .field-name-field-staff-user {
     float: left;
 
     input {
@@ -2459,4 +2459,8 @@ form .tabs {
 
 .page-admin-field-edit-profile2-field-loans .ief-form {
   @include loans-ief;
+}
+
+.node-loan-form {
+
 }
