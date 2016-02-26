@@ -2252,4 +2252,73 @@ form .tabs {
   .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
+.node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
+  float: left;
+  width: 100px; }
+.node-loan-form .field-name-field-bwma-loan-program {
+  clear: both;
+  display: inline-block;
+  width: 100%; }
+  .node-loan-form .field-name-field-bwma-loan-program .form-radios .form-item {
+    float: left;
+    width: 150px; }
+.node-loan-form .field-name-field-total-deferred-enrollment- input {
+  display: inline-block;
+  width: auto; }
+.node-loan-form .field-name-field-deferred-fee-amount {
+  width: 100%; }
+.node-loan-form .field-name-field-additional-extra-principal input,
+.node-loan-form .field-name-field-debit-amount-advanced-by-s input,
+.node-loan-form .field-name-field-debit-advanced-by-afts-amo input {
+  width: auto; }
+.node-loan-form .loan-lenders .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .node-loan-form .loan-lenders .field-name-field-lender .form-item label {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 114px;
+        -ms-flex: 0 0 114px;
+            flex: 0 0 114px; }
+  .node-loan-form .loan-lenders .field-name-field-lender .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto; }
+.node-loan-form .loan-lenders label {
+  width: 110px; }
+.node-loan-form .loan-lenders input {
+  width: auto; }
+.node-loan-form .loan-sb .field-name-field-service-bureau .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .node-loan-form .loan-sb .field-name-field-service-bureau .form-item label {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 184px;
+        -ms-flex: 0 0 184px;
+            flex: 0 0 184px; }
+  .node-loan-form .loan-sb .field-name-field-service-bureau .form-item input {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto; }
+.node-loan-form .loan-sb label {
+  width: 180px; }
+.node-loan-form .loan-sb input {
+  width: auto; }
+.node-loan-form .afts-advance label {
+  width: 287px; }
+.node-loan-form .afts-advance input {
+  width: auto; }
+.node-loan-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
+.node-loan-form .afts-advance .field-name-field-chargeback-fee-amount label {
+  margin-right: -12px; }
+.node-loan-form .loan-chaos-data {
+  clear: both; }
+  .node-loan-form .loan-chaos-data .form-item input {
+    width: auto; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */

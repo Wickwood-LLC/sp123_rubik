@@ -2462,5 +2462,76 @@ form .tabs {
 }
 
 .node-loan-form {
+  .field-name-field-debiting-schedule .form-radios .form-item {
+    float: left;
+    width: 100px;
+  }
 
+  .field-name-field-bwma-loan-program {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    .form-radios .form-item {
+      float: left;
+      width: 150px;
+    }
+  }
+
+  .field-name-field-total-deferred-enrollment- {
+    input {
+      display: inline-block;
+      width: auto;
+    }
+  }
+  .field-name-field-deferred-fee-amount {
+    width: 100%;
+  }
+  .field-name-field-additional-extra-principal,
+  .field-name-field-debit-amount-advanced-by-s,
+  .field-name-field-debit-advanced-by-afts-amo {
+    input {
+      width: auto;
+    }
+  }
+
+  .loan-lenders {
+    .field-name-field-lender .form-item {
+      display: flex;
+
+      label { flex: 0 0 114px; }
+      input { flex: auto; }
+    }
+    label { width: 110px;  }
+    input { width: auto;  }
+  }
+  .loan-sb {
+    .field-name-field-service-bureau .form-item {
+      display: flex;
+
+      label { flex: 0 0 184px; }
+      input { flex: auto; }
+    }
+    label { width: 180px;  }
+    input { width: auto;  }
+  }
+
+  .afts-advance {
+    label { width: 287px; }
+    input { width: auto;  }
+
+    .field-name-field-debit-advanced-by-afts-amo,
+    .field-name-field-chargeback-fee-amount {
+      label {
+        margin-right: -12px;
+      }
+    }
+  }
+
+  .loan-chaos-data {
+    clear: both;
+
+    .form-item input {
+      width: auto;
+    }
+  }
 }
