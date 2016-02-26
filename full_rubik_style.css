@@ -1384,9 +1384,9 @@ table.field-multiple-table tr.draggable {
 .page-user-edit #user-profile-form .field-name-field-name-suffix input,
 .page-user-edit #user-profile-form .field-name-field-nickname input {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 calc(100% - $label-width);
-      -ms-flex: 1 1 calc(100% - $label-width);
-          flex: 1 1 calc(100% - $label-width);
+  -webkit-flex: 1 1 calc(100% - 95px);
+      -ms-flex: 1 1 calc(100% - 95px);
+          flex: 1 1 calc(100% - 95px);
   min-width: 100px; }
 .page-user-edit #user-profile-form .pane-user-field-identification {
   width: auto; }
