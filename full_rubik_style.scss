@@ -1808,7 +1808,7 @@ table.field-multiple-table {
       width: 100%;
 
       label {
-        width: 10%;
+        width: 50px;
       }
     }
   }
@@ -1826,6 +1826,19 @@ table.field-multiple-table {
       max-width: 78%;
     }
   }
+
+  .field-name-field-related-clients {
+    .views-exposed-form {
+      margin: 0;
+
+      .views-exposed-widgets {
+        padding: 0;
+      }
+    }
+    .views-submit-button {
+      input { margin-top: 0; }
+    }
+  }
 }
 
 .page-user-edit:not(.page-user-edit-bwma-client) {
@@ -1836,15 +1849,7 @@ table.field-multiple-table {
       width: auto;
     }
   }
-  .field-name-field-related-clients {
-    .views-exposed-form {
-      margin-bottom: 0;
 
-      .views-exposed-widgets {
-        padding: 0 10px;
-      }
-    }
-  }
   .field-name-field-group .form-radios {
     column-count: 2;
   }
