@@ -1959,8 +1959,8 @@ table.field-multiple-table tr.draggable {
 /* line 1833, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate input,
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate .description {
-  display: inline-block !important;
-  width: auto !important; }
+  display: inline-block;
+  width: auto; }
 /* line 1840, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-related-clients .views-exposed-form {
   margin-bottom: 0; }
