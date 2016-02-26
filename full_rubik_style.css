@@ -2253,7 +2253,9 @@ form .tabs {
     font-weight: bold; }
 
 .node-loan-form .pane-node-form-title {
-  display: inline; }
+  width: -webkit-calc(100% - 101px);
+  float: left;
+  margin-right: 5px; }
 .node-loan-form .pane-node-field-used-diy-form {
   display: inline-block; }
 .node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
