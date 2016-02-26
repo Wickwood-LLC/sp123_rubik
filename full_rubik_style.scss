@@ -1615,7 +1615,9 @@ table.field-multiple-table {
       width: auto;
       .field-name-field-identification {
         width: 100%;
-        :after {
+
+        label { width: 100%; }
+        &:after {
           content: '';
           display: none;
         }

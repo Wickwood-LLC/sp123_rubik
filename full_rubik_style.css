@@ -1392,7 +1392,9 @@ table.field-multiple-table tr.draggable {
   width: auto; }
   .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification {
     width: 100%; }
-    .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification :after {
+    .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification label {
+      width: 100%; }
+    .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification:after {
       content: '';
       display: none; }
 .page-user-edit #user-profile-form .pane-user-field-ss-or-ein {
