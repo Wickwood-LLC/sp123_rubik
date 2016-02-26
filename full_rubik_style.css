@@ -1349,18 +1349,52 @@ table.field-multiple-table tr.draggable {
 .page-user-edit #user-profile-form .form-item-name input,
 .page-user-edit #user-profile-form .form-item-mail input {
   width: 100%; }
-.page-user-edit #user-profile-form .field-name-field-name-prefix,
-.page-user-edit #user-profile-form .field-name-field-first-name,
-.page-user-edit #user-profile-form .field-name-field-middle-name,
-.page-user-edit #user-profile-form .field-name-field-last-name,
-.page-user-edit #user-profile-form .field-name-field-name-suffix,
-.page-user-edit #user-profile-form .field-name-field-nickname {
+.page-user-edit #user-profile-form .field-name-field-name-prefix .form-item,
+.page-user-edit #user-profile-form .field-name-field-first-name .form-item,
+.page-user-edit #user-profile-form .field-name-field-middle-name .form-item,
+.page-user-edit #user-profile-form .field-name-field-last-name .form-item,
+.page-user-edit #user-profile-form .field-name-field-name-suffix .form-item,
+.page-user-edit #user-profile-form .field-name-field-nickname .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+.page-user-edit #user-profile-form .field-name-field-name-prefix label,
+.page-user-edit #user-profile-form .field-name-field-first-name label,
+.page-user-edit #user-profile-form .field-name-field-middle-name label,
+.page-user-edit #user-profile-form .field-name-field-last-name label,
+.page-user-edit #user-profile-form .field-name-field-name-suffix label,
+.page-user-edit #user-profile-form .field-name-field-nickname label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 95px;
+      -ms-flex: 0 0 95px;
+          flex: 0 0 95px; }
+.page-user-edit #user-profile-form .field-name-field-name-prefix input,
+.page-user-edit #user-profile-form .field-name-field-first-name input,
+.page-user-edit #user-profile-form .field-name-field-middle-name input,
+.page-user-edit #user-profile-form .field-name-field-last-name input,
+.page-user-edit #user-profile-form .field-name-field-name-suffix input,
+.page-user-edit #user-profile-form .field-name-field-nickname input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 calc(100% - $label-width);
+      -ms-flex: 1 1 calc(100% - $label-width);
+          flex: 1 1 calc(100% - $label-width);
   min-width: 100px; }
 .page-user-edit #user-profile-form .pane-user-field-identification {
   width: auto; }
-  .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification:after {
-    content: '';
-    display: none; }
+  .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification {
+    width: 100%; }
+    .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification :after {
+      content: '';
+      display: none; }
 .page-user-edit #user-profile-form .pane-user-field-ss-or-ein {
   white-space: nowrap; }
 .page-user-edit #user-profile-form .field-type-datetime .description {

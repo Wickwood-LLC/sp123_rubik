@@ -240,6 +240,22 @@
   }
 }
 
+@mixin flexifields($label-width, $min-width: 100px) {
+  .form-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  label {
+    flex: 0 0 $label-width;
+  }
+  input {
+    flex: 1 1 calc(100% - $label-width);
+    min-width: 100px;
+  }
+}
+
 /********************/
 
 /** Default Styles **/
@@ -1592,14 +1608,17 @@ table.field-multiple-table {
     .field-name-field-last-name,
     .field-name-field-name-suffix,
     .field-name-field-nickname {
-      min-width: 100px;
+      @include flexifields(95px);
     }
 
     .pane-user-field-identification {
       width: auto;
-      .field-name-field-identification:after {
-        content: '';
-        display: none;
+      .field-name-field-identification {
+        width: 100%;
+        :after {
+          content: '';
+          display: none;
+        }
       }
     }
     .pane-user-field-ss-or-ein {
