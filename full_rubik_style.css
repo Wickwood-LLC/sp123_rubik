@@ -2252,6 +2252,10 @@ form .tabs {
   .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
+.node-loan-form .pane-node-form-title {
+  display: inline; }
+.node-loan-form .pane-node-field-used-diy-form {
+  display: inline-block; }
 .node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }

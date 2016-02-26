@@ -2462,6 +2462,13 @@ form .tabs {
 }
 
 .node-loan-form {
+  .pane-node-form-title {
+    display: inline;
+  }
+  .pane-node-field-used-diy-form {
+    display: inline-block;
+  }
+
   .field-name-field-debiting-schedule .form-radios .form-item {
     float: left;
     width: 100px;
