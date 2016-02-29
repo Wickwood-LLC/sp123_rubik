@@ -26,7 +26,8 @@
     print $q;
   ?>
 <?php endif; ?>
-dpm($widgets);
+<?php dpm($widgets); ?>
+
 <fieldset class="views-exposed-form form-wrapper fieldset titled">
   <legend>
     <span class="fieldset-title fieldset-legend">Sorting and Filtering</span>
