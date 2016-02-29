@@ -35,7 +35,7 @@
   <div class="views-exposed-widgets clearfix">
     <div class="basic-options">
       <?php foreach ($widgets as $id => $widget): ?>
-        <?php if (!($widget['filter-secondary'])): ?>
+        <?php if ($widget->id != 'secondary'): ?>
           <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
             <?php if (!empty($widget->label)): ?>
               <label for="<?php print $widget->id; ?>">
