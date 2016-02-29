@@ -804,8 +804,7 @@ div.panel-pane div.node.boxed {
 .page-user .field-name-field-phone-type,
 .page-user .field-name-field-identification {
   display: inline-block;
-  font-weight: bold;
-  width: 44%; }
+  font-weight: bold; }
   .page-user-view .field-name-field-phone-type .field-items,
   .page-user-view .field-name-field-identification .field-items,
   .page-user .field-name-field-phone-type .field-items,
