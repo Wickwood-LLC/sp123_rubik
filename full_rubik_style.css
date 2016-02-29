@@ -228,7 +228,7 @@ a[title="Export instance"] {
   background-color: #FAFAFA; }
 
 .pane-basic-user-info .field-label {
-  width: 44%; }
+  width: 100px; }
 
 .pane-basic-user-info-for-user-account .field-label {
   width: 100px; }
