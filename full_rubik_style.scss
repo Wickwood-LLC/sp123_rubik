@@ -2641,9 +2641,9 @@ form .tabs {
   margin-top: 1em;
 
   #edit-secondary.collapsed {
-    display: inline-block;
+    width: 132px;
+    margin: 0;
     .fieldset-title {
-      display: inline-block;
       white-space: nowrap;
     }
   }
