@@ -86,8 +86,8 @@
         <?php endif; ?>
       </div>  
     </div>        <!-- Primary filters (basic options) -->
-    <div class="advanced-options">
-      <?php print $widgets['filter-secondary']->widget; ?>   <!-- Print advanced options here -->
+    <div class="advanced-options">  <!-- Print advanced options here -->
+      <?php print $widgets['filter-secondary']->widget; ?>   
     </div>
   </div>
 </fieldset>
