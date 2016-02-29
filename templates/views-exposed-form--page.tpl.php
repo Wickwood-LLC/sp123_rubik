@@ -35,7 +35,7 @@
   <div class="views-exposed-widgets clearfix">
     <div class="basic-options">
       <?php foreach ($widgets as $id => $widget): ?>
-        <?php if ($widget->id != 'edit-secondary'): ?>
+        <?php if ($widget->id != 'edit-secondary'): ?>      <!-- Do not print the advanced options widget yet -->
           <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
             <?php if (!empty($widget->label)): ?>
               <label for="<?php print $widget->id; ?>">
@@ -86,9 +86,9 @@
           </div>
         <?php endif; ?>
       </div>  
-    </div>
+    </div>        <!-- Primary filters (basic options) -->
     <div class="advanced-options">
-      <?php print $widgets['filter-secondary']->widget; ?>
+      <?php print $widgets['filter-secondary']->widget; ?>   <!-- Print advanced options here -->
     </div>
   </div>
 </fieldset>
