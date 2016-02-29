@@ -26,7 +26,6 @@
     print $q;
   ?>
 <?php endif; ?>
-<?php dpm($widgets); ?>
 
 <fieldset class="views-exposed-form form-wrapper fieldset titled">
   <legend>
