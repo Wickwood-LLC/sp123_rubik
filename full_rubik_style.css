@@ -1668,6 +1668,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .consultant-acquisition .col-md-8 .field-label {
   width: 200px;
   min-width: 0; }
+.page-user-view .client-notes .field-collection-item-field-notes {
+  width: 100%; }
 .page-user-view .client-notes .field {
   margin-right: 0; }
   .page-user-view .client-notes .field .field-label {
