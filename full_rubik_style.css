@@ -2403,4 +2403,14 @@ form .tabs {
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
+.basic-options {
+  width: 100%; }
+
+.advanced-options {
+  width: 100%;
+  margin-top: 1em; }
+  .advanced-options #edit-secondary.collapsed .fieldset-title {
+    display: inline-block;
+    white-space: nowrap; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
