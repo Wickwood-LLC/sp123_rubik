@@ -1716,6 +1716,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   width: 280px; }
 .page-user-view .field-name-field-loans .pane-node-field-collection-status .field-label {
   width: 90px; }
+.page-user-view .field-name-field-loans .pane-node-field-collection-status .field-name-field-note .field-label {
+  width: auto; }
 .page-user-view .field-name-field-loans .pane-node-field-service-bureaus .field-label {
   width: 190px; }
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {

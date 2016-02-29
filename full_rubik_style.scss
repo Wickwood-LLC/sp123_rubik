@@ -2073,6 +2073,8 @@ tr.ief-row-entity .ief-entity-operations {
     }
     .pane-node-field-collection-status {
       .field-label { width: 90px; }
+
+      .field-name-field-note .field-label { width: auto; }
     }
     .pane-node-field-service-bureaus {
       .field-label { width: 190px; }
