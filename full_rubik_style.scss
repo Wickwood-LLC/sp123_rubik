@@ -2041,6 +2041,12 @@ tr.ief-row-entity .ief-entity-operations {
       .field-label { width: 250px; }
 
       .field-name-field-debit-fee-notes {
+        .field-collection-item-field-debit-fee-notes {
+          margin-right: 2em;
+        }
+        .field-items {
+          width: 100%;
+        }
         .field-name-field-date,
         .field-name-field-staff-user,
         .field-name-field-note {
