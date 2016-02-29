@@ -2039,6 +2039,16 @@ tr.ief-row-entity .ief-entity-operations {
 
     .pane-loan-debit-information {
       .field-label { width: 250px; }
+
+      .field-name-field-debit-fee-notes {
+        .field-name-field-date,
+        .field-name-field-staff-user,
+        .field-name-field-note {
+          .field-label {
+            width: auto;
+          }
+        }
+      }
     }
     .pane-node-field-deferred-enrollment-fees {
       .field-label { width: 270px; }

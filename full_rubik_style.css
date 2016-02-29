@@ -1696,6 +1696,10 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
     top: -10px; }
 .page-user-view .field-name-field-loans .pane-loan-debit-information .field-label {
   width: 250px; }
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-date .field-label,
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-staff-user .field-label,
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-note .field-label {
+  width: auto; }
 .page-user-view .field-name-field-loans .pane-node-field-deferred-enrollment-fees .field-label {
   width: 270px; }
 .page-user-view .field-name-field-loans .pane-node-field-lenders .field-label {
