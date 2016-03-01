@@ -1714,8 +1714,8 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   width: 120px; }
 .page-user-view .field-name-field-loans .pane-bwma-enrolment .field-label {
   width: 165px; }
-.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-sent-date,
-.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-note {
+.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-sent-date .field-label,
+.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-note .field-label {
   width: 70px; }
 .page-user-view .field-name-field-loans .pane-afts-advance .field-label {
   width: 280px; }

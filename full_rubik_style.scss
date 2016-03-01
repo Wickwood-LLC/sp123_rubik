@@ -2084,7 +2084,9 @@ tr.ief-row-entity .ief-entity-operations {
 
       .field-name-field-welcome-package-sent-date,
       .field-name-field-welcome-package-note {
-        width: 70px;
+        .field-label {
+          width: 70px;
+        }
       }
     }
     .pane-afts-advance {
