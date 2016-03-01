@@ -119,6 +119,9 @@ input[type="password"] {
   width: 100%;
   box-sizing: border-box; }
 
+.field .field-items {
+  margin-left: 10px; }
+
 #autocomplete ul li {
   margin: 0;
   padding-left: 5px; }
