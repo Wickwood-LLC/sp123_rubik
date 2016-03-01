@@ -916,18 +916,6 @@ ul.field-collection-view-links {
 .page-user-view .field-name-field-thank-you-card-and-referra > .field-items {
   margin-left: 0; }
 
-.field-name-field-total-deferred-enrollment- .field-items {
-  margin-left: 44%; }
-  @media (min-width: 639px) {
-    .field-name-field-total-deferred-enrollment- .field-items {
-      margin-left: 0; } }
-  @media (min-width: 1106px) {
-    .field-name-field-total-deferred-enrollment- .field-items {
-      margin-left: 44%; } }
-  @media (min-width: 1735px) {
-    .field-name-field-total-deferred-enrollment- .field-items {
-      margin-left: 0; } }
-
 .pane-user-profile .field-label {
   width: 44%; }
 

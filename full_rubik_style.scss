@@ -1350,20 +1350,6 @@ ul.field-collection-view-links {
   >.field-items { margin-left: 0; }
 }
 
-.field-name-field-total-deferred-enrollment- .field-items {
-  margin-left: 44%;
-
-  @include breakpoint(639px) {
-    margin-left: 0;
-  }
-  @include breakpoint(1106px) {
-    margin-left: 44%;
-  }
-  @include breakpoint(1735px) {
-    margin-left: 0;
-  }
-}
-
 .pane-user-profile {
   .field-label {
     width: 44%;
