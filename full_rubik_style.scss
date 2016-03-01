@@ -1212,6 +1212,7 @@ div.panel-pane div.node.boxed {
 
     .field-items {
       display: inline-block;
+      margin-left: 0;
     }
     &:after {
       content: ':\00a0';
@@ -1221,6 +1222,8 @@ div.panel-pane div.node.boxed {
   .field-name-field-current-lender,
   .field-name-field-current-service-bureau {
     font-weight: bold;
+
+    .field-items { margin-left: 0; }
   }
   .field-name-field-user-about {
     p { margin: 0;  }
