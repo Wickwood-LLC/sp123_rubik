@@ -821,6 +821,9 @@ div.panel-pane div.node.boxed {
 .page-user-view .field-name-field-phone-type,
 .page-user .field-name-field-phone-type {
   width: 70px; }
+  .page-user-view .field-name-field-phone-type > .field-items,
+  .page-user .field-name-field-phone-type > .field-items {
+    margin-left: 0; }
 .page-user-view .field-name-field-accept-text-messages .field-label,
 .page-user .field-name-field-accept-text-messages .field-label {
   width: 160px; }
@@ -960,6 +963,8 @@ ul.field-collection-view-links {
     width: 220px; }
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license input {
     width: auto; }
+  .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license > .field-items {
+    margin-left: 0; }
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number .form-item {
     display: -webkit-box;
     display: -webkit-flex;

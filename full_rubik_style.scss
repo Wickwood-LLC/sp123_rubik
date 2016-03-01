@@ -1248,6 +1248,8 @@ div.panel-pane div.node.boxed {
   }
   .field-name-field-phone-type {
     width: 70px;
+
+    &>.field-items { margin-left: 0; }
   }
   .field-name-field-accept-text-messages {
     .field-label {  width: 160px; }
@@ -1418,6 +1420,8 @@ ul.field-collection-view-links {
       clear: both;
       label { width: 220px; }
       input { width: auto;  }
+
+      &>.field-items { margin-left: 0; }
 
       .field-name-field-drivers-license-number {
         .form-item {
