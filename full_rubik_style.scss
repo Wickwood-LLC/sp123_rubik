@@ -2081,6 +2081,11 @@ tr.ief-row-entity .ief-entity-operations {
     }
     .pane-bwma-enrolment {
       .field-label { width: 165px; }
+
+      .field-name-field-welcome-package-sent-date,
+      .field-name-field-welcome-package-note {
+        width: 70px;
+      }
     }
     .pane-afts-advance {
       .field-label { width: 280px; }
