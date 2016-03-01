@@ -818,12 +818,14 @@ div.panel-pane div.node.boxed {
   .page-user .field-name-field-phone-type:after,
   .page-user .field-name-field-identification:after {
     content: ':\00a0'; }
+  .page-user-view .field-name-field-phone-type > .field-items,
+  .page-user-view .field-name-field-identification > .field-items,
+  .page-user .field-name-field-phone-type > .field-items,
+  .page-user .field-name-field-identification > .field-items {
+    margin-left: 0; }
 .page-user-view .field-name-field-phone-type,
 .page-user .field-name-field-phone-type {
   width: 70px; }
-  .page-user-view .field-name-field-phone-type > .field-items,
-  .page-user .field-name-field-phone-type > .field-items {
-    margin-left: 0; }
 .page-user-view .field-name-field-accept-text-messages .field-label,
 .page-user .field-name-field-accept-text-messages .field-label {
   width: 160px; }
@@ -904,6 +906,8 @@ ul.field-collection-view-links {
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
+.page-user-view .field-name-field-thank-you-card-and-referra > .field-items {
+  margin-left: 0; }
 
 .field-name-field-total-deferred-enrollment- .field-items {
   margin-left: 44%; }

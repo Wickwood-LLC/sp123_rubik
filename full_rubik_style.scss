@@ -1245,11 +1245,11 @@ div.panel-pane div.node.boxed {
     &:after {
       content: ':\00a0';
     }
+
+    >.field-items { margin-left: 0; }
   }
   .field-name-field-phone-type {
     width: 70px;
-
-    &>.field-items { margin-left: 0; }
   }
   .field-name-field-accept-text-messages {
     .field-label {  width: 160px; }
@@ -1339,6 +1339,8 @@ ul.field-collection-view-links {
       }
     }
   }
+
+  >.field-items { margin-left: 0; }
 }
 
 .field-name-field-total-deferred-enrollment- .field-items {
