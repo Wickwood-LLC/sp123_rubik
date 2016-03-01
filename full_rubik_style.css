@@ -122,6 +122,9 @@ input[type="password"] {
 .field > .field-items {
   margin-left: 10px; }
 
+.field.field-type-field-collection > .field-items {
+  margin-left: 0; }
+
 #autocomplete ul li {
   margin: 0;
   padding-left: 5px; }
