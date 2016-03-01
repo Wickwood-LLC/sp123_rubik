@@ -1421,8 +1421,6 @@ ul.field-collection-view-links {
       label { width: 220px; }
       input { width: auto;  }
 
-      >.field-items { margin-left: 0; }
-
       .field-name-field-drivers-license-number {
         .form-item {
           display: flex;
@@ -1478,7 +1476,13 @@ ul.field-collection-view-links {
     .field-label { width: 230px; }
     .field-item { margin-left: 5px; }
 
-    &.field-name-field-driver-s-license>.field-items>.field-item { margin-left: 0; }
+    &.field-name-field-driver-s-license {
+      >.field-items{
+        margin-left: 0;
+
+        >.field-item { margin-left: 0; }
+      }
+    }
   }
 }
 
