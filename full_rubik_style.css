@@ -2417,5 +2417,10 @@ form .tabs {
     margin: 0; }
     .advanced-options #edit-secondary.collapsed .fieldset-title {
       white-space: nowrap; }
+  .advanced-options .bef-secondary-options {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
