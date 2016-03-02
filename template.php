@@ -243,3 +243,27 @@ function full_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
 }
 
+/**
+ * Themes some exposed form elements in a collapsible fieldset.
+ *
+ * @param array $vars
+ *   An array of arrays, the 'element' item holds the properties of the element.
+ *
+ * @return string
+ *   HTML to render the form element.
+ */
+function full_rubik_secondary_exposed_elements($vars) {
+  $element = $vars['element'];
+
+  dpm($element);
+
+  $output = '<div class="bef-secondary-options">';
+  foreach (element_children($element) as $id) {
+    $output .= drupal_render($element[$id]);
+  }
+  $output .= '</div>';
+
+  return $output;
+}
+
+
