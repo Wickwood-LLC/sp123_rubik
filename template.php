@@ -255,7 +255,7 @@ function full_rubik_js_alter(&$js) {
 function full_rubik_secondary_exposed_elements($vars) {
   $element = $vars['element'];
 
-  dpm($element);
+  // dpm($element);
 
   $output = '<div class="bef-secondary-options">';
   foreach (element_children($element) as $id) {
