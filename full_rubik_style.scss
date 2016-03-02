@@ -2653,6 +2653,7 @@ form .tabs {
   width: 100%;
 }
 .advanced-options {
+  display: flex;
   margin-top: 1em;
 
   #edit-secondary.collapsed {

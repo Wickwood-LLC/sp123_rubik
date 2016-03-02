@@ -2411,6 +2411,10 @@ form .tabs {
   width: 100%; }
 
 .advanced-options {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 1em; }
   .advanced-options #edit-secondary.collapsed {
     width: 132px;
