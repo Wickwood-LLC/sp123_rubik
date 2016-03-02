@@ -1995,25 +1995,14 @@ tr.ief-row-entity .ief-entity-operations {
   .client-acquisition,
   .consultant-acquisition {
     .col-md-8 {
-      // .pane-profile2-field-source { 
-      //   float: none; 
-      //   margin-right: 0;
-      // }
-      // .pane-profile2-field-source-date { display: block; }
-      // .field-label {
-      //   width: 200px;
-      //   min-width: 0;
-      // }
-      .panel-panel-inner {
-        display: table;
+      .pane-profile2-field-source { 
+        float: none; 
+        margin-right: 0;
       }
-      .field {
-        display: table-row;
-      }
-      .field-label,
-      .field-items {
-        display: table-cell;
-        float: none;
+      .pane-profile2-field-source-date { display: block; }
+      .field-label {
+        width: 200px;
+        min-width: 0;
       }
     }
   }

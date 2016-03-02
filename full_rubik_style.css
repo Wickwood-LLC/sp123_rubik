@@ -1663,18 +1663,17 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user-view .field-name-field-family-member-contacts .field-label,
 .page-user-view .field-name-field-family-member-contacts .field-name-field-phone-type {
   width: 95px; }
-.page-user-view .client-acquisition .col-md-8 .panel-panel-inner,
-.page-user-view .consultant-acquisition .col-md-8 .panel-panel-inner {
-  display: table; }
-.page-user-view .client-acquisition .col-md-8 .field,
-.page-user-view .consultant-acquisition .col-md-8 .field {
-  display: table-row; }
+.page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source,
+.page-user-view .consultant-acquisition .col-md-8 .pane-profile2-field-source {
+  float: none;
+  margin-right: 0; }
+.page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source-date,
+.page-user-view .consultant-acquisition .col-md-8 .pane-profile2-field-source-date {
+  display: block; }
 .page-user-view .client-acquisition .col-md-8 .field-label,
-.page-user-view .client-acquisition .col-md-8 .field-items,
-.page-user-view .consultant-acquisition .col-md-8 .field-label,
-.page-user-view .consultant-acquisition .col-md-8 .field-items {
-  display: table-cell;
-  float: none; }
+.page-user-view .consultant-acquisition .col-md-8 .field-label {
+  width: 200px;
+  min-width: 0; }
 .page-user-view .client-notes .field-collection-item-field-notes {
   width: 100%; }
 .page-user-view .client-notes .field {
