@@ -167,14 +167,7 @@ div#toolbar div.toolbar-shortcuts ul {
   .views-exposed-form legend {
     position: absolute; }
   .views-exposed-form .views-exposed-widgets {
-    padding: 28px 10px 10px 10px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
+    padding: 28px 10px 10px 10px; }
   .views-exposed-form .actions {
     display: inline-block; }
     .views-exposed-form .actions .views-exposed-widget {
@@ -2414,6 +2407,7 @@ form .tabs {
     width: auto; }
 
 .basic-options {
+  display: inline-block;
   width: 100%; }
 
 .advanced-options {

@@ -435,8 +435,6 @@ div#toolbar div.toolbar-shortcuts ul {
 
   .views-exposed-widgets {
     padding: 28px 10px 10px 10px;
-    display: flex;
-    flex-flow: row wrap;
   }
 
   .actions {
@@ -2651,6 +2649,7 @@ form .tabs {
 }
 
 .basic-options {
+  display: inline-block;
   width: 100%;
 }
 .advanced-options {
