@@ -1746,25 +1746,6 @@ table.field-multiple-table {
     }
   }
 
-  .field-name-field-collection-mailing-address {
-    table#field-collection-mailing-address-values,
-    table,
-    thead,
-    tbody,
-    tr,
-    th,
-    td {
-      display: block;
-      box-sizing: border-box;
-    }
-
-    table#field-collection-mailing-address-values {
-      td:not([class]) {
-        width: calc(100% - 30px);
-      }
-    }
-  }
-
   .field-name-field-thank-you-card-and-referra {
     .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
       display: block; 
@@ -1823,11 +1804,11 @@ table.field-multiple-table {
       margin-right: 0;
     }
     label {
-      width: 20%;
+      width: 70px;
       box-sizing: border-box;
     }
     select.state {
-      max-width: 78%;
+      width: calc(100% - 75px);
     }
   }
 
