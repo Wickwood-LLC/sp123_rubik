@@ -265,9 +265,14 @@ function full_rubik_secondary_exposed_elements($vars) {
   }
   $output .= '<div class="assigned-to">
                 <label for="' . $element['field_assigned_to_target_id']['#id'] . '">' . $element['field_assigned_to_target_id']['#title'] . '</label>' .
-                drupal_render($element['field_assigned_to_target_id_op']) . drupal_render($element['field_assigned_to_target_id']) . '
-              </div>';
-  $output .= '</div>';
+                drupal_render($element['field_assigned_to_target_id_op']) . '
+                <select id="' . $element['field_assigned_to_target_id']['#id'] . '" name="' . $element['field_assigned_to_target_id']['#name'] . '" >';
+                  foreach ($element['field_assigned_to_target_id']['#options'] as $key => $value) {
+                    $output .= '<option value="' . $key . '">' . $value . '</option>';
+                  }
+  $output .=    '</select>
+              </div>
+            </div>';
 
   return $output;
 }
