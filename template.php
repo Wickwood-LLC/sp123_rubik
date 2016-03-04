@@ -262,8 +262,8 @@ function full_rubik_secondary_exposed_elements($vars) {
     if (!($id == 'field_assigned_to_target_id_op' || $id == 'field_assigned_to_target_id')) {
       $output .= drupal_render($element[$id]);
     }
-    $output .= '<div class="assigned-to">' . drupal_render($element['field_assigned_to_target_id']) . drupal_render($element['field_assigned_to_target_id_op']) . '</div>';
   }
+  $output .= '<div class="assigned-to">' . drupal_render($element['field_assigned_to_target_id']) . drupal_render($element['field_assigned_to_target_id_op']) . '</div>';
   $output .= '</div>';
 
   return $output;
