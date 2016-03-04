@@ -242,39 +242,3 @@ function full_rubik_field_multiple_value_form($variables) {
 function full_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
 }
-
-/**
- * Themes some exposed form elements in a collapsible fieldset.
- *
- * @param array $vars
- *   An array of arrays, the 'element' item holds the properties of the element.
- *
- * @return string
- *   HTML to render the form element.
- */
-function full_rubik_secondary_exposed_elements($vars) {
-  $element = $vars['element'];
-
-  dpm($vars);
-
-  $output = '<div class="bef-secondary-options">';
-  foreach (element_children($element) as $id) {
-    if (!($id == 'field_assigned_to_target_id_op' || $id == 'field_assigned_to_target_id')) {
-      $output .= drupal_render($element[$id]);
-    }
-  }
-  $output .= '<div class="assigned-to">
-                <label for="' . $element['field_assigned_to_target_id']['#id'] . '">' . $element['field_assigned_to_target_id']['#title'] . '</label>' .
-                drupal_render($element['field_assigned_to_target_id_op']) . '
-                <select id="' . $element['field_assigned_to_target_id']['#id'] . '" name="' . $element['field_assigned_to_target_id']['#name'] . '" >';
-                  foreach ($element['field_assigned_to_target_id']['#options'] as $key => $value) {
-                    $output .= '<option value="' . $key . '">' . $value . '</option>';
-                  }
-  $output .=    '</select>
-              </div>
-            </div>';
-
-  return $output;
-}
-
-
