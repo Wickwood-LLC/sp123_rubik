@@ -263,7 +263,10 @@ function full_rubik_secondary_exposed_elements($vars) {
       $output .= drupal_render($element[$id]);
     }
   }
-  $output .= '<div class="assigned-to">' . drupal_render($element['field_assigned_to_target_id']) . drupal_render($element['field_assigned_to_target_id_op']) . '</div>';
+  $output .= '<div class="assigned-to">
+                <label for="' . $element['field_assigned_to_target_id']['#id'] . '">' . $element['field_assigned_to_target_id']['#title'] . '</label>' .
+                drupal_render($element['field_assigned_to_target_id_op']) . drupal_render($element['field_assigned_to_target_id']) . '
+              </div>';
   $output .= '</div>';
 
   return $output;
