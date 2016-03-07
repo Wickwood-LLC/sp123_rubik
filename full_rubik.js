@@ -12,23 +12,26 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      if (!!$('#edit-actions').offset()) {  // make sure "#edit-actions" element exists
+      if (!!$('[id*="edit-actions"]').offset()) {  // make sure "[id*="edit-actions"]" element exists
 
         $(window).on("load resize",function() {           // fire the script on load and resize
-          $('#edit-actions').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-          $('#edit-actions').css('width', '100%');      // reset button width
+          $('[id*="edit-actions"]').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
+          $('[id*="edit-actions"]').css('width', '100%');      // reset button width
 
-          var stickyTop = $('#edit-actions').offset().top;
+          var stickyTop = $('[id*="edit-actions"]').offset().top;
           var windowHeight = $(window).height();
-          var buttonWidth = $('#edit-actions').width();
+          var buttonWidth = $('[id*="edit-actions"]').width();
           var windowTop = $(window).scrollTop(); // returns number  
           var currentPosition = windowTop + windowHeight;
 
           if (stickyTop > currentPosition) {
-            $('#edit-actions').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+            $('[id*="edit-actions"]').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+          }
+          else if (stickyTop < 0) {
+            $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, width: buttonWidth });
           }
           else {
-            $('#edit-actions').css('position','static');
+            $('[id*="edit-actions"]').css('position','static');
           }
     
           $(window).scroll(function(){ // scroll event 
@@ -36,10 +39,13 @@
             var currentPosition = windowTop + windowHeight;
     
             if (stickyTop > currentPosition) {
-              $('#edit-actions').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+              $('[id*="edit-actions"]').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+            }
+            else if (stickyTop < 0) {
+              $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, width: buttonWidth });
             }
             else {
-              $('#edit-actions').css('position','static');
+              $('[id*="edit-actions"]').css('position','static');
             }
           });
         });
