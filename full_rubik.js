@@ -27,7 +27,7 @@
           if (stickyTop > currentPosition) {
             $('[id*="edit-actions"]').css({ position: 'fixed', bottom: 0, width: buttonWidth });
           }
-          else if (stickyTop < 0) {
+          else if ((stickyTop - windowTop) < 0) {
             $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, width: buttonWidth });
           }
           else {
@@ -43,7 +43,7 @@
             if (stickyTop > currentPosition) {
               $('[id*="edit-actions"]').css({ position: 'fixed', bottom: 0, width: buttonWidth });
             }
-            else if (stickyTop < 0) {
+            else if ((stickyTop - windowTop) < 0) {
               $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, width: buttonWidth });
             }
             else {
