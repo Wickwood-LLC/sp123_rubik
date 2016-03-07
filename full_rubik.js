@@ -12,38 +12,8 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      if (!!$('.form-actions').offset()) {  // make sure ".form-actions" element exists
-
-        $(window).on("load resize",function() {           // fire the script on load and resize
-          $('.form-actions').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-          $('.form-actions').css('width', '100%');      // reset button width
-
-          var stickyTop = $('.form-actions').offset().top;
-          var windowHeight = $(window).height();
-          var buttonWidth = $('.form-actions').width();
-          var windowTop = $(window).scrollTop(); // returns number  
-          var currentPosition = windowTop + windowHeight;
-
-          if (stickyTop > currentPosition) {
-            $('.form-actions').css({ position: 'fixed', bottom: 0, width: buttonWidth });
-          }
-          else {
-            $('.form-actions').css('position','static');
-          }
-    
-          $(window).scroll(function(){ // scroll event 
-            var windowTop = $(window).scrollTop(); // returns number  
-            var currentPosition = windowTop + windowHeight;
-    
-            if (stickyTop > currentPosition) {
-              $('.form-actions').css({ position: 'fixed', bottom: 0, width: buttonWidth });
-            }
-            else {
-              $('.form-actions').css('position','static');
-            }
-          });
-        });
-      }
+      var buttonWidth = $('#edit-actions').width();
+      $('#edit-actions').css({ width: buttonWidth });
     }
   };
 }(jQuery));
