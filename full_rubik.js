@@ -37,8 +37,6 @@
           $(window).scroll(function(){ // scroll event 
             var windowTop = $(window).scrollTop(); // returns number  
             var currentPosition = windowTop + windowHeight;
-
-            console.log(stickyTop - windowTop);
     
             if (stickyTop > currentPosition) {
               $('[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
