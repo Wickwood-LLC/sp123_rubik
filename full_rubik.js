@@ -13,7 +13,7 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
       var buttonWidth = $('#edit-actions').width();
-      $('#edit-actions').css({ width: buttonWidth });
+      $('#edit-actions').css(width, buttonWidth);
     }
   };
 }(jQuery));
