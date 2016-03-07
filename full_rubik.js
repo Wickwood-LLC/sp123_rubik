@@ -25,10 +25,10 @@
           var currentPosition = windowTop + windowHeight;
 
           if (stickyTop > currentPosition) {
-            $('[id*="edit-actions"]').css({ position: 'fixed', top: none, bottom: 0, width: buttonWidth });
+            $('[id*="edit-actions"]').css({ position: 'fixed', top: initial, bottom: 0, width: buttonWidth });
           }
           else if ((stickyTop - windowTop) < 0) {
-            $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: none, width: buttonWidth });
+            $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: initial, width: buttonWidth });
           }
           else {
             $('[id*="edit-actions"]').css('position','static');
@@ -41,10 +41,10 @@
             console.log(stickyTop - windowTop);
     
             if (stickyTop > currentPosition) {
-              $('[id*="edit-actions"]').css({ position: 'fixed', top: none, bottom: 0, width: buttonWidth });
+              $('[id*="edit-actions"]').css({ position: 'fixed', top: initial, bottom: 0, width: buttonWidth });
             }
             else if ((stickyTop - windowTop) < 0) {
-              $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: none, width: buttonWidth });
+              $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: initial, width: buttonWidth });
             }
             else {
               $('[id*="edit-actions"]').css('position','static');
