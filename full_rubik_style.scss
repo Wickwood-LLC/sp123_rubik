@@ -1670,6 +1670,12 @@ table.field-multiple-table {
       content: '';
       display: none;
     }
+
+    .pane-user-form-account {
+      @include breakpoint(450px 624px) {
+        padding-top: 2em;
+      }
+    }
   }
 
   .pane-consultant-additional-id-info-ed {
