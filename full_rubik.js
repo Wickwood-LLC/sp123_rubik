@@ -16,7 +16,7 @@
 
         $(window).on("load resize",function() {           // fire the script on load and resize
           $('[id*="edit-actions"]').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-          // $('[id*="edit-actions"]').css('width', '100%');      // reset button width
+          $('[id*="edit-actions"]').width( $this.parent().width() );      // reset button width
 
           var stickyTop = $('[id*="edit-actions"]').offset().top;
           var windowHeight = $(window).height();
