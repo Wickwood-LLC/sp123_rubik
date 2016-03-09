@@ -2425,6 +2425,23 @@ label[for="edit-pubdate"] {
   padding-left: 0;
 }
 
+#edit-entity-recur-days {
+  .form-item {
+    width: 100px;
+    float: left;
+  }
+}
+
+.form-item-entity-recur-until,
+.form-item-entity-recur-until-date {
+  display: flex !important;
+  align-items: center;
+
+  .form-required {
+    display: none;
+  }
+}
+
 .page-admin-field-edit {
   .field-name-field-phone {
     label { min-width: 100px; }
