@@ -2580,9 +2580,12 @@ label[for="edit-pubdate"] {
     display: inline-block;
     vertical-align: middle; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032447}}
+  #node-edit #edit-entity-recur .form-item-entity-recur-until .description {
+    width: 235px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032448}}
   #node-edit #edit-entity-recur .form-item-entity-recur-until .form-required {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032451}}
 #node-edit #edit-entity-recur #edit-entity-recur-until {
   display: inline-block;
   -webkit-box-align: center;
@@ -2590,126 +2593,126 @@ label[for="edit-pubdate"] {
       -ms-flex-align: center;
               -ms-grid-row-align: center;
           align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032455}}
   #node-edit #edit-entity-recur #edit-entity-recur-until label {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032456}}
   #node-edit #edit-entity-recur #edit-entity-recur-until input {
     display: inline-block;
     width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032460}}
   #node-edit #edit-entity-recur #edit-entity-recur-until .description {
     display: inline-block;
     width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032469}}
 .page-admin-field-edit .field-name-field-phone label {
   min-width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032472}}
 .page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032475}}
 .page-admin-field-edit .field-name-field-phone .field-name-field-note label {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032480}}
 .page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032484}}
 .page-admin-field-edit .field-name-field-family-member-contacts .field-label label {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032485}}
 .page-admin-field-edit .field-name-field-family-member-contacts label {
   width: 100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032490}}
 .page-field-collection-field-family-member-contacts .field-label label {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032491}}
 .page-field-collection-field-family-member-contacts label {
   width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032494}}
 .page-field-collection-field-family-member-contacts .field-name-field-phone label {
   min-width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032496}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032497}}
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032500}}
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
   width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032506}}
 .page-field-collection-field-collection-mailing-address .form-item {
   margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032508}}
 .page-field-collection-field-collection-mailing-address .locality-block .form-item {
   width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032513}}
 .page-field-collection-field-phone label {
   min-width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032516}}
 .page-field-collection-field-phone .field-name-field-phone-number input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032519}}
 .page-field-collection-field-phone .field-name-field-note label {
   width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032524}}
 .pane-user-roles ul li {
   margin-left: 0;
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032528}}
 .pane-user-roles li.first {
   text-transform: capitalize; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032534}}
 .node-appointment .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
   padding: 10px;
   font-size: 1.2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032539}}
   .node-appointment .column-main .column-wrapper .field {
     margin-bottom: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032542}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032543}}
   .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032551}}
 .node-appointment-form .field-name-field-date-and-time .description {
   display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032552}}
 .node-appointment-form .field-name-field-date-and-time input[type="checkbox"] {
   width: auto;
   margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032557}}
 .node-appointment-form .field-name-field-date-and-time .date-no-float .form-item label {
   width: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032563}}
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
   width: 135px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032564}}
 .node-appointment-form .field-name-field-appointment-with input,
 .node-appointment-form .field-name-field-appointment-for input {
   width: calc(100% - 140px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032568}}
 .node-appointment-form .pane-node-form-publishing .pane-title {
   margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032569}}
 .node-appointment-form .pane-node-form-publishing .form-item-pubdate {
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032573}}
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item label {
     width: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032574}}
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item input {
     width: 10em;
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032578}}
   .node-appointment-form .pane-node-form-publishing .form-item-pubdate .form-item .description {
     width: auto;
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032587}}
 .node-appointment-form .pane-node-form-author .form-item-date {
   width: 100%; }
 
@@ -2983,143 +2986,143 @@ label[for="edit-pubdate"] {
   .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032596}}
 .node-loan-form .pane-node-form-title {
   width: -webkit-calc(100% - 101px);
   float: left;
   margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032600}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032601}}
 .node-loan-form .pane-node-field-used-diy-form {
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032605}}
 .node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032610}}
 .node-loan-form .field-name-field-bwma-loan-program {
   clear: both;
   display: inline-block;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032614}}
   .node-loan-form .field-name-field-bwma-loan-program .form-radios .form-item {
     float: left;
     width: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032620}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032621}}
 .node-loan-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032625}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032626}}
 .node-loan-form .field-name-field-deferred-fee-amount {
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032632}}
 .node-loan-form .field-name-field-additional-extra-principal input,
 .node-loan-form .field-name-field-debit-amount-advanced-by-s input,
 .node-loan-form .field-name-field-debit-advanced-by-afts-amo input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032638}}
 .node-loan-form .loan-lenders .field-name-field-lender .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032640}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032641}}
   .node-loan-form .loan-lenders .field-name-field-lender .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 114px;
         -ms-flex: 0 0 114px;
             flex: 0 0 114px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032642}}
   .node-loan-form .loan-lenders .field-name-field-lender .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032643}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032644}}
 .node-loan-form .loan-lenders label {
   width: 110px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032645}}
 .node-loan-form .loan-lenders input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032647}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032648}}
 .node-loan-form .loan-sb .field-name-field-service-bureau .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032651}}
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 184px;
         -ms-flex: 0 0 184px;
             flex: 0 0 184px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032652}}
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032653}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032654}}
 .node-loan-form .loan-sb label {
   width: 180px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032654}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032655}}
 .node-loan-form .loan-sb input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032659}}
 .node-loan-form .afts-advance label {
   width: 287px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032659}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032660}}
 .node-loan-form .afts-advance input {
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032664}}
 .node-loan-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
 .node-loan-form .afts-advance .field-name-field-chargeback-fee-amount label {
   margin-right: -12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032671}}
 .node-loan-form .field-name-field-collection-status .field-name-field-status,
 .node-loan-form .field-name-field-collection-status .field-name-field-date {
   float: left;
   width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032677}}
 .node-loan-form .field-name-field-collection-status .field-name-field-status .description {
   display: inline-block;
   width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032682}}
 .node-loan-form .field-name-field-collection-status .field-name-field-note {
   clear: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032687}}
 .node-loan-form .loan-chaos-data {
   clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032690}}
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032696}}
 .basic-options {
   display: inline-block;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032699}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032700}}
 .advanced-options {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032703}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032704}}
   .advanced-options #edit-secondary.collapsed {
     width: 132px;
     margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032707}}
     .advanced-options #edit-secondary.collapsed .fieldset-title {
       white-space: nowrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032712}}
   .advanced-options .bef-secondary-options {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032717}}
 .password-strength {
   width: 100%; }
 
