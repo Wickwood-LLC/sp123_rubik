@@ -2433,6 +2433,12 @@ label[for="edit-pubdate"] {
 }
 
 #node-edit #edit-entity-recur {
+  .form-item-entity-recur-rules-frequency,
+  .form-item-entity-recur-rules-period {
+    display: inline-block;
+    width: auto;
+  }
+
   .form-item-entity-recur-until {
     display: inline-block;
     margin-top: 10px;
