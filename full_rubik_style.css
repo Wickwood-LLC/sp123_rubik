@@ -1227,7 +1227,7 @@ ul.field-collection-view-links {
       margin-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031441}}
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name .form-item,
-.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-ocuupation-or-title .form-item {
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1242,14 +1242,14 @@ ul.field-collection-view-links {
           flex-flow: row wrap; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031447}}
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name label,
-.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-ocuupation-or-title label {
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 140px;
       -ms-flex: 0 0 140px;
           flex: 0 0 140px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031450}}
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name input,
-.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-ocuupation-or-title input {
+.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 calc(100% - 140px);
       -ms-flex: 1 1 calc(100% - 140px);
@@ -1814,7 +1814,7 @@ table.field-multiple-table tr.draggable {
     margin-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031705}}
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
-.page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-ocuupation-or-title .form-item {
+.page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1829,14 +1829,14 @@ table.field-multiple-table tr.draggable {
           flex-flow: row wrap; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031711}}
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name label,
-.page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-ocuupation-or-title label {
+.page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 186px;
       -ms-flex: 0 0 186px;
           flex: 0 0 186px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031714}}
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name input,
-.page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-ocuupation-or-title input {
+.page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 calc(100% - 186px);
       -ms-flex: 1 1 calc(100% - 186px);
@@ -1863,7 +1863,7 @@ table.field-multiple-table tr.draggable {
     margin-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031734}}
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
-.page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-ocuupation-or-title .form-item {
+.page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1878,14 +1878,14 @@ table.field-multiple-table tr.draggable {
           flex-flow: row wrap; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031740}}
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name label,
-.page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-ocuupation-or-title label {
+.page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 220px;
       -ms-flex: 0 0 220px;
           flex: 0 0 220px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000031743}}
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name input,
-.page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-ocuupation-or-title input {
+.page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 calc(100% - 220px);
       -ms-flex: 1 1 calc(100% - 220px);
