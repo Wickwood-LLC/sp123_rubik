@@ -2432,10 +2432,11 @@ label[for="edit-pubdate"] {
   }
 }
 
-#edit-entity-recur {
+#node-edit #edit-entity-recur {
   .form-item-entity-recur-until {
     display: inline-block;
     margin-top: 10px;
+    width: 100%;
 
     label { padding: 0; }
 
