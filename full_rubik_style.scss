@@ -2450,7 +2450,14 @@ label[for="edit-pubdate"] {
   align-items: center;
 
   label { display: none; }
-  .description { width: 200px; }
+  input {     
+    display: inline-block;
+    width: auto;
+  }
+  .description { 
+    display: inline-block;
+    width: auto;
+  }
 }
 
 .page-admin-field-edit {
