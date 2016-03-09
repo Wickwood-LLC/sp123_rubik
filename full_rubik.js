@@ -26,10 +26,10 @@
           $('div[id*="edit-actions"]').width(buttonWidth);      // reset button width
 
           if (stickyTop > currentPosition) {
-            $('div[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+            $('div[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });
           }
           else if ((stickyTop - windowTop) < 0) {
-            $('div[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
+            $('div[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: $(this).parent().width() });
           }
           else {
             $('div[id*="edit-actions"]').css('position','static');
