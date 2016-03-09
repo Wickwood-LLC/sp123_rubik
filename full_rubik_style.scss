@@ -2436,6 +2436,8 @@ label[for="edit-pubdate"] {
   display: inline-block;
   margin-top: 10px;
 
+  label { padding: 0; }
+
   label, .description {
     display: inline-block;
     vertical-align: middle;
@@ -2444,7 +2446,7 @@ label[for="edit-pubdate"] {
 }
 
 #edit-entity-recur-until {
-  display: flex;
+  display: inline-block;
   align-items: center;
 
   label { display: none; }
