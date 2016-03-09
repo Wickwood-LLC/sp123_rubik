@@ -2432,31 +2432,33 @@ label[for="edit-pubdate"] {
   }
 }
 
-.form-item-entity-recur-until {
-  display: inline-block;
-  margin-top: 10px;
-
-  label { padding: 0; }
-
-  label, .description {
+#edit-entity-recur {
+  .form-item-entity-recur-until {
     display: inline-block;
-    vertical-align: middle;
+    margin-top: 10px;
+
+    label { padding: 0; }
+
+    label, .description {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .form-required { display: none; }
   }
-  .form-required { display: none; }
-}
 
-#edit-entity-recur-until {
-  display: inline-block;
-  align-items: center;
+  #edit-entity-recur-until {
+    display: inline-block;
+    align-items: center;
 
-  label { display: none; }
-  input {     
-    display: inline-block;
-    width: auto;
-  }
-  .description { 
-    display: inline-block;
-    width: auto;
+    label { display: none; }
+    input {     
+      display: inline-block;
+      width: auto;
+    }
+    .description { 
+      display: inline-block;
+      width: auto;
+    }
   }
 }
 
