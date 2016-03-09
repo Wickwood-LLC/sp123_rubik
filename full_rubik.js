@@ -23,10 +23,13 @@
           var currentPosition = windowTop + windowHeight;
 
           $('[id*="edit-actions"]').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-          $('[id*="edit-actions"]').css('width', buttonWidth);      // reset button width
+          $('[id*="edit-actions"]').width(buttonWidth);      // reset button width
 
           if (stickyTop > currentPosition) {
-            $('[id*="edit-actions"]').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+            $('[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+          }
+          else if ((stickyTop - windowTop) < 0) {
+            $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
           }
           else {
             $('[id*="edit-actions"]').css('position','static');
@@ -37,7 +40,10 @@
             var currentPosition = windowTop + windowHeight;
     
             if (stickyTop > currentPosition) {
-              $('[id*="edit-actions"]').css({ position: 'fixed', bottom: 0, width: buttonWidth });
+              $('[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+            }
+            else if ((stickyTop - windowTop) < 0) {
+              $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
             }
             else {
               $('[id*="edit-actions"]').css('position','static');
