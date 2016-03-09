@@ -2409,6 +2409,18 @@ form .tabs {
   }
 }
 
+.form-item-path-alias {
+  display: flex;
+  flex-flow: row wrap;
+
+  label, span {
+    flex: 0 auto;
+  }
+  input {
+    flex: 1 auto;
+  }
+}
+
 .page-admin-field-edit {
   .field-name-field-phone {
     label { min-width: 100px; }
