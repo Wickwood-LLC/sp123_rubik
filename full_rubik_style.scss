@@ -2432,14 +2432,23 @@ label[for="edit-pubdate"] {
   }
 }
 
-.form-item-entity-recur-until,
-.form-item-entity-recur-until-date {
+.form-item-entity-recur-until {
   display: flex !important;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 10px;
+
+  label { width: 125px; }
+  .form-required { display: none; }
+}
+
+.form-item-entity-recur-until-date {
+  display: flex;
+  flex-flow: row wrap;
   align-items: center;
 
-  .form-required {
-    display: none;
-  }
+  label { display: none; }
+  .description { width: 200px; }
 }
 
 .page-admin-field-edit {
