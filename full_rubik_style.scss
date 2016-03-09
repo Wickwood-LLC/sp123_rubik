@@ -2433,18 +2433,19 @@ label[for="edit-pubdate"] {
 }
 
 .form-item-entity-recur-until {
-  display: flex !important;
-  flex-flow: row wrap;
+  display: flex;
   align-items: center;
   margin-top: 10px;
 
-  label { width: 125px; }
+  label { 
+    padding: 0;
+    width: 125px;
+  }
   .form-required { display: none; }
 }
 
 .form-item-entity-recur-until-date {
   display: flex;
-  flex-flow: row wrap;
   align-items: center;
 
   label { display: none; }
