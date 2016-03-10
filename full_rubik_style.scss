@@ -2481,6 +2481,14 @@ label[for="edit-pubdate"] {
     }
   }
 
+  .field-name-field-date-and-time {
+    .description {  display: none;  }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
+    }
+  }
+
   .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
     .form-item { 
       display: inline-block; 
@@ -2589,17 +2597,6 @@ label[for="edit-pubdate"] {
 }
 
 .node-appointment-form {
-  .field-name-field-date-and-time {
-    .description {  display: none;  }
-    input[type="checkbox"] {
-      width: auto;
-      margin-right: 5px;
-    }
-    .date-no-float .form-item {
-      label { width: 50px; }
-    }
-  }
-
   .field-name-field-appointment-with,
   .field-name-field-appointment-for {
     label { width: 135px; }
