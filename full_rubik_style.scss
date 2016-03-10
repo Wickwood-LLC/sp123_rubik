@@ -456,6 +456,13 @@ div#toolbar div.toolbar-shortcuts ul {
     min-width: 200px;
     float: left;
   }
+
+  .field-name-field-business-contacts {
+    .field-name-field-family-contact,
+    .field-name-field-email {
+      .field-items { margin-left: 0; }
+    }
+  }
 }
 
 .view-clients,
