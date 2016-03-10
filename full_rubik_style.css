@@ -3143,7 +3143,7 @@ label[for="edit-pubdate"] {
 .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .form-item {
   display: inline-block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032742}}
-.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .date-no-float {
+.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .date-float {
   width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032744}}
 .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .start-date-wrapper, .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper {
