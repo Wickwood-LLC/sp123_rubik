@@ -2442,40 +2442,66 @@ label[for="edit-pubdate"] {
   }
 }
 
-#node-edit #edit-entity-recur {
-  .form-item-entity-recur-rules-frequency,
-  .form-item-entity-recur-rules-period {
-    display: inline-block;
-    width: auto;
-  }
-
-  .form-item-entity-recur-until {
-    display: inline-block;
-    margin-top: 10px;
-    width: 100%;
-
-    label { padding: 0; }
-
-    label, .description {
-      display: inline-block;
-      vertical-align: middle;
-    }
-    .description { width: 235px; }
-    .form-required { display: none; }
-  }
-
-  #edit-entity-recur-until {
-    display: inline-block;
-    align-items: center;
-
-    label { display: none; }
-    input {     
+#node-edit {
+  #edit-entity-recur {
+    .form-item-entity-recur-rules-frequency,
+    .form-item-entity-recur-rules-period {
       display: inline-block;
       width: auto;
     }
-    .description { 
+
+    .form-item-entity-recur-until {
       display: inline-block;
+      margin-top: 10px;
+      width: 100%;
+
+      label { padding: 0; }
+
+      label, .description {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .description { width: 235px; }
+      .form-required { display: none; }
+    }
+
+    #edit-entity-recur-until {
+      display: inline-block;
+      align-items: center;
+
+      label { display: none; }
+      input {     
+        display: inline-block;
+        width: auto;
+      }
+      .description { 
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
+
+  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
+    .form-item { 
+      display: inline-block; 
+    }
+
+    .date-float { width: 100%; }
+
+    .start-date-wrapper, .end-date-wrapper {
+      display: inline-block; 
       width: auto;
+
+      .date-padding {
+        border: 1px solid #CCCCCC;
+        padding: 5px;
+        margin: 5px 0 0 5px;
+      }
+    }
+
+    .end-date-wrapper {
+      label, .date-padding { display: inline-block; }
+      label { padding: 0; }
     }
   }
 }
@@ -2732,28 +2758,4 @@ label[for="edit-pubdate"] {
 
 .password-strength {
   width: 100%;
-}
-
-.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
-  .form-item { 
-    display: inline-block; 
-  }
-
-  .date-float { width: 100%; }
-
-  .start-date-wrapper, .end-date-wrapper {
-    display: inline-block; 
-    width: auto;
-
-    .date-padding {
-      border: 1px solid #CCCCCC;
-      padding: 5px;
-      margin: 5px 0 0 5px;
-    }
-  }
-
-  .end-date-wrapper {
-    label, .date-padding { display: inline-block; }
-    label { padding: 0; }
-  }
 }
