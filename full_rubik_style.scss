@@ -2734,4 +2734,18 @@ label[for="edit-pubdate"] {
   width: 100%;
 }
 
-.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .form-item { display: inline-block; }
+.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
+  .form-item { 
+    display: inline-block; 
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    margin: 5px 0 0 5px;
+  }
+
+  .end-date-wrapper {
+    display: inline-block;
+
+    label, .date-padding { display: inline-block; }
+    label { padding: 0; }
+  }
+}
