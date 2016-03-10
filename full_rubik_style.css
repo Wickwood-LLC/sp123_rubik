@@ -3142,17 +3142,17 @@ label[for="edit-pubdate"] {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032738}}
 .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .form-item {
   display: inline-block;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #CCCCCC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032743}}
+.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .start-date-wrapper, .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper {
   padding: 5px;
-  margin: 5px 0 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032745}}
-.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper {
+  margin: 5px 0 0 5px;
+  width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032750}}
+.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label, .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032748}}
-  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label, .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
-    display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032749}}
-  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label {
-    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032751}}
+.field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label {
+  padding: 0; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */

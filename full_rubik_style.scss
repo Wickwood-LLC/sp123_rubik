@@ -2738,13 +2738,15 @@ label[for="edit-pubdate"] {
   .form-item { 
     display: inline-block; 
     border: 1px solid #CCCCCC;
+  }
+
+  .start-date-wrapper, .end-date-wrapper {
     padding: 5px;
     margin: 5px 0 0 5px;
+    width: auto;
   }
 
   .end-date-wrapper {
-    display: inline-block;
-
     label, .date-padding { display: inline-block; }
     label { padding: 0; }
   }
