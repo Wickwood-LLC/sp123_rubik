@@ -2431,6 +2431,9 @@ form .tabs {
 label[for="edit-pubdate"] {
   padding-left: 0;
 }
+#edit-pubdate {
+  margin-left: 10px;
+}
 
 #edit-entity-recur-days {
   .form-item {
@@ -2729,4 +2732,8 @@ label[for="edit-pubdate"] {
 
 .password-strength {
   width: 100%;
+}
+
+.field-name-field-date-and-time {
+  .form-item { display: inline-block; }
 }
