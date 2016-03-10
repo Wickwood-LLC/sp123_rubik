@@ -2739,12 +2739,16 @@ label[for="edit-pubdate"] {
     display: inline-block; 
   }
 
+  .date-no-float { width: 100%; }
+
   .start-date-wrapper, .end-date-wrapper {
-    display: inline-block; 
-    border: 1px solid #CCCCCC;
-    padding: 5px;
-    margin: 5px 0 0 5px;
-    width: auto;
+    .form-item {
+      display: inline-block; 
+      border: 1px solid #CCCCCC;
+      padding: 5px;
+      margin: 5px 0 0 5px;
+      width: auto;
+    }
   }
 
   .end-date-wrapper {
