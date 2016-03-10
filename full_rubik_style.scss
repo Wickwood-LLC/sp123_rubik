@@ -2512,6 +2512,29 @@ label[for="edit-pubdate"] {
       label { padding: 0; }
     }
   }
+
+  .pane-node-form-publishing {
+    .pane-title { margin-bottom: 0; }
+    .form-item-pubdate {
+      width: 100%;
+  
+      .form-item {
+        label { width: 40px; }
+        input { 
+          width: 10em;
+          display: inline-block;
+        }
+        .description {
+          width: auto;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .pane-node-form-author {
+    .form-item-date { width: 100%; }
+  }
 }
 
 .page-admin-field-edit {
@@ -2601,29 +2624,6 @@ label[for="edit-pubdate"] {
   .field-name-field-appointment-for {
     label { width: 135px; }
     input { width: calc(100% - 140px); }
-  }
-
-  .pane-node-form-publishing {
-    .pane-title { margin-bottom: 0; }
-    .form-item-pubdate {
-      width: 100%;
-  
-      .form-item {
-        label { width: 40px; }
-        input { 
-          width: 10em;
-          display: inline-block;
-        }
-        .description {
-          width: auto;
-          display: inline-block;
-        }
-      }
-    }
-  }
-
-  .pane-node-form-author {
-    .form-item-date { width: 100%; }
   }
 }
 
