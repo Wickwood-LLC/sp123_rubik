@@ -2737,10 +2737,11 @@ label[for="edit-pubdate"] {
 .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
   .form-item { 
     display: inline-block; 
-    border: 1px solid #CCCCCC;
   }
 
   .start-date-wrapper, .end-date-wrapper {
+    display: inline-block; 
+    border: 1px solid #CCCCCC;
     padding: 5px;
     margin: 5px 0 0 5px;
     width: auto;
