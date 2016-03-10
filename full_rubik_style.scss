@@ -2742,12 +2742,13 @@ label[for="edit-pubdate"] {
   .date-no-float { width: 100%; }
 
   .start-date-wrapper, .end-date-wrapper {
+    display: inline-block; 
+    width: auto;
+
     .form-item {
-      display: inline-block; 
       border: 1px solid #CCCCCC;
       padding: 5px;
       margin: 5px 0 0 5px;
-      width: auto;
     }
   }
 
