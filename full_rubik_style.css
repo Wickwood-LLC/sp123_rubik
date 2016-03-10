@@ -3150,7 +3150,7 @@ label[for="edit-pubdate"] {
   display: inline-block;
   width: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/7d-wwm-panopoly-profile-da-sites-4\.23\/7d-wwm-panopoly-profile-da-sites-4\.23\/sites\/dev\.3\.bwma\.info\/themes\/full_rubik\/full_rubik_style\.scss}line{font-family:\000032748}}
-  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .start-date-wrapper .form-item, .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper .form-item {
+  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .start-date-wrapper .date-padding, .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
     border: 1px solid #CCCCCC;
     padding: 5px;
     margin: 5px 0 0 5px; }
