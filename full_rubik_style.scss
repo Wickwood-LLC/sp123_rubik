@@ -442,7 +442,7 @@ body.tao {
   color: black;
 }
 
-body:not(.page-admin) {
+body:not(.page-admin):not(.page-node-edit) {
   .field-name-field-phone-number,
   .field-name-field-deferred-fee-amount,
   .pane-user-field-ss-or-ein,

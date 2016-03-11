@@ -133,42 +133,42 @@ body.tao {
   color: black; }
 
 /* line 446, full_rubik_style.scss */
-body:not(.page-admin) .field-name-field-phone-number,
-body:not(.page-admin) .field-name-field-deferred-fee-amount,
-body:not(.page-admin) .pane-user-field-ss-or-ein,
-body:not(.page-admin) .field-name-field-ss-or-ein {
+body:not(.page-admin):not(.page-node-edit) .field-name-field-phone-number,
+body:not(.page-admin):not(.page-node-edit) .field-name-field-deferred-fee-amount,
+body:not(.page-admin):not(.page-node-edit) .pane-user-field-ss-or-ein,
+body:not(.page-admin):not(.page-node-edit) .field-name-field-ss-or-ein {
   display: inline-block; }
 /* line 452, full_rubik_style.scss */
-body:not(.page-admin) .field-name-field-phone-type,
-body:not(.page-admin) .field-name-field-identification {
+body:not(.page-admin):not(.page-node-edit) .field-name-field-phone-type,
+body:not(.page-admin):not(.page-node-edit) .field-name-field-identification {
   display: inline-block;
   font-weight: bold; }
   /* line 457, full_rubik_style.scss */
-  body:not(.page-admin) .field-name-field-phone-type .field-items,
-  body:not(.page-admin) .field-name-field-identification .field-items {
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-phone-type .field-items,
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-identification .field-items {
     display: inline-block; }
   /* line 460, full_rubik_style.scss */
-  body:not(.page-admin) .field-name-field-phone-type:after,
-  body:not(.page-admin) .field-name-field-identification:after {
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-phone-type:after,
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-identification:after {
     content: ':\00a0'; }
   /* line 464, full_rubik_style.scss */
-  body:not(.page-admin) .field-name-field-phone-type > .field-items,
-  body:not(.page-admin) .field-name-field-identification > .field-items {
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-phone-type > .field-items,
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-identification > .field-items {
     margin-left: 0; }
 /* line 466, full_rubik_style.scss */
-body:not(.page-admin) .field-name-field-phone-type {
+body:not(.page-admin):not(.page-node-edit) .field-name-field-phone-type {
   width: 70px; }
 /* line 470, full_rubik_style.scss */
-body:not(.page-admin) .field-name-field-accept-text-messages .field-label {
+body:not(.page-admin):not(.page-node-edit) .field-name-field-accept-text-messages .field-label {
   width: 160px; }
 /* line 473, full_rubik_style.scss */
-body:not(.page-admin) .field-name-field-address-type {
+body:not(.page-admin):not(.page-node-edit) .field-name-field-address-type {
   font-weight: bold; }
   /* line 476, full_rubik_style.scss */
-  body:not(.page-admin) .field-name-field-address-type .field-items {
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-address-type .field-items {
     display: inline-block; }
   /* line 477, full_rubik_style.scss */
-  body:not(.page-admin) .field-name-field-address-type:after {
+  body:not(.page-admin):not(.page-node-edit) .field-name-field-address-type:after {
     content: ':'; }
 
 /* line 481, full_rubik_style.scss */
