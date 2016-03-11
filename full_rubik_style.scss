@@ -1052,6 +1052,10 @@ body.maintenance-page {
   }
 }
 
+.node-type-loan {
+  @extend .field-name-field-loans;
+}
+
 .node-type-press-release.panelized-node {
   h1.page-title {
     text-align: center;

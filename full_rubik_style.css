@@ -927,184 +927,210 @@ ul.field-collection-view-links {
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag input {
   flex: 1 1 calc(100% - 140px);
   min-width: 200px; }
-.page-user-edit-bwma-client .field-name-field-loans tr {
+.page-user-edit-bwma-client .field-name-field-loans tr, .page-user-edit-bwma-client .node-type-loan tr {
   border: 1px solid #CCCCCC;
   border-width: 0 1px 0 1px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form * {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form *, .page-user-edit-bwma-client .node-type-loan .ief-form * {
   box-sizing: border-box; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-title"], .page-user-edit-bwma-client .node-type-loan .ief-form div[class*="form-title"] {
   display: inline; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-used-diy-form {
   display: inline-block; }
 @media (min-width: 0px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-debit-info,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .deferred-enrolment-fees {
     width: 100%;
     margin-right: 0;
     float: none; } }
 @media (min-width: 780px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-debit-info,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .deferred-enrolment-fees {
     display: block;
     width: 49%;
     margin-right: 1%;
     float: left;
     clear: left; } }
 @media (min-width: 992px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-debit-info,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .deferred-enrolment-fees {
     width: 100%;
     margin-right: 0;
     float: none; } }
 @media (min-width: 1280px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-debit-info, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-debit-info,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .deferred-enrolment-fees {
     display: block;
     width: 49%;
     margin-right: 1%;
     float: left;
     clear: left; } }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-notes {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-notes, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-notes {
   clear: both;
   width: 100%; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-bwma-loan-program {
   clear: both;
   display: inline-block;
   width: 100%; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program .form-radios .form-item {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program .form-radios .form-item, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-bwma-loan-program .form-radios .form-item {
     float: left;
     width: 150px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-total-deferred-enrollment- input {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-total-deferred-enrollment- input, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fee-amount {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fee-amount, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-deferred-fee-amount {
   width: 100%; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-additional-extra-principal input,
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-amount-advanced-by-s input,
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-advanced-by-afts-amo input {
+.page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-debit-amount-advanced-by-s input,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-advanced-by-afts-amo input,
+.page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-debit-advanced-by-afts-amo input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status,
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-date {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-collection-status .field-name-field-status,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-date,
+.page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-collection-status .field-name-field-date {
   float: left;
   width: 50%; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status .description {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status .description, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-collection-status .field-name-field-status .description {
   display: inline-block;
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-note {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-note, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-collection-status .field-name-field-note {
   clear: left; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-welcome-package-note {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-welcome-package-note, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-welcome-package-note {
   clear: left; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee-notes .field-name-field-note {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee-notes .field-name-field-note, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-debit-fee-notes .field-name-field-note {
   clear: left; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-amount input {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-amount input, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-amount input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-address .form-item {
   display: flex;
   align-items: center; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item label {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item label, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-address .form-item label {
     flex: 0 0 60px; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item input {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item input, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-address .form-item input {
     flex: auto; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item select {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item select, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-address .form-item select {
     width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-loan-type .form-item {
   display: flex;
   align-items: center; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item label {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item label, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-loan-type .form-item label {
     flex: 0 0 70px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-monthly-payment input,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-monthly-payment input, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-monthly-payment input,
 .page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee input {
+.page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-additional-extra-principal input,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee input,
+.page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-debit-fee input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule .form-radios .form-item {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule .form-radios .form-item, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance label {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance label, .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance label {
   width: 287px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance input {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance input, .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-chargeback-fee-amount label {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label, .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-chargeback-fee-amount label,
+.page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance .field-name-field-chargeback-fee-amount label {
   margin-right: -12px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees label {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees label, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-deferred-fees label {
   width: 162px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees input {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees input, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-deferred-fees input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees .field-name-field-deferred-fee-amount label {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees .field-name-field-deferred-fee-amount label, .page-user-edit-bwma-client .node-type-loan .ief-form .field-name-field-deferred-fees .field-name-field-deferred-fee-amount label {
   margin-right: -12px; }
 @media (min-width: 0px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment, .page-user-edit-bwma-client .node-type-loan .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+  .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-status-history {
     display: block;
     width: 100%;
     margin-left: 0; } }
 @media (min-width: 780px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment, .page-user-edit-bwma-client .node-type-loan .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+  .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-status-history {
     display: inline-block;
     width: 49%;
     margin-left: 1%; } }
 @media (min-width: 992px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment, .page-user-edit-bwma-client .node-type-loan .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+  .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-status-history {
     display: block;
     width: 100%;
     margin-left: 0; } }
 @media (min-width: 1280px) {
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .bwma-enrolment, .page-user-edit-bwma-client .node-type-loan .ief-form .bwma-enrolment,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb,
   .page-user-edit-bwma-client .field-name-field-loans .ief-form .afts-advance,
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+  .page-user-edit-bwma-client .node-type-loan .ief-form .afts-advance,
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history,
+  .page-user-edit-bwma-client .node-type-loan .ief-form .loan-status-history {
     display: inline-block;
     width: 49%;
     margin-left: 1%; } }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-status-history, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-status-history {
   float: right; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-chaos-data {
   clear: both; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data .form-item input {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-chaos-data .form-item input, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-chaos-data .form-item input {
     width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders .field-name-field-lender .form-item {
   display: flex; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders .field-name-field-lender .form-item label {
     flex: 0 0 114px; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders .field-name-field-lender .form-item input {
     flex: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders label, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders label {
   width: 110px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders input {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders input, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-lenders input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb .field-name-field-service-bureau .form-item {
   display: flex; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
     flex: 0 0 184px; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
     flex: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb label {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb label, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb label {
   width: 180px; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb input {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb input, .page-user-edit-bwma-client .node-type-loan .ief-form .loan-sb input {
   width: auto; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed, .page-user-edit-bwma-client .node-type-loan .ief-form .boxed {
   position: relative; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed h3 {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form .boxed h3, .page-user-edit-bwma-client .node-type-loan .ief-form .boxed h3 {
     position: absolute;
     top: -11px;
     background: white;
     padding: 0 0.5em; }
-.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio {
+.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio, .page-user-edit-bwma-client .node-type-loan .ief-form div[class*="form-status"] .form-type-radio {
   display: inline-block;
   padding: 5px; }
-  .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
+  .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label, .page-user-edit-bwma-client .node-type-loan .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
 .page-user-view-bwma-client .pane-client-additional-id-info .field .field-label {
@@ -1482,46 +1508,51 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   display: none; }
 .page-user-view .client-notes .field-name-field-note {
   clear: both; }
-.page-user-view .field-name-field-loans .node-loan,
-.page-user-view .field-name-field-loans .boxed {
+.page-user-view .field-name-field-loans .node-loan, .page-user-view .node-type-loan .node-loan,
+.page-user-view .field-name-field-loans .boxed,
+.page-user-view .node-type-loan .boxed {
   position: relative; }
-  .page-user-view .field-name-field-loans .node-loan h3,
-  .page-user-view .field-name-field-loans .boxed h3 {
+  .page-user-view .field-name-field-loans .node-loan h3, .page-user-view .node-type-loan .node-loan h3,
+  .page-user-view .field-name-field-loans .boxed h3,
+  .page-user-view .node-type-loan .boxed h3 {
     position: absolute;
     margin-left: 0;
     padding: 0 1em;
     background: white;
     top: -10px; }
-.page-user-view .field-name-field-loans .pane-loan-debit-information .field-label {
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-label, .page-user-view .node-type-loan .pane-loan-debit-information .field-label {
   width: 250px; }
-.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes > .field-items {
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes > .field-items, .page-user-view .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes > .field-items {
   width: 100%; }
-.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-collection-item-field-debit-fee-notes {
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-collection-item-field-debit-fee-notes, .page-user-view .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes .field-collection-item-field-debit-fee-notes {
   margin-right: 2em; }
-  .page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-collection-item-field-debit-fee-notes .field-name-field-note {
+  .page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-collection-item-field-debit-fee-notes .field-name-field-note, .page-user-view .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes .field-collection-item-field-debit-fee-notes .field-name-field-note {
     clear: both; }
-.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-date .field-label,
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-date .field-label, .page-user-view .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-date .field-label,
 .page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-staff-user .field-label,
-.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-note .field-label {
+.page-user-view .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-staff-user .field-label,
+.page-user-view .field-name-field-loans .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-note .field-label,
+.page-user-view .node-type-loan .pane-loan-debit-information .field-name-field-debit-fee-notes .field-name-field-note .field-label {
   width: auto; }
-.page-user-view .field-name-field-loans .pane-node-field-deferred-enrollment-fees .field-label {
+.page-user-view .field-name-field-loans .pane-node-field-deferred-enrollment-fees .field-label, .page-user-view .node-type-loan .pane-node-field-deferred-enrollment-fees .field-label {
   width: 270px; }
-.page-user-view .field-name-field-loans .pane-node-field-lenders .field-label {
+.page-user-view .field-name-field-loans .pane-node-field-lenders .field-label, .page-user-view .node-type-loan .pane-node-field-lenders .field-label {
   width: 120px; }
-.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-label {
+.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-label, .page-user-view .node-type-loan .pane-bwma-enrolment .field-label {
   width: 165px; }
-.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-sent-date .field-label,
-.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-note .field-label {
+.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-sent-date .field-label, .page-user-view .node-type-loan .pane-bwma-enrolment .field-name-field-welcome-package-sent-date .field-label,
+.page-user-view .field-name-field-loans .pane-bwma-enrolment .field-name-field-welcome-package-note .field-label,
+.page-user-view .node-type-loan .pane-bwma-enrolment .field-name-field-welcome-package-note .field-label {
   width: 70px; }
-.page-user-view .field-name-field-loans .pane-afts-advance .field-label {
+.page-user-view .field-name-field-loans .pane-afts-advance .field-label, .page-user-view .node-type-loan .pane-afts-advance .field-label {
   width: 280px; }
-.page-user-view .field-name-field-loans .pane-node-field-collection-status .field-label {
+.page-user-view .field-name-field-loans .pane-node-field-collection-status .field-label, .page-user-view .node-type-loan .pane-node-field-collection-status .field-label {
   width: 90px; }
-.page-user-view .field-name-field-loans .pane-node-field-collection-status .field-name-field-note .field-label {
+.page-user-view .field-name-field-loans .pane-node-field-collection-status .field-name-field-note .field-label, .page-user-view .node-type-loan .pane-node-field-collection-status .field-name-field-note .field-label {
   width: auto; }
-.page-user-view .field-name-field-loans .pane-node-field-service-bureaus .field-label {
+.page-user-view .field-name-field-loans .pane-node-field-service-bureaus .field-label, .page-user-view .node-type-loan .pane-node-field-service-bureaus .field-label {
   width: 190px; }
-.page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
+.page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label, .page-user-view .node-type-loan .pane-loan-chaos-data .field-label {
   width: 225px; }
 .page-user-view .pane-consultant-additional-id-info .field .field-label {
   min-width: 210px; }
