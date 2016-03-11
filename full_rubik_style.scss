@@ -1320,32 +1320,34 @@ div.panel-pane div.node.boxed {
 
 .page-user-view,
 .page-user {
-  .field-name-field-phone-type,
-  .field-name-field-identification {
-    display: inline-block;
-    font-weight: bold;
-
-    .field-items {
-      display: inline-block;
-    }
-    &:after {
-      content: ':\00a0';
-    }
-
-    >.field-items { margin-left: 0; }
-  }
-  .field-name-field-phone-type {
-    width: 70px;
-  }
-  .field-name-field-accept-text-messages {
-    .field-label {  width: 160px; }
-  }
+  
 }
+
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount,
 .pane-user-field-ss-or-ein,
 .field-name-field-ss-or-ein {
   display: inline-block;
+}
+.field-name-field-phone-type,
+.field-name-field-identification {
+  display: inline-block;
+  font-weight: bold;
+
+  .field-items {
+    display: inline-block;
+  }
+  &:after {
+    content: ':\00a0';
+  }
+
+  >.field-items { margin-left: 0; }
+}
+.field-name-field-phone-type {
+  width: 70px;
+}
+.field-name-field-accept-text-messages {
+  .field-label {  width: 160px; }
 }
 
 .pane-chaos-data .field-label-inline .field-label,

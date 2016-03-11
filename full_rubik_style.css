@@ -1058,204 +1058,196 @@ div.panel-pane div.node.boxed {
 .page-user-view .pane-staff-information-profile .field-label-inline .field-label {
   width: 105px; }
 
-/* line 1323, full_rubik_style.scss */
-.page-user-view .field-name-field-phone-type,
-.page-user-view .field-name-field-identification,
-.page-user .field-name-field-phone-type,
-.page-user .field-name-field-identification {
-  display: inline-block;
-  font-weight: bold; }
-  /* line 1328, full_rubik_style.scss */
-  .page-user-view .field-name-field-phone-type .field-items,
-  .page-user-view .field-name-field-identification .field-items,
-  .page-user .field-name-field-phone-type .field-items,
-  .page-user .field-name-field-identification .field-items {
-    display: inline-block; }
-  /* line 1331, full_rubik_style.scss */
-  .page-user-view .field-name-field-phone-type:after,
-  .page-user-view .field-name-field-identification:after,
-  .page-user .field-name-field-phone-type:after,
-  .page-user .field-name-field-identification:after {
-    content: ':\00a0'; }
-  /* line 1335, full_rubik_style.scss */
-  .page-user-view .field-name-field-phone-type > .field-items,
-  .page-user-view .field-name-field-identification > .field-items,
-  .page-user .field-name-field-phone-type > .field-items,
-  .page-user .field-name-field-identification > .field-items {
-    margin-left: 0; }
-/* line 1337, full_rubik_style.scss */
-.page-user-view .field-name-field-phone-type,
-.page-user .field-name-field-phone-type {
-  width: 70px; }
-/* line 1341, full_rubik_style.scss */
-.page-user-view .field-name-field-accept-text-messages .field-label,
-.page-user .field-name-field-accept-text-messages .field-label {
-  width: 160px; }
-
-/* line 1344, full_rubik_style.scss */
+/* line 1326, full_rubik_style.scss */
 .field-name-field-phone-number,
 .field-name-field-deferred-fee-amount,
 .pane-user-field-ss-or-ein,
 .field-name-field-ss-or-ein {
   display: inline-block; }
 
-/* line 1351, full_rubik_style.scss */
+/* line 1332, full_rubik_style.scss */
+.field-name-field-phone-type,
+.field-name-field-identification {
+  display: inline-block;
+  font-weight: bold; }
+  /* line 1337, full_rubik_style.scss */
+  .field-name-field-phone-type .field-items,
+  .field-name-field-identification .field-items {
+    display: inline-block; }
+  /* line 1340, full_rubik_style.scss */
+  .field-name-field-phone-type:after,
+  .field-name-field-identification:after {
+    content: ':\00a0'; }
+  /* line 1344, full_rubik_style.scss */
+  .field-name-field-phone-type > .field-items,
+  .field-name-field-identification > .field-items {
+    margin-left: 0; }
+
+/* line 1346, full_rubik_style.scss */
+.field-name-field-phone-type {
+  width: 70px; }
+
+/* line 1350, full_rubik_style.scss */
+.field-name-field-accept-text-messages .field-label {
+  width: 160px; }
+
+/* line 1353, full_rubik_style.scss */
 .pane-chaos-data .field-label-inline .field-label,
 .loan-chaos-data label {
   width: 288px; }
 
-/* line 1356, full_rubik_style.scss */
+/* line 1358, full_rubik_style.scss */
 .pane-additional-identifying-informati,
 .pane-additional-identifying-info-edit {
   padding-top: 3em; }
-  /* line 1358, full_rubik_style.scss */
+  /* line 1360, full_rubik_style.scss */
   .pane-additional-identifying-informati .panel-separator,
   .pane-additional-identifying-info-edit .panel-separator {
     display: none; }
-  /* line 1361, full_rubik_style.scss */
+  /* line 1363, full_rubik_style.scss */
   .pane-additional-identifying-informati .pane-content,
   .pane-additional-identifying-info-edit .pane-content {
     width: 100%; }
   @media (min-width: 458px) {
-    /* line 1356, full_rubik_style.scss */
+    /* line 1358, full_rubik_style.scss */
     .pane-additional-identifying-informati,
     .pane-additional-identifying-info-edit {
       padding-top: 1em; } }
   @media (min-width: 992px) {
-    /* line 1356, full_rubik_style.scss */
+    /* line 1358, full_rubik_style.scss */
     .pane-additional-identifying-informati,
     .pane-additional-identifying-info-edit {
       padding-top: 3em; } }
   @media (min-width: 1276px) {
-    /* line 1356, full_rubik_style.scss */
+    /* line 1358, full_rubik_style.scss */
     .pane-additional-identifying-informati,
     .pane-additional-identifying-info-edit {
       padding-top: 1em; } }
 
-/* line 1377, full_rubik_style.scss */
+/* line 1379, full_rubik_style.scss */
 .pane-node-field-service-bureaus {
   padding-top: 1em; }
   @media (min-width: 992px) {
-    /* line 1377, full_rubik_style.scss */
+    /* line 1379, full_rubik_style.scss */
     .pane-node-field-service-bureaus {
       padding-top: 3em; } }
   @media (min-width: 1065px) {
-    /* line 1377, full_rubik_style.scss */
+    /* line 1379, full_rubik_style.scss */
     .pane-node-field-service-bureaus {
       padding-top: 1em; } }
 
-/* line 1387, full_rubik_style.scss */
+/* line 1389, full_rubik_style.scss */
 .field-collection-view .entity-field-collection-item {
   display: inline-block;
   width: auto; }
 
-/* line 1391, full_rubik_style.scss */
+/* line 1393, full_rubik_style.scss */
 .field-collection-view ul.field-collection-view-links {
   margin: 0; }
 
-/* line 1394, full_rubik_style.scss */
+/* line 1396, full_rubik_style.scss */
 ul.field-collection-view-links li:last-child a {
   margin: 0; }
 
-/* line 1397, full_rubik_style.scss */
+/* line 1399, full_rubik_style.scss */
 ul.field-collection-view-links {
   width: 30%;
   display: inline-block;
   text-align: right;
   margin: 0; }
-  /* line 1403, full_rubik_style.scss */
+  /* line 1405, full_rubik_style.scss */
   ul.field-collection-view-links li {
     list-style: none;
     float: none;
     margin-left: 0;
     display: inline-block; }
 
-/* line 1413, full_rubik_style.scss */
+/* line 1415, full_rubik_style.scss */
 .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-label {
   float: none; }
-/* line 1414, full_rubik_style.scss */
+/* line 1416, full_rubik_style.scss */
 .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items {
   width: 100%;
   float: none; }
-  /* line 1418, full_rubik_style.scss */
+  /* line 1420, full_rubik_style.scss */
   .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items .field-label {
     width: auto;
     min-width: 75px; }
-  /* line 1422, full_rubik_style.scss */
+  /* line 1424, full_rubik_style.scss */
   .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items .field {
     width: 100%;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
-/* line 1429, full_rubik_style.scss */
+/* line 1431, full_rubik_style.scss */
 .page-user-view .field-name-field-thank-you-card-and-referra > .field-items {
   margin-left: 0; }
 
-/* line 1433, full_rubik_style.scss */
+/* line 1435, full_rubik_style.scss */
 .pane-user-profile .field-label {
   width: 44%; }
 
-/* line 1439, full_rubik_style.scss */
+/* line 1441, full_rubik_style.scss */
 .container-inline-date .form-item .form-item,
 .container-inline-date .date-padding {
   float: none; }
 
-/* line 1447, full_rubik_style.scss */
+/* line 1449, full_rubik_style.scss */
 .field-name-field-notes .field-name-field-date,
 .field-name-field-debit-fee-notes .field-name-field-date {
   float: left;
   margin-right: 3em; }
-  /* line 1451, full_rubik_style.scss */
+  /* line 1453, full_rubik_style.scss */
   .field-name-field-notes .field-name-field-date .field-label,
   .field-name-field-debit-fee-notes .field-name-field-date .field-label {
     width: auto; }
-/* line 1455, full_rubik_style.scss */
+/* line 1457, full_rubik_style.scss */
 .field-name-field-notes .field-name-field-staff-user,
 .field-name-field-debit-fee-notes .field-name-field-staff-user {
   float: left; }
-  /* line 1458, full_rubik_style.scss */
+  /* line 1460, full_rubik_style.scss */
   .field-name-field-notes .field-name-field-staff-user input,
   .field-name-field-debit-fee-notes .field-name-field-staff-user input {
     width: 24em; }
 
 /* Client Edit Styles */
-/* line 1471, full_rubik_style.scss */
+/* line 1473, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-profile2-field-loans #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(4), .page-user-edit-bwma-client .pane-profile2-field-loans .inline-entity-form-node-status {
   display: none; }
-/* line 1472, full_rubik_style.scss */
+/* line 1474, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-profile2-field-loans #edit-profile-bwma-client-field-loans #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(2) {
   display: none; }
-/* line 1473, full_rubik_style.scss */
+/* line 1475, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-profile2-field-loans .ief-entity-operations input[value='Edit'] {
   margin-right: 5px; }
-/* line 1476, full_rubik_style.scss */
+/* line 1478, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-profile2-field-loans input[value="Add New Loan"] {
   display: table;
   margin: 5px auto 0; }
-/* line 1483, full_rubik_style.scss */
+/* line 1485, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs {
   display: inline-block; }
-  /* line 1485, full_rubik_style.scss */
+  /* line 1487, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs label {
     width: auto; }
-  /* line 1486, full_rubik_style.scss */
+  /* line 1488, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs input {
     width: auto; }
-  /* line 1487, full_rubik_style.scss */
+  /* line 1489, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-enrolled-client-programs .form-checkboxes .form-item {
     width: 180px;
     float: left; }
-/* line 1493, full_rubik_style.scss */
+/* line 1495, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license {
   clear: both; }
-  /* line 1495, full_rubik_style.scss */
+  /* line 1497, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license label {
     width: 220px; }
-  /* line 1496, full_rubik_style.scss */
+  /* line 1498, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license input {
     width: auto; }
-  /* line 1499, full_rubik_style.scss */
+  /* line 1501, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number .form-item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1269,26 +1261,26 @@ ul.field-collection-view-links {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-  /* line 1505, full_rubik_style.scss */
+  /* line 1507, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 220px;
         -ms-flex: 0 0 220px;
             flex: 0 0 220px; }
-  /* line 1508, full_rubik_style.scss */
+  /* line 1510, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number input {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 calc(100% - 220px);
         -ms-flex: 1 1 calc(100% - 220px);
             flex: 1 1 calc(100% - 220px);
     min-width: 200px; }
-  /* line 1514, full_rubik_style.scss */
+  /* line 1516, full_rubik_style.scss */
   .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-expiration-date .form-item {
     display: block; }
-    /* line 1516, full_rubik_style.scss */
+    /* line 1518, full_rubik_style.scss */
     .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-expiration-date .form-item label {
       margin-right: 0; }
-/* line 1522, full_rubik_style.scss */
+/* line 1524, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name .form-item,
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
@@ -1303,14 +1295,14 @@ ul.field-collection-view-links {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-/* line 1528, full_rubik_style.scss */
+/* line 1530, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name label,
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 140px;
       -ms-flex: 0 0 140px;
           flex: 0 0 140px; }
-/* line 1531, full_rubik_style.scss */
+/* line 1533, full_rubik_style.scss */
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name input,
 .page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
@@ -1318,7 +1310,7 @@ ul.field-collection-view-links {
       -ms-flex: 1 1 calc(100% - 140px);
           flex: 1 1 calc(100% - 140px);
   min-width: 200px; }
-/* line 1538, full_rubik_style.scss */
+/* line 1540, full_rubik_style.scss */
 .page-user-edit-bwma-client .field-name-field-loans tr {
   border: 1px solid #CCCCCC;
   border-width: 0 1px 0 1px; }
@@ -1592,28 +1584,28 @@ ul.field-collection-view-links {
   .page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
-/* line 1550, full_rubik_style.scss */
+/* line 1552, full_rubik_style.scss */
 .page-user-view-bwma-client .pane-client-additional-id-info .field .field-label {
   width: 230px; }
-/* line 1551, full_rubik_style.scss */
+/* line 1553, full_rubik_style.scss */
 .page-user-view-bwma-client .pane-client-additional-id-info .field .field-item {
   margin-left: 5px; }
-/* line 1554, full_rubik_style.scss */
+/* line 1556, full_rubik_style.scss */
 .page-user-view-bwma-client .pane-client-additional-id-info .field.field-name-field-driver-s-license > .field-items {
   margin-left: 0; }
-  /* line 1557, full_rubik_style.scss */
+  /* line 1559, full_rubik_style.scss */
   .page-user-view-bwma-client .pane-client-additional-id-info .field.field-name-field-driver-s-license > .field-items > .field-item {
     margin-left: 0; }
 
-/* line 1563, full_rubik_style.scss */
+/* line 1565, full_rubik_style.scss */
 .pane-profile2-field-source {
   float: left;
   margin-right: 10px; }
 
-/* line 1567, full_rubik_style.scss */
+/* line 1569, full_rubik_style.scss */
 .pane-profile2-field-source-date {
   display: inline-block; }
-  /* line 1570, full_rubik_style.scss */
+  /* line 1572, full_rubik_style.scss */
   .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1623,22 +1615,22 @@ ul.field-collection-view-links {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-    /* line 1574, full_rubik_style.scss */
+    /* line 1576, full_rubik_style.scss */
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 auto;
           -ms-flex: 0 0 auto;
               flex: 0 0 auto;
       display: inline-block; }
-    /* line 1578, full_rubik_style.scss */
+    /* line 1580, full_rubik_style.scss */
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label {
       margin-right: 5px; }
-    /* line 1581, full_rubik_style.scss */
+    /* line 1583, full_rubik_style.scss */
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
       width: 8em;
       text-align: center; }
 
-/* line 1589, full_rubik_style.scss */
+/* line 1591, full_rubik_style.scss */
 .field-type-datetime.field-widget-date-popup .form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1648,98 +1640,98 @@ ul.field-collection-view-links {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 1593, full_rubik_style.scss */
+  /* line 1595, full_rubik_style.scss */
   .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     display: inline-block; }
-  /* line 1597, full_rubik_style.scss */
+  /* line 1599, full_rubik_style.scss */
   .field-type-datetime.field-widget-date-popup .form-item label {
     margin-right: 5px; }
-  /* line 1600, full_rubik_style.scss */
+  /* line 1602, full_rubik_style.scss */
   .field-type-datetime.field-widget-date-popup .form-item input {
     width: 8em;
     text-align: center; }
-  /* line 1604, full_rubik_style.scss */
+  /* line 1606, full_rubik_style.scss */
   .field-type-datetime.field-widget-date-popup .form-item .description {
     display: none; }
 
-/* line 1609, full_rubik_style.scss */
+/* line 1611, full_rubik_style.scss */
 .pane-profile2-field-source-notes {
   clear: left; }
 
-/* line 1613, full_rubik_style.scss */
+/* line 1615, full_rubik_style.scss */
 input.field-add-more-submit {
   text-transform: capitalize;
   margin: .5em auto 0;
   display: table; }
 
-/* line 1619, full_rubik_style.scss */
+/* line 1621, full_rubik_style.scss */
 .progress-disabled {
   float: none; }
 
-/* line 1623, full_rubik_style.scss */
+/* line 1625, full_rubik_style.scss */
 .tabledrag-toggle-weight-wrapper {
   display: none; }
 
-/* line 1627, full_rubik_style.scss */
+/* line 1629, full_rubik_style.scss */
 table#field-family-member-contacts-values,
 table#field-notes-values {
   display: table;
   width: 100%; }
 
-/* line 1634, full_rubik_style.scss */
+/* line 1636, full_rubik_style.scss */
 table.field-multiple-table tr {
   border: 1px solid #CCCCCC;
   border-width: 0 1px 0 1px; }
-/* line 1638, full_rubik_style.scss */
+/* line 1640, full_rubik_style.scss */
 table.field-multiple-table tr.draggable {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 1641, full_rubik_style.scss */
+  /* line 1643, full_rubik_style.scss */
   table.field-multiple-table tr.draggable td.field-multiple-drag {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     box-sizing: border-box; }
-  /* line 1645, full_rubik_style.scss */
+  /* line 1647, full_rubik_style.scss */
   table.field-multiple-table tr.draggable td:not([class]) {
     -webkit-box-flex: 100%;
     -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%; }
 
-/* line 1653, full_rubik_style.scss */
+/* line 1655, full_rubik_style.scss */
 #user-account-main-page .pane-basic-user-info-for-user-account label {
   width: 100px; }
-/* line 1654, full_rubik_style.scss */
+/* line 1656, full_rubik_style.scss */
 #user-account-main-page .pane-basic-user-info-for-user-account .pane-user-field-identification {
   width: 100px; }
-/* line 1658, full_rubik_style.scss */
+/* line 1660, full_rubik_style.scss */
 #user-account-main-page .pane-user-mail {
   margin-left: 1em; }
 
-/* line 1664, full_rubik_style.scss */
+/* line 1666, full_rubik_style.scss */
 .pane-ref-partner-additional-id-info .field-label {
   min-width: 230px; }
 
-/* line 1670, full_rubik_style.scss */
+/* line 1672, full_rubik_style.scss */
 .pane-additional-identifying-informati .field-label {
   min-width: 140px; }
-/* line 1675, full_rubik_style.scss */
+/* line 1677, full_rubik_style.scss */
 .pane-additional-identifying-informati .field-collection-item-field-driver-s-license .field-label {
   min-width: 0; }
 
-/* line 1686, full_rubik_style.scss */
+/* line 1688, full_rubik_style.scss */
 .page-user-edit #user-profile-form .form-item-name label,
 .page-user-edit #user-profile-form .form-item-mail label {
   display: block; }
-/* line 1687, full_rubik_style.scss */
+/* line 1689, full_rubik_style.scss */
 .page-user-edit #user-profile-form .form-item-name input,
 .page-user-edit #user-profile-form .form-item-mail input {
   width: 100%; }
@@ -1785,97 +1777,97 @@ table.field-multiple-table tr.draggable {
       -ms-flex: 1 1 calc(100% - 95px);
           flex: 1 1 calc(100% - 95px);
   min-width: 100px; }
-/* line 1700, full_rubik_style.scss */
+/* line 1702, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-gender label {
   width: 100%; }
-/* line 1701, full_rubik_style.scss */
+/* line 1703, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-gender .form-radios {
   display: inline-block; }
-/* line 1704, full_rubik_style.scss */
+/* line 1706, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-gender .form-item.form-type-radio {
   display: inline-block;
   width: auto; }
-/* line 1710, full_rubik_style.scss */
+/* line 1712, full_rubik_style.scss */
 .page-user-edit #user-profile-form .pane-user-field-identification {
   width: auto; }
-  /* line 1712, full_rubik_style.scss */
+  /* line 1714, full_rubik_style.scss */
   .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification {
     width: 100%; }
-    /* line 1715, full_rubik_style.scss */
+    /* line 1717, full_rubik_style.scss */
     .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification label {
       width: 100%; }
-    /* line 1716, full_rubik_style.scss */
+    /* line 1718, full_rubik_style.scss */
     .page-user-edit #user-profile-form .pane-user-field-identification .field-name-field-identification:after {
       content: '';
       display: none; }
-/* line 1722, full_rubik_style.scss */
+/* line 1724, full_rubik_style.scss */
 .page-user-edit #user-profile-form .pane-user-field-ss-or-ein {
   white-space: nowrap; }
-  /* line 1725, full_rubik_style.scss */
+  /* line 1727, full_rubik_style.scss */
   .page-user-edit #user-profile-form .pane-user-field-ss-or-ein .field-name-field-ss-or-ein input {
     width: 4em;
     text-align: center; }
-/* line 1731, full_rubik_style.scss */
+/* line 1733, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-birthdate input {
   width: 8em; }
-/* line 1732, full_rubik_style.scss */
+/* line 1734, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-birthdate .description {
   display: none; }
-/* line 1736, full_rubik_style.scss */
+/* line 1738, full_rubik_style.scss */
 .page-user-edit #user-profile-form .pane-user-form-buttons .form-actions {
   text-align: center;
   width: 100%; }
-/* line 1740, full_rubik_style.scss */
+/* line 1742, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-phone-type {
   width: auto; }
-  /* line 1742, full_rubik_style.scss */
+  /* line 1744, full_rubik_style.scss */
   .page-user-edit #user-profile-form .field-name-field-phone-type:after {
     content: '';
     display: none; }
-/* line 1747, full_rubik_style.scss */
+/* line 1749, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-phone-number {
   display: block; }
-/* line 1750, full_rubik_style.scss */
+/* line 1752, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-address-type:after {
   content: '';
   display: none; }
 @media (min-width: 450px) and (max-width: 624px) {
-  /* line 1755, full_rubik_style.scss */
+  /* line 1757, full_rubik_style.scss */
   .page-user-edit #user-profile-form .pane-user-form-account {
     padding-top: 2em; } }
-/* line 1763, full_rubik_style.scss */
+/* line 1765, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed label {
   width: 186px; }
-/* line 1764, full_rubik_style.scss */
+/* line 1766, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed input {
   width: auto; }
-/* line 1766, full_rubik_style.scss */
+/* line 1768, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-enrolled-consultant-prm {
   display: inline-block; }
-  /* line 1768, full_rubik_style.scss */
+  /* line 1770, full_rubik_style.scss */
   .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-enrolled-consultant-prm label {
     width: auto; }
-  /* line 1769, full_rubik_style.scss */
+  /* line 1771, full_rubik_style.scss */
   .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-enrolled-consultant-prm input {
     width: auto; }
-  /* line 1770, full_rubik_style.scss */
+  /* line 1772, full_rubik_style.scss */
   .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-enrolled-consultant-prm .form-checkboxes .form-item {
     width: 190px;
     float: left; }
-/* line 1776, full_rubik_style.scss */
+/* line 1778, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-bwma-member-id input {
   width: 8em; }
-/* line 1777, full_rubik_style.scss */
+/* line 1779, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-consultant-enrollment-date .form-item {
   margin-right: 0;
   display: block; }
-  /* line 1780, full_rubik_style.scss */
+  /* line 1782, full_rubik_style.scss */
   .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-consultant-enrollment-date .form-item label {
     margin-right: 0; }
-  /* line 1781, full_rubik_style.scss */
+  /* line 1783, full_rubik_style.scss */
   .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-consultant-enrollment-date .form-item input {
     margin-right: 0; }
-/* line 1786, full_rubik_style.scss */
+/* line 1788, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
@@ -1890,14 +1882,14 @@ table.field-multiple-table tr.draggable {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-/* line 1792, full_rubik_style.scss */
+/* line 1794, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name label,
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 190px;
       -ms-flex: 0 0 190px;
           flex: 0 0 190px; }
-/* line 1795, full_rubik_style.scss */
+/* line 1797, full_rubik_style.scss */
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name input,
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
@@ -1905,26 +1897,26 @@ table.field-multiple-table tr.draggable {
       -ms-flex: 1 1 calc(100% - 190px);
           flex: 1 1 calc(100% - 190px);
   min-width: 100px; }
-/* line 1803, full_rubik_style.scss */
+/* line 1805, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e label {
   width: 220px; }
-/* line 1804, full_rubik_style.scss */
+/* line 1806, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e input {
   width: auto; }
-/* line 1805, full_rubik_style.scss */
+/* line 1807, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-referral-partner-id input {
   width: 8em; }
-/* line 1806, full_rubik_style.scss */
+/* line 1808, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-referral-partner-enrollmen .form-item {
   margin-right: 0;
   display: block; }
-  /* line 1809, full_rubik_style.scss */
+  /* line 1811, full_rubik_style.scss */
   .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-referral-partner-enrollmen .form-item label {
     margin-right: 0; }
-  /* line 1810, full_rubik_style.scss */
+  /* line 1812, full_rubik_style.scss */
   .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-referral-partner-enrollmen .form-item input {
     margin-right: 0; }
-/* line 1815, full_rubik_style.scss */
+/* line 1817, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
@@ -1939,14 +1931,14 @@ table.field-multiple-table tr.draggable {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-/* line 1821, full_rubik_style.scss */
+/* line 1823, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name label,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 224px;
       -ms-flex: 0 0 224px;
           flex: 0 0 224px; }
-/* line 1824, full_rubik_style.scss */
+/* line 1826, full_rubik_style.scss */
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name input,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
@@ -1954,153 +1946,153 @@ table.field-multiple-table tr.draggable {
       -ms-flex: 1 1 calc(100% - 224px);
           flex: 1 1 calc(100% - 224px);
   min-width: 100px; }
-/* line 1832, full_rubik_style.scss */
+/* line 1834, full_rubik_style.scss */
 .page-user-edit .field-name-field-address .form-item {
   margin-bottom: 5px; }
-/* line 1838, full_rubik_style.scss */
+/* line 1840, full_rubik_style.scss */
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item {
   display: block; }
-  /* line 1841, full_rubik_style.scss */
+  /* line 1843, full_rubik_style.scss */
   .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item label {
     width: auto; }
-  /* line 1844, full_rubik_style.scss */
+  /* line 1846, full_rubik_style.scss */
   .page-user-edit .field-name-field-thank-you-card-and-referra .field-type-datetime.field-name-field-date-sent.field-widget-date-popup .form-item input {
     max-width: 100px;
     display: inline-block; }
-/* line 1849, full_rubik_style.scss */
+/* line 1851, full_rubik_style.scss */
 .page-user-edit .field-name-field-thank-you-card-and-referra .field-name-field-note {
   clear: left; }
-/* line 1855, full_rubik_style.scss */
+/* line 1857, full_rubik_style.scss */
 .page-user-edit .field-name-field-bwma-programs-enrolled label {
   width: 100% !important; }
-/* line 1858, full_rubik_style.scss */
+/* line 1860, full_rubik_style.scss */
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
-/* line 1864, full_rubik_style.scss */
+/* line 1866, full_rubik_style.scss */
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
   border: 0; }
-/* line 1870, full_rubik_style.scss */
+/* line 1872, full_rubik_style.scss */
 .page-user-edit .field-name-field-user-about label {
   display: none; }
-/* line 1874, full_rubik_style.scss */
+/* line 1876, full_rubik_style.scss */
 .page-user-edit .field-name-field-website table {
   display: block !important; }
-/* line 1875, full_rubik_style.scss */
+/* line 1877, full_rubik_style.scss */
 .page-user-edit .field-name-field-website thead, .page-user-edit .field-name-field-website tbody, .page-user-edit .field-name-field-website tr, .page-user-edit .field-name-field-website th {
   display: block; }
-/* line 1876, full_rubik_style.scss */
+/* line 1878, full_rubik_style.scss */
 .page-user-edit .field-name-field-website .link-field-title .description {
   display: none; }
-/* line 1879, full_rubik_style.scss */
+/* line 1881, full_rubik_style.scss */
 .page-user-edit .field-name-field-website .link-field-column {
   float: none;
   width: 100%; }
-  /* line 1883, full_rubik_style.scss */
+  /* line 1885, full_rubik_style.scss */
   .page-user-edit .field-name-field-website .link-field-column label {
     width: 50px; }
-/* line 1890, full_rubik_style.scss */
+/* line 1892, full_rubik_style.scss */
 .page-user-edit .field-name-field-address div.addressfield-container-inline > div.form-item {
   float: none;
   margin-right: 0; }
-/* line 1894, full_rubik_style.scss */
+/* line 1896, full_rubik_style.scss */
 .page-user-edit .field-name-field-address label {
   width: 70px;
   box-sizing: border-box; }
-/* line 1898, full_rubik_style.scss */
+/* line 1900, full_rubik_style.scss */
 .page-user-edit .field-name-field-address select.state {
   width: calc(100% - 75px); }
-/* line 1904, full_rubik_style.scss */
+/* line 1906, full_rubik_style.scss */
 .page-user-edit .pane-user-field-related-clients .pane-content {
   border: 1px solid #CCCCCC;
   padding: 10px;
   box-sizing: border-box; }
-/* line 1912, full_rubik_style.scss */
+/* line 1914, full_rubik_style.scss */
 .page-user-edit .field-name-field-related-clients .views-exposed-form {
   margin: 0; }
-  /* line 1915, full_rubik_style.scss */
+  /* line 1917, full_rubik_style.scss */
   .page-user-edit .field-name-field-related-clients .views-exposed-form .views-exposed-widgets {
     display: block;
     padding: 0; }
-/* line 1920, full_rubik_style.scss */
+/* line 1922, full_rubik_style.scss */
 .page-user-edit .field-name-field-related-clients .views-submit-button {
   float: right;
   margin: 0;
   padding: 0; }
-  /* line 1924, full_rubik_style.scss */
+  /* line 1926, full_rubik_style.scss */
   .page-user-edit .field-name-field-related-clients .views-submit-button input {
     margin: 0; }
 
-/* line 1931, full_rubik_style.scss */
+/* line 1933, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate input,
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-birthdate .description {
   display: inline-block;
   width: auto; }
-/* line 1938, full_rubik_style.scss */
+/* line 1940, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
-/* line 1942, full_rubik_style.scss */
+/* line 1944, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios {
   display: inline-block; }
-  /* line 1945, full_rubik_style.scss */
+  /* line 1947, full_rubik_style.scss */
   .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios .form-item {
     display: inline-block;
     width: auto; }
-/* line 1952, full_rubik_style.scss */
+/* line 1954, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-status .form-radios {
   display: inline-block; }
-  /* line 1955, full_rubik_style.scss */
+  /* line 1957, full_rubik_style.scss */
   .page-user-edit:not(.page-user-edit-bwma-client) .form-item-status .form-radios .form-item {
     display: inline-block;
     width: auto; }
-/* line 1962, full_rubik_style.scss */
+/* line 1964, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-roles .form-checkboxes {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
-/* line 1968, full_rubik_style.scss */
+/* line 1970, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label {
   width: 100px; }
-/* line 1971, full_rubik_style.scss */
+/* line 1973, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user input[type="text"] {
   width: calc(100% - 110px); }
-/* line 1976, full_rubik_style.scss */
+/* line 1978, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-birthday-notes label,
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients label {
   width: auto; }
-/* line 1981, full_rubik_style.scss */
+/* line 1983, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients input {
   width: 100%; }
-/* line 1988, full_rubik_style.scss */
+/* line 1990, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein legend {
   background-color: #F6F6F6;
   padding: 5px 5px 5px 10px; }
-/* line 1992, full_rubik_style.scss */
+/* line 1994, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein .field-name-field-identification:after {
   content: ''; }
-/* line 1997, full_rubik_style.scss */
+/* line 1999, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) td {
   position: relative; }
-/* line 2001, full_rubik_style.scss */
+/* line 2003, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete) {
   position: absolute;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   right: -50px;
   top: 50%; }
-/* line 2008, full_rubik_style.scss */
+/* line 2010, full_rubik_style.scss */
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table {
   border: 1px solid #DDDDDD;
   display: table-cell;
   border-collapse: initial; }
-  /* line 2012, full_rubik_style.scss */
+  /* line 2014, full_rubik_style.scss */
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th {
     padding: 5px; }
 
-/* line 2019, full_rubik_style.scss */
+/* line 2021, full_rubik_style.scss */
 tr.ief-row-entity .ief-entity-operations input.button-remove {
   position: relative;
   -webkit-transform: none;
@@ -2108,71 +2100,71 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   right: 0;
   top: 50%; }
 
-/* line 2028, full_rubik_style.scss */
+/* line 2030, full_rubik_style.scss */
 .page-user .field-collection-view {
   border: 1px dotted #D3D7D9;
   padding: 0.5em 1em;
   margin: 0; }
-/* line 2035, full_rubik_style.scss */
+/* line 2037, full_rubik_style.scss */
 .page-user .field-collection-item-field-phone .field-name-field-note .field-label {
   width: auto; }
-/* line 2040, full_rubik_style.scss */
+/* line 2042, full_rubik_style.scss */
 .page-user .field-name-field-address-type {
   font-weight: bold; }
-  /* line 2043, full_rubik_style.scss */
+  /* line 2045, full_rubik_style.scss */
   .page-user .field-name-field-address-type .field-items {
     display: inline-block; }
-  /* line 2044, full_rubik_style.scss */
+  /* line 2046, full_rubik_style.scss */
   .page-user .field-name-field-address-type:after {
     content: ':'; }
 
-/* line 2050, full_rubik_style.scss */
+/* line 2052, full_rubik_style.scss */
 .page-user-view .pane-additional-identifying-informati .clearfix::after {
   content: ''; }
-/* line 2056, full_rubik_style.scss */
+/* line 2058, full_rubik_style.scss */
 .page-user-view .field-name-field-family-member-contacts .field-label,
 .page-user-view .field-name-field-family-member-contacts .field-name-field-phone-type {
   width: 95px; }
-/* line 2066, full_rubik_style.scss */
+/* line 2068, full_rubik_style.scss */
 .page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source,
 .page-user-view .consultant-acquisition .col-md-8 .pane-profile2-field-source,
 .page-user-view .referral-partner-acquisition .col-md-8 .pane-profile2-field-source {
   float: none;
   margin-right: 0; }
-/* line 2070, full_rubik_style.scss */
+/* line 2072, full_rubik_style.scss */
 .page-user-view .client-acquisition .col-md-8 .pane-profile2-field-source-date,
 .page-user-view .consultant-acquisition .col-md-8 .pane-profile2-field-source-date,
 .page-user-view .referral-partner-acquisition .col-md-8 .pane-profile2-field-source-date {
   display: block; }
-/* line 2071, full_rubik_style.scss */
+/* line 2073, full_rubik_style.scss */
 .page-user-view .client-acquisition .col-md-8 .field-label,
 .page-user-view .consultant-acquisition .col-md-8 .field-label,
 .page-user-view .referral-partner-acquisition .col-md-8 .field-label {
   width: 200px;
   min-width: 0; }
-/* line 2079, full_rubik_style.scss */
+/* line 2081, full_rubik_style.scss */
 .page-user-view .client-notes .field-collection-item-field-notes {
   width: 100%; }
-/* line 2082, full_rubik_style.scss */
+/* line 2084, full_rubik_style.scss */
 .page-user-view .client-notes .field {
   margin-right: 0; }
-  /* line 2085, full_rubik_style.scss */
+  /* line 2087, full_rubik_style.scss */
   .page-user-view .client-notes .field .field-label {
     min-width: 0; }
-/* line 2089, full_rubik_style.scss */
+/* line 2091, full_rubik_style.scss */
 .page-user-view .client-notes .field-name-field-date {
   width: 250px;
   min-width: 165px;
   float: left; }
-/* line 2094, full_rubik_style.scss */
+/* line 2096, full_rubik_style.scss */
 .page-user-view .client-notes .field-name-field-staff-user {
   width: 50%;
   min-width: 135px;
   float: left; }
-/* line 2099, full_rubik_style.scss */
+/* line 2101, full_rubik_style.scss */
 .page-user-view .client-notes .profile2-bwma-staff h2 a {
   display: none; }
-/* line 2100, full_rubik_style.scss */
+/* line 2102, full_rubik_style.scss */
 .page-user-view .client-notes .field-name-field-note {
   clear: both; }
 /* line 244, full_rubik_style.scss */
@@ -2252,86 +2244,86 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
   .page-user-view .field-name-field-loans .field-name-field-current-lender .field-items,
   .page-user-view .field-name-field-loans .field-name-field-current-service-bureau .field-items {
     margin-left: 0; }
-/* line 2109, full_rubik_style.scss */
+/* line 2111, full_rubik_style.scss */
 .page-user-view .pane-consultant-additional-id-info .field .field-label {
   min-width: 210px; }
 
 /* Staff Edit Styles */
-/* line 2116, full_rubik_style.scss */
+/* line 2118, full_rubik_style.scss */
 .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 2119, full_rubik_style.scss */
+  /* line 2121, full_rubik_style.scss */
   .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-    /* line 2122, full_rubik_style.scss */
+    /* line 2124, full_rubik_style.scss */
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane label {
       width: auto; }
-    /* line 2127, full_rubik_style.scss */
+    /* line 2129, full_rubik_style.scss */
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
-    /* line 2130, full_rubik_style.scss */
+    /* line 2132, full_rubik_style.scss */
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .button-remove {
       position: relative;
       -webkit-transform: none;
               transform: none;
       right: 0;
       top: 0; }
-/* line 2141, full_rubik_style.scss */
+/* line 2143, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts table.field-multiple-table {
   border: 0; }
-/* line 2142, full_rubik_style.scss */
+/* line 2144, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts thead {
   display: none; }
-/* line 2144, full_rubik_style.scss */
+/* line 2146, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .form-item label {
   min-width: 90px; }
-/* line 2148, full_rubik_style.scss */
+/* line 2150, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type {
   width: auto;
   margin-right: 5px; }
-  /* line 2151, full_rubik_style.scss */
+  /* line 2153, full_rubik_style.scss */
   .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type:after {
     content: '';
     display: none; }
-/* line 2157, full_rubik_style.scss */
+/* line 2159, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-number input {
   width: auto; }
 
-/* line 2164, full_rubik_style.scss */
+/* line 2166, full_rubik_style.scss */
 thead th.field-label label {
   padding-left: 1em; }
 
-/* line 2168, full_rubik_style.scss */
+/* line 2170, full_rubik_style.scss */
 table[id*='field-notes-values'] > thead label {
   display: none; }
 
-/* line 2173, full_rubik_style.scss */
+/* line 2175, full_rubik_style.scss */
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
-/* line 2177, full_rubik_style.scss */
+/* line 2179, full_rubik_style.scss */
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content {
   position: relative; }
-  /* line 2181, full_rubik_style.scss */
+  /* line 2183, full_rubik_style.scss */
   .field-name-field-notes td:not([class]) .field-name-field-staff-user,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user {
     float: left; }
-    /* line 2184, full_rubik_style.scss */
+    /* line 2186, full_rubik_style.scss */
     .field-name-field-notes td:not([class]) .field-name-field-staff-user input,
     .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user input {
       display: inline-block;
       width: 24em; }
-  /* line 2189, full_rubik_style.scss */
+  /* line 2191, full_rubik_style.scss */
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     clear: left; }
-  /* line 2192, full_rubik_style.scss */
+  /* line 2194, full_rubik_style.scss */
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
     position: absolute;
@@ -2339,15 +2331,15 @@ table[id*='field-notes-values'] > thead label {
     top: 50%;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); }
-/* line 2200, full_rubik_style.scss */
+/* line 2202, full_rubik_style.scss */
 .field-name-field-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }
 
-/* line 2206, full_rubik_style.scss */
+/* line 2208, full_rubik_style.scss */
 td:not([class]) {
   position: relative; }
-  /* line 2209, full_rubik_style.scss */
+  /* line 2211, full_rubik_style.scss */
   td:not([class]) .button-remove {
     position: absolute;
     right: -50px;
@@ -2355,7 +2347,7 @@ td:not([class]) {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); }
 
-/* line 2221, full_rubik_style.scss */
+/* line 2223, full_rubik_style.scss */
 .field-name-field-referral-client .form-item,
 .field-name-field-referral-consultant .form-item,
 .field-name-field-referral-partner .form-item,
@@ -2372,7 +2364,7 @@ td:not([class]) {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   width: 100%; }
-  /* line 2227, full_rubik_style.scss */
+  /* line 2229, full_rubik_style.scss */
   .field-name-field-referral-client .form-item label,
   .field-name-field-referral-consultant .form-item label,
   .field-name-field-referral-partner .form-item label,
@@ -2382,7 +2374,7 @@ td:not([class]) {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     margin-right: 5px; }
-  /* line 2231, full_rubik_style.scss */
+  /* line 2233, full_rubik_style.scss */
   .field-name-field-referral-client .form-item input,
   .field-name-field-referral-consultant .form-item input,
   .field-name-field-referral-partner .form-item input,
@@ -2391,14 +2383,14 @@ td:not([class]) {
     -webkit-flex: 1 0 200px;
         -ms-flex: 1 0 200px;
             flex: 1 0 200px; }
-/* line 2237, full_rubik_style.scss */
+/* line 2239, full_rubik_style.scss */
 .field-name-field-referral-client .field-name-field-address .state.form-select,
 .field-name-field-referral-consultant .field-name-field-address .state.form-select,
 .field-name-field-referral-partner .field-name-field-address .state.form-select,
 .field-name-field-direct-mail-lead-tracking- .field-name-field-address .state.form-select {
   width: 100%; }
 
-/* line 2244, full_rubik_style.scss */
+/* line 2246, full_rubik_style.scss */
 .pane-additional-identifying-info-edit .form-item {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2409,104 +2401,104 @@ td:not([class]) {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 2249, full_rubik_style.scss */
+  /* line 2251, full_rubik_style.scss */
   .pane-additional-identifying-info-edit .form-item label {
     width: 40%; }
 
 /* Admin page styles */
-/* line 2257, full_rubik_style.scss */
+/* line 2259, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 2260, full_rubik_style.scss */
+  /* line 2262, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 2264, full_rubik_style.scss */
+/* line 2266, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 2268, full_rubik_style.scss */
+/* line 2270, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto; }
 
-/* line 2272, full_rubik_style.scss */
+/* line 2274, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 2276, full_rubik_style.scss */
+/* line 2278, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 2280, full_rubik_style.scss */
+/* line 2282, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 2284, full_rubik_style.scss */
+/* line 2286, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 2289, full_rubik_style.scss */
+/* line 2291, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
-  /* line 2296, full_rubik_style.scss */
+  /* line 2298, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description em,
   .description em {
     display: initial; }
-  /* line 2300, full_rubik_style.scss */
+  /* line 2302, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description:empty,
   .description:empty {
     padding: 0; }
-  /* line 2304, full_rubik_style.scss */
+  /* line 2306, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-    /* line 2307, full_rubik_style.scss */
+    /* line 2309, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
     .description p:first-child {
       margin-top: 0; }
-    /* line 2310, full_rubik_style.scss */
+    /* line 2312, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  /* line 2315, full_rubik_style.scss */
+  /* line 2317, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 2319, full_rubik_style.scss */
+    /* line 2321, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 2326, full_rubik_style.scss */
+/* line 2328, full_rubik_style.scss */
 .admin-list .description {
   padding: 5px 0; }
 
-/* line 2330, full_rubik_style.scss */
+/* line 2332, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 2334, full_rubik_style.scss */
+/* line 2336, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 2339, full_rubik_style.scss */
+/* line 2341, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 2343, full_rubik_style.scss */
+/* line 2345, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -2523,24 +2515,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 2355, full_rubik_style.scss */
+/* line 2357, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 2358, full_rubik_style.scss */
+/* line 2360, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 2362, full_rubik_style.scss */
+/* line 2364, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 2366, full_rubik_style.scss */
+/* line 2368, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 2371, full_rubik_style.scss */
+/* line 2373, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -2559,30 +2551,30 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 2387, full_rubik_style.scss */
+/* line 2389, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 2391, full_rubik_style.scss */
+/* line 2393, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 2398, full_rubik_style.scss */
+/* line 2400, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 2403, full_rubik_style.scss */
+/* line 2405, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
-/* line 2407, full_rubik_style.scss */
+/* line 2409, full_rubik_style.scss */
 #edit-timezone select#edit-timezone--2 {
   width: 100%; }
 
-/* line 2412, full_rubik_style.scss */
+/* line 2414, full_rubik_style.scss */
 #user-login .form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2595,30 +2587,30 @@ form .tabs {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 2417, full_rubik_style.scss */
+  /* line 2419, full_rubik_style.scss */
   #user-login .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 100px;
         -ms-flex: 0 100px;
             flex: 0 100px; }
-  /* line 2418, full_rubik_style.scss */
+  /* line 2420, full_rubik_style.scss */
   #user-login .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0;
         -ms-flex: 1 0;
             flex: 1 0; }
-  /* line 2419, full_rubik_style.scss */
+  /* line 2421, full_rubik_style.scss */
   #user-login .form-item .description {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
-/* line 2421, full_rubik_style.scss */
+/* line 2423, full_rubik_style.scss */
 #user-login .g-recaptcha > div > div {
   display: table;
   margin: 0 auto; }
 
-/* line 2427, full_rubik_style.scss */
+/* line 2429, full_rubik_style.scss */
 .form-item-path-alias {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2627,56 +2619,56 @@ form .tabs {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  /* line 2431, full_rubik_style.scss */
+  /* line 2433, full_rubik_style.scss */
   .form-item-path-alias label, .form-item-path-alias span {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
         -ms-flex: 0 auto;
             flex: 0 auto; }
-  /* line 2434, full_rubik_style.scss */
+  /* line 2436, full_rubik_style.scss */
   .form-item-path-alias input {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
 
-/* line 2439, full_rubik_style.scss */
+/* line 2441, full_rubik_style.scss */
 label[for="edit-pubdate"] {
   padding-left: 0; }
 
-/* line 2442, full_rubik_style.scss */
+/* line 2444, full_rubik_style.scss */
 #edit-pubdate {
   margin-left: 10px; }
 
-/* line 2447, full_rubik_style.scss */
+/* line 2449, full_rubik_style.scss */
 #edit-entity-recur-days .form-item {
   width: 100px;
   float: left; }
 
-/* line 2455, full_rubik_style.scss */
+/* line 2457, full_rubik_style.scss */
 #node-edit #edit-entity-recur .form-item-entity-recur-rules-frequency,
 #node-edit #edit-entity-recur .form-item-entity-recur-rules-period {
   display: inline-block;
   width: auto; }
-/* line 2461, full_rubik_style.scss */
+/* line 2463, full_rubik_style.scss */
 #node-edit #edit-entity-recur .form-item-entity-recur-until {
   display: inline-block;
   margin-top: 10px;
   width: 100%; }
-  /* line 2466, full_rubik_style.scss */
+  /* line 2468, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until label {
     padding: 0; }
-  /* line 2468, full_rubik_style.scss */
+  /* line 2470, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until label, #node-edit #edit-entity-recur .form-item-entity-recur-until .description {
     display: inline-block;
     vertical-align: middle; }
-  /* line 2472, full_rubik_style.scss */
+  /* line 2474, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until .description {
     width: 235px; }
-  /* line 2473, full_rubik_style.scss */
+  /* line 2475, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until .form-required {
     display: none; }
-/* line 2476, full_rubik_style.scss */
+/* line 2478, full_rubik_style.scss */
 #node-edit #edit-entity-recur #edit-entity-recur-until {
   display: inline-block;
   -webkit-box-align: center;
@@ -2684,139 +2676,139 @@ label[for="edit-pubdate"] {
       -ms-flex-align: center;
               -ms-grid-row-align: center;
           align-items: center; }
-  /* line 2480, full_rubik_style.scss */
+  /* line 2482, full_rubik_style.scss */
   #node-edit #edit-entity-recur #edit-entity-recur-until label {
     display: none; }
-  /* line 2481, full_rubik_style.scss */
+  /* line 2483, full_rubik_style.scss */
   #node-edit #edit-entity-recur #edit-entity-recur-until input {
     display: inline-block;
     width: auto; }
-  /* line 2485, full_rubik_style.scss */
+  /* line 2487, full_rubik_style.scss */
   #node-edit #edit-entity-recur #edit-entity-recur-until .description {
     display: inline-block;
     width: auto; }
-/* line 2493, full_rubik_style.scss */
+/* line 2495, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time .description {
   display: none; }
-/* line 2494, full_rubik_style.scss */
+/* line 2496, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time input[type="checkbox"] {
   width: auto;
   margin-right: 5px; }
-/* line 2501, full_rubik_style.scss */
+/* line 2503, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .form-item {
   display: inline-block; }
-/* line 2505, full_rubik_style.scss */
+/* line 2507, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .date-float {
   width: 100%; }
-/* line 2507, full_rubik_style.scss */
+/* line 2509, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .start-date-wrapper, #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper {
   display: inline-block;
   margin: 1em 0 0 1em;
   width: auto; }
-/* line 2514, full_rubik_style.scss */
+/* line 2516, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label, #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
   display: inline-block; }
-/* line 2515, full_rubik_style.scss */
+/* line 2517, full_rubik_style.scss */
 #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label {
   padding: 0; }
-/* line 2520, full_rubik_style.scss */
+/* line 2522, full_rubik_style.scss */
 #node-edit .pane-node-form-publishing .pane-title {
   margin-bottom: 0; }
-/* line 2521, full_rubik_style.scss */
+/* line 2523, full_rubik_style.scss */
 #node-edit .pane-node-form-publishing .form-item-pubdate {
   width: 100%; }
-  /* line 2525, full_rubik_style.scss */
+  /* line 2527, full_rubik_style.scss */
   #node-edit .pane-node-form-publishing .form-item-pubdate .form-item label {
     width: 40px; }
-  /* line 2526, full_rubik_style.scss */
+  /* line 2528, full_rubik_style.scss */
   #node-edit .pane-node-form-publishing .form-item-pubdate .form-item input {
     width: 10em;
     display: inline-block; }
-  /* line 2530, full_rubik_style.scss */
+  /* line 2532, full_rubik_style.scss */
   #node-edit .pane-node-form-publishing .form-item-pubdate .form-item .description {
     width: auto;
     display: inline-block; }
-/* line 2539, full_rubik_style.scss */
+/* line 2541, full_rubik_style.scss */
 #node-edit .pane-node-form-author .form-item-date {
   width: 100%; }
 
-/* line 2545, full_rubik_style.scss */
+/* line 2547, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-phone label {
   min-width: 100px; }
-/* line 2548, full_rubik_style.scss */
+/* line 2550, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-/* line 2551, full_rubik_style.scss */
+/* line 2553, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-phone .field-name-field-note label {
   width: auto; }
-/* line 2556, full_rubik_style.scss */
+/* line 2558, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
   width: auto; }
-/* line 2560, full_rubik_style.scss */
+/* line 2562, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-family-member-contacts .field-label label {
   width: auto; }
-/* line 2561, full_rubik_style.scss */
+/* line 2563, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-family-member-contacts label {
   width: 100px; }
 
-/* line 2566, full_rubik_style.scss */
+/* line 2568, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-label label {
   width: auto; }
-/* line 2567, full_rubik_style.scss */
+/* line 2569, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts label {
   width: 100px; }
-/* line 2570, full_rubik_style.scss */
+/* line 2572, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-name-field-phone label {
   min-width: 100px; }
-/* line 2573, full_rubik_style.scss */
+/* line 2575, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-/* line 2576, full_rubik_style.scss */
+/* line 2578, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
   width: auto; }
 
-/* line 2582, full_rubik_style.scss */
+/* line 2584, full_rubik_style.scss */
 .page-field-collection-field-collection-mailing-address .form-item {
   margin-bottom: 0; }
-/* line 2584, full_rubik_style.scss */
+/* line 2586, full_rubik_style.scss */
 .page-field-collection-field-collection-mailing-address .locality-block .form-item {
   width: auto; }
 
-/* line 2589, full_rubik_style.scss */
+/* line 2591, full_rubik_style.scss */
 .page-field-collection-field-phone label {
   min-width: 100px; }
-/* line 2592, full_rubik_style.scss */
+/* line 2594, full_rubik_style.scss */
 .page-field-collection-field-phone .field-name-field-phone-number input {
   width: auto; }
-/* line 2595, full_rubik_style.scss */
+/* line 2597, full_rubik_style.scss */
 .page-field-collection-field-phone .field-name-field-note label {
   width: auto; }
 
-/* line 2600, full_rubik_style.scss */
+/* line 2602, full_rubik_style.scss */
 .pane-user-roles ul li {
   margin-left: 0;
   padding: 0; }
-/* line 2604, full_rubik_style.scss */
+/* line 2606, full_rubik_style.scss */
 .pane-user-roles li.first {
   text-transform: capitalize; }
 
-/* line 2610, full_rubik_style.scss */
+/* line 2612, full_rubik_style.scss */
 .node-appointment .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
   padding: 10px;
   font-size: 1.2em; }
-  /* line 2615, full_rubik_style.scss */
+  /* line 2617, full_rubik_style.scss */
   .node-appointment .column-main .column-wrapper .field {
     margin-bottom: 3px; }
-  /* line 2619, full_rubik_style.scss */
+  /* line 2621, full_rubik_style.scss */
   .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
 
-/* line 2628, full_rubik_style.scss */
+/* line 2630, full_rubik_style.scss */
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
   width: 135px; }
-/* line 2629, full_rubik_style.scss */
+/* line 2631, full_rubik_style.scss */
 .node-appointment-form .field-name-field-appointment-with input,
 .node-appointment-form .field-name-field-appointment-for input {
   width: calc(100% - 140px); }
@@ -3091,143 +3083,143 @@ label[for="edit-pubdate"] {
   .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
     font-weight: bold; }
 
-/* line 2638, full_rubik_style.scss */
+/* line 2640, full_rubik_style.scss */
 .node-loan-form .pane-node-form-title {
   width: -webkit-calc(100% - 101px);
   float: left;
   margin-right: 5px; }
-/* line 2643, full_rubik_style.scss */
+/* line 2645, full_rubik_style.scss */
 .node-loan-form .pane-node-field-used-diy-form {
   display: inline-block; }
-/* line 2647, full_rubik_style.scss */
+/* line 2649, full_rubik_style.scss */
 .node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }
-/* line 2652, full_rubik_style.scss */
+/* line 2654, full_rubik_style.scss */
 .node-loan-form .field-name-field-bwma-loan-program {
   clear: both;
   display: inline-block;
   width: 100%; }
-  /* line 2656, full_rubik_style.scss */
+  /* line 2658, full_rubik_style.scss */
   .node-loan-form .field-name-field-bwma-loan-program .form-radios .form-item {
     float: left;
     width: 150px; }
-/* line 2663, full_rubik_style.scss */
+/* line 2665, full_rubik_style.scss */
 .node-loan-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
-/* line 2668, full_rubik_style.scss */
+/* line 2670, full_rubik_style.scss */
 .node-loan-form .field-name-field-deferred-fee-amount {
   width: 100%; }
-/* line 2674, full_rubik_style.scss */
+/* line 2676, full_rubik_style.scss */
 .node-loan-form .field-name-field-additional-extra-principal input,
 .node-loan-form .field-name-field-debit-amount-advanced-by-s input,
 .node-loan-form .field-name-field-debit-advanced-by-afts-amo input {
   width: auto; }
-/* line 2680, full_rubik_style.scss */
+/* line 2682, full_rubik_style.scss */
 .node-loan-form .loan-lenders .field-name-field-lender .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 2683, full_rubik_style.scss */
+  /* line 2685, full_rubik_style.scss */
   .node-loan-form .loan-lenders .field-name-field-lender .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 114px;
         -ms-flex: 0 0 114px;
             flex: 0 0 114px; }
-  /* line 2684, full_rubik_style.scss */
+  /* line 2686, full_rubik_style.scss */
   .node-loan-form .loan-lenders .field-name-field-lender .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-/* line 2686, full_rubik_style.scss */
+/* line 2688, full_rubik_style.scss */
 .node-loan-form .loan-lenders label {
   width: 110px; }
-/* line 2687, full_rubik_style.scss */
+/* line 2689, full_rubik_style.scss */
 .node-loan-form .loan-lenders input {
   width: auto; }
-/* line 2690, full_rubik_style.scss */
+/* line 2692, full_rubik_style.scss */
 .node-loan-form .loan-sb .field-name-field-service-bureau .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 2693, full_rubik_style.scss */
+  /* line 2695, full_rubik_style.scss */
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 184px;
         -ms-flex: 0 0 184px;
             flex: 0 0 184px; }
-  /* line 2694, full_rubik_style.scss */
+  /* line 2696, full_rubik_style.scss */
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-/* line 2696, full_rubik_style.scss */
+/* line 2698, full_rubik_style.scss */
 .node-loan-form .loan-sb label {
   width: 180px; }
-/* line 2697, full_rubik_style.scss */
+/* line 2699, full_rubik_style.scss */
 .node-loan-form .loan-sb input {
   width: auto; }
-/* line 2701, full_rubik_style.scss */
+/* line 2703, full_rubik_style.scss */
 .node-loan-form .afts-advance label {
   width: 287px; }
-/* line 2702, full_rubik_style.scss */
+/* line 2704, full_rubik_style.scss */
 .node-loan-form .afts-advance input {
   width: auto; }
-/* line 2706, full_rubik_style.scss */
+/* line 2708, full_rubik_style.scss */
 .node-loan-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
 .node-loan-form .afts-advance .field-name-field-chargeback-fee-amount label {
   margin-right: -12px; }
-/* line 2713, full_rubik_style.scss */
+/* line 2715, full_rubik_style.scss */
 .node-loan-form .field-name-field-collection-status .field-name-field-status,
 .node-loan-form .field-name-field-collection-status .field-name-field-date {
   float: left;
   width: 50%; }
-/* line 2719, full_rubik_style.scss */
+/* line 2721, full_rubik_style.scss */
 .node-loan-form .field-name-field-collection-status .field-name-field-status .description {
   display: inline-block;
   width: auto; }
-/* line 2724, full_rubik_style.scss */
+/* line 2726, full_rubik_style.scss */
 .node-loan-form .field-name-field-collection-status .field-name-field-note {
   clear: left; }
-/* line 2729, full_rubik_style.scss */
+/* line 2731, full_rubik_style.scss */
 .node-loan-form .loan-chaos-data {
   clear: both; }
-  /* line 2732, full_rubik_style.scss */
+  /* line 2734, full_rubik_style.scss */
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
-/* line 2738, full_rubik_style.scss */
+/* line 2740, full_rubik_style.scss */
 .basic-options {
   display: inline-block;
   width: 100%; }
 
-/* line 2742, full_rubik_style.scss */
+/* line 2744, full_rubik_style.scss */
 .advanced-options {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 1em; }
-  /* line 2746, full_rubik_style.scss */
+  /* line 2748, full_rubik_style.scss */
   .advanced-options #edit-secondary.collapsed {
     width: 132px;
     margin: 0; }
-    /* line 2749, full_rubik_style.scss */
+    /* line 2751, full_rubik_style.scss */
     .advanced-options #edit-secondary.collapsed .fieldset-title {
       white-space: nowrap; }
-  /* line 2754, full_rubik_style.scss */
+  /* line 2756, full_rubik_style.scss */
   .advanced-options .bef-secondary-options {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
 
-/* line 2759, full_rubik_style.scss */
+/* line 2761, full_rubik_style.scss */
 .password-strength {
   width: 100%; }
 
