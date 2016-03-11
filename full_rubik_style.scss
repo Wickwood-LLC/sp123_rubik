@@ -469,6 +469,13 @@ body:not(.page-admin) {
   .field-name-field-accept-text-messages {
     .field-label {  width: 160px; }
   }
+
+  .field-name-field-address-type {
+    font-weight: bold;
+    
+    .field-items {  display: inline-block;  }
+    &:after { content: ':'; }
+  }
 }
 
 body:not(.maintenance-page) #header {
@@ -2039,13 +2046,6 @@ tr.ief-row-entity .ief-entity-operations {
     .field-name-field-note .field-label {
       width: auto;
     }
-  }
-
-  .field-name-field-address-type {
-    font-weight: bold;
-    
-    .field-items {  display: inline-block;  }
-    &:after { content: ':'; }
   }
 }
 
