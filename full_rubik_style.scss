@@ -442,7 +442,6 @@ body.tao {
   color: black;
 }
 
-body:not(.page-admin),
 body:not([class*="edit"]) {
   .field-name-field-phone-number,
   .field-name-field-deferred-fee-amount,
