@@ -16,6 +16,8 @@
       $('html').find('div[id*="edit-actions"]').each(function() {           // fire the script on load and resize
 
         var $this = $(this);
+
+        console.log($this);
       
         var stickyTop = $this.offset().top;
         var windowHeight = $(window).height();
