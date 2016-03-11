@@ -12,9 +12,9 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      if (!!$('div[id*="edit-actions"]').offset()) {  // make sure "div[id*="edit-actions"]" element exists
+      if (!!$('div[id*="edit-actions"]')) {  // make sure "div[id*="edit-actions"]" element exists
 
-        var $this = this;
+        var $this = $(this);
 
         $(window).on("load resize",function() {           // fire the script on load and resize
 
