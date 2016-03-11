@@ -456,6 +456,13 @@ div#toolbar div.toolbar-shortcuts ul {
     min-width: 200px;
     float: left;
   }
+
+  .field-name-field-business-contacts {
+    .field-name-field-family-contact,
+    .field-name-field-email {
+      .field-items { margin-left: 0; }
+    }
+  }
 }
 
 .view-clients,
@@ -557,6 +564,7 @@ table.views-table {
 
     .field-items {
       display: inline-block;
+      margin-left: 0;
     }
     &:after {
       content: ':\00a0';
@@ -1437,7 +1445,7 @@ ul.field-collection-view-links {
     }
 
     .field-name-field-company-name,
-    .field-name-field-ocuupation-or-title {
+    .field-name-field-occupation-or-title-tag {
       .form-item {
         display: flex;
         width: 100%;
@@ -1701,7 +1709,7 @@ table.field-multiple-table {
     }
 
     .field-name-field-company-name,
-    .field-name-field-ocuupation-or-title {
+    .field-name-field-occupation-or-title-tag {
       .form-item {
         display: flex;
         width: 100%;
@@ -1709,10 +1717,10 @@ table.field-multiple-table {
         flex-flow: row wrap;
       }
       label {
-        flex: 0 0 186px;
+        flex: 0 0 190px;
       }
       input {
-        flex: 1 1 calc(100% - 186px);
+        flex: 1 1 calc(100% - 190px);
         min-width: 100px;
       }
     }
@@ -1730,7 +1738,7 @@ table.field-multiple-table {
     }
 
     .field-name-field-company-name,
-    .field-name-field-ocuupation-or-title {
+    .field-name-field-occupation-or-title-tag {
       .form-item {
         display: flex;
         width: 100%;
@@ -1738,10 +1746,10 @@ table.field-multiple-table {
         flex-flow: row wrap;
       }
       label {
-        flex: 0 0 220px;
+        flex: 0 0 224px;
       }
       input {
-        flex: 1 1 calc(100% - 220px);
+        flex: 1 1 calc(100% - 224px);
         min-width: 100px;
       }
     }
@@ -2408,6 +2416,127 @@ form .tabs {
   }
 }
 
+.form-item-path-alias {
+  display: flex;
+  flex-flow: row wrap;
+
+  label, span {
+    flex: 0 auto;
+  }
+  input {
+    flex: 1 auto;
+  }
+}
+
+label[for="edit-pubdate"] {
+  padding-left: 0;
+}
+#edit-pubdate {
+  margin-left: 10px;
+}
+
+#edit-entity-recur-days {
+  .form-item {
+    width: 100px;
+    float: left;
+  }
+}
+
+#node-edit {
+  #edit-entity-recur {
+    .form-item-entity-recur-rules-frequency,
+    .form-item-entity-recur-rules-period {
+      display: inline-block;
+      width: auto;
+    }
+
+    .form-item-entity-recur-until {
+      display: inline-block;
+      margin-top: 10px;
+      width: 100%;
+
+      label { padding: 0; }
+
+      label, .description {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .description { width: 235px; }
+      .form-required { display: none; }
+    }
+
+    #edit-entity-recur-until {
+      display: inline-block;
+      align-items: center;
+
+      label { display: none; }
+      input {     
+        display: inline-block;
+        width: auto;
+      }
+      .description { 
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
+
+  .field-name-field-date-and-time {
+    .description {  display: none;  }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
+    }
+  }
+
+  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
+    .form-item { 
+      display: inline-block; 
+    }
+
+    .date-float { width: 100%; }
+
+    .start-date-wrapper, .end-date-wrapper {
+      display: inline-block; 
+      margin: 1em 0 0 1em;
+      width: auto;
+
+      .date-padding {
+        border: 1px solid #CCCCCC;
+        padding: 5px;
+      }
+    }
+
+    .end-date-wrapper {
+      label, .date-padding { display: inline-block; }
+      label { padding: 0; }
+    }
+  }
+
+  .pane-node-form-publishing {
+    .pane-title { margin-bottom: 0; }
+    .form-item-pubdate {
+      width: 100%;
+  
+      .form-item {
+        label { width: 40px; }
+        input { 
+          width: 10em;
+          display: inline-block;
+        }
+        .description {
+          width: auto;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .pane-node-form-author {
+    .form-item-date { width: 100%; }
+  }
+}
+
 .page-admin-field-edit {
   .field-name-field-phone {
     label { min-width: 100px; }
@@ -2491,44 +2620,10 @@ form .tabs {
 }
 
 .node-appointment-form {
-  .field-name-field-date-and-time {
-    .description {  display: none;  }
-    input[type="checkbox"] {
-      width: auto;
-      margin-right: 5px;
-    }
-    .date-no-float .form-item {
-      label { width: 50px; }
-    }
-  }
-
   .field-name-field-appointment-with,
   .field-name-field-appointment-for {
     label { width: 135px; }
     input { width: calc(100% - 140px); }
-  }
-
-  .pane-node-form-publishing {
-    .pane-title { margin-bottom: 0; }
-    .form-item-pubdate {
-      width: 100%;
-  
-      .form-item {
-        label { width: 40px; }
-        input { 
-          width: 10em;
-          display: inline-block;
-        }
-        .description {
-          width: auto;
-          display: inline-block;
-        }
-      }
-    }
-  }
-
-  .pane-node-form-author {
-    .form-item-date { width: 100%; }
   }
 }
 

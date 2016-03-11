@@ -12,27 +12,27 @@
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
-      if (!!$('[id*="edit-actions"]').offset()) {  // make sure "[id*="edit-actions"]" element exists
+      if (!!$('div[id*="edit-actions"]').offset()) {  // make sure "div[id*="edit-actions"]" element exists
 
         $(window).on("load resize",function() {           // fire the script on load and resize
 
-          var stickyTop = $('[id*="edit-actions"]').offset().top;
+          var stickyTop = $('div[id*="edit-actions"]').offset().top;
           var windowHeight = $(window).height();
-          var buttonWidth = $('[id*="edit-actions"]').parent().width();
+          var buttonWidth = $('div[id*="edit-actions"]').parent().width();
           var windowTop = $(window).scrollTop(); // returns number  
           var currentPosition = windowTop + windowHeight;
 
-          $('[id*="edit-actions"]').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-          $('[id*="edit-actions"]').width(buttonWidth);      // reset button width
+          $('div[id*="edit-actions"]').css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
+          $('div[id*="edit-actions"]').width(buttonWidth);      // reset button width
 
           if (stickyTop > currentPosition) {
-            $('[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+            $('div[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });
           }
           else if ((stickyTop - windowTop) < 0) {
-            $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
+            $('div[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: $(this).parent().width() });
           }
           else {
-            $('[id*="edit-actions"]').css('position','static');
+            $('div[id*="edit-actions"]').css('position','static');
           }
     
           $(window).scroll(function(){ // scroll event 
@@ -40,13 +40,13 @@
             var currentPosition = windowTop + windowHeight;
     
             if (stickyTop > currentPosition) {
-              $('[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+              $('div[id*="edit-actions"]').css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
             }
             else if ((stickyTop - windowTop) < 0) {
-              $('[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
+              $('div[id*="edit-actions"]').css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
             }
             else {
-              $('[id*="edit-actions"]').css('position','static');
+              $('div[id*="edit-actions"]').css('position','static');
             }
           });
         });
