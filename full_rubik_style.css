@@ -3,118 +3,118 @@
 /********************/
 /********************/
 /** Default Styles **/
-/* line 331, full_rubik_style.scss */
+/* line 351, full_rubik_style.scss */
 big {
   font-size: larger; }
 
-/* line 334, full_rubik_style.scss */
+/* line 354, full_rubik_style.scss */
 blockquote {
   display: block;
   font-style: italic;
   margin: 1em 2em;
   quotes: '\201c' '\201d'; }
-  /* line 340, full_rubik_style.scss */
+  /* line 360, full_rubik_style.scss */
   blockquote:before {
     content: open-quote; }
-  /* line 343, full_rubik_style.scss */
+  /* line 363, full_rubik_style.scss */
   blockquote:after {
     content: close-quote; }
 
-/* line 347, full_rubik_style.scss */
+/* line 367, full_rubik_style.scss */
 code {
   font-family: monospace; }
 
-/* line 350, full_rubik_style.scss */
+/* line 370, full_rubik_style.scss */
 del {
   text-decoration: line-through; }
 
-/* line 353, full_rubik_style.scss */
+/* line 373, full_rubik_style.scss */
 fieldset {
   min-width: 0; }
 
-/* line 356, full_rubik_style.scss */
+/* line 376, full_rubik_style.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 357, full_rubik_style.scss */
+/* line 377, full_rubik_style.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.75em 0; }
 
-/* line 358, full_rubik_style.scss */
+/* line 378, full_rubik_style.scss */
 h3 {
   font-size: 1.17em;
   margin: 0.83em 0; }
 
-/* line 359, full_rubik_style.scss */
+/* line 379, full_rubik_style.scss */
 h4 {
   margin: 1.12em 0; }
 
-/* line 360, full_rubik_style.scss */
+/* line 380, full_rubik_style.scss */
 h5 {
   font-size: .83em;
   margin: 1.5em 0; }
 
-/* line 361, full_rubik_style.scss */
+/* line 381, full_rubik_style.scss */
 h6 {
   font-size: .75em;
   margin: 1.67em 0; }
 
-/* line 362, full_rubik_style.scss */
+/* line 382, full_rubik_style.scss */
 h1, h2, h3, h4,
 h5, h6, b,
 strong {
   font-weight: bolder; }
 
-/* line 365, full_rubik_style.scss */
+/* line 385, full_rubik_style.scss */
 ins {
   text-decoration: underline; }
 
-/* line 368, full_rubik_style.scss */
+/* line 388, full_rubik_style.scss */
 pre {
   display: block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0; }
 
-/* line 374, full_rubik_style.scss */
+/* line 394, full_rubik_style.scss */
 q {
   display: inline;
   font-style: italic;
   quotes: '\201c' '\201d'; }
-  /* line 379, full_rubik_style.scss */
+  /* line 399, full_rubik_style.scss */
   q:before {
     content: open-quote; }
-  /* line 382, full_rubik_style.scss */
+  /* line 402, full_rubik_style.scss */
   q:after {
     content: close-quote; }
 
-/* line 386, full_rubik_style.scss */
+/* line 406, full_rubik_style.scss */
 small {
   font-size: smaller; }
 
-/* line 389, full_rubik_style.scss */
+/* line 409, full_rubik_style.scss */
 sub {
   vertical-align: sub;
   font-size: smaller; }
 
-/* line 393, full_rubik_style.scss */
+/* line 413, full_rubik_style.scss */
 sup {
   vertical-align: super;
   font-size: smaller; }
 
-/* line 397, full_rubik_style.scss */
+/* line 417, full_rubik_style.scss */
 tt {
   font-family: monospace; }
 
-/* line 401, full_rubik_style.scss */
+/* line 421, full_rubik_style.scss */
 ol li, ul li {
   list-style: initial;
   margin-left: 40px; }
 
 /***********************/
-/* line 412, full_rubik_style.scss */
+/* line 432, full_rubik_style.scss */
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
 body.page-admin #header .block,
@@ -123,117 +123,117 @@ body.page-admin .region-footer .block,
 body.page-admin .region-footer table {
   border: 0px; }
 
-/* line 417, full_rubik_style.scss */
+/* line 437, full_rubik_style.scss */
 .help-page, div.comment, div.node {
   background: none;
   border: 0px; }
 
-/* line 421, full_rubik_style.scss */
+/* line 441, full_rubik_style.scss */
 body.tao {
   color: black; }
 
-/* line 425, full_rubik_style.scss */
+/* line 445, full_rubik_style.scss */
 body:not(.maintenance-page) #header {
   /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
   These can also be hidden by disablng it in the theme settings, 
   but if we do that, the mini panel won't display it too. However, if 
   the mini panel is not used, we can comment out this rule. */ }
-  /* line 430, full_rubik_style.scss */
+  /* line 450, full_rubik_style.scss */
   body:not(.maintenance-page) #header > #logo,
   body:not(.maintenance-page) #header > #site-name,
   body:not(.maintenance-page) #header > #site-slogan {
     display: none; }
 
-/* line 437, full_rubik_style.scss */
+/* line 457, full_rubik_style.scss */
 input[type="password"] {
   width: 100%;
   box-sizing: border-box; }
 
-/* line 442, full_rubik_style.scss */
+/* line 462, full_rubik_style.scss */
 .field > .field-items {
   margin-left: 10px; }
 
-/* line 446, full_rubik_style.scss */
+/* line 466, full_rubik_style.scss */
 .field.field-type-field-collection > .field-items {
   margin-left: 0; }
 
-/* line 450, full_rubik_style.scss */
+/* line 470, full_rubik_style.scss */
 #autocomplete ul li {
   margin: 0;
   padding-left: 5px; }
 
-/* line 455, full_rubik_style.scss */
+/* line 475, full_rubik_style.scss */
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 
-/* line 459, full_rubik_style.scss */
+/* line 479, full_rubik_style.scss */
 .panelized-node .field-name-field-featured-image {
   float: left;
   margin: 0 1em 1em 0; }
 
-/* line 464, full_rubik_style.scss */
+/* line 484, full_rubik_style.scss */
 #page-title .page-title {
   font-size: 2em;
   margin: 0; }
 
-/* line 471, full_rubik_style.scss */
+/* line 491, full_rubik_style.scss */
 .content-main .featured-display .views-field-body {
   font-size: 14px; }
-/* line 475, full_rubik_style.scss */
+/* line 495, full_rubik_style.scss */
 .content-main .featured-image img {
   width: 100%;
   height: auto; }
-/* line 479, full_rubik_style.scss */
+/* line 499, full_rubik_style.scss */
 .content-main .views-field-title h3 {
   margin: 0; }
-/* line 482, full_rubik_style.scss */
+/* line 502, full_rubik_style.scss */
 .content-main .views-field-field-featured-image img {
   float: left;
   margin-right: 15px; }
-/* line 486, full_rubik_style.scss */
+/* line 506, full_rubik_style.scss */
 .content-main .views-row {
   display: table;
   margin-top: 2em;
   width: 100%; }
 
-/* line 493, full_rubik_style.scss */
+/* line 513, full_rubik_style.scss */
 .view-filters {
   float: left; }
 
-/* line 497, full_rubik_style.scss */
+/* line 517, full_rubik_style.scss */
 .views-exposed-form {
   margin-right: 1em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 501, full_rubik_style.scss */
+  /* line 521, full_rubik_style.scss */
   .views-exposed-form legend {
     position: absolute; }
-  /* line 505, full_rubik_style.scss */
+  /* line 525, full_rubik_style.scss */
   .views-exposed-form .views-exposed-widgets {
     padding: 28px 10px 10px 10px; }
-  /* line 509, full_rubik_style.scss */
+  /* line 529, full_rubik_style.scss */
   .views-exposed-form .actions {
     display: inline-block; }
-    /* line 512, full_rubik_style.scss */
+    /* line 532, full_rubik_style.scss */
     .views-exposed-form .actions .views-exposed-widget {
       float: none;
       padding-right: 0; }
-      /* line 516, full_rubik_style.scss */
+      /* line 536, full_rubik_style.scss */
       .views-exposed-form .actions .views-exposed-widget input {
         margin-top: 0; }
 
-/* line 524, full_rubik_style.scss */
+/* line 544, full_rubik_style.scss */
 .view-content #edit-select {
   min-width: 200px;
   float: left; }
-/* line 532, full_rubik_style.scss */
+/* line 552, full_rubik_style.scss */
 .view-content .field-name-field-business-contacts .field-name-field-family-contact .field-items,
 .view-content .field-name-field-business-contacts .field-name-field-email .field-items {
   margin-left: 0; }
 
-/* line 545, full_rubik_style.scss */
+/* line 565, full_rubik_style.scss */
 .view-clients .views-field-edit-node,
 .view-consultants .views-field-edit-node,
 .view-referral-partners .views-field-edit-node,
@@ -243,7 +243,7 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-service-bureaus .views-field-edit-node,
 .view-non-staff-users .views-field-edit-node {
   position: relative; }
-  /* line 548, full_rubik_style.scss */
+  /* line 568, full_rubik_style.scss */
   .view-clients .views-field-edit-node a,
   .view-consultants .views-field-edit-node a,
   .view-referral-partners .views-field-edit-node a,
@@ -258,7 +258,7 @@ div#toolbar div.toolbar-shortcuts ul {
     top: 50%;
     margin-top: -25%; }
 
-/* line 558, full_rubik_style.scss */
+/* line 578, full_rubik_style.scss */
 .views-field-edit-node a,
 a[id*="edit-fields"]:not([title="Change widget type."]),
 a[title="Export instance"] {
@@ -270,94 +270,94 @@ a[title="Export instance"] {
   background-color: #7bc;
   text-shadow: #38a 0 1px 0; }
 
-/* line 570, full_rubik_style.scss */
+/* line 590, full_rubik_style.scss */
 .view-lenders .views-field-edit-node a {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   top: initial;
   margin-top: initial; }
 
-/* line 576, full_rubik_style.scss */
+/* line 596, full_rubik_style.scss */
 .view-service-bureaus .views-field-edit-node a {
   margin-top: -12%; }
 
-/* line 581, full_rubik_style.scss */
+/* line 601, full_rubik_style.scss */
 .field-multiple-table tr:nth-child(even) {
   background-color: #FAFAFA; }
 
-/* line 586, full_rubik_style.scss */
+/* line 606, full_rubik_style.scss */
 .pane-basic-user-info .field-label {
   width: 100px; }
 
-/* line 589, full_rubik_style.scss */
+/* line 609, full_rubik_style.scss */
 .pane-basic-user-info-for-user-account .field-label {
   width: 100px; }
 
-/* line 592, full_rubik_style.scss */
+/* line 612, full_rubik_style.scss */
 .pane-user-field-identification {
   width: 100px;
   float: left; }
 
-/* line 597, full_rubik_style.scss */
+/* line 617, full_rubik_style.scss */
 .field-collection-container {
   border: 0px; }
 
-/* line 601, full_rubik_style.scss */
+/* line 621, full_rubik_style.scss */
 table.views-table {
   border: 1px solid #DDDDDD !important; }
-  /* line 604, full_rubik_style.scss */
+  /* line 624, full_rubik_style.scss */
   table.views-table tr:nth-child(even) {
     background-color: #FAFAFA; }
-  /* line 608, full_rubik_style.scss */
+  /* line 628, full_rubik_style.scss */
   table.views-table ul li {
     margin-left: 0; }
-  /* line 612, full_rubik_style.scss */
+  /* line 632, full_rubik_style.scss */
   table.views-table .field-collection-view {
     margin: 0; }
-    /* line 615, full_rubik_style.scss */
+    /* line 635, full_rubik_style.scss */
     table.views-table .field-collection-view ul.field-collection-view-links {
       float: right; }
-  /* line 620, full_rubik_style.scss */
+  /* line 640, full_rubik_style.scss */
   table.views-table .item-list ul li {
     padding: 0; }
-  /* line 624, full_rubik_style.scss */
+  /* line 644, full_rubik_style.scss */
   table.views-table .field-name-field-phone-type,
   table.views-table .field-name-field-deferred-fee-label,
   table.views-table .pane-user-field-identification {
     min-width: 0%; }
-  /* line 630, full_rubik_style.scss */
+  /* line 650, full_rubik_style.scss */
   table.views-table .field-name-field-phone-type {
     display: inline-block;
     font-weight: bold; }
-    /* line 634, full_rubik_style.scss */
+    /* line 654, full_rubik_style.scss */
     table.views-table .field-name-field-phone-type .field-items {
       display: inline-block;
       margin-left: 0; }
-    /* line 638, full_rubik_style.scss */
+    /* line 658, full_rubik_style.scss */
     table.views-table .field-name-field-phone-type:after {
       content: ':\00a0'; }
-  /* line 643, full_rubik_style.scss */
+  /* line 663, full_rubik_style.scss */
   table.views-table .field-collection-view {
     padding-top: 0; }
-  /* line 647, full_rubik_style.scss */
+  /* line 667, full_rubik_style.scss */
   table.views-table .field-collection-view .entity-field-collection-item {
     width: auto;
     float: left; }
 
-/* line 653, full_rubik_style.scss */
+/* line 673, full_rubik_style.scss */
 .views-exposed-widget .form-item label {
   display: block; }
 
-/* line 657, full_rubik_style.scss */
+/* line 677, full_rubik_style.scss */
 .field-collection-container ul.action-links-field-collection-add {
   margin: 5px 0 0 0; }
 
-/* line 661, full_rubik_style.scss */
+/* line 681, full_rubik_style.scss */
 .pane-content .field-collection-container {
   border-bottom: 0;
   margin-bottom: 0; }
 
-/* line 666, full_rubik_style.scss */
+/* line 686, full_rubik_style.scss */
 label,
 .pane-title,
 .ckeditor_links,
@@ -366,22 +366,22 @@ label,
 .vertical-tabs-list li a strong {
   text-transform: capitalize; }
 
-/* line 675, full_rubik_style.scss */
+/* line 695, full_rubik_style.scss */
 .date-no-float {
   width: 100%; }
 
-/* line 677, full_rubik_style.scss */
+/* line 697, full_rubik_style.scss */
 .field-items ul,
 .field-items ol {
   overflow: hidden; }
 
-/* line 682, full_rubik_style.scss */
+/* line 702, full_rubik_style.scss */
 ul.panels-ipe-linkbar li {
   float: left;
   list-style: none;
   margin-left: 0; }
 
-/* line 688, full_rubik_style.scss */
+/* line 708, full_rubik_style.scss */
 .cke_inner .cke_top {
   overflow: visible;
   display: -webkit-box;
@@ -389,10 +389,10 @@ ul.panels-ipe-linkbar li {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 693, full_rubik_style.scss */
+/* line 713, full_rubik_style.scss */
 .cke_toolbar a.cke_button:hover {
   position: relative; }
-  /* line 696, full_rubik_style.scss */
+  /* line 716, full_rubik_style.scss */
   .cke_toolbar a.cke_button:hover:before {
     content: attr(title);
     color: #FFFFFF;
@@ -403,7 +403,7 @@ ul.panels-ipe-linkbar li {
     text-align: center;
     border-radius: 6px;
     text-transform: capitalize; }
-  /* line 708, full_rubik_style.scss */
+  /* line 728, full_rubik_style.scss */
   .cke_toolbar a.cke_button:hover:after {
     content: '';
     position: absolute;
@@ -415,7 +415,7 @@ ul.panels-ipe-linkbar li {
     margin-left: calc(-50% + 1px);
     bottom: 112%; }
 
-/* line 727, full_rubik_style.scss */
+/* line 747, full_rubik_style.scss */
 .links li,
 .actions li,
 .primary-tabs li,
@@ -425,45 +425,45 @@ ul.panels-ipe-linkbar li {
   list-style: none;
   margin-left: 0; }
 
-/* line 734, full_rubik_style.scss */
+/* line 754, full_rubik_style.scss */
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
 
-/* line 739, full_rubik_style.scss */
+/* line 759, full_rubik_style.scss */
 ul.secondary-tabs {
   height: 20px;
   overflow: hidden; }
-  /* line 743, full_rubik_style.scss */
+  /* line 763, full_rubik_style.scss */
   ul.secondary-tabs li a {
     display: block;
     float: none;
     height: 0px;
     position: relative;
     top: -20px; }
-  /* line 751, full_rubik_style.scss */
+  /* line 771, full_rubik_style.scss */
   ul.secondary-tabs li.active a {
     top: 0; }
-  /* line 755, full_rubik_style.scss */
+  /* line 775, full_rubik_style.scss */
   ul.secondary-tabs:hover {
     height: auto;
     overflow: visible; }
-    /* line 759, full_rubik_style.scss */
+    /* line 779, full_rubik_style.scss */
     ul.secondary-tabs:hover li a {
       height: auto;
       position: relative;
       top: 0px; }
 
-/* line 767, full_rubik_style.scss */
+/* line 787, full_rubik_style.scss */
 ul.links li,
 ul.links li a {
   float: none; }
 
-/* line 775, full_rubik_style.scss */
+/* line 795, full_rubik_style.scss */
 ul.action-links > li,
 ul.links.pager > li,
 ul.primary-tabs.links > li {
   margin-left: 0; }
-/* line 778, full_rubik_style.scss */
+/* line 798, full_rubik_style.scss */
 ul.action-links > li, ul.action-links > li a,
 ul.links.pager > li,
 ul.links.pager > li a,
@@ -471,7 +471,7 @@ ul.primary-tabs.links > li,
 ul.primary-tabs.links > li a {
   float: left; }
 
-/* line 783, full_rubik_style.scss */
+/* line 803, full_rubik_style.scss */
 .views-mini-pager {
   display: -webkit-box;
   display: -webkit-flex;
@@ -482,74 +482,74 @@ ul.primary-tabs.links > li a {
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 788, full_rubik_style.scss */
+/* line 808, full_rubik_style.scss */
 .views-content .item-list ul li {
   border-bottom: 0px;
   margin-left: 0px; }
 
-/* line 793, full_rubik_style.scss */
+/* line 813, full_rubik_style.scss */
 .ctools-content ul li {
   margin-left: 0; }
 
-/* line 797, full_rubik_style.scss */
+/* line 817, full_rubik_style.scss */
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%; }
-  /* line 801, full_rubik_style.scss */
+  /* line 821, full_rubik_style.scss */
   #mini-panel-header .panel-panel {
     width: auto; }
-  /* line 805, full_rubik_style.scss */
+  /* line 825, full_rubik_style.scss */
   #mini-panel-header .panel-col-first,
   #mini-panel-header .panel-col-last {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0;
         -ms-flex: 1 0;
             flex: 1 0; }
-  /* line 809, full_rubik_style.scss */
+  /* line 829, full_rubik_style.scss */
   #mini-panel-header .panel-col-first {
     text-align: left; }
-  /* line 812, full_rubik_style.scss */
+  /* line 832, full_rubik_style.scss */
   #mini-panel-header .panel-col-last {
     -webkit-align-self: baseline;
         -ms-flex-item-align: baseline;
             align-self: baseline; }
-    /* line 815, full_rubik_style.scss */
+    /* line 835, full_rubik_style.scss */
     #mini-panel-header .panel-col-last .menu-name-user-menu ul {
       float: right; }
-  /* line 819, full_rubik_style.scss */
+  /* line 839, full_rubik_style.scss */
   #mini-panel-header .panel-col {
     -webkit-box-flex: 2;
     -webkit-flex: 2 0;
         -ms-flex: 2 0;
             flex: 2 0;
     text-align: center; }
-    /* line 823, full_rubik_style.scss */
+    /* line 843, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-site-name {
       font-size: 2em;
       line-height: 1.5; }
-    /* line 827, full_rubik_style.scss */
+    /* line 847, full_rubik_style.scss */
     #mini-panel-header .panel-col .pane-page-slogan {
       font-size: 1.5em;
       line-height: 1.5; }
 
-/* line 834, full_rubik_style.scss */
+/* line 854, full_rubik_style.scss */
 .secure-site-notif .block-content {
   background-color: #2ECC71;
   text-align: center;
   padding: 10px; }
 
-/* line 839, full_rubik_style.scss */
+/* line 859, full_rubik_style.scss */
 .region-footer #block-block-2 .block-content {
   text-align: center; }
-  /* line 842, full_rubik_style.scss */
+  /* line 862, full_rubik_style.scss */
   .region-footer #block-block-2 .block-content p {
     margin: 0;
     width: 100%; }
 
-/* line 848, full_rubik_style.scss */
+/* line 868, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar.ui-widget-header,
 .modal-header,
 #modalContent div.ctools-modal-content .modal-header {
@@ -559,7 +559,7 @@ ul.primary-tabs.links > li a {
   height: 30px;
   overflow: hidden; }
 
-/* line 858, full_rubik_style.scss */
+/* line 878, full_rubik_style.scss */
 #modal-title,
 #modalContent div.ctools-modal-content .modal-title {
   font-size: 11px;
@@ -567,21 +567,21 @@ ul.primary-tabs.links > li a {
   line-height: 20px;
   padding: 5px 20px; }
 
-/* line 867, full_rubik_style.scss */
+/* line 887, full_rubik_style.scss */
 #modal-content .form-item {
   position: static; }
-/* line 870, full_rubik_style.scss */
+/* line 890, full_rubik_style.scss */
 #modal-content #views-content-views-content-type-edit-form {
   float: left;
   width: 50%; }
-  /* line 874, full_rubik_style.scss */
+  /* line 894, full_rubik_style.scss */
   #modal-content #views-content-views-content-type-edit-form .form-actions {
     position: absolute;
     right: 12px;
     top: 490px;
     width: 47%;
     padding: 9px 0; }
-/* line 882, full_rubik_style.scss */
+/* line 902, full_rubik_style.scss */
 #modal-content .option-text-aligner {
   width: 100%;
   border: 1px solid #ddd;
@@ -595,87 +595,87 @@ ul.primary-tabs.links > li a {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 890, full_rubik_style.scss */
+  /* line 910, full_rubik_style.scss */
   #modal-content .option-text-aligner .form-item {
     float: none;
     border: 0; }
-/* line 896, full_rubik_style.scss */
+/* line 916, full_rubik_style.scss */
 #modal-content .form-actions {
   width: 46%;
   padding: 1%;
   margin-left: 0; }
 
-/* line 904, full_rubik_style.scss */
+/* line 924, full_rubik_style.scss */
 #block-system-user-menu ul.menu {
   float: right; }
-  /* line 907, full_rubik_style.scss */
+  /* line 927, full_rubik_style.scss */
   #block-system-user-menu ul.menu li {
     float: left;
     border: 0; }
 
-/* line 915, full_rubik_style.scss */
+/* line 935, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
-/* line 922, full_rubik_style.scss */
+/* line 942, full_rubik_style.scss */
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: table;
   margin: 0 auto; }
-  /* line 927, full_rubik_style.scss */
+  /* line 947, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
     @media (min-width: 980px) {
-      /* line 927, full_rubik_style.scss */
+      /* line 947, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  /* line 935, full_rubik_style.scss */
+  /* line 955, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
     @media (min-width: 980px) {
-      /* line 935, full_rubik_style.scss */
+      /* line 955, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  /* line 945, full_rubik_style.scss */
+  /* line 965, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8; }
-  /* line 949, full_rubik_style.scss */
+  /* line 969, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
     background: #eee url(images/bleeds.png) 50% 0px no-repeat;
     border: 0px;
     float: none;
     list-style: none; }
     @media (min-width: 980px) {
-      /* line 949, full_rubik_style.scss */
+      /* line 969, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left; } }
-    /* line 959, full_rubik_style.scss */
+    /* line 979, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
       background-color: #7bc !important;
       color: #fff;
       text-shadow: #38a 0px 1px 0px; }
-    /* line 965, full_rubik_style.scss */
+    /* line 985, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 965, full_rubik_style.scss */
+        /* line 985, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
-    /* line 973, full_rubik_style.scss */
+    /* line 993, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
       @media (min-width: 980px) {
-        /* line 973, full_rubik_style.scss */
+        /* line 993, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
-    /* line 980, full_rubik_style.scss */
+    /* line 1000, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open > a {
       background-color: #f8f8f8;
       text-align: center; }
-    /* line 985, full_rubik_style.scss */
+    /* line 1005, full_rubik_style.scss */
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       background-image: none;
       color: #333;
@@ -685,24 +685,24 @@ ul.primary-tabs.links > li a {
       float: none;
       padding: 5px 10px; }
       @media (min-width: 980px) {
-        /* line 985, full_rubik_style.scss */
+        /* line 1005, full_rubik_style.scss */
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
           float: left; } }
-      /* line 998, full_rubik_style.scss */
+      /* line 1018, full_rubik_style.scss */
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:focus {
         background-color: #f8f8f8; }
-  /* line 1005, full_rubik_style.scss */
+  /* line 1025, full_rubik_style.scss */
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav li a {
     width: 90%;
     text-align: left; }
 
-/* line 1014, full_rubik_style.scss */
+/* line 1034, full_rubik_style.scss */
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
 .tb-megamenu .dropdown-menu .active > a,
 .tb-megamenu .dropdown-menu .active > a:hover {
   background-color: #f8f8f8; }
 
-/* line 1020, full_rubik_style.scss */
+/* line 1040, full_rubik_style.scss */
 .ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
 #modalContent div.ctools-modal-content a.close {
@@ -713,52 +713,52 @@ ul.primary-tabs.links > li a {
   width: 20px;
   margin: 5px;
   padding: 0px; }
-  /* line 1032, full_rubik_style.scss */
+  /* line 1052, full_rubik_style.scss */
   .ui-dialog button.ui-dialog-titlebar-close:hover, .ui-dialog button.ui-dialog-titlebar-close:focus,
   .modal-header .close:hover,
   .modal-header .close:focus,
   #modalContent div.ctools-modal-content a.close:hover,
   #modalContent div.ctools-modal-content a.close:focus {
     background: #444 url(images/buttons.png) -4000px 50% no-repeat; }
-  /* line 1036, full_rubik_style.scss */
+  /* line 1056, full_rubik_style.scss */
   .ui-dialog button.ui-dialog-titlebar-close span.ui-icon,
   .modal-header .close span.ui-icon,
   #modalContent div.ctools-modal-content a.close span.ui-icon {
     display: none; }
 
-/* line 1041, full_rubik_style.scss */
+/* line 1061, full_rubik_style.scss */
 .ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text {
   display: none; }
 
-/* line 1046, full_rubik_style.scss */
+/* line 1066, full_rubik_style.scss */
 .mbp-folders ol, .mbp-folders ul {
   margin-left: 0; }
-  /* line 1049, full_rubik_style.scss */
+  /* line 1069, full_rubik_style.scss */
   .mbp-folders ol li, .mbp-folders ul li {
     margin-left: 0; }
 
-/* line 1054, full_rubik_style.scss */
+/* line 1074, full_rubik_style.scss */
 .media-list-thumbnails .media-item.selected {
   background: green; }
 
-/* line 1058, full_rubik_style.scss */
+/* line 1078, full_rubik_style.scss */
 .media-item .media-thumbnail {
   width: 160px;
   height: 160px; }
 
-/* line 1064, full_rubik_style.scss */
+/* line 1084, full_rubik_style.scss */
 .field-type-field-collection .field-items .field-item {
   margin: 0; }
-/* line 1067, full_rubik_style.scss */
+/* line 1087, full_rubik_style.scss */
 .field-type-field-collection .field-item.even {
   background-color: #FAFAFA; }
 
-/* line 1072, full_rubik_style.scss */
+/* line 1092, full_rubik_style.scss */
 .field-collection-view .field-label {
   width: auto; }
 
 /* Maintenance page styles */
-/* line 1077, full_rubik_style.scss */
+/* line 1097, full_rubik_style.scss */
 body.maintenance-page {
   width: 100vw;
   height: 100vh;
@@ -777,13 +777,13 @@ body.maintenance-page {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 1084, full_rubik_style.scss */
+  /* line 1104, full_rubik_style.scss */
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
-  /* line 1087, full_rubik_style.scss */
+  /* line 1107, full_rubik_style.scss */
   body.maintenance-page #page {
     margin: 20px 40px 40px; }
-  /* line 1090, full_rubik_style.scss */
+  /* line 1110, full_rubik_style.scss */
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
@@ -796,27 +796,27 @@ body.maintenance-page {
         -ms-flex-pack: center;
             justify-content: center;
     display: inherit; }
-  /* line 1097, full_rubik_style.scss */
+  /* line 1117, full_rubik_style.scss */
   body.maintenance-page #header .section {
     text-align: center; }
-  /* line 1100, full_rubik_style.scss */
+  /* line 1120, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan,
   body.maintenance-page #main {
     text-align: center; }
-  /* line 1104, full_rubik_style.scss */
+  /* line 1124, full_rubik_style.scss */
   body.maintenance-page #name-and-slogan {
     margin-bottom: 50px;
     padding-top: 20px; }
-  /* line 1108, full_rubik_style.scss */
+  /* line 1128, full_rubik_style.scss */
   body.maintenance-page #site-name {
     font-size: 28px;
     line-height: 1; }
-  /* line 1112, full_rubik_style.scss */
+  /* line 1132, full_rubik_style.scss */
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic; }
-  /* line 1117, full_rubik_style.scss */
+  /* line 1137, full_rubik_style.scss */
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
@@ -879,11 +879,31 @@ body.maintenance-page {
 /* line 308, full_rubik_style.scss */
 .node-type-loan .pane-loan-chaos-data .field-label {
   width: 225px; }
+/* line 310, full_rubik_style.scss */
+.node-type-loan .field-name-field-deferred-fee-label {
+  display: inline-block;
+  font-weight: bold;
+  width: 270px; }
+  /* line 315, full_rubik_style.scss */
+  .node-type-loan .field-name-field-deferred-fee-label .field-items {
+    display: inline-block;
+    margin-left: 0; }
+  /* line 319, full_rubik_style.scss */
+  .node-type-loan .field-name-field-deferred-fee-label:after {
+    content: ':\00a0'; }
+/* line 324, full_rubik_style.scss */
+.node-type-loan .field-name-field-current-lender,
+.node-type-loan .field-name-field-current-service-bureau {
+  font-weight: bold; }
+  /* line 328, full_rubik_style.scss */
+  .node-type-loan .field-name-field-current-lender .field-items,
+  .node-type-loan .field-name-field-current-service-bureau .field-items {
+    margin-left: 0; }
 
-/* line 1129, full_rubik_style.scss */
+/* line 1149, full_rubik_style.scss */
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
-/* line 1133, full_rubik_style.scss */
+/* line 1153, full_rubik_style.scss */
 .node-type-press-release.panelized-node .content-main {
   max-width: 960px;
   background: #FFF;
@@ -892,7 +912,7 @@ body.maintenance-page {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
   box-sizing: border-box; }
-  /* line 1142, full_rubik_style.scss */
+  /* line 1162, full_rubik_style.scss */
   .node-type-press-release.panelized-node .content-main:before, .node-type-press-release.panelized-node .content-main:after {
     content: "";
     position: absolute;
@@ -903,28 +923,28 @@ body.maintenance-page {
     left: 10px;
     right: 10px;
     border-radius: 100px / 10px; }
-/* line 1157, full_rubik_style.scss */
+/* line 1177, full_rubik_style.scss */
 .node-type-press-release.panelized-node .pane-node-field-immediate-release h4,
 .node-type-press-release.panelized-node .contact-title h4 {
   margin: 0; }
-/* line 1162, full_rubik_style.scss */
+/* line 1182, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-pr-about {
   margin: 2em 0; }
-/* line 1166, full_rubik_style.scss */
+/* line 1186, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-full-contact-details {
   margin: 2em 0;
   text-align: center; }
-  /* line 1170, full_rubik_style.scss */
+  /* line 1190, full_rubik_style.scss */
   .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
-    /* line 1174, full_rubik_style.scss */
+    /* line 1194, full_rubik_style.scss */
     .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
-/* line 1180, full_rubik_style.scss */
+/* line 1200, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-upload-document {
   display: -webkit-box;
   display: -webkit-flex;
@@ -934,25 +954,25 @@ body.maintenance-page {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-/* line 1185, full_rubik_style.scss */
+/* line 1205, full_rubik_style.scss */
 .node-type-press-release.panelized-node .field-name-field-featured-image {
   width: 50%; }
-/* line 1189, full_rubik_style.scss */
+/* line 1209, full_rubik_style.scss */
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }
-/* line 1194, full_rubik_style.scss */
+/* line 1214, full_rubik_style.scss */
 .node-type-press-release.panelized-node .pane-node-links {
   text-align: center; }
 
-/* line 1199, full_rubik_style.scss */
+/* line 1219, full_rubik_style.scss */
 .boxed,
 div.panel-pane div.node.boxed {
   border: 1px solid #ccc;
   padding: 1em;
   margin: 1em 0;
   position: relative; }
-  /* line 1206, full_rubik_style.scss */
+  /* line 1226, full_rubik_style.scss */
   .boxed h2, .boxed h3,
   div.panel-pane div.node.boxed h2,
   div.panel-pane div.node.boxed h3 {
@@ -962,34 +982,34 @@ div.panel-pane div.node.boxed {
     background: white;
     padding: 0 1em;
     display: inline-block !important; }
-    /* line 1214, full_rubik_style.scss */
+    /* line 1234, full_rubik_style.scss */
     .boxed h2.ctools-collapsible-handle, .boxed h3.ctools-collapsible-handle,
     div.panel-pane div.node.boxed h2.ctools-collapsible-handle,
     div.panel-pane div.node.boxed h3.ctools-collapsible-handle {
       padding-left: 1em; }
-  /* line 1219, full_rubik_style.scss */
+  /* line 1239, full_rubik_style.scss */
   .boxed .ctools-toggle,
   div.panel-pane div.node.boxed .ctools-toggle {
     position: absolute;
     top: -10px;
     z-index: 1; }
 
-/* line 1226, full_rubik_style.scss */
+/* line 1246, full_rubik_style.scss */
 #edit-actions {
   text-align: center;
   box-sizing: border-box; }
 
-/* line 1230, full_rubik_style.scss */
+/* line 1250, full_rubik_style.scss */
 .pane-profile2-form-buttons {
   width: 100%; }
 
 /***********************/
 /* USER PROFILE STYLES */
 /***********************/
-/* line 1239, full_rubik_style.scss */
+/* line 1259, full_rubik_style.scss */
 .panelizer-view-mode.node-embedded-to-profile > h3 {
   cursor: pointer; }
-  /* line 1242, full_rubik_style.scss */
+  /* line 1262, full_rubik_style.scss */
   .panelizer-view-mode.node-embedded-to-profile > h3:before {
     content: '';
     width: 17px;
@@ -1000,54 +1020,34 @@ div.panel-pane div.node.boxed {
     background-repeat: no-repeat;
     position: absolute;
     left: 0px; }
-/* line 1255, full_rubik_style.scss */
+/* line 1275, full_rubik_style.scss */
 .panelizer-view-mode.node-embedded-to-profile > h3.open:before {
   background-image: url(../../../all/modules/ctools/images/collapsible-expanded.png);
   background-position: 4px 9px; }
-/* line 1260, full_rubik_style.scss */
+/* line 1280, full_rubik_style.scss */
 .panelizer-view-mode.node-embedded-to-profile > .panel-display {
   display: none; }
 
-/* line 1265, full_rubik_style.scss */
+/* line 1285, full_rubik_style.scss */
 .pane-additional-identifying-info-edit .form-wrapper {
   margin-bottom: 0; }
 
-/* line 1268, full_rubik_style.scss */
+/* line 1288, full_rubik_style.scss */
 .form-item {
   width: 100%; }
-  /* line 1271, full_rubik_style.scss */
+  /* line 1291, full_rubik_style.scss */
   .form-item label {
     display: inline-block;
     font-size: 13px; }
-  /* line 1276, full_rubik_style.scss */
+  /* line 1296, full_rubik_style.scss */
   .form-item input[type="text"] {
     width: 78%;
     box-sizing: border-box; }
 
-/* line 1282, full_rubik_style.scss */
+/* line 1302, full_rubik_style.scss */
 .page-staff-users table.views-table .item-list ul li {
   border: none; }
 
-/* line 1287, full_rubik_style.scss */
-.page-user-view .field-name-field-deferred-fee-label {
-  display: inline-block;
-  font-weight: bold;
-  width: 270px; }
-  /* line 1292, full_rubik_style.scss */
-  .page-user-view .field-name-field-deferred-fee-label .field-items {
-    display: inline-block;
-    margin-left: 0; }
-  /* line 1296, full_rubik_style.scss */
-  .page-user-view .field-name-field-deferred-fee-label:after {
-    content: ':\00a0'; }
-/* line 1301, full_rubik_style.scss */
-.page-user-view .field-name-field-current-lender,
-.page-user-view .field-name-field-current-service-bureau {
-  font-weight: bold; }
-  /* line 1305, full_rubik_style.scss */
-  .page-user-view .field-name-field-current-lender .field-items,
-  .page-user-view .field-name-field-current-service-bureau .field-items {
-    margin-left: 0; }
 /* line 1308, full_rubik_style.scss */
 .page-user-view .field-name-field-user-about p {
   margin: 0; }
@@ -1743,7 +1743,7 @@ table.field-multiple-table tr.draggable {
 .page-user-edit #user-profile-form .form-item-name input,
 .page-user-edit #user-profile-form .form-item-mail input {
   width: 100%; }
-/* line 313, full_rubik_style.scss */
+/* line 333, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-name-prefix .form-item,
 .page-user-edit #user-profile-form .field-name-field-first-name .form-item,
 .page-user-edit #user-profile-form .field-name-field-middle-name .form-item,
@@ -1762,7 +1762,7 @@ table.field-multiple-table tr.draggable {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-/* line 319, full_rubik_style.scss */
+/* line 339, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-name-prefix label,
 .page-user-edit #user-profile-form .field-name-field-first-name label,
 .page-user-edit #user-profile-form .field-name-field-middle-name label,
@@ -1773,7 +1773,7 @@ table.field-multiple-table tr.draggable {
   -webkit-flex: 0 0 95px;
       -ms-flex: 0 0 95px;
           flex: 0 0 95px; }
-/* line 322, full_rubik_style.scss */
+/* line 342, full_rubik_style.scss */
 .page-user-edit #user-profile-form .field-name-field-name-prefix input,
 .page-user-edit #user-profile-form .field-name-field-first-name input,
 .page-user-edit #user-profile-form .field-name-field-middle-name input,
@@ -2232,6 +2232,26 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 /* line 308, full_rubik_style.scss */
 .page-user-view .field-name-field-loans .pane-loan-chaos-data .field-label {
   width: 225px; }
+/* line 310, full_rubik_style.scss */
+.page-user-view .field-name-field-loans .field-name-field-deferred-fee-label {
+  display: inline-block;
+  font-weight: bold;
+  width: 270px; }
+  /* line 315, full_rubik_style.scss */
+  .page-user-view .field-name-field-loans .field-name-field-deferred-fee-label .field-items {
+    display: inline-block;
+    margin-left: 0; }
+  /* line 319, full_rubik_style.scss */
+  .page-user-view .field-name-field-loans .field-name-field-deferred-fee-label:after {
+    content: ':\00a0'; }
+/* line 324, full_rubik_style.scss */
+.page-user-view .field-name-field-loans .field-name-field-current-lender,
+.page-user-view .field-name-field-loans .field-name-field-current-service-bureau {
+  font-weight: bold; }
+  /* line 328, full_rubik_style.scss */
+  .page-user-view .field-name-field-loans .field-name-field-current-lender .field-items,
+  .page-user-view .field-name-field-loans .field-name-field-current-service-bureau .field-items {
+    margin-left: 0; }
 /* line 2109, full_rubik_style.scss */
 .page-user-view .pane-consultant-additional-id-info .field .field-label {
   min-width: 210px; }

@@ -307,6 +307,26 @@
   .pane-loan-chaos-data {
     .field-label { width: 225px; }
   }
+  .field-name-field-deferred-fee-label {
+    display: inline-block;
+    font-weight: bold;
+    width: 270px;
+
+    .field-items {
+      display: inline-block;
+      margin-left: 0;
+    }
+    &:after {
+      content: ':\00a0';
+    }
+  }
+
+  .field-name-field-current-lender,
+  .field-name-field-current-service-bureau {
+    font-weight: bold;
+
+    .field-items { margin-left: 0; }
+  }
 }
 
 @mixin flexifields($label-width, $min-width: 100px) {
@@ -1284,26 +1304,6 @@ div.panel-pane div.node.boxed {
 }
 
 .page-user-view {
-  .field-name-field-deferred-fee-label {
-    display: inline-block;
-    font-weight: bold;
-    width: 270px;
-
-    .field-items {
-      display: inline-block;
-      margin-left: 0;
-    }
-    &:after {
-      content: ':\00a0';
-    }
-  }
-
-  .field-name-field-current-lender,
-  .field-name-field-current-service-bureau {
-    font-weight: bold;
-
-    .field-items { margin-left: 0; }
-  }
   .field-name-field-user-about {
     p { margin: 0;  }
   }
