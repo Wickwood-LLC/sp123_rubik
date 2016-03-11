@@ -240,6 +240,75 @@
   }
 }
 
+@mixin loan-node {
+  .node-loan,
+  .boxed {
+    position: relative;
+
+    h3 {
+      position: absolute;
+      margin-left: 0;
+      padding: 0 1em;
+      background: white;
+      top: -10px;
+    }
+  }
+
+  .pane-loan-debit-information {
+    .field-label { width: 250px; }
+
+    .field-name-field-debit-fee-notes {
+      &>.field-items {
+        width: 100%;
+      }
+      .field-collection-item-field-debit-fee-notes {
+        margin-right: 2em;
+
+        .field-name-field-note {
+          clear: both;
+        }
+      }
+      .field-name-field-date,
+      .field-name-field-staff-user,
+      .field-name-field-note {
+        .field-label {
+          width: auto;
+        }
+      }
+    }
+  }
+  .pane-node-field-deferred-enrollment-fees {
+    .field-label { width: 270px; }
+  }
+  .pane-node-field-lenders {
+    .field-label { width: 120px; }
+  }
+  .pane-bwma-enrolment {
+    .field-label { width: 165px; }
+
+    .field-name-field-welcome-package-sent-date,
+    .field-name-field-welcome-package-note {
+      .field-label {
+        width: 70px;
+      }
+    }
+  }
+  .pane-afts-advance {
+    .field-label { width: 280px; }
+  }
+  .pane-node-field-collection-status {
+    .field-label { width: 90px; }
+
+    .field-name-field-note .field-label { width: auto; }
+  }
+  .pane-node-field-service-bureaus {
+    .field-label { width: 190px; }
+  }
+  .pane-loan-chaos-data {
+    .field-label { width: 225px; }
+  }
+}
+
 @mixin flexifields($label-width, $min-width: 100px) {
   .form-item {
     display: flex;
@@ -1053,7 +1122,7 @@ body.maintenance-page {
 }
 
 .node-type-loan {
-  @extend .field-name-field-loans;
+  @include loan-node;
 }
 
 .node-type-press-release.panelized-node {
@@ -2032,72 +2101,7 @@ tr.ief-row-entity .ief-entity-operations {
   }
 
   .field-name-field-loans {
-    .node-loan,
-    .boxed {
-      position: relative;
-
-      h3 {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 1em;
-        background: white;
-        top: -10px;
-      }
-    }
-
-    .pane-loan-debit-information {
-      .field-label { width: 250px; }
-
-      .field-name-field-debit-fee-notes {
-        &>.field-items {
-          width: 100%;
-        }
-        .field-collection-item-field-debit-fee-notes {
-          margin-right: 2em;
-
-          .field-name-field-note {
-            clear: both;
-          }
-        }
-        .field-name-field-date,
-        .field-name-field-staff-user,
-        .field-name-field-note {
-          .field-label {
-            width: auto;
-          }
-        }
-      }
-    }
-    .pane-node-field-deferred-enrollment-fees {
-      .field-label { width: 270px; }
-    }
-    .pane-node-field-lenders {
-      .field-label { width: 120px; }
-    }
-    .pane-bwma-enrolment {
-      .field-label { width: 165px; }
-
-      .field-name-field-welcome-package-sent-date,
-      .field-name-field-welcome-package-note {
-        .field-label {
-          width: 70px;
-        }
-      }
-    }
-    .pane-afts-advance {
-      .field-label { width: 280px; }
-    }
-    .pane-node-field-collection-status {
-      .field-label { width: 90px; }
-
-      .field-name-field-note .field-label { width: auto; }
-    }
-    .pane-node-field-service-bureaus {
-      .field-label { width: 190px; }
-    }
-    .pane-loan-chaos-data {
-      .field-label { width: 225px; }
-    }
+    @include loan-node;
   }
 
   .pane-consultant-additional-id-info {
