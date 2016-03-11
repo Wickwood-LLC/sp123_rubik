@@ -442,6 +442,35 @@ body.tao {
   color: black;
 }
 
+body:not(.page-admin) {
+  .field-name-field-phone-number,
+  .field-name-field-deferred-fee-amount,
+  .pane-user-field-ss-or-ein,
+  .field-name-field-ss-or-ein {
+    display: inline-block;
+  }
+  .field-name-field-phone-type,
+  .field-name-field-identification {
+    display: inline-block;
+    font-weight: bold;
+
+    .field-items {
+      display: inline-block;
+    }
+    &:after {
+      content: ':\00a0';
+    }
+
+    >.field-items { margin-left: 0; }
+  }
+  .field-name-field-phone-type {
+    width: 70px;
+  }
+  .field-name-field-accept-text-messages {
+    .field-label {  width: 160px; }
+  }
+}
+
 body:not(.maintenance-page) #header {
   /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
   These can also be hidden by disablng it in the theme settings, 
@@ -1321,33 +1350,6 @@ div.panel-pane div.node.boxed {
 .page-user-view,
 .page-user {
   
-}
-
-.field-name-field-phone-number,
-.field-name-field-deferred-fee-amount,
-.pane-user-field-ss-or-ein,
-.field-name-field-ss-or-ein {
-  display: inline-block;
-}
-.field-name-field-phone-type,
-.field-name-field-identification {
-  display: inline-block;
-  font-weight: bold;
-
-  .field-items {
-    display: inline-block;
-  }
-  &:after {
-    content: ':\00a0';
-  }
-
-  >.field-items { margin-left: 0; }
-}
-.field-name-field-phone-type {
-  width: 70px;
-}
-.field-name-field-accept-text-messages {
-  .field-label {  width: 160px; }
 }
 
 .pane-chaos-data .field-label-inline .field-label,
