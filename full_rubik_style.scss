@@ -443,7 +443,7 @@ body.tao {
 }
 
 body:not(.page-admin),
-body:not(.overlay) {
+iframe body:not(.overlay) {
   .field-name-field-phone-number,
   .field-name-field-deferred-fee-amount,
   .pane-user-field-ss-or-ein,
