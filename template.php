@@ -242,3 +242,100 @@ function full_rubik_field_multiple_value_form($variables) {
 function full_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
 }
+
+/**
+ * Themes some exposed form elements in a collapsible fieldset.
+ *
+ * @param array $vars
+ *   An array of arrays, the 'element' item holds the properties of the element.
+ *
+ * @return string
+ *   HTML to render the form element.
+ */
+function full_rubik_secondary_exposed_elements($vars) {
+  $element = $vars['element'];
+
+  $output = '<div class="bef-secondary-options">';
+  foreach (element_children($element) as $id) {
+    if (in_array($id, $vars['widget_values'])) {
+      // This item is a wiget value part.
+      // Render entire widget here.
+
+      $widget = $vars['widgets'][$vars['widget_value_id_map'][$id]];
+
+      $output .= "<div id='{$widget->id}-wrapper' class='views-exposed-widget views-widget-$id'>";
+      if (!empty($widget->label)) {
+        $output .= "<label for='{$widget->id}'>{$widget->label}</label>";
+      }
+      if (!empty($widget->operator)) {
+        $output .= "<div class='views-operator'>{$widget->operator}</div>";
+      }
+      $output .= "<div class='views-widget'>{$widget->widget}</div>";
+      if (!empty($widget->description)) {
+        $output .= "<div class='description'>{$widget->description}</div>";
+
+      }
+      $output .= "</div>";
+    }
+    // Need to avoid rendering widget parts like value and operator.
+    // Then will be rendered as part of widget, within above if condition.
+    else if (!in_array($id, $vars['widget_parts'])) {
+      $output .= drupal_render($element[$id]);
+    }
+  }
+  $output .= '</div>';
+
+  return $output;
+}
+
+/**
+ * Build widgets like template_preprocess_views_exposed_form()
+ *
+ * @see template_preprocess_views_exposed_form()
+ */
+function full_rubik_preprocess_secondary_exposed_elements(&$vars) {
+  $element = $vars['element'];
+
+  // Put all single checkboxes together in the last spot.
+  $checkboxes = '';
+
+  $vars['widgets'] = array();
+  $vars['widget_parts'] = array();
+  $vars['widget_values'] = array();
+  $vars['widget_value_id_map'] = array();
+  foreach ($element['#info'] as $id => $info) {
+    // Set aside checkboxes.
+    if (isset($element[$info['value']]['#type']) && $element[$info['value']]['#type'] == 'checkbox') {
+      $checkboxes .= drupal_render($element[$info['value']]);
+      continue;
+    }
+    $widget = new stdClass;
+    // set up defaults so that there's always something there.
+    $widget->label = $widget->operator = $widget->widget = $widget->description = NULL;
+
+    $widget->id = isset($element[$info['value']]['#id']) ? $element[$info['value']]['#id'] : '';
+
+    if (!empty($info['label'])) {
+      $widget->label = check_plain($info['label']);
+    }
+    if (!empty($info['operator'])) {
+      $operator = $element[$info['operator']];
+      unset($operator['#title']);
+      $widget->operator = drupal_render($operator);
+      $vars['widget_parts'][] = $info['operator'];
+    }
+
+    $value = $element[$info['value']];
+    unset($value['#title']);
+    $widget->widget = drupal_render($value);
+    $vars['widget_parts'][] = $info['value'];
+    $vars['widget_values'][] = $info['value'];
+    $vars['widget_value_id_map'][$info['value']] = $id;
+
+    if (!empty($info['description'])) {
+      $widget->description = check_plain($info['description']);
+    }
+
+    $vars['widgets'][$id] = $widget;
+  }
+}
