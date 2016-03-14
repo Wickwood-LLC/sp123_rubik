@@ -133,7 +133,8 @@ body:not([class*="edit"]) .field-name-field-address-type {
     display: inline-block; }
   body:not([class*="edit"]) .field-name-field-address-type:after {
     content: ':'; }
-body:not([class*="edit"]) .field-collection-view {
+
+.field-collection-view {
   border: 1px dotted #D3D7D9;
   padding: 0.5em 1em;
   margin: 0; }
