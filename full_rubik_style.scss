@@ -476,6 +476,12 @@ body:not([class*="edit"]) {
     .field-items {  display: inline-block;  }
     &:after { content: ':'; }
   }
+
+  .field-collection-view {
+    border: 1px dotted #D3D7D9;
+    padding: 0.5em 1em;
+    margin: 0;
+  }
 }
 
 body:not(.maintenance-page) #header {
@@ -2036,12 +2042,6 @@ tr.ief-row-entity .ief-entity-operations {
 }
 
 .page-user {
-  .field-collection-view {
-    border: 1px dotted #D3D7D9;
-    padding: 0.5em 1em;
-    margin: 0;
-  }
-
   .field-collection-item-field-phone {
     .field-name-field-note .field-label {
       width: auto;
