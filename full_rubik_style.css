@@ -575,12 +575,13 @@ ul.primary-tabs.links > li a {
       text-shadow: #fff 0px 1px 0px;
       min-width: 70px;
       text-align: center;
-      float: none;
       padding: 5px 10px; }
+    #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a {
+      float: none; }
       @media (min-width: 980px) {
-        #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
+        #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a {
           float: left; } }
-      #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:hover, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a:focus {
+      #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a:hover, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a:focus {
         background-color: #f8f8f8; }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav li a {
     width: 90%;

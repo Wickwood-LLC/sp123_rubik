@@ -1050,9 +1050,12 @@ ul.primary-tabs.links {
         text-shadow: #fff 0px 1px 0px;
         min-width: 70px;
         text-align: center;
-        float: none;
         padding: 5px 10px;
+      }
 
+      >a {
+        float: none;
+        
         @include breakpoint(980px) {
           float: left;
         }
