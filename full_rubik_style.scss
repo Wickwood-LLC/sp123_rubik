@@ -442,15 +442,15 @@ body.tao {
   color: black;
 }
 
-body:not([class*="edit"]) {
-  .field-name-field-phone-number,
-  .field-name-field-deferred-fee-amount,
-  .pane-user-field-ss-or-ein,
-  .field-name-field-ss-or-ein {
+.field {
+  &.field-name-field-phone-number,
+  &.field-name-field-deferred-fee-amount,
+  &.pane-user-field-ss-or-ein,
+  &.field-name-field-ss-or-ein {
     display: inline-block;
   }
-  .field-name-field-phone-type,
-  .field-name-field-identification {
+  &.field-name-field-phone-type,
+  &.field-name-field-identification {
     display: inline-block;
     font-weight: bold;
 
@@ -463,14 +463,14 @@ body:not([class*="edit"]) {
 
     >.field-items { margin-left: 0; }
   }
-  .field-name-field-phone-type {
+  &.field-name-field-phone-type {
     width: 70px;
   }
   .field-name-field-accept-text-messages {
     .field-label {  width: 160px; }
   }
 
-  .field-name-field-address-type {
+  &.field-name-field-address-type {
     font-weight: bold;
     
     .field-items {  display: inline-block;  }
