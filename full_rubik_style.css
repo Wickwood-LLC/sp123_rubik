@@ -126,6 +126,9 @@ body.tao {
     display: inline-block; }
   .field.field-name-field-address-type:after {
     content: ':'; }
+.field.field-name-field-related-clients ul li {
+  list-style: none;
+  margin-left: 0; }
 
 .field-collection-view {
   border: 1px dotted #D3D7D9;

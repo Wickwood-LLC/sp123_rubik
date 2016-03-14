@@ -476,6 +476,13 @@ body.tao {
     .field-items {  display: inline-block;  }
     &:after { content: ':'; }
   }
+
+  &.field-name-field-related-clients {
+    ul li {
+      list-style: none;
+      margin-left: 0;
+    }
+  }
 }
 
 .field-collection-view {
@@ -1055,7 +1062,7 @@ ul.primary-tabs.links {
 
       >a {
         float: none;
-        
+
         @include breakpoint(980px) {
           float: left;
         }
