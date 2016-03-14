@@ -968,6 +968,9 @@ ul.field-collection-view-links {
   .field-name-field-notes .field-name-field-staff-user input,
   .field-name-field-debit-fee-notes .field-name-field-staff-user input {
     width: 24em; }
+.field-name-field-notes .field-name-field-note,
+.field-name-field-debit-fee-notes .field-name-field-note {
+  clear: both; }
 
 /* Client Edit Styles */
 .page-user-edit-bwma-client .pane-profile2-field-loans #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(4), .page-user-edit-bwma-client .pane-profile2-field-loans .inline-entity-form-node-status {
