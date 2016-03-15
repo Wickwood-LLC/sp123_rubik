@@ -135,6 +135,9 @@ body.tao {
   padding: 0.5em 1em;
   margin: 0; }
 
+.view-content .field-collection-view {
+  border: none; }
+
 body:not(.maintenance-page) #header {
   /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
   These can also be hidden by disablng it in the theme settings, 
