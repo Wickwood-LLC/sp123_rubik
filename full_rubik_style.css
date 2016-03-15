@@ -634,6 +634,8 @@ ul.primary-tabs.links > li a {
 .field-type-field-collection .field-items .field-item {
   margin: 0; }
 .field-type-field-collection .field-item.even {
+  background-color: white; }
+.field-type-field-collection .field-item.odd {
   background-color: #FAFAFA; }
 
 .field-collection-view .field-label {
