@@ -1957,9 +1957,14 @@ table.field-multiple-table {
         padding: 0;
       }
     }
+    .views-exposed-widget {
+      width: 100%;
+      padding: 0;
+    }
     .views-submit-button {
-      float: right;
-      margin: 0;
+      display: table;
+      float: none;
+      margin: 0 auto;
       padding: 0;
       input { margin: 0; }
     }
