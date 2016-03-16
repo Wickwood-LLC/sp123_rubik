@@ -1955,6 +1955,7 @@ table.field-multiple-table {
       .views-exposed-widgets {
         display: block;
         padding: 0;
+        width: 100%;
       }
     }
     .views-exposed-widget {
@@ -1962,11 +1963,12 @@ table.field-multiple-table {
       padding: 0;
     }
     .views-submit-button {
-      display: table;
       float: none;
-      margin: 0 auto;
       padding: 0;
-      input { margin: 0; }
+      input {
+        display: table;
+        margin: 0 auto;
+      }
     }
   }
 }
