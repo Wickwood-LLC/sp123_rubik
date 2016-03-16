@@ -2045,7 +2045,7 @@
 		},
 	"\/full_rubik_style.scss": {
 		"createSourceMap": 1,
-		"debugStyle": 2,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
