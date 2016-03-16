@@ -1570,6 +1570,11 @@ ul.field-collection-view-links {
     }
   }
 
+  .pane-user-field-related-clients .pane-content {
+    border: 0;
+    padding: 0;
+  }
+
   .field-name-field-loans tr {
     border: 1px solid #CCCCCC;
     border-width: 0 1px 0 1px;
@@ -2023,13 +2028,8 @@ table.field-multiple-table {
         width: auto;
       }
     }
-    .pane-user-field-related-clients .pane-content {
-      border: 0;
-      padding: 0;
-
-      .field-name-field-related-clients {
-        input { width: 100%; }
-      }
+    .field-name-field-related-clients {
+      input { width: 100%; }
     }
   }
 
