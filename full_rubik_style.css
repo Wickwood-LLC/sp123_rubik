@@ -126,12 +126,9 @@ body.tao {
     display: inline-block; }
   .field.field-name-field-address-type:after {
     content: ':'; }
-.field.field-name-field-related-clients {
-  border: 0;
-  padding: 0; }
-  .field.field-name-field-related-clients ul li {
-    list-style: none;
-    margin-left: 0; }
+.field.field-name-field-related-clients ul li {
+  list-style: none;
+  margin-left: 0; }
 
 .field-collection-view {
   border: 1px dotted #D3D7D9;
@@ -1659,11 +1656,13 @@ table.field-multiple-table tr.draggable {
   width: 100px; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user input[type="text"] {
   width: calc(100% - 110px); }
-.page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-birthday-notes label,
-.page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients label {
+.page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-birthday-notes label {
   width: auto; }
-.page-user-edit:not(.page-user-edit-bwma-client) .group-user .field-name-field-related-clients input {
-  width: 100%; }
+.page-user-edit:not(.page-user-edit-bwma-client) .group-user .pane-user-field-related-clients .pane-content {
+  border: 0;
+  padding: 0; }
+  .page-user-edit:not(.page-user-edit-bwma-client) .group-user .pane-user-field-related-clients .pane-content .field-name-field-related-clients input {
+    width: 100%; }
 .page-user-edit:not(.page-user-edit-bwma-client) .group-ssn-ein legend {
   background-color: #F6F6F6;
   padding: 5px 5px 5px 10px; }

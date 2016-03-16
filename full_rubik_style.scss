@@ -478,9 +478,6 @@ body.tao {
   }
 
   &.field-name-field-related-clients {
-    border: 0;
-    padding: 0;
-    
     ul li {
       list-style: none;
       margin-left: 0;
@@ -2021,15 +2018,17 @@ table.field-multiple-table {
     input[type="text"] {
       width: calc(100% - 110px);
     }
-    .field-name-field-birthday-notes,
-    .field-name-field-related-clients {
+    .field-name-field-birthday-notes {
       label {
         width: auto;
       }
     }
-    .field-name-field-related-clients {
-      input {
-        width: 100%;
+    .pane-user-field-related-clients .pane-content {
+      border: 0;
+      padding: 0;
+
+      .field-name-field-related-clients {
+        input { width: 100%; }
       }
     }
   }
