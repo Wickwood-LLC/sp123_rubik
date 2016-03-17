@@ -24,6 +24,7 @@
         var windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         var currentPosition = (windowTop + windowHeight) - buttonHeight;    // tells how far our target element is from where our screen is currently 
 
+        console.log(stickyTop);
         console.log(currentPosition);
 
         $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
@@ -42,6 +43,10 @@
         $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
           var currentPosition = (windowTop + windowHeight) - buttonHeight;    // tells how far our target element is from where our screen is currently 
+
+          console.log(stickyTop);
+          console.log(currentPosition);
+
   
           if (stickyTop > currentPosition) {    // if target element goes above the screen
             $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });    // stick it to the top
