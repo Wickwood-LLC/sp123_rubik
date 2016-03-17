@@ -25,6 +25,7 @@
         var currentPosition = (windowTop + windowHeight) - buttonHeight;    // tells how far our target element is from where our screen is currently 
 
         console.log(stickyTop);
+        console.log(buttonHeight);
         console.log(currentPosition);
 
         $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
@@ -45,6 +46,7 @@
           var currentPosition = (windowTop + windowHeight) - buttonHeight;    // tells how far our target element is from where our screen is currently 
 
           console.log(stickyTop);
+          console.log(buttonHeight);
           console.log(currentPosition);
 
   
