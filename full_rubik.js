@@ -20,8 +20,9 @@
         var stickyTop = $this.offset().top;
         var windowHeight = $(window).height();
         var buttonWidth = $this.parent().width();
-        var windowTop = $(window).scrollTop(); // returns number  
-        var currentPosition = windowTop + windowHeight;
+        var buttonHeight = $this.height();
+        var windowTop = $(window).scrollTop(); // returns number of pixels from the top of the window to the top of the target element
+        var currentPosition = windowTop + windowHeight + buttonHeight;
 
         $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
         $this.width(buttonWidth);      // reset button width
@@ -37,8 +38,8 @@
         }
   
         $(window).scroll(function(){ // scroll event 
-          var windowTop = $(window).scrollTop(); // returns number  
-          var currentPosition = windowTop + windowHeight;
+          var windowTop = $(window).scrollTop(); // returns number of pixels from the top of the window to the top of the target element
+          var currentPosition = windowTop + windowHeight + buttonHeight;
   
           if (stickyTop > currentPosition) {
             $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
