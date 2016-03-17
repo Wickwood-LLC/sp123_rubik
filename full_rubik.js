@@ -40,7 +40,7 @@
             $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the bottom
           }
           else {
-            $this.css('position','static');
+            $this.css({ position: 'static', width: buttonWidth });
           }
     
           $(window).scroll(function(){ // scroll event 
@@ -58,7 +58,7 @@
               $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });   //stick it at the bottom
             }
             else {
-              $this.css('position','static');
+              $this.css({ position: 'static', width: buttonWidth });
             }
           });
         }); 
