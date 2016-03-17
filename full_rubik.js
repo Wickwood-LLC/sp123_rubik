@@ -13,12 +13,11 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-      function sticky(target) {
-        var $this = $(target);
+        $('html').on("load resize", function() {
 
-        console.log($this);
+          var $this = $('div[id*="edit-actions"]');
+          console.log($this);
 
-        $('html').on("load resize", function() {      
           var stickyTop = $this.offset().top;
           var windowHeight = $(window).height();
           var buttonWidth = $this.parent().width();
@@ -53,9 +52,6 @@
             }
           });
         });          
-      }
-
-      $('html').on("load resize", sticky('div[id*="edit-actions"]')); // fire the script on load and resize
     }
   };
 }(jQuery));
