@@ -26,12 +26,12 @@
 
         console.log(stickyTop);
         console.log(currentPosition + buttonHeight);
-        console.log(stickyTop - (currentPosition + buttonHeight));
+        console.log(stickyTop - (currentPosition - (2 * buttonHeight)));
 
         $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
         $this.width(buttonWidth);      // reset button width
 
-        if (stickyTop > (currentPosition + buttonHeight)) {    // if target element goes above the screen
+        if (stickyTop > (currentPosition - (2 * buttonHeight))) {    // if target element goes above the screen
           $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the top
         }
         else if ((stickyTop - windowTop) < 0) {   // if target element goes below the screen
@@ -47,9 +47,9 @@
 
           console.log(stickyTop);
           console.log(currentPosition + buttonHeight);
-          console.log(stickyTop - (currentPosition + buttonHeight));
+          console.log(stickyTop - (currentPosition - (2 * buttonHeight)));
   
-          if (stickyTop > (currentPosition + buttonHeight)) {    // if target element goes above the screen
+          if (stickyTop > (currentPosition - (2 * buttonHeight))) {    // if target element goes above the screen
             $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });    // stick it to the top
           }
           else if ((stickyTop - windowTop) < 0) {   // if target element goes below the screen
