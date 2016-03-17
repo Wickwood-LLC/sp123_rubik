@@ -29,10 +29,10 @@
           $this.width(buttonWidth);      // reset button width
 
           if (stickyTop > currentPosition) {
-            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });
           }
           else if ((stickyTop - windowTop) < 0) {
-            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });
+            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });
           }
           else {
             $this.css('position','static');
