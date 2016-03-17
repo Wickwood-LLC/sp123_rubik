@@ -34,7 +34,7 @@
         if (stickyTop > currentPosition) {    // if target element goes above the screen
           $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the top
         }
-        else if ((stickyTop - windowTop - buttonHeight) < 0) {   // if target element goes below the screen
+        else if ((stickyTop - (windowTop - buttonHeight)) < 0) {   // if target element goes below the screen
           $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the bottom
         }
         else {
@@ -53,7 +53,7 @@
           if (stickyTop > currentPosition) {    // if target element goes above the screen
             $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });    // stick it to the top
           }
-          else if ((stickyTop - windowTop - buttonHeight) < 0) {   // if target element goes below the screen
+          else if ((stickyTop - (windowTop - buttonHeight)) < 0) {   // if target element goes below the screen
             $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });   //stick it at the bottom
           }
           else {
