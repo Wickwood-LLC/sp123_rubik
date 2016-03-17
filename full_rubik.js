@@ -13,12 +13,12 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-      $(window).on("load", "resize", function(){
+      $(window).on('load', 'resize', function(){
 
         $('html').find('div[id*="edit-actions"]').each(function() {           // fire the script on load and resize
 
           var $this = $(this);
-          console.log($this);
+          window.alert($this);
         
           var stickyTop = $this.offset().top;
           var windowHeight = $(window).height();
@@ -47,7 +47,7 @@
               $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
             }
             else if ((stickyTop - windowTop) < 0) {
-              $this.css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
+              $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });
             }
             else {
               $this.css('position','static');
