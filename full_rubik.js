@@ -13,8 +13,8 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-        function sticky() {
-          var $this = $(this);
+        function sticky(target) {
+          var $this = $(target);
 
           console.log($this);
         
@@ -53,7 +53,7 @@
           });          
         }
 
-        $('html').on("load resize", 'div[id*="edit-actions"]', sticky); // fire the script on load and resize
+        $('html').on("load resize", sticky('div[id*="edit-actions"]')); // fire the script on load and resize
     }
   };
 }(jQuery));
