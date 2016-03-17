@@ -13,7 +13,7 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-        $(document).on("load resize", function() {
+        $( window ).on("load resize", function() {
 
           var $this = $('div[id*="edit-actions"]');
           console.log($this);
