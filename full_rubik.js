@@ -13,45 +13,44 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-        $( window ).on("load resize", function() {
+      $( window ).on("load resize", function() {
 
-          var $this = $('div[id*="edit-actions"]');
-          console.log($this);
+        var $this = $('div[id*="edit-actions"]');
 
-          var stickyTop = $this.offset().top;
-          var windowHeight = $(window).height();
-          var buttonWidth = $this.parent().width();
+        var stickyTop = $this.offset().top;
+        var windowHeight = $(window).height();
+        var buttonWidth = $this.parent().width();
+        var windowTop = $(window).scrollTop(); // returns number  
+        var currentPosition = windowTop + windowHeight;
+
+        $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
+        $this.width(buttonWidth);      // reset button width
+
+        if (stickyTop > currentPosition) {
+          $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });
+        }
+        else if ((stickyTop - windowTop) < 0) {
+          $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });
+        }
+        else {
+          $this.css('position','static');
+        }
+  
+        $(window).scroll(function(){ // scroll event 
           var windowTop = $(window).scrollTop(); // returns number  
           var currentPosition = windowTop + windowHeight;
-
-          $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-          $this.width(buttonWidth);      // reset button width
-
+  
           if (stickyTop > currentPosition) {
-            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });
+            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
           }
           else if ((stickyTop - windowTop) < 0) {
-            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });
+            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });
           }
           else {
             $this.css('position','static');
           }
-    
-          $(window).scroll(function(){ // scroll event 
-            var windowTop = $(window).scrollTop(); // returns number  
-            var currentPosition = windowTop + windowHeight;
-    
-            if (stickyTop > currentPosition) {
-              $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
-            }
-            else if ((stickyTop - windowTop) < 0) {
-              $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });
-            }
-            else {
-              $this.css('position','static');
-            }
-          });
-        });          
+        });
+      });          
     }
   };
 }(jQuery));
