@@ -6,19 +6,18 @@
     		var $this = $(this);
     		$this.parents('.panelizer-view-mode.node-embedded-to-profile').find('.panel-display').first().slideToggle();
     		$this.toggleClass('open');
-		});
+		  });
     }
   };
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-      $(window).on('load', 'resize', function(){
-
         $('html').find('div[id*="edit-actions"]').each(function() {           // fire the script on load and resize
 
           var $this = $(this);
-          window.alert($this);
+
+          console.log($this);
         
           var stickyTop = $this.offset().top;
           var windowHeight = $(window).height();
@@ -54,7 +53,6 @@
             }
           });
         });
-      });
     }
   };
 }(jQuery));
