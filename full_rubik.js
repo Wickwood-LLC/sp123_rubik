@@ -26,7 +26,7 @@
 
         console.log(stickyTop);
         console.log(buttonHeight);
-        console.log(currentPosition);
+        console.log(currentPosition - buttonHeight);
 
         $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
         $this.width(buttonWidth);      // reset button width
@@ -47,7 +47,7 @@
 
           console.log(stickyTop);
           console.log(buttonHeight);
-          console.log(currentPosition);
+          console.log(currentPosition - buttonHeight);
 
   
           if (stickyTop > currentPosition) {    // if target element goes above the screen
