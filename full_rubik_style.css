@@ -123,9 +123,12 @@ body.tao {
 .field.field-name-field-address-type {
   font-weight: bold; }
   .field.field-name-field-address-type .field-items {
-    display: inline-block; }
+    display: inline-block;
+    margin-left: 0; }
   .field.field-name-field-address-type:after {
     content: ':'; }
+.field.field-name-field-address .field-items {
+  margin-left: 0; }
 .field.field-name-field-related-clients ul li {
   list-style: none;
   margin-left: 0; }

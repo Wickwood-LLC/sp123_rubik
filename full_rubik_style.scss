@@ -473,8 +473,16 @@ body.tao {
   &.field-name-field-address-type {
     font-weight: bold;
     
-    .field-items {  display: inline-block;  }
+    .field-items {
+      display: inline-block;
+      margin-left: 0;
+    }
     &:after { content: ':'; }
+  }
+  &.field-name-field-address {
+    .field-items {
+      margin-left: 0;
+    }
   }
 
   &.field-name-field-related-clients {
