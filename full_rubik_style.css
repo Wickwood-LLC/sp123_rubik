@@ -640,7 +640,7 @@ ul.primary-tabs.links > li a {
 .field-type-field-collection .field-items .field-item {
   margin: 0; }
 .field-type-field-collection .field-item.even {
-  background-color: white; }
+  background-color: transparent; }
 .field-type-field-collection .field-item.odd {
   background-color: #FAFAFA; }
 
