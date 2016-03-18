@@ -2193,11 +2193,6 @@ label[for="edit-pubdate"] {
   #node-edit #edit-entity-recur #edit-entity-recur-until .description {
     display: inline-block;
     width: auto; }
-#node-edit .field-name-field-date-and-time .description {
-  display: none; }
-#node-edit .field-name-field-date-and-time input[type="checkbox"] {
-  width: auto;
-  margin-right: 5px; }
 #node-edit .field-type-datetime.field-widget-date-popup .form-item {
   display: inline-block; }
 #node-edit .field-type-datetime.field-widget-date-popup .date-float {
@@ -2210,6 +2205,11 @@ label[for="edit-pubdate"] {
   display: inline-block; }
 #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label {
   padding: 0; }
+#node-edit .field-type-datetime.field-widget-date-popup .description {
+  display: none; }
+#node-edit .field-type-datetime.field-widget-date-popup input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px; }
 #node-edit .pane-node-form-publishing .pane-title {
   margin-bottom: 0; }
 #node-edit .pane-node-form-publishing .form-item-pubdate {

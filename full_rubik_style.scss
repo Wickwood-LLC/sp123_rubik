@@ -2586,14 +2586,6 @@ label[for="edit-pubdate"] {
     }
   }
 
-  .field-name-field-date-and-time {
-    .description {  display: none;  }
-    input[type="checkbox"] {
-      width: auto;
-      margin-right: 5px;
-    }
-  }
-
   .field-type-datetime.field-widget-date-popup {
     .form-item { 
       display: inline-block; 
@@ -2610,6 +2602,12 @@ label[for="edit-pubdate"] {
     .end-date-wrapper {
       label, .date-padding { display: inline-block; }
       label { padding: 0; }
+    }
+
+    .description {  display: none;  }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
     }
   }
 
