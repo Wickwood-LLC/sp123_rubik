@@ -643,6 +643,8 @@ ul.primary-tabs.links > li a {
   background-color: transparent; }
 .field-type-field-collection .field-item.odd {
   background-color: #FAFAFA; }
+  .field-type-field-collection .field-item.odd .field-type-field-collection .field-item.even .field-collection-view {
+    background: white; }
 
 .field-collection-view .field-label {
   width: auto; }
@@ -2608,8 +2610,5 @@ label[for="edit-pubdate"] {
 
 .password-strength {
   width: 100%; }
-
-.pane-content .field-type-field-collection .field-item.odd .field-type-field-collection .field-item.even .field-collection-view {
-  background: white; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */

@@ -1154,6 +1154,10 @@ ul.primary-tabs.links {
   }
   .field-item.odd {
     background-color: #FAFAFA;
+
+    .field-type-field-collection .field-item.even .field-collection-view {
+      background: white;
+    }
   }
 }
 
@@ -2855,5 +2859,3 @@ label[for="edit-pubdate"] {
 .password-strength {
   width: 100%;
 }
-
-.pane-content .field-type-field-collection .field-item.odd .field-type-field-collection .field-item.even .field-collection-view { background: white; }
