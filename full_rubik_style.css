@@ -2198,17 +2198,17 @@ label[for="edit-pubdate"] {
 #node-edit .field-name-field-date-and-time input[type="checkbox"] {
   width: auto;
   margin-right: 5px; }
-#node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .form-item {
+#node-edit .field-type-datetime.field-widget-date-popup .form-item {
   display: inline-block; }
-#node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .date-float {
+#node-edit .field-type-datetime.field-widget-date-popup .date-float {
   width: 100%; }
-#node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .start-date-wrapper, #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper {
+#node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper {
   display: inline-block;
   margin: 1em 0 0 1em;
   width: auto; }
-#node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label, #node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
   display: inline-block; }
-#node-edit .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup .end-date-wrapper label {
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label {
   padding: 0; }
 #node-edit .pane-node-form-publishing .pane-title {
   margin-bottom: 0; }
