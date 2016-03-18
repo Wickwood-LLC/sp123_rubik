@@ -2211,6 +2211,8 @@ label[for="edit-pubdate"] {
   margin-bottom: 0; }
 .page-field-collection-field-collection-mailing-address .locality-block .form-item {
   width: auto; }
+.page-field-collection-field-collection-mailing-address .locality-block .locality {
+  width: auto; }
 
 .page-field-collection-field-phone label {
   min-width: 100px; }
