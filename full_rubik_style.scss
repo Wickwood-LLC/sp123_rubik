@@ -570,6 +570,8 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+
+
 .view-filters {
   float: left;
 }
@@ -1209,6 +1211,57 @@ body.maintenance-page {
 
 .node-type-loan {
   @include loan-node;
+}
+
+.node-type-service-bureau {
+  .pane-node-field-phone {
+    padding-top: 2.5em;
+    @include breakpoint(359px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 1em;
+    }
+  }
+
+  .pane-node-field-email-address {
+    padding-top: 2.5em;
+    @include breakpoint(452px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 2.5em;
+    }
+    @include breakpoint(1260px) {
+      padding-top: 1em;
+    }
+  }
+
+  .pane-node-field-collection-mailing-address {
+    padding-top: 2.5em;
+    @include breakpoint(391px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 2.5em;
+    }
+    @include breakpoint(1076px) {
+      padding-top: 1em;
+    }
+  }
+
+  .pane-node-field-collection-mailing-address {
+    padding-top: 2.5em;
+    @include breakpoint(376px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 2.5em;
+    }
+    @include breakpoint(1030px) {
+      padding-top: 1em;
+    }
+  }
 }
 
 .node-type-press-release.panelized-node {
