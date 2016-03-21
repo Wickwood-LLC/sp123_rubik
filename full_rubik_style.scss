@@ -537,7 +537,6 @@ div#toolbar div.toolbar-shortcuts ul {
 }
 
 .panelized-node .field-name-field-featured-image {
-  float: left;
   margin: 0 1em 1em 0;
 }
 
@@ -613,6 +612,11 @@ div#toolbar div.toolbar-shortcuts ul {
     .field-name-field-email {
       .field-items { margin-left: 0; }
     }
+  }
+
+  .field-name-field-current-lender,
+  .field-name-field-current-service-bureau {
+    .field-items { margin-left: 0; }
   }
 }
 
@@ -1759,9 +1763,6 @@ table.field-multiple-table {
     .pane-user-field-identification {
       width: 100px;
     }
-  }
-  .pane-user-mail {
-    margin-left: 1em;
   }
 }
 
