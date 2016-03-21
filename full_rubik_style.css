@@ -416,7 +416,7 @@ ul.primary-tabs.links > li,
 ul.primary-tabs.links > li a {
   float: left; }
 
-.ul.rules-operations-add a {
+ul.rules-operations-add a {
   padding: 5px 5px 5px 20px; }
 
 .views-mini-pager {
