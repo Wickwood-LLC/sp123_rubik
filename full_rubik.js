@@ -21,7 +21,7 @@
           $this.css('position','static');
         });
       }
-      reset();
+      $(window).load(reset);
       $(window).resize(reset);
 
       var stickyTop;
