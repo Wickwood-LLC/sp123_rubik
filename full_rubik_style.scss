@@ -240,6 +240,95 @@
   }
 }
 
+@mixin loan-node {
+  .node-loan,
+  .boxed {
+    position: relative;
+
+    h3 {
+      position: absolute;
+      margin-left: 0;
+      padding: 0 1em;
+      background: white;
+      top: -10px;
+    }
+  }
+
+  .pane-loan-debit-information {
+    .field-label { width: 250px; }
+
+    .field-name-field-debit-fee-notes {
+      &>.field-items {
+        width: 100%;
+      }
+      .field-collection-item-field-debit-fee-notes {
+        margin-right: 2em;
+
+        .field-name-field-note {
+          clear: both;
+        }
+      }
+      .field-name-field-date,
+      .field-name-field-staff-user,
+      .field-name-field-note {
+        .field-label {
+          width: auto;
+        }
+      }
+    }
+  }
+  .pane-node-field-deferred-enrollment-fees {
+    .field-label { width: 270px; }
+  }
+  .pane-node-field-lenders {
+    .field-label { width: 120px; }
+  }
+  .pane-bwma-enrolment {
+    .field-label { width: 165px; }
+
+    .field-name-field-welcome-package-sent-date,
+    .field-name-field-welcome-package-note {
+      .field-label {
+        width: 70px;
+      }
+    }
+  }
+  .pane-afts-advance {
+    .field-label { width: 280px; }
+  }
+  .pane-node-field-collection-status {
+    .field-label { width: 90px; }
+
+    .field-name-field-note .field-label { width: auto; }
+  }
+  .pane-node-field-service-bureaus {
+    .field-label { width: 190px; }
+  }
+  .pane-loan-chaos-data {
+    .field-label { width: 225px; }
+  }
+  .field-name-field-deferred-fee-label {
+    display: inline-block;
+    font-weight: bold;
+    width: 270px;
+
+    .field-items {
+      display: inline-block;
+      margin-left: 0;
+    }
+    &:after {
+      content: ':\00a0';
+    }
+  }
+
+  .field-name-field-current-lender,
+  .field-name-field-current-service-bureau {
+    font-weight: bold;
+
+    .field-items { margin-left: 0; }
+  }
+}
+
 @mixin flexifields($label-width, $min-width: 100px) {
   .form-item {
     display: flex;
@@ -353,6 +442,66 @@ body.tao {
   color: black;
 }
 
+.field {
+  &.field-name-field-phone-number,
+  &.field-name-field-deferred-fee-amount,
+  &.pane-user-field-ss-or-ein,
+  &.field-name-field-ss-or-ein {
+    display: inline-block;
+  }
+  &.field-name-field-phone-type,
+  &.field-name-field-identification {
+    display: inline-block;
+    font-weight: bold;
+
+    .field-items {
+      display: inline-block;
+    }
+    &:after {
+      content: ':\00a0';
+    }
+
+    >.field-items { margin-left: 0; }
+  }
+  &.field-name-field-phone-type {
+    width: 70px;
+  }
+  .field-name-field-accept-text-messages {
+    .field-label {  width: 160px; }
+  }
+
+  &.field-name-field-address-type {
+    font-weight: bold;
+    
+    .field-items {
+      display: inline-block;
+      margin-left: 0;
+    }
+    &:after { content: ':'; }
+  }
+  &.field-name-field-address {
+    .field-items {
+      margin-left: 0;
+    }
+  }
+
+  &.field-name-field-related-clients {
+    ul li {
+      list-style: none;
+      margin-left: 0;
+    }
+  }
+}
+
+.field-collection-view {
+  border: 1px dotted #D3D7D9;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+.view-content .field-collection-view {
+  border: none;
+}
+
 body:not(.maintenance-page) #header {
   /* Logo, site name and slogan are hidden because we are using the mini panel to render it. 
   These can also be hidden by disablng it in the theme settings, 
@@ -388,7 +537,6 @@ div#toolbar div.toolbar-shortcuts ul {
 }
 
 .panelized-node .field-name-field-featured-image {
-  float: left;
   margin: 0 1em 1em 0;
 }
 
@@ -420,6 +568,8 @@ div#toolbar div.toolbar-shortcuts ul {
     width: 100%;
   }
 }
+
+
 
 .view-filters {
   float: left;
@@ -462,6 +612,11 @@ div#toolbar div.toolbar-shortcuts ul {
     .field-name-field-email {
       .field-items { margin-left: 0; }
     }
+  }
+
+  .field-name-field-current-lender,
+  .field-name-field-current-service-bureau {
+    .field-items { margin-left: 0; }
   }
 }
 
@@ -711,6 +866,10 @@ ul.primary-tabs.links {
   }
 }
 
+ul.rules-operations-add a {
+  padding: 5px 5px 5px 20px;
+}
+
 .views-mini-pager {
   display: flex;
   justify-content: center;
@@ -919,8 +1078,11 @@ ul.primary-tabs.links {
         text-shadow: #fff 0px 1px 0px;
         min-width: 70px;
         text-align: center;
-        float: none;
         padding: 5px 10px;
+      }
+
+      >a {
+        float: none;
 
         @include breakpoint(980px) {
           float: left;
@@ -996,7 +1158,14 @@ ul.primary-tabs.links {
     margin: 0;
   }
   .field-item.even {
+    background-color: transparent;
+  }
+  .field-item.odd {
     background-color: #FAFAFA;
+
+    .field-type-field-collection .field-item.even .field-collection-view {
+      background: white;
+    }
   }
 }
 
@@ -1049,6 +1218,61 @@ body.maintenance-page {
     background: none;
     font-size: 28px;
     margin-bottom: 0.5em;
+  }
+}
+
+.node-type-loan {
+  @include loan-node;
+}
+
+.node-type-service-bureau {
+  .pane-node-field-phone {
+    padding-top: 2.5em;
+    @include breakpoint(359px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 1em;
+    }
+  }
+
+  .pane-node-field-email-address {
+    padding-top: 2.5em;
+    @include breakpoint(452px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 2.5em;
+    }
+    @include breakpoint(1260px) {
+      padding-top: 1em;
+    }
+  }
+
+  .pane-node-field-collection-mailing-address {
+    padding-top: 2.5em;
+    @include breakpoint(391px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 2.5em;
+    }
+    @include breakpoint(1076px) {
+      padding-top: 1em;
+    }
+  }
+
+  .pane-node-field-collection-mailing-address {
+    padding-top: 2.5em;
+    @include breakpoint(376px) {
+      padding-top: 1em;
+    }
+    @include breakpoint(992px) {
+      padding-top: 2.5em;
+    }
+    @include breakpoint(1030px) {
+      padding-top: 1em;
+    }
   }
 }
 
@@ -1201,7 +1425,6 @@ div.panel-pane div.node.boxed {
   }
 
   input[type="text"] {
-    width: 78%;
     box-sizing: border-box;
   }
 }
@@ -1211,26 +1434,6 @@ div.panel-pane div.node.boxed {
 }
 
 .page-user-view {
-  .field-name-field-deferred-fee-label {
-    display: inline-block;
-    font-weight: bold;
-    width: 270px;
-
-    .field-items {
-      display: inline-block;
-      margin-left: 0;
-    }
-    &:after {
-      content: ':\00a0';
-    }
-  }
-
-  .field-name-field-current-lender,
-  .field-name-field-current-service-bureau {
-    font-weight: bold;
-
-    .field-items { margin-left: 0; }
-  }
   .field-name-field-user-about {
     p { margin: 0;  }
   }
@@ -1247,32 +1450,7 @@ div.panel-pane div.node.boxed {
 
 .page-user-view,
 .page-user {
-  .field-name-field-phone-type,
-  .field-name-field-identification {
-    display: inline-block;
-    font-weight: bold;
-
-    .field-items {
-      display: inline-block;
-    }
-    &:after {
-      content: ':\00a0';
-    }
-
-    >.field-items { margin-left: 0; }
-  }
-  .field-name-field-phone-type {
-    width: 70px;
-  }
-  .field-name-field-accept-text-messages {
-    .field-label {  width: 160px; }
-  }
-}
-.field-name-field-phone-number,
-.field-name-field-deferred-fee-amount,
-.pane-user-field-ss-or-ein,
-.field-name-field-ss-or-ein {
-  display: inline-block;
+  
 }
 
 .pane-chaos-data .field-label-inline .field-label,
@@ -1386,12 +1564,15 @@ ul.field-collection-view-links {
       width: 24em;
     }
   }
+  .field-name-field-note {
+    clear: both;
+  }
 }
 
 
 
 /* Client Edit Styles */
-.page-user-edit-bwma-client {
+.page-user-edit.page-user-edit-bwma-client {
 
   .pane-profile2-field-loans {
     
@@ -1460,6 +1641,11 @@ ul.field-collection-view-links {
         min-width: 200px;
       }
     }
+  }
+
+  .pane-user-field-related-clients .pane-content {
+    border: 0;
+    padding: 0;
   }
 
   .field-name-field-loans tr {
@@ -1582,9 +1768,6 @@ table.field-multiple-table {
       width: 100px;
     }
   }
-  .pane-user-mail {
-    margin-left: 1em;
-  }
 }
 
 .pane-ref-partner-additional-id-info {
@@ -1647,6 +1830,7 @@ table.field-multiple-table {
       }
     }
     .pane-user-field-ss-or-ein {
+      clear: both;
       white-space: nowrap;
 
       .field-name-field-ss-or-ein input {
@@ -1683,6 +1867,10 @@ table.field-multiple-table {
       @include breakpoint(450px 624px) {
         padding-top: 2em;
       }
+    }
+
+    #field-email-values {
+      display: inline-table;
     }
   }
 
@@ -1842,13 +2030,20 @@ table.field-multiple-table {
       .views-exposed-widgets {
         display: block;
         padding: 0;
+        width: 100%;
       }
     }
-    .views-submit-button {
-      float: right;
-      margin: 0;
+    .views-exposed-widget {
+      width: 100%;
       padding: 0;
-      input { margin: 0; }
+    }
+    .views-submit-button {
+      float: none;
+      padding: 0;
+      input {
+        display: table;
+        margin: 0 auto;
+      }
     }
   }
 }
@@ -1898,16 +2093,13 @@ table.field-multiple-table {
     input[type="text"] {
       width: calc(100% - 110px);
     }
-    .field-name-field-birthday-notes,
-    .field-name-field-related-clients {
+    .field-name-field-birthday-notes {
       label {
         width: auto;
       }
     }
     .field-name-field-related-clients {
-      input {
-        width: 100%;
-      }
+      input { width: 100%; }
     }
   }
 
@@ -1952,23 +2144,10 @@ tr.ief-row-entity .ief-entity-operations {
 }
 
 .page-user {
-  .field-collection-view {
-    border: 1px dotted #D3D7D9;
-    padding: 0.5em 1em;
-    margin: 0;
-  }
-
   .field-collection-item-field-phone {
     .field-name-field-note .field-label {
       width: auto;
     }
-  }
-
-  .field-name-field-address-type {
-    font-weight: bold;
-    
-    .field-items {  display: inline-block;  }
-    &:after { content: ':'; }
   }
 }
 
@@ -2028,72 +2207,7 @@ tr.ief-row-entity .ief-entity-operations {
   }
 
   .field-name-field-loans {
-    .node-loan,
-    .boxed {
-      position: relative;
-
-      h3 {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 1em;
-        background: white;
-        top: -10px;
-      }
-    }
-
-    .pane-loan-debit-information {
-      .field-label { width: 250px; }
-
-      .field-name-field-debit-fee-notes {
-        &>.field-items {
-          width: 100%;
-        }
-        .field-collection-item-field-debit-fee-notes {
-          margin-right: 2em;
-
-          .field-name-field-note {
-            clear: both;
-          }
-        }
-        .field-name-field-date,
-        .field-name-field-staff-user,
-        .field-name-field-note {
-          .field-label {
-            width: auto;
-          }
-        }
-      }
-    }
-    .pane-node-field-deferred-enrollment-fees {
-      .field-label { width: 270px; }
-    }
-    .pane-node-field-lenders {
-      .field-label { width: 120px; }
-    }
-    .pane-bwma-enrolment {
-      .field-label { width: 165px; }
-
-      .field-name-field-welcome-package-sent-date,
-      .field-name-field-welcome-package-note {
-        .field-label {
-          width: 70px;
-        }
-      }
-    }
-    .pane-afts-advance {
-      .field-label { width: 280px; }
-    }
-    .pane-node-field-collection-status {
-      .field-label { width: 90px; }
-
-      .field-name-field-note .field-label { width: auto; }
-    }
-    .pane-node-field-service-bureaus {
-      .field-label { width: 190px; }
-    }
-    .pane-loan-chaos-data {
-      .field-label { width: 225px; }
-    }
+    @include loan-node;
   }
 
   .pane-consultant-additional-id-info {
@@ -2481,15 +2595,7 @@ label[for="edit-pubdate"] {
     }
   }
 
-  .field-name-field-date-and-time {
-    .description {  display: none;  }
-    input[type="checkbox"] {
-      width: auto;
-      margin-right: 5px;
-    }
-  }
-
-  .field-name-field-date-and-time.field-type-datetime.field-widget-date-popup {
+  .field-type-datetime.field-widget-date-popup {
     .form-item { 
       display: inline-block; 
     }
@@ -2500,16 +2606,17 @@ label[for="edit-pubdate"] {
       display: inline-block; 
       margin: 1em 0 0 1em;
       width: auto;
-
-      .date-padding {
-        border: 1px solid #CCCCCC;
-        padding: 5px;
-      }
     }
 
     .end-date-wrapper {
       label, .date-padding { display: inline-block; }
       label { padding: 0; }
+    }
+
+    .description {  display: none;  }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
     }
   }
 
@@ -2579,6 +2686,7 @@ label[for="edit-pubdate"] {
   .form-item { margin-bottom: 0; }
   .locality-block {
     .form-item { width: auto; }
+    .locality { width: auto; }
   }
 }
 

@@ -6,51 +6,63 @@
     		var $this = $(this);
     		$this.parents('.panelizer-view-mode.node-embedded-to-profile').find('.panel-display').first().slideToggle();
     		$this.toggleClass('open');
-		});
+		  });
     }
   };
 
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-      $('html').find('div[id*="edit-actions"]').each(function() {           // fire the script on load and resize
+      $( window ).on("load resize", function() {
 
-        var $this = $(this);
-      
-        var stickyTop = $this.offset().top;
-        var windowHeight = $(window).height();
-        var buttonWidth = $this.parent().width();
-        var windowTop = $(window).scrollTop(); // returns number  
-        var currentPosition = windowTop + windowHeight;
+        $('html').find('div[id*="edit-actions"]').each(function() {
 
-        $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
-        $this.width(buttonWidth);      // reset button width
+          var $this = $('div[id*="edit-actions"]');
 
-        if (stickyTop > currentPosition) {
-          $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });
-        }
-        else if ((stickyTop - windowTop) < 0) {
-          $this.css({ position: 'fixed', top: 0, bottom: 'initial', width: $(this).parent().width() });
-        }
-        else {
-          $this.css('position','static');
-        }
-  
-        $(window).scroll(function(){ // scroll event 
-          var windowTop = $(window).scrollTop(); // returns number  
-          var currentPosition = windowTop + windowHeight;
-  
-          if (stickyTop > currentPosition) {
-            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });
+          var stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+          var windowHeight = $(window).height();    // measures the window height
+          var buttonWidth = $this.parent().width(); // gets the width of our button
+          var buttonHeight = $this.parent().height();        // gets the height of our button
+          var windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+          var currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+
+          console.log(stickyTop);
+          console.log(currentPosition - buttonHeight);
+          console.log(stickyTop - (currentPosition - (buttonHeight)));
+
+          $this.css('position','static');  // this is to reset the position of the element whenever the page is updated with AJAX.
+          $this.width(buttonWidth);      // reset button width
+
+          if (stickyTop > (currentPosition - (buttonHeight))) {    // if target element goes below the screen
+            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the bottom
           }
-          else if ((stickyTop - windowTop) < 0) {
-            $this.css({ position: 'fixed', top: 0, bottom: 'initial', width: buttonWidth });
+          else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
+            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the top
           }
           else {
-            $this.css('position','static');
+            $this.css({ position: 'static', width: buttonWidth });
           }
-        });
-      });
+    
+          $(window).scroll(function(){ // scroll event 
+            var windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
+            var currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+
+            console.log(stickyTop);
+            console.log(currentPosition - buttonHeight);
+            console.log(stickyTop - (currentPosition - (buttonHeight)));
+    
+            if (stickyTop > currentPosition) {    // if target element goes below the screen
+              $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $this.parent().width() });    // stick it to the bottom
+            }
+            else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
+              $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
+            }
+            else {
+              $this.css({ position: 'static', width: buttonWidth });
+            }
+          });
+        }); 
+      });         
     }
   };
 }(jQuery));
