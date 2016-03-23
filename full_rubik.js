@@ -17,7 +17,7 @@
         $('div[id*="edit-actions"]').each(function (e) {
           $this = $(this);
           $this.width( $this.parent().width() );
-          $this.parent().height( $this.outerHeight() );
+          $this.height( $this.parent.height() );
           $this.css('position','static');
         });
       }
