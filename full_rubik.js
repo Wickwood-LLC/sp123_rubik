@@ -22,7 +22,7 @@
         });
       }
       reset();
-      $(window).resize
+      $(window).resize(reset);
 
       var stickyTop;
       var windowHeight;
@@ -34,7 +34,7 @@
 
       $(window).on("load resize", function() {
         $('html').find('div[id*="edit-actions"]').each(function() {
-          $this = $('div[id*="edit-actions"]');
+          $this = $(this);
 
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
           windowHeight = $(window).height();    // measures the window height
