@@ -2628,4 +2628,16 @@ label[for="edit-pubdate"] {
   float: left;
   margin-right: 0.5em; }
 
+.pane-panopoly-news-related-news-articles {
+  padding-top: 2em; }
+  @media (min-width: 351px) {
+    .pane-panopoly-news-related-news-articles {
+      padding-top: 1em; } }
+  @media (min-width: 992px) {
+    .pane-panopoly-news-related-news-articles {
+      padding-top: 2em; } }
+  @media (min-width: 1259px) {
+    .pane-panopoly-news-related-news-articles {
+      padding-top: 1em; } }
+
 /*# sourceMappingURL=full_rubik_style.css.map */

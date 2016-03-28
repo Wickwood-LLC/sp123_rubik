@@ -2881,3 +2881,19 @@ label[for="edit-pubdate"] {
   float: left;
   margin-right: 0.5em;
 }
+
+.pane-panopoly-news-related-news-articles {
+  padding-top: 2em;
+
+  @include breakpoint(351px) {
+    padding-top: 1em;
+  }
+
+  @include breakpoint(992px) {
+    padding-top: 2em;
+  }
+
+  @include breakpoint(1259px) {
+    padding-top: 1em;
+  }
+}
