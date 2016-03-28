@@ -2614,7 +2614,7 @@ label[for="edit-pubdate"] {
 .password-strength {
   width: 100%; }
 
-.pane-content .field-name-field-featured-image img.panopoly-image-half {
+#page .pane-content .field-name-field-featured-image img.panopoly-image-half {
   float: left;
   margin: 1.5em 0.75em 0.5em 1em;
   max-width: 480px; }
