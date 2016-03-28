@@ -2913,6 +2913,9 @@ label[for="edit-pubdate"] {
   .field-name-field-primary-category,
   .field-name-field-additional-categories {
     display: inline-block;
-    float: left;
+  }
+
+  .panel-separator {
+    display: none;
   }
 }

@@ -2650,7 +2650,8 @@ label[for="edit-pubdate"] {
 
 .pane-categories .field-name-field-primary-category,
 .pane-categories .field-name-field-additional-categories {
-  display: inline-block;
-  float: left; }
+  display: inline-block; }
+.pane-categories .panel-separator {
+  display: none; }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
