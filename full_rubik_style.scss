@@ -2908,3 +2908,11 @@ label[for="edit-pubdate"] {
     }
   }
 }
+
+.pane-categories {
+  .field-name-field-primary-category,
+  .field-name-field-additional-categories {
+    display: inline-block;
+    float: left;
+  }
+}

@@ -2648,4 +2648,9 @@ label[for="edit-pubdate"] {
         width: 100%;
         margin-right: 0; } }
 
+.pane-categories .field-name-field-primary-category,
+.pane-categories .field-name-field-additional-categories {
+  display: inline-block;
+  float: left; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
