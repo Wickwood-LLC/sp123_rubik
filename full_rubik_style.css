@@ -2654,4 +2654,7 @@ label[for="edit-pubdate"] {
 .pane-categories .panel-separator {
   display: none; }
 
+.prose p {
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
