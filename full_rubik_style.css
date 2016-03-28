@@ -2624,4 +2624,8 @@ label[for="edit-pubdate"] {
       max-width: 480px;
       width: 50%; } }
 
+.radix-layouts-sidebar .views-field-field-featured-image {
+  float: left;
+  margin-right: 0.5em; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
