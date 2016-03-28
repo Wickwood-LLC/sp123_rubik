@@ -2616,7 +2616,12 @@ label[for="edit-pubdate"] {
 
 #page .pane-content .field-name-field-featured-image img.panopoly-image-half {
   float: left;
-  margin: 1.5em 0.75em 0.5em 1em;
-  max-width: 480px; }
+  margin-top: 1.5em;
+  width: 100%; }
+  @media (min-width: 480px) {
+    #page .pane-content .field-name-field-featured-image img.panopoly-image-half {
+      margin: 1.5em 0.75em 0.5em 1em;
+      max-width: 480px;
+      width: 50%; } }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
