@@ -2865,23 +2865,6 @@ label[for="edit-pubdate"] {
   width: 100%;
 }
 
-#page .pane-content .field-name-field-featured-image img.panopoly-image-half {
-  float: left;
-  margin-top: 1.5em;
-  width: 100%;
-
-  @include breakpoint(480px) {
-    margin: 1.5em 0.75em 0.5em 1em;
-    max-width: 480px;
-    width: 50%;
-  }
-}
-
-.radix-layouts-sidebar .views-field-field-featured-image {
-  float: left;
-  margin-right: 0.5em;
-}
-
 .pane-panopoly-news-related-news-articles {
   padding-top: 2em;
 
@@ -2921,3 +2904,19 @@ label[for="edit-pubdate"] {
 }
 
 .prose p { margin-bottom: 10px; }
+
+.pane-content-area {
+  .field-name-field-featured-image {
+    img {
+      float: left;
+      width: 100%;
+      max-width: 480px;
+      height: auto;
+
+      @include breakpoint(481px) {
+        width: 50%;
+        margin-right: 1em;
+      }
+    }
+  }
+}
