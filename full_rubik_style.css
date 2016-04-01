@@ -2643,13 +2643,13 @@ label[for="edit-pubdate"] {
 .prose p {
   margin-bottom: 10px; }
 
-.pane-content-area .field-name-field-featured-image img {
+#page .pane-content-area .field-name-field-featured-image img {
   float: left;
   width: 100%;
   max-width: 480px;
   height: auto; }
   @media (min-width: 481px) {
-    .pane-content-area .field-name-field-featured-image img {
+    #page .pane-content-area .field-name-field-featured-image img {
       width: 50%;
       margin-right: 1em; } }
 
