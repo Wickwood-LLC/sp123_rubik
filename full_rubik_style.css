@@ -2618,13 +2618,13 @@ label[for="edit-pubdate"] {
   padding-top: 2em; }
   @media (min-width: 351px) {
     .pane-panopoly-news-related-news-articles {
-      padding-top: 1em; } }
+      padding-top: 1.5em; } }
   @media (min-width: 992px) {
     .pane-panopoly-news-related-news-articles {
       padding-top: 2em; } }
   @media (min-width: 1259px) {
     .pane-panopoly-news-related-news-articles {
-      padding-top: 1em; } }
+      padding-top: 1.5em; } }
   .pane-panopoly-news-related-news-articles .views-row {
     width: 250px;
     margin-right: 0.5em;
@@ -2633,6 +2633,13 @@ label[for="edit-pubdate"] {
       .pane-panopoly-news-related-news-articles .views-row {
         width: 100%;
         margin-right: 0; } }
+
+.view-display-id-related_news_articles .clearfix:after {
+  display: none; }
+.view-display-id-related_news_articles .views-row {
+  margin-bottom: 1em; }
+  .view-display-id-related_news_articles .views-row:last-child {
+    margin-bottom: 0; }
 
 .pane-categories .field-name-field-primary-category,
 .pane-categories .field-name-field-additional-categories {

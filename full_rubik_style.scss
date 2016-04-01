@@ -2869,7 +2869,7 @@ label[for="edit-pubdate"] {
   padding-top: 2em;
 
   @include breakpoint(351px) {
-    padding-top: 1em;
+    padding-top: 1.5em;
   }
 
   @include breakpoint(992px) {
@@ -2877,7 +2877,7 @@ label[for="edit-pubdate"] {
   }
 
   @include breakpoint(1259px) {
-    padding-top: 1em;
+    padding-top: 1.5em;
   }
 
   .views-row {
@@ -2888,6 +2888,20 @@ label[for="edit-pubdate"] {
     @include breakpoint(992px) {
       width: 100%;
       margin-right: 0;
+    }
+  }
+}
+
+.view-display-id-related_news_articles {
+  .clearfix:after {
+    display: none;
+  }
+
+  .views-row {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
