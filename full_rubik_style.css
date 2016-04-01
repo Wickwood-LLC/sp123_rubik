@@ -2633,6 +2633,9 @@ label[for="edit-pubdate"] {
       .pane-panopoly-news-related-news-articles .views-row {
         width: 100%;
         margin-right: 0; } }
+  .pane-panopoly-news-related-news-articles .views-field-field-featured-image {
+    float: left;
+    margin-right: 1em; }
 
 .view-display-id-related_news_articles .clearfix:after {
   display: none; }
