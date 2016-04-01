@@ -73,7 +73,7 @@
             $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
           }
           else {
-            $this.css({ position: 'static', width: buttonWidth });
+            $this.css({ position: 'static', width: buttonWidth, });
           }
         });
       // }    
