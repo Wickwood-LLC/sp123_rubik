@@ -23,19 +23,19 @@
         var currentPosition;
         var $this;
 
+        stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+        windowHeight = $(window).height();    // measures the window height
+        buttonWidth = $this.parent().width(); // gets the width of our button
+        buttonHeight = $this.parent().height();        // gets the height of our button
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+
         function reset() {
           $('div[id*="edit-actions"]').each(function (e) {
             $this = $(this);
             $this.width( $this.parent().width() );
             $this.height( $this.parent().height() );
             $this.css('position','static');
-
-            stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
-            windowHeight = $(window).height();    // measures the window height
-            buttonWidth = $this.parent().width(); // gets the width of our button
-            buttonHeight = $this.parent().height();        // gets the height of our button
-            windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-            currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
           });
         }
         $(window).load(reset);
