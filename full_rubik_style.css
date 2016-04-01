@@ -2645,12 +2645,14 @@ label[for="edit-pubdate"] {
 
 #page .pane-content-area .field-name-field-featured-image img {
   float: left;
-  width: 100%;
+  margin-bottom: 1em;
   max-width: 480px;
-  height: auto; }
+  height: auto;
+  width: 100%; }
   @media (min-width: 481px) {
     #page .pane-content-area .field-name-field-featured-image img {
       width: 50%;
-      margin-right: 1em; } }
+      margin-right: 1em;
+      margin-bottom: 0; } }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
