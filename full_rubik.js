@@ -29,14 +29,6 @@
             $this.width( $this.parent().width() );
             $this.height( $this.parent().height() );
             $this.css('position','static');
-          });
-        }
-        $(window).load(reset);
-        $(window).resize(reset);
-
-        $(window).on("load resize scroll", function() {
-          $('html').find('div[id*="edit-actions"]').each(function() {
-            $this = $(this);
 
             stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
             windowHeight = $(window).height();    // measures the window height
@@ -44,6 +36,13 @@
             buttonHeight = $this.parent().height();        // gets the height of our button
             windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
             currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+          });
+        }
+        $(window).load(reset);
+        $(window).resize(reset);
+
+        $(window).on("load resize scroll", function() {
+          $('html').find('div[id*="edit-actions"]').each(function() {
 
             console.log(stickyTop);
             console.log(currentPosition - buttonHeight);
