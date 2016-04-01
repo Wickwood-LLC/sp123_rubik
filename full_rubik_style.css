@@ -866,7 +866,8 @@ div.panel-pane div.node.boxed {
   border: 1px solid #ccc;
   padding: 1em;
   margin: 1em 0;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .boxed h2, .boxed h3,
   div.panel-pane div.node.boxed h2,
   div.panel-pane div.node.boxed h3 {
