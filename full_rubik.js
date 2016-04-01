@@ -15,6 +15,14 @@
 
       // if ($('div[id*="edit-actions"]').length) {        // if element exists
 
+        var stickyTop;
+        var windowHeight;
+        var buttonWidth;
+        var buttonHeight;
+        var windowTop;
+        var currentPosition;
+        var $this;
+
         function reset() {
           $('div[id*="edit-actions"]').each(function (e) {
             $this = $(this);
@@ -26,24 +34,16 @@
         $(window).load(reset);
         $(window).resize(reset);
 
-        var stickyTop;
-        var windowHeight;
-        var buttonWidth;
-        var buttonHeight;
-        var windowTop;
-        var currentPosition;
-        var $this = $('div[id*="edit-actions"]');
-
-        stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
-        windowHeight = $(window).height();    // measures the window height
-        buttonWidth = $this.parent().width(); // gets the width of our button
-        buttonHeight = $this.parent().height();        // gets the height of our button
-        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-        currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
-
         $(window).on("load resize scroll", function() {
           $('html').find('div[id*="edit-actions"]').each(function() {
             $this = $(this);
+
+            stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+            windowHeight = $(window).height();    // measures the window height
+            buttonWidth = $this.parent().width(); // gets the width of our button
+            buttonHeight = $this.parent().height();        // gets the height of our button
+            windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+            currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
 
             console.log(stickyTop);
             console.log(currentPosition - buttonHeight);
