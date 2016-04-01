@@ -32,18 +32,18 @@
         var buttonHeight;
         var windowTop;
         var currentPosition;
-        var $this;
+        var $this = $('div[id*="edit-actions"]');
 
-        $(window).on("load resize", function() {
+        stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+        windowHeight = $(window).height();    // measures the window height
+        buttonWidth = $this.parent().width(); // gets the width of our button
+        buttonHeight = $this.parent().height();        // gets the height of our button
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+
+        $(window).on("load resize scroll", function() {
           $('html').find('div[id*="edit-actions"]').each(function() {
             $this = $(this);
-
-            stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
-            windowHeight = $(window).height();    // measures the window height
-            buttonWidth = $this.parent().width(); // gets the width of our button
-            buttonHeight = $this.parent().height();        // gets the height of our button
-            windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-            currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
 
             console.log(stickyTop);
             console.log(currentPosition - buttonHeight);
@@ -61,21 +61,21 @@
           }); 
         });
 
-        $(window).scroll(function() { // scroll event 
-          console.log(stickyTop);
-          console.log(currentPosition - buttonHeight);
-          console.log(stickyTop - (currentPosition - (buttonHeight)));
+        // $(window).scroll(function() { // scroll event 
+        //   console.log(stickyTop);
+        //   console.log(currentPosition - buttonHeight);
+        //   console.log(stickyTop - (currentPosition - (buttonHeight)));
 
-          if (stickyTop > (currentPosition - (buttonHeight))) {    // if target element goes below the screen
-            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the bottom
-          }
-          else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
-            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the top
-          }
-          else {
-            $this.css({ position: 'static', width: buttonWidth });
-          }
-        });
+        //   if (stickyTop > (currentPosition - (buttonHeight))) {    // if target element goes below the screen
+        //     $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the bottom
+        //   }
+        //   else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
+        //     $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the top
+        //   }
+        //   else {
+        //     $this.css({ position: 'static', width: buttonWidth });
+        //   }
+        // });
       // }    
     }
   };
