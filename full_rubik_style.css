@@ -866,8 +866,7 @@ div.panel-pane div.node.boxed {
   border: 1px solid #ccc;
   padding: 1em;
   margin: 1em 0;
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
   .boxed h2, .boxed h3,
   div.panel-pane div.node.boxed h2,
   div.panel-pane div.node.boxed h3 {
@@ -2644,6 +2643,8 @@ label[for="edit-pubdate"] {
 .prose p {
   margin-bottom: 10px; }
 
+#page .pane-content-area.boxed {
+  overflow: hidden; }
 #page .pane-content-area .field-name-field-featured-image img {
   float: left;
   margin-bottom: 1em;

@@ -1353,7 +1353,6 @@ div.panel-pane div.node.boxed {
   padding: 1em;
   margin: 1em 0;
   position: relative;
-  overflow: hidden;
 
   h2, h3 {
     position: absolute;
@@ -2907,6 +2906,9 @@ label[for="edit-pubdate"] {
 .prose p { margin-bottom: 10px; }
 
 #page .pane-content-area {
+  &.boxed {
+    overflow: hidden;
+  }
   .field-name-field-featured-image {
     img {
       float: left;
