@@ -13,7 +13,7 @@
   Drupal.behaviors.stickyButtons = {
     attach: function (context, settings) {
 
-      if ($('div[id*="edit-actions"]').length) {        // if element exists
+      // if ($('div[id*="edit-actions"]').length) {        // if element exists
 
         function reset() {
           $('div[id*="edit-actions"]').each(function (e) {
@@ -76,7 +76,7 @@
             $this.css({ position: 'static', width: buttonWidth });
           }
         });
-      }    
+      // }    
     }
   };
 }(jQuery));
