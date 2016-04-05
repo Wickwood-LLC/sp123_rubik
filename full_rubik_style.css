@@ -168,9 +168,6 @@ input[type="password"] {
 div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px; }
 
-.panelized-node .field-name-field-featured-image {
-  margin: 0 1em 1em 0; }
-
 #page-title .page-title {
   font-size: 2em;
   margin: 0; }
@@ -854,7 +851,12 @@ body.maintenance-page {
       -ms-flex-pack: center;
           justify-content: center; }
 .node-type-press-release.panelized-node .field-name-field-featured-image {
-  width: 50%; }
+  width: 100%; }
+  @media (min-width: 481px) {
+    .node-type-press-release.panelized-node .field-name-field-featured-image {
+      margin: 0 1em 1em 0;
+      width: 50%;
+      float: left; } }
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }

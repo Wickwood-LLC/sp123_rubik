@@ -536,10 +536,6 @@ div#toolbar div.toolbar-shortcuts ul {
   padding-top: 2px;
 }
 
-.panelized-node .field-name-field-featured-image {
-  margin: 0 1em 1em 0;
-}
-
 #page-title .page-title {
   font-size: 2em;
   margin: 0;
@@ -1334,7 +1330,13 @@ body.maintenance-page {
   }
 
   .field-name-field-featured-image {
-    width: 50%;
+    width: 100%;
+
+    @include breakpoint(481px){
+      margin: 0 1em 1em 0;
+      width: 50%;
+      float: left;
+    }
   }
 
   .pane-node-title h1 {
