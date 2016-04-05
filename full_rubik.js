@@ -25,6 +25,8 @@
 
         function reset() {
           $('div[id*="edit-actions"]').each(function (e) {
+            $this = $(this);
+            
             stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
             windowHeight = $(window).height();    // measures the window height
             buttonWidth = $this.width(); // gets the width of our button
@@ -32,7 +34,6 @@
             windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
             currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
 
-            $this = $(this);
             $this.width( buttonWidth );
             $this.height( buttonHeight );
             $this.css('position','static');
