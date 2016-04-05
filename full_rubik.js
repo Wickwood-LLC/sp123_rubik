@@ -31,8 +31,6 @@
             windowHeight = $(window).height();    // measures the window height
             buttonWidth = $this.width(); // gets the width of our button
             buttonHeight = $this.height();        // gets the height of our button
-            windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-            currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
 
             $this.width( buttonWidth );
             $this.height( buttonHeight );
@@ -44,19 +42,21 @@
 
         $(window).on("load resize scroll", function() {
           $('html').find('div[id*="edit-actions"]').each(function() {
+            windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+            currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
 
             console.log(stickyTop);
             console.log(currentPosition - buttonHeight);
             console.log(stickyTop - (currentPosition - (buttonHeight)));
 
             if (stickyTop > (currentPosition - (buttonHeight))) {    // if target element goes below the screen
-              $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth });   // stick it to the bottom
+              $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: buttonWidth, box-sizing: content-box });   // stick it to the bottom
             }
             else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
-              $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth });   //stick it at the top
+              $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: buttonWidth, box-sizing: content-box });   //stick it at the top
             }
             else {
-              $this.css({ position: 'static', width: buttonWidth });
+              $this.css({ position: 'static', width: buttonWidth, box-sizing: content-box });
             }
           }); 
         });
