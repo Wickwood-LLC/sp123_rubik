@@ -219,8 +219,7 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-left: 0; }
 
 .views-edit-view #edit-actions {
-  width: 100%;
-  box-sizing: border-box !important; }
+  width: 100%; }
 
 .view-clients .views-field-edit-node,
 .view-consultants .views-field-edit-node,
