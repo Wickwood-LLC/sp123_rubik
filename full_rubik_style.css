@@ -218,6 +218,10 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-content .field-name-field-current-service-bureau .field-items {
   margin-left: 0; }
 
+.views-edit-view #edit-actions {
+  width: 100%;
+  box-sizing: border-box !important; }
+
 .view-clients .views-field-edit-node,
 .view-consultants .views-field-edit-node,
 .view-referral-partners .views-field-edit-node,
