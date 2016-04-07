@@ -345,7 +345,7 @@ function full_rubik_preprocess_html(&$vars) {
    '#tag' => 'meta',
    '#attributes' => array(
      'name' => 'viewport',
-     'content' => 'width=device-width, initial-scale=1, maximum-scale=1',
+     'content' => 'width=device-width, initial-scale=1, user-scalable=yes',
    ),
   );
   drupal_add_html_head($viewport, 'viewport');
