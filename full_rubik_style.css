@@ -2676,4 +2676,7 @@ label[for="edit-pubdate"] {
 ul.links.inline li.book_add_child a {
   display: block; }
 
+.manualcrop-selection-info {
+  position: initial !important; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
