@@ -2618,7 +2618,8 @@ label[for="edit-pubdate"] {
     display: block; }
     .advanced-options .bef-secondary-options .views-exposed-widget {
       display: inline-block;
-      vertical-align: top; }
+      vertical-align: top;
+      float: none; }
 
 .password-strength {
   width: 100%; }
