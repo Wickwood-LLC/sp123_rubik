@@ -2615,10 +2615,10 @@ label[for="edit-pubdate"] {
     .advanced-options #edit-secondary.collapsed .fieldset-title {
       white-space: nowrap; }
   .advanced-options .bef-secondary-options {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
+    display: block; }
+    .advanced-options .bef-secondary-options .views-exposed-widget {
+      display: inline-block;
+      vertical-align: top; }
 
 .password-strength {
   width: 100%; }

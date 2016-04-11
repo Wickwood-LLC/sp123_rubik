@@ -2864,7 +2864,12 @@ label[for="edit-pubdate"] {
   }
 
   .bef-secondary-options {
-    display: flex;
+    display: block;
+
+    .views-exposed-widget {
+      display: inline-block;
+      vertical-align: top;
+    }
   }
 }
 
