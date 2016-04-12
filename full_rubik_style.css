@@ -442,34 +442,12 @@ ul.rules-operations-add a {
   display: -ms-flexbox;
   display: flex;
   width: 100%; }
-  #mini-panel-header .panel-panel {
-    width: auto; }
-  #mini-panel-header .panel-col-first,
-  #mini-panel-header .panel-col-last {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0;
-        -ms-flex: 1 0;
-            flex: 1 0; }
-  #mini-panel-header .panel-col-first {
-    text-align: left; }
-  #mini-panel-header .panel-col-last {
-    -webkit-align-self: baseline;
-        -ms-flex-item-align: baseline;
-            align-self: baseline; }
-    #mini-panel-header .panel-col-last .menu-name-user-menu ul {
-      float: right; }
-  #mini-panel-header .panel-col {
-    -webkit-box-flex: 2;
-    -webkit-flex: 2 0;
-        -ms-flex: 2 0;
-            flex: 2 0;
-    text-align: center; }
-    #mini-panel-header .panel-col .pane-page-site-name {
-      font-size: 2em;
-      line-height: 1.5; }
-    #mini-panel-header .panel-col .pane-page-slogan {
-      font-size: 1.5em;
-      line-height: 1.5; }
+  #mini-panel-header .pane-page-site-name {
+    font-size: 2em;
+    line-height: 1.5; }
+  #mini-panel-header .pane-page-slogan {
+    font-size: 1.5em;
+    line-height: 1.5; }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
