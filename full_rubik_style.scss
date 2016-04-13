@@ -888,6 +888,10 @@ ul.rules-operations-add a {
   display: flex;
   width: 100%;
 
+  .block-content {
+    width: 100%;
+  }
+
   .pane-page-site-name {
     font-size: 2em;
     line-height: 1.5;
