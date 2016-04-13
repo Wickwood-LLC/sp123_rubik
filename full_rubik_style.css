@@ -444,10 +444,12 @@ ul.rules-operations-add a {
   width: 100%; }
   #block-panels-mini-header .pane-page-site-name {
     font-size: 2em;
-    line-height: 1.5; }
+    line-height: 1.5;
+    text-align: center; }
   #block-panels-mini-header .pane-page-slogan {
     font-size: 1.5em;
-    line-height: 1.5; }
+    line-height: 1.5;
+    text-align: center; }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
