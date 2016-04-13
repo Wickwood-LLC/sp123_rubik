@@ -436,16 +436,16 @@ ul.rules-operations-add a {
 .ctools-content ul li {
   margin-left: 0; }
 
-#mini-panel-header {
+#block-panels-mini-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%; }
-  #mini-panel-header .pane-page-site-name {
+  #block-panels-mini-header .pane-page-site-name {
     font-size: 2em;
     line-height: 1.5; }
-  #mini-panel-header .pane-page-slogan {
+  #block-panels-mini-header .pane-page-slogan {
     font-size: 1.5em;
     line-height: 1.5; }
 
