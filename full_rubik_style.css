@@ -874,8 +874,7 @@ div.panel-pane div.node.boxed {
     z-index: 1; }
 
 div[id*='edit-actions'] {
-  text-align: center;
-  z-index: 100; }
+  text-align: center; }
 
 .pane-profile2-form-buttons {
   width: 100%; }
