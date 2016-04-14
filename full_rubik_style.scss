@@ -1360,13 +1360,13 @@ div.panel-pane div.node.boxed {
     position: absolute;
     top: -10px;
     z-index: 1;
-    width: initial;
   }
 }
 
 div[id*='edit-actions'] {
   text-align: center;
   box-sizing: border-box;
+  width: initial;
   z-index: 100;
 }
 .pane-profile2-form-buttons {
