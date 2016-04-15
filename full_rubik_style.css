@@ -521,6 +521,10 @@ ul.rules-operations-add a {
 #block-tb-megamenu-main-menu .block-content {
   padding: 0; }
 
+@media (min-width: 0px) and (max-width: 980px) {
+  .tb-megamenu .nav-collapse .nav li a {
+    border-top-color: transparent; } }
+
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
   display: block;
@@ -534,9 +538,6 @@ ul.rules-operations-add a {
     @media (min-width: 980px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
-  @media (min-width: 0px) and (max-width: 980px) {
-    #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu .nav-collapse .nav li a {
-      border-top-color: transparent; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;

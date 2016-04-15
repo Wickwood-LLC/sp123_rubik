@@ -990,6 +990,12 @@ ul.rules-operations-add a {
   }
 }
 
+.tb-megamenu .nav-collapse .nav li a {
+  @include breakpoint(0px 980px) {
+    border-top-color: transparent;
+  }
+}
+    
 #block-tb-megamenu-main-menu {
 
   .tb-megamenu-main-menu {
@@ -1006,12 +1012,6 @@ ul.rules-operations-add a {
       top: 0;
       @include breakpoint(980px) {
         display: block;
-      }
-    }
-
-    .tb-megamenu .nav-collapse .nav li a {
-      @include breakpoint(0px 980px) {
-        border-top-color: transparent;
       }
     }
 
