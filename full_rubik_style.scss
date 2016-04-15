@@ -994,8 +994,12 @@ ul.rules-operations-add a {
 
   .tb-megamenu-main-menu {
     background: transparent;
-    display: table;
+    display: block;
     margin: 0 auto;
+
+    @include breakpoint(980px){
+      display: table;
+    }
     
     .nav-collapse {
       position: relative;

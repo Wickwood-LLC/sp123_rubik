@@ -523,8 +523,11 @@ ul.rules-operations-add a {
 
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
   background: transparent;
-  display: table;
+  display: block;
   margin: 0 auto; }
+  @media (min-width: 980px) {
+    #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
+      display: table; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
