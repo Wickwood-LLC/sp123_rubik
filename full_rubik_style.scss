@@ -995,7 +995,7 @@ ul.rules-operations-add a {
     border-top-color: transparent;
   }
 }
-    
+
 #block-tb-megamenu-main-menu {
 
   .tb-megamenu-main-menu {
@@ -1717,11 +1717,11 @@ ul.field-collection-view-links {
 .field-type-datetime.field-widget-date-popup {
 
   .form-item {
-    display: flex;
+    display: block;
     align-items: center;
+    overflow: hidden;
 
     label, input {
-      flex: 0 0 auto;
       display: inline-block;
     }
     label {

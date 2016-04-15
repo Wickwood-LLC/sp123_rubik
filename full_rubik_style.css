@@ -1378,19 +1378,14 @@ ul.field-collection-view-links {
       text-align: center; }
 
 .field-type-datetime.field-widget-date-popup .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+              -ms-grid-row-align: center;
+          align-items: center;
+  overflow: hidden; }
   .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
     display: inline-block; }
   .field-type-datetime.field-widget-date-popup .form-item label {
     margin-right: 5px; }
