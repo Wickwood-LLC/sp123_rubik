@@ -1765,14 +1765,16 @@ table.field-multiple-table {
     border-width: 0 1px 0 1px;
   }
   tr.draggable {
-    display: flex;
-
-    td.field-multiple-drag {
-      order: 1;
-      box-sizing: border-box;
-    }
-    td:not([class]){
-      flex: 100%;
+    @include breakpoint(768px){
+      display: flex;
+  
+      td.field-multiple-drag {
+        order: 1;
+        box-sizing: border-box;
+      }
+      td:not([class]){
+        flex: 100%;
+      }
     }
   }
 }

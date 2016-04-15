@@ -1412,22 +1412,23 @@ table#field-notes-values {
 table.field-multiple-table tr {
   border: 1px solid #CCCCCC;
   border-width: 0 1px 0 1px; }
-table.field-multiple-table tr.draggable {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  table.field-multiple-table tr.draggable td.field-multiple-drag {
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-    box-sizing: border-box; }
-  table.field-multiple-table tr.draggable td:not([class]) {
-    -webkit-box-flex: 100%;
-    -webkit-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%; }
+@media (min-width: 768px) {
+  table.field-multiple-table tr.draggable {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    table.field-multiple-table tr.draggable td.field-multiple-drag {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1;
+      box-sizing: border-box; }
+    table.field-multiple-table tr.draggable td:not([class]) {
+      -webkit-box-flex: 100%;
+      -webkit-flex: 100%;
+          -ms-flex: 100%;
+              flex: 100%; } }
 
 #user-account-main-page .pane-basic-user-info-for-user-account label {
   width: 100px; }
