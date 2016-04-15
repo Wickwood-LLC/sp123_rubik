@@ -1091,6 +1091,13 @@ ul.rules-operations-add a {
       }
     }
   
+    .tb-megamenu-subnav {
+      margin-left: 1em;
+      @include breakpoint(980px) {
+        margin-left: 0;
+      }
+    }
+
     .tb-megamenu-subnav li a {
       width: 90%;
       text-align: left;

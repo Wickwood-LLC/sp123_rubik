@@ -588,6 +588,11 @@ ul.rules-operations-add a {
           float: left; } }
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a:hover, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a:focus {
         background-color: #f8f8f8; }
+  #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav {
+    margin-left: 1em; }
+    @media (min-width: 980px) {
+      #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav {
+        margin-left: 0; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav li a {
     width: 90%;
     text-align: left; }
