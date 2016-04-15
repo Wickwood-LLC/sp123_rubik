@@ -1718,7 +1718,6 @@ ul.field-collection-view-links {
 
   .form-item {
     display: block;
-    align-items: center;
     overflow: hidden;
 
     label, input {
@@ -2329,11 +2328,13 @@ table[id*='field-notes-values'] > thead label {
 td:not([class]) {
   position: relative;
 
-  .button-remove {
-    position: absolute;
-    right: -50px;
-    top: 50%;
-    transform: rotate(-90deg);
+  @include breakpoint(768px){
+    .button-remove {
+      position: absolute;
+      right: -50px;
+      top: 50%;
+      transform: rotate(-90deg);
+    }
   }
 }
 
@@ -2977,3 +2978,15 @@ ul.links.inline li.book_add_child a {
 }
 
 #media-browser-page .view-filters { float: none; }
+
+.form-item {
+  @include breakpoint(0px 767px) {
+    table, thead, tbody, tr, td {
+      display: block; 
+    }
+
+    input.field-add-more-submit {
+      width: 100%;
+    }
+  }
+}
