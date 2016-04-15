@@ -1010,7 +1010,7 @@ ul.rules-operations-add a {
     }
 
     .tb-megamenu .nav-collapse .nav li a {
-      @include breakpoint(0 980px) {
+      @include breakpoint(0px 980px) {
         border-top-color: transparent;
       }
     }
