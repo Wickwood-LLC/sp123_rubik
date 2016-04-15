@@ -1023,14 +1023,23 @@ ul.rules-operations-add a {
       background-color: #f8f8f8;
     }
 
+    .tb-megamenu-column-inner {
+      padding: 0;
+
+      @include breakpoint(980px) {
+        padding: 10px;
+      }
+    }
+
     .tb-megamenu-nav>li {
-      background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+      background: #75B8C9;
       border: 0px;
       float: none;
       list-style: none;
       
       @include breakpoint(980px) {
         float: left;
+        background: #eee url(images/bleeds.png) 50% 0px no-repeat;
       }
 
       &.active,
