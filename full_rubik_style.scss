@@ -2803,7 +2803,8 @@ label[for="edit-pubdate"] {
 
   .loan-lenders {
     .field-name-field-lender .form-item {
-      display: flex;
+      display: block;
+      overflow: hidden;
 
       label { flex: 0 0 114px; }
       input { flex: auto; }
@@ -2983,12 +2984,14 @@ ul.links.inline li.book_add_child a {
 
 .form-item {
   @include breakpoint(0px 767px) {
-    table, thead, tbody, tr, td {
+    table, thead, th, tbody, tr, td {
       display: block; 
     }
 
-    input.field-add-more-submit {
-      width: 100%;
-    }
+    td.field-multiple-drag { display: inline-block; }
+
+    input.field-add-more-submit { width: 100%; }
+
+    .field-name-field-status { float: none; }
   }
 }

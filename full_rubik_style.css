@@ -2534,10 +2534,8 @@ label[for="edit-pubdate"] {
 .node-loan-form .field-name-field-debit-advanced-by-afts-amo input {
   width: auto; }
 .node-loan-form .loan-lenders .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
+  display: block;
+  overflow: hidden; }
   .node-loan-form .loan-lenders .field-name-field-lender .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 114px;
@@ -2680,9 +2678,13 @@ ul.links.inline li.book_add_child a {
   float: none; }
 
 @media (min-width: 0px) and (max-width: 767px) {
-  .form-item table, .form-item thead, .form-item tbody, .form-item tr, .form-item td {
+  .form-item table, .form-item thead, .form-item th, .form-item tbody, .form-item tr, .form-item td {
     display: block; }
+  .form-item td.field-multiple-drag {
+    display: inline-block; }
   .form-item input.field-add-more-submit {
-    width: 100%; } }
+    width: 100%; }
+  .form-item .field-name-field-status {
+    float: none; } }
 
 /*# sourceMappingURL=full_rubik_style.css.map */
