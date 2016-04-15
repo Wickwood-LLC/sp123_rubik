@@ -534,6 +534,9 @@ ul.rules-operations-add a {
     @media (min-width: 980px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
+  @media (min-width: 0) and (max-width: 980px) {
+    #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu .nav-collapse .nav li a {
+      border-top-color: transparent; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
