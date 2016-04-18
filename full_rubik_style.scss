@@ -3001,3 +3001,21 @@ ul.links.inline li.book_add_child a {
     .field-name-field-status { float: none; }
   }
 }
+
+.page-node-add-loan {
+  .loan-debit-info {
+    padding-top: 2.5em;
+
+    @include breakpoint(306px){
+      padding-top: 1em;
+    }
+  }
+
+  .deferred-enrolment-fees {
+    padding-top: 2.5em;
+
+    @include breakpoint(324px){
+      padding-top: 1em;
+    }
+  }
+}

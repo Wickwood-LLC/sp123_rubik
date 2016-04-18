@@ -2698,4 +2698,15 @@ ul.links.inline li.book_add_child a {
   .form-item .field-name-field-status {
     float: none; } }
 
+.page-node-add-loan .loan-debit-info {
+  padding-top: 2.5em; }
+  @media (min-width: 306px) {
+    .page-node-add-loan .loan-debit-info {
+      padding-top: 1em; } }
+.page-node-add-loan .deferred-enrolment-fees {
+  padding-top: 2.5em; }
+  @media (min-width: 324px) {
+    .page-node-add-loan .deferred-enrolment-fees {
+      padding-top: 1em; } }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
