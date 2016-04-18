@@ -2912,6 +2912,11 @@ label[for="edit-pubdate"] {
     width: 250px;
     margin-right: 0.5em;
     display: inline-block;
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     @include breakpoint(992px) {
       width: 100%;
