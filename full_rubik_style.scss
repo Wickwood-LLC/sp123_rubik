@@ -2892,7 +2892,8 @@ label[for="edit-pubdate"] {
   width: 100%;
 }
 
-.pane-panopoly-news-related-news-articles {
+.pane-panopoly-news-related-news-articles,
+.pane-related-news {
   padding-top: 2em;
 
   @include breakpoint(351px) {
