@@ -1025,6 +1025,11 @@ ul.rules-operations-add a {
       }
     }
 
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+      content: "\f0c9\ Menu";
+      color: #333;
+    }
+
     .dropdown-menu {
       background-color: #f8f8f8;
       box-shadow: none;
