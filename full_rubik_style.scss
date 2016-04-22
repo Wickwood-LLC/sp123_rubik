@@ -1028,6 +1028,10 @@ ul.rules-operations-add a {
     .dropdown-menu {
       background-color: #f8f8f8;
       box-shadow: none;
+
+      @include breakpoint(630px){
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      }
     }
 
     .tb-megamenu-column-inner {
