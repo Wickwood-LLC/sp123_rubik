@@ -2567,7 +2567,7 @@ form .tabs {
 .g-recaptcha {
   @include breakpoint(0px 400px) {
     transform: scale(0.73);
-    transform-origin: center center;
+    transform-origin: 0 0;
   }
 }
 

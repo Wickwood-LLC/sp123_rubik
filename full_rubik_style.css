@@ -2153,8 +2153,8 @@ form .tabs {
   .g-recaptcha {
     -webkit-transform: scale(0.73);
             transform: scale(0.73);
-    -webkit-transform-origin: center center;
-            transform-origin: center center; } }
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0; } }
 
 .form-item-path-alias {
   display: -webkit-box;
