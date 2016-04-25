@@ -2149,6 +2149,13 @@ form .tabs {
   display: table;
   margin: 0 auto; }
 
+@media (min-width: 0px) and (max-width: 400px) {
+  .g-recaptcha {
+    -webkit-transform: scale(0.73);
+            transform: scale(0.73);
+    -webkit-transform-origin: center center;
+            transform-origin: center center; } }
+
 .form-item-path-alias {
   display: -webkit-box;
   display: -webkit-flex;

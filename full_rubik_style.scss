@@ -2564,6 +2564,13 @@ form .tabs {
   }
 }
 
+.g-recaptcha {
+  @include breakpoint(0px 400px) {
+    transform: scale(0.73);
+    transform-origin: center center;
+  }
+}
+
 .form-item-path-alias {
   display: flex;
   flex-flow: row wrap;
