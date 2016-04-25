@@ -607,6 +607,9 @@ ul.rules-operations-add a {
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav li a {
     width: 90%;
     text-align: left; }
+  @media (min-width: 630px) and (max-width: 679px) {
+    #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
+      font-size: 11px; } }
 
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
 .tb-megamenu .dropdown-menu .active > a,

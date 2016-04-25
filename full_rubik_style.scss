@@ -1118,6 +1118,10 @@ ul.rules-operations-add a {
       width: 90%;
       text-align: left;
     }
+
+    @include breakpoint(630px 679px) {
+      font-size: 11px;
+    }
   }
 }
 
