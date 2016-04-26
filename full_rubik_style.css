@@ -615,7 +615,7 @@ ul.rules-operations-add a {
         min-width: 0;
         padding: 5px 5.5px;
         font-size: 0.9em; } }
-  @media (min-width: 630px) and (max-width: 665px) {
+  @media (min-width: 630px) and (max-width: 679px) {
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
       min-width: 0;
       padding: 5px 5.5px;
