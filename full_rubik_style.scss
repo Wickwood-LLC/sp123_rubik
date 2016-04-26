@@ -1122,6 +1122,12 @@ ul.rules-operations-add a {
 
     @include breakpoint(480px 629px) {
       font-size: 11px;
+
+      .tb-megamenu-nav > li a {
+        min-width: 0;
+        padding: 5px 5.5px;
+        font-size: 0.9em;
+      }
     }
 
     @include breakpoint(630px 665px) {
