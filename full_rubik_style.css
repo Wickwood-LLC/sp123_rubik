@@ -2676,6 +2676,11 @@ label[for="edit-pubdate"] {
   .pane-related-news .views-field-field-featured-image {
     float: left;
     margin-right: 1em; }
+    .pane-panopoly-news-related-news-articles .views-field-field-featured-image img,
+    .pane-related-news .views-field-field-featured-image img {
+      margin-top: 4px;
+      height: 110px;
+      width: 110px; }
 
 .view-display-id-related_news_articles .clearfix:after {
   display: none; }

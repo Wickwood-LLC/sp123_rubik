@@ -2964,6 +2964,12 @@ label[for="edit-pubdate"] {
   .views-field-field-featured-image {
     float: left;
     margin-right: 1em;
+
+    img {
+      margin-top: 4px;
+      height: 110px;
+      width: 110px;
+    }
   }
 }
 
