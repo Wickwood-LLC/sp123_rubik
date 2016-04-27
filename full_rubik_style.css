@@ -452,11 +452,6 @@ ul.rules-operations-add a {
     font-size: 1.5em;
     line-height: 1.5;
     text-align: center; }
-  #block-panels-mini-header .right-column {
-    display: none; }
-    @media (min-width: 481px) {
-      #block-panels-mini-header .right-column {
-        display: block; } }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;

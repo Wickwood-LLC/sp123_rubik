@@ -903,13 +903,13 @@ ul.rules-operations-add a {
     text-align: center;
   }
 
-  .right-column {
-    display: none;
+  // .right-column {
+  //   display: none;
 
-    @include breakpoint(481px) {
-      display: block;
-    }
-  }
+  //   @include breakpoint(481px) {
+  //     display: block;
+  //   }
+  // }
 }
 
 .secure-site-notif .block-content {
