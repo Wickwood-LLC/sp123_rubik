@@ -902,14 +902,6 @@ ul.rules-operations-add a {
     line-height: 1.5;
     text-align: center;
   }
-
-  // .right-column {
-  //   display: none;
-
-  //   @include breakpoint(481px) {
-  //     display: block;
-  //   }
-  // }
 }
 
 .secure-site-notif .block-content {
@@ -1011,14 +1003,14 @@ ul.rules-operations-add a {
     display: block;
     margin: 0 auto;
 
-    @include breakpoint(480px){
+    @include breakpoint(490px){
       display: table;
     }
     
     .nav-collapse {
       position: relative;
       top: 0;
-      @include breakpoint(480px) {
+      @include breakpoint(490px) {
         display: block;
       }
     }
@@ -1028,7 +1020,7 @@ ul.rules-operations-add a {
       margin: 0 auto;
       float: none;
 
-      @include breakpoint(480px) {
+      @include breakpoint(490px) {
         display: none;
       }
     }
@@ -1043,7 +1035,7 @@ ul.rules-operations-add a {
       background-color: #f8f8f8;
       box-shadow: none;
 
-      @include breakpoint(480px){
+      @include breakpoint(490px){
         box-shadow: 0 5px 10px rgba(0,0,0,0.2);
       }
     }
@@ -1051,7 +1043,7 @@ ul.rules-operations-add a {
     .tb-megamenu-column-inner {
       padding: 0;
 
-      @include breakpoint(480px) {
+      @include breakpoint(490px) {
         padding: 10px;
       }
     }
@@ -1062,7 +1054,7 @@ ul.rules-operations-add a {
       float: none;
       list-style: none;
       
-      @include breakpoint(480px) {
+      @include breakpoint(490px) {
         float: left;
         background: #eee url(images/bleeds.png) 50% 0px no-repeat;
       }
@@ -1077,14 +1069,14 @@ ul.rules-operations-add a {
       &:first-child a {
           border-radius: 0;
 
-          @include breakpoint(480px) {
+          @include breakpoint(490px) {
             border-radius: 5px 0px 0px 5px;
           }
       }
       &:last-child,
       &:last-child a {
           border-radius: 0;
-          @include breakpoint(480px) {
+          @include breakpoint(490px) {
             border-radius: 0px 5px 5px 0px;
           }
       }
@@ -1105,7 +1097,7 @@ ul.rules-operations-add a {
       >a {
         float: none;
 
-        @include breakpoint(480px) {
+        @include breakpoint(490px) {
           float: left;
         }
 
@@ -1118,7 +1110,7 @@ ul.rules-operations-add a {
   
     .tb-megamenu-subnav {
       margin-left: 1em;
-      @include breakpoint(480px) {
+      @include breakpoint(490px) {
         margin-left: 0;
       }
     }
@@ -1128,7 +1120,7 @@ ul.rules-operations-add a {
       text-align: left;
     }
 
-    @include breakpoint(480px 629px) {
+    @include breakpoint(490px 629px) {
       font-size: 11px;
 
       .tb-megamenu-nav > li a {
@@ -1138,7 +1130,7 @@ ul.rules-operations-add a {
       }
     }
 
-    @include breakpoint(630px 679px) {
+    @include breakpoint(630px 689px) {
       .tb-megamenu-nav > li a {
         min-width: 0;
         padding: 5px 5.5px;
