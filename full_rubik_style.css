@@ -529,20 +529,20 @@ ul.rules-operations-add a {
   background: transparent;
   display: block;
   margin: 0 auto; }
-  @media (min-width: 490px) {
+  @media (min-width: 500px) {
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
       display: table; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
     position: relative;
     top: 0; }
-    @media (min-width: 490px) {
+    @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .nav-collapse {
         display: block; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
     display: table;
     margin: 0 auto;
     float: none; }
-    @media (min-width: 490px) {
+    @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-navicon:before, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-reorder:before, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-bars:before {
@@ -552,12 +552,12 @@ ul.rules-operations-add a {
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
     background-color: #f8f8f8;
     box-shadow: none; }
-    @media (min-width: 490px) {
+    @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .dropdown-menu {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-column-inner {
     padding: 0; }
-    @media (min-width: 490px) {
+    @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-column-inner {
         padding: 10px; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
@@ -565,7 +565,7 @@ ul.rules-operations-add a {
     border: 0px;
     float: none;
     list-style: none; }
-    @media (min-width: 490px) {
+    @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li {
         float: left;
         background: #eee url(images/bleeds.png) 50% 0px no-repeat; } }
@@ -575,12 +575,12 @@ ul.rules-operations-add a {
       text-shadow: #38a 0px 1px 0px; }
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
       border-radius: 0; }
-      @media (min-width: 490px) {
+      @media (min-width: 500px) {
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:first-child a {
           border-radius: 5px 0px 0px 5px; } }
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
       border-radius: 0; }
-      @media (min-width: 490px) {
+      @media (min-width: 500px) {
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li:last-child a {
           border-radius: 0px 5px 5px 0px; } }
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.dropdown.open > a {
@@ -595,20 +595,20 @@ ul.rules-operations-add a {
       padding: 5px 10px; }
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a {
       float: none; }
-      @media (min-width: 490px) {
+      @media (min-width: 500px) {
         #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a {
           float: left; } }
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a:hover, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li > a:focus {
         background-color: #f8f8f8; }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav {
     margin-left: 1em; }
-    @media (min-width: 490px) {
+    @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav {
         margin-left: 0; } }
   #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-subnav li a {
     width: 90%;
     text-align: left; }
-  @media (min-width: 490px) and (max-width: 629px) {
+  @media (min-width: 500px) and (max-width: 629px) {
     #block-tb-megamenu-main-menu .tb-megamenu-main-menu {
       font-size: 11px; }
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li a {
