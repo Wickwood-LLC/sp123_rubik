@@ -1804,6 +1804,7 @@ table.field-multiple-table {
       }
       td:not([class]){
         flex: 100%;
+        display: block;
       }
     }
   }

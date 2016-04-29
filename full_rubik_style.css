@@ -1449,7 +1449,8 @@ table.field-multiple-table tr {
       -webkit-box-flex: 100%;
       -webkit-flex: 100%;
           -ms-flex: 100%;
-              flex: 100%; } }
+              flex: 100%;
+      display: block; } }
 
 #user-account-main-page .pane-basic-user-info-for-user-account label {
   width: 100px; }
