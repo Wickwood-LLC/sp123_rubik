@@ -1800,6 +1800,7 @@ table.field-multiple-table {
       td.field-multiple-drag {
         order: 1;
         box-sizing: border-box;
+        display: block;
       }
       td:not([class]){
         flex: 100%;
