@@ -2149,9 +2149,9 @@ form .tabs {
             flex: 0 100px; }
   #user-login .form-item input {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 0 calc(100% - 100px);
-        -ms-flex: 1 0 calc(100% - 100px);
-            flex: 1 0 calc(100% - 100px);
+    -webkit-flex: 1 0 100px;
+        -ms-flex: 1 0 100px;
+            flex: 1 0 100px;
     min-width: 100px; }
   #user-login .form-item .description {
     -webkit-box-flex: 1;

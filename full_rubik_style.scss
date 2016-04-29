@@ -2573,7 +2573,7 @@ form .tabs {
 
     label { flex: 0 100px; }
     input { 
-      flex: 1 0 calc(100% - 100px); 
+      flex: 1 0 100px;
       min-width: 100px;
     }
     .description { flex: 1 auto; }
