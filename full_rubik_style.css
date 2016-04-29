@@ -1748,7 +1748,7 @@ table.field-multiple-table tr {
   top: 50%; }
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table {
   border: 1px solid #DDDDDD;
-  display: table-cell;
+  display: table;
   border-collapse: initial; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th {
     padding: 5px; }
