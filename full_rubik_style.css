@@ -1763,6 +1763,9 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 .page-user .field-collection-item-field-phone .field-name-field-note .field-label {
   width: auto; }
 
+.field-name-field-assigned-to input {
+  width: auto; }
+
 .page-user-view .pane-additional-identifying-informati .clearfix::after {
   content: ''; }
 .page-user-view .field-name-field-family-member-contacts .field-label,
