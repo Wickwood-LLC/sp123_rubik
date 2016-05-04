@@ -1422,6 +1422,7 @@ div[id*='edit-actions'] {
   text-align: center;
   box-sizing: border-box;
   width: initial;
+  width: inherit; // for IE
   z-index: 100;
 }
 .pane-profile2-form-buttons {
