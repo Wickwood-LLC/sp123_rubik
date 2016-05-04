@@ -1149,7 +1149,7 @@ div.panel-pane div.node.boxed {
     z-index: 1; }
 
 /* line 1421, full_rubik_style.scss */
-div[id*='edit-actions'] {
+.my-sticky-element {
   text-align: center;
   box-sizing: border-box;
   width: auto;
