@@ -1421,8 +1421,8 @@ div.panel-pane div.node.boxed {
 .my-sticky-element {
   text-align: center;
   box-sizing: border-box;
-  width: auto; // for IE
   width: initial;
+  width: inherit; // for IE
   z-index: 100;
 }
 .pane-profile2-form-buttons {
