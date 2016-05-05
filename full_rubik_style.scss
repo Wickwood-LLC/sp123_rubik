@@ -816,6 +816,10 @@ ul.panels-ipe-linkbar li {
   }
 }
 
+ul.primary-tabs {
+  text-transform: capitalize;
+}
+
 ul.secondary-tabs.links:hover {
   li, li a {
     float: none;
