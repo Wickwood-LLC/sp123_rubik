@@ -13,7 +13,9 @@
 </header>
 <?php if (theme_get_setting('rubik_show_branding')): ?>
 <div id='branding'><div class='limiter clearfix'>
-  <div class='breadcrumb clearfix'><?php print $breadcrumb ?></div>
+  <?php if (current_path() !== 'user/login' || current_path() !== 'user/password') :?>
+    <div class='breadcrumb clearfix'><?php print $breadcrumb ?></div>
+  <?php endif; ?>
   <?php if (!$overlay && isset($secondary_menu)) : ?>
     <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('class' => 'links secondary-menu'))) ?>
   <?php endif; ?>

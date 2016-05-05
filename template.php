@@ -350,7 +350,3 @@ function full_rubik_preprocess_html(&$vars) {
   );
   drupal_add_html_head($viewport, 'viewport');
 }
-
-function full_rubik_preprocess_node(&$variables) {
-  dpm($variables);
-}
