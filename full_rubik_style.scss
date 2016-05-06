@@ -2590,6 +2590,9 @@ form .tabs {
     }
     .description { flex: 1 auto; }
   }
+}
+
+#user-login, #user-pass {
   .g-recaptcha > div > div {
     display: table;
     margin: 0 auto;
