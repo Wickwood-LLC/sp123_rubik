@@ -13,9 +13,7 @@
 </header>
 <?php if (theme_get_setting('rubik_show_branding')): ?>
 <div id='branding'><div class='limiter clearfix'>
-  <?php if ((arg(0) == 'user' && arg(1) == 'login') || (arg(0) == 'user' && arg(1) == 'password')): ?>
-    <div class='breadcrumb clearfix'></div>
-  <?php else: ?>
+  <?php if ((arg(0) == 'user' && arg(1) !== 'login') || (arg(0) == 'user' && arg(1) !== 'password')): ?>
     <div class='breadcrumb clearfix'><?php print $breadcrumb ?></div>
   <?php endif; ?>
   <?php if (!$overlay && isset($secondary_menu)) : ?>
