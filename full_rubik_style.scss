@@ -232,12 +232,16 @@
     }
   }
 
-  div[class*="form-status"] .form-type-radio {
+  div[class*="form-status"] {
     display: none;
-    padding: 5px;
-    width: auto;
-
-    label { font-weight: bold; }
+    
+    .form-type-radio {
+      display: inline-block;
+      padding: 5px;
+      width: auto;
+  
+      label { font-weight: bold; }
+    }
   }
 }
 
