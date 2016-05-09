@@ -906,6 +906,12 @@ ul.rules-operations-add a {
     line-height: 1.5;
     text-align: center;
   }
+
+  .middle-column {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .secure-site-notif .block-content {
