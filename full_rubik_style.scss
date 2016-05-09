@@ -233,8 +233,9 @@
   }
 
   div[class*="form-status"] .form-type-radio {
-    display: inline-block;
+    display: none;
     padding: 5px;
+    width: auto;
 
     label { font-weight: bold; }
   }
@@ -1715,6 +1716,8 @@ ul.field-collection-view-links {
 
   .field-name-field-loans .ief-form {
     @include loans-ief;
+
+
   }
 }
 
