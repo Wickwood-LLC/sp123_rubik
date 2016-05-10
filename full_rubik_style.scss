@@ -634,13 +634,10 @@ div#toolbar div.toolbar-shortcuts ul {
 .view-service-bureaus,
 .view-non-staff-users {
   .views-field-edit-node {
-    position: relative;
+    vertical-align: middle;
 
     a {
-      transform: rotate(-90deg) translateY(-10px);
-      position: absolute;
-      top: 50%;
-      margin-top: -25%;
+      transform: rotate(-90deg);
     }
   }
 }
