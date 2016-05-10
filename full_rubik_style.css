@@ -1463,13 +1463,6 @@ ul.field-collection-view-links {
 .page-user-edit.page-user-edit-bwma-client .pane-user-field-related-clients .pane-content {
   border: 0;
   padding: 0; }
-/* line 1716, full_rubik_style.scss */
-.page-user-edit.page-user-edit-bwma-client .field-name-field-loans tr {
-  border: 1px solid #CCCCCC;
-  border-width: 0 1px 0 1px; }
-  /* line 1720, full_rubik_style.scss */
-  .page-user-edit.page-user-edit-bwma-client .field-name-field-loans tr .button-add {
-    text-transform: capitalize; }
 /* line 9, full_rubik_style.scss */
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form * {
   box-sizing: border-box; }
@@ -1743,6 +1736,13 @@ ul.field-collection-view-links {
     /* line 243, full_rubik_style.scss */
     .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
       font-weight: bold; }
+/* line 1720, full_rubik_style.scss */
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans tr {
+  border: 1px solid #CCCCCC;
+  border-width: 0 1px 0 1px; }
+/* line 1724, full_rubik_style.scss */
+.page-user-edit.page-user-edit-bwma-client .field-name-field-loans .button-add {
+  text-transform: capitalize; }
 
 /* line 1732, full_rubik_style.scss */
 .page-user-view-bwma-client .pane-client-additional-id-info .field .field-label {
