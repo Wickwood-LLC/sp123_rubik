@@ -243,10 +243,6 @@
       label { font-weight: bold; }
     }
   }
-
-  .button-add {
-    text-transform: capitalize;
-  }
 }
 
 @mixin loan-node {
@@ -1720,12 +1716,14 @@ ul.field-collection-view-links {
   .field-name-field-loans tr {
     border: 1px solid #CCCCCC;
     border-width: 0 1px 0 1px;
+
+    .button-add {
+      text-transform: capitalize;
+    }
   }
 
   .field-name-field-loans .ief-form {
     @include loans-ief;
-
-
   }
 }
 
