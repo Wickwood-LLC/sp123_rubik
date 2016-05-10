@@ -2320,8 +2320,13 @@ tr.ief-row-entity .ief-entity-operations {
     table.field-multiple-table { border: 0; }
     thead { display: none; }
 
-    .form-item label {
-      min-width: 90px;
+    .form-item {
+      label {
+        min-width: 90px;
+      }
+      input {
+        width: auto;
+      }
     }
 
     .field-name-field-phone-type {

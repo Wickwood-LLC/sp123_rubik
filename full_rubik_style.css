@@ -2425,50 +2425,53 @@ tr.ief-row-entity .ief-entity-operations input.button-remove {
 /* line 2321, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts thead {
   display: none; }
-/* line 2323, full_rubik_style.scss */
+/* line 2324, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .form-item label {
   min-width: 90px; }
 /* line 2327, full_rubik_style.scss */
+.page-user-edit-bwma-staff .field-name-field-family-member-contacts .form-item input {
+  width: auto; }
+/* line 2332, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type {
   width: auto;
   margin-right: 5px; }
-  /* line 2330, full_rubik_style.scss */
+  /* line 2335, full_rubik_style.scss */
   .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-type:after {
     content: '';
     display: none; }
-/* line 2336, full_rubik_style.scss */
+/* line 2341, full_rubik_style.scss */
 .page-user-edit-bwma-staff .field-name-field-family-member-contacts .field-name-field-phone-number input {
   width: auto; }
 
-/* line 2343, full_rubik_style.scss */
+/* line 2348, full_rubik_style.scss */
 thead th.field-label label {
   padding-left: 1em; }
 
-/* line 2347, full_rubik_style.scss */
+/* line 2352, full_rubik_style.scss */
 table[id*='field-notes-values'] > thead label {
   display: none; }
 
-/* line 2352, full_rubik_style.scss */
+/* line 2357, full_rubik_style.scss */
 .field-name-field-notes .tabledrag-toggle-weight-wrapper {
   display: none; }
-/* line 2356, full_rubik_style.scss */
+/* line 2361, full_rubik_style.scss */
 .field-name-field-notes td:not([class]),
 .field-name-field-notes td:not([class]) > .ajax-new-content {
   position: relative; }
-  /* line 2360, full_rubik_style.scss */
+  /* line 2365, full_rubik_style.scss */
   .field-name-field-notes td:not([class]) .field-name-field-staff-user,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user {
     float: left; }
-    /* line 2363, full_rubik_style.scss */
+    /* line 2368, full_rubik_style.scss */
     .field-name-field-notes td:not([class]) .field-name-field-staff-user input,
     .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-staff-user input {
       display: inline-block;
       width: 24em; }
-  /* line 2368, full_rubik_style.scss */
+  /* line 2373, full_rubik_style.scss */
   .field-name-field-notes td:not([class]) .field-name-field-note,
   .field-name-field-notes td:not([class]) > .ajax-new-content .field-name-field-note {
     clear: left; }
-  /* line 2371, full_rubik_style.scss */
+  /* line 2376, full_rubik_style.scss */
   .field-name-field-notes td:not([class]) .button-remove,
   .field-name-field-notes td:not([class]) > .ajax-new-content .button-remove {
     position: absolute;
@@ -2476,16 +2479,16 @@ table[id*='field-notes-values'] > thead label {
     top: 50%;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); }
-/* line 2379, full_rubik_style.scss */
+/* line 2384, full_rubik_style.scss */
 .field-name-field-notes .field-add-more-submit {
   display: table;
   margin: 1em auto 0; }
 
-/* line 2385, full_rubik_style.scss */
+/* line 2390, full_rubik_style.scss */
 td:not([class]) {
   position: relative; }
   @media (min-width: 768px) {
-    /* line 2389, full_rubik_style.scss */
+    /* line 2394, full_rubik_style.scss */
     td:not([class]) .button-remove {
       position: absolute;
       right: -50px;
@@ -2493,7 +2496,7 @@ td:not([class]) {
       -webkit-transform: rotate(-90deg);
               transform: rotate(-90deg); } }
 
-/* line 2402, full_rubik_style.scss */
+/* line 2407, full_rubik_style.scss */
 .field-name-field-referral-client .form-item,
 .field-name-field-referral-consultant .form-item,
 .field-name-field-referral-partner .form-item,
@@ -2510,7 +2513,7 @@ td:not([class]) {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   width: 100%; }
-  /* line 2408, full_rubik_style.scss */
+  /* line 2413, full_rubik_style.scss */
   .field-name-field-referral-client .form-item label,
   .field-name-field-referral-consultant .form-item label,
   .field-name-field-referral-partner .form-item label,
@@ -2520,7 +2523,7 @@ td:not([class]) {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     margin-right: 5px; }
-  /* line 2412, full_rubik_style.scss */
+  /* line 2417, full_rubik_style.scss */
   .field-name-field-referral-client .form-item input,
   .field-name-field-referral-consultant .form-item input,
   .field-name-field-referral-partner .form-item input,
@@ -2529,14 +2532,14 @@ td:not([class]) {
     -webkit-flex: 1 0 200px;
         -ms-flex: 1 0 200px;
             flex: 1 0 200px; }
-/* line 2418, full_rubik_style.scss */
+/* line 2423, full_rubik_style.scss */
 .field-name-field-referral-client .field-name-field-address .state.form-select,
 .field-name-field-referral-consultant .field-name-field-address .state.form-select,
 .field-name-field-referral-partner .field-name-field-address .state.form-select,
 .field-name-field-direct-mail-lead-tracking- .field-name-field-address .state.form-select {
   width: 100%; }
 
-/* line 2425, full_rubik_style.scss */
+/* line 2430, full_rubik_style.scss */
 .pane-additional-identifying-info-edit .form-item {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2547,104 +2550,104 @@ td:not([class]) {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 2430, full_rubik_style.scss */
+  /* line 2435, full_rubik_style.scss */
   .pane-additional-identifying-info-edit .form-item label {
     width: 40%; }
 
 /* Admin page styles */
-/* line 2438, full_rubik_style.scss */
+/* line 2443, full_rubik_style.scss */
 ul#views-display-menu-tabs {
   overflow: visible; }
-  /* line 2441, full_rubik_style.scss */
+  /* line 2446, full_rubik_style.scss */
   ul#views-display-menu-tabs li.add ul.action-list li {
     float: none; }
 
-/* line 2445, full_rubik_style.scss */
+/* line 2450, full_rubik_style.scss */
 .views-ui-display-tab-bucket .advanced-help-link {
   float: left; }
 
-/* line 2449, full_rubik_style.scss */
+/* line 2454, full_rubik_style.scss */
 #node-edit .form-item-path-alias input {
   width: auto; }
 
-/* line 2453, full_rubik_style.scss */
+/* line 2458, full_rubik_style.scss */
 .pane-node-form-path .pane-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 2457, full_rubik_style.scss */
+/* line 2462, full_rubik_style.scss */
 select.form-select {
   height: auto; }
 
-/* line 2461, full_rubik_style.scss */
+/* line 2466, full_rubik_style.scss */
 label.panopoly-admin-hide-body-label-processed {
   text-align: left !important; }
 
-/* line 2465, full_rubik_style.scss */
+/* line 2470, full_rubik_style.scss */
 .form-item.form-type-textarea {
   padding: 0;
   border: 0; }
 
-/* line 2470, full_rubik_style.scss */
+/* line 2475, full_rubik_style.scss */
 .rubik-inline-field-descriptions .page-content .form-item .description,
 .description {
   color: green;
   box-sizing: border-box;
   padding: 5px;
   clear: both; }
-  /* line 2477, full_rubik_style.scss */
+  /* line 2482, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description em,
   .description em {
     display: initial; }
-  /* line 2481, full_rubik_style.scss */
+  /* line 2486, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description:empty,
   .description:empty {
     padding: 0; }
-  /* line 2485, full_rubik_style.scss */
+  /* line 2490, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description p,
   .description p {
     margin: 1em 0; }
-    /* line 2488, full_rubik_style.scss */
+    /* line 2493, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:first-child,
     .description p:first-child {
       margin-top: 0; }
-    /* line 2491, full_rubik_style.scss */
+    /* line 2496, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  /* line 2496, full_rubik_style.scss */
+  /* line 2501, full_rubik_style.scss */
   .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    /* line 2500, full_rubik_style.scss */
+    /* line 2505, full_rubik_style.scss */
     .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
       list-style: disc; }
 
-/* line 2507, full_rubik_style.scss */
+/* line 2512, full_rubik_style.scss */
 .admin-list .description {
   padding: 5px 0; }
 
-/* line 2511, full_rubik_style.scss */
+/* line 2516, full_rubik_style.scss */
 .admin-list li {
   list-style: none; }
 
-/* line 2515, full_rubik_style.scss */
+/* line 2520, full_rubik_style.scss */
 form .tabs {
   position: relative;
   z-index: 1; }
 
-/* line 2520, full_rubik_style.scss */
+/* line 2525, full_rubik_style.scss */
 .form-item label {
   color: black; }
 
-/* line 2524, full_rubik_style.scss */
+/* line 2529, full_rubik_style.scss */
 .ui-widget-header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
   background: #7db9e8;
@@ -2661,24 +2664,24 @@ form .tabs {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 2536, full_rubik_style.scss */
+/* line 2541, full_rubik_style.scss */
 .ui-datepicker .ui-datepicker-title select {
   color: white; }
-/* line 2539, full_rubik_style.scss */
+/* line 2544, full_rubik_style.scss */
 .ui-datepicker .ui-icon {
   -webkit-filter: invert(1);
           filter: invert(1); }
 
-/* line 2543, full_rubik_style.scss */
+/* line 2548, full_rubik_style.scss */
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-/* line 2547, full_rubik_style.scss */
+/* line 2552, full_rubik_style.scss */
 .ui-state-default, .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
-/* line 2552, full_rubik_style.scss */
+/* line 2557, full_rubik_style.scss */
 .ui-dialog .ui-dialog-titlebar,
 .overlay .ui-dialog-titlebar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,333333+100 */
@@ -2697,34 +2700,34 @@ form .tabs {
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
-/* line 2566, full_rubik_style.scss */
+/* line 2571, full_rubik_style.scss */
 .ui-dialog .ui-dialog-title {
   line-height: 30px; }
 
-/* line 2568, full_rubik_style.scss */
+/* line 2573, full_rubik_style.scss */
 .treeTable tr td .expander {
   margin-left: 0 !important; }
 
-/* line 2572, full_rubik_style.scss */
+/* line 2577, full_rubik_style.scss */
 #admin-menu .shortcut-toolbar li {
   padding: 0;
   border: 0;
   margin: 0.25em 0; }
 
-/* line 2579, full_rubik_style.scss */
+/* line 2584, full_rubik_style.scss */
 #media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
-/* line 2584, full_rubik_style.scss */
+/* line 2589, full_rubik_style.scss */
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding: 0 1em; }
 
-/* line 2588, full_rubik_style.scss */
+/* line 2593, full_rubik_style.scss */
 #edit-timezone select#edit-timezone--2 {
   width: 100%; }
 
-/* line 2593, full_rubik_style.scss */
+/* line 2598, full_rubik_style.scss */
 #user-login .form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2737,40 +2740,40 @@ form .tabs {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  /* line 2598, full_rubik_style.scss */
+  /* line 2603, full_rubik_style.scss */
   #user-login .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 100px;
         -ms-flex: 0 100px;
             flex: 0 100px; }
-  /* line 2599, full_rubik_style.scss */
+  /* line 2604, full_rubik_style.scss */
   #user-login .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 100px;
         -ms-flex: 1 0 100px;
             flex: 1 0 100px;
     min-width: 100px; }
-  /* line 2603, full_rubik_style.scss */
+  /* line 2608, full_rubik_style.scss */
   #user-login .form-item .description {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
 
-/* line 2608, full_rubik_style.scss */
+/* line 2613, full_rubik_style.scss */
 #user-login .g-recaptcha > div > div, #user-pass .g-recaptcha > div > div {
   display: table;
   margin: 0 auto; }
 
 @media (min-width: 0px) and (max-width: 400px) {
-  /* line 2614, full_rubik_style.scss */
+  /* line 2619, full_rubik_style.scss */
   .g-recaptcha {
     -webkit-transform: scale(0.73);
             transform: scale(0.73);
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0; } }
 
-/* line 2621, full_rubik_style.scss */
+/* line 2626, full_rubik_style.scss */
 .form-item-path-alias {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2779,56 +2782,56 @@ form .tabs {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  /* line 2625, full_rubik_style.scss */
+  /* line 2630, full_rubik_style.scss */
   .form-item-path-alias label, .form-item-path-alias span {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
         -ms-flex: 0 auto;
             flex: 0 auto; }
-  /* line 2628, full_rubik_style.scss */
+  /* line 2633, full_rubik_style.scss */
   .form-item-path-alias input {
     -webkit-box-flex: 1;
     -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
 
-/* line 2633, full_rubik_style.scss */
+/* line 2638, full_rubik_style.scss */
 label[for="edit-pubdate"] {
   padding-left: 0; }
 
-/* line 2636, full_rubik_style.scss */
+/* line 2641, full_rubik_style.scss */
 #edit-pubdate {
   margin-left: 10px; }
 
-/* line 2641, full_rubik_style.scss */
+/* line 2646, full_rubik_style.scss */
 #edit-entity-recur-days .form-item {
   width: 100px;
   float: left; }
 
-/* line 2649, full_rubik_style.scss */
+/* line 2654, full_rubik_style.scss */
 #node-edit #edit-entity-recur .form-item-entity-recur-rules-frequency,
 #node-edit #edit-entity-recur .form-item-entity-recur-rules-period {
   display: inline-block;
   width: auto; }
-/* line 2655, full_rubik_style.scss */
+/* line 2660, full_rubik_style.scss */
 #node-edit #edit-entity-recur .form-item-entity-recur-until {
   display: inline-block;
   margin-top: 10px;
   width: 100%; }
-  /* line 2660, full_rubik_style.scss */
+  /* line 2665, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until label {
     padding: 0; }
-  /* line 2662, full_rubik_style.scss */
+  /* line 2667, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until label, #node-edit #edit-entity-recur .form-item-entity-recur-until .description {
     display: inline-block;
     vertical-align: middle; }
-  /* line 2666, full_rubik_style.scss */
+  /* line 2671, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until .description {
     width: 235px; }
-  /* line 2667, full_rubik_style.scss */
+  /* line 2672, full_rubik_style.scss */
   #node-edit #edit-entity-recur .form-item-entity-recur-until .form-required {
     display: none; }
-/* line 2670, full_rubik_style.scss */
+/* line 2675, full_rubik_style.scss */
 #node-edit #edit-entity-recur #edit-entity-recur-until {
   display: inline-block;
   -webkit-box-align: center;
@@ -2836,142 +2839,142 @@ label[for="edit-pubdate"] {
       -ms-flex-align: center;
               -ms-grid-row-align: center;
           align-items: center; }
-  /* line 2674, full_rubik_style.scss */
+  /* line 2679, full_rubik_style.scss */
   #node-edit #edit-entity-recur #edit-entity-recur-until label {
     display: none; }
-  /* line 2675, full_rubik_style.scss */
+  /* line 2680, full_rubik_style.scss */
   #node-edit #edit-entity-recur #edit-entity-recur-until input {
     display: inline-block;
     width: auto; }
-  /* line 2679, full_rubik_style.scss */
+  /* line 2684, full_rubik_style.scss */
   #node-edit #edit-entity-recur #edit-entity-recur-until .description {
     display: inline-block;
     width: auto; }
-/* line 2687, full_rubik_style.scss */
+/* line 2692, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup .form-item {
   display: inline-block; }
-/* line 2691, full_rubik_style.scss */
+/* line 2696, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup .date-float {
   width: 100%; }
-/* line 2693, full_rubik_style.scss */
+/* line 2698, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper {
   display: inline-block;
   margin: 1em 0 0 1em;
   width: auto; }
-/* line 2700, full_rubik_style.scss */
+/* line 2705, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
   display: inline-block; }
-/* line 2701, full_rubik_style.scss */
+/* line 2706, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label {
   padding: 0; }
-/* line 2704, full_rubik_style.scss */
+/* line 2709, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup .description {
   display: none; }
-/* line 2705, full_rubik_style.scss */
+/* line 2710, full_rubik_style.scss */
 #node-edit .field-type-datetime.field-widget-date-popup input[type="checkbox"] {
   width: auto;
   margin-right: 5px; }
-/* line 2712, full_rubik_style.scss */
+/* line 2717, full_rubik_style.scss */
 #node-edit .pane-node-form-publishing .pane-title {
   margin-bottom: 0; }
-/* line 2713, full_rubik_style.scss */
+/* line 2718, full_rubik_style.scss */
 #node-edit .pane-node-form-publishing .form-item-pubdate {
   width: 100%; }
-  /* line 2717, full_rubik_style.scss */
+  /* line 2722, full_rubik_style.scss */
   #node-edit .pane-node-form-publishing .form-item-pubdate .form-item label {
     width: 40px; }
-  /* line 2718, full_rubik_style.scss */
+  /* line 2723, full_rubik_style.scss */
   #node-edit .pane-node-form-publishing .form-item-pubdate .form-item input {
     width: 10em;
     display: inline-block; }
-  /* line 2722, full_rubik_style.scss */
+  /* line 2727, full_rubik_style.scss */
   #node-edit .pane-node-form-publishing .form-item-pubdate .form-item .description {
     width: auto;
     display: inline-block; }
-/* line 2731, full_rubik_style.scss */
+/* line 2736, full_rubik_style.scss */
 #node-edit .pane-node-form-author .form-item-date {
   width: 100%; }
 
-/* line 2737, full_rubik_style.scss */
+/* line 2742, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-phone label {
   min-width: 100px; }
-/* line 2740, full_rubik_style.scss */
+/* line 2745, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-/* line 2743, full_rubik_style.scss */
+/* line 2748, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-phone .field-name-field-note label {
   width: auto; }
-/* line 2748, full_rubik_style.scss */
+/* line 2753, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-collection-mailing-address .form-item[class*="postal-code"] input {
   width: auto; }
-/* line 2752, full_rubik_style.scss */
+/* line 2757, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-family-member-contacts .field-label label {
   width: auto; }
-/* line 2753, full_rubik_style.scss */
+/* line 2758, full_rubik_style.scss */
 .page-admin-field-edit .field-name-field-family-member-contacts label {
   width: 100px; }
 
-/* line 2758, full_rubik_style.scss */
+/* line 2763, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-label label {
   width: auto; }
-/* line 2759, full_rubik_style.scss */
+/* line 2764, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts label {
   width: 100px; }
-/* line 2762, full_rubik_style.scss */
+/* line 2767, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-name-field-phone label {
   min-width: 100px; }
-/* line 2765, full_rubik_style.scss */
+/* line 2770, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-phone-number input {
   width: auto; }
-/* line 2768, full_rubik_style.scss */
+/* line 2773, full_rubik_style.scss */
 .page-field-collection-field-family-member-contacts .field-name-field-phone .field-name-field-note label {
   width: auto; }
 
-/* line 2774, full_rubik_style.scss */
+/* line 2779, full_rubik_style.scss */
 .page-field-collection-field-collection-mailing-address .form-item {
   margin-bottom: 0; }
-/* line 2776, full_rubik_style.scss */
+/* line 2781, full_rubik_style.scss */
 .page-field-collection-field-collection-mailing-address .locality-block .form-item {
   width: auto; }
-/* line 2777, full_rubik_style.scss */
+/* line 2782, full_rubik_style.scss */
 .page-field-collection-field-collection-mailing-address .locality-block .locality {
   width: auto; }
 
-/* line 2782, full_rubik_style.scss */
+/* line 2787, full_rubik_style.scss */
 .page-field-collection-field-phone label {
   min-width: 100px; }
-/* line 2785, full_rubik_style.scss */
+/* line 2790, full_rubik_style.scss */
 .page-field-collection-field-phone .field-name-field-phone-number input {
   width: auto; }
-/* line 2788, full_rubik_style.scss */
+/* line 2793, full_rubik_style.scss */
 .page-field-collection-field-phone .field-name-field-note label {
   width: auto; }
 
-/* line 2793, full_rubik_style.scss */
+/* line 2798, full_rubik_style.scss */
 .pane-user-roles ul li {
   margin-left: 0;
   padding: 0; }
-/* line 2797, full_rubik_style.scss */
+/* line 2802, full_rubik_style.scss */
 .pane-user-roles li.first {
   text-transform: capitalize; }
 
-/* line 2803, full_rubik_style.scss */
+/* line 2808, full_rubik_style.scss */
 .node-appointment .column-main .column-wrapper {
   border: 1px solid #CCCCCC;
   padding: 10px;
   font-size: 1.2em; }
-  /* line 2808, full_rubik_style.scss */
+  /* line 2813, full_rubik_style.scss */
   .node-appointment .column-main .column-wrapper .field {
     margin-bottom: 3px; }
-  /* line 2812, full_rubik_style.scss */
+  /* line 2817, full_rubik_style.scss */
   .node-appointment .column-main .column-wrapper .field-label-inline .field-label {
     width: 160px; }
 
-/* line 2821, full_rubik_style.scss */
+/* line 2826, full_rubik_style.scss */
 .node-appointment-form .field-name-field-appointment-with label,
 .node-appointment-form .field-name-field-appointment-for label {
   width: 135px; }
-/* line 2822, full_rubik_style.scss */
+/* line 2827, full_rubik_style.scss */
 .node-appointment-form .field-name-field-appointment-with input,
 .node-appointment-form .field-name-field-appointment-for input {
   width: calc(100% - 140px); }
@@ -3250,166 +3253,166 @@ label[for="edit-pubdate"] {
     .page-admin-field-edit-profile2-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
       font-weight: bold; }
 
-/* line 2831, full_rubik_style.scss */
+/* line 2836, full_rubik_style.scss */
 .node-loan-form .pane-node-form-title {
   width: -webkit-calc(100% - 101px);
   float: left;
   margin-right: 5px; }
-/* line 2836, full_rubik_style.scss */
+/* line 2841, full_rubik_style.scss */
 .node-loan-form .pane-node-field-used-diy-form {
   display: inline-block; }
-/* line 2840, full_rubik_style.scss */
+/* line 2845, full_rubik_style.scss */
 .node-loan-form .field-name-field-debiting-schedule .form-radios .form-item {
   float: left;
   width: 100px; }
-/* line 2845, full_rubik_style.scss */
+/* line 2850, full_rubik_style.scss */
 .node-loan-form .field-name-field-bwma-loan-program {
   clear: both;
   display: inline-block;
   width: 100%; }
-  /* line 2849, full_rubik_style.scss */
+  /* line 2854, full_rubik_style.scss */
   .node-loan-form .field-name-field-bwma-loan-program .form-radios .form-item {
     float: left;
     width: 150px; }
-/* line 2856, full_rubik_style.scss */
+/* line 2861, full_rubik_style.scss */
 .node-loan-form .field-name-field-total-deferred-enrollment- input {
   display: inline-block;
   width: auto; }
-/* line 2861, full_rubik_style.scss */
+/* line 2866, full_rubik_style.scss */
 .node-loan-form .field-name-field-deferred-fee-amount {
   width: 100%; }
-/* line 2867, full_rubik_style.scss */
+/* line 2872, full_rubik_style.scss */
 .node-loan-form .field-name-field-additional-extra-principal input,
 .node-loan-form .field-name-field-debit-amount-advanced-by-s input,
 .node-loan-form .field-name-field-debit-advanced-by-afts-amo input {
   width: auto; }
-/* line 2873, full_rubik_style.scss */
+/* line 2878, full_rubik_style.scss */
 .node-loan-form .loan-lenders .field-name-field-lender .form-item {
   display: block;
   overflow: hidden; }
-  /* line 2877, full_rubik_style.scss */
+  /* line 2882, full_rubik_style.scss */
   .node-loan-form .loan-lenders .field-name-field-lender .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 114px;
         -ms-flex: 0 0 114px;
             flex: 0 0 114px; }
-  /* line 2878, full_rubik_style.scss */
+  /* line 2883, full_rubik_style.scss */
   .node-loan-form .loan-lenders .field-name-field-lender .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-/* line 2880, full_rubik_style.scss */
+/* line 2885, full_rubik_style.scss */
 .node-loan-form .loan-lenders label {
   width: 110px; }
-/* line 2881, full_rubik_style.scss */
+/* line 2886, full_rubik_style.scss */
 .node-loan-form .loan-lenders input {
   width: auto; }
-/* line 2884, full_rubik_style.scss */
+/* line 2889, full_rubik_style.scss */
 .node-loan-form .loan-sb .field-name-field-service-bureau .form-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  /* line 2887, full_rubik_style.scss */
+  /* line 2892, full_rubik_style.scss */
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item label {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 184px;
         -ms-flex: 0 0 184px;
             flex: 0 0 184px; }
-  /* line 2888, full_rubik_style.scss */
+  /* line 2893, full_rubik_style.scss */
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item input {
     -webkit-box-flex: 1;
     -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
-/* line 2890, full_rubik_style.scss */
+/* line 2895, full_rubik_style.scss */
 .node-loan-form .loan-sb label {
   width: 180px; }
-/* line 2891, full_rubik_style.scss */
+/* line 2896, full_rubik_style.scss */
 .node-loan-form .loan-sb input {
   width: auto; }
-/* line 2895, full_rubik_style.scss */
+/* line 2900, full_rubik_style.scss */
 .node-loan-form .afts-advance label {
   width: 287px; }
-/* line 2896, full_rubik_style.scss */
+/* line 2901, full_rubik_style.scss */
 .node-loan-form .afts-advance input {
   width: auto; }
-/* line 2900, full_rubik_style.scss */
+/* line 2905, full_rubik_style.scss */
 .node-loan-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
 .node-loan-form .afts-advance .field-name-field-chargeback-fee-amount label {
   margin-right: -12px; }
-/* line 2907, full_rubik_style.scss */
+/* line 2912, full_rubik_style.scss */
 .node-loan-form .field-name-field-collection-status .field-name-field-status,
 .node-loan-form .field-name-field-collection-status .field-name-field-date {
   float: left;
   width: 50%; }
-/* line 2913, full_rubik_style.scss */
+/* line 2918, full_rubik_style.scss */
 .node-loan-form .field-name-field-collection-status .field-name-field-status .description {
   display: inline-block;
   width: auto; }
-/* line 2918, full_rubik_style.scss */
+/* line 2923, full_rubik_style.scss */
 .node-loan-form .field-name-field-collection-status .field-name-field-note {
   clear: left; }
-/* line 2923, full_rubik_style.scss */
+/* line 2928, full_rubik_style.scss */
 .node-loan-form .loan-chaos-data {
   clear: both; }
-  /* line 2926, full_rubik_style.scss */
+  /* line 2931, full_rubik_style.scss */
   .node-loan-form .loan-chaos-data .form-item input {
     width: auto; }
 
-/* line 2932, full_rubik_style.scss */
+/* line 2937, full_rubik_style.scss */
 .basic-options {
   display: inline-block;
   width: 100%; }
 
-/* line 2936, full_rubik_style.scss */
+/* line 2941, full_rubik_style.scss */
 .advanced-options {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 1em; }
-  /* line 2940, full_rubik_style.scss */
+  /* line 2945, full_rubik_style.scss */
   .advanced-options #edit-secondary.collapsed {
     width: 132px;
     margin: 0; }
-    /* line 2943, full_rubik_style.scss */
+    /* line 2948, full_rubik_style.scss */
     .advanced-options #edit-secondary.collapsed .fieldset-title {
       white-space: nowrap; }
-  /* line 2948, full_rubik_style.scss */
+  /* line 2953, full_rubik_style.scss */
   .advanced-options .bef-secondary-options {
     display: block; }
-    /* line 2951, full_rubik_style.scss */
+    /* line 2956, full_rubik_style.scss */
     .advanced-options .bef-secondary-options .views-exposed-widget {
       display: inline-block;
       vertical-align: top;
       float: none; }
 
-/* line 2959, full_rubik_style.scss */
+/* line 2964, full_rubik_style.scss */
 .password-strength {
   width: 100%; }
 
-/* line 2963, full_rubik_style.scss */
+/* line 2968, full_rubik_style.scss */
 .pane-panopoly-news-related-news-articles,
 .pane-related-news {
   padding-top: 2em; }
   @media (min-width: 351px) {
-    /* line 2963, full_rubik_style.scss */
+    /* line 2968, full_rubik_style.scss */
     .pane-panopoly-news-related-news-articles,
     .pane-related-news {
       padding-top: 1.5em; } }
   @media (min-width: 992px) {
-    /* line 2963, full_rubik_style.scss */
+    /* line 2968, full_rubik_style.scss */
     .pane-panopoly-news-related-news-articles,
     .pane-related-news {
       padding-top: 2em; } }
   @media (min-width: 1259px) {
-    /* line 2963, full_rubik_style.scss */
+    /* line 2968, full_rubik_style.scss */
     .pane-panopoly-news-related-news-articles,
     .pane-related-news {
       padding-top: 1.5em; } }
-  /* line 2979, full_rubik_style.scss */
+  /* line 2984, full_rubik_style.scss */
   .pane-panopoly-news-related-news-articles .views-row,
   .pane-related-news .views-row {
     width: 250px;
@@ -3417,54 +3420,54 @@ label[for="edit-pubdate"] {
     display: inline-block;
     margin-bottom: 1em;
     vertical-align: top; }
-    /* line 2986, full_rubik_style.scss */
+    /* line 2991, full_rubik_style.scss */
     .pane-panopoly-news-related-news-articles .views-row:last-child,
     .pane-related-news .views-row:last-child {
       margin-bottom: 0; }
     @media (min-width: 992px) {
-      /* line 2979, full_rubik_style.scss */
+      /* line 2984, full_rubik_style.scss */
       .pane-panopoly-news-related-news-articles .views-row,
       .pane-related-news .views-row {
         width: 100%;
         margin-right: 0; } }
-  /* line 2996, full_rubik_style.scss */
+  /* line 3001, full_rubik_style.scss */
   .pane-panopoly-news-related-news-articles .views-field-field-featured-image,
   .pane-related-news .views-field-field-featured-image {
     float: left;
     margin-right: 1em; }
-    /* line 3000, full_rubik_style.scss */
+    /* line 3005, full_rubik_style.scss */
     .pane-panopoly-news-related-news-articles .views-field-field-featured-image img,
     .pane-related-news .views-field-field-featured-image img {
       margin-top: 4px;
       height: 110px;
       width: 110px; }
 
-/* line 3009, full_rubik_style.scss */
+/* line 3014, full_rubik_style.scss */
 .view-display-id-related_news_articles .clearfix:after {
   display: none; }
-/* line 3013, full_rubik_style.scss */
+/* line 3018, full_rubik_style.scss */
 .view-display-id-related_news_articles .views-row {
   margin-bottom: 1em; }
-  /* line 3016, full_rubik_style.scss */
+  /* line 3021, full_rubik_style.scss */
   .view-display-id-related_news_articles .views-row:last-child {
     margin-bottom: 0; }
 
-/* line 3023, full_rubik_style.scss */
+/* line 3028, full_rubik_style.scss */
 .pane-categories .field-name-field-primary-category,
 .pane-categories .field-name-field-additional-categories {
   display: inline-block; }
-/* line 3028, full_rubik_style.scss */
+/* line 3033, full_rubik_style.scss */
 .pane-categories .panel-separator {
   display: none; }
 
-/* line 3033, full_rubik_style.scss */
+/* line 3038, full_rubik_style.scss */
 .prose p {
   margin-bottom: 10px; }
 
-/* line 3036, full_rubik_style.scss */
+/* line 3041, full_rubik_style.scss */
 #page .pane-content-area.boxed {
   overflow: hidden; }
-/* line 3040, full_rubik_style.scss */
+/* line 3045, full_rubik_style.scss */
 #page .pane-content-area .field-name-field-featured-image img {
   float: left;
   margin-bottom: 1em;
@@ -3472,50 +3475,50 @@ label[for="edit-pubdate"] {
   height: auto;
   width: 100%; }
   @media (min-width: 481px) {
-    /* line 3040, full_rubik_style.scss */
+    /* line 3045, full_rubik_style.scss */
     #page .pane-content-area .field-name-field-featured-image img {
       width: 50%;
       margin-right: 1em;
       margin-bottom: 0; } }
 
-/* line 3056, full_rubik_style.scss */
+/* line 3061, full_rubik_style.scss */
 ul.links.inline li.book_add_child a {
   display: block; }
 
-/* line 3060, full_rubik_style.scss */
+/* line 3065, full_rubik_style.scss */
 .manualcrop-selection-info {
   position: initial !important; }
 
-/* line 3064, full_rubik_style.scss */
+/* line 3069, full_rubik_style.scss */
 #media-browser-page .view-filters {
   float: none; }
 
 @media (min-width: 0px) and (max-width: 767px) {
-  /* line 3068, full_rubik_style.scss */
+  /* line 3073, full_rubik_style.scss */
   .form-item table, .form-item thead, .form-item th, .form-item tbody, .form-item tr, .form-item td {
     display: block; }
-  /* line 3072, full_rubik_style.scss */
+  /* line 3077, full_rubik_style.scss */
   .form-item td.field-multiple-drag {
     display: inline-block; }
-  /* line 3074, full_rubik_style.scss */
+  /* line 3079, full_rubik_style.scss */
   .form-item input.field-add-more-submit {
     width: 100%; }
-  /* line 3076, full_rubik_style.scss */
+  /* line 3081, full_rubik_style.scss */
   .form-item .field-name-field-status {
     float: none; } }
 
-/* line 3081, full_rubik_style.scss */
+/* line 3086, full_rubik_style.scss */
 .page-node-add-loan .loan-debit-info {
   padding-top: 2.5em; }
   @media (min-width: 306px) {
-    /* line 3081, full_rubik_style.scss */
+    /* line 3086, full_rubik_style.scss */
     .page-node-add-loan .loan-debit-info {
       padding-top: 1em; } }
-/* line 3089, full_rubik_style.scss */
+/* line 3094, full_rubik_style.scss */
 .page-node-add-loan .deferred-enrolment-fees {
   padding-top: 2.5em; }
   @media (min-width: 324px) {
-    /* line 3089, full_rubik_style.scss */
+    /* line 3094, full_rubik_style.scss */
     .page-node-add-loan .deferred-enrolment-fees {
       padding-top: 1em; } }
 
