@@ -243,6 +243,10 @@
       label { font-weight: bold; }
     }
   }
+
+  .button-add {
+    text-transform: capitalize;
+  }
 }
 
 @mixin loan-node {
