@@ -914,6 +914,18 @@ ul.rules-operations-add a {
     display: flex;
     justify-content: center;
   }
+
+  .right-column,
+  .left-column {
+    flex: 0;
+  }
+
+  .menu-name-user-menu {
+    ul li {
+      margin-left: 0;
+      white-space: nowrap;
+    }
+  }
 }
 
 .secure-site-notif .block-content {
