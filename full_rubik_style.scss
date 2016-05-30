@@ -587,7 +587,11 @@ div#toolbar div.toolbar-shortcuts ul {
     box-sizing: border-box;
   }
 
-  .edit-secondary-wrapper {
+  .views-exposed-widgets {
+    display: flex;
+  }
+
+  #edit-secondary-wrapper {
     order: 1;
     flex: 100%;
   }
