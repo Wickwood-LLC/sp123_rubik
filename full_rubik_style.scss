@@ -570,7 +570,22 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+.exposed-filters-block {
+  border: 1px solid #ccc;
+  position: relative;
 
+  .pane-title {
+    width: 100%;
+    display: block;
+    font-size: 11px;
+    margin: 0;
+    padding: 4px 9px 5px;
+    color: #333;
+    background: #f6f6f6;
+    position: absolute;
+    box-sizing: border-box;
+  }
+}
 
 .view-filters {
   float: left;
