@@ -589,6 +589,7 @@ div#toolbar div.toolbar-shortcuts ul {
 
   .views-exposed-widgets {
     display: flex;
+    flex-wrap: wrap;
   }
 
   #edit-secondary-wrapper {
