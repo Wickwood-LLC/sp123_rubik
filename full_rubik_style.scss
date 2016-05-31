@@ -612,10 +612,15 @@ div#toolbar div.toolbar-shortcuts ul {
   float: left;
 }
 
-div.views-exposed-form {
+.views-exposed-form {
   margin-right: 1em;
   margin-bottom: 0;
   display: flex;
+
+  .basic-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   legend {
     position: absolute;
