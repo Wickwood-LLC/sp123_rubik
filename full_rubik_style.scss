@@ -624,6 +624,8 @@ div#toolbar div.toolbar-shortcuts ul {
 
   legend {
     position: absolute;
+
+    a.fieldset-title { height: 26px; }
   }
 
   .views-exposed-widgets {
@@ -2990,10 +2992,6 @@ label[for="edit-pubdate"] {
   }
 }
 
-.basic-options {
-  display: inline-block;
-  width: 100%;
-}
 .advanced-options {
   display: flex;
   margin-top: 1em;
