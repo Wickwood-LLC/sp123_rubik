@@ -290,7 +290,7 @@ div#toolbar div.toolbar-shortcuts ul {
   float: left; }
 
 /* line 615, full_rubik_style.scss */
-.views-exposed-form {
+div.views-exposed-form {
   margin-right: 1em;
   margin-bottom: 0;
   display: -webkit-box;
@@ -298,20 +298,20 @@ div#toolbar div.toolbar-shortcuts ul {
   display: -ms-flexbox;
   display: flex; }
   /* line 620, full_rubik_style.scss */
-  .views-exposed-form legend {
+  div.views-exposed-form legend {
     position: absolute; }
   /* line 624, full_rubik_style.scss */
-  .views-exposed-form .views-exposed-widgets {
+  div.views-exposed-form .views-exposed-widgets {
     padding: 28px 10px 10px 10px; }
   /* line 628, full_rubik_style.scss */
-  .views-exposed-form .actions {
+  div.views-exposed-form .actions {
     display: inline-block; }
     /* line 631, full_rubik_style.scss */
-    .views-exposed-form .actions .views-exposed-widget {
+    div.views-exposed-form .actions .views-exposed-widget {
       float: none;
       padding-right: 0; }
       /* line 635, full_rubik_style.scss */
-      .views-exposed-form .actions .views-exposed-widget input {
+      div.views-exposed-form .actions .views-exposed-widget input {
         margin-top: 0; }
 
 /* line 643, full_rubik_style.scss */
