@@ -242,11 +242,11 @@ div#toolbar div.toolbar-shortcuts ul {
   width: 100%; }
 
 /* line 573, full_rubik_style.scss */
-.exposed-filters-block {
+.exposed-filters-block .exposed-filters-block {
   border: 1px solid #ccc;
   position: relative; }
   /* line 577, full_rubik_style.scss */
-  .exposed-filters-block .pane-title {
+  .exposed-filters-block .exposed-filters-block .pane-title {
     width: 100%;
     display: block;
     font-size: 11px;
@@ -257,7 +257,7 @@ div#toolbar div.toolbar-shortcuts ul {
     position: absolute;
     box-sizing: border-box; }
   /* line 589, full_rubik_style.scss */
-  .exposed-filters-block .views-exposed-widgets {
+  .exposed-filters-block .exposed-filters-block .views-exposed-widgets {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -266,7 +266,7 @@ div#toolbar div.toolbar-shortcuts ul {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
   /* line 594, full_rubik_style.scss */
-  .exposed-filters-block #edit-secondary-wrapper {
+  .exposed-filters-block .exposed-filters-block #edit-secondary-wrapper {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
@@ -276,10 +276,10 @@ div#toolbar div.toolbar-shortcuts ul {
         -ms-flex: 100%;
             flex: 100%; }
   /* line 599, full_rubik_style.scss */
-  .exposed-filters-block legend {
+  .exposed-filters-block .exposed-filters-block legend {
     position: relative; }
   /* line 602, full_rubik_style.scss */
-  .exposed-filters-block a.fieldset-title {
+  .exposed-filters-block .exposed-filters-block a.fieldset-title {
     height: 26px; }
 
 /* line 607, full_rubik_style.scss */
