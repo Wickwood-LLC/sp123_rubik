@@ -32,9 +32,9 @@
     <span class="fieldset-title fieldset-legend">Sorting and Filtering</span>
   </legend>
   <div class="views-exposed-widgets clearfix">
-    <div class="basic-options">
+    <div class="basic-options"> <!-- Do not print the advanced options widget yet -->
       <?php foreach ($widgets as $id => $widget): ?>
-        <!-- <?php if ($widget->id != 'edit-secondary'): ?> -->      <!-- Do not print the advanced options widget yet -->
+        <?php if ($widget->id != 'edit-secondary'): ?> 
           <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
             <?php if (!empty($widget->label)): ?>
               <label for="<?php print $widget->id; ?>">
@@ -55,7 +55,7 @@
               </div>
             <?php endif; ?>
           </div>
-        <!-- <?php endif; ?> -->
+        <?php endif; ?>
       <?php endforeach; ?>
       <?php if (!empty($sort_by)): ?>
         <div class="views-exposed-widget views-widget-sort-by">
