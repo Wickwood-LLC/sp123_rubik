@@ -263,11 +263,11 @@ div#toolbar div.toolbar-shortcuts ul {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
   /* line 625, full_rubik_style.scss */
-  .views-exposed-form legend {
+  .views-exposed-form > legend {
     position: absolute; }
-    /* line 628, full_rubik_style.scss */
-    .views-exposed-form legend a.fieldset-title {
-      height: 26px; }
+  /* line 629, full_rubik_style.scss */
+  .views-exposed-form a.fieldset-title {
+    height: 26px; }
   /* line 631, full_rubik_style.scss */
   .views-exposed-form .views-exposed-widgets {
     padding: 28px 10px 10px 10px; }

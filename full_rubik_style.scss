@@ -622,11 +622,11 @@ div#toolbar div.toolbar-shortcuts ul {
     flex-wrap: wrap;
   }
 
-  legend {
+  &>legend {
     position: absolute;
-
-    a.fieldset-title { height: 26px; }
   }
+
+  a.fieldset-title { height: 26px; }
 
   .views-exposed-widgets {
     padding: 28px 10px 10px 10px;
