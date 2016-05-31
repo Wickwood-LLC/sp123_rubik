@@ -241,50 +241,6 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-top: 2em;
   width: 100%; }
 
-/* line 573, full_rubik_style.scss */
-.exposed-filters-block .exposed-filters-block {
-  border: 1px solid #ccc;
-  position: relative; }
-  /* line 577, full_rubik_style.scss */
-  .exposed-filters-block .exposed-filters-block .pane-title {
-    width: 100%;
-    display: block;
-    font-size: 11px;
-    margin: 0;
-    padding: 4px 9px 5px;
-    color: #333;
-    background: #f6f6f6;
-    position: absolute;
-    box-sizing: border-box; }
-  /* line 589, full_rubik_style.scss */
-  .exposed-filters-block .exposed-filters-block .views-exposed-widgets {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
-  /* line 594, full_rubik_style.scss */
-  .exposed-filters-block .exposed-filters-block #edit-secondary-wrapper {
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-    -webkit-box-flex: 100%;
-    -webkit-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%; }
-  /* line 599, full_rubik_style.scss */
-  .exposed-filters-block .exposed-filters-block #edit-secondary.collapsed {
-    width: 138px; }
-  /* line 603, full_rubik_style.scss */
-  .exposed-filters-block .exposed-filters-block legend {
-    position: relative; }
-  /* line 606, full_rubik_style.scss */
-  .exposed-filters-block .exposed-filters-block a.fieldset-title {
-    height: 26px; }
-
 /* line 611, full_rubik_style.scss */
 .view-filters {
   float: left; }
