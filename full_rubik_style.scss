@@ -596,6 +596,10 @@ div#toolbar div.toolbar-shortcuts ul {
     flex: 100%;
   }
 
+  #edit-secondary.collapsed {
+    width: 138px;
+  }
+
   legend {
     position: relative;
   }
