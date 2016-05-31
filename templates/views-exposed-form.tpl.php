@@ -34,7 +34,7 @@
   <div class="views-exposed-widgets clearfix">
     <div class="basic-options"> <!-- Do not print the advanced options widget yet -->
       <?php foreach ($widgets as $id => $widget): ?>
-        <?php if ($widget->id != 'edit-secondary'): ?> 
+        <?php if (strpos($widget->id, 'edit-secondary') !== false ): ?> 
           <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
             <?php if (!empty($widget->label)): ?>
               <label for="<?php print $widget->id; ?>">
