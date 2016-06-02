@@ -3153,3 +3153,7 @@ ul.links.inline li.book_add_child a {
     }
   }
 }
+
+html.js fieldset.collapsible div.fieldset-wrapper {
+  overflow: visible !important;
+}

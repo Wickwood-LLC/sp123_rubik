@@ -3543,4 +3543,8 @@ ul.links.inline li.book_add_child a {
     .page-node-add-loan .deferred-enrolment-fees {
       padding-top: 1em; } }
 
+/* line 3157, full_rubik_style.scss */
+html.js fieldset.collapsible div.fieldset-wrapper {
+  overflow: visible !important; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
