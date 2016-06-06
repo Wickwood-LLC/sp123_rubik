@@ -645,19 +645,21 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
+.vbo-views-form p,
+.view-empty p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  clear: both;
+  border: 1px solid #CCCCCC;
+  padding: 1em;
+}
+
+
 .view-content {
   #edit-select {
     min-width: 200px;
-  }
-
-  .vbo-views-form p {
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: red;
-    clear: both;
-    border: 1px solid #CCCCCC;
-    padding: 1em;
   }
 
   .field-name-field-business-contacts {
