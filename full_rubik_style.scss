@@ -570,44 +570,6 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 }
 
-// .exposed-filters-block .exposed-filters-block {
-//   border: 1px solid #ccc;
-//   position: relative;
-
-//   .pane-title {
-//     width: 100%;
-//     display: block;
-//     font-size: 11px;
-//     margin: 0;
-//     padding: 4px 9px 5px;
-//     color: #333;
-//     background: #f6f6f6;
-//     position: absolute;
-//     box-sizing: border-box;
-//   }
-
-//   .views-exposed-widgets {
-//     display: flex;
-//     flex-wrap: wrap;
-//   }
-
-//   #edit-secondary-wrapper {
-//     order: 1;
-//     flex: 100%;
-//   }
-
-//   #edit-secondary.collapsed {
-//     width: 138px;
-//   }
-
-//   legend {
-//     position: relative;
-//   }
-//   a.fieldset-title {
-//     height: 26px;
-//   }
-// }
-
 .view-filters {
   float: left;
 }
@@ -629,6 +591,10 @@ div#toolbar div.toolbar-shortcuts ul {
 
   .views-exposed-widgets {
     padding: 28px 10px 10px 10px;
+  }
+
+  #edit-rid-op {
+    width: 180px;
   }
 
   .actions {
@@ -656,8 +622,10 @@ div#toolbar div.toolbar-shortcuts ul {
   padding: 1em;
 }
 
-.vbo-views-form .fieldset-content input {
-  margin-right: 0.5em;
+.vbo-views-form {
+  .fieldset-content input {
+    margin-right: 0.5em;
+  }
 }
 
 .view-content {
