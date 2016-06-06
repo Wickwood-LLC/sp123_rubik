@@ -271,7 +271,7 @@ div#toolbar div.toolbar-shortcuts ul {
   .views-exposed-form .views-exposed-widgets {
     padding: 28px 10px 10px 10px; }
   /* line 596, full_rubik_style.scss */
-  .views-exposed-form #edit-rid-op {
+  .views-exposed-form select[name="rid_op"] {
     width: 180px; }
   /* line 600, full_rubik_style.scss */
   .views-exposed-form .actions {
