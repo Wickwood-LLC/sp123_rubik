@@ -301,7 +301,7 @@ div#toolbar div.toolbar-shortcuts ul {
   margin-right: 0.5em; }
 
 /* line 633, full_rubik_style.scss */
-.view-content #edit-select {
+.view-content [id*='edit-select'] {
   min-width: 200px;
   display: inline-block; }
 /* line 641, full_rubik_style.scss */
