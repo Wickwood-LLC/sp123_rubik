@@ -1037,6 +1037,16 @@ ul.rules-operations-add a {
   }
 }
 
+.middle-column .pane-system-user-menu {
+  ul {
+    text-align: center;
+  }
+  li {
+    margin-left: 0;
+    display: inline-block;
+  }
+}
+
 #block-tb-megamenu-main-menu {
   .block-content {
     padding: 0;
