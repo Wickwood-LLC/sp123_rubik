@@ -926,14 +926,22 @@ ul.rules-operations-add a {
   }
 
   .pane-page-site-name {
-    font-size: 2em;
+    font-size: 1.5em ;
     line-height: 1.5;
     text-align: center;
+
+    @include breakpoint(295px) {
+      font-size: 2em;
+    }
   }
   .pane-page-slogan {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5;
     text-align: center;
+
+    @include breakpoint(295px) {
+      font-size: 1.5em;
+    }
   }
 
   .middle-column {
