@@ -599,7 +599,7 @@ ul.rules-operations-add a {
       /* line 928, full_rubik_style.scss */
       #block-panels-mini-header .pane-page-site-name {
         font-size: 1.8em; } }
-    @media (min-width: 295px) {
+    @media (min-width: 400px) {
       /* line 928, full_rubik_style.scss */
       #block-panels-mini-header .pane-page-site-name {
         font-size: 2em; } }
@@ -612,7 +612,7 @@ ul.rules-operations-add a {
       /* line 941, full_rubik_style.scss */
       #block-panels-mini-header .pane-page-slogan {
         font-size: 1.2em; } }
-    @media (min-width: 295px) {
+    @media (min-width: 400px) {
       /* line 941, full_rubik_style.scss */
       #block-panels-mini-header .pane-page-slogan {
         font-size: 1.5em; } }

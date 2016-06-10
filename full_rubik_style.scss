@@ -934,7 +934,7 @@ ul.rules-operations-add a {
       font-size: 1.8em;
     }
 
-    @include breakpoint(295px) {
+    @include breakpoint(400px) {
       font-size: 2em;
     }
   }
@@ -947,7 +947,7 @@ ul.rules-operations-add a {
       font-size: 1.2em;
     }
 
-    @include breakpoint(295px) {
+    @include breakpoint(400px) {
       font-size: 1.5em;
     }
   }
