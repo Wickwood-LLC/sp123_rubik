@@ -635,9 +635,9 @@ ul.rules-operations-add a {
   #block-panels-mini-header .right-column,
   #block-panels-mini-header .left-column {
     -webkit-box-flex: 0;
-    -webkit-flex: 0;
-        -ms-flex: 0;
-            flex: 0; }
+    -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+            flex: 0 auto; }
   /* line 968, full_rubik_style.scss */
   #block-panels-mini-header .menu-name-user-menu ul li {
     margin-left: 0;
