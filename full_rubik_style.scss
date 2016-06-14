@@ -591,8 +591,7 @@ div#toolbar div.toolbar-shortcuts ul {
   a.fieldset-title { height: 26px; }
 
   .views-exposed-widgets {
-    display: flex;
-    flex-flow: row wrap;
+    display: block;
     padding: 28px 10px 10px 10px;
   }
 
