@@ -1711,9 +1711,14 @@ ul.field-collection-view-links {
 .page-user-edit.page-user-edit-bwma-client {
 
   .pane-profile2-field-loans {
+
+    #edit-profile-bwma-client-field-loans .button-remove {
+      position: static;
+      transform: rotate(0deg);
+    }
     
     #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(4), .inline-entity-form-node-status { display: none; }
-    #edit-profile-bwma-client-field-loans     #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(2) {display: none;}
+    #edit-profile-bwma-client-field-loans #ief-entity-table-edit-profile-bwma-client-field-loans-und-entities thead tr th:nth-child(2) {display: none;}
     .ief-entity-operations input[value='Edit'] {
       margin-right: 5px;
     }
