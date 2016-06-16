@@ -3605,4 +3605,9 @@ ul.links.inline li.book_add_child a {
 html.js fieldset.collapsible div.fieldset-wrapper {
   overflow: visible !important; }
 
+/* line 3190, full_rubik_style.scss */
+#edit-field-website .button-remove {
+  right: -25px;
+  top: 35%; }
+
 /*# sourceMappingURL=full_rubik_style.css.map */
