@@ -303,6 +303,7 @@ function full_rubik_preprocess_secondary_exposed_elements(&$vars) {
   $vars['widget_parts'] = array();
   $vars['widget_values'] = array();
   $vars['widget_value_id_map'] = array();
+  dpm($element);
   foreach ($element['#info'] as $id => $info) {
     // Set aside checkboxes.
     if (isset($element[$info['value']]['#type']) && $element[$info['value']]['#type'] == 'checkbox') {
