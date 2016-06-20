@@ -304,41 +304,41 @@ function full_rubik_preprocess_secondary_exposed_elements(&$vars) {
   $vars['widget_values'] = array();
   $vars['widget_value_id_map'] = array();
   dpm($element);
-  foreach ($element['#info'] as $id => $info) {
-    // Set aside checkboxes.
-    if (isset($element[$info['value']]['#type']) && $element[$info['value']]['#type'] == 'checkbox') {
-      $checkboxes .= drupal_render($element[$info['value']]);
-      continue;
-    }
-    $widget = new stdClass;
-    // set up defaults so that there's always something there.
-    $widget->label = $widget->operator = $widget->widget = $widget->description = NULL;
+  // foreach ($element['#info'] as $id => $info) {
+  //   // Set aside checkboxes.
+  //   if (isset($element[$info['value']]['#type']) && $element[$info['value']]['#type'] == 'checkbox') {
+  //     $checkboxes .= drupal_render($element[$info['value']]);
+  //     continue;
+  //   }
+  //   $widget = new stdClass;
+  //   // set up defaults so that there's always something there.
+  //   $widget->label = $widget->operator = $widget->widget = $widget->description = NULL;
 
-    $widget->id = isset($element[$info['value']]['#id']) ? $element[$info['value']]['#id'] : '';
+  //   $widget->id = isset($element[$info['value']]['#id']) ? $element[$info['value']]['#id'] : '';
 
-    if (!empty($info['label'])) {
-      $widget->label = check_plain($info['label']);
-    }
-    if (!empty($info['operator'])) {
-      $operator = $element[$info['operator']];
-      unset($operator['#title']);
-      $widget->operator = drupal_render($operator);
-      $vars['widget_parts'][] = $info['operator'];
-    }
+  //   if (!empty($info['label'])) {
+  //     $widget->label = check_plain($info['label']);
+  //   }
+  //   if (!empty($info['operator'])) {
+  //     $operator = $element[$info['operator']];
+  //     unset($operator['#title']);
+  //     $widget->operator = drupal_render($operator);
+  //     $vars['widget_parts'][] = $info['operator'];
+  //   }
 
-    $value = $element[$info['value']];
-    unset($value['#title']);
-    $widget->widget = drupal_render($value);
-    $vars['widget_parts'][] = $info['value'];
-    $vars['widget_values'][] = $info['value'];
-    $vars['widget_value_id_map'][$info['value']] = $id;
+  //   $value = $element[$info['value']];
+  //   unset($value['#title']);
+  //   $widget->widget = drupal_render($value);
+  //   $vars['widget_parts'][] = $info['value'];
+  //   $vars['widget_values'][] = $info['value'];
+  //   $vars['widget_value_id_map'][$info['value']] = $id;
 
-    if (!empty($info['description'])) {
-      $widget->description = check_plain($info['description']);
-    }
+  //   if (!empty($info['description'])) {
+  //     $widget->description = check_plain($info['description']);
+  //   }
 
-    $vars['widgets'][$id] = $widget;
-  }
+  //   $vars['widgets'][$id] = $widget;
+  // }
 }
 
 function full_rubik_preprocess_html(&$vars) {
