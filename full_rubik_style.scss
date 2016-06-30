@@ -549,6 +549,7 @@ div#toolbar div.toolbar-shortcuts ul {
 .content-main  {
   .featured-display {
     overflow: auto;
+    border-top: 1px solid #ddd;
     
     .views-field-body { 
       font-size: 14px;
