@@ -1528,6 +1528,10 @@ table.field-multiple-table tr {
   width: 100%;
   align-items: center;
   flex-flow: row wrap; }
+  @media (min-width: 480px) {
+    .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
+    .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item {
+      display: flex; } }
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name label,
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag label {
   flex: 0 0 190px; }
@@ -1550,10 +1554,14 @@ table.field-multiple-table tr {
     margin-right: 0; }
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item {
-  display: flex;
+  display: block;
   width: 100%;
   align-items: center;
   flex-flow: row wrap; }
+  @media (min-width: 480px) {
+    .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
+    .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item {
+      display: flex; } }
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name label,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag label {
   flex: 0 0 224px; }

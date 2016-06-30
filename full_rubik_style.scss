@@ -2092,6 +2092,10 @@ table.field-multiple-table {
         width: 100%;
         align-items: center;
         flex-flow: row wrap;
+
+        @include breakpoint(480px){
+          display: flex;
+        }
       }
       label {
         flex: 0 0 190px;
@@ -2117,10 +2121,14 @@ table.field-multiple-table {
     .field-name-field-company-name,
     .field-name-field-occupation-or-title-tag {
       .form-item {
-        display: flex;
+        display: block;
         width: 100%;
         align-items: center;
         flex-flow: row wrap;
+
+        @include breakpoint(480px){
+          display: flex;
+        }
       }
       label {
         flex: 0 0 224px;
