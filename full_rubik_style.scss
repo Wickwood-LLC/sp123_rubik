@@ -1854,6 +1854,14 @@ ul.field-collection-view-links {
 .pane-profile2-field-source {
   float: left;
   margin-right: 10px;
+
+  input {
+    width: 100%;
+
+    @include breakpoint(480px) {
+      width: auto;
+    }
+  }
 }
 .pane-profile2-field-source-date {
   display: inline-block;
