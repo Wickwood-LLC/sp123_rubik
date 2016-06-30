@@ -1346,10 +1346,10 @@ ul.field-collection-view-links {
 .pane-profile2-field-source {
   float: left;
   margin-right: 10px; }
-  .pane-profile2-field-source input {
+  .pane-profile2-field-source select {
     width: 100%; }
     @media (min-width: 480px) {
-      .pane-profile2-field-source input {
+      .pane-profile2-field-source select {
         width: auto; } }
 
 .pane-profile2-field-source-date {

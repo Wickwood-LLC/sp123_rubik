@@ -1855,7 +1855,7 @@ ul.field-collection-view-links {
   float: left;
   margin-right: 10px;
 
-  input {
+  select {
     width: 100%;
 
     @include breakpoint(480px) {
