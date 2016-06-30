@@ -1771,10 +1771,14 @@ ul.field-collection-view-links {
 
       .field-name-field-drivers-license-number {
         .form-item {
-          display: flex;
+          display: block;
           width: 100%;
           align-items: center;
           flex-flow: row wrap;
+
+          @include breakpoint(480px) {
+            display: flex;
+          }
         }
         label {
           flex: 0 0 220px;
@@ -1794,10 +1798,14 @@ ul.field-collection-view-links {
     .field-name-field-company-name,
     .field-name-field-occupation-or-title-tag {
       .form-item {
-        display: flex;
+        display: block;
         width: 100%;
         align-items: center;
         flex-flow: row wrap;
+
+        @include breakpoint(480px) {
+          display: flex;
+        }
       }
       label {
         flex: 0 0 140px;
