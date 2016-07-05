@@ -2,7 +2,7 @@
 /**
  * Override of theme('breadcrumb').
  */
-function full_rubik_breadcrumb($vars) {
+function sp123_rubik_breadcrumb($vars) {
   $output = '';
 
   // // Add current page onto the end.
@@ -90,11 +90,11 @@ function full_rubik_breadcrumb($vars) {
 /**
  * Override of date_all_day_label.
  */
-function full_rubik_date_all_day_label() {
+function sp123_rubik_date_all_day_label() {
   return '';
 }
 
-function full_rubik_link_field_process($element, $form_state, $complete_form) {
+function sp123_rubik_link_field_process($element, $form_state, $complete_form) {
   variable_set('title_description', $element['title']['#description']);
   $instance = field_widget_instance($element, $form_state);
   $settings = $instance['settings'];
@@ -175,7 +175,7 @@ function full_rubik_link_field_process($element, $form_state, $complete_form) {
 /**
  * Override of theme_field_multiple_value_form.
  */
-function full_rubik_field_multiple_value_form($variables) {
+function sp123_rubik_field_multiple_value_form($variables) {
   $element = $variables['element'];
   $output = '';
 
@@ -239,7 +239,7 @@ function full_rubik_field_multiple_value_form($variables) {
 }
 
 //Disable sticky headers
-function full_rubik_js_alter(&$js) {
+function sp123_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
 }
 
@@ -252,7 +252,7 @@ function full_rubik_js_alter(&$js) {
  * @return string
  *   HTML to render the form element.
  */
-function full_rubik_secondary_exposed_elements($vars) {
+function sp123_rubik_secondary_exposed_elements($vars) {
   $element = $vars['element'];
 
   $output = '<div class="bef-secondary-options">';
@@ -293,7 +293,7 @@ function full_rubik_secondary_exposed_elements($vars) {
  *
  * @see template_preprocess_views_exposed_form()
  */
-function full_rubik_preprocess_secondary_exposed_elements(&$vars) {
+function sp123_rubik_preprocess_secondary_exposed_elements(&$vars) {
   $element = $vars['element'];
 
   // Put all single checkboxes together in the last spot.
@@ -340,7 +340,7 @@ function full_rubik_preprocess_secondary_exposed_elements(&$vars) {
   }
 }
 
-function full_rubik_preprocess_html(&$vars) {
+function sp123_rubik_preprocess_html(&$vars) {
   $viewport = array(
    '#tag' => 'meta',
    '#attributes' => array(
