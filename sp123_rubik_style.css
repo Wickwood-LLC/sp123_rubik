@@ -485,6 +485,12 @@ ul.rules-operations-add a {
         -webkit-flex: 4;
             -ms-flex: 4;
                 flex: 4; } }
+    @media (min-width: 768px) {
+      #mini-panel-header .pane-page-site-name {
+        font-size: 2.2em; } }
+    @media (min-width: 1024px) {
+      #mini-panel-header .pane-page-site-name {
+        font-size: 2.5em; } }
   #mini-panel-header .pane-page-slogan {
     font-size: 1em;
     line-height: 1.5;
@@ -500,6 +506,9 @@ ul.rules-operations-add a {
         -webkit-flex: 5;
             -ms-flex: 5;
                 flex: 5; } }
+    @media (min-width: 1024px) {
+      #mini-panel-header .pane-page-slogan {
+        font-size: 1.3em; } }
 
 .ui-dialog .ui-dialog-titlebar.ui-widget-header,
 .modal-header,
