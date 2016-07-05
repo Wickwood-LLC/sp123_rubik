@@ -564,23 +564,23 @@ ul.rules-operations-add a {
   margin-left: 0;
 }
 
-#block-panels-mini-header {
+#mini-panel-header {
   display: flex;
   width: 100%;
   margin-bottom: 0px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 
-  .block-content {
-    width: 100%;
+  .pane-page-logo {
+    flex: 0;
   }
 
   .pane-page-site-name {
-    font-size: 1.5em ;
+    font-size: 2.1em ;
     line-height: 1.5;
     text-align: center;
-
-    @include breakpoint(295px) {
-      font-size: 1.8em;
-    }
+    flex: 1 0;
 
     @include breakpoint(400px) {
       font-size: 2em;
@@ -590,33 +590,10 @@ ul.rules-operations-add a {
     font-size: 1em;
     line-height: 1.5;
     text-align: center;
-
-    @include breakpoint(295px) {
-      font-size: 1.2em;
-    }
+    flex: 1 1 100%;
 
     @include breakpoint(400px) {
       font-size: 1.5em;
-    }
-  }
-
-  .middle-column {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  .right-column,
-  .left-column {
-    flex: 0 auto;
-  }
-
-  .menu-name-user-menu {
-    ul li {
-      margin-left: 0;
-      white-space: nowrap;
-      text-transform: capitalize;
-      border-bottom: none;
     }
   }
 }
