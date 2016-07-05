@@ -1,10 +1,10 @@
-name = BWMA Rubik
-description = Rubik subtheme for use in BWMA.
+name = Full Rubik
+description = Rubik subtheme for use in the admin pages.
 base theme = rubik
 core = 7.x
 
-stylesheets[screen][] = bwma_rubik_style.css
-scripts[] = bwma_rubik.js
+stylesheets[screen][] = full_rubik_style.css
+scripts[] = full_rubik.js
 
 regions[header] = Header
 regions[navbar] = Navigation
