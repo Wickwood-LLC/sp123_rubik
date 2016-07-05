@@ -478,9 +478,13 @@ ul.rules-operations-add a {
     -webkit-flex: 1 0;
         -ms-flex: 1 0;
             flex: 1 0; }
-    @media (min-width: 400px) {
+    @media (min-width: 568px) {
       #mini-panel-header .pane-page-site-name {
-        font-size: 2em; } }
+        font-size: 2em;
+        -webkit-box-flex: 4;
+        -webkit-flex: 4;
+            -ms-flex: 4;
+                flex: 4; } }
   #mini-panel-header .pane-page-slogan {
     font-size: 1em;
     line-height: 1.5;
@@ -489,9 +493,13 @@ ul.rules-operations-add a {
     -webkit-flex: 1 1 100%;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%; }
-    @media (min-width: 400px) {
+    @media (min-width: 568px) {
       #mini-panel-header .pane-page-slogan {
-        font-size: 1.5em; } }
+        font-size: 1em;
+        -webkit-box-flex: 5;
+        -webkit-flex: 5;
+            -ms-flex: 5;
+                flex: 5; } }
 
 .ui-dialog .ui-dialog-titlebar.ui-widget-header,
 .modal-header,

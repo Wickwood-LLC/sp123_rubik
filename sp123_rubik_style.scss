@@ -582,8 +582,9 @@ ul.rules-operations-add a {
     text-align: center;
     flex: 1 0;
 
-    @include breakpoint(400px) {
+    @include breakpoint(568px) {
       font-size: 2em;
+      flex: 4;
     }
   }
   .pane-page-slogan {
@@ -592,8 +593,9 @@ ul.rules-operations-add a {
     text-align: center;
     flex: 1 1 100%;
 
-    @include breakpoint(400px) {
-      font-size: 1.5em;
+    @include breakpoint(568px) {
+      font-size: 1em;
+      flex: 5;
     }
   }
 }
