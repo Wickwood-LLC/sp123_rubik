@@ -848,6 +848,12 @@ ul.rules-operations-add a {
 }
 
 #footer {
+  #mini-panel-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
   .tb-megamenu-main-menu {
     button .fa-reorder:before {
       content: "\f0c9\ Menu";
@@ -864,7 +870,7 @@ ul.rules-operations-add a {
       &:first-child {
         list-style: none;
       }
-      
+
       a {
         border: 0px;
         color: #008eb1;

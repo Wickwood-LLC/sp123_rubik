@@ -678,6 +678,18 @@ ul.rules-operations-add a {
 .tb-megamenu .dropdown-menu .active > a:hover {
   background-color: #f8f8f8; }
 
+#footer #mini-panel-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 #footer .tb-megamenu-main-menu button .fa-reorder:before {
   content: "\f0c9\ Menu";
   color: #333;
