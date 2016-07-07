@@ -678,7 +678,7 @@ ul.rules-operations-add a {
 .tb-megamenu .dropdown-menu .active > a:hover {
   background-color: #f8f8f8; }
 
-#footer #mini-panel-footer {
+#block-panels-mini-footer #mini-panel-footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -690,17 +690,17 @@ ul.rules-operations-add a {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-#footer .tb-megamenu-main-menu button .fa-reorder:before {
+#block-panels-mini-footer .tb-megamenu-main-menu button .fa-reorder:before {
   content: "\f0c9\ Menu";
   color: #333;
   font-size: 14px; }
-#footer .tb-megamenu-menu-footer-links {
+#block-panels-mini-footer .tb-megamenu-menu-footer-links {
   background-color: transparent; }
-  #footer .tb-megamenu-menu-footer-links .nav li {
+  #block-panels-mini-footer .tb-megamenu-menu-footer-links .nav li {
     margin-left: 26px; }
-    #footer .tb-megamenu-menu-footer-links .nav li:first-child {
+    #block-panels-mini-footer .tb-megamenu-menu-footer-links .nav li:first-child {
       list-style: none; }
-    #footer .tb-megamenu-menu-footer-links .nav li a {
+    #block-panels-mini-footer .tb-megamenu-menu-footer-links .nav li a {
       border: 0px;
       color: #008eb1;
       padding: 0; }
