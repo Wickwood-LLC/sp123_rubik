@@ -600,11 +600,10 @@ ul.rules-operations-add a {
     flex: 1 1 100%;
 
     @include breakpoint(568px) {
-      font-size: 1em;
       flex: 5;
     }
     @include breakpoint(1024px) {
-      font-size: 1.3em;
+      font-size: 1.2em;
     }
   }
 }
@@ -842,12 +841,18 @@ ul.rules-operations-add a {
   }
 }
 
-
-
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
 .tb-megamenu .dropdown-menu .active > a,
 .tb-megamenu .dropdown-menu .active > a:hover {
   background-color: #f8f8f8;
+}
+
+#footer .tb-megamenu-main-menu {
+  button .fa-reorder:before {
+    content: "\f0c9\ Menu";
+    color: #333;
+    font-size: 14px;
+  }
 }
 
 .ui-dialog button.ui-dialog-titlebar-close,

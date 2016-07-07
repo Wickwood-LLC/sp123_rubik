@@ -501,14 +501,13 @@ ul.rules-operations-add a {
             flex: 1 1 100%; }
     @media (min-width: 568px) {
       #mini-panel-header .pane-page-slogan {
-        font-size: 1em;
         -webkit-box-flex: 5;
         -webkit-flex: 5;
             -ms-flex: 5;
                 flex: 5; } }
     @media (min-width: 1024px) {
       #mini-panel-header .pane-page-slogan {
-        font-size: 1.3em; } }
+        font-size: 1.2em; } }
 
 .ui-dialog .ui-dialog-titlebar.ui-widget-header,
 .modal-header,
@@ -678,6 +677,11 @@ ul.rules-operations-add a {
 .tb-megamenu .dropdown-menu .active > a,
 .tb-megamenu .dropdown-menu .active > a:hover {
   background-color: #f8f8f8; }
+
+#footer .tb-megamenu-main-menu button .fa-reorder:before {
+  content: "\f0c9\ Menu";
+  color: #333;
+  font-size: 14px; }
 
 .ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
