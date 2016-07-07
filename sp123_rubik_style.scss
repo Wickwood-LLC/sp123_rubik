@@ -847,11 +847,30 @@ ul.rules-operations-add a {
   background-color: #f8f8f8;
 }
 
-#footer .tb-megamenu-main-menu {
-  button .fa-reorder:before {
-    content: "\f0c9\ Menu";
-    color: #333;
-    font-size: 14px;
+#footer {
+  .tb-megamenu-main-menu {
+    button .fa-reorder:before {
+      content: "\f0c9\ Menu";
+      color: #333;
+      font-size: 14px;
+    }
+  }
+  .tb-megamenu-menu-footer-links {
+    background-color: transparent;
+
+    .nav li {
+      margin-left: 26px;
+
+      &:first-child {
+        list-style: none;
+      }
+      
+      a {
+        border: 0px;
+        color: #008eb1;
+        padding: 0;
+      }
+    }
   }
 }
 

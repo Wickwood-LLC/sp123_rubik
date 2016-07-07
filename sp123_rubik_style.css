@@ -682,6 +682,16 @@ ul.rules-operations-add a {
   content: "\f0c9\ Menu";
   color: #333;
   font-size: 14px; }
+#footer .tb-megamenu-menu-footer-links {
+  background-color: transparent; }
+  #footer .tb-megamenu-menu-footer-links .nav li {
+    margin-left: 26px; }
+    #footer .tb-megamenu-menu-footer-links .nav li:first-child {
+      list-style: none; }
+    #footer .tb-megamenu-menu-footer-links .nav li a {
+      border: 0px;
+      color: #008eb1;
+      padding: 0; }
 
 .ui-dialog button.ui-dialog-titlebar-close,
 .modal-header .close,
