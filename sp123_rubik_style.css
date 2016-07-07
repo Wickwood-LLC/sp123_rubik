@@ -703,6 +703,7 @@ ul.rules-operations-add a {
     #block-panels-mini-footer .tb-megamenu-menu-footer-links .nav li a {
       border: 0px;
       color: #008eb1;
+      font-weight: normal;
       padding: 0; }
 
 .ui-dialog button.ui-dialog-titlebar-close,
