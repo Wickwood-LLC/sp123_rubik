@@ -850,7 +850,7 @@ ul.rules-operations-add a {
 #block-panels-mini-footer {
   #mini-panel-footer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
   }
 
