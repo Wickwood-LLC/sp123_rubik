@@ -2171,6 +2171,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/widgetcommonBox.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 286,
+		"inputAbbreviatedPath": "\/images\/widgetcommonBox.png",
+		"outputAbbreviatedPath": "\/images\/widgetcommonBox.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/widgetcommonQuotebox.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 597,
+		"inputAbbreviatedPath": "\/images\/widgetcommonQuotebox.png",
+		"outputAbbreviatedPath": "\/images\/widgetcommonQuotebox.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/maintenance-page.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
