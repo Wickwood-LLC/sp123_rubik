@@ -1,6 +1,6 @@
 name = SP123 Rubik
 description = Rubik subtheme for use in Self Publishing 123 website.
-base theme = rubik
+base theme = full_rubik
 core = 7.x
 
 stylesheets[screen][] = sp123_rubik_style.css
