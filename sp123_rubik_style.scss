@@ -68,7 +68,7 @@
     flex: 4;
   }
 
-  .tb-megamenu-menu-footer-links {
+  .pane-tb-megamenu-menu-footer-links {
     background-color: transparent;
     flex: 1;
 
@@ -93,6 +93,7 @@
       bottom: 60px;
       margin-left: -50%;
       padding: 10px;
+      position: absolute;
       right: -50%;
       top: 0;
       width: auto;
