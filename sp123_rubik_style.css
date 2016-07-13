@@ -90,11 +90,12 @@
     -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
-#block-panels-mini-footer .tb-megamenu-main-menu button .fa-reorder:before {
-  content: "\f0c9\ Menu";
-  color: #333;
-  font-size: 14px;
+#block-panels-mini-footer .tb-megamenu-main-menu button {
   margin-bottom: 0px; }
+  #block-panels-mini-footer .tb-megamenu-main-menu button .fa-reorder:before {
+    content: "\f0c9\ Menu";
+    color: #333;
+    font-size: 14px; }
 #block-panels-mini-footer .pane-custom.pane-3 {
   text-align: center;
   -webkit-box-flex: 4;

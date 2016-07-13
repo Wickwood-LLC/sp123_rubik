@@ -62,11 +62,14 @@
   }
 
   .tb-megamenu-main-menu {
-    button .fa-reorder:before {
-      content: "\f0c9\ Menu";
-      color: #333;
-      font-size: 14px;
+    button {
       margin-bottom: 0px;
+
+      .fa-reorder:before {
+        content: "\f0c9\ Menu";
+        color: #333;
+        font-size: 14px;
+      }
     }
   }
 
