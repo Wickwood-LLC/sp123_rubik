@@ -53,6 +53,12 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+
+    & > .pane-tb-megamenu-main-menu {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 
   .tb-megamenu-main-menu {
@@ -60,6 +66,7 @@
       content: "\f0c9\ Menu";
       color: #333;
       font-size: 14px;
+      margin-bottom: 0px;
     }
   }
 
@@ -71,6 +78,8 @@
   .pane-tb-megamenu-menu-footer-links {
     background-color: transparent;
     flex: 1;
+    justify-content: center;
+    display: flex;
 
     button { margin-bottom: 0; }
 
