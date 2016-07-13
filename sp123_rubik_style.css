@@ -102,6 +102,12 @@
   -webkit-flex: 4;
       -ms-flex: 4;
           flex: 4; }
+  @media (min-width: 768px) {
+    #block-panels-mini-footer .pane-custom.pane-3 {
+      -webkit-box-flex: 1;
+      -webkit-flex: auto;
+          -ms-flex: auto;
+              flex: auto; } }
 #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -115,18 +121,26 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links {
-    background-color: transparent; }
-    #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links button {
-      margin-bottom: 0; }
-    #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links .nav li {
-      margin-left: 26px; }
-      #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links .nav li:first-child {
-        list-style: none; }
-      #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links .nav li a {
-        border: 0px;
-        color: #008eb1;
-        font-weight: normal;
-        padding: 0; }
+  @media (min-width: 768px) {
+    #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links {
+      -webkit-box-flex: 1;
+      -webkit-flex: auto;
+          -ms-flex: auto;
+              flex: auto; } }
+  @media (min-width: 768px) {
+    #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links {
+      background-color: transparent;
+      background-image: none; } }
+  #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links button {
+    margin-bottom: 0; }
+  #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links .nav li {
+    margin-left: 26px; }
+    #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links .nav li:first-child {
+      list-style: none; }
+    #block-panels-mini-footer .pane-tb-megamenu-menu-footer-links .tb-megamenu-menu-footer-links .nav li a {
+      border: 0px;
+      color: #008eb1;
+      font-weight: normal;
+      padding: 0; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
