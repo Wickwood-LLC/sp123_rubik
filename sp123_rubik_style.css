@@ -1,4 +1,12 @@
 /***********************/
+#header,
+#page-title .limiter,
+#page,
+#footer,
+.region-footer {
+  max-width: 1360px;
+  margin: 0 auto; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
