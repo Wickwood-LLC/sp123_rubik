@@ -13,6 +13,9 @@ a, .page-title {
 .pager li.pager-current, .primary-tabs li.active {
   background-color: #1bb303; }
 
+.pager li.pager-current span, .primary-tabs li.active a {
+  text-shadow: #33aa58 0 1px 0; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
