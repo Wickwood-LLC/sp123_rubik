@@ -1,3 +1,4 @@
+/****** VARIABLES ******/
 /***********************/
 #header,
 #page-title .limiter,
@@ -14,6 +15,10 @@ a, .page-title {
   background-color: #1bb303; }
 
 .pager li.pager-current span, .primary-tabs li.active a {
+  text-shadow: #33aa58 0 1px 0; }
+
+.action-links a {
+  background-color: #1bb303;
   text-shadow: #33aa58 0 1px 0; }
 
 #mini-panel-header {
@@ -77,6 +82,11 @@ a, .page-title {
     @media (min-width: 1024px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 1.2em; } }
+
+#block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
+  background-color: #1bb303 !important;
+  color: #fff;
+  text-shadow: #33aa58 0px 1px 0px; }
 
 #block-panels-mini-footer #mini-panel-footer {
   display: -webkit-box;

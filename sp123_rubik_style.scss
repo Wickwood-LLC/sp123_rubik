@@ -1,6 +1,10 @@
 @import "bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
 
+/****** VARIABLES ******/
+$primary_color: #1bb303;
+$primary_shadow: #33aa58;
+
 /***********************/
 
 #header,
@@ -13,16 +17,20 @@
 }
 
 a, .page-title {
-  color: #1bb303;
+  color: $primary_color;
 }
 
 .pager li.pager-current, .primary-tabs li.active {
-  background-color: #1bb303;
+  background-color: $primary_color;
 }
 .pager li.pager-current span, .primary-tabs li.active a {
-  text-shadow: #33aa58 0 1px 0;
+  text-shadow: $primary_shadow 0 1px 0;
 }
 
+.action-links a {
+  background-color: $primary_color;
+  text-shadow: $primary_shadow 0 1px 0;
+}
 
 #mini-panel-header {
   display: flex;
@@ -64,6 +72,19 @@ a, .page-title {
     }
     @include breakpoint(1024px) {
       font-size: 1.2em;
+    }
+  }
+}
+
+#block-tb-megamenu-main-menu {
+  .tb-megamenu-main-menu{
+    .tb-megamenu-nav>li {
+      &.active,
+      &.active>a {
+        background-color: $primary_color !important;
+        color: #fff;
+        text-shadow: $primary_shadow 0px 1px 0px;
+      }
     }
   }
 }
