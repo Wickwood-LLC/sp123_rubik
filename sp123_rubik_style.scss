@@ -95,79 +95,23 @@ a, .page-title {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-
-    & > .pane-tb-megamenu-main-menu {
-      flex: 1;
-      display: flex;
-      justify-content: flex-end;
-    }
   }
 
-  .tb-megamenu-main-menu {
-    button {
-      margin-bottom: 0px;
+  .pane-custom.pane-2 {
+    flex: 0 auto;
+  }
 
-      .fa-reorder:before {
-        content: "\f0c9\ Menu";
-        color: #333;
-        font-size: 14px;
+  .pane-menu-menu-footer-links .pane-content {
+    flex: 0 auto;
+    
+    .menu li {
+      float: left;
+      margin-left: 0;
+
+      &:first-child {
+        margin-left: 2em;
       }
     }
   }
 
-  .pane-custom.pane-3 {
-    text-align: center;
-    flex: 4;
-    @include breakpoint(768px) {
-      flex: auto;
-    }
-  }
-
-  .pane-tb-megamenu-menu-footer-links {
-    flex: 1;
-    justify-content: center;
-    display: flex;
-    @include breakpoint(768px) {
-      flex: auto;
-    }
-
-    .tb-megamenu-menu-footer-links {
-      @include breakpoint(768px) {
-        background-color: transparent;
-        background-image: none;
-      }
-
-
-      button { margin-bottom: 0; }
-
-      .nav li {
-        margin-left: 26px;
-
-        &:first-child {
-          list-style: none;
-        }
-
-        a {
-          border: 0px;
-          color: #1bb303;
-          font-weight: normal;
-          padding: 0;
-        }
-      }
-
-      // .nav-collapse {
-      //   bottom: 60px;
-      //   margin-left: -50%;
-      //   padding: 10px;
-      //   position: absolute;
-      //   right: -50%;
-      //   top: 0;
-      //   width: auto;
-
-      //   .nav > li {
-      //     margin-left: 10px;
-      //   }
-      // }
-    }
-  }
 }
