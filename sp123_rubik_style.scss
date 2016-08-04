@@ -91,27 +91,52 @@ a, .page-title {
 
 #block-panels-mini-footer {
   #mini-panel-footer {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    
+    @include breakpoint(1024px) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .pane-custom.pane-2 {
-    flex: 0 auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 1em;
+    
+    @include breakpoint(1024px) {
+      flex: 0 auto;
+    }
   }
 
   .pane-menu-menu-footer-links .pane-content {
-    flex: 0 auto;
-    
-    .menu li {
-      float: left;
-      margin-left: 0;
+    float: right;
+    width: 50%;
 
-      &:first-child {
-        margin-left: 2em;
+    .menu li {
+      float: none;
+      margin-left: 0;
+    }
+    
+    @include breakpoint(1024px) {
+      flex: 0 auto;
+
+      .menu li {
+        float: left;
+
+        &:first-child {
+          margin-left: 2em;
+        }
       }
     }
   }
 
+  .pane-custom.pane-3 {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
 }
