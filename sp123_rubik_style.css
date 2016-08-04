@@ -133,7 +133,9 @@ a, .page-title {
       -webkit-box-flex: 0;
       -webkit-flex: 0 auto;
           -ms-flex: 0 auto;
-              flex: 0 auto; } }
+              flex: 0 auto;
+      width: auto;
+      margin-bottom: 0px; } }
 #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
   float: right;
   width: 50%; }
@@ -180,7 +182,8 @@ a, .page-title {
       -webkit-box-flex: 0;
       -webkit-flex: 0 auto;
           -ms-flex: 0 auto;
-              flex: 0 auto; }
+              flex: 0 auto;
+      width: auto; }
       #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content .menu li {
         float: left; }
         #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content .menu li:first-child {

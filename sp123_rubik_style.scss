@@ -126,6 +126,8 @@ a, .page-title {
     
     @include breakpoint(1025px) {
       flex: 0 auto;
+      width: auto;
+      margin-bottom: 0px;
     }
   }
 
@@ -167,6 +169,7 @@ a, .page-title {
     
     @include breakpoint(1025px) {
       flex: 0 auto;
+      width: auto;
 
       .menu li {
         float: left;
