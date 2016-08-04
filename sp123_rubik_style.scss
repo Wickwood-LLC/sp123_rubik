@@ -101,7 +101,7 @@ a, .page-title {
       display: block;
     }
     
-    @include breakpoint(1024px (orientation portrait, orientation landscape)) {
+    @include breakpoint(1024px (orientation portrait) (orientation landscape)) {
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
@@ -124,7 +124,7 @@ a, .page-title {
       width: 50%;
     }
     
-    @include breakpoint(1024px (orientation portrait, orientation landscape)) {
+    @include breakpoint(1024px (orientation portrait) (orientation landscape)) {
       flex: 0 auto;
     }
   }
@@ -165,7 +165,7 @@ a, .page-title {
       }
     }
     
-    @include breakpoint(1024px (orientation portrait, orientation landscape)) {
+    @include breakpoint(1024px (orientation portrait) (orientation landscape)) {
       flex: 0 auto;
 
       .menu li {
