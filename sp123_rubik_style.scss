@@ -93,7 +93,7 @@ a, .page-title {
   #mini-panel-footer {
     display: block;
 
-    @include breakpoint(0px (orientation landscape)) {
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
       display: flex;
     }
 
@@ -101,7 +101,7 @@ a, .page-title {
       display: block;
     }
     
-    @include breakpoint(1024px (orientation portrait) (orientation landscape)) {
+    @include breakpoint(1024px) {
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
@@ -115,7 +115,7 @@ a, .page-title {
     text-align: center;
     margin-bottom: 1em;
 
-    @include breakpoint(0px (orientation landscape)) {
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
       width: auto;
       padding-top: 5px;
     }
@@ -124,7 +124,7 @@ a, .page-title {
       width: 50%;
     }
     
-    @include breakpoint(1024px (orientation portrait) (orientation landscape)) {
+    @include breakpoint(1024px) {
       flex: 0 auto;
     }
   }
@@ -143,7 +143,7 @@ a, .page-title {
       margin-left: 0;
     }
 
-    @include breakpoint(0px (orientation landscape)) {
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
       width: auto;
 
       ul.menu {
@@ -165,7 +165,7 @@ a, .page-title {
       }
     }
     
-    @include breakpoint(1024px (orientation portrait) (orientation landscape)) {
+    @include breakpoint(1024px) {
       flex: 0 auto;
 
       .menu li {
@@ -183,7 +183,7 @@ a, .page-title {
     width: 50%;
     text-align: center;
 
-    @include breakpoint(0px (orientation landscape)) {
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
       width: auto;
       padding-top: 5px;
     }
