@@ -96,6 +96,10 @@ a, .page-title {
     @include breakpoint(0px and (orientation landscape)) {
       display: flex;
     }
+
+    @include breakpoint(768px and (orientation portrait)) {
+      display: block;
+    }
     
     @include breakpoint(1024px) {
       display: flex;
@@ -114,6 +118,10 @@ a, .page-title {
     @include breakpoint(0px and (orientation landscape)) {
       width: auto;
       padding-top: 5px;
+    }
+
+    @include breakpoint(768px and (orientation portrait)) {
+      width: 50%;
     }
     
     @include breakpoint(1024px) {
@@ -144,6 +152,18 @@ a, .page-title {
         justify-content: center;
       }
     }
+
+    @include breakpoint(768px and (orientation portrait)) {
+      width: 50%;
+      float: left;
+      clear: left;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
     
     @include breakpoint(1024px) {
       flex: 0 auto;
@@ -166,6 +186,12 @@ a, .page-title {
     @include breakpoint(0px and (orientation landscape)) {
       width: auto;
       padding-top: 5px;
+    }
+
+    @include breakpoint(768px and (orientation portrait)) {
+      width: 50%;
+      position: absolute;
+      right: 0;
     }
   }
 }
