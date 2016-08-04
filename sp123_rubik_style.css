@@ -121,6 +121,8 @@ a, .page-title {
 #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
   float: right;
   width: 50%; }
+  #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content ul.menu {
+    text-align: center; }
   #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content .menu li {
     float: none;
     margin-left: 0; }
