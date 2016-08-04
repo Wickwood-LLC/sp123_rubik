@@ -90,13 +90,13 @@ a, .page-title {
 
 #block-panels-mini-footer #mini-panel-footer {
   display: block; }
-  @media (orientation: landscape) {
+  @media (min-width: 0px) and (orientation: landscape) {
     #block-panels-mini-footer #mini-panel-footer {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; } }
-  @media (orientation: portrait) {
+  @media (min-width: 768px) and (orientation: portrait) {
     #block-panels-mini-footer #mini-panel-footer {
       display: block; } }
   @media (min-width: 1024px) {
@@ -121,11 +121,11 @@ a, .page-title {
   float: left;
   text-align: center;
   margin-bottom: 1em; }
-  @media (orientation: landscape) {
+  @media (min-width: 0px) and (orientation: landscape) {
     #block-panels-mini-footer .pane-custom.pane-2 {
       width: auto;
       padding-top: 5px; } }
-  @media (orientation: portrait) {
+  @media (min-width: 768px) and (orientation: portrait) {
     #block-panels-mini-footer .pane-custom.pane-2 {
       width: 50%; } }
   @media (min-width: 1024px) {
@@ -143,7 +143,7 @@ a, .page-title {
     border-bottom: 0px;
     float: none;
     margin-left: 0; }
-  @media (orientation: landscape) {
+  @media (min-width: 0px) and (orientation: landscape) {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
       width: auto; }
       #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content ul.menu {
@@ -158,7 +158,7 @@ a, .page-title {
         -webkit-justify-content: center;
             -ms-flex-pack: center;
                 justify-content: center; } }
-  @media (orientation: portrait) {
+  @media (min-width: 768px) and (orientation: portrait) {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
       width: 50%;
       float: left;
@@ -189,11 +189,11 @@ a, .page-title {
   float: left;
   width: 50%;
   text-align: center; }
-  @media (orientation: landscape) {
+  @media (min-width: 0px) and (orientation: landscape) {
     #block-panels-mini-footer .pane-custom.pane-3 {
       width: auto;
       padding-top: 5px; } }
-  @media (orientation: portrait) {
+  @media (min-width: 768px) and (orientation: portrait) {
     #block-panels-mini-footer .pane-custom.pane-3 {
       width: 50%;
       position: absolute;
