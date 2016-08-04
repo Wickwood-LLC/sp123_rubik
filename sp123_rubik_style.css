@@ -124,6 +124,7 @@ a, .page-title {
   #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content ul.menu {
     text-align: center; }
   #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content .menu li {
+    border-bottom: 0px;
     float: none;
     margin-left: 0; }
   @media (min-width: 1024px) {
