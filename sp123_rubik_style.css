@@ -118,6 +118,10 @@ a, .page-title {
   float: left;
   text-align: center;
   margin-bottom: 1em; }
+  @media (orientation: landscape) {
+    #block-panels-mini-footer .pane-custom.pane-2 {
+      width: auto;
+      padding-top: 5px; } }
   @media (min-width: 1024px) {
     #block-panels-mini-footer .pane-custom.pane-2 {
       -webkit-box-flex: 0;
@@ -133,6 +137,21 @@ a, .page-title {
     border-bottom: 0px;
     float: none;
     margin-left: 0; }
+  @media (orientation: landscape) {
+    #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
+      width: auto; }
+      #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content ul.menu {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
   @media (min-width: 1024px) {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
       -webkit-box-flex: 0;
@@ -147,5 +166,9 @@ a, .page-title {
   float: left;
   width: 50%;
   text-align: center; }
+  @media (orientation: landscape) {
+    #block-panels-mini-footer .pane-custom.pane-3 {
+      width: auto;
+      padding-top: 5px; } }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */

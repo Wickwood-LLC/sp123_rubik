@@ -110,6 +110,11 @@ a, .page-title {
     float: left;
     text-align: center;
     margin-bottom: 1em;
+
+    @include breakpoint(0px and (orientation landscape)) {
+      width: auto;
+      padding-top: 5px;
+    }
     
     @include breakpoint(1024px) {
       flex: 0 auto;
@@ -129,6 +134,16 @@ a, .page-title {
       float: none;
       margin-left: 0;
     }
+
+    @include breakpoint(0px and (orientation landscape)) {
+      width: auto;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
     
     @include breakpoint(1024px) {
       flex: 0 auto;
@@ -147,5 +162,10 @@ a, .page-title {
     float: left;
     width: 50%;
     text-align: center;
+
+    @include breakpoint(0px and (orientation landscape)) {
+      width: auto;
+      padding-top: 5px;
+    }
   }
 }
