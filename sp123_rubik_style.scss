@@ -92,6 +92,10 @@ a, .page-title {
 #block-panels-mini-footer {
   #mini-panel-footer {
     display: block;
+
+    @include breakpoint(0px and (orientation landscape)) {
+      display: flex;
+    }
     
     @include breakpoint(1024px) {
       display: flex;
