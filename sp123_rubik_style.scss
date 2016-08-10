@@ -204,7 +204,8 @@ div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c;
 
-  &.node-ad-image-portrait {
+  &.node-ad-image-portrait,
+  &.node-ad-amazon-book {
     .col-1 {
       float: left;
       margin-right: 1em;
