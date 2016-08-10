@@ -220,7 +220,7 @@ a, .page-title {
 .pane-node-field-call-to-action {
   display: table;
   margin: 0 auto;
-  padding: 6px 12px;
+  padding: 6px 12px !important;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
@@ -236,6 +236,10 @@ a, .page-title {
   border-radius: 4px;
   background-color: #5cb85c;
   border-color: #4cae4c;
+
+  .field-items {
+    margin-left: 0;
+  }
 
   a {
     color: #fff;
