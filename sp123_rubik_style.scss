@@ -199,3 +199,49 @@ a, .page-title {
     }
   }
 }
+
+.node-advertisement {
+  .pane-node-title {
+    text-align: center;
+  }
+  .pane-node-field-ad-sub-headline {
+    text-align: center;
+  }
+
+  .file-image img {
+    margin: auto;
+  }
+  .file-video iframe {
+    display: table;
+    margin: auto;
+  }
+}
+
+.pane-node-field-call-to-action {
+  display: table;
+  margin: 0 auto;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+
+  &:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+    text-decoration: none;
+  }
+}
