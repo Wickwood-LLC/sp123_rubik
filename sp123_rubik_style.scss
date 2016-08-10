@@ -215,6 +215,10 @@ a, .page-title {
     display: table;
     margin: auto;
   }
+
+  .field-items {
+    margin-left: 0;
+  }
 }
 
 .pane-node-field-call-to-action {
@@ -235,10 +239,6 @@ a, .page-title {
   border-radius: 4px;
   background-color: #5cb85c;
   border-color: #4cae4c;
-
-  .field-items {
-    margin-left: 0;
-  }
 
   a {
     color: #fff;

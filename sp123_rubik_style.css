@@ -211,6 +211,8 @@ a, .page-title {
 .node-advertisement .file-video iframe {
   display: table;
   margin: auto; }
+.node-advertisement .field-items {
+  margin-left: 0; }
 
 .pane-node-field-call-to-action {
   display: table;
@@ -234,8 +236,6 @@ a, .page-title {
   border-radius: 4px;
   background-color: #5cb85c;
   border-color: #4cae4c; }
-  .pane-node-field-call-to-action .field-items {
-    margin-left: 0; }
   .pane-node-field-call-to-action a {
     color: #fff; }
   .pane-node-field-call-to-action:hover {
