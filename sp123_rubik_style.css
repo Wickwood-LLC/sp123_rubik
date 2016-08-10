@@ -214,9 +214,8 @@ a, .page-title {
 
 .pane-node-field-call-to-action {
   display: table;
-  margin: 0 auto;
+  margin: 1em auto;
   padding: 6px 12px !important;
-  margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.42857143;
