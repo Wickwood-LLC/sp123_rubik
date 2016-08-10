@@ -221,6 +221,9 @@ div.panel-pane div.node.node-advertisement {
   div.panel-pane div.node.node-advertisement .field-items {
     margin-left: 0; }
 
+.pane-node-field-amazon-book-listing {
+  display: table; }
+
 .pane-node-field-call-to-action {
   display: table;
   margin: 1em auto;
