@@ -233,11 +233,11 @@ a, .page-title {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c; }
+  .pane-node-field-call-to-action a {
+    color: #fff; }
   .pane-node-field-call-to-action:hover {
-    color: #fff;
     background-color: #449d44;
     border-color: #398439;
     text-decoration: none; }
