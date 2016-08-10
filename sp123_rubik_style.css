@@ -202,22 +202,22 @@ a, .page-title {
       position: absolute;
       right: 0; } }
 
-.node-advertisement {
+div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c; }
-  .node-advertisement.node-ad-image-portrait .col-1 {
+  div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1 {
     float: left;
     margin-right: 1em; }
-  .node-advertisement .pane-node-title {
+  div.panel-pane div.node.node-advertisement .pane-node-title {
     text-align: center; }
-  .node-advertisement .pane-node-field-ad-sub-headline {
+  div.panel-pane div.node.node-advertisement .pane-node-field-ad-sub-headline {
     text-align: center; }
-  .node-advertisement .file-image img {
+  div.panel-pane div.node.node-advertisement .file-image img {
     margin: auto; }
-  .node-advertisement .file-video iframe {
+  div.panel-pane div.node.node-advertisement .file-video iframe {
     display: table;
     margin: auto; }
-  .node-advertisement .field-items {
+  div.panel-pane div.node.node-advertisement .field-items {
     margin-left: 0; }
 
 .pane-node-field-call-to-action {
