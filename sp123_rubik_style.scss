@@ -201,6 +201,16 @@ a, .page-title {
 }
 
 .node-advertisement {
+  padding: 1em;
+  border: 1px solid #4cae4c;
+
+  &.node-ad-image-portrait {
+    .col-1 {
+      float: left;
+      margin-right: 1em;
+    }
+  }
+
   .pane-node-title {
     text-align: center;
   }
