@@ -285,14 +285,37 @@ div.panel-pane div.node.node-testimonial {
     margin-right: 1em;
   }
 
-  .row-one .col-1 {
-    float: left;
-    margin-right: 1em;
+  .row-one {
+    .col-1 {
+      float: left;
+      margin-right: 1em;
+    }
+    .col-2{
+      .pane-node-field-amazon-book-listing {
+        display: block;
+        overflow: hidden;
+
+        .pane-title, .field-name-field-amazon-book-listing {
+          display: inline-block;
+        }
+      }
+    }
   }
 
   .row-two .col-1 {
     float: left;
     margin-right: 1em;
+  }
+
+  .row-2 {
+    .pane-node-field-amazon-book-listing {
+      display: block;
+      overflow: hidden;
+
+      .pane-title, .field-name-field-amazon-book-listing {
+        display: inline-block;
+      }
+    }
   }
 
   .field-items {
