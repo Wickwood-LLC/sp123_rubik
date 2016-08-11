@@ -235,6 +235,10 @@ div.panel-pane div.node.node-advertisement {
 
 .pane-node-field-amazon-book-listing {
   display: table;
+
+  .field-name-field-amazon-book-listing {
+    border: 0px;
+  }
 }
 
 .pane-node-field-call-to-action {
@@ -264,5 +268,21 @@ div.panel-pane div.node.node-advertisement {
     background-color: #449d44;
     border-color: #398439;
     text-decoration: none;
+  }
+}
+
+div.panel-pane div.node.node-testimonial {
+  .row-one .col-1 {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .row-two .col-1 {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .field-items {
+    margin-left: 0;
   }
 }
