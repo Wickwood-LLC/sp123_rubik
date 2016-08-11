@@ -259,6 +259,11 @@ div.panel-pane div.node.node-testimonial {
   padding: 1em;
   border: 1px solid #4cae4c;
   margin-bottom: 2em; }
+  div.panel-pane div.node.node-testimonial .pane-node-field-video {
+    text-align: center; }
+  div.panel-pane div.node.node-testimonial .book-thumbnail {
+    float: left;
+    margin-right: 1em; }
   div.panel-pane div.node.node-testimonial .row-one .col-1 {
     float: left;
     margin-right: 1em; }
