@@ -255,13 +255,17 @@ div.panel-pane div.node.node-advertisement {
     border-color: #398439;
     text-decoration: none; }
 
-div.panel-pane div.node.node-testimonial .row-one .col-1 {
-  float: left;
-  margin-right: 1em; }
-div.panel-pane div.node.node-testimonial .row-two .col-1 {
-  float: left;
-  margin-right: 1em; }
-div.panel-pane div.node.node-testimonial .field-items {
-  margin-left: 0; }
+div.panel-pane div.node.node-testimonial {
+  padding: 1em;
+  border: 1px solid #4cae4c;
+  margin-bottom: 2em; }
+  div.panel-pane div.node.node-testimonial .row-one .col-1 {
+    float: left;
+    margin-right: 1em; }
+  div.panel-pane div.node.node-testimonial .row-two .col-1 {
+    float: left;
+    margin-right: 1em; }
+  div.panel-pane div.node.node-testimonial .field-items {
+    margin-left: 0; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
