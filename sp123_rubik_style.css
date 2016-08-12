@@ -283,4 +283,18 @@ div.panel-pane div.node.node-testimonial {
   div.panel-pane div.node.node-testimonial .field-items {
     margin-left: 0; }
 
+.node-type-training-roundtable .panel-myriad-layout .main-content {
+  width: calc(70% - 1em);
+  display: inline-block;
+  margin-left: 1em; }
+.node-type-training-roundtable .panel-myriad-layout .sidebar {
+  float: left;
+  width: calc(30% - 1em);
+  display: inline-block;
+  margin-right: 1em; }
+.node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-title, .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-content {
+  display: inline-block; }
+.node-type-training-roundtable .field > .field-items {
+  margin-left: 0px; }
+
 /*# sourceMappingURL=sp123_rubik_style.css.map */

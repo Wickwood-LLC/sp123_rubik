@@ -322,3 +322,30 @@ div.panel-pane div.node.node-testimonial {
     margin-left: 0;
   }
 }
+
+.node-type-training-roundtable {
+  .panel-myriad-layout {
+    .main-content {
+      width: calc(70% - 1em);
+      display: inline-block;
+      margin-left: 1em;
+    }
+    .sidebar {
+      float: left;
+      width: calc(30% - 1em);
+      display: inline-block;
+      margin-right: 1em;
+    }
+  }
+
+  .pane-node-field-roundtable-session-date {
+    .pane-title, .pane-content {
+      display: inline-block;
+    }
+  }
+
+  .field > .field-items {
+    margin-left: 0px;
+  }
+}
+
