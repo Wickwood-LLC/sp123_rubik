@@ -204,6 +204,7 @@ div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c;
   margin-bottom: 2em;
+  width: 100%;
 
   &.node-ad-image-portrait,
   &.node-ad-amazon-book {
@@ -211,6 +212,10 @@ div.panel-pane div.node.node-advertisement {
       float: left;
       margin-right: 1em;
     }
+  }
+
+  &.node-ad-image-landscape {
+    text-align: center;
   }
 
   .pane-node-title {
@@ -344,7 +349,7 @@ div.panel-pane div.node.node-testimonial {
 
   .pane-node-field-roundtable-session-date {
     text-align: center;
-    
+
     .pane-title, .pane-content {
       display: inline-block;
     }
