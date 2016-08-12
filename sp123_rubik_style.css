@@ -292,8 +292,12 @@ div.panel-pane div.node.node-testimonial {
   width: calc(30% - 1em);
   display: inline-block;
   margin-right: 1em; }
-.node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-title, .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-content {
-  display: inline-block; }
+.node-type-training-roundtable .pane-node-field-video {
+  text-align: center; }
+.node-type-training-roundtable .pane-node-field-roundtable-session-date {
+  text-align: center; }
+  .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-title, .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-content {
+    display: inline-block; }
 .node-type-training-roundtable .field > .field-items {
   margin-left: 0px; }
 
