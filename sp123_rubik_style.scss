@@ -381,5 +381,9 @@ div.panel-pane div.node.node-testimonial {
   .panel-myriad-layout {
     @include myriad-left-sidebar;
   }
+
+  .pane-node-field-video {
+    text-align: center;
+  }
 }
 
