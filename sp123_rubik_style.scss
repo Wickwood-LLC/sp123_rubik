@@ -394,3 +394,20 @@ div.panel-pane div.node.node-testimonial {
   }
 }
 
+.node-type-course {
+  .panel-myriad-layout {
+    @include myriad-left-sidebar;
+  }
+
+  .field > .field-items {
+    margin-left: 0px;
+  }
+
+  .pane-node-title {
+    text-align: center;
+  }
+  .pane-node-field-video {
+    text-align: center;
+  }
+}
+

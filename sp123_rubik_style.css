@@ -318,4 +318,20 @@ div.panel-pane div.node.node-testimonial {
 .node-type-training-power-to-publish .pane-node-field-video {
   text-align: center; }
 
+.node-type-course .panel-myriad-layout .main-content {
+  width: calc(70% - 1em);
+  display: inline-block;
+  margin-left: 1em; }
+.node-type-course .panel-myriad-layout .sidebar {
+  float: left;
+  width: calc(30% - 1em);
+  display: inline-block;
+  margin-right: 1em; }
+.node-type-course .field > .field-items {
+  margin-left: 0px; }
+.node-type-course .pane-node-title {
+  text-align: center; }
+.node-type-course .pane-node-field-video {
+  text-align: center; }
+
 /*# sourceMappingURL=sp123_rubik_style.css.map */
