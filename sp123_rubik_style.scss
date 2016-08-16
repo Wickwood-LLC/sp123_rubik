@@ -11,13 +11,13 @@ $primary_shadow: #33aa58;
 
 @mixin myriad-left-sidebar($main: 70%, $sidebar: 30%) {
   .main-content {
-    width: calc($main - 1em);
+    width: calc(#{$main} - 1em);
     display: inline-block;
     margin-left: 1em;
   }
   .sidebar {
     float: left;
-    width: calc($sidebar - 1em);
+    width: calc(#{$sidebar} - 1em);
     display: inline-block;
     margin-right: 1em;
   }

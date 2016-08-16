@@ -303,12 +303,12 @@ div.panel-pane div.node.node-testimonial {
   text-align: center; }
 
 .node-type-training-power-to-publish .panel-myriad-layout .main-content {
-  width: calc($main - 1em);
+  width: calc(70% - 1em);
   display: inline-block;
   margin-left: 1em; }
 .node-type-training-power-to-publish .panel-myriad-layout .sidebar {
   float: left;
-  width: calc($sidebar - 1em);
+  width: calc(30% - 1em);
   display: inline-block;
   margin-right: 1em; }
 
