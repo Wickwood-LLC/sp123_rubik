@@ -313,6 +313,8 @@ div.panel-pane div.node.node-testimonial {
   margin-right: 1em; }
 .node-type-training-power-to-publish .field > .field-items {
   margin-left: 0px; }
+.node-type-training-power-to-publish .pane-node-title {
+  text-align: center; }
 .node-type-training-power-to-publish .pane-node-field-video {
   text-align: center; }
 
