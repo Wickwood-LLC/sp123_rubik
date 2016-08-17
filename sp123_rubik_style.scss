@@ -355,7 +355,7 @@ div.panel-pane div.node.node-testimonial {
 
 .node-type-training-roundtable {
   .panel-myriad-layout {
-    
+    @include myriad-left-sidebar;
   }
 
   .pane-node-field-video {
