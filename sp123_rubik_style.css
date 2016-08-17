@@ -25,6 +25,10 @@ a, .page-title {
   background-color: #1bb303;
   text-shadow: #33aa58 0 1px 0; }
 
+.boxed,
+div.panel-pane div.node.boxed {
+  border-color: #4cae4c; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;

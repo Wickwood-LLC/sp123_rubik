@@ -53,6 +53,11 @@ a, .page-title {
   text-shadow: $primary_shadow 0 1px 0;
 }
 
+.boxed,
+div.panel-pane div.node.boxed {
+  border-color: #4cae4c;
+}
+
 #mini-panel-header {
   display: flex;
   width: 100%;
