@@ -416,3 +416,27 @@ div.panel-pane div.node.node-testimonial {
   }
 }
 
+.pane-course-outline {
+  .item-list ul li {
+    border-bottom: 0px;
+  }
+}
+
+.pane-course-navigation {
+  .item-list ul {
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+
+    li {
+      border-bottom: 0px;
+      display: inline-block;
+      margin-left: 1em;
+  
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
