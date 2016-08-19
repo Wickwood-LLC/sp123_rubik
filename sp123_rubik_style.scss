@@ -230,6 +230,7 @@ div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c;
   margin-bottom: 2em;
+  width: 100%;
 
   &.node-ad-image-portrait,
   &.node-ad-amazon-book {
@@ -456,9 +457,8 @@ div.panel-pane div.node.node-testimonial {
       background-color: white;
     }
   }
-
-  .field-items .field-items .field-item {
-    margin-bottom: 0.3em;
-  }
 }
 
+.field-collection-container .field-items .field-items .field-item {
+  margin-bottom: 0.3em;
+}

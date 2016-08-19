@@ -213,7 +213,8 @@ div.panel-pane div.node.boxed {
 div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  width: 100%; }
   div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1, div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-1 {
     float: left;
     margin-right: 1em; }
@@ -370,7 +371,8 @@ div.panel-pane div.node.node-testimonial {
   margin-bottom: 0.3em; }
   .field-collection-item-field-resources .field-item.odd {
     background-color: white; }
-.field-collection-item-field-resources .field-items .field-items .field-item {
+
+.field-collection-container .field-items .field-items .field-item {
   margin-bottom: 0.3em; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
