@@ -364,17 +364,11 @@ div.panel-pane div.node.node-testimonial {
 .field-collection-view {
   border: 0px; }
 
-.field-items .field-items .field-item
 .field-collection-item-field-resources .field-name-field-resource-documents {
   margin-bottom: 1em; }
-.field-items .field-items .field-item
-.field-collection-item-field-resources .field-items .field-items .field-item {
-  margin-bottom: 0.3em; }
-.field-items .field-items .field-item
 .field-collection-item-field-resources .field-item {
   margin-bottom: 0.3em; }
-  .field-items .field-items .field-item
   .field-collection-item-field-resources .field-item.odd {
-    background-color: white; }
+    background-color: none; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
