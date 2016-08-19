@@ -370,5 +370,7 @@ div.panel-pane div.node.node-testimonial {
   margin-bottom: 0.3em; }
   .field-collection-item-field-resources .field-item.odd {
     background-color: white; }
+.field-collection-item-field-resources .field-items .field-items .field-item {
+  margin-bottom: 0.3em; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
