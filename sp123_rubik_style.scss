@@ -231,6 +231,7 @@ div.panel-pane div.node.node-advertisement {
   border: 1px solid #4cae4c;
   margin-bottom: 2em;
   width: 100%;
+  box-sizing: border-box;
 
   &.node-ad-image-portrait,
   &.node-ad-amazon-book {
@@ -461,4 +462,8 @@ div.panel-pane div.node.node-testimonial {
 
 .field-collection-container .field-items .field-items .field-item {
   margin-bottom: 0.3em;
+}
+
+.views-slideshow-cycle-main-frame-row {
+  width: 100%;
 }

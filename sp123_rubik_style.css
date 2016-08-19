@@ -214,7 +214,8 @@ div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c;
   margin-bottom: 2em;
-  width: 100%; }
+  width: 100%;
+  box-sizing: border-box; }
   div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1, div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-1 {
     float: left;
     margin-right: 1em; }
@@ -374,5 +375,8 @@ div.panel-pane div.node.node-testimonial {
 
 .field-collection-container .field-items .field-items .field-item {
   margin-bottom: 0.3em; }
+
+.views-slideshow-cycle-main-frame-row {
+  width: 100%; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
