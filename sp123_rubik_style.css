@@ -364,4 +364,11 @@ div.panel-pane div.node.node-testimonial {
 .field-collection-view {
   border: 0px; }
 
+.field-collection-item-field-resources .field-name-field-resource-documents {
+  margin-bottom: 1em; }
+.field-collection-item-field-resources .field-item {
+  margin-bottom: 0.3em; }
+  .field-collection-item-field-resources .field-item.odd {
+    background-color: none; }
+
 /*# sourceMappingURL=sp123_rubik_style.css.map */
