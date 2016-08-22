@@ -10,16 +10,18 @@ $primary_shadow: #33aa58;
 /****** MIXINS ******/
 
 @mixin myriad-left-sidebar($main: 70%, $sidebar: 30%) {
-  .main-content {
-    width: calc(#{$main} - 1em);
-    display: inline-block;
-    margin-left: 1em;
-  }
-  .sidebar {
-    float: left;
-    width: calc(#{$sidebar} - 1em);
-    display: inline-block;
-    margin-right: 1em;
+  .myriad-left-sidebar {
+    .main-content {
+      width: calc(#{$main} - 1em);
+      display: inline-block;
+      margin-left: 1em;
+    }
+    .sidebar {
+      float: left;
+      width: calc(#{$sidebar} - 1em);
+      display: inline-block;
+      margin-right: 1em;
+    }
   }
 }
 
@@ -356,10 +358,6 @@ div.panel-pane div.node.node-testimonial {
 }
 
 .node-type-training-roundtable {
-  .panel-myriad-layout {
-    @include myriad-left-sidebar;
-  }
-
   .pane-node-field-video {
     text-align: center;
   }
@@ -385,10 +383,6 @@ div.panel-pane div.node.node-testimonial {
 }
 
 .node-type-training-power-to-publish {
-  .panel-myriad-layout {
-    @include myriad-left-sidebar;
-  }
-
   .field > .field-items {
     margin-left: 0px;
   }
@@ -402,10 +396,6 @@ div.panel-pane div.node.node-testimonial {
 }
 
 .node-type-course {
-  .panel-myriad-layout {
-    @include myriad-left-sidebar;
-  }
-
   .field > .field-items {
     margin-left: 0px;
   }
