@@ -9,22 +9,6 @@ $primary_shadow: #33aa58;
 
 /****** MIXINS ******/
 
-@mixin myriad-left-sidebar($main: 70%, $sidebar: 30%) {
-  .myriad-left-sidebar {
-    .main-content {
-      width: calc(#{$main} - 1em);
-      display: inline-block;
-      margin-left: 1em;
-    }
-    .sidebar {
-      float: left;
-      width: calc(#{$sidebar} - 1em);
-      display: inline-block;
-      margin-right: 1em;
-    }
-  }
-}
-
 /***********************/
 
 
@@ -225,6 +209,20 @@ div.panel-pane div.node.boxed {
       position: absolute;
       right: 0;
     }
+  }
+}
+
+.myriad-left-sidebar {
+  .main-content {
+    width: calc(70% - 1em);
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .sidebar {
+    float: left;
+    width: calc(30% - 1em);
+    display: inline-block;
+    margin-right: 1em;
   }
 }
 

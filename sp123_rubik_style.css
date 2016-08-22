@@ -210,6 +210,16 @@ div.panel-pane div.node.boxed {
       position: absolute;
       right: 0; } }
 
+.myriad-left-sidebar .main-content {
+  width: calc(70% - 1em);
+  display: inline-block;
+  margin-left: 1em; }
+.myriad-left-sidebar .sidebar {
+  float: left;
+  width: calc(30% - 1em);
+  display: inline-block;
+  margin-right: 1em; }
+
 div.panel-pane div.node.node-advertisement {
   padding: 1em;
   border: 1px solid #4cae4c;
