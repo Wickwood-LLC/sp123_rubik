@@ -56,7 +56,7 @@ div.panel-pane div.node.boxed {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  #mini-panel-header .site-title {
+  #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;
     text-align: right;
