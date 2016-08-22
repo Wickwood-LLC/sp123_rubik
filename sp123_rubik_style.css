@@ -2,7 +2,6 @@
 /***********************/
 /****** MIXINS ******/
 /***********************/
-@import "https://fonts.googleapis.com/css?family=Allura|Italianno";
 #header,
 #console,
 #branding .limiter,
@@ -29,12 +28,6 @@ a, .page-title {
 .boxed,
 div.panel-pane div.node.boxed {
   border-color: #4cae4c; }
-
-.allura-font {
-  font-family: 'Allura', Helvetica, Arial, sans-serif; }
-
-.italianno-font {
-  font-family: 'Italianno', Helvetica, Arial, sans-serif; }
 
 #mini-panel-header {
   display: -webkit-box;
