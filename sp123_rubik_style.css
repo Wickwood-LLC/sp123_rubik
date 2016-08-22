@@ -29,6 +29,15 @@ a, .page-title {
 div.panel-pane div.node.boxed {
   border-color: #4cae4c; }
 
+.allura-font {
+  font-size: 2em; }
+
+.italianno-font {
+  display: block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  margin-top: -15px; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,6 +56,14 @@ div.panel-pane div.node.boxed {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  #mini-panel-header .site-title {
+    display: inline-block;
+    line-height: 1;
+    text-align: right;
+    margin: 0;
+    vertical-align: middle; }
+  #mini-panel-header .logo-container {
+    display: inline-block; }
   #mini-panel-header .pane-page-logo {
     -webkit-box-flex: 0;
     -webkit-flex: 0;

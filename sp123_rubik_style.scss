@@ -48,10 +48,17 @@ div.panel-pane div.node.boxed {
 
 .allura-font {
   // font-family: 'Allura', Helvetica, Arial, sans-serif;
+  font-size: 2em;
 }
 .italianno-font {
   // font-family: 'Italianno', Helvetica, Arial, sans-serif;
+  display: block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  margin-top: -15px;
 }
+
+
 
 #mini-panel-header {
   display: flex;
@@ -60,6 +67,17 @@ div.panel-pane div.node.boxed {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+
+  .site-title {
+    display: inline-block;
+    line-height: 1;
+    text-align: right;
+    margin: 0;
+    vertical-align: middle;
+  }
+  .logo-container {
+    display: inline-block;
+  }
 
   .pane-page-logo {
     flex: 0;
