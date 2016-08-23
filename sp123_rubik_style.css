@@ -389,8 +389,9 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active {
   border-bottom: 0px;
   color: white;
-  background-color: #0f753b a;
-    background-color-color: white; }
+  background-color: #0f753b; }
+  .pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active a {
+    color: white; }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-content {
   border-color: #4cae4c;
   margin-bottom: 10px;
