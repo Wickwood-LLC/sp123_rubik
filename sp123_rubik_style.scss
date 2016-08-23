@@ -509,8 +509,11 @@ div.panel-pane div.node.node-testimonial {
       }
     }
 
-    .active {
+    &.active {
       background-color: $primary_color;
+    }
+
+    a.active {
       color: white;
     }
   }
