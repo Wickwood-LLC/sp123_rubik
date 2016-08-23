@@ -13,16 +13,16 @@
   margin: 0 auto; }
 
 a, .page-title {
-  color: #1bb303; }
+  color: #0f753b; }
 
 .pager li.pager-current, .primary-tabs li.active {
-  background-color: #1bb303; }
+  background-color: #0f753b; }
 
 .pager li.pager-current span, .primary-tabs li.active a {
   text-shadow: #33aa58 0 1px 0; }
 
 .action-links a {
-  background-color: #1bb303;
+  background-color: #0f753b;
   text-shadow: #33aa58 0 1px 0; }
 
 .boxed,
@@ -33,6 +33,7 @@ div.panel-pane div.node.boxed {
   font-size: 2em; }
 
 .italianno-font {
+  color: #9bcb3c;
   display: block;
   font-size: 1.5em;
   margin-right: 1em;
@@ -109,7 +110,7 @@ div.panel-pane div.node.boxed {
         font-size: 1.2em; } }
 
 #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .tb-megamenu-nav > li.active > a {
-  background-color: #1bb303 !important;
+  background-color: #0f753b !important;
   color: #fff;
   text-shadow: #33aa58 0px 1px 0px; }
 

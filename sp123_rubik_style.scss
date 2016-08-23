@@ -2,7 +2,7 @@
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
 
 /****** VARIABLES ******/
-$primary_color: #1bb303;
+$primary_color: #0f753b;
 $primary_shadow: #33aa58;
 
 /***********************/
@@ -52,6 +52,7 @@ div.panel-pane div.node.boxed {
 }
 .italianno-font {
   // font-family: 'Italianno', Helvetica, Arial, sans-serif;
+  color: #9bcb3c;
   display: block;
   font-size: 1.5em;
   margin-right: 1em;
