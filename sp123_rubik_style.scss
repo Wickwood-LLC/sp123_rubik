@@ -492,7 +492,11 @@ div.panel-pane div.node.node-testimonial {
     margin-bottom: 10px;
     margin-top: -14px;
   }
-  .views-row .active {
-    color: $primary_color;
+  .views-row {
+    line-height: 1.5;
+
+    .active {
+      color: $primary_color;
+    }
   }
 }

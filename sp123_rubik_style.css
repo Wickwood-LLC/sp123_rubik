@@ -385,7 +385,9 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-content {
   margin-bottom: 10px;
   margin-top: -14px; }
-.pane-nodequeue-1-panel-pane-1 .views-row .active {
-  color: #0f753b; }
+.pane-nodequeue-1-panel-pane-1 .views-row {
+  line-height: 1.5; }
+  .pane-nodequeue-1-panel-pane-1 .views-row .active {
+    color: #0f753b; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
