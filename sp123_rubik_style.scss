@@ -487,10 +487,15 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 {
   .ui-accordion-header {
     border-color: #4cae4c;
+
+    &:hover {
+      background-color: #51a351;
+    }
   }
   .ui-accordion-header-active {
     border-bottom: 0px;
-
+    color: white;
+    background-color: $primary_color
   }
   .ui-accordion-content {
     border-color: #4cae4c;
@@ -512,7 +517,7 @@ div.panel-pane div.node.node-testimonial {
 
     a.active {
       color: white;
-      background-color: $primary_color;
+      background-color: #51a351;
     }
   }
 }

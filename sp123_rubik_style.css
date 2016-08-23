@@ -382,8 +382,12 @@ div.panel-pane div.node.node-testimonial {
 
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header {
   border-color: #4cae4c; }
+  .pane-nodequeue-1-panel-pane-1 .ui-accordion-header:hover {
+    background-color: #51a351; }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active {
-  border-bottom: 0px; }
+  border-bottom: 0px;
+  color: white;
+  background-color: #0f753b; }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-content {
   border-color: #4cae4c;
   margin-bottom: 10px;
@@ -398,6 +402,6 @@ div.panel-pane div.node.node-testimonial {
       padding: 0 2.2em; }
   .pane-nodequeue-1-panel-pane-1 .views-row a.active {
     color: white;
-    background-color: #0f753b; }
+    background-color: #51a351; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
