@@ -396,8 +396,8 @@ div.panel-pane div.node.node-testimonial {
     display: block; }
     .pane-nodequeue-1-panel-pane-1 .views-row .field-content a {
       display: block; }
-.pane-nodequeue-1-panel-pane-1 .views-row:has(.active) {
-  background-color: #0f753b;
-  color: white; }
+  .pane-nodequeue-1-panel-pane-1 .views-row .active {
+    background-color: #0f753b;
+    color: white; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */

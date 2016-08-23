@@ -508,9 +508,10 @@ div.panel-pane div.node.node-testimonial {
         display: block;
       }
     }
-  }
-  .views-row:has(.active) {
-    background-color: $primary_color;
-    color: white;
+
+    .active {
+      background-color: $primary_color;
+      color: white;
+    }
   }
 }
