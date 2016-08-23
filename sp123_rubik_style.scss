@@ -490,12 +490,20 @@ div.panel-pane div.node.node-testimonial {
 
     &:hover {
       background-color: #51a351;
+
+      a {
+        color: white;
+      }
     }
   }
   .ui-accordion-header-active {
     border-bottom: 0px;
     color: white;
     background-color: $primary_color
+
+    a {
+      color: white;
+    }
   }
   .ui-accordion-content {
     border-color: #4cae4c;
