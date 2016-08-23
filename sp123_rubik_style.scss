@@ -485,6 +485,11 @@ div.panel-pane div.node.node-testimonial {
 }
 
 .pane-nodequeue-1-panel-pane-1 {
+  .ui-state-hover, .ui-state-focus, .ui-state-active {
+    .ui-icon {
+      filter: invert(100%) brightness(100);
+    }
+  }
   .ui-accordion-header {
     border-color: #4cae4c;
 

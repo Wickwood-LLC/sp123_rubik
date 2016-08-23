@@ -380,6 +380,9 @@ div.panel-pane div.node.node-testimonial {
 .views-slideshow-cycle-main-frame-row {
   width: 100%; }
 
+.pane-nodequeue-1-panel-pane-1 .ui-state-hover .ui-icon, .pane-nodequeue-1-panel-pane-1 .ui-state-focus .ui-icon, .pane-nodequeue-1-panel-pane-1 .ui-state-active .ui-icon {
+  -webkit-filter: invert(100%) brightness(100);
+          filter: invert(100%) brightness(100); }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header {
   border-color: #4cae4c; }
   .pane-nodequeue-1-panel-pane-1 .ui-accordion-header:hover {
