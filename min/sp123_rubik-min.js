@@ -1,1 +1,1 @@
-!function($){Drupal.behaviors.accordionNavigation={attach:function(a,c){$(".views-accordion a.active").parents("h3.ui-accordion-header").addClass("accordion-header-active")}}}(jQuery);
+!function($){Drupal.behaviors.accordionNavigation={attach:function(a,c){$(".ui-accordion a.active").parents("h3.ui-accordion-header").addClass("accordion-header-active")}}}(jQuery);
