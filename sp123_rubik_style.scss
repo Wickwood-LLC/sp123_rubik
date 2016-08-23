@@ -490,6 +490,7 @@ div.panel-pane div.node.node-testimonial {
   }
   .ui-accordion-header-active {
     border-bottom: 0px;
+
   }
   .ui-accordion-content {
     border-color: #4cae4c;
@@ -499,22 +500,19 @@ div.panel-pane div.node.node-testimonial {
   }
   .views-row {
     line-height: 1.5;
-    padding: 0 2.2em;
 
     .field-content {
       display: block;
 
       a {
         display: block;
+        padding: 0 2.2em;
       }
-    }
-
-    &.active {
-      background-color: $primary_color;
     }
 
     a.active {
       color: white;
+      background-color: $primary_color;
     }
   }
 }

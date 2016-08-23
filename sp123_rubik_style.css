@@ -390,15 +390,14 @@ div.panel-pane div.node.node-testimonial {
   margin-top: -14px;
   padding: 1em 0; }
 .pane-nodequeue-1-panel-pane-1 .views-row {
-  line-height: 1.5;
-  padding: 0 2.2em; }
+  line-height: 1.5; }
   .pane-nodequeue-1-panel-pane-1 .views-row .field-content {
     display: block; }
     .pane-nodequeue-1-panel-pane-1 .views-row .field-content a {
-      display: block; }
-  .pane-nodequeue-1-panel-pane-1 .views-row.active {
-    background-color: #0f753b; }
+      display: block;
+      padding: 0 2.2em; }
   .pane-nodequeue-1-panel-pane-1 .views-row a.active {
-    color: white; }
+    color: white;
+    background-color: #0f753b; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
