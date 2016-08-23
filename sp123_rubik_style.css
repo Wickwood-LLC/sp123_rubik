@@ -380,14 +380,24 @@ div.panel-pane div.node.node-testimonial {
 .views-slideshow-cycle-main-frame-row {
   width: 100%; }
 
+.pane-nodequeue-1-panel-pane-1 .ui-accordion-header {
+  border-color: #4cae4c; }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active {
   border-bottom: 0px; }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-content {
+  border-color: #4cae4c;
   margin-bottom: 10px;
-  margin-top: -14px; }
+  margin-top: -14px;
+  padding: 1em 0; }
 .pane-nodequeue-1-panel-pane-1 .views-row {
-  line-height: 1.5; }
+  line-height: 1.5;
+  padding: 0 2.2em; }
+  .pane-nodequeue-1-panel-pane-1 .views-row .field-content {
+    display: block; }
+    .pane-nodequeue-1-panel-pane-1 .views-row .field-content a {
+      display: block; }
   .pane-nodequeue-1-panel-pane-1 .views-row .active {
-    color: #0f753b; }
+    background-color: #0f753b;
+    color: white; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
