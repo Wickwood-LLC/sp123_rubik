@@ -380,4 +380,12 @@ div.panel-pane div.node.node-testimonial {
 .views-slideshow-cycle-main-frame-row {
   width: 100%; }
 
+.pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active {
+  border-bottom: 0px; }
+.pane-nodequeue-1-panel-pane-1 .ui-accordion-content {
+  margin-bottom: 10px;
+  margin-top: -14px; }
+.pane-nodequeue-1-panel-pane-1 .views-row .active {
+  color: #0f753b; }
+
 /*# sourceMappingURL=sp123_rubik_style.css.map */
