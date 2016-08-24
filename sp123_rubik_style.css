@@ -380,11 +380,15 @@ div.panel-pane div.node.node-testimonial {
 .views-slideshow-cycle-main-frame-row {
   width: 100%; }
 
+.pane-nodequeue-1-panel-pane-1 .pane-content {
+  margin-top: 1em;
+  margin-bottom: -1em; }
 .pane-nodequeue-1-panel-pane-1 .ui-state-hover .ui-icon, .pane-nodequeue-1-panel-pane-1 .ui-state-focus .ui-icon, .pane-nodequeue-1-panel-pane-1 .ui-state-active .ui-icon {
   -webkit-filter: invert(100%) brightness(100);
           filter: invert(100%) brightness(100); }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header {
-  border-color: #4cae4c; }
+  border-color: #4cae4c;
+  margin: 5px 0; }
   .pane-nodequeue-1-panel-pane-1 .ui-accordion-header:hover {
     background-color: #51a351; }
     .pane-nodequeue-1-panel-pane-1 .ui-accordion-header:hover a {
@@ -412,5 +416,7 @@ div.panel-pane div.node.node-testimonial {
   .pane-nodequeue-1-panel-pane-1 .views-row a.active {
     color: white;
     background-color: #51a351; }
+.pane-nodequeue-1-panel-pane-1 .views-row-even {
+  background-color: #f9f9f9; }
 
 /*# sourceMappingURL=sp123_rubik_style.css.map */
