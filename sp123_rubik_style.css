@@ -388,7 +388,7 @@ div.panel-pane div.node.node-testimonial {
           filter: invert(100%) brightness(100); }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header {
   border-color: #4cae4c;
-  margin: 5px 0; }
+  margin: 5px 0 !important; }
   .pane-nodequeue-1-panel-pane-1 .ui-accordion-header:hover {
     background-color: #51a351; }
     .pane-nodequeue-1-panel-pane-1 .ui-accordion-header:hover a {
