@@ -2,9 +2,12 @@
 /***********************/
 /****** MIXINS ******/
 /***********************/
-body {
+body.tao {
   background-image: url("images/main-bg.jpg");
   background-repeat: repeat; }
+
+.block, .item-list, .help-items ul, .form-item, .confirmation ul, .admin-list, .node-type-list, .admin-panel, .block .block-content, .container-inline .fieldset-content, .fieldset-content {
+  background: transparent; }
 
 #header,
 #console,
@@ -119,7 +122,12 @@ div.panel-pane div.node.boxed {
   text-shadow: #33aa58 0px 1px 0px; }
 
 #page .radix-sanderson .row:first-child {
-  background: url("images/banner.jpg") cover; }
+  background: url("images/banner.jpg") center center; }
+#page .radix-sanderson .row:nth-child(2) {
+  background: white; }
+
+#footer {
+  background: #0f753b; }
 
 #block-panels-mini-footer #mini-panel-footer {
   display: block; }
@@ -178,6 +186,8 @@ div.panel-pane div.node.boxed {
     border-bottom: 0px;
     float: none;
     margin-left: 0; }
+    #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content .menu li a {
+      color: white; }
   @media (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
       width: auto; }

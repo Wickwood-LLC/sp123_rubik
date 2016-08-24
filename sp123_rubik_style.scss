@@ -13,9 +13,13 @@ $primary_shadow: #33aa58;
 
 // @import 'https://fonts.googleapis.com/css?family=Allura|Italianno';
 
-body {
+body.tao {
   background-image: url('images/main-bg.jpg');
   background-repeat: repeat;
+}
+
+.block, .item-list, .help-items ul, .form-item, .confirmation ul, .admin-list, .node-type-list, .admin-panel, .block .block-content, .container-inline .fieldset-content, .fieldset-content {
+  background: transparent;
 }
 
 #header,
@@ -135,8 +139,15 @@ div.panel-pane div.node.boxed {
 
 #page .radix-sanderson {
   .row:first-child {
-    background: url('images/banner.jpg') cover;
+    background: url("images/banner.jpg") center center;
   }
+  .row:nth-child(2) {
+    background: white;
+  }
+}
+
+#footer {
+  background: $primary_color;
 }
 
 #block-panels-mini-footer {
@@ -194,6 +205,10 @@ div.panel-pane div.node.boxed {
       border-bottom: 0px;
       float: none;
       margin-left: 0;
+
+      a {
+        color: white;
+      }
     }
 
     @include breakpoint(0px (max-width 767px) (orientation landscape)) {
