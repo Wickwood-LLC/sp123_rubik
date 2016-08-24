@@ -46,6 +46,9 @@ div.panel-pane div.node.boxed {
   margin-right: 1em;
   margin-top: -15px; }
 
+#header {
+  background: white; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
