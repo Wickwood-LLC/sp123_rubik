@@ -18,7 +18,7 @@ $primary_shadow: #33aa58;
 #console,
 #branding .limiter,
 #page-title .limiter,
-#main-content,
+#page,
 #footer,
 .region-footer {
   max-width: 1360px;
@@ -126,6 +126,12 @@ div.panel-pane div.node.boxed {
         text-shadow: $primary_shadow 0px 1px 0px;
       }
     }
+  }
+}
+
+#page .radix-sanderson {
+  .row:first-child {
+    background: url('images/banner.png') cover;
   }
 }
 

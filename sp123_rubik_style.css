@@ -6,7 +6,7 @@
 #console,
 #branding .limiter,
 #page-title .limiter,
-#main-content,
+#page,
 #footer,
 .region-footer {
   max-width: 1360px;
@@ -113,6 +113,9 @@ div.panel-pane div.node.boxed {
   background-color: #0f753b !important;
   color: #fff;
   text-shadow: #33aa58 0px 1px 0px; }
+
+#page .radix-sanderson .row:first-child {
+  background: url("images/banner.png") cover; }
 
 #block-panels-mini-footer #mini-panel-footer {
   display: block; }
