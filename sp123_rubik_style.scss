@@ -506,6 +506,10 @@ div.panel-pane div.node.node-testimonial {
     color: white;
     background-color: $primary_color;
 
+    &:hover {
+      background-color: $primary_color;
+    }
+
     a {
       color: white;
     }

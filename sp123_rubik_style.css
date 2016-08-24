@@ -393,6 +393,8 @@ div.panel-pane div.node.node-testimonial {
   border-bottom: 0px;
   color: white;
   background-color: #0f753b; }
+  .pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active:hover {
+    background-color: #0f753b; }
   .pane-nodequeue-1-panel-pane-1 .ui-accordion-header-active a {
     color: white; }
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-content {
