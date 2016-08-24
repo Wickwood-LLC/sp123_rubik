@@ -2078,6 +2078,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/main-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1853,
+		"inputAbbreviatedPath": "\/images\/main-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/main-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/popup.png": {
 		"fileType": 32768,
 		"ignore": 0,

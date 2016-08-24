@@ -13,6 +13,10 @@ $primary_shadow: #33aa58;
 
 // @import 'https://fonts.googleapis.com/css?family=Allura|Italianno';
 
+html {
+  background-image: url('images/main-bg.jpg');
+  background-repeat: repeat;
+}
 
 #header,
 #console,
@@ -131,7 +135,7 @@ div.panel-pane div.node.boxed {
 
 #page .radix-sanderson {
   .row:first-child {
-    background: url('images/banner.png') cover;
+    background: url('images/banner.jpg') cover;
   }
 }
 
