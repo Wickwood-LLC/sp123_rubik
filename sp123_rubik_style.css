@@ -37,14 +37,18 @@ div.panel-pane div.node.boxed {
   border-color: #4cae4c; }
 
 .site-title-1 {
-  font-size: 2em; }
+  font-size: 3em; }
 
 .site-title-2 {
   color: #9bcb3c;
   display: block;
-  font-size: 1.5em;
-  margin-right: 1em;
-  margin-top: -15px; }
+  font-size: 2.8em;
+  margin-right: 0.8em;
+  margin-top: -28px; }
+
+#logo img {
+  height: 80px;
+  width: auto; }
 
 #header {
   background: white; }
