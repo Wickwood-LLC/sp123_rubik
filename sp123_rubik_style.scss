@@ -527,7 +527,7 @@ div.panel-pane div.node.node-testimonial {
     margin: 5px 0 !important;
 
     &:hover {
-      background-color: #51a351;
+      background-color: lighten($primary_color, 45%);
 
       a {
         color: white;
@@ -558,7 +558,7 @@ div.panel-pane div.node.node-testimonial {
     border-bottom: 1px solid #f3f3f3;
 
     &:hover {
-      background-color: lighten($primary_color, 10%);
+      background-color: lighten($primary_color, 45%);
     }
 
     .field-content {
@@ -572,7 +572,7 @@ div.panel-pane div.node.node-testimonial {
 
     a.active {
       color: white;
-      background-color: #51a351;
+      background-color: lighten($primary_color, 10%);
     }
   }
   .views-row-even {
