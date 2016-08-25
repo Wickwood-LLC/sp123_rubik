@@ -527,7 +527,7 @@ div.panel-pane div.node.node-testimonial {
     margin: 5px 0 !important;
 
     &:hover {
-      background-color: lighten($primary_color, 45%);
+      background-color: lighten($primary_color, 10%);
 
       a {
         color: white;
