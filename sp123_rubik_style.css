@@ -429,6 +429,8 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .views-row {
   line-height: 2;
   border-bottom: 1px solid #f3f3f3; }
+  .pane-nodequeue-1-panel-pane-1 .views-row:hover {
+    background-color: #92f1bb; }
   .pane-nodequeue-1-panel-pane-1 .views-row .field-content {
     display: block; }
     .pane-nodequeue-1-panel-pane-1 .views-row .field-content a {

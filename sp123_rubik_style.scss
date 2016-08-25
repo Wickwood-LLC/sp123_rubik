@@ -557,6 +557,10 @@ div.panel-pane div.node.node-testimonial {
     line-height: 2;
     border-bottom: 1px solid #f3f3f3;
 
+    &:hover {
+      background-color: lighten($primary_color, 50%);
+    }
+
     .field-content {
       display: block;
 
