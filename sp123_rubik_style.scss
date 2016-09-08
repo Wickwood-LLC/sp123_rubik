@@ -13,6 +13,10 @@ $primary_shadow: #33aa58;
 
 // @import 'https://fonts.googleapis.com/css?family=Allura|Italianno';
 
+body {
+  max-width: 1360px;
+  margin: 0 auto;
+}
 
 #header,
 #console,
@@ -21,8 +25,7 @@ $primary_shadow: #33aa58;
 #page,
 #footer,
 .region-footer {
-  max-width: 1360px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 a, .page-title {

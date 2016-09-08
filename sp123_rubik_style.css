@@ -2,6 +2,10 @@
 /***********************/
 /****** MIXINS ******/
 /***********************/
+body {
+  max-width: 1360px;
+  margin: 0 auto; }
+
 #header,
 #console,
 #branding .limiter,
@@ -9,8 +13,7 @@
 #page,
 #footer,
 .region-footer {
-  max-width: 1360px;
-  margin: 0 auto; }
+  width: 100%; }
 
 a, .page-title {
   color: #0f753b; }
