@@ -3,7 +3,7 @@ description = Full Rubik subtheme for use in Self Publishing 123 website.
 base theme = full_rubik
 core = 7.x
 
-stylesheets[screen][] = sp123_rubik_style.css
+stylesheets[all][] = sp123_rubik_style.css
 scripts[] = sp123_rubik.js
 
 regions[header] = Header
