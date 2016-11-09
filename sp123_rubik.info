@@ -6,6 +6,12 @@ core = 7.x
 stylesheets[all][] = css/sp123_rubik_style.css
 scripts[] = sp123_rubik.js
 
+regions[header] = Header
+regions[navbar] = Navigation
+regions[help] = Help
+regions[content] = Content
+regions[footer] = Footer
+
 ; Support shortcut module links
 settings[shortcut_module_link] = 1
 settings[rubik_inline_field_descriptions] = 1
