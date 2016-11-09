@@ -129,6 +129,12 @@
 		"oAP": "\/.sass-cache\/04bf26d0825de4ec16bad3b2954ecdcb30a1049a\/_word-wrap.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/09df48e1a967f2117f7447914e473b9ce76e0c19\/_resolution.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/09df48e1a967f2117f7447914e473b9ce76e0c19\/_resolution.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/10dc5726d20c262e831cf2faf3b5822a9859661f\/_double.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -159,6 +165,48 @@
 		"oAP": "\/.sass-cache\/10dc5726d20c262e831cf2faf3b5822a9859661f\/_triple.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_context.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_helpers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_helpers.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_legacy-settings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_legacy-settings.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_no-query.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_no-query.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_parsers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_parsers.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_respond-to.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_respond-to.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_settings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/15f6483fd5995afd9170336d4f5b1f0b06240f1c\/_settings.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/16cf79ae688c62a1df4bc2956aa7325634390bf8\/_default-pair.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -181,6 +229,42 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/1e963934b786cccec091084836ae3ae39f2c55f1\/_default.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_double.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_double.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_query.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_query.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_resolution.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_resolution.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_single.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_single.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_triple.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/1f66314f2393390b4ecd2d559db39525ffb075da\/_triple.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/222b311dc7f8884218cc3635e97b33607a4a252d\/_breakpoint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/222b311dc7f8884218cc3635e97b33607a4a252d\/_breakpoint.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2931105996c348c2c838fec687d990fadb8787cd\/_context.scssc": {
@@ -307,6 +391,24 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/2f05c073f3fa168b9c0c4d8ed5e496f2b731396c\/_str-to-num.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/448fda8467832483433219c757fdb29bf389c2b7\/_default-pair.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/448fda8467832483433219c757fdb29bf389c2b7\/_default-pair.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/448fda8467832483433219c757fdb29bf389c2b7\/_default.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/448fda8467832483433219c757fdb29bf389c2b7\/_default.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/448fda8467832483433219c757fdb29bf389c2b7\/_double-string.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/448fda8467832483433219c757fdb29bf389c2b7\/_double-string.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/48ba977016101dd06a068736d7511507140a0273\/_bourbon-deprecated-upcoming.scssc": {
@@ -573,6 +675,12 @@
 		"oAP": "\/.sass-cache\/7e58b3de280573c9fe30555e11a4c92c8acf2e51\/_resolution.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/95efdac6315cbe5b1e7b2c709d765e7bf77267c0\/_default.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/95efdac6315cbe5b1e7b2c709d765e7bf77267c0\/_default.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/9826bc9b0136d3a60e51b5060219e3bbc91683ec\/sp123_rubik_style.scssc": {
 		"ft": 8192,
 		"oA": 2,
@@ -583,6 +691,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/b6348eb567ce5dcd2aeb22f4b44b00dcd00f057e\/_breakpoint.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/cc5ecc93b7b1fcb1a096acc612833d7bb97f4669\/_default.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/cc5ecc93b7b1fcb1a096acc612833d7bb97f4669\/_default.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/cd6094a7a9b1c13a1e64985cb5b5cef45139e4b3\/_asset-pipeline.scssc": {
@@ -2211,22 +2325,6 @@
 		"oAP": "\/bower_components\/sassy-maps\/sassy-maps.gemspec",
 		"oF": 0
 		},
-	"\/css\/sp123_rubik_style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/sp123_rubik_style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/sp123_rubik_style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/sp123_rubik_style.css.map",
-		"oF": 0
-		},
 	"\/images\/banner.jpg": {
 		"ft": 16384,
 		"iS": 28112,
@@ -2381,30 +2479,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/page.tpl.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page.tpl.php",
-		"oF": 0
-		},
 	"\/sp123_rubik.info": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sp123_rubik.info",
 		"oF": 0
-		},
-	"\/sp123_rubik_style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/sp123_rubik_style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 0
 		}
 	},
 "hooks": [
