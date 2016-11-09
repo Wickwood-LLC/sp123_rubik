@@ -1,0 +1,559 @@
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+/****** VARIABLES ******/
+$primary_color: #0f753b;
+$primary_shadow: #33aa58;
+
+/***********************/
+
+/****** MIXINS ******/
+
+/***********************/
+
+// @import 'https://fonts.googleapis.com/css?family=Allura|Italianno';
+
+body {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+#header,
+#console,
+#branding .limiter,
+#page-title .limiter,
+#page,
+#footer,
+.region-footer {
+  width: 100%;
+}
+
+a, .page-title {
+  color: $primary_color;
+}
+
+.pager li.pager-current, .primary-tabs li.active {
+  background-color: $primary_color;
+}
+.pager li.pager-current span, .primary-tabs li.active a {
+  text-shadow: $primary_shadow 0 1px 0;
+}
+
+.action-links a {
+  background-color: $primary_color;
+  text-shadow: $primary_shadow 0 1px 0;
+}
+
+.boxed,
+div.panel-pane div.node.boxed {
+  border-color: #4cae4c;
+}
+
+.site-title-1 {
+  // font-family: 'Allura', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+}
+.site-title-2 {
+  // font-family: 'Italianno', Helvetica, Arial, sans-serif;
+  color: #9bcb3c;
+  display: block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  margin-top: -15px;
+}
+
+
+
+#mini-panel-header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  #site-title {
+    display: inline-block;
+    line-height: 1;
+    text-align: right;
+    margin: 0;
+    vertical-align: middle;
+  }
+  .logo-container {
+    display: inline-block;
+  }
+
+  .pane-page-logo {
+    flex: 0;
+  }
+
+  .pane-page-site-name {
+    font-size: 2.1em ;
+    line-height: 1.5;
+    text-align: center;
+    flex: 1 0;
+
+    @include breakpoint(568px) {
+      font-size: 2em;
+      flex: 4;
+    }
+    @include breakpoint(768px) {
+      font-size: 2.2em;
+    }
+    @include breakpoint(1024px) {
+      font-size: 2.5em;
+    }
+  }
+  .pane-page-slogan {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    flex: 1 1 100%;
+
+    @include breakpoint(568px) {
+      flex: 5;
+    }
+    @include breakpoint(1024px) {
+      font-size: 1.2em;
+    }
+  }
+}
+
+#block-tb-megamenu-main-menu {
+  .tb-megamenu-main-menu{
+    .tb-megamenu-nav>li {
+      &.active,
+      &.active>a {
+        background-color: $primary_color !important;
+        color: #fff;
+        text-shadow: $primary_shadow 0px 1px 0px;
+      }
+    }
+  }
+}
+
+#page .radix-sanderson {
+  .row:first-child {
+    background: url('images/banner.png') cover;
+  }
+}
+
+#block-panels-mini-footer {
+  #mini-panel-footer {
+    display: block;
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      display: flex;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      display: block;
+    }
+    
+    @include breakpoint(768px (orientation landscape)) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .pane-custom.pane-2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 1em;
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+      padding-top: 5px;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+    }
+
+    
+    @include breakpoint(768px (orientation landscape)) {
+      flex: 0 auto;
+      width: auto;
+      margin-bottom: 0px;
+    }
+  }
+
+  .pane-menu-menu-footer-links .pane-content {
+    float: right;
+    width: 50%;
+
+    ul.menu {
+      text-align: center;
+    }
+
+    .menu li {
+      border-bottom: 0px;
+      float: none;
+      margin-left: 0;
+    }
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+      float: left;
+      clear: left;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
+    
+    @include breakpoint(768px (orientation landscape)) {
+      flex: 0 auto;
+      width: auto;
+
+      .menu li {
+        float: left;
+
+        &:first-child {
+          margin-left: 2em;
+        }
+      }
+    }
+  }
+
+  .pane-custom.pane-3 {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+      padding-top: 5px;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+.myriad-left-sidebar {
+  .main-content {
+    width: calc(70% - 1em);
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .sidebar {
+    float: left;
+    width: calc(30% - 1em);
+    display: inline-block;
+    margin-right: 1em;
+  }
+}
+
+div.panel-pane div.node.node-advertisement {
+  padding: 1em;
+  border: 1px solid #4cae4c;
+  margin-bottom: 2em;
+  width: 100%;
+  box-sizing: border-box;
+
+  &.node-ad-image-portrait,
+  &.node-ad-amazon-book {
+    .col-1 {
+      float: left;
+      margin-right: 1em;
+    }
+  }
+
+  &.node-ad-image-landscape {
+    text-align: center;
+  }
+
+  .pane-node-title {
+    text-align: center;
+  }
+  .pane-node-field-ad-sub-headline {
+    text-align: center;
+  }
+
+  .file-image img {
+    margin: auto;
+  }
+  .file-video iframe {
+    display: table;
+    margin: auto;
+  }
+
+  .field-items {
+    margin-left: 0;
+  }
+}
+
+.pane-node-field-amazon-book-listing {
+  display: table;
+
+  .field-name-field-amazon-book-listing {
+    border: 0px;
+  }
+}
+
+.pane-node-field-call-to-action {
+  display: table;
+  margin: 1em auto;
+  padding: 6px 12px !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+
+  a {
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #449d44;
+    border-color: #398439;
+    text-decoration: none;
+  }
+}
+
+div.panel-pane div.node.node-testimonial {
+  padding: 1em;
+  border: 1px solid #4cae4c;
+  margin-bottom: 2em;
+
+  .pane-node-field-video {
+    text-align: center;
+  }
+
+  .book-thumbnail {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .row-one {
+    .col-1 {
+      float: left;
+      margin-right: 1em;
+    }
+    .col-2{
+      .pane-node-field-amazon-book-listing {
+        display: block;
+        overflow: hidden;
+
+        .pane-title, .field-name-field-amazon-book-listing {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .row-two .col-1 {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .row-2 {
+    .pane-node-field-amazon-book-listing {
+      display: block;
+      overflow: hidden;
+
+      .pane-title, .field-name-field-amazon-book-listing {
+        display: inline-block;
+      }
+    }
+  }
+
+  .field-items {
+    margin-left: 0;
+  }
+}
+
+.node-type-training-roundtable {
+  .pane-node-field-video {
+    text-align: center;
+  }
+
+  .pane-node-field-roundtable-session-date {
+    text-align: center;
+
+    .pane-title, .pane-content {
+      display: inline-block;
+    }
+  }
+
+  .field > .field-items {
+    margin-left: 0px;
+  }
+}
+
+.pane-roundtable-sessions-jump-menu {
+  .pane-content {
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
+.node-type-training-power-to-publish {
+  .field > .field-items {
+    margin-left: 0px;
+  }
+
+  .pane-node-title {
+    text-align: center;
+  }
+  .pane-node-field-video {
+    text-align: center;
+  }
+}
+
+.node-type-course {
+  .field > .field-items {
+    margin-left: 0px;
+  }
+
+  .pane-node-title {
+    text-align: center;
+  }
+  .pane-node-field-video {
+    text-align: center;
+  }
+}
+
+.pane-course-outline {
+  .item-list ul li {
+    border-bottom: 0px;
+  }
+}
+
+.pane-course-navigation {
+  .item-list ul {
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+
+    li {
+      border-bottom: 0px;
+      display: inline-block;
+      margin-left: 1em;
+  
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.field-collection-view {
+  border: 0px;
+}
+
+.field-collection-item-field-resources {
+  .field-name-field-resource-documents {
+    margin-bottom: 1em;
+  }
+
+  .field-item {
+    margin-bottom: 0.3em;
+
+    &.odd {
+      background-color: white;
+    }
+  }
+}
+
+.field-collection-container .field-items .field-items .field-item {
+  margin-bottom: 0.3em;
+}
+
+.views-slideshow-cycle-main-frame-row {
+  width: 100%;
+}
+
+.pane-nodequeue-1-panel-pane-1 {
+  .pane-content {
+    margin-top: 1em;
+    margin-bottom: -1em;
+  }
+
+  .ui-state-hover, .ui-state-focus, .ui-state-active {
+    .ui-icon {
+      filter: invert(100%) brightness(100);
+    }
+  }
+  .ui-accordion-header {
+    border-color: #4cae4c;
+    margin: 5px 0 !important;
+
+    &:hover {
+      background-color: #51a351;
+
+      a {
+        color: white;
+      }
+    }
+  }
+  .ui-accordion-header-active {
+    border-bottom: 0px;
+    color: white;
+    background-color: $primary_color;
+
+    &:hover {
+      background-color: $primary_color;
+    }
+
+    a {
+      color: white;
+    }
+  }
+  .ui-accordion-content {
+    border-color: #4cae4c;
+    margin-bottom: 10px;
+    margin-top: -19px;
+    padding: 0;
+  }
+  .views-row {
+    line-height: 2;
+    border-bottom: 1px solid #f3f3f3;
+
+    .field-content {
+      display: block;
+
+      a {
+        display: block;
+        padding: 0 2.2em;
+      }
+    }
+
+    a.active {
+      color: white;
+      background-color: #51a351;
+    }
+  }
+  .views-row-even {
+    background-color: #f9f9f9;
+  }
+}
