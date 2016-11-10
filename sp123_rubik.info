@@ -1,6 +1,6 @@
 name = SP123 Rubik
-description = Rubik subtheme for use in SP123 website.
-base theme = rubik
+description = Full Rubik subtheme for use in SP123 website.
+base theme = full_rubik
 core = 7.x
 
 stylesheets[all][] = css/sp123_rubik_style.css
