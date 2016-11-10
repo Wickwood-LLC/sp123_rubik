@@ -1934,11 +1934,12 @@ table#field-notes-values {
       margin-right: 0;
     }
     label {
-      width: 70px;
+      width: 80px;
       box-sizing: border-box;
     }
-    select.state {
-      width: calc(100% - 75px);
+    select.state,
+    select.country {
+      width: calc(100% - 85px);
     }
   }
 
