@@ -422,9 +422,29 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
 
+#field-mailing-address-values .form-item label {
+  display: inline-block;
+  width: 70px; }
+
 #field-mailing-address-values table, #field-mailing-address-values thead, #field-mailing-address-values tr, #field-mailing-address-values th, #field-mailing-address-values tbody, #field-mailing-address-values td {
   display: block; }
 
+#field-mailing-address-values tr.draggable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 #field-mailing-address-values tr.draggable td:not([class]) {
   width: calc(100% - 30px); }
+
+#field-mailing-address-values .field-name-field-address div.addressfield-container-inline > div.form-item {
+  float: none;
+  margin-right: 0; }
+
+#field-mailing-address-values .field-name-field-address label {
+  width: 70px;
+  box-sizing: border-box; }
+
+#field-mailing-address-values .field-name-field-address select.state {
+  width: calc(100% - 75px); }
 /*# sourceMappingURL=sp123_rubik_style.css.map */
