@@ -58,7 +58,3 @@
     <?php if (!empty($page['content'])) print render($page['content']) ?>
   </div>
 </div></div>
-
-<div id='footer' class='clearfix'>
-  <?php print render($page['footer']); ?>
-</div>
