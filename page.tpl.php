@@ -59,8 +59,4 @@
   </div>
 </div></div>
 
-<footer id='footer' class='clearfix'>
-  <div class="footer-inner">
-    <?php print render($page['footer']); ?>
-  </div>
-</footer>
+
