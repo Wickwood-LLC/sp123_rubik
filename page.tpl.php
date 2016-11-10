@@ -47,3 +47,8 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 </div></div>
+
+<?php if ($show_messages && $messages): ?>
+<div id='console'><div class='limiter clearfix'><?php print $messages; ?></div></div>
+<?php endif; ?>
+
