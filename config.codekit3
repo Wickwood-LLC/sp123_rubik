@@ -733,6 +733,18 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/template.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template.php",
+		"oF": 0
+		},
+	"\/theme-settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/theme-settings.php",
+		"oF": 0
 		}
 	},
 "hooks": [
