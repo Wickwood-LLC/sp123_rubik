@@ -30,7 +30,7 @@ a, .page-title {
 
 .boxed,
 div.panel-pane div.node.boxed {
-  border: 2px solid #689a04;
+  border: 2px solid #689a04 !important;
   border-radius: 10px; }
 
 .site-title-1 {
@@ -422,6 +422,11 @@ div.panel-pane div.node.node-testimonial {
 
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
+
+fieldset {
+  margin-bottom: 1em;
+  border: 2px solid #689a04;
+  border-radius: 10px; }
 
 /************************************************************************************************************************************************************************************/
 /********************/
