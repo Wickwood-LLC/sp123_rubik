@@ -25,11 +25,6 @@
   <?php print render($title_prefix); ?>
   <h1 class='page-title <?php print $page_icon_class ?>'>
     <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
-    <?php if (arg(0) == 'user' && arg(1) == 'login') : ?>
-      <h1 class="page-title"> Log In to <?php print strip_tags($site_name); ?> </h1>
-    <?php elseif (arg(0) == 'user' && arg(1) == 'password') : ?>
-      <h1 class="page-title"> Reset Your <?php print strip_tags($site_name); ?> Password </h1>
-    <?php else : ?>
       <?php if ($title) print $title ?>
     <?php endif ; ?>
   </h1>
