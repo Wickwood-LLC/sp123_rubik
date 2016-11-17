@@ -61,6 +61,12 @@ body {
   }
 }
 
+.form-actions #edit-submit {
+  display: inline-block;
+  background-color: #0f753b;
+  color: white;
+}
+
 footer.footer {
   padding: 0 1%;
 }
