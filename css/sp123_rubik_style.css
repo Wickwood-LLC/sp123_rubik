@@ -426,7 +426,7 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
 
-.fieldset.titled > .fieldset-content {
+fieldset.fieldset.titled > .fieldset-content {
   padding-top: 0; }
 
 fieldset.collapsed {
