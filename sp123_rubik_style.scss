@@ -28,6 +28,25 @@ body {
   width: 100%;
 }
 
+.form-item {
+  input.form-radio,
+  input.form-checkbox {
+    display: block;
+    float: left;
+  }
+
+  label.option {
+    display: block;
+    margin-left: 25px;
+    font-weight: normal;
+    text-align: left;
+  }
+}
+
+footer.footer {
+  padding: 0 1%;
+}
+
 #page-title .limiter {
   width: auto;
 }
