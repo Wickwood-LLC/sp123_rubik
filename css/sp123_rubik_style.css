@@ -441,7 +441,8 @@ fieldset, fieldset.collapsible {
       fieldset legend .fieldset-legend a.fieldset-title .icon, fieldset.collapsible legend .fieldset-legend a.fieldset-title .icon {
         left: 20px; }
   fieldset .fieldset-content, fieldset.collapsible .fieldset-content {
-    background-color: transparent; }
+    background-color: transparent;
+    padding-top: 0; }
 
 /************************************************************************************************************************************************************************************/
 /********************/
