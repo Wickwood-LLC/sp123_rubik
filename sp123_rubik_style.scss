@@ -566,12 +566,12 @@ fieldset.collapsible {
   border: 2px solid #689a04;
   border-radius: 10px;
 
-  legend {
+  legend.fieldset-legend {
     float: none;
     margin-left: 1em;
     width: auto;
 
-    a {
+    a.fieldset-title {
       background: inherit;
       height: auto;
       font-size: 16px;
