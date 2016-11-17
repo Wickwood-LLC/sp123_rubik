@@ -27,6 +27,19 @@ body {
   font-weight: normal;
   text-align: left; }
 
+.page-user-edit .field-add-more-submit {
+  background-color: #6fae1b;
+  color: white; }
+
+.page-user-edit input[value="Remove"] {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  right: -72px;
+  top: 50%;
+  background-color: #6fae1b;
+  color: white; }
+
 footer.footer {
   padding: 0 1%; }
 
