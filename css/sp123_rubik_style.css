@@ -45,6 +45,12 @@ body {
   background-color: #0f753b;
   color: white; }
 
+.field-name-field-book-types .form-item.form-type-radio {
+  margin-bottom: 0;
+  width: auto;
+  display: inline-block;
+  margin-right: 8px; }
+
 footer.footer {
   padding: 0 1%; }
 
