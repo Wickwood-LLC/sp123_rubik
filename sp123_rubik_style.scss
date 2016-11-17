@@ -565,6 +565,21 @@ fieldset.fieldset {
   margin-bottom: 1em;
   border: 2px solid #689a04;
   border-radius: 10px;
+
+  legend {
+    float: none;
+    margin-left: 1em;
+
+    a {
+      background: inherit;
+      height: auto;
+      font-size: 16px;
+    }
+  }
+
+  .fieldset-content {
+    background-color: transparent;
+  }
 }
 
 /************************************************************************************************************************************************************************************/
