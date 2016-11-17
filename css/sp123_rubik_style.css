@@ -426,7 +426,7 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
 
-fieldset {
+fieldset.fieldset {
   margin-bottom: 1em;
   border: 2px solid #689a04;
   border-radius: 10px; }
