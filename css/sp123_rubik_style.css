@@ -18,10 +18,11 @@ body {
 .form-item input.form-radio,
 .form-item input.form-checkbox {
   display: block;
-  float: left; }
+  float: left;
+  margin-top: 4px; }
 
 .form-item label.option {
-  display: block;
+  display: block !important;
   margin-left: 25px;
   font-weight: normal;
   text-align: left; }

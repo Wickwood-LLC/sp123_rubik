@@ -33,10 +33,11 @@ body {
   input.form-checkbox {
     display: block;
     float: left;
+    margin-top: 4px;
   }
 
   label.option {
-    display: block;
+    display: block !important;
     margin-left: 25px;
     font-weight: normal;
     text-align: left;
