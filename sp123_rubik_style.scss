@@ -561,6 +561,14 @@ div.panel-pane div.node.node-testimonial {
   }
 }
 
+.fieldset.titled > .fieldset-content {
+  padding-top: 0;
+}
+
+fieldset.collapsed {
+  padding-top: 1em;
+}
+
 fieldset.fieldset, fieldset.collapsible {
   margin-bottom: 1em;
   border: 2px solid #689a04;
@@ -586,7 +594,6 @@ fieldset.fieldset, fieldset.collapsible {
 
   .fieldset-content {
     background-color: transparent;
-    padding-top: 0;
   }
 }
 

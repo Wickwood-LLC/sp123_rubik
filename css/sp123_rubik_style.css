@@ -426,6 +426,12 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
 
+.fieldset.titled > .fieldset-content {
+  padding-top: 0; }
+
+fieldset.collapsed {
+  padding-top: 1em; }
+
 fieldset.fieldset, fieldset.collapsible {
   margin-bottom: 1em;
   border: 2px solid #689a04;
@@ -441,8 +447,7 @@ fieldset.fieldset, fieldset.collapsible {
       fieldset.fieldset legend .fieldset-legend .fieldset-title .icon, fieldset.collapsible legend .fieldset-legend .fieldset-title .icon {
         left: 20px; }
   fieldset.fieldset .fieldset-content, fieldset.collapsible .fieldset-content {
-    background-color: transparent;
-    padding-top: 0; }
+    background-color: transparent; }
 
 /************************************************************************************************************************************************************************************/
 /********************/
