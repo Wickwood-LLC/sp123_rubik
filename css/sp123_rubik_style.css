@@ -426,21 +426,21 @@ div.panel-pane div.node.node-testimonial {
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
 
-fieldset, fieldset.collapsible {
+fieldset.fieldset, fieldset.collapsible {
   margin-bottom: 1em;
   border: 2px solid #689a04;
   border-radius: 10px; }
-  fieldset legend, fieldset.collapsible legend {
+  fieldset.fieldset legend, fieldset.collapsible legend {
     float: none;
     margin-left: 1em;
     width: auto; }
-    fieldset legend .fieldset-legend a.fieldset-title, fieldset.collapsible legend .fieldset-legend a.fieldset-title {
+    fieldset.fieldset legend .fieldset-legend .fieldset-title, fieldset.collapsible legend .fieldset-legend .fieldset-title {
       background: inherit;
       height: auto;
       font-size: 16px; }
-      fieldset legend .fieldset-legend a.fieldset-title .icon, fieldset.collapsible legend .fieldset-legend a.fieldset-title .icon {
+      fieldset.fieldset legend .fieldset-legend .fieldset-title .icon, fieldset.collapsible legend .fieldset-legend .fieldset-title .icon {
         left: 20px; }
-  fieldset .fieldset-content, fieldset.collapsible .fieldset-content {
+  fieldset.fieldset .fieldset-content, fieldset.collapsible .fieldset-content {
     background-color: transparent;
     padding-top: 0; }
 

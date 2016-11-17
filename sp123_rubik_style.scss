@@ -561,7 +561,7 @@ div.panel-pane div.node.node-testimonial {
   }
 }
 
-fieldset, fieldset.collapsible {
+fieldset.fieldset, fieldset.collapsible {
   margin-bottom: 1em;
   border: 2px solid #689a04;
   border-radius: 10px;
@@ -572,7 +572,7 @@ fieldset, fieldset.collapsible {
     width: auto;
 
     .fieldset-legend {
-      a.fieldset-title {
+      .fieldset-title {
         background: inherit;
         height: auto;
         font-size: 16px;
