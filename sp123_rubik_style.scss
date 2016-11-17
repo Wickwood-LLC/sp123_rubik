@@ -561,7 +561,7 @@ div.panel-pane div.node.node-testimonial {
   }
 }
 
-fieldset.collapsible {
+fieldset, fieldset.collapsible {
   margin-bottom: 1em;
   border: 2px solid #689a04;
   border-radius: 10px;
@@ -576,6 +576,10 @@ fieldset.collapsible {
         background: inherit;
         height: auto;
         font-size: 16px;
+
+        .icon {
+          left: 20px;
+        }
       }
     }
   }
