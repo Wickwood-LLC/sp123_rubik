@@ -2156,6 +2156,9 @@ table#field-notes-values {
     border: 1px solid #DDDDDD;
     display: table;
     border-collapse: initial;
+    thead {
+      display: none;
+    }
     th {
       padding: 5px;
     }
