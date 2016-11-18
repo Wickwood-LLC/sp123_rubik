@@ -722,12 +722,12 @@
 		"oF": 0
 		},
 	"\/sp123_rubik_style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/sp123_rubik_style.css",
 		"oF": 0,

@@ -6,7 +6,7 @@ body {
   max-width: 1360px;
   margin: 0 auto; }
 
-.admin-menu {
+#admin-menu {
   max-width: 100% !important; }
 
 #header,
@@ -89,19 +89,12 @@ div.panel-pane div.node.boxed {
   margin-top: -15px; }
 
 #mini-panel-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-bottom: 0px;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center; }
   #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;
@@ -111,22 +104,16 @@ div.panel-pane div.node.boxed {
   #mini-panel-header .logo-container {
     display: inline-block; }
   #mini-panel-header .pane-page-logo {
-    -webkit-box-flex: 0;
-        -ms-flex: 0;
-            flex: 0; }
+    flex: 0; }
   #mini-panel-header .pane-page-site-name {
     font-size: 2.1em;
     line-height: 1.5;
     text-align: center;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0;
-            flex: 1 0; }
+    flex: 1 0; }
     @media (min-width: 568px) {
       #mini-panel-header .pane-page-site-name {
         font-size: 2em;
-        -webkit-box-flex: 4;
-            -ms-flex: 4;
-                flex: 4; } }
+        flex: 4; } }
     @media (min-width: 768px) {
       #mini-panel-header .pane-page-site-name {
         font-size: 2.2em; } }
@@ -137,14 +124,10 @@ div.panel-pane div.node.boxed {
     font-size: 1em;
     line-height: 1.5;
     text-align: center;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%; }
+    flex: 1 1 100%; }
     @media (min-width: 568px) {
       #mini-panel-header .pane-page-slogan {
-        -webkit-box-flex: 5;
-            -ms-flex: 5;
-                flex: 5; } }
+        flex: 5; } }
     @media (min-width: 1024px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 1.2em; } }
@@ -162,25 +145,16 @@ div.panel-pane div.node.boxed {
   display: block; }
   @media (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {
     #block-panels-mini-footer #mini-panel-footer {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; } }
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     #block-panels-mini-footer #mini-panel-footer {
       display: block; } }
   @media (min-width: 768px) and (orientation: landscape) {
     #block-panels-mini-footer #mini-panel-footer {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; } }
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center; } }
 
 #block-panels-mini-footer .pane-custom.pane-2 {
   width: 50%;
@@ -196,9 +170,7 @@ div.panel-pane div.node.boxed {
       width: 50%; } }
   @media (min-width: 768px) and (orientation: landscape) {
     #block-panels-mini-footer .pane-custom.pane-2 {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 auto;
-              flex: 0 auto;
+      flex: 0 auto;
       width: auto;
       margin-bottom: 0px; } }
 
@@ -215,33 +187,21 @@ div.panel-pane div.node.boxed {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
       width: auto; }
       #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content ul.menu {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; } }
+        flex-flow: row wrap;
+        justify-content: center; } }
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
       width: 50%;
       float: left;
       clear: left; }
       #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content ul.menu {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; } }
+        flex-flow: row wrap;
+        justify-content: center; } }
   @media (min-width: 768px) and (orientation: landscape) {
     #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 auto;
-              flex: 0 auto;
+      flex: 0 auto;
       width: auto; }
       #block-panels-mini-footer .pane-menu-menu-footer-links .pane-content .menu li {
         float: left; }
@@ -311,13 +271,9 @@ div.panel-pane div.node.node-advertisement {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  touch-action: manipulation;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -427,8 +383,7 @@ div.panel-pane div.node.node-testimonial {
   margin-bottom: -1em; }
 
 .pane-nodequeue-1-panel-pane-1 .ui-state-hover .ui-icon, .pane-nodequeue-1-panel-pane-1 .ui-state-focus .ui-icon, .pane-nodequeue-1-panel-pane-1 .ui-state-active .ui-icon {
-  -webkit-filter: invert(100%) brightness(100);
-          filter: invert(100%) brightness(100); }
+  filter: invert(100%) brightness(100); }
 
 .pane-nodequeue-1-panel-pane-1 .ui-accordion-header {
   border-color: #4cae4c;
@@ -526,12 +481,10 @@ fieldset.fieldset, fieldset.collapsible {
   .view-vendors .views-field-edit-node a,
   .view-service-bureaus .views-field-edit-node a,
   .view-non-staff-users .views-field-edit-node a {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
+    transform: rotate(-90deg); }
 
 .view-lenders .views-field-edit-node a {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   top: initial;
   margin-top: initial; }
 
@@ -554,8 +507,6 @@ table.views-table .pane-user-field-identification {
   min-width: 0%; }
 
 #block-panels-mini-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-bottom: 0px; }
@@ -582,20 +533,12 @@ table.views-table .pane-user-field-identification {
       #block-panels-mini-header .pane-page-slogan {
         font-size: 1.5em; } }
   #block-panels-mini-header .middle-column {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    align-items: center;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
   #block-panels-mini-header .right-column,
   #block-panels-mini-header .left-column {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 auto;
-            flex: 0 auto; }
+    flex: 0 auto; }
   #block-panels-mini-header .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
@@ -639,25 +582,16 @@ table.views-table .pane-user-field-identification {
     top: -10px; }
 
 .node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 90px;
-          flex: 0 0 90px; }
+  flex: 0 0 90px; }
 
 .node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 90px);
-          flex: 1 1 calc(100% - 90px);
+  flex: 1 1 calc(100% - 90px);
   min-width: 100px; }
 
 .node-type-loan .pane-node-group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
@@ -729,27 +663,18 @@ table.views-table .pane-user-field-identification {
 
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
+  flex: 0 0 150px; }
 
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-lender input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
+  flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
 
 .node-type-loan .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
@@ -871,19 +796,13 @@ table.views-table .pane-user-field-identification {
   text-align: center; }
   .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex; }
     .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
 
 .node-type-press-release.panelized-node .field-name-field-upload-document {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 .node-type-press-release.panelized-node .field-name-field-featured-image {
   width: 100%; }
@@ -995,8 +914,6 @@ table.views-table .pane-user-field-identification {
     min-width: 75px; }
   .page-user-view .field-name-field-thank-you-card-and-referra.field-label-inline > .field-items .field {
     width: 100%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex; }
 
 .page-user-view .field-name-field-thank-you-card-and-referra > .field-items {
@@ -1047,8 +964,7 @@ table.views-table .pane-user-field-identification {
 /* Client Edit Styles */
 .page-user-edit.page-user-edit-bwma-client .pane-profile2-field-loans #edit-profile-bwma-client-field-loans .button-remove {
   position: static;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg); }
+  transform: rotate(0deg); }
 
 .page-user-edit.page-user-edit-bwma-client .pane-profile2-field-loans #edit-profile-bwma-client-field-loans input[type="submit"] {
   margin-right: 0.5em;
@@ -1086,24 +1002,15 @@ table.views-table .pane-user-field-identification {
   .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number .form-item {
     display: block;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    align-items: center;
+    flex-flow: row wrap; }
     @media (min-width: 480px) {
       .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number .form-item {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex; } }
   .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 220px;
-            flex: 0 0 220px; }
+    flex: 0 0 220px; }
   .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-drivers-license-number input {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 220px);
-            flex: 1 1 calc(100% - 220px);
+    flex: 1 1 calc(100% - 220px);
     min-width: 200px; }
   .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-driver-s-license .field-name-field-expiration-date .form-item {
     display: block; }
@@ -1114,29 +1021,20 @@ table.views-table .pane-user-field-identification {
 .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag .form-item {
   display: block;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
   @media (min-width: 480px) {
     .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name .form-item,
     .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag .form-item {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; } }
 
 .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name label,
 .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 140px;
-          flex: 0 0 140px; }
+  flex: 0 0 140px; }
 
 .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-company-name input,
 .page-user-edit.page-user-edit-bwma-client .pane-client-additional-id-info-edit .field-name-field-occupation-or-title-tag input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 140px);
-          flex: 1 1 calc(100% - 140px);
+  flex: 1 1 calc(100% - 140px);
   min-width: 200px; }
 
 .page-user-edit.page-user-edit-bwma-client .pane-user-field-related-clients .pane-content {
@@ -1150,25 +1048,16 @@ table.views-table .pane-user-field-identification {
   display: inline; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 90px;
-          flex: 0 0 90px; }
+  flex: 0 0 90px; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 90px);
-          flex: 1 1 calc(100% - 90px);
+  flex: 1 1 calc(100% - 90px);
   min-width: 100px; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
@@ -1245,27 +1134,18 @@ table.views-table .pane-user-field-identification {
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
+  flex: 0 0 150px; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
+  flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
@@ -1323,34 +1203,20 @@ table.views-table .pane-user-field-identification {
   width: auto; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 75px;
-            flex: 0 0 75px; }
+    flex: 0 0 75px; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item select {
     width: auto; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 90px;
-            flex: 0 0 90px; }
+    flex: 0 0 90px; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-monthly-payment input,
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
@@ -1438,17 +1304,11 @@ table.views-table .pane-user-field-identification {
     width: auto; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 114px;
-            flex: 0 0 114px; }
+    flex: 0 0 114px; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
   width: 110px; }
@@ -1457,17 +1317,11 @@ table.views-table .pane-user-field-identification {
   width: auto; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 184px;
-            flex: 0 0 184px; }
+    flex: 0 0 184px; }
   .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 
 .page-user-edit.page-user-edit-bwma-client .field-name-field-loans .ief-form .loan-sb label {
   width: 180px; }
@@ -1522,16 +1376,10 @@ table.views-table .pane-user-field-identification {
 .pane-profile2-field-source-date {
   display: inline-block; }
   .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    align-items: center; }
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label, .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item input {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 0 auto;
-              flex: 0 0 auto;
+      flex: 0 0 auto;
       display: inline-block; }
     .pane-profile2-field-source-date .field-type-datetime.field-widget-date-popup .form-item label {
       margin-right: 5px; }
@@ -1583,15 +1431,10 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-last-name .form-item,
 .page-admin-people-create #main-content .field-name-field-name-suffix .form-item,
 .page-admin-people-create #main-content .field-name-field-nickname .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-user-edit #main-content .field-name-field-name-prefix label,
 .page-user-edit #main-content .field-name-field-first-name label,
@@ -1605,9 +1448,7 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-last-name label,
 .page-admin-people-create #main-content .field-name-field-name-suffix label,
 .page-admin-people-create #main-content .field-name-field-nickname label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 95px;
-          flex: 0 0 95px; }
+  flex: 0 0 95px; }
 
 .page-user-edit #main-content .field-name-field-name-prefix input,
 .page-user-edit #main-content .field-name-field-first-name input,
@@ -1621,9 +1462,7 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-last-name input,
 .page-admin-people-create #main-content .field-name-field-name-suffix input,
 .page-admin-people-create #main-content .field-name-field-nickname input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 95px);
-          flex: 1 1 calc(100% - 95px);
+  flex: 1 1 calc(100% - 95px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-gender label,
@@ -1742,39 +1581,28 @@ table#field-notes-values {
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item,
 .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
 .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
   @media (min-width: 480px) {
     .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
     .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item,
     .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-company-name .form-item,
     .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag .form-item {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; } }
 
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name label,
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag label,
 .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-company-name label,
 .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 190px;
-          flex: 0 0 190px; }
+  flex: 0 0 190px; }
 
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-company-name input,
 .page-user-edit .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag input,
 .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-company-name input,
 .page-admin-people-create .pane-consultant-additional-id-info-ed .field-name-field-occupation-or-title-tag input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 190px);
-          flex: 1 1 calc(100% - 190px);
+  flex: 1 1 calc(100% - 190px);
   min-width: 100px; }
 
 .page-user-edit .pane-ref-partner-additional-id-info-e label,
@@ -1806,35 +1634,26 @@ table#field-notes-values {
 .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item {
   display: block;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
   @media (min-width: 480px) {
     .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
     .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item,
     .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-company-name .form-item,
     .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag .form-item {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; } }
 
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name label,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag label,
 .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-company-name label,
 .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 224px;
-          flex: 0 0 224px; }
+  flex: 0 0 224px; }
 
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-company-name input,
 .page-user-edit .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag input,
 .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-company-name input,
 .page-admin-people-create .pane-ref-partner-additional-id-info-e .field-name-field-occupation-or-title-tag input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 224px);
-          flex: 1 1 calc(100% - 224px);
+  flex: 1 1 calc(100% - 224px);
   min-width: 100px; }
 
 .page-user-edit .field-name-field-address .form-item,
@@ -1862,9 +1681,7 @@ table#field-notes-values {
 
 .page-user-edit .field-name-field-bwma-programs-enrolled .form-checkboxes,
 .page-admin-people-create .field-name-field-bwma-programs-enrolled .form-checkboxes {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  column-count: 2; }
 
 .page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper,
 .page-admin-people-create .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
@@ -1951,9 +1768,7 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios,
 .page-admin-people-create .field-name-field-group .form-radios {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-identification .form-radios,
 .page-admin-people-create .field-name-field-identification .form-radios {
@@ -1973,9 +1788,7 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) .form-item-roles .form-checkboxes,
 .page-admin-people-create .form-item-roles .form-checkboxes {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  column-count: 2; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .group-user label,
 .page-admin-people-create .group-user label {
@@ -2009,8 +1822,7 @@ table#field-notes-values {
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete),
 .page-admin-people-create input.button-remove:not(#edit-delete) {
   position: absolute;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   right: -50px;
   top: 50%; }
 
@@ -2089,25 +1901,16 @@ table#field-notes-values {
     top: -10px; }
 
 .page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 90px;
-          flex: 0 0 90px; }
+  flex: 0 0 90px; }
 
 .page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 90px);
-          flex: 1 1 calc(100% - 90px);
+  flex: 1 1 calc(100% - 90px);
   min-width: 100px; }
 
 .page-user-view .field-name-field-loans .pane-node-group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
@@ -2179,27 +1982,18 @@ table#field-notes-values {
 
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
+  flex: 0 0 150px; }
 
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-lender input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
+  flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
 
 .page-user-view .field-name-field-loans .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
@@ -2247,21 +2041,16 @@ table#field-notes-values {
 
 /* Staff Edit Styles */
 .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane label {
       width: auto; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .file-widget {
       display: inline; }
     .page-user-edit-bwma-staff #mini-panel-staff_information_edit .panel-panel-inner .panel-pane .field-name-field-w-9 .button-remove {
       position: relative;
-      -webkit-transform: none;
-              transform: none;
+      transform: none;
       right: 0;
       top: 0; }
 
@@ -2335,8 +2124,7 @@ table#field-notes-values {
     position: absolute;
     right: -50px;
     top: 50%;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
+    transform: rotate(-90deg); }
 
 .field-name-field-notes .field-add-more-submit,
 .field-name-field-staff-notes .field-add-more-submit {
@@ -2350,43 +2138,32 @@ td:not([class]) {
       position: absolute;
       right: -50px;
       top: 50%;
-      -webkit-transform: rotate(-90deg);
-              transform: rotate(-90deg); } }
+      transform: rotate(-90deg); } }
 
 #edit-field-loans.field-name-field-loans .button-remove {
   position: initial;
-  -webkit-transform: none;
-          transform: none;
+  transform: none;
   margin-right: 0.5em; }
 
 .field-name-field-referral-client .form-item,
 .field-name-field-referral-consultant .form-item,
 .field-name-field-referral-partner .form-item,
 .field-name-field-direct-mail-lead-tracking- .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  align-items: center;
+  flex-flow: row wrap;
   width: 100%; }
   .field-name-field-referral-client .form-item label,
   .field-name-field-referral-consultant .form-item label,
   .field-name-field-referral-partner .form-item label,
   .field-name-field-direct-mail-lead-tracking- .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    flex: 0 0 auto;
     margin-right: 5px; }
   .field-name-field-referral-client .form-item input,
   .field-name-field-referral-consultant .form-item input,
   .field-name-field-referral-partner .form-item input,
   .field-name-field-direct-mail-lead-tracking- .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 200px;
-            flex: 1 0 200px; }
+    flex: 1 0 200px; }
 
 .field-name-field-referral-client .field-name-field-address .state.form-select,
 .field-name-field-referral-consultant .field-name-field-address .state.form-select,
@@ -2395,13 +2172,9 @@ td:not([class]) {
   width: 100%; }
 
 .pane-additional-identifying-info-edit .form-item {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .pane-additional-identifying-info-edit .form-item label {
     width: 40%; }
 
@@ -2494,25 +2267,16 @@ td:not([class]) {
   display: inline; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 90px;
-          flex: 0 0 90px; }
+  flex: 0 0 90px; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 90px);
-          flex: 1 1 calc(100% - 90px);
+  flex: 1 1 calc(100% - 90px);
   min-width: 100px; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
@@ -2589,27 +2353,18 @@ td:not([class]) {
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  align-items: center;
+  flex-flow: row wrap; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
+  flex: 0 0 150px; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
+  flex: 1 1 calc(100% - 150px);
   min-width: 100px; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
@@ -2667,34 +2422,20 @@ td:not([class]) {
   width: auto; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-address .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-address .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 75px;
-            flex: 0 0 75px; }
+    flex: 0 0 75px; }
   .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-address .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
   .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-address .form-item select {
     width: auto; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-loan-type .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-loan-type .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 90px;
-            flex: 0 0 90px; }
+    flex: 0 0 90px; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-monthly-payment input,
 .page-admin-field-edit-profile2-field-loans .ief-form .field-name-field-additional-extra-principal input,
@@ -2782,17 +2523,11 @@ td:not([class]) {
     width: auto; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 114px;
-            flex: 0 0 114px; }
+    flex: 0 0 114px; }
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .loan-lenders label {
   width: 110px; }
@@ -2801,17 +2536,11 @@ td:not([class]) {
   width: auto; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 184px;
-            flex: 0 0 184px; }
+    flex: 0 0 184px; }
   .page-admin-field-edit-profile2-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 
 .page-admin-field-edit-profile2-field-loans .ief-form .loan-sb label {
   width: 180px; }
@@ -2874,13 +2603,9 @@ td:not([class]) {
   display: block;
   overflow: hidden; }
   .node-loan-form .loan-lenders .field-name-field-lender .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 114px;
-            flex: 0 0 114px; }
+    flex: 0 0 114px; }
   .node-loan-form .loan-lenders .field-name-field-lender .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 
 .node-loan-form .loan-lenders label {
   width: 110px; }
@@ -2889,17 +2614,11 @@ td:not([class]) {
   width: auto; }
 
 .node-loan-form .loan-sb .field-name-field-service-bureau .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 184px;
-            flex: 0 0 184px; }
+    flex: 0 0 184px; }
   .node-loan-form .loan-sb .field-name-field-service-bureau .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto; }
+    flex: auto; }
 
 .node-loan-form .loan-sb label {
   width: 180px; }
@@ -3077,8 +2796,7 @@ input.form-submit {
         display: inline-block;
         margin-left: 0.5em; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator {
-    -webkit-filter: invert(70%);
-            filter: invert(70%); }
+    filter: invert(70%); }
   #block-superfish-1 #superfish-1 .menuparent ul {
     width: auto !important;
     overflow: visible !important; }
@@ -3127,4 +2845,3 @@ input.form-submit {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li a {
     color: #00728e; }
-/*# sourceMappingURL=sp123_rubik_style.css.map */
