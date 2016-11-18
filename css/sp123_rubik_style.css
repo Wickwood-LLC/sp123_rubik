@@ -1828,7 +1828,6 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table,
 .page-admin-people-create table.field-multiple-table {
-  border: 1px solid #DDDDDD;
   display: table;
   border-collapse: initial; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table thead,
@@ -1837,6 +1836,9 @@ table#field-notes-values {
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th,
   .page-admin-people-create table.field-multiple-table th {
     padding: 5px; }
+  .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr,
+  .page-admin-people-create table.field-multiple-table tr {
+    border: 0; }
 
 .page-user .field-collection-item-field-phone .field-name-field-note .field-label {
   width: auto; }

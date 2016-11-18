@@ -2153,7 +2153,6 @@ table#field-notes-values {
   }
 
   table.field-multiple-table {
-    border: 1px solid #DDDDDD;
     display: table;
     border-collapse: initial;
     thead {
@@ -2161,6 +2160,9 @@ table#field-notes-values {
     }
     th {
       padding: 5px;
+    }
+    tr {
+      border: 0;
     }
   }
 }
