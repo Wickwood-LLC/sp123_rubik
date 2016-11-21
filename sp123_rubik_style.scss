@@ -87,7 +87,7 @@ footer.footer {
 }
 
 a, .page-title {
-  color: $primary_color;
+  color: $primary_color !important;
 }
 
 .pager li.pager-current, .primary-tabs li.active {
@@ -98,8 +98,9 @@ a, .page-title {
 }
 
 .action-links a {
-  background-color: $primary_color;
-  text-shadow: $primary_shadow 0 1px 0;
+  background-color: $primary_color !important;
+  text-shadow: $primary_shadow 0 1px 0 !important;
+  color: #fff !important;
 }
 
 .boxed,
@@ -2143,6 +2144,7 @@ table#field-notes-values {
 
   td {
     position: relative;
+    border: 0;
   }
 
   input.button-remove:not(#edit-delete) {
@@ -2162,7 +2164,7 @@ table#field-notes-values {
       padding: 5px;
     }
     tr {
-      border: 0;
+      border: 1px solid #ccc;
     }
   }
 }

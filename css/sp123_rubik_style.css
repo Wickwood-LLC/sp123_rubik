@@ -61,7 +61,7 @@ footer.footer {
   width: auto; }
 
 a, .page-title {
-  color: #0f753b; }
+  color: #0f753b !important; }
 
 .pager li.pager-current, .primary-tabs li.active {
   background-color: #0f753b; }
@@ -70,8 +70,9 @@ a, .page-title {
   text-shadow: #33aa58 0 1px 0; }
 
 .action-links a {
-  background-color: #0f753b;
-  text-shadow: #33aa58 0 1px 0; }
+  background-color: #0f753b !important;
+  text-shadow: #33aa58 0 1px 0 !important;
+  color: #fff !important; }
 
 .boxed,
 div.panel-pane div.node.boxed {
@@ -1817,7 +1818,8 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) td,
 .page-admin-people-create td {
-  position: relative; }
+  position: relative;
+  border: 0; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) input.button-remove:not(#edit-delete),
 .page-admin-people-create input.button-remove:not(#edit-delete) {
@@ -1838,7 +1840,7 @@ table#field-notes-values {
     padding: 5px; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr,
   .page-admin-people-create table.field-multiple-table tr {
-    border: 0; }
+    border: 1px solid #ccc; }
 
 .page-user .field-collection-item-field-phone .field-name-field-note .field-label {
   width: auto; }
