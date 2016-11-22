@@ -42,7 +42,7 @@ body {
 
   label.option {
     display: block !important;
-    margin-left: 25px;
+    margin-left: 18px;
     font-weight: normal;
     text-align: left;
   }
@@ -1840,6 +1840,10 @@ table#field-notes-values {
         display: inline-block;
         width: auto;
       }
+    }
+
+    .field-name-field-staff-user {
+      @include flexifields(35px);
     }
 
     .pane-user-group-personla-info {

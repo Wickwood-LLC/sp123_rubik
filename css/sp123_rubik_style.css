@@ -26,7 +26,7 @@ body {
 
 .form-item label.option {
   display: block !important;
-  margin-left: 25px;
+  margin-left: 18px;
   font-weight: normal;
   text-align: left; }
 
@@ -1483,6 +1483,22 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-gender .form-item.form-type-radio {
   display: inline-block;
   width: auto; }
+
+.page-user-edit #main-content .field-name-field-staff-user .form-item,
+.page-admin-people-create #main-content .field-name-field-staff-user .form-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-flow: row wrap; }
+
+.page-user-edit #main-content .field-name-field-staff-user label,
+.page-admin-people-create #main-content .field-name-field-staff-user label {
+  flex: 0 0 35px; }
+
+.page-user-edit #main-content .field-name-field-staff-user input,
+.page-admin-people-create #main-content .field-name-field-staff-user input {
+  flex: 1 1 calc(100% - 35px);
+  min-width: 100px; }
 
 .page-user-edit #main-content .pane-user-group-personla-info .form-item,
 .page-admin-people-create #main-content .pane-user-group-personla-info .form-item {
