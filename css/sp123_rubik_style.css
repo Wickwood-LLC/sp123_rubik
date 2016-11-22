@@ -1471,6 +1471,10 @@ table#field-notes-values {
   width: auto;
   margin-right: 10px; }
 
+.page-user-edit #main-content .field-name-field-gender label.option,
+.page-admin-people-create #main-content .field-name-field-gender label.option {
+  margin-left: 20px; }
+
 .page-user-edit #main-content .field-name-field-gender .form-radios,
 .page-admin-people-create #main-content .field-name-field-gender .form-radios {
   display: inline-block; }
@@ -1485,14 +1489,16 @@ table#field-notes-values {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
-  margin-bottom: 10px; }
+  align-items: center; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item label,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item label {
     flex: 0 0 85px; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item input,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item input {
     flex: 1 1 calc(100% - 95px); }
+  .page-user-edit #main-content .pane-user-group-personla-info .form-item.form-type-textfield,
+  .page-admin-people-create #main-content .pane-user-group-personla-info .form-item.form-type-textfield {
+    margin-bottom: 10px; }
 
 .page-user-edit #main-content .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit #main-content .pane-user-group-personla-info .date-padding,

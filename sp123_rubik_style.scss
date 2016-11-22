@@ -1830,6 +1830,9 @@ table#field-notes-values {
         width: auto;
         margin-right: 10px;
       }
+      label.option {
+        margin-left: 20px;
+      }
       .form-radios {
         display: inline-block;
       }
@@ -1845,13 +1848,16 @@ table#field-notes-values {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
-        margin-bottom: 10px;
 
         label {
           flex: 0 0 85px;
         }
         input {
           flex: 1 1 calc(100% - 95px);
+        }
+
+        &.form-type-textfield {
+          margin-bottom: 10px;
         }
       }
 
