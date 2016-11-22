@@ -1484,6 +1484,14 @@ table#field-notes-values {
   display: inline-block;
   width: auto; }
 
+.page-user-edit #main-content .field-name-field-user-notes .field-name-field-date label,
+.page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date label {
+  display: none; }
+
+.page-user-edit #main-content .field-name-field-user-notes fieldset,
+.page-admin-people-create #main-content .field-name-field-user-notes fieldset {
+  border: 1px solid #CCCCCC; }
+
 .page-user-edit #main-content .field-name-field-staff-user .form-item,
 .page-admin-people-create #main-content .field-name-field-staff-user .form-item {
   display: flex;
