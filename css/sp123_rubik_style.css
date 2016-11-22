@@ -1484,8 +1484,8 @@ table#field-notes-values {
   display: inline-block;
   width: auto; }
 
-.page-user-edit #main-content .field-name-field-user-notes .field-name-field-date label,
-.page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date label {
+.page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
+.page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
   display: none; }
 
 .page-user-edit #main-content .field-name-field-user-notes fieldset,
