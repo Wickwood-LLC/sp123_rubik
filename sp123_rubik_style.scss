@@ -1826,13 +1826,32 @@ table#field-notes-values {
     }
 
     .field-name-field-gender {
-      label { width: 100%; }
+      label.form-type-radios { 
+        width: auto;
+        margin-right: 10px;
+      }
       .form-radios {
         display: inline-block;
       }
       .form-item.form-type-radio {
         display: inline-block;
         width: auto;
+      }
+    }
+
+    .pane-user-group-personla-info {
+      .form-item {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        label {
+          flex: 0 0 85px;
+        }
+        input {
+          flex: 1 1 calc(100% - 95px);
+        }
       }
     }
 

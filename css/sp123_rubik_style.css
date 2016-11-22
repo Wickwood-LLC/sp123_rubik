@@ -1466,9 +1466,10 @@ table#field-notes-values {
   flex: 1 1 calc(100% - 95px);
   min-width: 100px; }
 
-.page-user-edit #main-content .field-name-field-gender label,
-.page-admin-people-create #main-content .field-name-field-gender label {
-  width: 100%; }
+.page-user-edit #main-content .field-name-field-gender label.form-type-radios,
+.page-admin-people-create #main-content .field-name-field-gender label.form-type-radios {
+  width: auto;
+  margin-right: 10px; }
 
 .page-user-edit #main-content .field-name-field-gender .form-radios,
 .page-admin-people-create #main-content .field-name-field-gender .form-radios {
@@ -1478,6 +1479,19 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-gender .form-item.form-type-radio {
   display: inline-block;
   width: auto; }
+
+.page-user-edit #main-content .pane-user-group-personla-info .form-item,
+.page-admin-people-create #main-content .pane-user-group-personla-info .form-item {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+  .page-user-edit #main-content .pane-user-group-personla-info .form-item label,
+  .page-admin-people-create #main-content .pane-user-group-personla-info .form-item label {
+    flex: 0 0 85px; }
+  .page-user-edit #main-content .pane-user-group-personla-info .form-item input,
+  .page-admin-people-create #main-content .pane-user-group-personla-info .form-item input {
+    flex: 1 1 calc(100% - 95px); }
 
 .page-user-edit #main-content .pane-user-field-identification,
 .page-admin-people-create #main-content .pane-user-field-identification {
