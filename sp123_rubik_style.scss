@@ -1845,6 +1845,7 @@ table#field-notes-values {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+        margin-bottom: 10px;
 
         label {
           flex: 0 0 85px;
@@ -1852,6 +1853,11 @@ table#field-notes-values {
         input {
           flex: 1 1 calc(100% - 95px);
         }
+      }
+
+      .date-form-element-content,
+      .date-padding {
+        width: 100%;
       }
     }
 
