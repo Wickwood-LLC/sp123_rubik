@@ -1484,6 +1484,12 @@ table#field-notes-values {
   display: inline-block;
   width: auto; }
 
+.page-user-edit #main-content .field-name-field-websites .link-field-title,
+.page-user-edit #main-content .field-name-field-websites .link-field-url,
+.page-admin-people-create #main-content .field-name-field-websites .link-field-title,
+.page-admin-people-create #main-content .field-name-field-websites .link-field-url {
+  width: 100%; }
+
 .page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
 .page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
   display: none; }
