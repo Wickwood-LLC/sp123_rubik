@@ -1953,6 +1953,8 @@ table#field-notes-values {
       }
 
       .form-item {
+        display: flex;
+        
         @include flexifields(85px);
       }
     }
