@@ -1935,6 +1935,15 @@ table#field-notes-values {
       display: none;
     }
 
+    .field-name-field-address {
+      fieldset {
+        border: 0;
+      }
+      legend {
+        display: none;
+      }
+    }
+
     .pane-user-form-account {
       @include breakpoint(450px 624px) {
         padding-top: 2em;
