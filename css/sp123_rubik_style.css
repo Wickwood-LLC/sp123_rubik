@@ -1787,10 +1787,6 @@ table#field-notes-values {
     content: '';
     display: none; }
 
-.page-user-edit #main-content .field-name-field-phone-number,
-.page-admin-people-create #main-content .field-name-field-phone-number {
-  display: block; }
-
 .page-user-edit #main-content .field-name-field-address-type:after,
 .page-admin-people-create #main-content .field-name-field-address-type:after {
   content: '';
