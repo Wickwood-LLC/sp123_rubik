@@ -1800,6 +1800,31 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-address legend {
   display: none; }
 
+.page-user-edit #main-content .field-name-field-address .form-item .form-item,
+.page-admin-people-create #main-content .field-name-field-address .form-item .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+
+.page-user-edit #main-content .field-name-field-address .form-item label,
+.page-admin-people-create #main-content .field-name-field-address .form-item label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 85px;
+          flex: 0 0 85px; }
+
+.page-user-edit #main-content .field-name-field-address .form-item input,
+.page-admin-people-create #main-content .field-name-field-address .form-item input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 85px);
+          flex: 1 1 calc(100% - 85px);
+  min-width: 100px; }
+
 @media (min-width: 450px) and (max-width: 624px) {
   .page-user-edit #main-content .pane-user-form-account,
   .page-admin-people-create #main-content .pane-user-form-account {

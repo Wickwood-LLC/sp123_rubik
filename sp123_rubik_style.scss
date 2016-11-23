@@ -1942,6 +1942,10 @@ table#field-notes-values {
       legend {
         display: none;
       }
+
+      .form-item {
+        @include flexifields(85px);
+      }
     }
 
     .pane-user-form-account {
