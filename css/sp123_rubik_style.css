@@ -1689,11 +1689,21 @@ table#field-notes-values {
 
 .page-user-edit #main-content .pane-user-form-timezone fieldset,
 .page-admin-people-create #main-content .pane-user-form-timezone fieldset {
-  border: 0; }
+  border: 0;
+  margin: 0; }
+  .page-user-edit #main-content .pane-user-form-timezone fieldset .fieldset-content,
+  .page-admin-people-create #main-content .pane-user-form-timezone fieldset .fieldset-content {
+    padding: 0; }
 
 .page-user-edit #main-content .pane-user-form-timezone legend,
-.page-admin-people-create #main-content .pane-user-form-timezone legend {
+.page-user-edit #main-content .pane-user-form-timezone label,
+.page-admin-people-create #main-content .pane-user-form-timezone legend,
+.page-admin-people-create #main-content .pane-user-form-timezone label {
   display: none; }
+
+.page-user-edit #main-content .pane-user-form-timezone .form-item-timezone,
+.page-admin-people-create #main-content .pane-user-form-timezone .form-item-timezone {
+  margin: 0; }
 
 .page-user-edit #main-content .field-name-field-staff-user .form-item,
 .page-admin-people-create #main-content .field-name-field-staff-user .form-item {

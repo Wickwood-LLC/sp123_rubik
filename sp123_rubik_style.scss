@@ -1864,9 +1864,19 @@ table#field-notes-values {
     .pane-user-form-timezone {
       fieldset {
         border: 0;
+        margin: 0;
+
+        .fieldset-content {
+          padding: 0;
+        }
       }
-      legend {
+      legend,
+      label {
         display: none;
+      }
+
+      .form-item-timezone {
+        margin: 0;
       }
     }
 
