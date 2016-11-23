@@ -1818,7 +1818,7 @@ table#field-notes-values {
 
     .field-name-field-name-prefix,
     .field-name-field-first-name,
-    .field-name-field-middle-name,
+    .field-name-field-middle-name-or-initial-,
     .field-name-field-last-name,
     .field-name-field-name-suffix,
     .field-name-field-nickname {
@@ -1921,6 +1921,12 @@ table#field-notes-values {
     }
     .field-name-field-phone-type {
       width: auto;
+
+      .field-name-field-phone-type,
+      .field-name-field-phone-number {
+        @include flexifields(100px);
+      }
+
       &:after {
         content: '';
         display: none;
