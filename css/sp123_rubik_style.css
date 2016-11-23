@@ -1650,6 +1650,34 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-websites .link-field-title,
 .page-admin-people-create #main-content .field-name-field-websites .link-field-url {
   width: 100%; }
+  .page-user-edit #main-content .field-name-field-websites .link-field-title .form-item,
+  .page-user-edit #main-content .field-name-field-websites .link-field-url .form-item,
+  .page-admin-people-create #main-content .field-name-field-websites .link-field-title .form-item,
+  .page-admin-people-create #main-content .field-name-field-websites .link-field-url .form-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+  .page-user-edit #main-content .field-name-field-websites .link-field-title label,
+  .page-user-edit #main-content .field-name-field-websites .link-field-url label,
+  .page-admin-people-create #main-content .field-name-field-websites .link-field-title label,
+  .page-admin-people-create #main-content .field-name-field-websites .link-field-url label {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 35px;
+            flex: 0 0 35px; }
+  .page-user-edit #main-content .field-name-field-websites .link-field-title input,
+  .page-user-edit #main-content .field-name-field-websites .link-field-url input,
+  .page-admin-people-create #main-content .field-name-field-websites .link-field-title input,
+  .page-admin-people-create #main-content .field-name-field-websites .link-field-url input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 35px);
+            flex: 1 1 calc(100% - 35px);
+    min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
 .page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
