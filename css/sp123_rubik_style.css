@@ -1751,41 +1751,41 @@ table#field-notes-values {
   text-align: center;
   width: 100%; }
 
-.page-user-edit #main-content .field-name-field-phone-type,
-.page-admin-people-create #main-content .field-name-field-phone-type {
-  width: auto; }
-  .page-user-edit #main-content .field-name-field-phone-type .field-name-field-phone-type .form-item,
-  .page-user-edit #main-content .field-name-field-phone-type .field-name-field-phone-number .form-item,
-  .page-admin-people-create #main-content .field-name-field-phone-type .field-name-field-phone-type .form-item,
-  .page-admin-people-create #main-content .field-name-field-phone-type .field-name-field-phone-number .form-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
-  .page-user-edit #main-content .field-name-field-phone-type .field-name-field-phone-type label,
-  .page-user-edit #main-content .field-name-field-phone-type .field-name-field-phone-number label,
-  .page-admin-people-create #main-content .field-name-field-phone-type .field-name-field-phone-type label,
-  .page-admin-people-create #main-content .field-name-field-phone-type .field-name-field-phone-number label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100px;
-            flex: 0 0 100px; }
-  .page-user-edit #main-content .field-name-field-phone-type .field-name-field-phone-type input,
-  .page-user-edit #main-content .field-name-field-phone-type .field-name-field-phone-number input,
-  .page-admin-people-create #main-content .field-name-field-phone-type .field-name-field-phone-type input,
-  .page-admin-people-create #main-content .field-name-field-phone-type .field-name-field-phone-number input {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 100px);
-            flex: 1 1 calc(100% - 100px);
-    min-width: 100px; }
-  .page-user-edit #main-content .field-name-field-phone-type:after,
-  .page-admin-people-create #main-content .field-name-field-phone-type:after {
-    content: '';
-    display: none; }
+.page-user-edit #main-content .field-name-field-phone-type:after,
+.page-admin-people-create #main-content .field-name-field-phone-type:after {
+  content: '';
+  display: none; }
+
+.page-user-edit #main-content .field-name-field-phone-type .form-item,
+.page-user-edit #main-content .field-name-field-phone-number .form-item,
+.page-admin-people-create #main-content .field-name-field-phone-type .form-item,
+.page-admin-people-create #main-content .field-name-field-phone-number .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+
+.page-user-edit #main-content .field-name-field-phone-type label,
+.page-user-edit #main-content .field-name-field-phone-number label,
+.page-admin-people-create #main-content .field-name-field-phone-type label,
+.page-admin-people-create #main-content .field-name-field-phone-number label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px; }
+
+.page-user-edit #main-content .field-name-field-phone-type input,
+.page-user-edit #main-content .field-name-field-phone-number input,
+.page-admin-people-create #main-content .field-name-field-phone-type input,
+.page-admin-people-create #main-content .field-name-field-phone-number input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
+  min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-address-type:after,
 .page-admin-people-create #main-content .field-name-field-address-type:after {

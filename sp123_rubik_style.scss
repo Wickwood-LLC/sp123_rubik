@@ -1920,19 +1920,16 @@ table#field-notes-values {
       width: 100%;
     }
     .field-name-field-phone-type {
-      width: auto;
-
-      .field-name-field-phone-type,
-      .field-name-field-phone-number {
-        @include flexifields(100px);
-      }
-
       &:after {
         content: '';
         display: none;
       }
     }
-    
+    .field-name-field-phone-type,
+    .field-name-field-phone-number {
+      @include flexifields(100px);
+    }
+
     .field-name-field-address-type:after {
       content: '';
       display: none;
