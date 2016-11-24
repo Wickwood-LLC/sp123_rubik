@@ -2249,13 +2249,17 @@ table#field-notes-values {
   }
 
   table.field-multiple-table {
-    display: table;
+    display: flex;
     border-collapse: initial;
+    width: 100%;
     thead {
       display: none;
     }
     th {
       padding: 5px;
+    }
+    tbody {
+      width: 100%;
     }
     tr {
       border: 1px solid #ccc;

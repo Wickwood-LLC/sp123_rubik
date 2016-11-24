@@ -2203,14 +2203,20 @@ table#field-notes-values {
 
 .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table,
 .page-admin-people-create table.field-multiple-table {
-  display: table;
-  border-collapse: initial; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-collapse: initial;
+  width: 100%; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table thead,
   .page-admin-people-create table.field-multiple-table thead {
     display: none; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table th,
   .page-admin-people-create table.field-multiple-table th {
     padding: 5px; }
+  .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tbody,
+  .page-admin-people-create table.field-multiple-table tbody {
+    width: 100%; }
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr,
   .page-admin-people-create table.field-multiple-table tr {
     border: 1px solid #ccc; }
