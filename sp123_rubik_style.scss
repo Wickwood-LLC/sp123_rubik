@@ -52,6 +52,8 @@ body {
   .field-add-more-submit {
     background-color: #6fae1b;
     color: white;
+    margin: 10px auto 0;
+    display: table;
   }
 
   input[value="Remove"] {
@@ -1895,11 +1897,18 @@ table#field-notes-values {
           flex: 0 0 85px;
         }
         input {
-          flex: 1 1 calc(100% - 95px);
+          text-align: left;
         }
 
         &.form-type-textfield {
           margin-bottom: 10px;
+        }
+
+        .field-name-field-gender {
+          .form-type-radios > label {
+            width: 90px;
+            flex: 0 0 90px;
+          }
         }
       }
 

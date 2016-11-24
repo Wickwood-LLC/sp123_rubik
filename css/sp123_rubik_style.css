@@ -32,7 +32,9 @@ body {
 
 .page-user-edit .field-add-more-submit {
   background-color: #6fae1b;
-  color: white; }
+  color: white;
+  margin: 10px auto 0;
+  display: table; }
 
 .page-user-edit input[value="Remove"] {
   position: absolute;
@@ -1748,12 +1750,16 @@ table#field-notes-values {
             flex: 0 0 85px; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item input,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 95px);
-            flex: 1 1 calc(100% - 95px); }
+    text-align: left; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item.form-type-textfield,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item.form-type-textfield {
     margin-bottom: 10px; }
+  .page-user-edit #main-content .pane-user-group-personla-info .form-item .field-name-field-gender .form-type-radios > label,
+  .page-admin-people-create #main-content .pane-user-group-personla-info .form-item .field-name-field-gender .form-type-radios > label {
+    width: 90px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 90px;
+            flex: 0 0 90px; }
 
 .page-user-edit #main-content .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit #main-content .pane-user-group-personla-info .date-padding,
