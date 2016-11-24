@@ -80,10 +80,6 @@ body {
   margin-right: 8px;
 }
 
-footer.footer {
-  padding: 0 1%;
-}
-
 #page-title .limiter {
   width: auto;
 }
@@ -1903,18 +1899,18 @@ table#field-notes-values {
         &.form-type-textfield {
           margin-bottom: 10px;
         }
-
-        .field-name-field-gender {
-          .form-type-radios > label {
-            width: 90px;
-            flex: 0 0 90px;
-          }
-        }
       }
 
       .date-form-element-content,
       .date-padding {
         width: 100%;
+      }
+
+      .field-name-field-gender {
+        .form-type-radios > label {
+          width: 90px;
+          flex: 0 0 90px;
+        }
       }
     }
 

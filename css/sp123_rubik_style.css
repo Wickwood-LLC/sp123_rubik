@@ -56,9 +56,6 @@ body {
   display: inline-block;
   margin-right: 8px; }
 
-footer.footer {
-  padding: 0 1%; }
-
 #page-title .limiter {
   width: auto; }
 
@@ -1754,18 +1751,19 @@ table#field-notes-values {
   .page-user-edit #main-content .pane-user-group-personla-info .form-item.form-type-textfield,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item.form-type-textfield {
     margin-bottom: 10px; }
-  .page-user-edit #main-content .pane-user-group-personla-info .form-item .field-name-field-gender .form-type-radios > label,
-  .page-admin-people-create #main-content .pane-user-group-personla-info .form-item .field-name-field-gender .form-type-radios > label {
-    width: 90px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 90px;
-            flex: 0 0 90px; }
 
 .page-user-edit #main-content .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit #main-content .pane-user-group-personla-info .date-padding,
 .page-admin-people-create #main-content .pane-user-group-personla-info .date-form-element-content,
 .page-admin-people-create #main-content .pane-user-group-personla-info .date-padding {
   width: 100%; }
+
+.page-user-edit #main-content .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label,
+.page-admin-people-create #main-content .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
+  width: 90px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px; }
 
 .page-user-edit #main-content .pane-user-field-identification,
 .page-admin-people-create #main-content .pane-user-field-identification {
