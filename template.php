@@ -48,8 +48,6 @@ function sp123_rubik_field_multiple_value_form($variables) {
       );
     }
 
-    dpm($element);
-
     if ($element['#field_name'] == 'field_mailing_address') {
     	$output = '<div class="form-item">';
 	    $output .= $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
