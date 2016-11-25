@@ -1678,9 +1678,18 @@ table#field-notes-values {
             flex: 1 1 calc(100% - 35px);
     min-width: 100px; }
 
-.page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
-.page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
-  display: none; }
+.page-user-edit #main-content .field-name-field-user-notes .field-name-field-date,
+.page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date {
+  display: inline-block;
+  margin-right: 1em; }
+  .page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
+  .page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
+    display: none; }
+
+.page-user-edit #main-content .field-name-field-user-notes .field-name-field-staff-user,
+.page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-staff-user {
+  display: inline-block;
+  vertical-align: top; }
 
 .page-user-edit #main-content .field-name-field-user-notes fieldset,
 .page-admin-people-create #main-content .field-name-field-user-notes fieldset {

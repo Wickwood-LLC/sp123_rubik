@@ -1850,8 +1850,17 @@ table#field-notes-values {
     }
 
     .field-name-field-user-notes {
-      .field-name-field-date .form-type-date-combo>label {
-        display: none;
+      .field-name-field-date {
+        display: inline-block;
+        margin-right: 1em;
+
+        .form-type-date-combo>label {
+          display: none;
+        }
+      }
+      .field-name-field-staff-user {
+        display: inline-block;
+        vertical-align: top;
       }
 
       fieldset {
