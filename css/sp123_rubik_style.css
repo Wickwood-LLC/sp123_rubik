@@ -1571,6 +1571,10 @@ table#field-notes-values {
 .page-admin-people-create #main-content .form-item-mail input {
   width: 100%; }
 
+.page-user-edit #main-content div[id*='add-more-wrapper'] > .form-item,
+.page-admin-people-create #main-content div[id*='add-more-wrapper'] > .form-item {
+  margin-bottom: 0; }
+
 .page-user-edit #main-content .field-name-field-name-prefix .form-item,
 .page-user-edit #main-content .field-name-field-first-name .form-item,
 .page-user-edit #main-content .field-name-field-middle-name-or-initial- .form-item,

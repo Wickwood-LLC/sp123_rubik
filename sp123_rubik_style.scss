@@ -1814,6 +1814,12 @@ table#field-notes-values {
       input { width: 100%;  }
     }
 
+    div[id*='add-more-wrapper'] {
+      > .form-item {
+        margin-bottom: 0;
+      }
+    }
+
     .field-name-field-name-prefix,
     .field-name-field-first-name,
     .field-name-field-middle-name-or-initial-,
