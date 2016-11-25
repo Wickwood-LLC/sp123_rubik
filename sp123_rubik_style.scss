@@ -2267,6 +2267,7 @@ table#field-notes-values {
     display: flex;
     border-collapse: initial;
     width: 100%;
+
     thead {
       display: none;
     }
@@ -2278,6 +2279,19 @@ table#field-notes-values {
     }
     tr {
       border: 1px solid #ccc;
+    }
+
+    tr.draggable {
+      display: flex;
+      flex-flow: row nowrap;
+
+      td.field-multiple-drag {
+        order: 1;
+      }
+
+      td:not([class]) {
+        
+      }
     }
   }
 }

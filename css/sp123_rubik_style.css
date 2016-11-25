@@ -2256,6 +2256,18 @@ table#field-notes-values {
   .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr,
   .page-admin-people-create table.field-multiple-table tr {
     border: 1px solid #ccc; }
+  .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr.draggable,
+  .page-admin-people-create table.field-multiple-table tr.draggable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap; }
+    .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr.draggable td.field-multiple-drag,
+    .page-admin-people-create table.field-multiple-table tr.draggable td.field-multiple-drag {
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1; }
 
 .page-user .field-collection-item-field-phone .field-name-field-note .field-label {
   width: auto; }
