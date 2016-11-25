@@ -1956,14 +1956,25 @@ table#field-notes-values {
       @include flexifields(103px);
     }
 
+    .field-name-field-phone {
+      margin-bottom: 0;
+    }
+
     .field-name-field-address-type:after {
       content: '';
       display: none;
     }
 
     .field-name-field-address {
+      margin-bottom: 0;
+
       fieldset {
         border: 0;
+        margin-bottom: 0;
+
+        .fieldset-content {
+          padding: 0;
+        }
       }
       legend {
         display: none;
