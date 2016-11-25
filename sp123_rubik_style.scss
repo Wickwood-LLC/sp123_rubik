@@ -1820,7 +1820,7 @@ table#field-notes-values {
     .field-name-field-last-name,
     .field-name-field-name-suffix,
     .field-name-field-nickname {
-      @include flexifields(95px);
+      @include flexifields(73px);
     }
 
     .field-name-field-gender {
@@ -1890,7 +1890,7 @@ table#field-notes-values {
         align-items: center;
 
         label {
-          flex: 0 0 85px;
+          flex: 0 0 62px;
         }
         input {
           text-align: left;
@@ -1908,8 +1908,7 @@ table#field-notes-values {
 
       .field-name-field-gender {
         .form-type-radios > label {
-          width: 90px;
-          flex: 0 0 90px;
+          flex: 0 0 68px;
         }
       }
     }
@@ -1953,17 +1952,21 @@ table#field-notes-values {
     }
     .field-name-field-phone-type,
     .field-name-field-phone-number {
-      @include flexifields(103px);
+      @include flexifields(80px);
     }
 
     .field-name-field-phone {
       margin-bottom: 0;
     }
 
-    .field-name-field-address-type:after {
-      content: '';
-      display: none;
-    }
+    .field-name-field-address-type{
+      @include flexifields(60px);
+      
+      :after {
+          content: '';
+          display: none;
+        }
+      }
 
     .field-name-field-address {
       margin-bottom: 0;
@@ -1982,8 +1985,9 @@ table#field-notes-values {
 
       .form-item {
         display: flex;
+        align-items: center;
 
-        @include flexifields(85px);
+        @include flexifields(60px);
       }
     }
 

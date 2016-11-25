@@ -1606,8 +1606,8 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-name-suffix label,
 .page-admin-people-create #main-content .field-name-field-nickname label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 95px;
-          flex: 0 0 95px; }
+      -ms-flex: 0 0 73px;
+          flex: 0 0 73px; }
 
 .page-user-edit #main-content .field-name-field-name-prefix input,
 .page-user-edit #main-content .field-name-field-first-name input,
@@ -1622,8 +1622,8 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-name-suffix input,
 .page-admin-people-create #main-content .field-name-field-nickname input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 95px);
-          flex: 1 1 calc(100% - 95px);
+      -ms-flex: 1 1 calc(100% - 73px);
+          flex: 1 1 calc(100% - 73px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-gender label.form-type-radios,
@@ -1743,8 +1743,8 @@ table#field-notes-values {
   .page-user-edit #main-content .pane-user-group-personla-info .form-item label,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item label {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 85px;
-            flex: 0 0 85px; }
+        -ms-flex: 0 0 62px;
+            flex: 0 0 62px; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item input,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item input {
     text-align: left; }
@@ -1760,10 +1760,9 @@ table#field-notes-values {
 
 .page-user-edit #main-content .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label,
 .page-admin-people-create #main-content .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
-  width: 90px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 90px;
-          flex: 0 0 90px; }
+      -ms-flex: 0 0 68px;
+          flex: 0 0 68px; }
 
 .page-user-edit #main-content .pane-user-field-identification,
 .page-admin-people-create #main-content .pane-user-field-identification {
@@ -1825,24 +1824,49 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-phone-type label,
 .page-admin-people-create #main-content .field-name-field-phone-number label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 103px;
-          flex: 0 0 103px; }
+      -ms-flex: 0 0 80px;
+          flex: 0 0 80px; }
 
 .page-user-edit #main-content .field-name-field-phone-type input,
 .page-user-edit #main-content .field-name-field-phone-number input,
 .page-admin-people-create #main-content .field-name-field-phone-type input,
 .page-admin-people-create #main-content .field-name-field-phone-number input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 103px);
-          flex: 1 1 calc(100% - 103px);
+      -ms-flex: 1 1 calc(100% - 80px);
+          flex: 1 1 calc(100% - 80px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-phone,
 .page-admin-people-create #main-content .field-name-field-phone {
   margin-bottom: 0; }
 
-.page-user-edit #main-content .field-name-field-address-type:after,
-.page-admin-people-create #main-content .field-name-field-address-type:after {
+.page-user-edit #main-content .field-name-field-address-type .form-item,
+.page-admin-people-create #main-content .field-name-field-address-type .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+
+.page-user-edit #main-content .field-name-field-address-type label,
+.page-admin-people-create #main-content .field-name-field-address-type label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px; }
+
+.page-user-edit #main-content .field-name-field-address-type input,
+.page-admin-people-create #main-content .field-name-field-address-type input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 60px);
+          flex: 1 1 calc(100% - 60px);
+  min-width: 100px; }
+
+.page-user-edit #main-content .field-name-field-address-type :after,
+.page-admin-people-create #main-content .field-name-field-address-type :after {
   content: '';
   display: none; }
 
@@ -1863,7 +1887,10 @@ table#field-notes-values {
   .page-admin-people-create #main-content .field-name-field-address .form-item {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .page-user-edit #main-content .field-name-field-address .form-item .form-item,
     .page-admin-people-create #main-content .field-name-field-address .form-item .form-item {
       display: -webkit-box;
@@ -1878,13 +1905,13 @@ table#field-notes-values {
     .page-user-edit #main-content .field-name-field-address .form-item label,
     .page-admin-people-create #main-content .field-name-field-address .form-item label {
       -webkit-box-flex: 0;
-          -ms-flex: 0 0 85px;
-              flex: 0 0 85px; }
+          -ms-flex: 0 0 60px;
+              flex: 0 0 60px; }
     .page-user-edit #main-content .field-name-field-address .form-item input,
     .page-admin-people-create #main-content .field-name-field-address .form-item input {
       -webkit-box-flex: 1;
-          -ms-flex: 1 1 calc(100% - 85px);
-              flex: 1 1 calc(100% - 85px);
+          -ms-flex: 1 1 calc(100% - 60px);
+              flex: 1 1 calc(100% - 60px);
       min-width: 100px; }
 
 @media (min-width: 450px) and (max-width: 624px) {
