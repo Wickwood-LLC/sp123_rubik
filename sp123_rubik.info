@@ -4,6 +4,7 @@ base theme = full_rubik
 core = 7.x
 
 stylesheets[all][] = css/sp123_rubik_style.css
+stylesheets[screen][] = css/sp123_rubik_style.css
 scripts[] = sp123_rubik.js
 
 regions[header] = Header
