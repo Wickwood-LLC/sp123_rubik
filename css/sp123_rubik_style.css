@@ -2268,6 +2268,9 @@ table#field-notes-values {
       -webkit-box-ordinal-group: 2;
           -ms-flex-order: 1;
               order: 1; }
+    .page-user-edit:not(.page-user-edit-bwma-client) table.field-multiple-table tr.draggable td:not([class]),
+    .page-admin-people-create table.field-multiple-table tr.draggable td:not([class]) {
+      width: calc(100% - 30px); }
 
 .page-user .field-collection-item-field-phone .field-name-field-note .field-label {
   width: auto; }
