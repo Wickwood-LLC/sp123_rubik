@@ -1606,8 +1606,8 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-name-suffix label,
 .page-admin-people-create #main-content .field-name-field-nickname label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 73px;
-          flex: 0 0 73px; }
+      -ms-flex: 0 0 95px;
+          flex: 0 0 95px; }
 
 .page-user-edit #main-content .field-name-field-name-prefix input,
 .page-user-edit #main-content .field-name-field-first-name input,
@@ -1622,8 +1622,8 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-name-suffix input,
 .page-admin-people-create #main-content .field-name-field-nickname input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 73px);
-          flex: 1 1 calc(100% - 73px);
+      -ms-flex: 1 1 calc(100% - 95px);
+          flex: 1 1 calc(100% - 95px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-gender label.form-type-radios,
@@ -1752,8 +1752,8 @@ table#field-notes-values {
   .page-user-edit #main-content .pane-user-group-personla-info .form-item label,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item label {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 62px;
-            flex: 0 0 62px; }
+        -ms-flex: 0 0 80px;
+            flex: 0 0 80px; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item input,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item input {
     text-align: left; }
@@ -1833,16 +1833,16 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-phone-type label,
 .page-admin-people-create #main-content .field-name-field-phone-number label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 80px;
-          flex: 0 0 80px; }
+      -ms-flex: 0 0 105px;
+          flex: 0 0 105px; }
 
 .page-user-edit #main-content .field-name-field-phone-type input,
 .page-user-edit #main-content .field-name-field-phone-number input,
 .page-admin-people-create #main-content .field-name-field-phone-type input,
 .page-admin-people-create #main-content .field-name-field-phone-number input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 80px);
-          flex: 1 1 calc(100% - 80px);
+      -ms-flex: 1 1 calc(100% - 105px);
+          flex: 1 1 calc(100% - 105px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-phone,
@@ -1864,14 +1864,14 @@ table#field-notes-values {
 .page-user-edit #main-content .field-name-field-address-type label,
 .page-admin-people-create #main-content .field-name-field-address-type label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 80px;
-          flex: 0 0 80px; }
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px; }
 
 .page-user-edit #main-content .field-name-field-address-type input,
 .page-admin-people-create #main-content .field-name-field-address-type input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 80px);
-          flex: 1 1 calc(100% - 80px);
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-address-type :after,
@@ -1914,13 +1914,13 @@ table#field-notes-values {
     .page-user-edit #main-content .field-name-field-address .form-item label,
     .page-admin-people-create #main-content .field-name-field-address .form-item label {
       -webkit-box-flex: 0;
-          -ms-flex: 0 0 60px;
-              flex: 0 0 60px; }
+          -ms-flex: 0 0 75px;
+              flex: 0 0 75px; }
     .page-user-edit #main-content .field-name-field-address .form-item input,
     .page-admin-people-create #main-content .field-name-field-address .form-item input {
       -webkit-box-flex: 1;
-          -ms-flex: 1 1 calc(100% - 60px);
-              flex: 1 1 calc(100% - 60px);
+          -ms-flex: 1 1 calc(100% - 75px);
+              flex: 1 1 calc(100% - 75px);
       min-width: 100px; }
 
 @media (min-width: 450px) and (max-width: 624px) {

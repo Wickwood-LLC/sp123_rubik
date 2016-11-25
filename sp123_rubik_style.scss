@@ -1820,7 +1820,7 @@ table#field-notes-values {
     .field-name-field-last-name,
     .field-name-field-name-suffix,
     .field-name-field-nickname {
-      @include flexifields(73px);
+      @include flexifields(95px);
     }
 
     .field-name-field-gender {
@@ -1899,7 +1899,7 @@ table#field-notes-values {
         align-items: center;
 
         label {
-          flex: 0 0 62px;
+          flex: 0 0 80px;
         }
         input {
           text-align: left;
@@ -1961,7 +1961,7 @@ table#field-notes-values {
     }
     .field-name-field-phone-type,
     .field-name-field-phone-number {
-      @include flexifields(80px);
+      @include flexifields(105px);
     }
 
     .field-name-field-phone {
@@ -1969,7 +1969,7 @@ table#field-notes-values {
     }
 
     .field-name-field-address-type{
-      @include flexifields(80px);
+      @include flexifields(100px);
 
       :after {
           content: '';
@@ -1996,7 +1996,7 @@ table#field-notes-values {
         display: flex;
         align-items: center;
 
-        @include flexifields(60px);
+        @include flexifields(75px);
       }
     }
 
