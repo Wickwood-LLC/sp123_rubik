@@ -1960,8 +1960,8 @@ table#field-notes-values {
     }
 
     .field-name-field-address-type{
-      @include flexifields(60px);
-      
+      @include flexifields(80px);
+
       :after {
           content: '';
           display: none;

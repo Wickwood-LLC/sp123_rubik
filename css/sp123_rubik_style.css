@@ -1855,14 +1855,14 @@ table#field-notes-values {
 .page-user-edit #main-content .field-name-field-address-type label,
 .page-admin-people-create #main-content .field-name-field-address-type label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 60px;
-          flex: 0 0 60px; }
+      -ms-flex: 0 0 80px;
+          flex: 0 0 80px; }
 
 .page-user-edit #main-content .field-name-field-address-type input,
 .page-admin-people-create #main-content .field-name-field-address-type input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 60px);
-          flex: 1 1 calc(100% - 60px);
+      -ms-flex: 1 1 calc(100% - 80px);
+          flex: 1 1 calc(100% - 80px);
   min-width: 100px; }
 
 .page-user-edit #main-content .field-name-field-address-type :after,
