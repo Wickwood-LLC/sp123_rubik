@@ -1143,7 +1143,7 @@ fieldset.fieldset, fieldset.collapsible {
   }
 }
 
-@mixin flexifields($label-width, $min-width: 100px) {
+@mixin flexifields($label-width, $min-width: 150px) {
   .form-item {
     display: flex;
     width: 100%;
@@ -1830,7 +1830,7 @@ table#field-notes-values {
     .field-name-field-last-name,
     .field-name-field-name-suffix,
     .field-name-field-nickname {
-      @include flexifields(95px);
+      @include flexifields(95px, 150px);
     }
 
     .field-name-field-gender {
