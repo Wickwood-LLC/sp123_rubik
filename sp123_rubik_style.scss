@@ -1155,7 +1155,7 @@ fieldset.fieldset, fieldset.collapsible {
   }
   input {
     flex: 1 1 calc(100% - #{$label-width});
-    min-width: 100px;
+    min-width: $min-width;
   }
 }
 
@@ -1980,7 +1980,7 @@ table#field-notes-values {
     }
     .field-name-field-phone-type,
     .field-name-field-phone-number {
-      @include flexifields(105px);
+      @include flexifields(105px, 150px);
     }
 
     .field-name-field-phone-type {
@@ -2019,7 +2019,7 @@ table#field-notes-values {
         display: flex;
         align-items: center;
 
-        @include flexifields(75px);
+        @include flexifields(75px, 150px);
       }
     }
 

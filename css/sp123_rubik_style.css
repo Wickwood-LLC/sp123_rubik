@@ -1858,7 +1858,7 @@ table#field-notes-values {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 105px);
           flex: 1 1 calc(100% - 105px);
-  min-width: 100px; }
+  min-width: 150px; }
 
 .page-user-edit #main-content .field-name-field-phone-type,
 .page-admin-people-create #main-content .field-name-field-phone-type {
@@ -1940,7 +1940,7 @@ table#field-notes-values {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 calc(100% - 75px);
               flex: 1 1 calc(100% - 75px);
-      min-width: 100px; }
+      min-width: 150px; }
 
 @media (min-width: 450px) and (max-width: 624px) {
   .page-user-edit #main-content .pane-user-form-account,
