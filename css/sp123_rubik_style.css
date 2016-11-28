@@ -1693,6 +1693,9 @@ table#field-notes-values {
   .page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
   .page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
     display: none; }
+  .page-user-edit #main-content .field-name-field-user-notes .field-name-field-date .description,
+  .page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-date .description {
+    display: none; }
 
 .page-user-edit #main-content .field-name-field-user-notes .field-name-field-staff-user,
 .page-admin-people-create #main-content .field-name-field-user-notes .field-name-field-staff-user {
@@ -1760,14 +1763,14 @@ table#field-notes-values {
   .page-user-edit #main-content .pane-user-group-personla-info .form-item label,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item label {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 80px;
-            flex: 0 0 80px; }
+        -ms-flex: 0 0 95px;
+            flex: 0 0 95px; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item input,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item input {
     text-align: left; }
   .page-user-edit #main-content .pane-user-group-personla-info .form-item.form-type-textfield,
   .page-admin-people-create #main-content .pane-user-group-personla-info .form-item.form-type-textfield {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
 
 .page-user-edit #main-content .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit #main-content .pane-user-group-personla-info .date-padding,
@@ -1812,6 +1815,10 @@ table#field-notes-values {
 .page-admin-people-create #main-content .field-name-field-birthdate .description {
   display: none; }
 
+.page-user-edit #main-content .field-name-field-anniversary .description,
+.page-admin-people-create #main-content .field-name-field-anniversary .description {
+  display: none; }
+
 .page-user-edit #main-content .pane-user-form-buttons .form-actions,
 .page-admin-people-create #main-content .pane-user-form-buttons .form-actions {
   text-align: center;
@@ -1853,39 +1860,43 @@ table#field-notes-values {
           flex: 1 1 calc(100% - 105px);
   min-width: 100px; }
 
+.page-user-edit #main-content .field-name-field-phone-type,
+.page-admin-people-create #main-content .field-name-field-phone-type {
+  margin-bottom: 5px; }
+
 .page-user-edit #main-content .field-name-field-phone,
 .page-admin-people-create #main-content .field-name-field-phone {
   margin-bottom: 0; }
 
-.page-user-edit #main-content .field-name-field-address-type .form-item,
-.page-admin-people-create #main-content .field-name-field-address-type .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-
-.page-user-edit #main-content .field-name-field-address-type label,
-.page-admin-people-create #main-content .field-name-field-address-type label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100px;
-          flex: 0 0 100px; }
-
-.page-user-edit #main-content .field-name-field-address-type input,
-.page-admin-people-create #main-content .field-name-field-address-type input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 100px);
-          flex: 1 1 calc(100% - 100px);
-  min-width: 100px; }
-
-.page-user-edit #main-content .field-name-field-address-type :after,
-.page-admin-people-create #main-content .field-name-field-address-type :after {
-  content: '';
-  display: none; }
+.page-user-edit #main-content .field-name-field-address-type,
+.page-admin-people-create #main-content .field-name-field-address-type {
+  margin-bottom: 5px; }
+  .page-user-edit #main-content .field-name-field-address-type .form-item,
+  .page-admin-people-create #main-content .field-name-field-address-type .form-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+  .page-user-edit #main-content .field-name-field-address-type label,
+  .page-admin-people-create #main-content .field-name-field-address-type label {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100px;
+            flex: 0 0 100px; }
+  .page-user-edit #main-content .field-name-field-address-type input,
+  .page-admin-people-create #main-content .field-name-field-address-type input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 100px);
+            flex: 1 1 calc(100% - 100px);
+    min-width: 100px; }
+  .page-user-edit #main-content .field-name-field-address-type :after,
+  .page-admin-people-create #main-content .field-name-field-address-type :after {
+    content: '';
+    display: none; }
 
 .page-user-edit #main-content .field-name-field-address,
 .page-admin-people-create #main-content .field-name-field-address {

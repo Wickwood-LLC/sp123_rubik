@@ -1867,6 +1867,10 @@ table#field-notes-values {
         .form-type-date-combo>label {
           display: none;
         }
+
+        .description {
+          display: none;
+        }
       }
       .field-name-field-staff-user {
         display: inline-block;
@@ -1909,14 +1913,14 @@ table#field-notes-values {
         align-items: center;
 
         label {
-          flex: 0 0 80px;
+          flex: 0 0 95px;
         }
         input {
           text-align: left;
         }
 
         &.form-type-textfield {
-          margin-bottom: 10px;
+          margin-bottom: 5px;
         }
       }
 
@@ -1959,6 +1963,11 @@ table#field-notes-values {
         display: none;
       }
     }
+    .field-name-field-anniversary {
+      .description {
+        display: none;
+      }
+    }
     .pane-user-form-buttons .form-actions {
       text-align: center;
       width: 100%;
@@ -1974,12 +1983,16 @@ table#field-notes-values {
       @include flexifields(105px);
     }
 
+    .field-name-field-phone-type {
+      margin-bottom: 5px;
+    }
     .field-name-field-phone {
       margin-bottom: 0;
     }
 
     .field-name-field-address-type{
       @include flexifields(100px);
+      margin-bottom: 5px;
 
       :after {
           content: '';
