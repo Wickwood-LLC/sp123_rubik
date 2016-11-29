@@ -3304,8 +3304,8 @@ td:not([class]) {
       padding-top: 1em; } }
 
 input.form-submit {
-  background-color: #77BBCD;
-  border-color: #73b5c5;
+  background-color: #0f753b;
+  border-color: #0f743a;
   color: white; }
 
 .views-exposed-form .reset-link-button {
@@ -3404,4 +3404,15 @@ input.form-submit {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li a {
     color: #00728e; }
+
+.views-field-edit-node a,
+a[id*="edit-fields"]:not([title="Change widget type."]),
+a[title="Export instance"] {
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  color: #fff;
+  background-color: #0f753b;
+  text-shadow: #38a 0 1px 0; }
 /*# sourceMappingURL=sp123_rubik_style.css.map */
