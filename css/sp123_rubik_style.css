@@ -18,17 +18,11 @@ body {
 .region-footer {
   width: 100%; }
 
-.form-item input.form-radio,
-.form-item input.form-checkbox {
-  display: block;
-  float: left;
-  margin-top: 4px; }
-
-.form-item label.option {
-  display: block !important;
-  margin-left: 18px;
-  font-weight: normal;
-  text-align: left; }
+td.checkbox {
+  vertical-align: middle; }
+  td.checkbox .form-item input.form-checkbox {
+    float: none;
+    display: initial; }
 
 .page-user-edit .field-add-more-submit {
   background-color: #6fae1b;
@@ -474,7 +468,8 @@ span.fieldset-title {
   font-size: 16px; }
 
 fieldset.fieldset.titled > .fieldset-content {
-  padding-top: 0; }
+  padding-top: 0;
+  border-radius: 10px; }
 
 fieldset.collapsed {
   padding-top: 1em; }
@@ -2198,6 +2193,21 @@ table#field-notes-values {
 .page-admin-people-create .field-name-field-birthdate .description {
   display: inline-block;
   width: auto; }
+
+.page-user-edit:not(.page-user-edit-bwma-client) .form-item input.form-radio,
+.page-user-edit:not(.page-user-edit-bwma-client) .form-item input.form-checkbox,
+.page-admin-people-create .form-item input.form-radio,
+.page-admin-people-create .form-item input.form-checkbox {
+  display: block;
+  float: left;
+  margin-top: 4px; }
+
+.page-user-edit:not(.page-user-edit-bwma-client) .form-item label.option,
+.page-admin-people-create .form-item label.option {
+  display: block !important;
+  margin-left: 18px;
+  font-weight: normal;
+  text-align: left; }
 
 .page-user-edit:not(.page-user-edit-bwma-client) .field-name-field-group .form-radios,
 .page-admin-people-create .field-name-field-group .form-radios {

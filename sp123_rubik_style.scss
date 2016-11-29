@@ -32,19 +32,12 @@ body {
   width: 100%;
 }
 
-.form-item {
-  input.form-radio,
-  input.form-checkbox {
-    display: block;
-    float: left;
-    margin-top: 4px;
-  }
+td.checkbox {
+  vertical-align: middle;
 
-  label.option {
-    display: block !important;
-    margin-left: 18px;
-    font-weight: normal;
-    text-align: left;
+  .form-item input.form-checkbox {
+    float: none;
+    display: initial;
   }
 }
 
@@ -622,6 +615,7 @@ span.fieldset-title {
 
 fieldset.fieldset.titled > .fieldset-content {
   padding-top: 0;
+  border-radius: 10px;
 }
 
 fieldset.collapsed {
@@ -2224,6 +2218,22 @@ table#field-notes-values {
     .description {
       display: inline-block;
       width: auto;
+    }
+  }
+
+  .form-item {
+    input.form-radio,
+    input.form-checkbox {
+      display: block;
+      float: left;
+      margin-top: 4px;
+    }
+
+    label.option {
+      display: block !important;
+      margin-left: 18px;
+      font-weight: normal;
+      text-align: left;
     }
   }
 
