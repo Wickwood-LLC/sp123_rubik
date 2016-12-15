@@ -3301,7 +3301,7 @@ td:not([class]) {
   .form-item .field-name-field-status {
     float: none; } }
 
-.form-item-notify {
+.form-item.form-item-notify {
   border: 1px solid red;
   background-color: #f3b9b9;
   padding: 5px; }
