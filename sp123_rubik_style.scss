@@ -2893,6 +2893,12 @@ td:not([class]) {
   }
 }
 
+.form-item-notify {
+  border: 1px solid red;
+  background-color: #f3b9b9;
+  padding: 5px;
+}
+
 .page-node-add-loan {
   .loan-debit-info {
     padding-top: 2.5em;
