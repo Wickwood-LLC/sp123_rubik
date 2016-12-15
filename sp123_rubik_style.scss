@@ -2917,6 +2917,10 @@ input.form-submit {
   color: white;
 }
 
+input.field-add-more-submit {
+  display: table;
+}
+
 .views-exposed-form .reset-link-button {
   background-image: url(/sites/all/themes/rubik/images/buttons.png) !important;
   box-shadow: #ddd 0 1px 1px;
