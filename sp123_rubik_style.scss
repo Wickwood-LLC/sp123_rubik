@@ -3086,3 +3086,10 @@ a[title="Export instance"] {
   background-color: #0f753b;
   text-shadow: none;
 }
+
+.training-edit-page {
+  #field-resource-link-values .button-remove {
+    right: -25px;
+    top: 36%;
+  }
+}
