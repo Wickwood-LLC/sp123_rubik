@@ -3088,6 +3088,15 @@ a[title="Export instance"] {
 }
 
 .training-edit-page {
+  .pane-node-form-title {
+    .pane-title {
+      display: inline-block;
+    }
+    .pane-content {
+      display: inline-block;
+      width: calc(100% - 35px);
+    }
+  }
   #field-resource-link-values .button-remove {
     right: -25px;
     top: 36%;

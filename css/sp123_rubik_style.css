@@ -3484,6 +3484,13 @@ a[title="Export instance"] {
   background-color: #0f753b;
   text-shadow: none; }
 
+.training-edit-page .pane-node-form-title .pane-title {
+  display: inline-block; }
+
+.training-edit-page .pane-node-form-title .pane-content {
+  display: inline-block;
+  width: calc(100% - 35px); }
+
 .training-edit-page #field-resource-link-values .button-remove {
   right: -25px;
   top: 36%; }
