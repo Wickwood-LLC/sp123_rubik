@@ -3494,4 +3494,7 @@ a[title="Export instance"] {
 .training-edit-page #field-resource-link-values .button-remove {
   right: -25px;
   top: 36%; }
+
+#modal-content fieldset legend {
+  margin-left: 0; }
 /*# sourceMappingURL=sp123_rubik_style.css.map */
